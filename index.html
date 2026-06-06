@@ -20,14 +20,14 @@
                     },
                     colors: {
                         dojo: {
-                            bg: '#0B0F19',
-                            card: '#131B2E',
-                            accent: '#F59E0B',
-                            warmOrange: '#F97316',
-                            neonBlue: '#38BDF8',
-                            neonGreen: '#34D399',
-                            neonRed: '#F87171',
-                            royalBlue: '#1D4ED8',
+                            bg: '#0B0F19', // Deepest Slate-950
+                            card: '#131B2E', // Slate 900
+                            accent: '#F59E0B', // Amber 500
+                            warmOrange: '#F97316', // Orange 500
+                            neonBlue: '#38BDF8', // Sky 400
+                            neonGreen: '#34D399', // Emerald 400
+                            neonRed: '#F87171', // Red 400
+                            royalBlue: '#1D4ED8', // Royal Blue
                         }
                     },
                     boxShadow: {
@@ -53,6 +53,7 @@
             background-attachment: fixed;
         }
         
+        /* Glassmorphism Classes */
         .glass-panel {
             background: rgba(19, 27, 46, 0.75);
             backdrop-filter: blur(16px);
@@ -66,40 +67,60 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .flip-card { perspective: 1000px; }
+        /* Card Flip Effect */
+        .flip-card {
+            perspective: 1000px;
+        }
         .flip-card-inner {
             transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
             transform-style: preserve-3d;
         }
-        .flip-card.flipped .flip-card-inner { transform: rotateY(180deg); }
+        .flip-card.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
         .flip-card-front, .flip-card-back {
             backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
         }
-        .flip-card-back { transform: rotateY(180deg); }
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
 
+        /* Animated keyframes */
         @keyframes pulse-glow {
             0%, 100% { opacity: 0.3; transform: scale(1); }
             50% { opacity: 0.6; transform: scale(1.03); }
         }
-        .glow-pulse { animation: pulse-glow 4s infinite ease-in-out; }
+        .glow-pulse {
+            animation: pulse-glow 4s infinite ease-in-out;
+        }
 
         @keyframes waves {
             0%, 100% { transform: scaleY(0.3); }
             50% { transform: scaleY(1); }
         }
-        .audio-wave-bar { animation: waves 1s ease-in-out infinite; }
+        .audio-wave-bar {
+            animation: waves 1s ease-in-out infinite;
+        }
         .audio-wave-bar:nth-child(2) { animation-delay: 0.15s; }
         .audio-wave-bar:nth-child(3) { animation-delay: 0.3s; }
         .audio-wave-bar:nth-child(4) { animation-delay: 0.45s; }
 
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: rgba(11, 15, 25, 0.5); }
+        /* Customized scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(11, 15, 25, 0.5);
+        }
         ::-webkit-scrollbar-thumb {
             background: rgba(29, 78, 216, 0.3);
             border-radius: 99px;
         }
-        ::-webkit-scrollbar-thumb:hover { background: rgba(249, 115, 22, 0.5); }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(249, 115, 22, 0.5);
+        }
     </style>
 </head>
 <body class="text-slate-100 font-sans min-h-screen flex flex-col justify-between selection:bg-blue-500/30 selection:text-blue-200">
@@ -107,6 +128,7 @@
     <header class="glass-panel border-b border-slate-850 sticky top-0 z-50 py-3.5 px-4 sm:px-6 shadow-xl">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             
+            <!-- App Logo / Title -->
             <div onclick="goHome()" class="flex items-center gap-3 cursor-pointer group select-none hover:opacity-95 active:scale-98 transition-all">
                 <div class="bg-gradient-to-br from-amber-500 via-orange-500 to-blue-600 p-2.5 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:scale-105 group-hover:rotate-3 transition-all duration-300">
                     <span class="text-3xl text-white block transform group-hover:scale-110 transition-transform">⛩️</span>
@@ -121,12 +143,15 @@
                 </div>
             </div>
 
+            <!-- Global Status Bar -->
             <div class="flex flex-wrap items-center gap-2 sm:gap-3 bg-slate-950/70 p-2 rounded-2xl border border-slate-800/80 justify-between md:justify-start">
                 
+                <!-- Database Title Banner -->
                 <button onclick="openStatsModal()" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/90 border border-slate-800 hover:border-orange-500/30 rounded-xl transition-all hover:bg-slate-850 active:scale-95 group">
                     <span class="text-sm font-black text-orange-400 group-hover:scale-105 transition-transform"><i class="fa-solid fa-chart-line mr-1"></i> 修行法海</span>
                 </button>
 
+                <!-- Auto Sync HUD Indicator Badge -->
                 <div onclick="openSyncSettingsModal()" id="header-sync-badge" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-850 hover:border-blue-500/50 rounded-xl cursor-pointer transition-all active:scale-95 text-slate-400 hover:text-blue-400 group" title="雲端同步法陣設定">
                     <i id="header-sync-icon" class="fa-solid fa-cloud animate-pulse text-base"></i>
                     <span id="header-sync-status" class="text-xs font-bold">手動修行</span>
@@ -134,6 +159,7 @@
 
                 <div class="h-6 w-[1px] bg-slate-800 hidden md:block"></div>
 
+                <!-- EXP Tracker -->
                 <div class="flex items-center gap-2 px-1 sm:px-2">
                     <div class="relative flex items-center justify-center">
                         <i class="fa-solid fa-crown text-orange-500 text-lg"></i>
@@ -146,6 +172,7 @@
                 
                 <div class="h-6 w-[1px] bg-slate-800"></div>
 
+                <!-- XP Bar -->
                 <div class="flex-1 md:w-32 lg:w-40 px-2 min-w-[100px]">
                     <div class="flex justify-between text-[10px] mb-1">
                         <span class="text-slate-450 font-bold">修為 (EXP)</span>
@@ -158,6 +185,7 @@
 
                 <div class="h-6 w-[1px] bg-slate-800"></div>
 
+                <!-- Combo/Streak -->
                 <div class="flex items-center gap-1.5 px-2 text-emerald-400 font-black text-sm sm:text-base" id="streak-container">
                     <i class="fa-solid fa-fire text-orange-500 animate-bounce"></i>
                     <span><span id="streak-count">0</span> 連擊</span>
@@ -168,7 +196,9 @@
 
     <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 flex-1 flex flex-col gap-5">
         
+        <!-- 1. DOJO CATEGORY SELECTOR -->
         <section id="dojo-selector-section" class="grid grid-cols-1 md:grid-cols-2 gap-5 transition-all duration-300">
+            
             <button id="dojo-btn-vocab" onclick="switchDojo('vocab')" class="relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-orange-500/40 shadow-neon-orange">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500/5 group-hover:bg-orange-500/10 rounded-full blur-2xl transition-all duration-300 pointer-events-none"></div>
                 <div class="flex items-center gap-5">
@@ -206,16 +236,20 @@
             </button>
         </section>
 
+        <!-- 2. DIFFICULTY SELECTOR -->
         <section id="difficulty-selector-section" class="glass-panel rounded-3xl p-3 shadow-md relative overflow-hidden transition-all duration-300">
             <div class="relative z-10 flex flex-col items-center gap-2.5">
                 <div class="flex items-center gap-2 text-xs sm:text-sm text-orange-400 font-bold uppercase tracking-widest">
                     <i class="fa-solid fa-layer-group"></i>
                     <span>選擇單字難度級別 (DIFFICULTY)</span>
                 </div>
-                <div class="flex flex-wrap justify-center gap-2 w-full max-w-4xl" id="difficulty-tabs-container"></div>
+                <div class="flex flex-wrap justify-center gap-2 w-full max-w-4xl" id="difficulty-tabs-container">
+                    <!-- Dynamic rendering in JS -->
+                </div>
             </div>
         </section>
 
+        <!-- 3. LEVEL SELECTOR -->
         <section id="level-selector-section" class="glass-panel rounded-3xl p-4 shadow-md relative overflow-hidden transition-all duration-300 bg-slate-900/60 border border-slate-800/80">
             <div id="level-bg-glow" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 bg-orange-500/5 blur-3xl pointer-events-none rounded-full glow-pulse"></div>
             <div class="relative z-10 flex flex-col items-center gap-3">
@@ -223,41 +257,59 @@
                     <i id="level-group-icon" class="fa-solid fa-crown text-orange-400"></i>
                     <span>選擇您的修煉境界 (LEVELS)</span>
                 </div>
-                <div class="grid grid-cols-4 sm:grid-cols-7 gap-2 w-full max-w-4xl" id="level-tabs-container"></div>
+                <div class="grid grid-cols-4 sm:grid-cols-7 gap-2 w-full max-w-4xl" id="level-tabs-container">
+                    <!-- Dynamic rendering in JS -->
+                </div>
             </div>
         </section>
 
+        <!-- 4. UNIT SELECTOR -->
         <section id="unit-selector-section" class="glass-panel rounded-3xl p-3 shadow-md relative overflow-hidden transition-all duration-300 bg-slate-900/60 border border-slate-800/80">
             <div class="relative z-10 flex flex-col items-center gap-2.5">
                 <div class="flex items-center gap-2 text-[11px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest">
                     <i class="fa-solid fa-bookmark text-emerald-450"></i>
                     <span>選擇修煉小章節 (UNITS)</span>
                 </div>
-                <div class="flex flex-wrap justify-center gap-1.5 w-full max-w-4xl" id="unit-tabs-container"></div>
+                <div class="flex flex-wrap justify-center gap-1.5 w-full max-w-4xl" id="unit-tabs-container">
+                    <!-- Dynamic rendering in JS -->
+                </div>
             </div>
         </section>
 
-        <section class="glass-panel rounded-3xl p-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 shadow-md">
+        <!-- 5. SUB-TABS SELECTOR -->
+        <section class="glass-panel rounded-3xl p-3 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 sm:gap-3 shadow-md">
             <button onclick="switchTab('list')" id="tab-btn-list" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-solid fa-list-check text-xs sm:text-sm"></i> <span>修煉清單</span>
+                <i class="fa-solid fa-list-check text-xs sm:text-sm"></i>
+                <span>修煉清單</span>
             </button>
             <button onclick="switchTab('flashcard')" id="tab-btn-flashcard" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-solid fa-clone text-xs sm:text-sm"></i> <span>記憶卡牌</span>
+                <i class="fa-solid fa-clone text-xs sm:text-sm"></i>
+                <span>記憶卡牌</span>
             </button>
             <button onclick="switchTab('quiz')" id="tab-btn-quiz" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-solid fa-shield-halved text-xs sm:text-sm"></i> <span>境界試煉</span>
+                <i class="fa-solid fa-shield-halved text-xs sm:text-sm"></i>
+                <span>境界試煉</span>
             </button>
             <button onclick="switchTab('spelling')" id="tab-btn-spelling" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-solid fa-keyboard text-xs sm:text-sm"></i> <span>字彙淬鍊</span>
+                <i class="fa-solid fa-keyboard text-xs sm:text-sm"></i>
+                <span>字彙淬鍊</span>
             </button>
             <button onclick="switchTab('cloze')" id="tab-btn-cloze" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-solid fa-file-pen text-xs sm:text-sm"></i> <span>語境填空</span>
+                <i class="fa-solid fa-file-pen text-xs sm:text-sm"></i>
+                <span>語境填空</span>
+            </button>
+            <!-- NEW: Speaking Tab -->
+            <button onclick="switchTab('speaking')" id="tab-btn-speaking" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
+                <i class="fa-solid fa-microphone-lines text-xs sm:text-sm"></i>
+                <span>口說試煉</span>
             </button>
             <button onclick="switchTab('admin')" id="tab-btn-admin" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200 border border-blue-500/20 hover:border-blue-500/50">
-                <i class="fa-solid fa-cloud-arrow-up text-blue-400 text-xs sm:text-sm"></i> <span class="text-blue-300">📥 匯入管理</span>
+                <i class="fa-solid fa-cloud-arrow-up text-blue-400 text-xs sm:text-sm"></i>
+                <span class="text-blue-300">📥 匯入管理</span>
             </button>
         </section>
 
+        <!-- MAIN DOJO WORKSPACE -->
         <section class="flex-1 flex flex-col min-h-[420px]">
             <div id="dojo-content" class="flex-1 w-full glass-panel rounded-3xl p-5 sm:p-6 shadow-2xl relative">
                 <!-- Content injected via JS -->
@@ -268,6 +320,7 @@
 
     <div id="toast-container" class="fixed bottom-24 right-6 z-50 flex flex-col gap-3 pointer-events-none"></div>
 
+    <!-- Voice Settings Floating Button & Panel -->
     <div class="fixed bottom-6 right-6 z-50 flex flex-col-reverse items-end gap-3 pointer-events-auto">
         <button onclick="toggleVoicePanel()" class="w-14 h-14 bg-slate-900 border border-slate-750 hover:border-orange-550 rounded-full shadow-2xl flex items-center justify-center text-orange-450 hover:text-orange-400 transition-all hover:scale-105 group relative" title="語音引擎設定">
             <div class="absolute inset-0 bg-orange-500/10 rounded-full blur group-hover:bg-orange-500/20 transition-all"></div>
@@ -300,7 +353,7 @@
         </div>
     </div>
 
-    <!-- Modals -->
+    <!-- Custom Modal Overlays -->
     <div id="custom-confirm-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="glass-panel border border-rose-500/30 max-w-md w-full mx-4 rounded-3xl p-6 shadow-2xl scale-95 transition-transform duration-300 flex flex-col gap-4">
             <div class="flex items-center gap-3 text-rose-400">
@@ -309,8 +362,12 @@
             </div>
             <p class="text-sm text-slate-350 leading-relaxed" id="confirm-modal-desc">清空操作將會抹除現有修行記錄，且無法再次召回。</p>
             <div class="flex gap-3 justify-end mt-2">
-                <button id="confirm-modal-cancel" class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-400 font-bold text-xs rounded-xl border border-slate-800 transition-colors">取消修行</button>
-                <button id="confirm-modal-proceed" class="px-5 py-2.5 bg-rose-600 hover:bg-rose-500 text-white font-black text-xs rounded-xl shadow-lg shadow-rose-600/20 transition-all">確定清空</button>
+                <button id="confirm-modal-cancel" class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-400 font-bold text-xs rounded-xl border border-slate-800 transition-colors">
+                    取消修行
+                </button>
+                <button id="confirm-modal-proceed" class="px-5 py-2.5 bg-rose-600 hover:bg-rose-500 text-white font-black text-xs rounded-xl shadow-lg shadow-rose-600/20 transition-all">
+                    確定清空
+                </button>
             </div>
         </div>
     </div>
@@ -369,6 +426,7 @@
         </div>
     </div>
 
+    <!-- Dojo Statistics Dashboard Modal -->
     <div id="stats-dashboard-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300">
         <div class="glass-panel border border-orange-500/30 max-w-lg w-full mx-4 rounded-3xl p-6 shadow-2xl scale-95 transition-transform duration-300 flex flex-col gap-4">
             <div class="flex justify-between items-center border-b border-slate-800 pb-3">
@@ -480,9 +538,10 @@
             }
         };
 
+        // Global User State
         let userState = {
             currentDojo: 'vocab', 
-            currentDifficulty: 'basic',
+            currentDifficulty: 'basic', 
             currentLevel: 1,
             currentUnit: 1,
             currentTab: 'list', 
@@ -493,6 +552,7 @@
             spellingIndex: 0,
             clozeIndex: 0,
             flashcardIndex: 0,
+            speakingIndex: 0, // 新增口說 index
             correctCount: 0,
             totalAnswered: 0,
             voiceAccent: 'US', 
@@ -504,6 +564,7 @@
 
         let isAdminUnlocked = false;
 
+        // Dynamic Theme Color Engine
         function getThemeColors() {
             const isVocab = userState.currentDojo === 'vocab';
             return {
@@ -542,6 +603,32 @@
                 const allLevelData = mainDatabase.phrase?.[userState.currentLevel] || [];
                 return allLevelData.filter(item => (item.unit || 1) === userState.currentUnit);
             }
+        }
+
+        function goHome() {
+            playSound('click');
+            userState.currentDojo = 'vocab';
+            userState.currentDifficulty = 'basic';
+            userState.currentLevel = 1;
+            userState.currentUnit = 1;
+            userState.currentTab = 'list';
+            
+            userState.flashcardIndex = 0;
+            userState.quizIndex = 0;
+            userState.spellingIndex = 0;
+            userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
+            
+            saveProgress();
+
+            updateDojoTabUI();
+            renderDifficultySelector();
+            renderLevelSelector();
+            renderUnitSelector();
+            updateTabButtonsUI();
+            renderContent();
+            
+            showToast("☯️ 已返回英文修煉大殿", "success");
         }
 
         function playSound(type) {
@@ -661,31 +748,6 @@
             }
         }
 
-        function goHome() {
-            playSound('click');
-            userState.currentDojo = 'vocab';
-            userState.currentDifficulty = 'basic';
-            userState.currentLevel = 1;
-            userState.currentUnit = 1;
-            userState.currentTab = 'list';
-            
-            userState.flashcardIndex = 0;
-            userState.quizIndex = 0;
-            userState.spellingIndex = 0;
-            userState.clozeIndex = 0;
-            
-            saveProgress();
-
-            updateDojoTabUI();
-            renderDifficultySelector();
-            renderLevelSelector();
-            renderUnitSelector();
-            updateTabButtonsUI();
-            renderContent();
-            
-            showToast("☯️ 已返回英文修煉大殿", "success");
-        }
-
         function toggleVoicePanel() {
             playSound('click');
             const panel = document.getElementById('voice-settings-panel');
@@ -709,7 +771,9 @@
         function updateVoicePanelUI() {
             const btnUS = document.getElementById('accent-btn-US');
             const btnUK = document.getElementById('accent-btn-UK');
+            
             if (!btnUS || !btnUK) return;
+
             if (userState.voiceAccent === 'US') {
                 btnUS.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all bg-orange-500 text-slate-950 shadow-sm';
                 btnUK.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-400 hover:text-slate-200';
@@ -717,6 +781,7 @@
                 btnUK.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all bg-blue-600 text-white shadow-sm';
                 btnUS.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-400 hover:text-slate-200';
             }
+            
             const slider = document.getElementById('speech-speed-slider');
             const display = document.getElementById('speed-display');
             if (slider && display) {
@@ -738,6 +803,7 @@
                     if (!userState.speechRate) userState.speechRate = 0.85;
                     if (!userState.highestStreak) userState.highestStreak = 0;
                     if (!userState.currentDifficulty) userState.currentDifficulty = 'basic';
+                    if (userState.speakingIndex === undefined) userState.speakingIndex = 0;
                 } catch(e) {}
             }
             if (savedMainDb) {
@@ -746,7 +812,9 @@
                     if (parsedDB.vocab && (Array.isArray(parsedDB.vocab['1']) || Array.isArray(parsedDB.vocab['2']))) {
                         const oldVocab = parsedDB.vocab;
                         parsedDB.vocab = { basic: {}, intermediate: {}, advanced: {} };
-                        for(let l=1; l<=7; l++) { if(oldVocab[l]) parsedDB.vocab.basic[l] = oldVocab[l]; }
+                        for(let l=1; l<=7; l++) {
+                            if(oldVocab[l]) parsedDB.vocab.basic[l] = oldVocab[l];
+                        }
                     }
                     mainDatabase = parsedDB;
                 } catch(e) {}
@@ -758,7 +826,8 @@
             if (!mainDatabase.vocab.advanced) mainDatabase.vocab.advanced = {};
             if (!mainDatabase.phrase) mainDatabase.phrase = {};
 
-            ['basic', 'intermediate', 'advanced'].forEach(diff => {
+            const diffKeys = ['basic', 'intermediate', 'advanced'];
+            diffKeys.forEach(diff => {
                 for (let l = 1; l <= 7; l++) {
                     if (!mainDatabase.vocab[diff][l]) mainDatabase.vocab[diff][l] = [];
                     mainDatabase.vocab[diff][l].forEach(item => { if (!item.unit) item.unit = 1; });
@@ -778,16 +847,28 @@
         function showToast(message, type = 'info') {
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
+            
             let icon = 'fa-circle-info text-orange-400';
             let border = 'border-slate-800';
-            if (type === 'success') { icon = 'fa-circle-check text-emerald-400'; border = 'border-emerald-500/30'; } 
-            else if (type === 'error') { icon = 'fa-circle-exclamation text-rose-400'; border = 'border-rose-500/30'; }
+            if (type === 'success') {
+                icon = 'fa-circle-check text-emerald-400';
+                border = 'border-emerald-500/30';
+            } else if (type === 'error') {
+                icon = 'fa-circle-exclamation text-rose-400';
+                border = 'border-rose-500/30';
+            }
             
             toast.className = `glass-panel ${border} p-4 rounded-xl flex items-center gap-3 shadow-lg pointer-events-auto transition-all duration-300 transform translate-y-2 opacity-0 max-w-sm`;
-            toast.innerHTML = `<i class="fa-solid ${icon} text-lg shrink-0"></i><div class="text-sm font-semibold text-slate-100">${message}</div>`;
+            toast.innerHTML = `
+                <i class="fa-solid ${icon} text-lg shrink-0"></i>
+                <div class="text-sm font-semibold text-slate-100">${message}</div>
+            `;
             
             container.appendChild(toast);
-            setTimeout(() => toast.classList.remove('translate-y-2', 'opacity-0'), 50);
+            setTimeout(() => {
+                toast.classList.remove('translate-y-2', 'opacity-0');
+            }, 50);
+
             setTimeout(() => {
                 toast.classList.add('translate-y-2', 'opacity-0');
                 setTimeout(() => toast.remove(), 300);
@@ -796,8 +877,13 @@
 
         function showCustomConfirm(title, description, onConfirm) {
             const modal = document.getElementById('custom-confirm-modal');
-            document.getElementById('confirm-modal-title').textContent = title;
-            document.getElementById('confirm-modal-desc').textContent = description;
+            const titleEl = document.getElementById('confirm-modal-title');
+            const descEl = document.getElementById('confirm-modal-desc');
+            const cancelBtn = document.getElementById('custom-confirm-modal').querySelector('#confirm-modal-cancel');
+            const proceedBtn = document.getElementById('custom-confirm-modal').querySelector('#confirm-modal-proceed');
+
+            titleEl.textContent = title;
+            descEl.textContent = description;
 
             modal.classList.remove('pointer-events-none', 'opacity-0');
             modal.firstElementChild.classList.remove('scale-95');
@@ -807,35 +893,47 @@
                 modal.firstElementChild.classList.add('scale-95');
             };
 
-            document.getElementById('confirm-modal-cancel').onclick = () => { playSound('click'); close(); };
-            document.getElementById('confirm-modal-proceed').onclick = () => { playSound('click'); onConfirm(); close(); };
+            cancelBtn.onclick = () => {
+                playSound('click');
+                close();
+            };
+
+            proceedBtn.onclick = () => {
+                playSound('click');
+                onConfirm();
+                close();
+            };
         }
 
         function addEXP(amount) {
             userState.exp += amount;
             let levelUp = false;
             const expCap = 100;
+
             if (userState.exp >= expCap) {
                 userState.exp -= expCap;
                 levelUp = true;
                 playSound('levelUp');
                 showToast("🎉 恭喜！突破全新境界，修為大增！", "success");
             }
+            
             saveProgress();
             updateHeaderUI();
             return levelUp;
         }
 
         function updateHeaderUI() {
-            document.getElementById('exp-ratio').textContent = `${userState.exp} / 100`;
-            document.getElementById('exp-bar').style.width = `${userState.exp}%`;
+            const expBar = document.getElementById('exp-bar');
+            const expRatio = document.getElementById('exp-ratio');
+            expRatio.textContent = `${userState.exp} / 100`;
+            expBar.style.width = `${userState.exp}%`;
 
-            const total = userState.totalAnswered;
+            const totalWordsPracticed = userState.totalAnswered;
             let rank = "新手侍從";
-            if (total > 10) rank = "破空劍士";
-            if (total > 35) rank = "凌雲宗師";
-            if (total > 75) rank = "不滅大帝";
-            if (total > 150) rank = "太古英靈";
+            if (totalWordsPracticed > 10) rank = "破空劍士";
+            if (totalWordsPracticed > 35) rank = "凌雲宗師";
+            if (totalWordsPracticed > 75) rank = "不滅大帝";
+            if (totalWordsPracticed > 150) rank = "太古英靈";
             
             document.getElementById('user-rank').textContent = rank;
             document.getElementById('streak-count').textContent = userState.streak;
@@ -889,6 +987,7 @@
             userState.quizIndex = 0;
             userState.spellingIndex = 0;
             userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
             
             saveProgress();
             renderDifficultySelector();
@@ -904,8 +1003,13 @@
             const theme = getThemeColors();
 
             container.innerHTML = '';
-            if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
-            if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
+            
+            if (bgGlow) {
+                bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
+            }
+            if (groupIcon) {
+                groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
+            }
 
             for (let i = 1; i <= 7; i++) {
                 const isActive = userState.currentLevel === i;
@@ -913,12 +1017,18 @@
                 btn.type = 'button';
                 btn.onclick = () => selectLevel(i);
                 
-                let activeStyle = isActive 
-                    ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105`
-                    : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
+                let activeStyle = '';
+                if (isActive) {
+                    activeStyle = `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105`;
+                } else {
+                    activeStyle = 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
+                }
 
                 btn.className = `flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle}`;
-                btn.innerHTML = `<span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-base sm:text-lg font-black font-mono">L${i}</span>`;
+                btn.innerHTML = `
+                    <span class="text-[9px] uppercase tracking-wider opacity-85">境界</span>
+                    <span class="text-base sm:text-lg font-black font-mono">L${i}</span>
+                `;
                 container.appendChild(btn);
             }
         }
@@ -931,6 +1041,7 @@
             userState.quizIndex = 0;
             userState.spellingIndex = 0;
             userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
             
             saveProgress();
             renderLevelSelector();
@@ -942,6 +1053,7 @@
             const container = document.getElementById('unit-tabs-container');
             if(!container) return;
             container.innerHTML = '';
+            
             const isVocab = userState.currentDojo === 'vocab';
 
             for (let i = 1; i <= 10; i++) {
@@ -967,6 +1079,7 @@
             userState.quizIndex = 0;
             userState.spellingIndex = 0;
             userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
             
             saveProgress();
             renderUnitSelector();
@@ -980,6 +1093,7 @@
             userState.quizIndex = 0;
             userState.spellingIndex = 0;
             userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
             
             saveProgress();
             updateDojoTabUI();
@@ -1000,13 +1114,17 @@
             if (isVocab) {
                 btnVocab.className = "relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-orange-500/40 shadow-neon-orange bg-slate-900/80";
                 btnPhrase.className = "relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-slate-800 hover:border-blue-500/50";
-                vocabBorder.classList.replace('scale-x-0', 'scale-x-100');
-                phraseBorder.classList.replace('scale-x-100', 'scale-x-0');
+                vocabBorder.classList.remove('scale-x-0');
+                vocabBorder.classList.add('scale-x-100');
+                phraseBorder.classList.remove('scale-x-100');
+                phraseBorder.classList.add('scale-x-0');
             } else {
                 btnPhrase.className = "relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-blue-500/40 shadow-neon-blue bg-slate-900/80";
                 btnVocab.className = "relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-slate-800 hover:border-orange-500/50";
-                phraseBorder.classList.replace('scale-x-0', 'scale-x-100');
-                vocabBorder.classList.replace('scale-x-100', 'scale-x-0');
+                phraseBorder.classList.remove('scale-x-0');
+                phraseBorder.classList.add('scale-x-100');
+                vocabBorder.classList.remove('scale-x-100');
+                vocabBorder.classList.add('scale-x-0');
             }
         }
 
@@ -1019,9 +1137,9 @@
         }
 
         function updateTabButtonsUI() {
-            const tabs = ['list', 'flashcard', 'quiz', 'spelling', 'cloze', 'admin'];
+            const tabs = ['list', 'flashcard', 'quiz', 'spelling', 'cloze', 'speaking', 'admin'];
             const theme = getThemeColors();
-            const activeColor = theme.btnTheme;
+            let activeColor = theme.btnTheme;
             
             tabs.forEach(tab => {
                 const btn = document.getElementById(`tab-btn-${tab}`);
@@ -1043,8 +1161,11 @@
             let dataList = getActiveDataList();
 
             if (userState.currentTab === 'admin') {
-                if (!isAdminUnlocked) renderAdminLockScreen();
-                else renderAdminTab();
+                if (!isAdminUnlocked) {
+                    renderAdminLockScreen();
+                } else {
+                    renderAdminTab();
+                }
                 return;
             }
 
@@ -1070,15 +1191,34 @@
             if (userState.quizIndex >= dataList.length) userState.quizIndex = 0;
             if (userState.spellingIndex >= dataList.length) userState.spellingIndex = 0;
             if (userState.clozeIndex >= dataList.length) userState.clozeIndex = 0;
+            if (userState.speakingIndex >= dataList.length) userState.speakingIndex = 0;
+
+            // Stop any ongoing recording when switching tabs
+            if (isRecording && recognition) recognition.stop();
 
             switch(userState.currentTab) {
-                case 'list': renderListTab(dataList); break;
-                case 'flashcard': renderFlashcardTab(dataList); break;
-                case 'quiz': renderQuizTab(dataList); break;
-                case 'spelling': renderSpellingTab(dataList); break;
-                case 'cloze': renderClozeTab(dataList); break;
+                case 'list':
+                    renderListTab(dataList);
+                    break;
+                case 'flashcard':
+                    renderFlashcardTab(dataList);
+                    break;
+                case 'quiz':
+                    renderQuizTab(dataList);
+                    break;
+                case 'spelling':
+                    renderSpellingTab(dataList);
+                    break;
+                case 'cloze':
+                    renderClozeTab(dataList);
+                    break;
+                case 'speaking':
+                    renderSpeakingTab(dataList);
+                    break;
             }
         }
+
+        // --- ALL TAB RENDERERS BELOW ---
 
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
@@ -1090,7 +1230,8 @@
                 <div class="flex flex-col gap-4">
                     <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                         <h3 class="font-extrabold text-sm sm:text-base flex items-center gap-2">
-                            <i class="fa-solid fa-crown ${theme.text}"></i> ${dbName}
+                            <i class="fa-solid fa-crown ${theme.text}"></i>
+                            ${dbName}
                         </h3>
                         <span class="text-[10px] sm:text-xs text-slate-400 bg-slate-950 px-3 py-1 rounded-full font-black font-mono">共 ${data.length} 項修行</span>
                     </div>
@@ -1113,35 +1254,43 @@
                                 </h4>
                                 <p class="text-xs sm:text-sm text-slate-200 font-semibold mt-1 bg-slate-950/40 px-2 py-0.5 rounded-md inline-block border border-slate-800/50">${item.chinese}</p>
                             </div>
-                            <button onclick="speakWord('${safeWord}')" class="text-slate-400 ${theme.textHover} p-2 rounded-xl bg-slate-850 hover:bg-slate-800 active:scale-90 transition-all shrink-0" title="僅朗讀單字">
+                            <button onclick="speakWord('${safeWord}', '${safeExample}')" class="text-slate-400 ${theme.textHover} p-2 rounded-xl bg-slate-850 hover:bg-slate-800 active:scale-90 transition-all shrink-0" title="朗讀單字與句子">
                                 <i class="fa-solid fa-volume-high text-sm"></i>
                             </button>
                         </div>
-                        <div class="border-t border-slate-800/50 pt-2 mt-2 flex justify-between items-start gap-3">
-                            <div>
-                                <p class="text-sm sm:text-base font-bold text-slate-300 leading-relaxed">
-                                    <span>${item.example}</span>
-                                </p>
-                                <p class="mt-1.5 text-xs sm:text-sm text-slate-400 font-bold leading-relaxed">${item.exampleCn}</p>
-                            </div>
-                            <button onclick="speakWord('${safeExample}')" class="text-slate-400 ${theme.textHover} p-2 rounded-xl bg-slate-850 hover:bg-slate-800 active:scale-90 transition-all shrink-0 mt-0.5" title="僅朗讀例句">
-                                <i class="fa-solid fa-volume-low text-sm"></i>
-                            </button>
+                        <div class="border-t border-slate-800/50 pt-2 mt-2">
+                            <p onclick="speakWord('${safeExample}')" class="text-sm sm:text-base font-bold text-slate-300 ${theme.textHover} cursor-pointer transition-colors flex items-start gap-1.5 leading-relaxed" title="單獨朗讀此例句">
+                                <i class="fa-solid fa-volume-low text-sm ${theme.text} mt-1 shrink-0"></i>
+                                <span>${item.example}</span>
+                            </p>
+                            <p class="mt-1.5 text-xs sm:text-sm text-slate-400 pl-6 font-bold leading-relaxed">${item.exampleCn}</p>
                         </div>
                     </div>
                 `;
             });
 
-            listHTML += `</div></div>`;
+            listHTML += `
+                    </div>
+                </div>
+            `;
             contentDiv.innerHTML = listHTML;
         }
 
-        let touchStartX = 0, touchEndX = 0;
-        function handleTouchStart(e) { touchStartX = e.changedTouches[0].screenX; }
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        function handleTouchStart(e) {
+            touchStartX = e.changedTouches[0].screenX;
+        }
+
         function handleTouchEnd(e, total) {
             touchEndX = e.changedTouches[0].screenX;
-            if (touchEndX < touchStartX - 50) navigateFlashcard(1, total);
-            else if (touchEndX > touchStartX + 50) navigateFlashcard(-1, total);
+            const threshold = 50;
+            if (touchEndX < touchStartX - threshold) {
+                navigateFlashcard(1, total);
+            } else if (touchEndX > touchStartX + threshold) {
+                navigateFlashcard(-1, total);
+            }
         }
 
         function renderFlashcardTab(data) {
@@ -1149,6 +1298,10 @@
             const idx = userState.flashcardIndex;
             const item = data[idx];
             const theme = getThemeColors();
+            
+            let gradientBg = theme.gradient;
+            let borderTheme = `${theme.border} ${theme.shadow}`;
+
             const safeWord = item.word.replace(/'/g, "\\'");
             const safeExample = item.example.replace(/'/g, "\\'");
 
@@ -1160,9 +1313,12 @@
                     </div>
 
                     <div class="w-full max-w-md h-64 sm:h-72 flip-card cursor-pointer" id="flashcard-element" 
-                         onclick="flipFlashcard()" ontouchstart="handleTouchStart(event)" ontouchend="handleTouchEnd(event, ${data.length})">
+                         onclick="flipFlashcard()" 
+                         ontouchstart="handleTouchStart(event)" 
+                         ontouchend="handleTouchEnd(event, ${data.length})">
                         <div class="w-full h-full relative flip-card-inner">
-                            <div class="absolute inset-0 w-full h-full rounded-3xl p-6 flex flex-col items-center justify-between bg-gradient-to-br ${theme.gradient} text-slate-950 shadow-xl flip-card-front border border-white/10">
+                            
+                            <div class="absolute inset-0 w-full h-full rounded-3xl p-6 flex flex-col items-center justify-between bg-gradient-to-br ${gradientBg} text-slate-950 shadow-xl flip-card-front border border-white/10">
                                 <div class="w-full flex justify-between items-start">
                                     <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-lg bg-white/20">正面 / 英文拼寫</span>
                                     <i class="fa-solid fa-rotate text-sm opacity-60"></i>
@@ -1174,7 +1330,7 @@
                                 <div class="text-[10px] font-bold opacity-60">點擊卡牌翻面解讀含義</div>
                             </div>
 
-                            <div class="absolute inset-0 w-full h-full rounded-3xl p-6 flex flex-col items-center justify-between bg-slate-900 border ${theme.border} ${theme.shadow} text-slate-100 shadow-xl flip-card-back">
+                            <div class="absolute inset-0 w-full h-full rounded-3xl p-6 flex flex-col items-center justify-between bg-slate-900 border ${borderTheme} text-slate-100 shadow-xl flip-card-back">
                                 <div class="w-full flex justify-between items-start">
                                     <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-lg bg-slate-800 text-slate-400">背面 / 釋義與例句</span>
                                     <i class="fa-solid fa-rotate text-sm opacity-60 text-slate-400"></i>
@@ -1188,6 +1344,7 @@
                                 </div>
                                 <div class="text-[10px] font-bold text-slate-500">點擊卡牌翻回英文</div>
                             </div>
+
                         </div>
                     </div>
 
@@ -1214,13 +1371,17 @@
         function flipFlashcard() {
             playSound('click');
             const card = document.getElementById('flashcard-element');
-            if (card) card.classList.toggle('flipped');
+            if (card) {
+                card.classList.toggle('flipped');
+            }
         }
 
         function navigateFlashcard(direction, total) {
             playSound('click');
             const card = document.getElementById('flashcard-element');
-            if (card) card.classList.remove('flipped');
+            if (card) {
+                card.classList.remove('flipped');
+            }
             setTimeout(() => {
                 userState.flashcardIndex = (userState.flashcardIndex + direction + total) % total;
                 saveProgress();
@@ -1229,15 +1390,21 @@
         }
 
         let generatedOptions = [];
+        let currentAnswersShuffled = false;
 
         function renderQuizTab(data) {
             const contentDiv = document.getElementById('dojo-content');
-            if (userState.quizIndex >= data.length) userState.quizIndex = 0;
+            const idx = userState.quizIndex;
+            
+            if (idx >= data.length) {
+                userState.quizIndex = 0;
+            }
+            
             const currentItem = data[userState.quizIndex];
             
-            // Fix Bug 2: Always ensure correct option appears dynamically when regenerating options
-            if (!generatedOptions.some(opt => opt.word === currentItem.word)) {
+            if (!currentAnswersShuffled) {
                 generatedOptions = generateQuizOptions(currentItem, data);
+                currentAnswersShuffled = true;
             }
 
             const theme = getThemeColors();
@@ -1259,7 +1426,7 @@
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-2xl mx-auto" id="quiz-options-container">
                         ${generatedOptions.map((opt, oIdx) => `
-                            <button onclick="checkQuizAnswer('${opt.word.replace(/'/g, "\\'")}', this, ${userState.quizIndex}, ${data.length})" class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between group active:scale-98">
+                            <button onclick="checkQuizAnswer('${opt.word}', this, ${userState.quizIndex}, ${data.length})" class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between group active:scale-98">
                                 <span>${oIdx + 1}. ${opt.chinese}</span>
                                 <span class="opacity-0 group-hover:opacity-40 text-[10px] transition-all duration-200 font-mono">按 ${oIdx + 1} <i class="fa-solid fa-hand-pointer ml-1"></i></span>
                             </button>
@@ -1281,7 +1448,9 @@
         }
 
         function generateQuizOptions(correctItem, allData) {
-            let list = [...allData].filter(item => item.word !== correctItem.word);
+            let list = [...allData];
+            list = list.filter(item => item.word !== correctItem.word);
+            
             list.sort(() => Math.random() - 0.5);
             let wrongOptions = list.slice(0, 3);
             
@@ -1295,6 +1464,7 @@
                     }
                 }
             }
+            
             const finalOptions = [correctItem, ...wrongOptions];
             finalOptions.sort(() => Math.random() - 0.5);
             return finalOptions;
@@ -1303,6 +1473,8 @@
         function checkQuizAnswer(selectedWord, element, correctIdx, dataLength) {
             const data = getActiveDataList();
             const currentItem = data[correctIdx];
+            const theme = getThemeColors();
+
             const isCorrect = selectedWord === currentItem.word;
             const optionButtons = document.querySelectorAll('#quiz-options-container button');
             
@@ -1319,9 +1491,11 @@
                 element.className = `p-4 rounded-xl text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between bg-emerald-500/10 border border-emerald-500 text-emerald-400 shadow-neon-emerald`;
                 userState.streak += 1;
                 userState.correctCount += 1;
+                
                 const gainedExp = 15 + Math.min(userState.streak, 5) * 2;
-                addEXP(gainedExp);
-                showToast(`修煉正確！獲得靈氣 +${gainedExp}`, 'success');
+                const lvlUp = addEXP(gainedExp);
+                
+                showToast(`修煉正確！獲得靈氣 +${gainedExp} ${lvlUp ? '🎉 突破天劫！' : ''}`, 'success');
             } else {
                 playSound('wrong');
                 element.className = "p-4 rounded-xl text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between bg-rose-500/10 border border-rose-500 text-rose-400 shadow-neon-rose";
@@ -1332,11 +1506,9 @@
                         btn.className = "p-4 rounded-xl text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between bg-emerald-500/10 border border-emerald-500 text-emerald-400";
                     }
                 });
+                
                 showToast(`參悟錯誤！正確含義為：${currentItem.chinese}`, 'error');
             }
-
-            // Req 1: Speak immediately after selection
-            speakWord(currentItem.word);
             
             saveProgress();
             updateHeaderUI();
@@ -1344,7 +1516,7 @@
         }
 
         function nextQuizQuestion(totalQuestions) {
-            generatedOptions = []; // Force regenerate options for next question
+            currentAnswersShuffled = false;
             userState.quizIndex = (userState.quizIndex + 1) % totalQuestions;
             saveProgress();
             renderContent();
@@ -1352,14 +1524,22 @@
 
         function renderSpellingTab(data) {
             const contentDiv = document.getElementById('dojo-content');
-            if (userState.spellingIndex >= data.length) userState.spellingIndex = 0;
+            const idx = userState.spellingIndex;
+            
+            if (idx >= data.length) {
+                userState.spellingIndex = 0;
+            }
             const currentItem = data[userState.spellingIndex];
+            
             const theme = getThemeColors();
             let badgeColor = `${theme.bgLight} ${theme.text}`;
 
             let masked = "";
-            currentItem.word.split("").forEach((char, cIdx) => {
-                if ([" ", "-", "'", ",", ".", "/"].includes(char) || cIdx === 0 || cIdx === currentItem.word.length - 1) {
+            const wordLetters = currentItem.word.split("");
+            wordLetters.forEach((char, cIdx) => {
+                if ([" ", "-", "'", ",", ".", "/"].includes(char)) {
+                    masked += char;
+                } else if (cIdx === 0 || cIdx === wordLetters.length - 1) {
                     masked += char;
                 } else {
                     masked += "_";
@@ -1395,8 +1575,8 @@
                         </div>
 
                         <div id="scrambled-hint-container" class="hidden flex-wrap gap-1.5 justify-center py-2 bg-slate-950/40 p-2.5 rounded-xl border border-slate-850 animate-fade-in">
-                            <span class="text-[9px] text-slate-500 font-extrabold w-full text-center uppercase tracking-wider mb-1"><i class="fa-solid fa-puzzle-piece mr-1"></i>點擊字母碎片填寫</span>
-                            ${scrambleWordLetters(currentItem.word).map(char => `<button type="button" onclick="appendSpellingChar('${char.replace(/'/g, "\\'")}')" class="px-3 py-1.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-800 active:scale-95 ${theme.text} rounded-md font-mono text-base sm:text-lg font-bold transition-all shadow-sm flex items-center justify-center">${char}</button>`).join('')}
+                            <span class="text-[9px] text-slate-500 font-extrabold w-full text-center uppercase tracking-wider mb-1"><i class="fa-solid fa-puzzle-piece mr-1"></i>字母拼圖碎片</span>
+                            ${scrambleWordLetters(currentItem.word).map(char => `<span class="px-2 py-1 bg-slate-900 border border-slate-800 ${theme.text} rounded-md font-mono text-base sm:text-lg font-bold">${char}</span>`).join('')}
                         </div>
                     </div>
 
@@ -1405,10 +1585,10 @@
                             <button onclick="toggleScrambledHint()" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all">
                                 <i class="fa-solid fa-puzzle-piece mr-1.5 text-orange-400"></i>字母碎片
                             </button>
-                            <button onclick="revealSpellingHint('${currentItem.word.replace(/'/g, "\\'")}')" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all">
+                            <button onclick="revealSpellingHint('${currentItem.word}')" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all">
                                 <i class="fa-solid fa-lightbulb mr-1.5 ${theme.text}"></i>首字提示
                             </button>
-                            <button onclick="checkSpelling('${currentItem.word.replace(/'/g, "\\'")}', ${userState.spellingIndex}, ${data.length})" class="flex-1 py-2.5 ${theme.btnTheme} font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-1.5 shadow-lg transition-all">
+                            <button onclick="checkSpelling('${currentItem.word}', ${userState.spellingIndex}, ${data.length})" class="flex-1 py-2.5 ${theme.btnTheme} font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-1.5 shadow-lg transition-all">
                                 <i class="fa-solid fa-circle-check"></i>提交修行
                             </button>
                         </div>
@@ -1421,7 +1601,11 @@
                     </div>
                 </div>
             `;
-            setTimeout(() => { const inp = document.getElementById('spelling-input'); if (inp) inp.focus(); }, 100);
+            
+            setTimeout(() => {
+                const inp = document.getElementById('spelling-input');
+                if (inp) inp.focus();
+            }, 100);
         }
 
         function scrambleWordLetters(word) {
@@ -1435,22 +1619,13 @@
             if (el) el.classList.toggle('hidden');
         }
 
-        // Feature 4: Append fragment character to input
-        function appendSpellingChar(char) {
-            playSound('click');
-            const input = document.getElementById('spelling-input');
-            if (input && !input.disabled) {
-                input.value += char;
-                input.focus();
-            }
-        }
-
         function handleSpellingEnter(event, idx, dataLength) {
             if (event.key === 'Enter') {
                 const feedback = document.getElementById('spelling-feedback');
                 if (feedback && feedback.classList.contains('hidden')) {
                     const data = getActiveDataList();
-                    checkSpelling(data[idx].word, idx, dataLength);
+                    const currentItem = data[idx];
+                    checkSpelling(currentItem.word, idx, dataLength);
                 } else {
                     nextSpellingQuestion(dataLength);
                 }
@@ -1467,10 +1642,33 @@
             }
         }
 
+        function calculateSpellingDiff(userInput, correctWord) {
+            let u = userInput.trim().toLowerCase();
+            let c = correctWord.trim().toLowerCase();
+            let outputHTML = "";
+            
+            for (let i = 0; i < c.length; i++) {
+                if (i < u.length) {
+                    if (u[i] === c[i]) {
+                        outputHTML += `<span class="text-emerald-400 font-black">${correctWord[i]}</span>`;
+                    } else {
+                        outputHTML += `<span class="text-rose-400 underline font-black line-through">${userInput[i]}</span><span class="text-orange-400 font-bold">(${correctWord[i]})</span>`;
+                    }
+                } else {
+                    outputHTML += `<span class="text-slate-600 font-bold font-mono">_(${correctWord[i]})</span>`;
+                }
+            }
+            if (u.length > c.length) {
+                outputHTML += `<span class="text-rose-400 line-through opacity-60">(${u.substring(c.length)})</span>`;
+            }
+            return outputHTML;
+        }
+
         function checkSpelling(correctWord, idx, dataLength) {
             const input = document.getElementById('spelling-input');
             const feedback = document.getElementById('spelling-feedback');
             const nextBtn = document.getElementById('spelling-next-btn');
+            
             if (!input || !feedback) return;
             
             const userAns = input.value.trim().toLowerCase();
@@ -1491,16 +1689,18 @@
                 feedback.innerHTML = `<i class="fa-solid fa-square-check mr-1.5"></i>修煉成功！毫釐不差：<span class="font-mono text-white text-base">${correctWord}</span>`;
                 userState.streak += 1;
                 userState.correctCount += 1;
-                addEXP(25);
+                
+                const gainedExp = 25;
+                const lvlUp = addEXP(gainedExp);
                 showToast("拼寫正確！增加修为 +25", 'success');
             } else {
                 playSound('wrong');
-                // Feature 3: Directly provide correct answer
+                const calibrationHTML = calculateSpellingDiff(input.value, correctWord);
                 feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-350 leading-relaxed";
                 feedback.innerHTML = `
                     <div class="flex flex-col gap-1.5">
-                        <div><i class="fa-solid fa-triangle-exclamation mr-1.5 text-rose-400"></i>拼寫失誤！</div>
-                        <div class="bg-slate-950/80 p-2 rounded border border-slate-800 font-mono tracking-wide text-base sm:text-lg my-1 inline-block mx-auto text-emerald-400">正確答案：${correctWord}</div>
+                        <div><i class="fa-solid fa-triangle-exclamation mr-1.5 text-rose-400"></i>拼寫失誤！校對指示如下：</div>
+                        <div class="bg-slate-950/80 p-2 rounded border border-slate-800 font-mono tracking-wide text-xs sm:text-sm my-1 inline-block mx-auto">${calibrationHTML}</div>
                     </div>
                 `;
                 userState.streak = 0;
@@ -1520,24 +1720,38 @@
 
         function renderClozeTab(data) {
             const contentDiv = document.getElementById('dojo-content');
-            if (userState.clozeIndex >= data.length) userState.clozeIndex = 0;
+            const idx = userState.clozeIndex;
+            
+            if (idx >= data.length) {
+                userState.clozeIndex = 0;
+            }
             const currentItem = data[userState.clozeIndex];
 
             let qText = currentItem.clozeQuestion || "";
             let qCn = currentItem.clozeCn || "";
             let qAns = currentItem.clozeAnswer || currentItem.word;
+
             let fullSentence = "";
 
             if (!qText || qText.trim() === "") {
                 const word = currentItem.word;
-                fullSentence = currentItem.example;
+                const example = currentItem.example;
+                fullSentence = example;
                 const regex = new RegExp(`\\b${word}\\b`, 'gi');
-                let maskStr = word.length > 2 ? word[0] + "_".repeat(word.length - 2) + word[word.length - 1] : "_".repeat(word.length);
-                qText = currentItem.example.replace(regex, maskStr);
+                
+                let maskStr = word;
+                if (word.length > 2) {
+                    maskStr = word[0] + "_".repeat(word.length - 2) + word[word.length - 1];
+                } else {
+                    maskStr = "_".repeat(word.length);
+                }
+                
+                qText = example.replace(regex, maskStr);
                 qCn = currentItem.exampleCn;
                 qAns = word;
             } else {
-                fullSentence = qText.replace(/[a-zA-Z]*_+[a-zA-Z]*/g, qAns);
+                const maskRegex = /[a-zA-Z]*_+[a-zA-Z]*/g;
+                fullSentence = qText.replace(maskRegex, qAns);
             }
 
             const theme = getThemeColors();
@@ -1546,17 +1760,22 @@
             contentDiv.innerHTML = `
                 <div class="flex flex-col justify-between min-h-[360px] gap-4">
                     <div class="w-full flex justify-between items-center text-xs text-slate-400 font-bold border-b border-slate-800/80 pb-3">
-                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pen text-emerald-450"></i> 語境填空挑戰 - 第 ${userState.clozeIndex + 1} / ${data.length} 題</span>
+                        <span class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-file-pen text-emerald-450"></i> 語境填空挑戰 - 第 ${userState.clozeIndex + 1} / ${data.length} 題
+                        </span>
                         <span class="text-slate-450 font-bold">當前連擊: ${userState.streak} 🔥</span>
                     </div>
 
                     <div class="text-center my-2 py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
                         <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${badgeColor}">請推敲填入空白處</span>
-                        <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-3.5 leading-relaxed">${qText}</h3>
+                        <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-3.5 leading-relaxed">
+                            ${qText}
+                        </h3>
                     </div>
 
                     <div class="w-full max-w-md mx-auto flex flex-col gap-3">
                         <input type="text" id="cloze-input" placeholder="請填寫對應的英文解答..." autocomplete="off" class="w-full px-4 py-3 bg-slate-950 border border-slate-850 ${theme.borderFocus} rounded-xl font-bold tracking-wide outline-none text-slate-100 placeholder-slate-700 transition-colors shadow-inner text-center text-base sm:text-lg" onkeydown="handleClozeEnter(event, '${qAns.replace(/'/g, "\\'")}', ${data.length}, '${fullSentence.replace(/'/g, "\\'")}')" />
+                        
                         <div id="cloze-suggestion-container" class="hidden flex-wrap gap-1.5 justify-center py-2 bg-slate-950/40 p-2.5 rounded-xl border border-slate-850 animate-fade-in">
                             <span class="text-[9px] text-slate-500 font-extrabold w-full text-center uppercase tracking-wider mb-1"><i class="fa-solid fa-puzzle-piece mr-1"></i>字母拼圖碎片</span>
                             ${scrambleWordLetters(qAns).map(char => `<span class="px-2 py-1 bg-slate-900 border border-slate-800 text-emerald-450 rounded-md font-mono text-base sm:text-lg font-bold">${char}</span>`).join('')}
@@ -1595,7 +1814,11 @@
                     </div>
                 </div>
             `;
-            setTimeout(() => { const inp = document.getElementById('cloze-input'); if (inp) inp.focus(); }, 100);
+            
+            setTimeout(() => {
+                const inp = document.getElementById('cloze-input');
+                if (inp) inp.focus();
+            }, 100);
         }
 
         function toggleClozeLetters() {
@@ -1607,8 +1830,11 @@
         function handleClozeEnter(event, ans, dataLength, fullSentence) {
             if (event.key === 'Enter') {
                 const feedback = document.getElementById('cloze-feedback');
-                if (feedback && feedback.classList.contains('hidden')) checkClozeAnswer(ans, dataLength, fullSentence);
-                else nextClozeQuestion(dataLength);
+                if (feedback && feedback.classList.contains('hidden')) {
+                    checkClozeAnswer(ans, dataLength, fullSentence);
+                } else {
+                    nextClozeQuestion(dataLength);
+                }
             }
         }
 
@@ -1626,6 +1852,7 @@
             const feedback = document.getElementById('cloze-feedback');
             const nextBtn = document.getElementById('cloze-next-btn');
             const revealArea = document.getElementById('cloze-reveal-area');
+            
             if (!input || !feedback) return;
             
             const userAns = input.value.trim().toLowerCase();
@@ -1639,6 +1866,7 @@
             input.disabled = true;
             feedback.classList.remove('hidden');
             if (revealArea) revealArea.classList.remove('hidden'); 
+            
             userState.totalAnswered += 1;
 
             if (userAns === realAns) {
@@ -1647,7 +1875,10 @@
                 feedback.innerHTML = `<i class="fa-solid fa-square-check mr-1.5"></i>參悟圓滿！語境填空完美切合！`;
                 userState.streak += 1;
                 userState.correctCount += 1;
-                addEXP(25);
+                
+                const gainedExp = 25;
+                const lvlUp = addEXP(gainedExp);
+                
                 showToast("填空正確！修為增加 +25", 'success');
             } else {
                 playSound('wrong');
@@ -1658,7 +1889,9 @@
             }
 
             if (fullSentence) {
-                setTimeout(() => speakWord(fullSentence), 600);
+                setTimeout(() => {
+                    speakWord(fullSentence);
+                }, 600);
             }
 
             saveProgress();
@@ -1672,6 +1905,227 @@
             renderContent();
         }
 
+        // --- NEW: Speaking Tab Renderer ---
+
+        let recognition = null;
+        let isRecording = false;
+
+        function renderSpeakingTab(data) {
+            const contentDiv = document.getElementById('dojo-content');
+            const idx = userState.speakingIndex || 0;
+            
+            if (idx >= data.length) {
+                userState.speakingIndex = 0;
+            }
+            const currentItem = data[userState.speakingIndex];
+            const theme = getThemeColors();
+            let badgeColor = `${theme.bgLight} ${theme.text}`;
+
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const isSupported = !!SpeechRecognition;
+
+            let mainContent = '';
+
+            if(!isSupported) {
+                mainContent = `
+                    <div class="flex flex-col items-center justify-center py-10 gap-4 text-center">
+                        <i class="fa-solid fa-triangle-exclamation text-5xl text-rose-400"></i>
+                        <h3 class="text-xl font-bold text-slate-200">瀏覽器不支援語音辨識</h3>
+                        <p class="text-sm text-slate-400 max-w-sm">您當前的瀏覽器無法使用口說評分功能。請使用 <b>Google Chrome</b> 或 <b>Microsoft Edge</b> 來體驗口說試煉。</p>
+                    </div>
+                `;
+            } else {
+                mainContent = `
+                    <div class="flex flex-col justify-between min-h-[360px] gap-4">
+                        <div class="w-full flex justify-between items-center text-xs text-slate-400 font-bold border-b border-slate-800/80 pb-3">
+                            <span class="flex items-center gap-1.5">
+                                <i class="fa-solid fa-microphone-lines ${theme.text}"></i> 口說試煉 - 第 ${userState.speakingIndex + 1} / ${data.length} 題
+                            </span>
+                            <span class="text-emerald-400 font-bold">當前連擊: ${userState.streak} 🔥</span>
+                        </div>
+
+                        <!-- Target Sentence UI -->
+                        <div class="text-center my-4 py-4 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
+                            <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${badgeColor}">請朗讀以下目標例句</span>
+                            <h3 class="text-xl sm:text-2xl font-extrabold text-slate-100 tracking-wide mt-4 leading-relaxed">
+                                ${currentItem.example}
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-400 font-bold leading-relaxed mt-2.5">${currentItem.exampleCn}</p>
+                        </div>
+
+                        <!-- Controls -->
+                        <div class="flex justify-center items-center gap-6 mt-2">
+                            <button onclick="speakWord('${currentItem.example.replace(/'/g, "\\'")}')" class="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 hover:border-blue-500 text-blue-400 shadow-lg active:scale-95 transition-all flex items-center justify-center group" title="聆聽示範發音">
+                                <i class="fa-solid fa-headphones text-xl group-hover:scale-110 transition-transform"></i>
+                            </button>
+
+                            <button id="mic-btn" onclick="toggleRecording('${currentItem.example.replace(/'/g, "\\'")}', ${data.length})" class="w-20 h-20 rounded-full bg-slate-900 border-2 border-slate-700 hover:border-rose-500 text-slate-400 shadow-xl active:scale-95 transition-all duration-300 flex items-center justify-center group relative overflow-hidden" title="點擊開始錄音">
+                                <div class="absolute inset-0 bg-rose-500/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                                <i id="mic-icon" class="fa-solid fa-microphone-lines text-3xl z-10 group-hover:text-rose-400 transition-colors"></i>
+                            </button>
+                        </div>
+                        <div id="speaking-feedback-text" class="text-center mt-3 text-sm font-bold text-slate-500 min-h-[1.5rem]">點擊中央麥克風開始錄音評分...</div>
+
+                        <!-- Feedback Area -->
+                        <div id="speaking-feedback-area" class="hidden w-full max-w-md mx-auto mt-2 transition-all"></div>
+                        
+                        <div class="w-full max-w-md mx-auto mt-2">
+                            <button id="speaking-next-btn" onclick="nextSpeakingQuestion(${data.length})" class="hidden w-full py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-slate-950 font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/15 transition-all">
+                                下一個例句試煉 <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            contentDiv.innerHTML = mainContent;
+        }
+
+        function toggleRecording(targetSentence, totalItems) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if(!SpeechRecognition) return;
+
+            const micBtn = document.getElementById('mic-btn');
+            const micIcon = document.getElementById('mic-icon');
+            const feedbackText = document.getElementById('speaking-feedback-text');
+            const feedbackArea = document.getElementById('speaking-feedback-area');
+            const nextBtn = document.getElementById('speaking-next-btn');
+
+            if(isRecording) {
+                if(recognition) recognition.stop();
+                return;
+            }
+
+            playSound('click');
+            feedbackArea.classList.add('hidden');
+            nextBtn.classList.add('hidden');
+
+            recognition = new SpeechRecognition();
+            recognition.lang = userState.voiceAccent === 'UK' ? 'en-GB' : 'en-US';
+            recognition.interimResults = true;
+            recognition.maxAlternatives = 1;
+
+            recognition.onstart = function() {
+                isRecording = true;
+                micBtn.classList.add('animate-pulse', 'bg-rose-500/20', 'border-rose-500', 'shadow-neon-rose');
+                micIcon.classList.add('text-rose-400');
+                micIcon.classList.remove('text-slate-400');
+                feedbackText.innerHTML = '<span class="text-orange-400 animate-pulse"><i class="fa-solid fa-ear-listen mr-1.5"></i>聆聽中... 請朗讀上方例句</span>';
+            };
+
+            recognition.onresult = function(event) {
+                const transcript = Array.from(event.results)
+                    .map(result => result[0])
+                    .map(result => result.transcript)
+                    .join('');
+
+                feedbackText.innerHTML = `<span class="text-slate-200 font-medium tracking-wide">"${transcript}"</span>`;
+
+                if(event.results[0].isFinal) {
+                    evaluateSpeaking(transcript, targetSentence, totalItems);
+                }
+            };
+
+            recognition.onerror = function(event) {
+                console.error("Speech recognition error", event.error);
+                isRecording = false;
+                resetMicButton();
+                if(event.error === 'not-allowed') {
+                    showToast("無法存取麥克風，請確認瀏覽器權限已開啟！", "error");
+                    feedbackText.innerHTML = '<span class="text-rose-400">麥克風權限被拒絕</span>';
+                } else if (event.error === 'no-speech') {
+                    feedbackText.innerHTML = '<span class="text-slate-500">未偵測到聲音，請再試一次</span>';
+                } else {
+                    feedbackText.innerHTML = '<span class="text-rose-400">辨識發生錯誤，請再試一次</span>';
+                }
+            };
+
+            recognition.onend = function() {
+                isRecording = false;
+                resetMicButton();
+            };
+
+            try {
+                recognition.start();
+            } catch(e) {
+                console.error(e);
+            }
+        }
+
+        function resetMicButton() {
+            const micBtn = document.getElementById('mic-btn');
+            const micIcon = document.getElementById('mic-icon');
+            if(micBtn) {
+                micBtn.classList.remove('animate-pulse', 'bg-rose-500/20', 'border-rose-500', 'shadow-neon-rose');
+                micIcon.classList.remove('text-rose-400');
+                micIcon.classList.add('text-slate-400');
+            }
+        }
+
+        function evaluateSpeaking(transcript, targetSentence, totalItems) {
+            const cleanSpoken = transcript.toLowerCase().replace(/[.,?!;:()'"]/g, '').trim().split(/\s+/);
+            const cleanTarget = targetSentence.toLowerCase().replace(/[.,?!;:()'"]/g, '').trim().split(/\s+/);
+
+            let matchCount = 0;
+            let targetCopy = [...cleanTarget];
+            cleanSpoken.forEach(word => {
+                const idx = targetCopy.indexOf(word);
+                if(idx !== -1) {
+                    matchCount++;
+                    targetCopy.splice(idx, 1);
+                }
+            });
+
+            const accuracy = Math.round((matchCount / cleanTarget.length) * 100);
+            const isPass = accuracy >= 75; // 75% accuracy is considered passing
+
+            const feedbackArea = document.getElementById('speaking-feedback-area');
+            const nextBtn = document.getElementById('speaking-next-btn');
+            const feedbackText = document.getElementById('speaking-feedback-text');
+
+            feedbackText.innerHTML = `<span class="text-slate-400 text-xs">辨識結果："${transcript}"</span>`;
+            feedbackArea.classList.remove('hidden');
+
+            userState.totalAnswered += 1;
+
+            if(isPass) {
+                playSound('correct');
+                userState.streak += 1;
+                userState.correctCount += 1;
+                const gainedExp = 30 + Math.min(userState.streak, 5) * 2;
+                const lvlUp = addEXP(gainedExp);
+
+                feedbackArea.innerHTML = `
+                    <div class="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500 text-emerald-400 shadow-neon-emerald text-center">
+                        <div class="font-black text-lg mb-1"><i class="fa-solid fa-microphone-lines mr-2"></i>發音完美！過關！</div>
+                        <div class="text-xs font-bold text-emerald-500 mt-1">準確率 ${Math.min(100, accuracy)}% • 獲得修為 +${gainedExp}</div>
+                    </div>
+                `;
+            } else {
+                playSound('wrong');
+                userState.streak = 0;
+                feedbackArea.innerHTML = `
+                    <div class="p-4 rounded-xl bg-rose-500/10 border border-rose-500 text-rose-400 shadow-neon-rose text-center">
+                        <div class="font-black text-lg mb-1"><i class="fa-solid fa-triangle-exclamation mr-2"></i>發音有待加強！</div>
+                        <div class="text-xs font-bold text-rose-500 mt-1">準確率 ${accuracy}% • 請點擊麥克風再試一次</div>
+                    </div>
+                `;
+            }
+
+            saveProgress();
+            updateHeaderUI();
+            nextBtn.classList.remove('hidden');
+        }
+
+        function nextSpeakingQuestion(totalItems) {
+            playSound('click');
+            userState.speakingIndex = (userState.speakingIndex + 1) % totalItems;
+            saveProgress();
+            renderContent();
+        }
+
+        // --- END OF NEW: Speaking Tab Renderer ---
+
         function renderAdminLockScreen() {
             const contentDiv = document.getElementById('dojo-content');
             contentDiv.innerHTML = `
@@ -1682,10 +2136,12 @@
                             <i class="fa-solid fa-shield-halved text-5xl"></i>
                         </div>
                     </div>
+                    
                     <h3 class="text-lg sm:text-xl font-black text-slate-100 tracking-wider text-center">解鎖匯入大陣</h3>
                     <p class="text-xs text-slate-400 mt-2 text-center leading-relaxed max-w-xs">
                         此處為自訂修煉大典重地。<br>請輸入守護金鑰「yichen」以開啟管理通道。
                     </p>
+
                     <div class="w-full mt-6 flex flex-col gap-3">
                         <input type="password" id="admin-pass-input" placeholder="請輸入通行金鑰..." class="w-full px-4 py-3 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl font-bold tracking-widest text-center outline-none text-slate-200 transition-colors shadow-inner" onkeydown="handleAdminLockEnter(event)" />
                         <button onclick="attemptAdminUnlock()" class="py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-black text-sm rounded-xl shadow-lg shadow-blue-600/30 transition-all flex items-center justify-center gap-2">
@@ -1694,15 +2150,24 @@
                     </div>
                 </div>
             `;
-            setTimeout(() => { const inp = document.getElementById('admin-pass-input'); if (inp) inp.focus(); }, 100);
+            setTimeout(() => {
+                const inp = document.getElementById('admin-pass-input');
+                if (inp) inp.focus();
+            }, 100);
         }
 
-        function handleAdminLockEnter(event) { if (event.key === 'Enter') attemptAdminUnlock(); }
+        function handleAdminLockEnter(event) {
+            if (event.key === 'Enter') {
+                attemptAdminUnlock();
+            }
+        }
 
         function attemptAdminUnlock() {
             const input = document.getElementById('admin-pass-input');
             if (!input) return;
-            if (input.value.trim() === 'yichen') {
+            const val = input.value.trim();
+
+            if (val === 'yichen') {
                 isAdminUnlocked = true;
                 playSound('levelUp');
                 showToast("🔑 金鑰認證成功！管理大陣已開啟！", "success");
@@ -1727,20 +2192,30 @@
 
         function renderAdminTab() {
             const contentDiv = document.getElementById('dojo-content');
+            
             let mainVocab = 0, mainPhrase = 0;
-            ['basic', 'intermediate', 'advanced'].forEach(diff => {
-                for (let l = 1; l <= 7; l++) mainVocab += mainDatabase.vocab[diff]?.[l]?.length || 0;
+            const diffKeys = ['basic', 'intermediate', 'advanced'];
+            diffKeys.forEach(diff => {
+                for (let l = 1; l <= 7; l++) {
+                    mainVocab += mainDatabase.vocab[diff]?.[l]?.length || 0;
+                }
             });
-            for (let l = 1; l <= 7; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
+            for (let l = 1; l <= 7; l++) {
+                mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
+            }
 
             contentDiv.innerHTML = `
                 <div class="flex flex-col gap-6">
+                    
                     <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between border-b border-slate-850 pb-4 gap-4">
                         <div>
                             <h3 class="text-lg sm:text-xl font-black text-blue-400 flex items-center gap-2">
-                                <i class="fa-solid fa-cloud-arrow-up"></i> 修煉大典設定導入中心
+                                <i class="fa-solid fa-cloud-arrow-up"></i> 
+                                修煉大典設定導入中心
                             </h3>
-                            <p class="text-xs text-slate-455 mt-1">免除繁雜步驟！在此自由導入教材與設定，並可針對學員客製化填空題目！</p>
+                            <p class="text-xs text-slate-455 mt-1">
+                                免除繁雜步驟！在此自由導入教材與設定，並可<b>針對學員客製化非例句的填空題目</b>！
+                            </p>
                         </div>
                         <div class="flex flex-wrap items-center gap-2 shrink-0">
                             <span class="text-[11px] font-black bg-orange-500/10 text-orange-400 px-3 py-1.5 rounded-xl border border-orange-500/20">
@@ -1763,97 +2238,226 @@
                                     <i class="fa-solid fa-paste mr-1"></i>帶入自訂填空匯入範本
                                 </button>
                             </div>
+
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label>
+                                    <select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">
+                                        <option value="auto">智慧判定</option>
+                                        <option value="vocab">單字</option>
+                                        <option value="phrase">片語</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度 (僅單字)</label>
+                                    <select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none">
+                                        <option value="basic">初級</option>
+                                        <option value="intermediate">中級</option>
+                                        <option value="advanced">中高級</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label>
+                                    <select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">
+                                        <option value="1">L1</option>
+                                        <option value="2">L2</option>
+                                        <option value="3">L3</option>
+                                        <option value="4">L4</option>
+                                        <option value="5">L5</option>
+                                        <option value="6">L6</option>
+                                        <option value="7">L7</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label>
+                                    <select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">
+                                        ${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}
+                                    </select>
+                                </div>
                             </div>
-                            <p class="text-[10px] text-slate-400 leading-normal">兩組單字間以空行隔開。亦可於最下方自由附加自訂 <code class="text-orange-400 font-mono">Cloze:題目</code> 與 <code class="text-orange-400 font-mono">ClozeCn:翻譯</code>。</p>
+
+                            <p class="text-[10px] text-slate-400 leading-normal">
+                                兩組單字間以空行隔開。亦可於最下方自由附加自訂 <code class="text-orange-400 font-mono">Cloze:題目</code> 與 <code class="text-orange-400 font-mono">ClozeCn:翻譯</code>。
+                            </p>
                             <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors"></textarea>
+                            
                             <div class="flex gap-3 justify-end">
-                                <button onclick="processBulkImport()" class="px-5 py-2 bg-orange-600 hover:bg-orange-550 text-slate-100 font-bold text-xs rounded-xl transition-all shadow-lg shadow-orange-500/20 flex items-center gap-1.5"><i class="fa-solid fa-bolt"></i> 執行格式解析並匯入</button>
+                                <button onclick="processBulkImport()" class="px-5 py-2 bg-orange-600 hover:bg-orange-550 text-slate-100 font-bold text-xs rounded-xl transition-all shadow-lg shadow-orange-500/20 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-bolt"></i> 執行格式解析並匯入
+                                </button>
                             </div>
                         </div>
 
                         <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col gap-3">
-                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-orange-450"></i> 手動單筆自訂新增</h4>
+                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5">
+                                <i class="fa-solid fa-square-plus text-orange-450"></i> 手動單筆自訂新增 (含填空)
+                            </h4>
                             <div class="grid grid-cols-2 gap-3">
-                                <div><label class="block text-[9px] text-slate-400 font-bold mb-1">英文字詞 / 片語</label><input type="text" id="form-word" placeholder="例如: accomplish" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" /></div>
-                                <div><label class="block text-[9px] text-slate-400 font-bold mb-1">中文含義說明</label><input type="text" id="form-chinese" placeholder="例如: 完成、實現" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" /></div>
-                            </div>
-                            <div class="grid grid-cols-4 gap-2">
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">類別</label><select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none"><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">難度</label><select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">境界</label><select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none">${[1,2,3,4,5,6,7].map(l => `<option value="${l}">L${l}</option>`).join('')}</select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">章節</label><select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
-                            </div>
-                            <div class="grid grid-cols-2 gap-3">
-                                <div><label class="block text-[9px] text-slate-400 font-bold mb-1">英文例句</label><input type="text" id="form-example" placeholder="例如: We accomplished our goals." class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-orange-500" /></div>
-                                <div><label class="block text-[9px] text-slate-400 font-bold mb-1">例句中文對照</label><input type="text" id="form-example-cn" placeholder="例如: 我們實現了我們的目標。" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-orange-500" /></div>
-                            </div>
-                            <div class="border-t border-slate-800/80 pt-2 flex flex-col gap-2">
-                                <span class="text-[9px] font-black text-emerald-450 uppercase tracking-widest"><i class="fa-solid fa-file-pen"></i> 自訂填空題專區 (可不填)</span>
-                                <div><label class="block text-[8px] text-slate-400 font-bold mb-1">字彙填空自訂題目 (a______e)</label><input type="text" id="form-cloze-q" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" /></div>
-                                <div class="grid grid-cols-2 gap-2">
-                                    <div><label class="block text-[8px] text-slate-400 font-bold mb-1">填空中文翻譯提示</label><input type="text" id="form-cloze-cn" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" /></div>
-                                    <div><label class="block text-[8px] text-slate-400 font-bold mb-1">標準答案 (預設對應單字)</label><input type="text" id="form-cloze-ans" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" /></div>
+                                <div>
+                                    <label class="block text-[9px] text-slate-400 font-bold mb-1">英文字詞 / 片語</label>
+                                    <input type="text" id="form-word" placeholder="例如: accomplish" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" />
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-slate-400 font-bold mb-1">中文含義說明</label>
+                                    <input type="text" id="form-chinese" placeholder="例如: 完成、實現" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" />
                                 </div>
                             </div>
+                            <div class="grid grid-cols-4 gap-2">
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">類別</label>
+                                    <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none focus:border-orange-500">
+                                        <option value="vocab">單字</option>
+                                        <option value="phrase">片語</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">難度</label>
+                                    <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none focus:border-orange-500">
+                                        <option value="basic">初級</option>
+                                        <option value="intermediate">中級</option>
+                                        <option value="advanced">中高級</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">境界</label>
+                                    <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none focus:border-orange-500">
+                                        ${[1,2,3,4,5,6,7].map(l => `<option value="${l}">L${l}</option>`).join('')}
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-orange-400 font-extrabold mb-1">章節</label>
+                                    <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] font-semibold text-slate-300 outline-none focus:border-orange-500">
+                                        ${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-[9px] text-slate-400 font-bold mb-1">英文例句</label>
+                                    <input type="text" id="form-example" placeholder="例如: We accomplished our goals." class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-orange-500" />
+                                </div>
+                                <div>
+                                    <label class="block text-[9px] text-slate-400 font-bold mb-1">例句中文對照</label>
+                                    <input type="text" id="form-example-cn" placeholder="例如: 我們實現了我們的目標。" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-orange-500" />
+                                </div>
+                            </div>
+                            
+                            <div class="border-t border-slate-800/80 pt-2 flex flex-col gap-2">
+                                <span class="text-[9px] font-black text-emerald-450 uppercase tracking-widest"><i class="fa-solid fa-file-pen"></i> 自訂填空題專區 (可不填，不填將自動根據單字遮罩)</span>
+                                <div>
+                                    <label class="block text-[8px] text-slate-400 font-bold mb-1">字彙填空自訂題目 (單字位置請打底線，如 a______e)</label>
+                                    <input type="text" id="form-cloze-q" placeholder="例如: Judy study hard in order to a______e her dream." class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" />
+                                </div>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <div>
+                                        <label class="block text-[8px] text-slate-400 font-bold mb-1">填空中文翻譯提示</label>
+                                        <input type="text" id="form-cloze-cn" placeholder="例如: 茱蒂努力讀書是為了要實現..." class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" />
+                                    </div>
+                                    <div>
+                                        <label class="block text-[8px] text-slate-400 font-bold mb-1">標準答案 (預設為對應英文字詞)</label>
+                                        <input type="text" id="form-cloze-ans" placeholder="例如: achieve" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" />
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="flex justify-end">
-                                <button onclick="saveSingleFormItem()" class="px-5 py-2.5 bg-orange-550 hover:bg-orange-650 text-slate-950 font-black text-xs rounded-xl transition-all shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-sm"></i> 儲存單字</button>
+                                <button onclick="saveSingleFormItem()" class="px-5 py-2.5 bg-orange-550 hover:bg-orange-650 text-slate-950 font-black text-xs rounded-xl transition-all shadow-lg flex items-center gap-1.5">
+                                    <i class="fa-solid fa-square-plus text-sm"></i> 儲存此單字
+                                </button>
                             </div>
                         </div>
 
-                    </div>
+                    </div> <!-- End of Grid -->
 
                     <div class="p-5 rounded-2xl bg-slate-900/40 border border-blue-500/20 shadow-lg flex flex-col gap-4">
                         <div class="flex justify-between items-center border-b border-slate-800 pb-2">
-                            <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub JSON 智慧提取同步大陣</h4>
-                            <button onclick="fillGithubSampleUrl()" class="text-[10px] text-blue-300 hover:text-blue-200 bg-blue-950/40 border border-blue-800/50 px-2 py-1 rounded-md font-bold transition-all">帶入測試 JSON</button>
+                            <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5">
+                                <i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取同步大陣
+                            </h4>
+                            <button onclick="fillGithubSampleUrl()" class="text-[10px] text-blue-300 hover:text-blue-200 bg-blue-950/40 border border-blue-800/50 px-2 py-1 rounded-md font-bold transition-all">
+                                <i class="fa-solid fa-circle-info mr-1"></i> 填入預設測試 JSON
+                            </button>
                         </div>
+                        
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                             <div class="md:col-span-2">
-                                <label class="block text-[9px] text-blue-350 font-extrabold mb-1">GitHub Raw JSON URL</label>
-                                <input type="text" id="github-url-input" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none" />
+                                <label class="block text-[9px] text-blue-350 font-extrabold mb-1">GitHub Raw JSON URL (自動將一般網頁網址解析為 RAW 格式)</label>
+                                <input type="text" id="github-url-input" placeholder="請貼入 https://raw.githubusercontent.com/... 或 https://github.com/... 的 json 連結" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none transition-colors animate-pulse-once" />
                             </div>
                             <div>
                                 <label class="block text-[9px] text-blue-350 font-extrabold mb-1.5">資料匯入交互模式</label>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
-                                    <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer select-none"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
-                                    <label class="flex items-center gap-1.5 text-xs text-rose-400 cursor-pointer select-none"><input type="radio" name="github-import-mode" value="overwrite" class="accent-rose-500" /><span>覆蓋現有</span></label>
+                                    <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer select-none">
+                                        <input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" />
+                                        <span>合併儲存</span>
+                                    </label>
+                                    <label class="flex items-center gap-1.5 text-xs text-rose-400 cursor-pointer select-none">
+                                        <input type="radio" name="github-import-mode" value="overwrite" class="accent-rose-500" />
+                                        <span>覆蓋現有</span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="bg-slate-950/50 p-3 rounded-xl border border-slate-850 text-[10px] text-slate-450 leading-relaxed font-mono">
+                            <p class="font-bold text-blue-300 mb-1">💡 GitHub JSON 標準格式升級指引：</p>
+                            新版 JSON 支援將單字分類到 <code class="text-orange-400">basic</code>, <code class="text-orange-400">intermediate</code>, <code class="text-orange-400">advanced</code> 三個難度。<br>
+                            若您匯入的是舊版 JSON，系統會「自動向下相容」將它們存入【🌱初級】中！
+                        </div>
+
                         <div class="flex gap-2 justify-end">
-                            <button onclick="saveAdminSyncToGlobal()" class="px-5 py-2 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold text-xs rounded-xl">綁定為自動同步</button>
-                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-xs rounded-xl shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-cloud-arrow-down"></i> 啟動雲端提取</button>
+                            <button id="github-save-global-btn" onclick="saveAdminSyncToGlobal()" class="px-5 py-2 bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 text-slate-300 font-bold text-xs rounded-xl transition-all">
+                                綁定為「首頁自動同步」網址
+                            </button>
+                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-550 hover:to-indigo-550 text-white font-black text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5">
+                                <i class="fa-solid fa-cloud-arrow-down"></i> 啟動雲端提取大陣
+                            </button>
                         </div>
                     </div>
 
                     <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800">
                         <div class="flex flex-wrap justify-between items-center mb-4 gap-3">
-                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-database text-orange-450"></i> 全局單字清單管理</h4>
-                            <button onclick="clearDatabaseSource('main')" class="px-3 py-1.5 bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/20 rounded-xl font-bold text-xs transition-all flex items-center gap-1"><i class="fa-solid fa-trash-can"></i> 清空修煉大典</button>
+                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5">
+                                <i class="fa-solid fa-database text-orange-450"></i> 全局單字清單管理與清空
+                            </h4>
+                            <div class="flex gap-2">
+                                <button onclick="clearDatabaseSource('main')" class="px-3 py-1.5 bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/20 rounded-xl font-bold text-xs transition-all flex items-center gap-1">
+                                    <i class="fa-solid fa-trash-can"></i> 清空修煉大典
+                                </button>
+                            </div>
                         </div>
+                        
                         <div class="max-h-[30vh] overflow-y-auto border border-slate-800/80 rounded-xl bg-slate-950/40 p-2">
                             <table class="w-full text-left text-xs text-slate-300">
                                 <thead class="text-[9px] uppercase font-black text-slate-500 border-b border-slate-800/80 sticky top-0 bg-slate-950 z-10">
-                                    <tr><th class="py-2 px-3">英文字彙/片語</th><th class="py-2 px-3">中文翻譯</th><th class="py-2 px-3">填空自訂情況</th><th class="py-2 px-3">分類/難度/境界/章節</th><th class="py-2 px-3 text-center">刪除</th></tr>
+                                    <tr>
+                                        <th class="py-2 px-3">英文字彙/片語</th>
+                                        <th class="py-2 px-3">中文翻譯</th>
+                                        <th class="py-2 px-3">填空自訂情況</th>
+                                        <th class="py-2 px-3">分類/難度/境界/章節</th>
+                                        <th class="py-2 px-3 text-center">刪除</th>
+                                    </tr>
                                 </thead>
-                                <tbody id="custom-library-tbody"></tbody>
+                                <tbody id="custom-library-tbody">
+                                    <!-- Dynamic Rows -->
+                                </tbody>
                             </table>
                         </div>
                     </div>
+
                 </div>
             `;
             renderCustomLibraryTable();
-            if (userState.autoSyncUrl) document.getElementById('github-url-input').value = userState.autoSyncUrl;
+            
+            if (userState.autoSyncUrl) {
+                document.getElementById('github-url-input').value = userState.autoSyncUrl;
+            }
         }
 
         function insertTemplateText() {
             playSound('click');
-            document.getElementById('bulk-import-area').value = `achieve /əˈtʃiːv/ 達到、實現\nEg1: We can achieve our goals if we work hard.\n如果我們努力，就能實現目標。\nCloze: Judy study hard in order to a______e her dream of being a lawyer.\nClozeCn: 茱蒂努力讀書是為了要實現成為律師的夢想。\n\nbalance /ˈbæləns/ 平衡\nEg1: You need to keep a balance between work and play.\n你需要在工作與娛樂之間保持平衡。\nCloze: It is difficult to b______e a full-time job with family life.\nClozeCn: 在全職工作和家庭生活之間取得平衡是很困難的。`;
+            const txt = `achieve /əˈtʃiːv/ 達到、實現\nEg1: We can achieve our goals if we work hard.\n如果我們努力，就能實現目標。\nCloze: Judy study hard in order to a______e her dream of being a lawyer.\nClozeCn: 茱蒂努力讀書是為了要實現成為律師的夢想。\n\nbalance /ˈbæləns/ 平衡\nEg1: You need to keep a balance between work and play.\n你需要在工作與娛樂之間保持平衡。\nCloze: It is difficult to b______e a full-time job with family life.\nClozeCn: 在全職工作和家庭生活之間取得平衡是很困難的。`;
+            document.getElementById('bulk-import-area').value = txt;
             showToast("已寫入含自訂字彙填空題的範例格式！", "info");
         }
 
@@ -1862,14 +2466,19 @@
             const targetInput = document.getElementById('github-url-input');
             if (targetInput) {
                 targetInput.value = "https://github.com/less1324-blip/English-Training-Dojo/blob/0ed5d9e44a3dcdb8c2df4410bed8073285033961/intermediateL1.json";
-                showToast("已帶入 GitHub 預設 JSON 連結！", "info");
+                showToast("已帶入 GitHub 預設 JSON 連結！可按下啟動雲端提取大陣進行測試。", "info");
             }
         }
 
         function saveAdminSyncToGlobal() {
             const urlInput = document.getElementById('github-url-input');
-            if (!urlInput || urlInput.value.trim() === "") { showToast("請先輸入有效的連結！", "error"); return; }
-            userState.autoSyncUrl = urlInput.value.trim();
+            if (!urlInput) return;
+            const url = urlInput.value.trim();
+            if (url === "") {
+                showToast("請先輸入有效的連結！", "error");
+                return;
+            }
+            userState.autoSyncUrl = url;
             userState.autoSyncOnLoad = true;
             saveProgress();
             updateSyncBadgeUI();
@@ -1878,26 +2487,36 @@
 
         function normalizeImportedJson(data) {
             let normalized = {
-                vocab: { basic: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] }, intermediate: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] }, advanced: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] } },
+                vocab: {
+                    basic: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] },
+                    intermediate: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] },
+                    advanced: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] }
+                },
                 phrase: { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] }
             };
-            if (!data || typeof data !== 'object') return null;
+
+            if (!data || typeof data !== 'object') {
+                return null;
+            }
 
             const processVocabList = (list, targetDiff, targetLvl) => {
                 list.forEach(item => {
                     if (item && item.word) {
                         const cleanItem = sanitizeImportedItem(item);
-                        delete cleanItem._explicitCategory; delete cleanItem._explicitLevel;
+                        delete cleanItem._explicitCategory;
+                        delete cleanItem._explicitLevel;
                         if (!normalized.vocab[targetDiff][targetLvl]) normalized.vocab[targetDiff][targetLvl] = [];
                         normalized.vocab[targetDiff][targetLvl].push(cleanItem);
                     }
                 });
             };
+
             const processPhraseList = (list, targetLvl) => {
                 list.forEach(item => {
                     if (item && item.word) {
                         const cleanItem = sanitizeImportedItem(item);
-                        delete cleanItem._explicitCategory; delete cleanItem._explicitLevel;
+                        delete cleanItem._explicitCategory;
+                        delete cleanItem._explicitLevel;
                         if (!normalized.phrase[targetLvl]) normalized.phrase[targetLvl] = [];
                         normalized.phrase[targetLvl].push(cleanItem);
                     }
@@ -1921,12 +2540,14 @@
                     }
                 }
             }
+
             if (data.phrase) {
                 for (let lvl = 1; lvl <= 7; lvl++) {
                     const levelArray = data.phrase[lvl] || data.phrase[String(lvl)];
                     if (Array.isArray(levelArray)) processPhraseList(levelArray, lvl);
                 }
             }
+
             const hasLevelKeys = [1, 2, 3, 4, 5, 6, 7].some(lvl => Array.isArray(data[lvl]) || Array.isArray(data[String(lvl)]));
             if (hasLevelKeys && !data.vocab && !data.phrase) {
                 for (let lvl = 1; lvl <= 7; lvl++) {
@@ -1935,15 +2556,26 @@
                         levelArray.forEach(item => {
                             if (item && item.word) {
                                 const cleanItem = sanitizeImportedItem(item);
-                                let cat = cleanItem._explicitCategory || (cleanItem.word.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').trim().includes(" ") ? 'phrase' : 'vocab');
+                                let cat = 'vocab';
+                                if (cleanItem._explicitCategory === 'vocab' || cleanItem._explicitCategory === 'phrase') {
+                                    cat = cleanItem._explicitCategory;
+                                } else {
+                                    const wordWithoutParens = cleanItem.word.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').trim();
+                                    cat = wordWithoutParens.includes(" ") ? 'phrase' : 'vocab';
+                                }
                                 let importedLvl = (cleanItem._explicitLevel >= 1 && cleanItem._explicitLevel <= 7) ? cleanItem._explicitLevel : lvl;
-                                if (cat === 'vocab') processVocabList([cleanItem], 'basic', importedLvl);
-                                else processPhraseList([cleanItem], importedLvl);
+                                
+                                if (cat === 'vocab') {
+                                    processVocabList([cleanItem], 'basic', importedLvl);
+                                } else {
+                                    processPhraseList([cleanItem], importedLvl);
+                                }
                             }
                         });
                     }
                 }
             }
+
             return normalized;
         }
 
@@ -1966,31 +2598,54 @@
             playSound('click');
             const urlInput = document.getElementById('github-url-input');
             const fetchBtn = document.getElementById('github-fetch-btn');
-            if (!urlInput || !fetchBtn || urlInput.value.trim() === "") { showToast("請先輸入連結！", "error"); return; }
+            
+            if (!urlInput || !fetchBtn) return;
+            
+            let rawInputUrl = urlInput.value.trim();
+            if (rawInputUrl === "") {
+                showToast("請先輸入 GitHub JSON 雲端連結！", "error");
+                return;
+            }
 
             const origBtnHtml = fetchBtn.innerHTML;
             fetchBtn.disabled = true;
             fetchBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin mr-1.5"></i> 下載同步中...`;
 
-            const urls = urlInput.value.trim().split(/[\n,]+/).map(u => u.trim()).filter(u => u.length > 0);
+            const urls = rawInputUrl.split(/[\n,]+/).map(u => u.trim()).filter(u => u.length > 0);
             const importMode = document.querySelector('input[name="github-import-mode"]:checked').value; 
 
             if (importMode === 'overwrite') {
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
+                mainDatabase = {
+                    vocab: { basic: {}, intermediate: {}, advanced: {} },
+                    phrase: {}
+                };
+                ['basic', 'intermediate', 'advanced'].forEach(d => {
+                    for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = [];
+                });
                 for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
             }
 
-            let totalVocab = 0, totalPhrase = 0, hasErrors = false;
+            let totalAddedVocab = 0;
+            let totalAddedPhrase = 0;
+            let hasErrors = false;
 
             for (let url of urls) {
-                if (/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i.test(url)) {
-                    url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+                const githubWebRegex = /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i;
+                if (githubWebRegex.test(url)) {
+                    url = url.replace(githubWebRegex, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
                 }
+
                 try {
                     const response = await fetch(url);
-                    if (!response.ok) { hasErrors = true; continue; }
-                    const data = normalizeImportedJson(await response.json());
+                    if (!response.ok) {
+                        console.warn(`跳過連結 ${url} (HTTP ${response.status})`);
+                        hasErrors = true;
+                        continue;
+                    }
+
+                    const rawData = await response.json();
+                    const data = normalizeImportedJson(rawData);
+
                     if (!data) continue;
 
                     ['basic', 'intermediate', 'advanced'].forEach(diff => {
@@ -2002,7 +2657,7 @@
                                     const exists = mainDatabase.vocab[diff][lvl].some(x => x.word.trim().toLowerCase() === sanitizedItem.word.trim().toLowerCase());
                                     if (importMode === 'overwrite' || !exists) {
                                         mainDatabase.vocab[diff][lvl].push(sanitizedItem);
-                                        totalVocab++;
+                                        totalAddedVocab++;
                                     }
                                 });
                             }
@@ -2017,31 +2672,51 @@
                                 const exists = mainDatabase.phrase[lvl].some(x => x.word.trim().toLowerCase() === sanitizedItem.word.trim().toLowerCase());
                                 if (importMode === 'overwrite' || !exists) {
                                     mainDatabase.phrase[lvl].push(sanitizedItem);
-                                    totalPhrase++;
+                                    totalAddedPhrase++;
                                 }
                             });
                         }
                     }
-                } catch (err) { hasErrors = true; }
+
+                } catch (err) {
+                    console.error("解析失敗:", url, err);
+                    hasErrors = true;
+                }
             }
 
-            saveProgress(); renderCustomLibraryTable(); updateHeaderUI();
-            fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml;
+            saveProgress();
+            renderCustomLibraryTable();
+            updateHeaderUI();
 
-            if (totalVocab === 0 && totalPhrase === 0 && hasErrors) {
-                playSound('wrong'); showToast(`❌ 雲端下載失敗：請確認網址格式。`, "error");
+            fetchBtn.disabled = false;
+            fetchBtn.innerHTML = origBtnHtml;
+
+            if (totalAddedVocab === 0 && totalAddedPhrase === 0 && hasErrors) {
+                playSound('wrong');
+                showToast(`❌ 雲端下載失敗：請確認網址格式或檔案公開狀態。`, "error");
             } else {
-                playSound('levelUp'); showToast(`🎉 同步成功！單字+${totalVocab}，片語+${totalPhrase}！`, "success");
-                setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1200);
+                playSound('levelUp');
+                showToast(`🎉 雲端多重提取成功！已導入單字+${totalAddedVocab}，片語+${totalAddedPhrase}！`, "success");
+                setTimeout(() => {
+                    userState.currentTab = 'list';
+                    saveProgress();
+                    updateTabButtonsUI();
+                    renderContent();
+                }, 1200);
             }
         }
 
         function openSyncSettingsModal() {
             playSound('click');
             const modal = document.getElementById('sync-settings-modal');
-            document.getElementById('modal-sync-url-input').value = userState.autoSyncUrl || "";
-            document.getElementById('modal-sync-mode').value = userState.autoSyncMode || "merge";
-            document.getElementById('modal-sync-onload').value = String(userState.autoSyncOnLoad);
+            const urlInput = document.getElementById('modal-sync-url-input');
+            const modeSelect = document.getElementById('modal-sync-mode');
+            const onloadSelect = document.getElementById('modal-sync-onload');
+            
+            if (urlInput) urlInput.value = userState.autoSyncUrl || "";
+            if (modeSelect) modeSelect.value = userState.autoSyncMode || "merge";
+            if (onloadSelect) onloadSelect.value = String(userState.autoSyncOnLoad);
+
             modal.classList.remove('pointer-events-none', 'opacity-0');
             modal.firstElementChild.classList.remove('scale-95');
         }
@@ -2054,47 +2729,82 @@
 
         function fillModalSampleUrl() {
             playSound('click');
-            document.getElementById('modal-sync-url-input').value = "https://github.com/less1324-blip/English-Training-Dojo/blob/0ed5d9e44a3dcdb8c2df4410bed8073285033961/intermediateL1.json";
-            showToast("已成功帶入 GitHub 測試網址！", "info");
+            const urlInput = document.getElementById('modal-sync-url-input');
+            if (urlInput) {
+                urlInput.value = "https://github.com/less1324-blip/English-Training-Dojo/blob/0ed5d9e44a3dcdb8c2df4410bed8073285033961/intermediateL1.json";
+                showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
+            }
         }
 
         function saveAndTriggerSync() {
-            const url = document.getElementById('modal-sync-url-input').value.trim();
+            const urlInput = document.getElementById('modal-sync-url-input');
+            const modeSelect = document.getElementById('modal-sync-mode');
+            const onloadSelect = document.getElementById('modal-sync-onload');
+
+            if (!urlInput) return;
+            const url = urlInput.value.trim();
+
             userState.autoSyncUrl = url;
-            userState.autoSyncMode = document.getElementById('modal-sync-mode').value;
-            userState.autoSyncOnLoad = document.getElementById('modal-sync-onload').value === "true";
-            saveProgress(); updateSyncBadgeUI(); closeSyncSettingsModal();
-            if (url !== "") backgroundSync(url, userState.autoSyncMode);
-            else showToast("已清除並儲存同步法陣設定！", "info");
+            userState.autoSyncMode = modeSelect ? modeSelect.value : "merge";
+            userState.autoSyncOnLoad = onloadSelect ? (onloadSelect.value === "true") : true;
+
+            saveProgress();
+            updateSyncBadgeUI();
+            closeSyncSettingsModal();
+
+            if (url !== "") {
+                backgroundSync(url, userState.autoSyncMode);
+            } else {
+                showToast("已清除並儲存同步法陣設定！", "info");
+            }
         }
 
         async function backgroundSync(rawInputUrl, mode = "merge") {
             const syncIcon = document.getElementById('header-sync-icon');
             const syncStatus = document.getElementById('header-sync-status');
             const syncBadge = document.getElementById('header-sync-badge');
+            
             if (!rawInputUrl) return;
 
             if (syncIcon) syncIcon.className = "fa-solid fa-arrows-rotate animate-spin text-orange-400";
-            if (syncStatus) { syncStatus.textContent = "同步中..."; syncStatus.className = "text-[11px] font-black text-orange-400"; }
+            if (syncStatus) {
+                syncStatus.textContent = "多重同步中...";
+                syncStatus.className = "text-[11px] font-black text-orange-400";
+            }
             if (syncBadge) syncBadge.className = "flex items-center gap-2 px-3 py-1.5 bg-slate-900 border border-orange-500/50 rounded-xl cursor-pointer shadow-neon-orange scale-95 transition-all text-orange-400";
 
             const urls = rawInputUrl.split(/[\n,]+/).map(u => u.trim()).filter(u => u.length > 0);
+
             if (mode === 'overwrite') {
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
+                mainDatabase = {
+                    vocab: { basic: {}, intermediate: {}, advanced: {} },
+                    phrase: {}
+                };
+                ['basic', 'intermediate', 'advanced'].forEach(d => {
+                    for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = [];
+                });
                 for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
             }
 
-            let totalVocab = 0, totalPhrase = 0, hasErrors = false;
+            let totalAddedVocab = 0;
+            let totalAddedPhrase = 0;
+            let hasErrors = false;
 
             for (let url of urls) {
-                if (/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i.test(url)) {
-                    url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+                const githubWebRegex = /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i;
+                if (githubWebRegex.test(url)) {
+                    url = url.replace(githubWebRegex, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
                 }
+
                 try {
                     const response = await fetch(url);
-                    if (!response.ok) { hasErrors = true; continue; }
-                    const data = normalizeImportedJson(await response.json());
+                    if (!response.ok) {
+                        hasErrors = true;
+                        continue;
+                    }
+                    const rawData = await response.json();
+                    const data = normalizeImportedJson(rawData);
+
                     if (!data) continue;
 
                     ['basic', 'intermediate', 'advanced'].forEach(diff => {
@@ -2104,7 +2814,10 @@
                                 if (!mainDatabase.vocab[diff][lvl]) mainDatabase.vocab[diff][lvl] = [];
                                 items.forEach(sanitizedItem => {
                                     const exists = mainDatabase.vocab[diff][lvl].some(x => x.word.trim().toLowerCase() === sanitizedItem.word.trim().toLowerCase());
-                                    if (mode === 'overwrite' || !exists) { mainDatabase.vocab[diff][lvl].push(sanitizedItem); totalVocab++; }
+                                    if (mode === 'overwrite' || !exists) {
+                                        mainDatabase.vocab[diff][lvl].push(sanitizedItem);
+                                        totalAddedVocab++;
+                                    }
                                 });
                             }
                         }
@@ -2116,32 +2829,53 @@
                             if (!mainDatabase.phrase[lvl]) mainDatabase.phrase[lvl] = [];
                             items.forEach(sanitizedItem => {
                                 const exists = mainDatabase.phrase[lvl].some(x => x.word.trim().toLowerCase() === sanitizedItem.word.trim().toLowerCase());
-                                if (mode === 'overwrite' || !exists) { mainDatabase.phrase[lvl].push(sanitizedItem); totalPhrase++; }
+                                if (mode === 'overwrite' || !exists) {
+                                    mainDatabase.phrase[lvl].push(sanitizedItem);
+                                    totalAddedPhrase++;
+                                }
                             });
                         }
                     }
-                } catch (err) { hasErrors = true; }
+                } catch (err) {
+                    console.error("背景同步失敗:", url, err);
+                    hasErrors = true;
+                }
             }
 
-            saveProgress(); renderContent(); updateHeaderUI();
+            saveProgress();
+            renderContent();
+            updateHeaderUI();
 
-            if (totalVocab > 0 || totalPhrase > 0 || !hasErrors) {
+            if (totalAddedVocab > 0 || totalAddedPhrase > 0 || !hasErrors) {
                 if (syncIcon) syncIcon.className = "fa-solid fa-circle-check text-emerald-400";
-                if (syncStatus) { syncStatus.textContent = "同步完成"; syncStatus.className = "text-[11px] font-black text-emerald-400"; }
+                if (syncStatus) {
+                    syncStatus.textContent = "同步完成";
+                    syncStatus.className = "text-[11px] font-black text-emerald-400";
+                }
                 if (syncBadge) syncBadge.className = "flex items-center gap-2 px-3 py-1.5 bg-slate-900 border border-emerald-500/50 rounded-xl cursor-pointer shadow-neon-emerald text-emerald-400";
-                showToast(`🌌 自動同步完成！單字+${totalVocab}，片語+${totalPhrase}！`, "success");
+
+                showToast(`🌌 雲端同步大陣施展完成！單字+${totalAddedVocab}，片語+${totalAddedPhrase}！`, "success");
             } else {
                 if (syncIcon) syncIcon.className = "fa-solid fa-circle-exclamation text-rose-400 animate-pulse";
-                if (syncStatus) { syncStatus.textContent = "連線失敗"; syncStatus.className = "text-[11px] font-black text-rose-400"; }
+                if (syncStatus) {
+                    syncStatus.textContent = "連線失敗";
+                    syncStatus.className = "text-[11px] font-black text-rose-400";
+                }
                 if (syncBadge) syncBadge.className = "flex items-center gap-2 px-3 py-1.5 bg-slate-900 border border-rose-500/50 rounded-xl cursor-pointer text-rose-400";
+
+                showToast(`❌ 雲端自動同步失敗，請檢查網路或網址。`, "error");
             }
-            setTimeout(() => { updateSyncBadgeUI(); }, 4000);
+
+            setTimeout(() => {
+                updateSyncBadgeUI();
+            }, 4000);
         }
 
         function updateSyncBadgeUI() {
             const syncIcon = document.getElementById('header-sync-icon');
             const syncStatus = document.getElementById('header-sync-status');
             const syncBadge = document.getElementById('header-sync-badge');
+            
             if (!syncIcon || !syncStatus || !syncBadge) return;
 
             syncBadge.className = "flex items-center gap-2 px-3 py-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-blue-500/50 rounded-xl cursor-pointer transition-all active:scale-95 text-slate-400 hover:text-blue-400 group";
@@ -2166,48 +2900,79 @@
             const targetLevelSelect = document.getElementById('bulk-level');
             const targetUnitSelect = document.getElementById('bulk-unit');
             
-            const rawText = textarea.value.trim();
-            if (rawText === "") { showToast("請先輸入資料！", "error"); return; }
+            if (!textarea || !targetDojoSelect || !targetLevelSelect || !targetUnitSelect) return;
 
+            const rawText = textarea.value.trim();
+            const chosenDojo = targetDojoSelect.value; 
             const chosenDifficulty = targetDifficultySelect ? targetDifficultySelect.value : 'basic';
             const chosenLevel = parseInt(targetLevelSelect.value); 
             const chosenUnit = parseInt(targetUnitSelect.value); 
 
+            if (rawText === "") {
+                showToast("請先輸入欲進行格式解析的單字！", "error");
+                return;
+            }
+
             const blocks = rawText.split(/\n\s*\n/);
-            let addedCountVocab = 0; let addedCountPhrase = 0;
+            let addedCountVocab = 0;
+            let addedCountPhrase = 0;
 
             blocks.forEach(block => {
                 const lines = block.split('\n').map(line => line.trim()).filter(line => line.length > 0);
                 if (lines.length >= 2) {
                     const line1 = lines[0];
                     const chineseCharMatch = line1.match(/[\u4e00-\u9fa5]/);
-                    let englishPart = line1; let chinesePart = "";
+                    
+                    let englishPart = line1;
+                    let chinesePart = "";
+                    
                     if (chineseCharMatch) {
                         const firstCnIdx = line1.indexOf(chineseCharMatch[0]);
                         englishPart = line1.substring(0, firstCnIdx).trim();
                         chinesePart = line1.substring(firstCnIdx).trim();
                     }
 
-                    let englishExample = "", chineseExample = "", clozeQ = "", clozeCn = "", clozeAns = "";
+                    let englishExample = "";
+                    let chineseExample = "";
+                    let clozeQ = "";
+                    let clozeCn = "";
+                    let clozeAns = "";
+
                     for (let i = 1; i < lines.length; i++) {
                         const ln = lines[i];
-                        if (ln.toLowerCase().startsWith("cloze:")) clozeQ = ln.replace(/^cloze:\s*/i, "").trim();
-                        else if (ln.toLowerCase().startsWith("clozecn:")) clozeCn = ln.replace(/^clozecn:\s*/i, "").trim();
-                        else if (ln.toLowerCase().startsWith("clozeans:")) clozeAns = ln.replace(/^clozeans:\s*/i, "").trim();
-                        else {
-                            if (!englishExample) englishExample = ln.replace(/^Eg\d*:\s*/i, "").trim();
-                            else if (!chineseExample) chineseExample = ln.trim();
+                        if (ln.toLowerCase().startsWith("cloze:")) {
+                            clozeQ = ln.replace(/^cloze:\s*/i, "").trim();
+                        } else if (ln.toLowerCase().startsWith("clozecn:")) {
+                            clozeCn = ln.replace(/^clozecn:\s*/i, "").trim();
+                        } else if (ln.toLowerCase().startsWith("clozeans:")) {
+                            clozeAns = ln.replace(/^clozeans:\s*/i, "").trim();
+                        } else {
+                            if (!englishExample) {
+                                englishExample = ln.replace(/^Eg\d*:\s*/i, "").trim();
+                            } else if (!chineseExample) {
+                                chineseExample = ln.trim();
+                            }
                         }
                     }
 
                     if (englishPart && chinesePart) {
                         const targetObj = {
-                            word: englishPart, chinese: chinesePart,
-                            example: englishExample || "No example sentence provided.", exampleCn: chineseExample || "無中文例句翻譯。",
-                            clozeQuestion: clozeQ || "", clozeCn: clozeCn || "", clozeAnswer: clozeAns || englishPart, unit: chosenUnit
+                            word: englishPart,
+                            chinese: chinesePart,
+                            example: englishExample || "No example sentence provided.",
+                            exampleCn: chineseExample || "無中文例句翻譯。",
+                            clozeQuestion: clozeQ || "",
+                            clozeCn: clozeCn || "",
+                            clozeAnswer: clozeAns || englishPart,
+                            unit: chosenUnit
                         };
-                        let finalDojo = targetDojoSelect.value;
-                        if (finalDojo === 'auto') finalDojo = (englishPart.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').trim().match(/\s/g) || []).length > 0 ? 'phrase' : 'vocab';
+
+                        let finalDojo = chosenDojo;
+                        if (chosenDojo === 'auto') {
+                            const pureWord = englishPart.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').trim();
+                            const spaceCount = (pureWord.match(/\s/g) || []).length;
+                            finalDojo = spaceCount > 0 ? 'phrase' : 'vocab';
+                        }
 
                         if (finalDojo === 'vocab') {
                             if (!mainDatabase.vocab[chosenDifficulty]) mainDatabase.vocab[chosenDifficulty] = {};
@@ -2224,14 +2989,34 @@
             });
 
             if (addedCountVocab === 0 && addedCountPhrase === 0) {
-                showToast("解碼失敗，請確認是否符合範例格式。", "error");
+                showToast("解碼失敗，請確認是否符合範例格式（兩組單字間必須有空行隔開）。", "error");
             } else {
-                saveProgress(); textarea.value = ""; 
-                userState.currentLevel = chosenLevel; userState.currentUnit = chosenUnit; userState.currentDifficulty = chosenDifficulty;
+                saveProgress();
+                textarea.value = ""; 
+
+                userState.currentLevel = chosenLevel;
+                userState.currentUnit = chosenUnit;
+                userState.currentDifficulty = chosenDifficulty;
                 userState.currentDojo = addedCountVocab >= addedCountPhrase ? 'vocab' : 'phrase';
-                userState.currentTab = 'list'; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-                saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent(); updateHeaderUI();
-                showToast(`🎉 成功新增單字+${addedCountVocab}，片語+${addedCountPhrase}！`, "success");
+                userState.currentTab = 'list';
+                
+                userState.flashcardIndex = 0;
+                userState.quizIndex = 0;
+                userState.spellingIndex = 0;
+                userState.clozeIndex = 0;
+                userState.speakingIndex = 0;
+                
+                saveProgress();
+                
+                updateDojoTabUI();
+                renderDifficultySelector();
+                renderLevelSelector();
+                renderUnitSelector();
+                updateTabButtonsUI();
+                renderContent();
+                updateHeaderUI();
+
+                showToast(`🎉 成功解析！新增單字+${addedCountVocab}，片語+${addedCountPhrase}！已轉跳修煉大廳。`, "success");
             }
         }
 
@@ -2239,22 +3024,31 @@
             playSound('click');
             const word = document.getElementById('form-word').value.trim();
             const chinese = document.getElementById('form-chinese').value.trim();
-            if (word === "" || chinese === "") { showToast("單字英漢翻譯皆為必填！", "error"); return; }
-            
             const dojo = document.getElementById('form-dojo').value;
             const difficulty = document.getElementById('form-difficulty').value;
             const level = parseInt(document.getElementById('form-level').value);
             const unit = parseInt(document.getElementById('form-unit').value);
             const example = document.getElementById('form-example').value.trim();
             const exampleCn = document.getElementById('form-example-cn').value.trim();
+            
             const clozeQ = document.getElementById('form-cloze-q').value.trim();
             const clozeCn = document.getElementById('form-cloze-cn').value.trim();
             const clozeAns = document.getElementById('form-cloze-ans').value.trim();
 
+            if (word === "" || chinese === "") {
+                showToast("單字英漢翻譯皆為必填！", "error");
+                return;
+            }
+
             const item = {
-                word, chinese,
-                example: example || "No example provided.", exampleCn: exampleCn || "無例句對照。",
-                clozeQuestion: clozeQ || "", clozeCn: clozeCn || "", clozeAnswer: clozeAns || word, unit
+                word: word,
+                chinese: chinese,
+                example: example || "No example provided.",
+                exampleCn: exampleCn || "無例句對照。",
+                clozeQuestion: clozeQ || "",
+                clozeCn: clozeCn || "",
+                clozeAnswer: clozeAns || word,
+                unit: unit
             };
 
             if (dojo === 'vocab') {
@@ -2265,18 +3059,45 @@
                 if (!mainDatabase.phrase[level]) mainDatabase.phrase[level] = [];
                 mainDatabase.phrase[level].push(item);
             }
+            saveProgress();
+
+            document.getElementById('form-word').value = "";
+            document.getElementById('form-chinese').value = "";
+            document.getElementById('form-example').value = "";
+            document.getElementById('form-example-cn').value = "";
+            document.getElementById('form-cloze-q').value = "";
+            document.getElementById('form-cloze-cn').value = "";
+            document.getElementById('form-cloze-ans').value = "";
+
+            userState.currentDojo = dojo;
+            userState.currentDifficulty = difficulty;
+            userState.currentLevel = level;
+            userState.currentUnit = unit;
+            userState.currentTab = 'list';
             
-            ['word', 'chinese', 'example', 'example-cn', 'cloze-q', 'cloze-cn', 'cloze-ans'].forEach(id => document.getElementById('form-' + id).value = "");
-            
-            userState.currentDojo = dojo; userState.currentDifficulty = difficulty; userState.currentLevel = level; userState.currentUnit = unit;
-            userState.currentTab = 'list'; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent(); updateHeaderUI();
-            showToast(`成功新增 [${word}]！`, "success");
+            userState.flashcardIndex = 0;
+            userState.quizIndex = 0;
+            userState.spellingIndex = 0;
+            userState.clozeIndex = 0;
+            userState.speakingIndex = 0;
+
+            saveProgress();
+
+            updateDojoTabUI();
+            renderDifficultySelector();
+            renderLevelSelector();
+            renderUnitSelector();
+            updateTabButtonsUI();
+            renderContent();
+            updateHeaderUI();
+
+            showToast(`成功新增 [${word}]！已自動轉跳大廳！`, "success");
         }
 
         function renderCustomLibraryTable() {
             const tbody = document.getElementById('custom-library-tbody');
             if (!tbody) return;
+            
             tbody.innerHTML = '';
             
             const diffMap = { basic: '初級', intermediate: '中級', advanced: '中高級' };
@@ -2284,10 +3105,31 @@
                 for (let lvl = 1; lvl <= 7; lvl++) {
                     const list = mainDatabase.vocab[diff]?.[lvl] || [];
                     list.forEach((item, index) => {
-                        const clozeBadge = item.clozeQuestion && item.clozeQuestion.trim() !== "" ? `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-circle-check"></i> 已設填空</span>` : `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-slate-900 text-slate-500 border border-slate-800"><i class="fa-solid fa-circle-minus"></i> 自動填空</span>`;
+                        const hasCloze = item.clozeQuestion && item.clozeQuestion.trim() !== "";
+                        const clozeBadge = hasCloze 
+                            ? `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-circle-check"></i> 已設填空</span>`
+                            : `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-slate-900 text-slate-500 border border-slate-800"><i class="fa-solid fa-circle-minus"></i> 自動填空</span>`;
+
                         const tr = document.createElement('tr');
                         tr.className = "border-b border-slate-900/60 hover:bg-slate-900/30 transition-colors";
-                        tr.innerHTML = `<td class="py-2.5 px-3 font-bold text-slate-100">${item.word}</td><td class="py-2.5 px-3 text-slate-300 max-w-[150px] truncate" title="${item.chinese}">${item.chinese}</td><td class="py-2.5 px-3">${clozeBadge}</td><td class="py-2.5 px-3"><div class="flex flex-wrap items-center gap-1.5"><span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-900 text-slate-400 border border-slate-800">單字</span><span class="px-2 py-0.5 rounded text-[9px] font-black bg-orange-500/10 text-orange-400 border border-orange-500/20">${diffMap[diff]}</span><span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-800 text-slate-300 font-mono">L${lvl}</span><span class="px-2 py-0.5 rounded text-[9px] font-black bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">U${item.unit || 1}</span></div></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${diff}', ${lvl}, ${index})" class="text-rose-450 hover:text-rose-300 transition-colors"><i class="fa-solid fa-trash-can"></i></button></td>`;
+                        tr.innerHTML = `
+                            <td class="py-2.5 px-3 font-bold text-slate-100">${item.word}</td>
+                            <td class="py-2.5 px-3 text-slate-300 max-w-[150px] truncate" title="${item.chinese}">${item.chinese}</td>
+                            <td class="py-2.5 px-3">${clozeBadge}</td>
+                            <td class="py-2.5 px-3">
+                                <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-900 text-slate-400 border border-slate-800">單字</span>
+                                    <span class="px-2 py-0.5 rounded text-[9px] font-black bg-orange-500/10 text-orange-400 border border-orange-500/20">${diffMap[diff]}</span>
+                                    <span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-800 text-slate-300 font-mono">L${lvl}</span>
+                                    <span class="px-2 py-0.5 rounded text-[9px] font-black bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">U${item.unit || 1}</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-3 text-center">
+                                <button onclick="deleteDatabaseItem('vocab', '${diff}', ${lvl}, ${index})" class="text-rose-450 hover:text-rose-300 transition-colors">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </td>
+                        `;
                         tbody.appendChild(tr);
                     });
                 }
@@ -2296,39 +3138,89 @@
             for (let lvl = 1; lvl <= 7; lvl++) {
                 const list = mainDatabase.phrase?.[lvl] || [];
                 list.forEach((item, index) => {
-                    const clozeBadge = item.clozeQuestion && item.clozeQuestion.trim() !== "" ? `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-circle-check"></i> 已設填空</span>` : `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-slate-900 text-slate-500 border border-slate-800"><i class="fa-solid fa-circle-minus"></i> 自動填空</span>`;
+                    const hasCloze = item.clozeQuestion && item.clozeQuestion.trim() !== "";
+                    const clozeBadge = hasCloze 
+                        ? `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-circle-check"></i> 已設填空</span>`
+                        : `<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-slate-900 text-slate-500 border border-slate-800"><i class="fa-solid fa-circle-minus"></i> 自動填空</span>`;
+
                     const tr = document.createElement('tr');
                     tr.className = "border-b border-slate-900/60 hover:bg-slate-900/30 transition-colors";
-                    tr.innerHTML = `<td class="py-2.5 px-3 font-bold text-slate-100">${item.word}</td><td class="py-2.5 px-3 text-slate-300 max-w-[150px] truncate" title="${item.chinese}">${item.chinese}</td><td class="py-2.5 px-3">${clozeBadge}</td><td class="py-2.5 px-3"><div class="flex flex-wrap items-center gap-1.5"><span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-900 text-blue-400 border border-slate-800">片語</span><span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-800 text-slate-300 font-mono">L${lvl}</span><span class="px-2 py-0.5 rounded text-[9px] font-black bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">U${item.unit || 1}</span></div></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('phrase', null, ${lvl}, ${index})" class="text-rose-450 hover:text-rose-300 transition-colors"><i class="fa-solid fa-trash-can"></i></button></td>`;
+                    tr.innerHTML = `
+                        <td class="py-2.5 px-3 font-bold text-slate-100">${item.word}</td>
+                        <td class="py-2.5 px-3 text-slate-300 max-w-[150px] truncate" title="${item.chinese}">${item.chinese}</td>
+                        <td class="py-2.5 px-3">${clozeBadge}</td>
+                        <td class="py-2.5 px-3">
+                            <div class="flex flex-wrap items-center gap-1.5">
+                                <span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-900 text-blue-400 border border-slate-800">片語</span>
+                                <span class="px-2 py-0.5 rounded text-[9px] font-black bg-slate-800 text-slate-300 font-mono">L${lvl}</span>
+                                <span class="px-2 py-0.5 rounded text-[9px] font-black bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">U${item.unit || 1}</span>
+                            </div>
+                        </td>
+                        <td class="py-2.5 px-3 text-center">
+                            <button onclick="deleteDatabaseItem('phrase', null, ${lvl}, ${index})" class="text-rose-450 hover:text-rose-300 transition-colors">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </button>
+                        </td>
+                    `;
                     tbody.appendChild(tr);
                 });
             }
 
-            if (tbody.children.length === 0) tbody.innerHTML = `<tr><td colspan="5" class="py-6 text-center text-slate-500 font-semibold italic">修煉法海目前空無一物。請在上方選擇目標境界並進行匯入！</td></tr>`;
+            let total = 0;
+            ['basic', 'intermediate', 'advanced'].forEach(d => { for (let l = 1; l <= 7; l++) total += (mainDatabase.vocab[d]?.[l]?.length || 0); });
+            for (let l = 1; l <= 7; l++) total += (mainDatabase.phrase?.[l]?.length || 0);
+
+            if (total === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="5" class="py-6 text-center text-slate-500 font-semibold italic">修煉法海目前空無一物。請在上方選擇目標境界並進行匯入！</td>
+                    </tr>
+                `;
+            }
         }
 
         function deleteDatabaseItem(dojo, difficulty, level, index) {
             playSound('wrong');
-            if (dojo === 'vocab') mainDatabase.vocab[difficulty][level].splice(index, 1);
-            else mainDatabase.phrase[level].splice(index, 1);
-            saveProgress(); renderCustomLibraryTable(); showToast("成功刪除修行項目！", "info");
+            if (dojo === 'vocab') {
+                mainDatabase.vocab[difficulty][level].splice(index, 1);
+            } else {
+                mainDatabase.phrase[level].splice(index, 1);
+            }
+            saveProgress();
+            renderCustomLibraryTable();
+            showToast("成功刪除修行項目！", "info");
         }
 
         function clearDatabaseSource(sourceKey) {
-            showCustomConfirm("確定清空所有修煉大典嗎？", "此動作將完全刪除修煉大典下所有的境界的英文字彙及生活例句，且無法還原！", () => {
-                playSound('wrong');
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
-                saveProgress(); renderCustomLibraryTable(); showToast(`修煉大典已完全淨化清空！`, "error");
-            });
+            showCustomConfirm(
+                `確定清空所有修煉大典嗎？`,
+                `此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 7 的英文字彙及生活例句，且無法還原！`,
+                () => {
+                    playSound('wrong');
+                    mainDatabase = {
+                        vocab: { basic: {}, intermediate: {}, advanced: {} },
+                        phrase: {}
+                    };
+                    ['basic', 'intermediate', 'advanced'].forEach(d => {
+                        for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = [];
+                    });
+                    for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
+
+                    saveProgress();
+                    renderCustomLibraryTable();
+                    showToast(`修煉大典已完全淨化清空！`, "error");
+                }
+            );
         }
 
         function openStatsModal() {
             playSound('click');
             const modal = document.getElementById('stats-dashboard-modal');
+            
             document.getElementById('stats-total-answered').textContent = userState.totalAnswered;
-            document.getElementById('stats-accuracy').textContent = `${userState.totalAnswered > 0 ? Math.round((userState.correctCount / userState.totalAnswered) * 100) : 0}%`;
+            
+            const accuracy = userState.totalAnswered > 0 ? Math.round((userState.correctCount / userState.totalAnswered) * 100) : 0;
+            document.getElementById('stats-accuracy').textContent = `${accuracy}%`;
             document.getElementById('stats-current-streak').textContent = userState.streak;
             document.getElementById('stats-highest-streak').textContent = userState.highestStreak || 0;
 
@@ -2351,48 +3243,79 @@
         }
 
         function resetStats() {
-            showCustomConfirm("確定重置修行進度與連擊統計？", "此操作將會把您修煉數據中的連擊次數、修行次數以及正確率重設歸零，但不會影響已導入的英文字彙庫。", () => {
-                userState.totalAnswered = 0; userState.correctCount = 0; userState.streak = 0; userState.highestStreak = 0; userState.exp = 0;
-                saveProgress(); updateHeaderUI(); closeStatsModal(); showToast("📊 修煉統計數據已重新回歸虛無！", "success");
-            });
+            showCustomConfirm(
+                "確定重置修行進度與連擊統計？",
+                "此操作將會把您修煉數據中的連擊次數、修行次數以及正確率重設歸零，但不會影響已導入的英文字彙庫。",
+                () => {
+                    userState.totalAnswered = 0;
+                    userState.correctCount = 0;
+                    userState.streak = 0;
+                    userState.highestStreak = 0;
+                    userState.exp = 0;
+                    saveProgress();
+                    updateHeaderUI();
+                    closeStatsModal();
+                    showToast("📊 修煉統計數據已重新回歸虛無！", "success");
+                }
+            );
         }
 
         window.onkeydown = function(e) {
-            if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+            if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+                return;
+            }
+            
             const dataList = getActiveDataList();
             if (dataList.length === 0) return;
 
             if (userState.currentTab === 'flashcard') {
-                if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); flipFlashcard(); } 
-                else if (e.key === 'ArrowLeft') navigateFlashcard(-1, dataList.length);
-                else if (e.key === 'ArrowRight') navigateFlashcard(1, dataList.length);
+                if (e.key === ' ' || e.code === 'Space') {
+                    e.preventDefault();
+                    flipFlashcard();
+                } else if (e.key === 'ArrowLeft') {
+                    navigateFlashcard(-1, dataList.length);
+                } else if (e.key === 'ArrowRight') {
+                    navigateFlashcard(1, dataList.length);
+                }
             } else if (userState.currentTab === 'quiz') {
                 if (['1', '2', '3', '4'].includes(e.key)) {
                     const optionButtons = document.querySelectorAll('#quiz-options-container button');
                     const targetIdx = parseInt(e.key) - 1;
-                    if (optionButtons[targetIdx] && !optionButtons[targetIdx].disabled) optionButtons[targetIdx].click();
+                    if (optionButtons[targetIdx] && !optionButtons[targetIdx].disabled) {
+                        optionButtons[targetIdx].click();
+                    }
                 } else if (e.key === 'Enter') {
                     const actionBtn = document.querySelector('#quiz-action-bar button');
-                    if (actionBtn && !actionBtn.closest('.hidden')) actionBtn.click();
+                    if (actionBtn && !actionBtn.closest('.hidden')) {
+                        actionBtn.click();
+                    }
                 }
             }
         };
 
         window.onload = function() {
             loadProgress();
+            
             const urlParams = new URLSearchParams(window.location.search);
             const urlSync = urlParams.get('sync');
             if (urlSync && urlSync.trim() !== "") {
                 userState.autoSyncUrl = urlSync.trim();
                 userState.autoSyncOnLoad = true;
                 saveProgress();
+                
                 const cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
                 window.history.pushState({ path: cleanUrl }, '', cleanUrl);
             }
 
             updateDojoTabUI();
-            renderDifficultySelector(); renderLevelSelector(); renderUnitSelector();
-            renderContent(); updateHeaderUI(); updateTabButtonsUI(); updateSyncBadgeUI(); updateVoicePanelUI();
+            renderDifficultySelector();
+            renderLevelSelector();
+            renderUnitSelector();
+            renderContent();
+            updateHeaderUI();
+            updateTabButtonsUI();
+            updateSyncBadgeUI();
+            updateVoicePanelUI();
 
             if (userState.autoSyncOnLoad && userState.autoSyncUrl && userState.autoSyncUrl.trim() !== "") {
                 backgroundSync(userState.autoSyncUrl, userState.autoSyncMode);

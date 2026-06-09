@@ -354,7 +354,7 @@
             <div class="flex flex-col gap-3">
                 <div>
                     <label class="block text-[10px] text-blue-300 font-extrabold mb-1">GitHub JSON Raw URL</label>
-                    <textarea id="modal-sync-url-input" rows="3" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea>
+                    <textarea id="modal-sync-url-input" rows="3" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea>
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <div>
@@ -432,7 +432,7 @@
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json",
+            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
@@ -461,9 +461,9 @@
 
         function getActiveDataList() {
             if (userState.currentDojo === 'vocab') {
-                return (mainDatabase.vocab[userState.currentDifficulty]?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
+                return ((mainDatabase.vocab[userState.currentDifficulty] && mainDatabase.vocab[userState.currentDifficulty][userState.currentLevel]) || []).filter(item => (item.unit || 1) === userState.currentUnit);
             } else {
-                return (mainDatabase.phrase?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
+                return ((mainDatabase.phrase && mainDatabase.phrase[userState.currentLevel]) || []).filter(item => (item.unit || 1) === userState.currentUnit);
             }
         }
 
@@ -551,7 +551,7 @@
             // 搜尋單字庫
             for (const diff of ['basic', 'intermediate', 'advanced']) {
                 for (let l = 1; l <= 7; l++) {
-                    const list = mainDatabase.vocab[diff]?.[l] || [];
+                    const list = (mainDatabase.vocab[diff] && mainDatabase.vocab[diff][l]) || [];
                     const found = list.find(item => item.word.toLowerCase() === sw);
                     if (found) return found.chinese;
                 }
@@ -559,7 +559,7 @@
             
             // 搜尋片語庫
             for (let l = 1; l <= 7; l++) {
-                const list = mainDatabase.phrase?.[l] || [];
+                const list = (mainDatabase.phrase && mainDatabase.phrase[l]) || [];
                 const found = list.find(item => item.word.toLowerCase() === sw);
                 if (found) return found.chinese;
             }
@@ -671,8 +671,11 @@
             try { savedState = localStorage.getItem('english_dojo_state_v5'); savedMainDb = localStorage.getItem('english_dojo_main_db_v5'); } catch (e) {}
             if (savedState) {
                 try { 
-                    userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+                    userState = Object.assign({}, userState, JSON.parse(savedState)); 
+                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+                    else if (!userState.autoSyncUrl.includes("yichentesting")) {
+                        userState.autoSyncUrl += "\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+                    }
                 } catch(e) {}
             }
             if (savedMainDb) {
@@ -969,7 +972,7 @@
                 wrongOptions.push({ word: "Dummy" + wrongOptions.length, chinese: "干擾選項" + wrongOptions.length });
             }
 
-            const finalOptions = [correctItem, ...wrongOptions];
+            const finalOptions = [correctItem].concat(wrongOptions);
             for (let i = finalOptions.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [finalOptions[i], finalOptions[j]] = [finalOptions[j], finalOptions[i]];
@@ -1335,8 +1338,8 @@
         function renderAdminTab() {
             const contentDiv = document.getElementById('dojo-content');
             let mainVocab = 0, mainPhrase = 0;
-            ['basic', 'intermediate', 'advanced'].forEach(d => { for (let l=1; l<=7; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; });
-            for (let l=1; l<=7; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
+            ['basic', 'intermediate', 'advanced'].forEach(d => { for (let l=1; l<=7; l++) mainVocab += (mainDatabase.vocab[d] && mainDatabase.vocab[d][l] ? mainDatabase.vocab[d][l].length : 0); });
+            for (let l=1; l<=7; l++) mainPhrase += (mainDatabase.phrase && mainDatabase.phrase[l] ? mainDatabase.phrase[l].length : 0);
 
             contentDiv.innerHTML = `
                 <div class="flex flex-col gap-6">
@@ -1394,7 +1397,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><input type="text" id="github-url-input" placeholder="請貼入 JSON 連結" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none" /></div>
+                            <div class="md:col-span-2"><textarea id="github-url-input" rows="2" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
                             <div>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1435,11 +1438,12 @@
 
         function fillGithubSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('github-url-input');
-            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
         }
 
         function saveAdminSyncToGlobal() {
-            const url = document.getElementById('github-url-input')?.value.trim();
+            const inputEl = document.getElementById('github-url-input');
+            const url = inputEl ? inputEl.value.trim() : '';
             if (!url) return;
             userState.autoSyncUrl = url; userState.autoSyncOnLoad = true; saveProgress(); updateSyncBadgeUI(); showToast("💾 已將此雲端網址設定為首頁自動同步連結！", "success");
         }
@@ -1484,59 +1488,83 @@
             const origBtnHtml = fetchBtn.innerHTML; fetchBtn.disabled = true; fetchBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin mr-1.5"></i> 下載同步中...`;
             const importMode = document.querySelector('input[name="github-import-mode"]:checked').value; 
             
+            const rawUrls = urlInput.value.trim().split('\n').map(u => u.trim()).filter(u => u !== '');
+            if (rawUrls.length === 0) { fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml; return; }
+
             if (importMode === 'overwrite') {
                 ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
                 for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
             }
             
-            let url = urlInput.value.trim();
-            if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+            let successCount = 0;
+            
+            for (let rawUrl of rawUrls) {
+                let url = rawUrl;
+                if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
 
-            try {
-                const res = await fetch(url);
-                if (res.ok) {
-                    const data = normalizeImportedJson(await res.json());
-                    if (data) {
-                        ['basic', 'intermediate', 'advanced'].forEach(d => {
+                try {
+                    const res = await fetch(url);
+                    if (res.ok) {
+                        const data = normalizeImportedJson(await res.json());
+                        if (data) {
+                            ['basic', 'intermediate', 'advanced'].forEach(d => {
+                                for(let l=1; l<=7; l++) {
+                                    data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                }
+                            });
                             for(let l=1; l<=7; l++) {
-                                data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                             }
-                        });
-                        for(let l=1; l<=7; l++) {
-                            data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
+                            successCount++;
                         }
-                        playSound('levelUp'); showToast("雲端提取成功！", "success");
-                        setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
                     }
-                } else throw new Error();
-            } catch(e) { playSound('wrong'); showToast("下載失敗，請檢查網址", "error"); }
+                } catch(e) { console.error("Fetch failed for", url, e); }
+            }
+            
+            if (successCount > 0) {
+                playSound('levelUp'); showToast(`<i class="fa-solid fa-cloud-arrow-down mr-1"></i> 成功提取 ${successCount} 個雲端大典！`, "success");
+                setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
+            } else {
+                playSound('wrong'); showToast("下載失敗，請檢查網址", "error");
+            }
             fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml;
         }
 
-        async function backgroundSync(rawUrl, mode) {
-            if (!rawUrl) return;
-            let url = rawUrl; if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
-            try {
-                const res = await fetch(url);
-                if (res.ok) {
-                    if (mode === 'overwrite') {
-                        ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
-                        for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
-                    }
-                    const data = normalizeImportedJson(await res.json());
-                    if (data) {
-                        ['basic', 'intermediate', 'advanced'].forEach(d => {
+        async function backgroundSync(urlsStr, mode) {
+            if (!urlsStr) return;
+            const rawUrls = urlsStr.split('\n').map(u => u.trim()).filter(u => u !== '');
+            if (rawUrls.length === 0) return;
+
+            if (mode === 'overwrite') {
+                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
+                for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
+            }
+
+            let successCount = 0;
+            for (let rawUrl of rawUrls) {
+                let url = rawUrl; 
+                if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+                try {
+                    const res = await fetch(url);
+                    if (res.ok) {
+                        const data = normalizeImportedJson(await res.json());
+                        if (data) {
+                            ['basic', 'intermediate', 'advanced'].forEach(d => {
+                                for(let l=1; l<=7; l++) {
+                                    data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                }
+                            });
                             for(let l=1; l<=7; l++) {
-                                data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                data.phrase[l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                             }
-                        });
-                        for(let l=1; l<=7; l++) {
-                            data.phrase[l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
+                            successCount++;
                         }
-                        saveProgress(); renderContent(); showToast("背景同步完成", "success");
                     }
-                }
-            } catch(e) {}
+                } catch(e) {}
+            }
+            if (successCount > 0) {
+                saveProgress(); renderContent(); showToast(`背景自動同步完成 (${successCount} 個來源)`, "success");
+            }
             setTimeout(updateSyncBadgeUI, 2000);
         }
 
@@ -1582,8 +1610,8 @@
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
             if (urlInput) {
-                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
-                showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
+                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+                showToast("已成功帶入多個 GitHub 測試資料庫網址！", "info");
             }
         }
 
@@ -1645,7 +1673,7 @@
             const tbody = document.getElementById('custom-library-tbody'); if (!tbody) return; tbody.innerHTML = '';
             ['basic', 'intermediate', 'advanced'].forEach(d => {
                 for (let l = 1; l <= 7; l++) {
-                    (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
+                    ((mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
                 }

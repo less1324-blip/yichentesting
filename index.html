@@ -432,7 +432,7 @@
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json",
+            autoSyncUrl: "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
@@ -672,9 +672,12 @@
             if (savedState) {
                 try { 
                     userState = Object.assign({}, userState, JSON.parse(savedState)); 
-                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
-                    else if (!userState.autoSyncUrl.includes("yichentesting")) {
-                        userState.autoSyncUrl += "\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+                    
+                    // 防呆：如果網址是空的，或者使用者儲存的還是舊的預設網址，就幫他強迫更新為最新的預設網址！
+                    if (!userState.autoSyncUrl) {
+                        userState.autoSyncUrl = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
+                    } else if (userState.autoSyncUrl.includes("6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c")) {
+                        userState.autoSyncUrl = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
                     }
                 } catch(e) {}
             }
@@ -1397,7 +1400,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><textarea id="github-url-input" rows="2" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
+                            <div class="md:col-span-2"><textarea id="github-url-input" rows="2" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
                             <div>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1438,7 +1441,7 @@
 
         function fillGithubSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('github-url-input');
-            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+            if (targetInput) targetInput.value = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
         }
 
         function saveAdminSyncToGlobal() {
@@ -1610,7 +1613,7 @@
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
             if (urlInput) {
-                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json\nhttps://github.com/less1324-blip/yichentesting/blob/fe1a546f9c28b89168a71e30eab77bd46311868f/vocab_intermediateL1%20unit1.json";
+                urlInput.value = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
                 showToast("已成功帶入多個 GitHub 測試資料庫網址！", "info");
             }
         }

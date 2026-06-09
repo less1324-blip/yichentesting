@@ -518,26 +518,35 @@
                 utterance.lang = targetLang; utterance.rate = userState.speechRate || 0.85;
                 const voices = window.speechSynthesis.getVoices();
                 
-                // 過濾出符合目標腔調 (美式或英式) 的所有可用語音
-                let suitableVoices = voices.filter(v => v.lang.replace('_', '-').startsWith(targetLang));
-                // 萬一完全找不到目標腔調，退而求其次找任何英文發音
-                if (suitableVoices.length === 0) {
-                    suitableVoices = voices.filter(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
-                }
-
                 let selectedVoice = null;
                 
                 if (userState.voiceAccent === 'US') {
-                    // 美式發音：優先尋找清晰的「男聲」(David, Mark, Alex, Fred, Aaron 等)
-                    selectedVoice = suitableVoices.find(v => /(David|Mark|Alex|Fred|Guy|Aaron|Male)/i.test(v.name));
+                    // 美式發音 (General American) - 男聲優先
+                    // 尋找各平台中，最接近通用美式英語且發音飽滿、捲舌音清晰的語音
+                    selectedVoice = voices.find(v => 
+                        v.lang.startsWith('en-US') && 
+                        /(Alex|David|Mark|Guy|Aaron|Male|Google US English Male)/i.test(v.name)
+                    );
+                    // 如果沒有找到特定的男聲，退回任何清晰的 en-US
+                    if (!selectedVoice) {
+                         selectedVoice = voices.find(v => v.lang.startsWith('en-US') && /(Samantha|Zira|Google US English)/i.test(v.name)) || voices.find(v => v.lang.startsWith('en-US'));
+                    }
                 } else {
-                    // 英式發音：優先尋找清晰的「女聲」(Hazel, Susan, Serena, Martha, Karen 等)
-                    selectedVoice = suitableVoices.find(v => /(Hazel|Susan|Serena|Martha|Karen|Moira|Female)/i.test(v.name));
+                    // 英式發音 (Received Pronunciation, RP) - 女聲優先
+                    // 尋找各平台中，最接近 RP (牛津腔/女王英語) 的語音
+                    selectedVoice = voices.find(v => 
+                        v.lang.startsWith('en-GB') && 
+                        /(Serena|Hazel|Susan|Martha|Karen|Moira|Female|Google UK English Female)/i.test(v.name)
+                    );
+                    // 如果沒有找到特定的女聲，退回任何清晰的 en-GB
+                    if (!selectedVoice) {
+                        selectedVoice = voices.find(v => v.lang.startsWith('en-GB') && /(Daniel|Google UK English Male)/i.test(v.name)) || voices.find(v => v.lang.startsWith('en-GB'));
+                    }
                 }
 
-                // 如果該裝置沒有上述特定名字的男女聲，就安全退回預設的第一個該腔調聲音
-                if (!selectedVoice && suitableVoices.length > 0) {
-                    selectedVoice = suitableVoices[0];
+                // 最後的防呆：萬一完全找不到目標腔調，找任何英文發音
+                if (!selectedVoice) {
+                    selectedVoice = voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
                 }
 
                 if (selectedVoice) utterance.voice = selectedVoice;

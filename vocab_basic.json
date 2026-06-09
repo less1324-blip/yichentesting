@@ -3,7 +3,7 @@
     "basic": {
       "1": [
         {
-          "word": "a / an",
+          "word": "a (an)",
           "chinese": "一個、一間、一... （計量詞）",
           "example": "I have an apple and a banana for breakfast.",
           "exampleCn": "我早餐吃了一顆蘋果和一根香蕉。",
@@ -153,7 +153,7 @@
           "unit": 1
         },
         {
-          "word": "airplane / plane",
+          "word": "airplane (plane)",
           "chinese": "飛機",
           "example": "We will take an airplane to New York.",
           "exampleCn": "我們將搭飛機去紐約。",
@@ -210,7 +210,7 @@
           "clozeQuestion": "Is it eight o'clock ________? I am late!",
           "clozeCn": "已經八點了嗎？我遲到了！",
           "clozeAnswer": "already",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "also",
@@ -220,7 +220,7 @@
           "clozeQuestion": "He is my classmate, and ________ my best friend.",
           "clozeCn": "他是我的同班同學，也是我最好的朋友。",
           "clozeAnswer": "also",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "always",
@@ -230,7 +230,7 @@
           "clozeQuestion": "You should ________ wash your hands before eating.",
           "clozeCn": "你在吃東西前應該總是先洗手。",
           "clozeAnswer": "always",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "a.m.",
@@ -240,7 +240,7 @@
           "clozeQuestion": "Our English class starts at 9 ________.",
           "clozeCn": "我們的英文課在上午九點開始。",
           "clozeAnswer": "a.m.",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "America",
@@ -250,7 +250,7 @@
           "clozeQuestion": "Hamburgers and hot dogs are popular food in ________.",
           "clozeCn": "漢堡和熱狗在美國是受歡迎的食物。",
           "clozeAnswer": "America",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "American",
@@ -260,7 +260,7 @@
           "clozeQuestion": "I love watching ________ movies on weekends.",
           "clozeCn": "我喜歡在週末看美國電影。",
           "clozeAnswer": "American",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "and",
@@ -270,7 +270,7 @@
           "clozeQuestion": "Please bring a pen ________ some paper.",
           "clozeCn": "請帶一支筆和一些紙來。",
           "clozeAnswer": "and",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "angry",
@@ -280,7 +280,7 @@
           "clozeQuestion": "Don't be ________ with him; he didn't do it on purpose.",
           "clozeCn": "不要對他生氣；他不是故意的。",
           "clozeAnswer": "angry",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "animal",
@@ -290,7 +290,7 @@
           "clozeQuestion": "A dog is a very friendly and smart ________.",
           "clozeCn": "狗是非常友善又聰明的動物。",
           "clozeAnswer": "animal",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "another",
@@ -300,7 +300,7 @@
           "clozeQuestion": "I am still hungry. Can I have ________ piece of cake?",
           "clozeCn": "我還是很餓。我可以再吃一塊蛋糕嗎？",
           "clozeAnswer": "another",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "answer",
@@ -310,7 +310,7 @@
           "clozeQuestion": "He didn't ________ my phone call last night.",
           "clozeCn": "他昨晚沒有接我的電話。",
           "clozeAnswer": "answer",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "any",
@@ -320,17 +320,17 @@
           "clozeQuestion": "I don't have ________ money to buy the toy.",
           "clozeCn": "我沒有任何錢買這個玩具。",
           "clozeAnswer": "any",
-          "unit": 1
+          "unit": 2
         },
         {
-          "word": "anyone / anybody",
+          "word": "anyone (anybody)",
           "chinese": "任何人",
           "example": "Did anyone call me while I was out?",
           "exampleCn": "我外出的時候有任何人打給我嗎？",
           "clozeQuestion": "I didn't see ________ in the classroom.",
           "clozeCn": "我沒有在教室裡看到任何人。",
           "clozeAnswer": "anybody",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "anything",
@@ -340,7 +340,7 @@
           "clozeQuestion": "She didn't say ________ before she left.",
           "clozeCn": "她離開前什麼也沒說。",
           "clozeAnswer": "anything",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "apartment",
@@ -350,7 +350,7 @@
           "clozeQuestion": "We are moving to a new ________ next month.",
           "clozeCn": "我們下個月要搬到一間新公寓。",
           "clozeAnswer": "apartment",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "appear",
@@ -360,7 +360,7 @@
           "clozeQuestion": "The magic rabbit suddenly ________ out of the hat.",
           "clozeCn": "這隻神奇的兔子突然從帽子裡出現。",
           "clozeAnswer": "appeared",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "apple",
@@ -370,7 +370,7 @@
           "clozeQuestion": "This ________ pie is very delicious.",
           "clozeCn": "這個蘋果派非常美味。",
           "clozeAnswer": "apple",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "April",
@@ -380,7 +380,7 @@
           "clozeQuestion": "The weather gets warmer in ________.",
           "clozeCn": "天氣在四月會變暖和。",
           "clozeAnswer": "April",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "arm",
@@ -390,7 +390,7 @@
           "clozeQuestion": "She carried the heavy books under her ________.",
           "clozeCn": "她把厚重的書夾在手臂下。",
           "clozeAnswer": "arm",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "around",
@@ -400,7 +400,7 @@
           "clozeQuestion": "We walked ________ the park for an hour.",
           "clozeCn": "我們在公園周圍走了一小時。",
           "clozeAnswer": "around",
-          "unit": 1
+          "unit": 2
         },
         {
           "word": "arrive",
@@ -410,7 +410,7 @@
           "clozeQuestion": "We will ________ in London tomorrow morning.",
           "clozeCn": "我們明天早上將抵達倫敦。",
           "clozeAnswer": "arrive",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "art",
@@ -420,7 +420,7 @@
           "clozeQuestion": "We visited a famous ________ museum in Paris.",
           "clozeCn": "我們參觀了巴黎一家著名的藝術博物館。",
           "clozeAnswer": "art",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "as",
@@ -430,7 +430,7 @@
           "clozeQuestion": "She runs ________ fast as a tiger.",
           "clozeCn": "她跑得和老虎一樣快。",
           "clozeAnswer": "as",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "ask",
@@ -440,7 +440,7 @@
           "clozeQuestion": "Can I ________ you a question about the homework?",
           "clozeCn": "我可以問你一個關於作業的問題嗎？",
           "clozeAnswer": "ask",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "at",
@@ -450,7 +450,7 @@
           "clozeQuestion": "Look ________ that beautiful bird in the tree.",
           "clozeCn": "看樹上那隻美麗的鳥。",
           "clozeAnswer": "at",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "August",
@@ -460,7 +460,7 @@
           "clozeQuestion": "Summer vacation ends in ________.",
           "clozeCn": "暑假在八月結束。",
           "clozeAnswer": "August",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "aunt",
@@ -470,7 +470,7 @@
           "clozeQuestion": "We visited my uncle and ________ last weekend.",
           "clozeCn": "上週末我們去拜訪了我的叔叔和嬸嬸。",
           "clozeAnswer": "aunt",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "autumn / fall",
@@ -480,7 +480,7 @@
           "clozeQuestion": "In the ________, the weather becomes cool.",
           "clozeCn": "在秋天，天氣變得涼爽。",
           "clozeAnswer": "fall",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "away",
@@ -490,7 +490,7 @@
           "clozeQuestion": "Please put your toys ________ when you finish playing.",
           "clozeCn": "玩完後請把玩具收好。",
           "clozeAnswer": "away",
-          "unit": 1
+          "unit": 3
         },
         {
           "word": "award",
@@ -500,6 +500,1658 @@
           "clozeQuestion": "The best student got an ________ at the end of the year.",
           "clozeCn": "最好的學生在年底獲得了一個獎項。",
           "clozeAnswer": "award",
+          "unit": 3
+        },
+        {
+          "word": "baby",
+          "chinese": "嬰兒",
+          "example": "My sister has a very cute baby.",
+          "exampleCn": "我姐姐有一個非常可愛的嬰兒。",
+          "clozeQuestion": "The ________ is sleeping in the bedroom.",
+          "clozeCn": "那個嬰兒正在臥室裡睡覺。",
+          "clozeAnswer": "baby",
+          "unit": 3
+        },
+        {
+          "word": "back",
+          "chinese": "背面；後退、返回",
+          "example": "He put the book back on the desk.",
+          "exampleCn": "他把書放回書桌上。",
+          "clozeQuestion": "There is a garden at the ________ of our house.",
+          "clozeCn": "我們家後面有一個花園。",
+          "clozeAnswer": "back",
+          "unit": 3
+        },
+        {
+          "word": "bad",
+          "chinese": "有缺點的；壞的",
+          "example": "Eating too much candy is bad for your teeth.",
+          "exampleCn": "吃太多糖果對你的牙齒不好。",
+          "clozeQuestion": "I have a ________ cold today and cannot go to school.",
+          "clozeCn": "我今天得了重感冒，不能去上學。",
+          "clozeAnswer": "bad",
+          "unit": 3
+        },
+        {
+          "word": "bag",
+          "chinese": "袋子",
+          "example": "She put her books and pens in her bag.",
+          "exampleCn": "她把書和筆放進她的袋子裡。",
+          "clozeQuestion": "I need a plastic ________ to carry these apples.",
+          "clozeCn": "我需要一個塑膠袋來裝這些蘋果。",
+          "clozeAnswer": "bag",
+          "unit": 3
+        },
+        {
+          "word": "bakery",
+          "chinese": "麵包店",
+          "example": "I buy fresh bread from the bakery every morning.",
+          "exampleCn": "我每天早上都從麵包店買新鮮的麵包。",
+          "clozeQuestion": "The ________ near my house sells delicious cakes.",
+          "clozeCn": "我家附近的麵包店賣很好吃的蛋糕。",
+          "clozeAnswer": "bakery",
+          "unit": 3
+        },
+        {
+          "word": "ball",
+          "chinese": "球",
+          "example": "The boys are playing with a ball in the park.",
+          "exampleCn": "男孩們正在公園裡玩球。",
+          "clozeQuestion": "He threw the ________ to his dog.",
+          "clozeCn": "他把球丟給他的狗。",
+          "clozeAnswer": "ball",
+          "unit": 3
+        },
+        {
+          "word": "banana",
+          "chinese": "香蕉",
+          "example": "Monkeys love to eat yellow bananas.",
+          "exampleCn": "猴子喜歡吃黃色的香蕉。",
+          "clozeQuestion": "I bought an apple and a ________ at the supermarket.",
+          "clozeCn": "我在超市買了一顆蘋果和一根香蕉。",
+          "clozeAnswer": "banana",
+          "unit": 3
+        },
+        {
+          "word": "band",
+          "chinese": "樂團",
+          "example": "My brother plays the guitar in a rock band.",
+          "exampleCn": "我哥哥在一個搖滾樂團裡彈吉他。",
+          "clozeQuestion": "The ________ sang three songs at the party.",
+          "clozeCn": "那個樂團在派對上唱了三首歌。",
+          "clozeAnswer": "band",
+          "unit": 3
+        },
+        {
+          "word": "bank",
+          "chinese": "銀行",
+          "example": "I need to go to the bank to get some money.",
+          "exampleCn": "我需要去銀行領一些錢。",
+          "clozeQuestion": "She works as a clerk at a big ________.",
+          "clozeCn": "她在一間大銀行擔任職員。",
+          "clozeAnswer": "bank",
+          "unit": 3
+        },
+        {
+          "word": "baseball",
+          "chinese": "棒球",
+          "example": "We play baseball after school every Friday.",
+          "exampleCn": "我們每個星期五放學後打棒球。",
+          "clozeQuestion": "He wants to be a famous ________ player.",
+          "clozeCn": "他想要成為一位有名的棒球選手。",
+          "clozeAnswer": "baseball",
+          "unit": 3
+        },
+        {
+          "word": "basket",
+          "chinese": "籃子",
+          "example": "She put all the dirty clothes in the basket.",
+          "exampleCn": "她把所有髒衣服放進籃子裡。",
+          "clozeQuestion": "There is a ________ of fruit on the table.",
+          "clozeCn": "桌上有一籃水果。",
+          "clozeAnswer": "basket",
+          "unit": 4
+        },
+        {
+          "word": "basketball",
+          "chinese": "籃球",
+          "example": "They are playing basketball in the gym.",
+          "exampleCn": "他們正在體育館裡打籃球。",
+          "clozeQuestion": "Jeremy Lin is a great ________ player.",
+          "clozeCn": "林書豪是一位很棒的籃球選手。",
+          "clozeAnswer": "basketball",
+          "unit": 4
+        },
+        {
+          "word": "bath",
+          "chinese": "洗澡",
+          "example": "I usually take a hot bath before bed.",
+          "exampleCn": "我通常在睡前泡個熱水澡。",
+          "clozeQuestion": "The baby is having a ________ in the bathroom.",
+          "clozeCn": "嬰兒正在浴室裡洗澡。",
+          "clozeAnswer": "bath",
+          "unit": 4
+        },
+        {
+          "word": "bathroom",
+          "chinese": "浴室",
+          "example": "Please wash your hands in the bathroom.",
+          "exampleCn": "請在浴室裡洗手。",
+          "clozeQuestion": "I need to use the ________. Where is it?",
+          "clozeCn": "我需要用洗手間。它在哪裡？",
+          "clozeAnswer": "bathroom",
+          "unit": 4
+        },
+        {
+          "word": "be",
+          "chinese": "是；be 動詞的原形",
+          "example": "I want to be a teacher when I grow up.",
+          "exampleCn": "我長大後想要當老師。",
+          "clozeQuestion": "Please ________ quiet in the library.",
+          "clozeCn": "在圖書館裡請保持安靜。",
+          "clozeAnswer": "be",
+          "unit": 4
+        },
+        {
+          "word": "beach",
+          "chinese": "沙灘",
+          "example": "We walked along the beautiful beach yesterday.",
+          "exampleCn": "我們昨天沿著美麗的海灘散步。",
+          "clozeQuestion": "Children love playing with sand on the ________.",
+          "clozeCn": "孩子們喜歡在海灘上玩沙。",
+          "clozeAnswer": "beach",
+          "unit": 4
+        },
+        {
+          "word": "bear",
+          "chinese": "熊",
+          "example": "We saw a big black bear in the zoo.",
+          "exampleCn": "我們在動物園看到一隻大黑熊。",
+          "clozeQuestion": "The ________ is sleeping in the cave for the winter.",
+          "clozeCn": "那隻熊正在洞穴裡冬眠。",
+          "clozeAnswer": "bear",
+          "unit": 4
+        },
+        {
+          "word": "beautiful",
+          "chinese": "漂亮的",
+          "example": "She is wearing a beautiful red dress.",
+          "exampleCn": "她穿著一件美麗的紅色洋裝。",
+          "clozeQuestion": "The flowers in the garden are very ________.",
+          "clozeCn": "花園裡的花非常漂亮。",
+          "clozeAnswer": "beautiful",
+          "unit": 4
+        },
+        {
+          "word": "because",
+          "chinese": "因為",
+          "example": "I am happy because I got a good grade.",
+          "exampleCn": "我很高興，因為我得到好成績。",
+          "clozeQuestion": "He stayed at home ________ it was raining hard.",
+          "clozeCn": "他待在家，因為雨下得很大。",
+          "clozeAnswer": "because",
+          "unit": 4
+        },
+        {
+          "word": "become",
+          "chinese": "變成",
+          "example": "The caterpillar will become a beautiful butterfly.",
+          "exampleCn": "毛毛蟲會變成一隻美麗的蝴蝶。",
+          "clozeQuestion": "It will ________ dark soon. Let's go home.",
+          "clozeCn": "天很快就要黑了。我們回家吧。",
+          "clozeAnswer": "become",
+          "unit": 4
+        },
+        {
+          "word": "bed",
+          "chinese": "床",
+          "example": "I was very tired, so I went to bed early.",
+          "exampleCn": "我非常累，所以我很早就上床睡覺了。",
+          "clozeQuestion": "Don't jump on the ________!",
+          "clozeCn": "不要在床上跳！",
+          "clozeAnswer": "bed",
+          "unit": 4
+        },
+        {
+          "word": "bedroom",
+          "chinese": "臥室",
+          "example": "My bedroom is small but very comfortable.",
+          "exampleCn": "我的臥室很小，但非常舒服。",
+          "clozeQuestion": "She is reading a book in her ________.",
+          "clozeCn": "她正在她的臥室裡看書。",
+          "clozeAnswer": "bedroom",
+          "unit": 4
+        },
+        {
+          "word": "bee",
+          "chinese": "蜜蜂",
+          "example": "A bee is flying around the yellow flower.",
+          "exampleCn": "一隻蜜蜂正繞著黃花飛來飛去。",
+          "clozeQuestion": "Ouch! A ________ just bit my arm.",
+          "clozeCn": "哎喲！一隻蜜蜂剛剛螫了我的手臂。",
+          "clozeAnswer": "bee",
+          "unit": 4
+        },
+        {
+          "word": "beef",
+          "chinese": "牛肉",
+          "example": "My father likes to eat beef noodles.",
+          "exampleCn": "我爸爸喜歡吃牛肉麵。",
+          "clozeQuestion": "We had steak and ________ soup for dinner.",
+          "clozeCn": "我們晚餐吃了牛排和牛肉湯。",
+          "clozeAnswer": "beef",
+          "unit": 4
+        },
+        {
+          "word": "before",
+          "chinese": "在⋯⋯之前",
+          "example": "Please wash your hands before you eat dinner.",
+          "exampleCn": "吃晚餐前請洗手。",
+          "clozeQuestion": "I need to finish my homework ________ eight o'clock.",
+          "clozeCn": "我必須在八點之前完成作業。",
+          "clozeAnswer": "before",
+          "unit": 4
+        },
+        {
+          "word": "begin",
+          "chinese": "開始",
+          "example": "The English class will begin in five minutes.",
+          "exampleCn": "英文課將在五分鐘後開始。",
+          "clozeQuestion": "It started to rain just before the game could ________.",
+          "clozeCn": "比賽開始前剛好下起雨來。",
+          "clozeAnswer": "begin",
+          "unit": 4
+        },
+        {
+          "word": "behind",
+          "chinese": "在⋯⋯之後",
+          "example": "The cat is hiding behind the sofa.",
+          "exampleCn": "貓咪躲在沙發後面。",
+          "clozeQuestion": "Someone is standing ________ the door.",
+          "clozeCn": "有人站在門後面。",
+          "clozeAnswer": "behind",
+          "unit": 4
+        },
+        {
+          "word": "believe",
+          "chinese": "相信",
+          "example": "I can't believe we won the game!",
+          "exampleCn": "我不敢相信我們贏了比賽！",
+          "clozeQuestion": "Do you ________ in ghosts?",
+          "clozeCn": "你相信有鬼嗎？",
+          "clozeAnswer": "believe",
+          "unit": 4
+        },
+        {
+          "word": "bell",
+          "chinese": "鈴鐺",
+          "example": "The students ran out when the school bell rang.",
+          "exampleCn": "學校鐘聲一響，學生們就跑出去了。",
+          "clozeQuestion": "There is a small ________ on the cat's neck.",
+          "clozeCn": "那隻貓的脖子上繫著一個小鈴鐺。",
+          "clozeAnswer": "bell",
+          "unit": 4
+        },
+        {
+          "word": "belong",
+          "chinese": "屬於",
+          "example": "This red pen doesn't belong to me.",
+          "exampleCn": "這支紅筆不屬於我的。",
+          "clozeQuestion": "Does this jacket ________ to your brother?",
+          "clozeCn": "這件外套屬於你哥哥的嗎？",
+          "clozeAnswer": "belong",
+          "unit": 4
+        },
+        {
+          "word": "below",
+          "chinese": "在⋯⋯之下",
+          "example": "Please read the questions below the picture.",
+          "exampleCn": "請閱讀圖片下方的問題。",
+          "clozeQuestion": "The temperature dropped ________ zero last night.",
+          "clozeCn": "昨晚氣溫降到了零度以下。",
+          "clozeAnswer": "below",
+          "unit": 5
+        },
+        {
+          "word": "belt",
+          "chinese": "皮帶",
+          "example": "He wears a brown belt with his jeans.",
+          "exampleCn": "他穿牛仔褲繫著一條棕色皮帶。",
+          "clozeQuestion": "Please fasten your seat ________ in the car.",
+          "clozeCn": "在車內請繫好你的安全帶。",
+          "clozeAnswer": "belt",
+          "unit": 5
+        },
+        {
+          "word": "beside",
+          "chinese": "在⋯⋯旁邊",
+          "example": "Come and sit beside me on the sofa.",
+          "exampleCn": "過來坐在沙發上我的旁邊。",
+          "clozeQuestion": "She put her phone ________ the computer.",
+          "clozeCn": "她把手機放在電腦旁邊。",
+          "clozeAnswer": "beside",
+          "unit": 5
+        },
+        {
+          "word": "between",
+          "chinese": "在⋯⋯之間",
+          "example": "The bank is between the post office and the bakery.",
+          "exampleCn": "銀行在郵局和麵包店之間。",
+          "clozeQuestion": "I sat ________ my mother and my father.",
+          "clozeCn": "我坐在我媽媽和我爸爸之間。",
+          "clozeAnswer": "between",
+          "unit": 5
+        },
+        {
+          "word": "bicycle / bike",
+          "chinese": "腳踏車",
+          "example": "He rides his bicycle to the park every day.",
+          "exampleCn": "他每天騎腳踏車去公園。",
+          "clozeQuestion": "Can you teach me how to ride a ________?",
+          "clozeCn": "你可以教我怎麼騎腳踏車嗎？",
+          "clozeAnswer": "bike",
+          "unit": 5
+        },
+        {
+          "word": "big",
+          "chinese": "大的",
+          "example": "They live in a big house with a garden.",
+          "exampleCn": "他們住在一個有花園的大房子裡。",
+          "clozeQuestion": "An elephant is a very ________ animal.",
+          "clozeCn": "大象是一種非常大的動物。",
+          "clozeAnswer": "big",
+          "unit": 5
+        },
+        {
+          "word": "bird",
+          "chinese": "鳥",
+          "example": "I heard a bird singing outside my window.",
+          "exampleCn": "我聽到窗外有鳥兒在唱歌。",
+          "clozeQuestion": "The little ________ flew over the tree.",
+          "clozeCn": "那隻小鳥飛過了樹。",
+          "clozeAnswer": "bird",
+          "unit": 5
+        },
+        {
+          "word": "birthday",
+          "chinese": "生日",
+          "example": "We bought a big cake for his birthday.",
+          "exampleCn": "我們買了一個大蛋糕慶祝他的生日。",
+          "clozeQuestion": "Happy ________! Here is your present.",
+          "clozeCn": "生日快樂！這是你的禮物。",
+          "clozeAnswer": "birthday",
+          "unit": 5
+        },
+        {
+          "word": "bite",
+          "chinese": "咬",
+          "example": "Don't let the dog bite you.",
+          "exampleCn": "不要讓狗咬你。",
+          "clozeQuestion": "She took a big ________ of the apple.",
+          "clozeCn": "她大口咬了一口蘋果。",
+          "clozeAnswer": "bite",
+          "unit": 5
+        },
+        {
+          "word": "black",
+          "chinese": "黑色（的）",
+          "example": "He is wearing a cool black jacket.",
+          "exampleCn": "他穿著一件酷酷的黑色夾克。",
+          "clozeQuestion": "The night sky is very ________.",
+          "clozeCn": "夜空非常黑。",
+          "clozeAnswer": "black",
+          "unit": 5
+        },
+        {
+          "word": "blackboard",
+          "chinese": "黑板",
+          "example": "The teacher wrote the answer on the blackboard.",
+          "exampleCn": "老師把答案寫在黑板上。",
+          "clozeQuestion": "Please come to the front and clean the ________.",
+          "clozeCn": "請到前面來擦黑板。",
+          "clozeAnswer": "blackboard",
+          "unit": 5
+        },
+        {
+          "word": "blind",
+          "chinese": "盲目的；瞎的",
+          "example": "The blind man walks with a white cane.",
+          "exampleCn": "那位盲人拿著白手杖走路。",
+          "clozeQuestion": "He is ________ in his left eye.",
+          "clozeCn": "他左眼失明了。",
+          "clozeAnswer": "blind",
+          "unit": 5
+        },
+        {
+          "word": "block",
+          "chinese": "街區",
+          "example": "Our school is just one block away from here.",
+          "exampleCn": "我們學校離這裡只有一個街區遠。",
+          "clozeQuestion": "Walk one ________ and then turn right.",
+          "clozeCn": "走一個街區然後右轉。",
+          "clozeAnswer": "block",
+          "unit": 5
+        },
+        {
+          "word": "blow",
+          "chinese": "吹",
+          "example": "The wind is starting to blow hard.",
+          "exampleCn": "風開始刮得很大。",
+          "clozeQuestion": "Please ________ out the candles on your cake.",
+          "clozeCn": "請吹熄你蛋糕上的蠟燭。",
+          "clozeAnswer": "blow",
+          "unit": 5
+        },
+        {
+          "word": "blue",
+          "chinese": "藍色（的）",
+          "example": "The sky is very blue today.",
+          "exampleCn": "今天天空非常藍。",
+          "clozeQuestion": "My favorite color is ________.",
+          "clozeCn": "我最喜歡的顏色是藍色。",
+          "clozeAnswer": "blue",
+          "unit": 5
+        },
+        {
+          "word": "boat",
+          "chinese": "船",
+          "example": "We rented a small boat to go fishing.",
+          "exampleCn": "我們租了一艘小船去釣魚。",
+          "clozeQuestion": "The ________ is crossing the river slowly.",
+          "clozeCn": "那艘船正慢慢地渡河。",
+          "clozeAnswer": "boat",
+          "unit": 5
+        },
+        {
+          "word": "body",
+          "chinese": "身體",
+          "example": "You should exercise to keep your body healthy.",
+          "exampleCn": "你應該運動來保持身體健康。",
+          "clozeQuestion": "A snake has a very long ________.",
+          "clozeCn": "蛇有很長的身體。",
+          "clozeAnswer": "body",
+          "unit": 5
+        },
+        {
+          "word": "book",
+          "chinese": "書",
+          "example": "I am reading a very interesting book.",
+          "exampleCn": "我正在讀一本非常有趣的書。",
+          "clozeQuestion": "Please open your ________ to page 10.",
+          "clozeCn": "請把書打開到第10頁。",
+          "clozeAnswer": "book",
+          "unit": 5
+        },
+        {
+          "word": "bookstore",
+          "chinese": "書店",
+          "example": "I bought a new dictionary at the bookstore.",
+          "exampleCn": "我在書店買了一本新字典。",
+          "clozeQuestion": "We spent an hour reading in the ________.",
+          "clozeCn": "我們在書店裡看了一小時的書。",
+          "clozeAnswer": "bookstore",
+          "unit": 5
+        },
+        {
+          "word": "bored",
+          "chinese": "感到無聊的",
+          "example": "The movie was so long that I felt bored.",
+          "exampleCn": "這部電影太長了，讓我覺得很無聊。",
+          "clozeQuestion": "The students were ________ because the lesson was too easy.",
+          "clozeCn": "學生們感到無聊，因為這堂課太簡單了。",
+          "clozeAnswer": "bored",
+          "unit": 5
+        },
+        {
+          "word": "boring",
+          "chinese": "令人感到無聊的",
+          "example": "I don't want to play this boring game anymore.",
+          "exampleCn": "我不想再玩這個無聊的遊戲了。",
+          "clozeQuestion": "The book is so ________ that I want to sleep.",
+          "clozeCn": "這本書太無聊了，讓我想睡覺。",
+          "clozeAnswer": "boring",
+          "unit": 6
+        },
+        {
+          "word": "born",
+          "chinese": "出生",
+          "example": "I was born in Taipei in 2005.",
+          "exampleCn": "我2005年出生於台北。",
+          "clozeQuestion": "The cute puppy was ________ just last week.",
+          "clozeCn": "這隻可愛的小狗上週才剛出生。",
+          "clozeAnswer": "born",
+          "unit": 6
+        },
+        {
+          "word": "borrow",
+          "chinese": "借（入）",
+          "example": "Can I borrow your eraser for a second?",
+          "exampleCn": "我可以借你的橡皮擦用一下嗎？",
+          "clozeQuestion": "I need to ________ some books from the library.",
+          "clozeCn": "我需要從圖書館借幾本書。",
+          "clozeAnswer": "borrow",
+          "unit": 6
+        },
+        {
+          "word": "boss",
+          "chinese": "老闆",
+          "example": "My boss is very nice to everyone in the office.",
+          "exampleCn": "我的老闆對辦公室裡的每個人都很好。",
+          "clozeQuestion": "He asked his ________ for a few days off.",
+          "clozeCn": "他向老闆請了幾天假。",
+          "clozeAnswer": "boss",
+          "unit": 6
+        },
+        {
+          "word": "both",
+          "chinese": "兩⋯⋯（都）；兩者",
+          "example": "Both of my parents are teachers.",
+          "exampleCn": "我的父母雙方都是老師。",
+          "clozeQuestion": "I like ________ apples and oranges.",
+          "clozeCn": "我既喜歡蘋果也喜歡橘子。",
+          "clozeAnswer": "both",
+          "unit": 6
+        },
+        {
+          "word": "bottle",
+          "chinese": "瓶子",
+          "example": "Please give me a bottle of water.",
+          "exampleCn": "請給我一瓶水。",
+          "clozeQuestion": "He opened the ________ and drank the juice.",
+          "clozeCn": "他打開瓶子喝了果汁。",
+          "clozeAnswer": "bottle",
+          "unit": 6
+        },
+        {
+          "word": "bottom",
+          "chinese": "底部",
+          "example": "The answers are at the bottom of the page.",
+          "exampleCn": "答案在頁面的底部。",
+          "clozeQuestion": "A crab is hiding at the ________ of the sea.",
+          "clozeCn": "一隻螃蟹正躲在海底。",
+          "clozeAnswer": "bottom",
+          "unit": 6
+        },
+        {
+          "word": "bowl",
+          "chinese": "碗",
+          "example": "I eat a bowl of rice every day.",
+          "exampleCn": "我每天吃一碗飯。",
+          "clozeQuestion": "She put some soup in a small ________.",
+          "clozeCn": "她把一些湯裝進小碗裡。",
+          "clozeAnswer": "bowl",
+          "unit": 6
+        },
+        {
+          "word": "box",
+          "chinese": "箱子；盒子",
+          "example": "What is inside this big box?",
+          "exampleCn": "這個大箱子裡面是什麼？",
+          "clozeQuestion": "I bought a ________ of chocolates for my mom.",
+          "clozeCn": "我買了一盒巧克力給媽媽。",
+          "clozeAnswer": "box",
+          "unit": 6
+        },
+        {
+          "word": "boy",
+          "chinese": "男孩",
+          "example": "The little boy is playing with his toy car.",
+          "exampleCn": "那個小男孩正在玩他的玩具車。",
+          "clozeQuestion": "A ________ named Tom helped me carry the bag.",
+          "clozeCn": "一個名叫湯姆的男孩幫我拿袋子。",
+          "clozeAnswer": "boy",
+          "unit": 6
+        },
+        {
+          "word": "bread",
+          "chinese": "麵包",
+          "example": "We usually have bread and milk for breakfast.",
+          "exampleCn": "我們通常早餐吃麵包和牛奶。",
+          "clozeQuestion": "I like to eat my ________ with butter.",
+          "clozeCn": "我喜歡吃麵包塗奶油。",
+          "clozeAnswer": "bread",
+          "unit": 6
+        },
+        {
+          "word": "break",
+          "chinese": "打破",
+          "example": "Be careful not to break the window.",
+          "exampleCn": "小心不要打破窗戶。",
+          "clozeQuestion": "Don't drop your phone, or it will ________.",
+          "clozeCn": "不要摔到你的手機，否則它會壞掉。",
+          "clozeAnswer": "break",
+          "unit": 6
+        },
+        {
+          "word": "breakfast",
+          "chinese": "早餐",
+          "example": "What did you eat for breakfast this morning?",
+          "exampleCn": "你今天早上早餐吃了什麼？",
+          "clozeQuestion": "I am very hungry because I skipped ________.",
+          "clozeCn": "我很餓，因為我沒吃早餐。",
+          "clozeAnswer": "breakfast",
+          "unit": 6
+        },
+        {
+          "word": "bridge",
+          "chinese": "橋",
+          "example": "We walked across the bridge over the river.",
+          "exampleCn": "我們走過了河上的那座橋。",
+          "clozeQuestion": "The old ________ is made of wood.",
+          "clozeCn": "這座古老的橋是木頭做的。",
+          "clozeAnswer": "bridge",
+          "unit": 6
+        },
+        {
+          "word": "bright",
+          "chinese": "明亮的",
+          "example": "The sun is very bright today.",
+          "exampleCn": "今天的太陽非常明亮。",
+          "clozeQuestion": "She wore a ________ yellow dress to the party.",
+          "clozeCn": "她穿了一件明亮的黃色洋裝去參加派對。",
+          "clozeAnswer": "bright",
+          "unit": 6
+        },
+        {
+          "word": "bring",
+          "chinese": "帶來",
+          "example": "Please bring your notebook to class tomorrow.",
+          "exampleCn": "明天請帶你的筆記本來上課。",
+          "clozeQuestion": "Don't forget to ________ an umbrella with you.",
+          "clozeCn": "別忘了隨身帶一把傘。",
+          "clozeAnswer": "bring",
+          "unit": 6
+        },
+        {
+          "word": "brother",
+          "chinese": "兄弟",
+          "example": "My older brother is in high school.",
+          "exampleCn": "我哥哥就讀高中。",
+          "clozeQuestion": "Do you have a ________ or a sister?",
+          "clozeCn": "你有兄弟或姊妹嗎？",
+          "clozeAnswer": "brother",
+          "unit": 6
+        },
+        {
+          "word": "brown",
+          "chinese": "咖啡（的）；棕色（的）",
+          "example": "She has big brown eyes and black hair.",
+          "exampleCn": "她有著棕色大眼睛和黑頭髮。",
+          "clozeQuestion": "The bear in the zoo is ________.",
+          "clozeCn": "動物園裡的那隻熊是棕色的。",
+          "clozeAnswer": "brown",
+          "unit": 6
+        },
+        {
+          "word": "brush",
+          "chinese": "刷；刷子",
+          "example": "You should brush your teeth twice a day.",
+          "exampleCn": "你應該一天刷兩次牙。",
+          "clozeQuestion": "She used a ________ to paint the picture.",
+          "clozeCn": "她用刷子來畫那幅畫。",
+          "clozeAnswer": "brush",
+          "unit": 6
+        },
+        {
+          "word": "build",
+          "chinese": "建造",
+          "example": "The kids want to build a sandcastle on the beach.",
+          "exampleCn": "孩子們想在沙灘上蓋沙堡。",
+          "clozeQuestion": "They plan to ________ a new hospital in our town.",
+          "clozeCn": "他們計劃在我們鎮上建一間新醫院。",
+          "clozeAnswer": "build",
+          "unit": 6
+        },
+        {
+          "word": "burn",
+          "chinese": "燃燒",
+          "example": "Be careful, the fire will burn your fingers.",
+          "exampleCn": "小心，火會燒到你的手指。",
+          "clozeQuestion": "The paper caught fire and began to ________.",
+          "clozeCn": "紙著火了並開始燃燒。",
+          "clozeAnswer": "burn",
+          "unit": 7
+        },
+        {
+          "word": "bus",
+          "chinese": "公車",
+          "example": "I take the bus to school every morning.",
+          "exampleCn": "我每天早上搭公車上學。",
+          "clozeQuestion": "The next ________ will arrive in ten minutes.",
+          "clozeCn": "下一班公車將在十分鐘後到達。",
+          "clozeAnswer": "bus",
+          "unit": 7
+        },
+        {
+          "word": "business",
+          "chinese": "公事；生意",
+          "example": "My uncle runs a successful shoe business.",
+          "exampleCn": "我叔叔經營一門很成功的鞋子生意。",
+          "clozeQuestion": "It is none of your ________.",
+          "clozeCn": "這不關你的事。",
+          "clozeAnswer": "business",
+          "unit": 7
+        },
+        {
+          "word": "businessman",
+          "chinese": "商人",
+          "example": "He is a rich businessman and travels a lot.",
+          "exampleCn": "他是一位富有的商人，經常旅行。",
+          "clozeQuestion": "The smart ________ made a lot of money last year.",
+          "clozeCn": "那位聰明的商人去年賺了很多錢。",
+          "clozeAnswer": "businessman",
+          "unit": 7
+        },
+        {
+          "word": "busy",
+          "chinese": "忙碌的",
+          "example": "My parents are always busy with their work.",
+          "exampleCn": "我父母總是忙於他們的工作。",
+          "clozeQuestion": "The restaurant is very ________ on weekends.",
+          "clozeCn": "這家餐廳在週末非常忙碌。",
+          "clozeAnswer": "busy",
+          "unit": 7
+        },
+        {
+          "word": "but",
+          "chinese": "但是",
+          "example": "I want to play outside, but it is raining.",
+          "exampleCn": "我想要去外面玩，但是正在下雨。",
+          "clozeQuestion": "The test was hard, ________ I still passed.",
+          "clozeCn": "考試很難，但是我還是及格了。",
+          "clozeAnswer": "but",
+          "unit": 7
+        },
+        {
+          "word": "butter",
+          "chinese": "奶油",
+          "example": "I like to put butter and jam on my toast.",
+          "exampleCn": "我喜歡在吐司上塗奶油和果醬。",
+          "clozeQuestion": "Do we have any ________ in the fridge?",
+          "clozeCn": "我們冰箱裡有任何奶油嗎？",
+          "clozeAnswer": "butter",
+          "unit": 7
+        },
+        {
+          "word": "buy",
+          "chinese": "買",
+          "example": "I want to buy a new computer game.",
+          "exampleCn": "我想買一個新的電腦遊戲。",
+          "clozeQuestion": "Where did you ________ that beautiful bag?",
+          "clozeCn": "你在哪裡買那個漂亮袋子的？",
+          "clozeAnswer": "buy",
+          "unit": 7
+        },
+        {
+          "word": "by",
+          "chinese": "藉由⋯⋯；在...旁邊",
+          "example": "We went to Taipei by train.",
+          "exampleCn": "我們搭火車去台北。",
+          "clozeQuestion": "She was sitting ________ the window.",
+          "clozeCn": "她當時正坐在窗戶旁邊。",
+          "clozeAnswer": "by",
+          "unit": 7
+        },
+        {
+          "word": "by the way",
+          "chinese": "順道一提",
+          "example": "By the way, how is your mother doing?",
+          "exampleCn": "順道一提，你媽媽最近好嗎？",
+          "clozeQuestion": "________, did you finish your homework?",
+          "clozeCn": "順道一提，你完成你的作業了嗎？",
+          "clozeAnswer": "By the way",
+          "unit": 7
+        },
+                {
+          "word": "cake",
+          "chinese": "蛋糕",
+          "example": "I want to bake a chocolate cake for his birthday.",
+          "exampleCn": "我想要為他的生日烤一個巧克力蛋糕。",
+          "clozeQuestion": "We bought a beautiful ________ for my mother's birthday party.",
+          "clozeCn": "我們買了一個漂亮的蛋糕給媽媽的生日派對。",
+          "clozeAnswer": "cake",
+          "unit": 7
+        },
+        {
+          "word": "call",
+          "chinese": "打電話；電話",
+          "example": "Please call me when you get home safely.",
+          "exampleCn": "你安全到家時請打電話給我。",
+          "clozeQuestion": "I missed a phone ________ from my boss this morning.",
+          "clozeCn": "我今天早上錯過了一通老闆的電話。",
+          "clozeAnswer": "call",
+          "unit": 7
+        },
+        {
+          "word": "camera",
+          "chinese": "照相機",
+          "example": "He bought a new camera to take pictures of the birds.",
+          "exampleCn": "他買了一台新相機來拍鳥類的照片。",
+          "clozeQuestion": "Smile at the ________! I want to take a photo of you.",
+          "clozeCn": "對著相機微笑！我想要拍張你的照片。",
+          "clozeAnswer": "camera",
+          "unit": 7
+        },
+        {
+          "word": "camp",
+          "chinese": "露營",
+          "example": "We usually camp in the mountains during the summer.",
+          "exampleCn": "我們夏天通常在山上露營。",
+          "clozeQuestion": "The students built a fire at the summer ________.",
+          "clozeCn": "學生們在夏令營生了火。",
+          "clozeAnswer": "camp",
+          "unit": 7
+        },
+        {
+          "word": "can",
+          "chinese": "會；罐頭",
+          "example": "My younger brother can swim very fast.",
+          "exampleCn": "我弟弟能游得非常快。",
+          "clozeQuestion": "Please open this ________ of soup for me.",
+          "clozeCn": "請幫我打開這罐湯。",
+          "clozeAnswer": "can",
+          "unit": 7
+        },
+        {
+          "word": "candy",
+          "chinese": "糖果",
+          "example": "Eating too much candy will make your teeth hurt.",
+          "exampleCn": "吃太多糖果會讓你的牙齒痛。",
+          "clozeQuestion": "The little boy bought a bag of sweet ________.",
+          "clozeCn": "這個小男孩買了一袋甜糖果。",
+          "clozeAnswer": "candy",
+          "unit": 7
+        },
+        {
+          "word": "cap",
+          "chinese": "帽子（無邊便帽）",
+          "example": "He always wears a baseball cap when he plays sports.",
+          "exampleCn": "他做運動時總是戴著一頂棒球帽。",
+          "clozeQuestion": "Please take off your ________ when you are in the classroom.",
+          "clozeCn": "在教室裡時請脫掉你的帽子。",
+          "clozeAnswer": "cap",
+          "unit": 7
+        },
+        {
+          "word": "car",
+          "chinese": "車子",
+          "example": "My father drives his car to work every day.",
+          "exampleCn": "我爸爸每天開車去上班。",
+          "clozeQuestion": "I want to buy a new ________ next year.",
+          "clozeCn": "我明年想買一輛新車。",
+          "clozeAnswer": "car",
+          "unit": 7
+        },
+        {
+          "word": "card",
+          "chinese": "卡片",
+          "example": "I made a birthday card for my best friend.",
+          "exampleCn": "我為我最好的朋友做了一張生日卡片。",
+          "clozeQuestion": "You can pay for the books with a credit ________.",
+          "clozeCn": "你可以用信用卡付這些書的錢。",
+          "clozeAnswer": "card",
+          "unit": 7
+        },
+        {
+          "word": "care",
+          "chinese": "關心、照顧",
+          "example": "Mothers always care about their children's health.",
+          "exampleCn": "母親總是關心她們孩子的健康。",
+          "clozeQuestion": "You need to take good ________ of your pet dog.",
+          "clozeCn": "你需要好好照顧你的寵物狗。",
+          "clozeAnswer": "care",
+          "unit": 7
+        },
+        {
+          "word": "careful",
+          "chinese": "小心的",
+          "example": "Be careful when you cross the busy street.",
+          "exampleCn": "過繁忙的街道時要小心。",
+          "clozeQuestion": "You must be ________ not to break the glasses.",
+          "clozeCn": "你必須小心不要打破玻璃杯。",
+          "clozeAnswer": "careful",
+          "unit": 8
+        },
+        {
+          "word": "cent",
+          "chinese": "分（美、加等國的貨幣單位）",
+          "example": "This pencil only costs fifty cents.",
+          "exampleCn": "這支鉛筆只要五十分錢。",
+          "clozeQuestion": "There are one hundred ________ in one dollar.",
+          "clozeCn": "一元有一百分。",
+          "clozeAnswer": "cents",
+          "unit": 8
+        },
+        {
+          "word": "carry",
+          "chinese": "搬運",
+          "example": "Can you help me carry these heavy bags?",
+          "exampleCn": "你能幫我搬這些重袋子嗎？",
+          "clozeQuestion": "The mother likes to ________ her baby on her back.",
+          "clozeCn": "這位母親喜歡把嬰兒背在背上。",
+          "clozeAnswer": "carry",
+          "unit": 8
+        },
+        {
+          "word": "case",
+          "chinese": "個案、案子",
+          "example": "In that case, we should stay at home and watch TV.",
+          "exampleCn": "在那種情況下，我們應該待在家看電視。",
+          "clozeQuestion": "The police officer is trying to solve the ________.",
+          "clozeCn": "那位警察正試著解決這個案子。",
+          "clozeAnswer": "case",
+          "unit": 8
+        },
+        {
+          "word": "cat",
+          "chinese": "貓",
+          "example": "My cat likes to sleep in the sun all day.",
+          "exampleCn": "我的貓喜歡整天在太陽下睡覺。",
+          "clozeQuestion": "The ________ caught a mouse in the kitchen.",
+          "clozeCn": "那隻貓在廚房裡抓到一隻老鼠。",
+          "clozeAnswer": "cat",
+          "unit": 8
+        },
+        {
+          "word": "catch",
+          "chinese": "抓住、接住",
+          "example": "The dog loves to run and catch the ball.",
+          "exampleCn": "這隻狗喜歡跑去接球。",
+          "clozeQuestion": "Hurry up, or we won't ________ the bus!",
+          "clozeCn": "快點，不然我們會趕不上公車！",
+          "clozeAnswer": "catch",
+          "unit": 8
+        },
+        {
+          "word": "celebrate",
+          "chinese": "慶祝",
+          "example": "We will have a big dinner to celebrate his birthday.",
+          "exampleCn": "我們將吃一頓豐盛的晚餐來慶祝他的生日。",
+          "clozeQuestion": "How do people ________ New Year in your country?",
+          "clozeCn": "你們國家的人怎麼慶祝新年？",
+          "clozeAnswer": "celebrate",
+          "unit": 8
+        },
+        {
+          "word": "cellphone",
+          "chinese": "手機",
+          "example": "I use my cellphone to call my friends and play games.",
+          "exampleCn": "我用我的手機打給朋友和玩遊戲。",
+          "clozeQuestion": "He is looking at his ________ while walking.",
+          "clozeCn": "他邊走邊看他的手機。",
+          "clozeAnswer": "cellphone",
+          "unit": 8
+        },
+        {
+          "word": "center",
+          "chinese": "中心",
+          "example": "There is a beautiful park in the center of the city.",
+          "exampleCn": "市中心有一個美麗的公園。",
+          "clozeQuestion": "Please put the flowers in the ________ of the table.",
+          "clozeCn": "請把花放在桌子中央。",
+          "clozeAnswer": "center",
+          "unit": 8
+        },
+        {
+          "word": "chair",
+          "chinese": "椅子",
+          "example": "He sat on a comfortable chair to read the book.",
+          "exampleCn": "他坐在舒適的椅子上看書。",
+          "clozeQuestion": "We need one more ________ for the guest.",
+          "clozeCn": "我們需要再多一張椅子給客人坐。",
+          "clozeAnswer": "chair",
+          "unit": 8
+        },
+        {
+          "word": "chalk",
+          "chinese": "粉筆",
+          "example": "The teacher uses white chalk to write on the blackboard.",
+          "exampleCn": "老師用白粉筆在黑板上寫字。",
+          "clozeQuestion": "Can you give me a piece of ________, please?",
+          "clozeCn": "請給我一支粉筆好嗎？",
+          "clozeAnswer": "chalk",
+          "unit": 8
+        },
+        {
+          "word": "chance",
+          "chinese": "機會",
+          "example": "This is your last chance to win the game.",
+          "exampleCn": "這是你贏得比賽的最後機會。",
+          "clozeQuestion": "I hope I will have a ________ to visit Japan soon.",
+          "clozeCn": "我希望我很快有機會去日本玩。",
+          "clozeAnswer": "chance",
+          "unit": 8
+        },
+        {
+          "word": "change",
+          "chinese": "零錢；改變",
+          "example": "The weather changes very quickly in spring.",
+          "exampleCn": "春天的天氣變化非常快。",
+          "clozeQuestion": "Here is your coffee, and here is your ________.",
+          "clozeCn": "這是你的咖啡，還有找你的零錢。",
+          "clozeAnswer": "change",
+          "unit": 8
+        },
+        {
+          "word": "cheap",
+          "chinese": "便宜的",
+          "example": "This shirt is very cheap; it only costs 100 dollars.",
+          "exampleCn": "這件襯衫很便宜；只要一百元。",
+          "clozeQuestion": "I want to buy a ________ phone because I don't have much money.",
+          "clozeCn": "我想買一支便宜的手機，因為我沒有很多錢。",
+          "clozeAnswer": "cheap",
+          "unit": 8
+        },
+        {
+          "word": "cheat",
+          "chinese": "作弊",
+          "example": "You should never cheat on a test.",
+          "exampleCn": "你考試時絕對不應該作弊。",
+          "clozeQuestion": "The boy tried to ________ by looking at his classmate's answers.",
+          "clozeCn": "那個男孩試圖透過看同學的答案來作弊。",
+          "clozeAnswer": "cheat",
+          "unit": 8
+        },
+        {
+          "word": "check",
+          "chinese": "檢查",
+          "example": "Please check your answers before you hand in the test.",
+          "exampleCn": "交卷前請檢查你的答案。",
+          "clozeQuestion": "The doctor will ________ your eyes tomorrow.",
+          "clozeCn": "醫生明天會檢查你的眼睛。",
+          "clozeAnswer": "check",
+          "unit": 8
+        },
+        {
+          "word": "cheer",
+          "chinese": "歡呼",
+          "example": "Everyone cheered when the team won the game.",
+          "exampleCn": "球隊贏得比賽時，每個人都歡呼起來。",
+          "clozeQuestion": "We bought some flowers to ________ her up in the hospital.",
+          "clozeCn": "我們買了一些花去醫院讓她振作起來。",
+          "clozeAnswer": "cheer",
+          "unit": 8
+        },
+        {
+          "word": "cheese",
+          "chinese": "乳酪，起司",
+          "example": "I like to eat bread with butter and cheese.",
+          "exampleCn": "我喜歡吃麵包配奶油和起司。",
+          "clozeQuestion": "Mice are known to love eating ________.",
+          "clozeCn": "老鼠以喜歡吃乳酪聞名。",
+          "clozeAnswer": "cheese",
+          "unit": 8
+        },
+        {
+          "word": "chicken",
+          "chinese": "雞肉；雞",
+          "example": "We are having fried chicken and French fries for dinner.",
+          "exampleCn": "我們晚餐要吃炸雞和薯條。",
+          "clozeQuestion": "A ________ has two wings but cannot fly very high.",
+          "clozeCn": "雞有兩隻翅膀，但飛不高。",
+          "clozeAnswer": "chicken",
+          "unit": 8
+        },
+        {
+          "word": "child",
+          "chinese": "孩子",
+          "example": "The child is playing happily in the park.",
+          "exampleCn": "那個孩子在公園裡開心地玩耍。",
+          "clozeQuestion": "She is an only ________ and has no brothers or sisters.",
+          "clozeCn": "她是一個獨生子，沒有兄弟姊妹。",
+          "clozeAnswer": "child",
+          "unit": 8
+        },
+        {
+          "word": "China",
+          "chinese": "中國",
+          "example": "My uncle works in China and comes back twice a year.",
+          "exampleCn": "我叔叔在中國工作，一年回來兩次。",
+          "clozeQuestion": "Beijing is the capital city of ________.",
+          "clozeCn": "北京是中國的首都。",
+          "clozeAnswer": "China",
+          "unit": 9
+        },
+        {
+          "word": "china",
+          "chinese": "瓷器",
+          "example": "My grandmother has a lot of beautiful china cups.",
+          "exampleCn": "我奶奶有很多美麗的瓷杯。",
+          "clozeQuestion": "Be careful when you wash the delicate ________.",
+          "clozeCn": "洗這些精緻的瓷器時要小心。",
+          "clozeAnswer": "china",
+          "unit": 9
+        },
+        {
+          "word": "Chinese",
+          "chinese": "中文、中國人；中國的",
+          "example": "He is an American, but he speaks good Chinese.",
+          "exampleCn": "他是美國人，但他中文說得很好。",
+          "clozeQuestion": "I love eating ________ food, especially dumplings.",
+          "clozeCn": "我喜歡吃中國菜，特別是水餃。",
+          "clozeAnswer": "Chinese",
+          "unit": 9
+        },
+        {
+          "word": "chocolate",
+          "chinese": "巧克力",
+          "example": "She bought a box of chocolate for her boyfriend.",
+          "exampleCn": "她買了一盒巧克力給男朋友。",
+          "clozeQuestion": "Hot ________ is my favorite drink in winter.",
+          "clozeCn": "熱巧克力是我冬天最喜歡的飲料。",
+          "clozeAnswer": "chocolate",
+          "unit": 9
+        },
+        {
+          "word": "chopsticks",
+          "chinese": "筷子",
+          "example": "We use chopsticks to eat rice and noodles.",
+          "exampleCn": "我們用筷子吃飯和麵。",
+          "clozeQuestion": "Can you teach me how to hold ________ correctly?",
+          "clozeCn": "你能教我怎麼正確拿筷子嗎？",
+          "clozeAnswer": "chopsticks",
+          "unit": 9
+        },
+        {
+          "word": "Christmas",
+          "chinese": "聖誕節",
+          "example": "We decorate a big tree in our house for Christmas.",
+          "exampleCn": "我們為聖誕節在家裡裝飾一棵大樹。",
+          "clozeQuestion": "People give presents to each other on ________ Day.",
+          "clozeCn": "人們在聖誕節當天互相送禮物。",
+          "clozeAnswer": "Christmas",
+          "unit": 9
+        },
+        {
+          "word": "church",
+          "chinese": "教堂",
+          "example": "My family goes to church every Sunday morning.",
+          "exampleCn": "我家每個星期日早上都去教堂。",
+          "clozeQuestion": "They got married in a beautiful old ________.",
+          "clozeCn": "他們在一座美麗的古老教堂裡結婚。",
+          "clozeAnswer": "church",
+          "unit": 9
+        },
+        {
+          "word": "circle",
+          "chinese": "圓圈",
+          "example": "The children held hands and danced in a circle.",
+          "exampleCn": "孩子們手牽手圍成一個圓圈跳舞。",
+          "clozeQuestion": "The teacher asked us to draw a ________ on the paper.",
+          "clozeCn": "老師要我們在紙上畫一個圓圈。",
+          "clozeAnswer": "circle",
+          "unit": 9
+        },
+        {
+          "word": "city",
+          "chinese": "城市",
+          "example": "Taipei is a very busy and crowded city.",
+          "exampleCn": "台北是一個非常繁忙且擁擠的城市。",
+          "clozeQuestion": "I want to move out of the ________ and live in the country.",
+          "clozeCn": "我想搬出這座城市，去鄉下住。",
+          "clozeAnswer": "city",
+          "unit": 9
+        },
+        {
+          "word": "class",
+          "chinese": "班級；課程",
+          "example": "I have an English class at two o'clock this afternoon.",
+          "exampleCn": "我今天下午兩點有英文課。",
+          "clozeQuestion": "There are twenty boys and fifteen girls in my ________.",
+          "clozeCn": "我班上有二十個男生和十五個女生。",
+          "clozeAnswer": "class",
+          "unit": 9
+        },
+        {
+          "word": "classmate",
+          "chinese": "同班同學",
+          "example": "Tom is my classmate, and we sit next to each other.",
+          "exampleCn": "湯姆是我的同班同學，我們坐在一起。",
+          "clozeQuestion": "I am going to study in the library with a ________.",
+          "clozeCn": "我要和一位同學去圖書館唸書。",
+          "clozeAnswer": "classmate",
+          "unit": 9
+        },
+        {
+          "word": "classroom",
+          "chinese": "教室",
+          "example": "Please do not eat or drink inside the classroom.",
+          "exampleCn": "請不要在教室內飲食。",
+          "clozeQuestion": "The teacher walked into the ________ and started the lesson.",
+          "clozeCn": "老師走進教室並開始上課。",
+          "clozeAnswer": "classroom",
+          "unit": 9
+        },
+        {
+          "word": "clean",
+          "chinese": "打掃；乾淨的",
+          "example": "I have to clean my bedroom every weekend.",
+          "exampleCn": "我每個週末必須打掃我的臥室。",
+          "clozeQuestion": "Please make sure your hands are ________ before eating.",
+          "clozeCn": "吃東西前請確保你的手是乾淨的。",
+          "clozeAnswer": "clean",
+          "unit": 9
+        },
+        {
+          "word": "clear",
+          "chinese": "晴朗的；清楚的",
+          "example": "The sky is clear, and we can see many stars tonight.",
+          "exampleCn": "天空很晴朗，今晚我們能看到許多星星。",
+          "clozeQuestion": "The water in this river is so ________ that I can see the fish.",
+          "clozeCn": "這條河的水如此清澈，我都能看見魚。",
+          "clozeAnswer": "clear",
+          "unit": 9
+        },
+        {
+          "word": "climb",
+          "chinese": "爬；攀登",
+          "example": "The monkey can climb the tall tree very fast.",
+          "exampleCn": "猴子能很快地爬上那棵高樹。",
+          "clozeQuestion": "We plan to ________ the mountain next Saturday.",
+          "clozeCn": "我們計畫下週六去爬山。",
+          "clozeAnswer": "climb",
+          "unit": 9
+        },
+        {
+          "word": "clock",
+          "chinese": "時鐘",
+          "example": "Look at the clock; it is already twelve o'clock!",
+          "exampleCn": "看看時鐘；已經十二點了！",
+          "clozeQuestion": "The round ________ on the wall says it's time to go.",
+          "clozeCn": "牆上的圓形時鐘顯示該走了。",
+          "clozeAnswer": "clock",
+          "unit": 9
+        },
+        {
+          "word": "close",
+          "chinese": "關閉；親密的、靠近的",
+          "example": "Please close the window because it is raining outside.",
+          "exampleCn": "外面在下雨，請關上窗戶。",
+          "clozeQuestion": "My house is very ________ to the supermarket.",
+          "clozeCn": "我家離超市很近。",
+          "clozeAnswer": "close",
+          "unit": 9
+        },
+        {
+          "word": "clothes",
+          "chinese": "衣服",
+          "example": "He bought some new clothes for the party.",
+          "exampleCn": "他為派對買了一些新衣服。",
+          "clozeQuestion": "I need to wash my dirty ________ today.",
+          "clozeCn": "我今天需要洗髒衣服。",
+          "clozeAnswer": "clothes",
+          "unit": 9
+        },
+        {
+          "word": "clothing",
+          "chinese": "衣著",
+          "example": "We need to wear warm clothing in winter.",
+          "exampleCn": "我們冬天需要穿保暖的衣著。",
+          "clozeQuestion": "The store sells men's and women's ________.",
+          "clozeCn": "這家店販售男裝和女裝。",
+          "clozeAnswer": "clothing",
+          "unit": 9
+        },
+        {
+          "word": "clothe",
+          "chinese": "穿上",
+          "example": "Parents work hard to feed and clothe their children.",
+          "exampleCn": "父母努力工作來供孩子們吃穿。",
+          "clozeQuestion": "She wants to ________ her baby in the cutest dress.",
+          "clozeCn": "她想為她的嬰兒穿上最可愛的洋裝。",
+          "clozeAnswer": "clothe",
+          "unit": 9
+        },
+        {
+          "word": "cloth",
+          "chinese": "布料；抹布",
+          "example": "She wiped the table with a piece of wet cloth.",
+          "exampleCn": "她用一塊濕抹布擦桌子。",
+          "clozeQuestion": "He bought some beautiful ________ to make a shirt.",
+          "clozeCn": "他買了一些美麗的布料來做襯衫。",
+          "clozeAnswer": "cloth",
+          "unit": 10
+        },
+        {
+          "word": "cloudy",
+          "chinese": "多雲的",
+          "example": "It is cloudy today, so you should take an umbrella.",
+          "exampleCn": "今天多雲，所以你應該帶把傘。",
+          "clozeQuestion": "The sky became ________ and it started to rain.",
+          "clozeCn": "天空變得多雲，然後開始下雨了。",
+          "clozeAnswer": "cloudy",
+          "unit": 10
+        },
+        {
+          "word": "club",
+          "chinese": "社團",
+          "example": "My sister joined the swimming club at school.",
+          "exampleCn": "我妹妹加入了學校的游泳社。",
+          "clozeQuestion": "We meet every Friday to play chess in the ________.",
+          "clozeCn": "我們每個星期五在社團見面下西洋棋。",
+          "clozeAnswer": "club",
+          "unit": 10
+        },
+        {
+          "word": "coat",
+          "chinese": "外套；大衣",
+          "example": "Put on your coat before you go out in the snow.",
+          "exampleCn": "在雪中出門前穿上你的外套。",
+          "clozeQuestion": "He is wearing a heavy ________ because it is cold.",
+          "clozeCn": "他穿著一件厚重的大衣，因為天氣很冷。",
+          "clozeAnswer": "coat",
+          "unit": 10
+        },
+        {
+          "word": "coffee",
+          "chinese": "咖啡",
+          "example": "My father drinks a cup of black coffee every morning.",
+          "exampleCn": "我爸爸每天早上喝一杯黑咖啡。",
+          "clozeQuestion": "I went to a cafe and ordered some cake and ________.",
+          "clozeCn": "我去了一家咖啡館，點了一些蛋糕和咖啡。",
+          "clozeAnswer": "coffee",
+          "unit": 10
+        },
+        {
+          "word": "Coke",
+          "chinese": "可樂",
+          "example": "I would like a hamburger and a large Coke, please.",
+          "exampleCn": "我想要一個漢堡和一杯大可樂，謝謝。",
+          "clozeQuestion": "Drinking too much ________ is bad for your health.",
+          "clozeCn": "喝太多可樂對你的健康有害。",
+          "clozeAnswer": "Coke",
+          "unit": 10
+        },
+        {
+          "word": "cold",
+          "chinese": "冷的",
+          "example": "The weather is very cold in winter.",
+          "exampleCn": "冬天的天氣非常冷。",
+          "clozeQuestion": "I caught a ________ because I didn't wear a jacket.",
+          "clozeCn": "我感冒了，因為我沒有穿夾克。",
+          "clozeAnswer": "cold",
+          "unit": 10
+        },
+        {
+          "word": "collect",
+          "chinese": "收集",
+          "example": "He likes to collect old stamps from different countries.",
+          "exampleCn": "他喜歡收集來自不同國家的舊郵票。",
+          "clozeQuestion": "The teacher asked the student to ________ the homework.",
+          "clozeCn": "老師請學生去收作業。",
+          "clozeAnswer": "collect",
+          "unit": 10
+        },
+        {
+          "word": "color",
+          "chinese": "顏色",
+          "example": "Red is my favorite color.",
+          "exampleCn": "紅色是我最喜歡的顏色。",
+          "clozeQuestion": "What ________ is your new car?",
+          "clozeCn": "你的新車是什麼顏色？",
+          "clozeAnswer": "color",
+          "unit": 10
+        },
+        {
+          "word": "colorful",
+          "chinese": "多采多姿的、色彩鮮豔的",
+          "example": "There are many colorful fish in the sea.",
+          "exampleCn": "海裡有許多色彩鮮豔的魚。",
+          "clozeQuestion": "The artist painted a very ________ picture.",
+          "clozeCn": "這位藝術家畫了一幅非常色彩鮮豔的畫。",
+          "clozeAnswer": "colorful",
+          "unit": 10
+        },
+        {
+          "word": "come",
+          "chinese": "回來、來",
+          "example": "Please come to my house for dinner tonight.",
+          "exampleCn": "今晚請來我家吃晚餐。",
+          "clozeQuestion": "Spring will ________ after winter ends.",
+          "clozeCn": "冬天結束後春天就會來臨。",
+          "clozeAnswer": "come",
+          "unit": 10
+        },
+        {
+          "word": "comfortable",
+          "chinese": "舒服的",
+          "example": "This sofa is very soft and comfortable.",
+          "exampleCn": "這張沙發非常柔軟舒適。",
+          "clozeQuestion": "Wear some ________ shoes if you want to go hiking.",
+          "clozeCn": "如果你想去健行，穿些舒服的鞋子。",
+          "clozeAnswer": "comfortable",
+          "unit": 10
+        },
+        {
+          "word": "comic book",
+          "chinese": "漫畫書",
+          "example": "My little brother loves reading Japanese comic books.",
+          "exampleCn": "我弟弟喜歡看日本漫畫書。",
+          "clozeQuestion": "He bought a new ________ from the bookstore today.",
+          "clozeCn": "他今天從書店買了一本新漫畫書。",
+          "clozeAnswer": "comic book",
+          "unit": 10
+        },
+        {
+          "word": "common",
+          "chinese": "普通的，常見的；普及的",
+          "example": "Smith is a very common name in the US.",
+          "exampleCn": "史密斯在美國是一個非常普通的姓氏。",
+          "clozeQuestion": "It is ________ to see people using smartphones on the train.",
+          "clozeCn": "在火車上看到人們使用智慧型手機是很常見的。",
+          "clozeAnswer": "common",
+          "unit": 10
+        },
+        {
+          "word": "computer",
+          "chinese": "電腦",
+          "example": "I use my computer to do my homework and watch movies.",
+          "exampleCn": "我用我的電腦做作業和看電影。",
+          "clozeQuestion": "You can find a lot of information on the ________.",
+          "clozeCn": "你可以在電腦上找到很多資訊。",
+          "clozeAnswer": "computer",
+          "unit": 10
+        },
+        {
+          "word": "convenient",
+          "chinese": "方便的",
+          "example": "Riding a bicycle to the store is very convenient.",
+          "exampleCn": "騎腳踏車去商店非常方便。",
+          "clozeQuestion": "Living near a subway station is highly ________.",
+          "clozeCn": "住在地鐵站附近非常方便。",
+          "clozeAnswer": "convenient",
+          "unit": 10
+        },
+        {
+          "word": "cook",
+          "chinese": "廚師；烹飪、煮",
+          "example": "My mother is a great cook and makes delicious food.",
+          "exampleCn": "我媽媽是個很棒的廚師，做出的食物很美味。",
+          "clozeQuestion": "I will ________ dinner for my family tonight.",
+          "clozeCn": "我今晚將為家人煮晚餐。",
+          "clozeAnswer": "cook",
+          "unit": 10
+        },
+        {
+          "word": "cookie",
+          "chinese": "餅乾",
+          "example": "She baked some chocolate chip cookies yesterday.",
+          "exampleCn": "她昨天烤了一些巧克力豆餅乾。",
+          "clozeQuestion": "I ate a sweet ________ with my cup of tea.",
+          "clozeCn": "我配著茶吃了一塊甜餅乾。",
+          "clozeAnswer": "cookie",
+          "unit": 10
+        },
+        {
+          "word": "cool",
+          "chinese": "冷靜的、涼爽的、很酷的",
+          "example": "The weather is cool and nice in autumn.",
+          "exampleCn": "秋天的天氣涼爽宜人。",
+          "clozeQuestion": "Look at his new sunglasses; he looks very ________!",
+          "clozeCn": "看他的新太陽眼鏡；他看起來很酷！",
+          "clozeAnswer": "cool",
+          "unit": 10
+        },
+        {
+          "word": "copy",
+          "chinese": "拷貝、複製；副本",
+          "example": "Please do not copy your classmate's homework.",
+          "exampleCn": "請不要抄襲你同學的作業。",
+          "clozeQuestion": "Can you make a ________ of this document for me?",
+          "clozeCn": "你能幫我影印一份這個文件嗎？",
+          "clozeAnswer": "copy",
+          "unit": 10
+        },
+        {
+          "word": "correct",
+          "chinese": "正確的；更正",
+          "example": "You need to choose the correct answer on the test.",
+          "exampleCn": "你需要在考試中選擇正確的答案。",
+          "clozeQuestion": "The teacher will ________ our English mistakes.",
+          "clozeCn": "老師會更正我們的英文錯誤。",
+          "clozeAnswer": "correct",
+          "unit": 10
+        }
+      ],
+      "2": [  
+        {
+          "word": "cost",
+          "chinese": "花費",
+          "example": "How much does this red dress cost?",
+          "exampleCn": "這件紅色的洋裝要花多少錢？",
+          "clozeQuestion": "It will ________ me a lot of money to buy a house.",
+          "clozeCn": "買一棟房子將會花我很多錢。",
+          "clozeAnswer": "cost",
+          "unit": 1
+        },
+        {
+          "word": "couch",
+          "chinese": "沙發",
+          "example": "My father fell asleep on the couch while watching TV.",
+          "exampleCn": "我爸爸看電視時在沙發上睡著了。",
+          "clozeQuestion": "Come sit on the ________ and relax.",
+          "clozeCn": "來坐在沙發上放鬆一下。",
+          "clozeAnswer": "couch",
+          "unit": 1
+        },
+        {
+          "word": "count",
+          "chinese": "計算",
+          "example": "Can you count from one to one hundred?",
+          "exampleCn": "你能從一數到一百嗎？",
+          "clozeQuestion": "The little boy is learning to ________ his fingers.",
+          "clozeCn": "那個小男孩正在學著數他的手指頭。",
+          "clozeAnswer": "count",
+          "unit": 1
+        },
+        {
+          "word": "country",
+          "chinese": "鄉下；國家",
+          "example": "Japan is a beautiful country to visit.",
+          "exampleCn": "日本是一個值得造訪的美麗國家。",
+          "clozeQuestion": "My grandparents live in the ________, far away from the city.",
+          "clozeCn": "我的祖父母住在鄉下，遠離城市。",
+          "clozeAnswer": "country",
+          "unit": 1
+        },
+        {
+          "word": "cousin",
+          "chinese": "表／堂兄弟姐妹",
+          "example": "My aunt's son is my cousin.",
+          "exampleCn": "我阿姨的兒子是我的表哥/弟。",
+          "clozeQuestion": "We played video games with our ________ all afternoon.",
+          "clozeCn": "我們和表兄弟打了一整個下午的電動遊戲。",
+          "clozeAnswer": "cousin",
+          "unit": 1
+        },
+        {
+          "word": "cover",
+          "chinese": "覆蓋；封面",
+          "example": "Please cover your mouth when you cough.",
+          "exampleCn": "咳嗽時請遮住你的嘴巴。",
+          "clozeQuestion": "The ________ of this book is very beautiful.",
+          "clozeCn": "這本書的封面非常漂亮。",
+          "clozeAnswer": "cover",
+          "unit": 1
+        },
+        {
+          "word": "cow",
+          "chinese": "牛",
+          "example": "The farmer has many pigs and cows on his farm.",
+          "exampleCn": "農夫在他的農場裡有很多豬和牛。",
+          "clozeQuestion": "We get fresh milk from the ________ every morning.",
+          "clozeCn": "我們每天早上從牛那裡得到新鮮的牛奶。",
+          "clozeAnswer": "cow",
+          "unit": 1
+        },
+        {
+          "word": "crazy",
+          "chinese": "瘋狂的",
+          "example": "It is crazy to go swimming in the cold winter.",
+          "exampleCn": "在寒冷的冬天去游泳是很瘋狂的。",
+          "clozeQuestion": "The fans went ________ when the singer appeared.",
+          "clozeCn": "當歌手出現時，粉絲們都瘋狂了。",
+          "clozeAnswer": "crazy",
+          "unit": 1
+        },
+        {
+          "word": "cross",
+          "chinese": "越過",
+          "example": "Do not cross the street when the light is red.",
+          "exampleCn": "紅燈時不要穿越街道。",
+          "clozeQuestion": "We walked across the bridge to ________ the river.",
+          "clozeCn": "我們走過橋來過河。",
+          "clozeAnswer": "cross",
+          "unit": 1
+        },
+        {
+          "word": "cry",
+          "chinese": "哭",
+          "example": "The sad movie made my sister cry.",
+          "exampleCn": "那部悲傷的電影讓我妹妹哭了。",
+          "clozeQuestion": "Don't ________! Everything will be alright.",
+          "clozeCn": "別哭！一切都會好起來的。",
+          "clozeAnswer": "cry",
+          "unit": 1
+        },
+        {
+          "word": "cup",
+          "chinese": "杯子",
+          "example": "I need a cup of hot water to make tea.",
+          "exampleCn": "我需要一杯熱水來泡茶。",
+          "clozeQuestion": "He dropped the glass ________ and it broke.",
+          "clozeCn": "他摔掉了玻璃杯，然後它破了。",
+          "clozeAnswer": "cup",
+          "unit": 1
+        },
+        {
+          "word": "cut",
+          "chinese": "切",
+          "example": "Be careful not to cut your finger with the knife.",
+          "exampleCn": "小心別用刀子切到手指。",
+          "clozeQuestion": "She went to the hair salon to ________ her hair.",
+          "clozeCn": "她去髮廊剪頭髮。",
+          "clozeAnswer": "cut",
+          "unit": 1
+        },
+        {
+          "word": "cute",
+          "chinese": "可愛的",
+          "example": "Look at that cute little puppy!",
+          "exampleCn": "看那隻可愛的小狗！",
+          "clozeQuestion": "Your baby daughter is so ________ when she smiles.",
+          "clozeCn": "你的寶貝女兒笑起來真可愛。",
+          "clozeAnswer": "cute",
+          "unit": 1
+        },
+        {
+          "word": "curtain",
+          "chinese": "窗簾",
+          "example": "Please open the curtain and let the sun come in.",
+          "exampleCn": "請拉開窗簾，讓陽光照進來。",
+          "clozeQuestion": "My mother bought a new blue ________ for my bedroom.",
+          "clozeCn": "我媽媽為我的臥室買了一面新的藍色窗簾。",
+          "clozeAnswer": "curtain",
           "unit": 1
         }
       ]

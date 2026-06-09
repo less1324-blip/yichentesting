@@ -517,7 +517,29 @@
                 const targetLang = userState.voiceAccent === 'UK' ? 'en-GB' : 'en-US';
                 utterance.lang = targetLang; utterance.rate = userState.speechRate || 0.85;
                 const voices = window.speechSynthesis.getVoices();
-                let selectedVoice = voices.find(v => v.lang === targetLang || v.lang.replace('_', '-').startsWith(targetLang)) || voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
+                
+                // 過濾出符合目標腔調 (美式或英式) 的所有可用語音
+                let suitableVoices = voices.filter(v => v.lang.replace('_', '-').startsWith(targetLang));
+                // 萬一完全找不到目標腔調，退而求其次找任何英文發音
+                if (suitableVoices.length === 0) {
+                    suitableVoices = voices.filter(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
+                }
+
+                let selectedVoice = null;
+                
+                if (userState.voiceAccent === 'US') {
+                    // 美式發音：優先尋找清晰的「男聲」(David, Mark, Alex, Fred, Aaron 等)
+                    selectedVoice = suitableVoices.find(v => /(David|Mark|Alex|Fred|Guy|Aaron|Male)/i.test(v.name));
+                } else {
+                    // 英式發音：優先尋找清晰的「女聲」(Hazel, Susan, Serena, Martha, Karen 等)
+                    selectedVoice = suitableVoices.find(v => /(Hazel|Susan|Serena|Martha|Karen|Moira|Female)/i.test(v.name));
+                }
+
+                // 如果該裝置沒有上述特定名字的男女聲，就安全退回預設的第一個該腔調聲音
+                if (!selectedVoice && suitableVoices.length > 0) {
+                    selectedVoice = suitableVoices[0];
+                }
+
                 if (selectedVoice) utterance.voice = selectedVoice;
 
                 utterance.onend = () => { document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); };

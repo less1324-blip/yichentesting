@@ -1243,10 +1243,21 @@
                         <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pen text-emerald-450"></i> 語境填空挑戰 - 第 ${userState.clozeIndex + 1} / ${data.length} 題</span>
                         <span class="text-slate-450 font-bold">當前連擊: ${userState.streak} 🔥</span>
                     </div>
-                    <div class="text-center my-2 py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
-                        <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${theme.bgLight} ${theme.text}">請推敲填入空白處</span>
-                        <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-3.5 leading-relaxed">${qText}</h3>
+                    
+                    <div class="flex items-stretch gap-3 w-full max-w-3xl mx-auto my-2">
+                        <button onclick="speakWord('${fullSentence.replace(/'/g, "\\'")}')" class="w-14 shrink-0 flex items-center justify-center rounded-2xl bg-slate-900 border border-slate-800 hover:border-slate-750 text-emerald-450 transition-all active:scale-95 shadow-md relative group" title="聽力提示">
+                            <i class="fa-solid fa-headphones text-xl relative z-10 group-hover:scale-110 transition-transform"></i>
+                            <div class="voice-wave-container hidden absolute inset-0 bg-emerald-500/10 rounded-2xl flex items-center justify-center gap-0.5">
+                                <span class="audio-wave-bar w-1 h-4 bg-emerald-400 rounded-full"></span><span class="audio-wave-bar w-1 h-5 bg-emerald-400 rounded-full"></span><span class="audio-wave-bar w-1 h-4 bg-emerald-400 rounded-full"></span>
+                            </div>
+                        </button>
+                        
+                        <div class="flex-1 text-center py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 relative flex flex-col justify-center">
+                            <span class="absolute top-2 left-1/2 -translate-x-1/2 text-[9px] uppercase font-black tracking-widest px-2.5 py-0.5 rounded-full ${theme.bgLight} ${theme.text} whitespace-nowrap">請推敲填入空白處</span>
+                            <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-4 leading-relaxed">${qText}</h3>
+                        </div>
                     </div>
+
                     <div class="w-full max-w-md mx-auto flex flex-col gap-3">
                         <input type="text" id="cloze-input" placeholder="請填寫對應的英文解答..." autocomplete="off" class="w-full px-4 py-3 bg-slate-950 border border-slate-850 ${theme.borderFocus} rounded-xl font-bold tracking-wide outline-none text-slate-100 placeholder-slate-700 transition-colors shadow-inner text-center text-base sm:text-lg" onkeydown="handleClozeEnter(event, '${qAns.replace(/'/g, "\\'")}', ${data.length}, '${fullSentence.replace(/'/g, "\\'")}')" />
                         <div id="cloze-suggestion-container" class="hidden flex-wrap gap-1.5 justify-center py-2 bg-slate-950/40 p-2.5 rounded-xl border border-slate-850 animate-fade-in">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英文修煉閣 - English Training Dojo (雲端自動無感同步版)</title>
+    <title>英文修煉閣 - English Training Dojo (修煉大圓滿版)</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -129,7 +129,7 @@
 
             <div class="flex flex-wrap items-center gap-2 sm:gap-3 bg-slate-950/70 p-2 rounded-2xl border border-slate-800/80 justify-between md:justify-start">
                 
-                <button onclick="openStatsModal()" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/90 border border-slate-800 hover:border-orange-500/30 rounded-xl transition-all hover:bg-slate-850 active:scale-95 group">
+                <button onclick="openStatsModal()" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/90 border border-slate-800 hover:border-orange-550/30 rounded-xl transition-all hover:bg-slate-850 active:scale-95 group">
                     <span class="text-sm font-black text-orange-400 group-hover:scale-105 transition-transform"><i class="fa-solid fa-chart-line mr-1"></i> 修行法海</span>
                 </button>
 
@@ -212,6 +212,7 @@
             </button>
         </section>
 
+        <!-- Difficulty Selection Section -->
         <section id="difficulty-selector-section" class="glass-panel rounded-3xl p-3 shadow-md relative overflow-hidden transition-all duration-300">
             <div class="relative z-10 flex flex-col items-center gap-2.5">
                 <div class="flex items-center gap-2 text-xs sm:text-sm text-orange-400 font-bold uppercase tracking-widest">
@@ -222,6 +223,7 @@
             </div>
         </section>
 
+        <!-- Levels Selection Section -->
         <section id="level-selector-section" class="glass-panel rounded-3xl p-4 shadow-md relative overflow-hidden transition-all duration-300 bg-slate-900/60 border border-slate-800/80">
             <div id="level-bg-glow" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 bg-orange-500/5 blur-3xl pointer-events-none rounded-full glow-pulse"></div>
             <div class="relative z-10 flex flex-col items-center gap-3">
@@ -229,10 +231,11 @@
                     <i id="level-group-icon" class="fa-solid fa-crown text-orange-400"></i>
                     <span>選擇您的修煉境界 (LEVELS)</span>
                 </div>
-                <div class="grid grid-cols-4 sm:grid-cols-7 gap-2 w-full max-w-4xl" id="level-tabs-container"></div>
+                <div class="grid grid-cols-5 sm:grid-cols-10 gap-2 w-full max-w-4xl" id="level-tabs-container"></div>
             </div>
         </section>
 
+        <!-- Units Selection Section -->
         <section id="unit-selector-section" class="glass-panel rounded-3xl p-3 shadow-md relative overflow-hidden transition-all duration-300 bg-slate-900/60 border border-slate-800/80">
             <div class="relative z-10 flex flex-col items-center gap-2.5">
                 <div class="flex items-center gap-2 text-[11px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest">
@@ -243,6 +246,7 @@
             </div>
         </section>
 
+        <!-- Tab Buttons Panel -->
         <section class="glass-panel rounded-3xl p-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 shadow-md">
             <button onclick="switchTab('list')" id="tab-btn-list" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
                 <i class="fa-solid fa-list-check text-xs sm:text-sm"></i> <span>修煉清單</span>
@@ -294,6 +298,7 @@
         </div>
     </div>
 
+    <!-- Toast Notifications and Voice Panel -->
     <div id="toast-container" class="fixed bottom-24 right-6 z-[60] flex flex-col gap-3 pointer-events-none"></div>
 
     <div class="fixed bottom-6 right-6 z-50 flex flex-col-reverse items-end gap-3 pointer-events-auto">
@@ -354,7 +359,7 @@
             <div class="flex flex-col gap-3">
                 <div>
                     <label class="block text-[10px] text-blue-300 font-extrabold mb-1">GitHub JSON Raw URL</label>
-                    <textarea id="modal-sync-url-input" rows="3" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea>
+                    <textarea id="modal-sync-url-input" rows="3" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea>
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <div>
@@ -401,7 +406,7 @@
                 </div>
                 <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-center">
                     <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">當前修行連擊</span>
-                    <span id="stats-current-streak" class="text-2xl sm:text-3xl font-black text-orange-450 font-mono">0</span>
+                    <span id="stats-current-streak" class="text-2xl sm:text-3xl font-black text-orange-455 font-mono">0</span>
                 </div>
                 <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-center">
                     <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">歷史最高連擊</span>
@@ -426,18 +431,45 @@
     </div>
 
     <script>
-        let mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+        // Updated database to hold vocab levels L1-L6 for basic and L1-L10 for pre_intermediate, intermediate, advanced.
+        let mainDatabase = { 
+            vocab: { 
+                basic: {}, 
+                pre_intermediate: {},
+                intermediate: {}, 
+                advanced: {} 
+            }, 
+            phrase: {} 
+        };
         
         let userState = {
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json",
+            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
         let isAdminUnlocked = false;
         let currentQuizWord = ""; // Global state to prevent option mismatch
+
+        // Auto clamping to prevent state overflow
+        function clampState() {
+            let maxLevel = 10;
+            let maxUnit = 10;
+            if (userState.currentDojo === 'vocab') {
+                if (userState.currentDifficulty === 'basic') {
+                    maxLevel = 6;
+                }
+            }
+            if (userState.currentLevel > maxLevel) userState.currentLevel = 1;
+            
+            if (userState.currentDojo === 'vocab' && userState.currentDifficulty === 'basic' && userState.currentLevel === 6) {
+                maxUnit = 5;
+            }
+            
+            if (userState.currentUnit > maxUnit) userState.currentUnit = 1;
+        }
 
         function getThemeColors() {
             const isVocab = userState.currentDojo === 'vocab';
@@ -461,9 +493,9 @@
 
         function getActiveDataList() {
             if (userState.currentDojo === 'vocab') {
-                return ((mainDatabase.vocab[userState.currentDifficulty] && mainDatabase.vocab[userState.currentDifficulty][userState.currentLevel]) || []).filter(item => (item.unit || 1) === userState.currentUnit);
+                return (mainDatabase.vocab[userState.currentDifficulty]?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
             } else {
-                return ((mainDatabase.phrase && mainDatabase.phrase[userState.currentLevel]) || []).filter(item => (item.unit || 1) === userState.currentUnit);
+                return (mainDatabase.phrase?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
             }
         }
 
@@ -471,6 +503,7 @@
             playSound('click');
             userState.currentDojo = 'vocab'; userState.currentDifficulty = 'basic'; userState.currentLevel = 1; userState.currentUnit = 1; userState.currentTab = 'list';
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            clampState();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
             showToast("☯️ 已返回英文修煉大殿", "success");
         }
@@ -517,38 +550,7 @@
                 const targetLang = userState.voiceAccent === 'UK' ? 'en-GB' : 'en-US';
                 utterance.lang = targetLang; utterance.rate = userState.speechRate || 0.85;
                 const voices = window.speechSynthesis.getVoices();
-                
-                let selectedVoice = null;
-                
-                if (userState.voiceAccent === 'US') {
-                    // 美式發音 (General American) - 男聲優先
-                    // 尋找各平台中，最接近通用美式英語且發音飽滿、捲舌音清晰的語音
-                    selectedVoice = voices.find(v => 
-                        v.lang.startsWith('en-US') && 
-                        /(Alex|David|Mark|Guy|Aaron|Male|Google US English Male)/i.test(v.name)
-                    );
-                    // 如果沒有找到特定的男聲，退回任何清晰的 en-US
-                    if (!selectedVoice) {
-                         selectedVoice = voices.find(v => v.lang.startsWith('en-US') && /(Samantha|Zira|Google US English)/i.test(v.name)) || voices.find(v => v.lang.startsWith('en-US'));
-                    }
-                } else {
-                    // 英式發音 (Received Pronunciation, RP) - 女聲優先
-                    // 尋找各平台中，最接近 RP (牛津腔/女王英語) 的語音
-                    selectedVoice = voices.find(v => 
-                        v.lang.startsWith('en-GB') && 
-                        /(Serena|Hazel|Susan|Martha|Karen|Moira|Female|Google UK English Female)/i.test(v.name)
-                    );
-                    // 如果沒有找到特定的女聲，退回任何清晰的 en-GB
-                    if (!selectedVoice) {
-                        selectedVoice = voices.find(v => v.lang.startsWith('en-GB') && /(Daniel|Google UK English Male)/i.test(v.name)) || voices.find(v => v.lang.startsWith('en-GB'));
-                    }
-                }
-
-                // 最後的防呆：萬一完全找不到目標腔調，找任何英文發音
-                if (!selectedVoice) {
-                    selectedVoice = voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
-                }
-
+                let selectedVoice = voices.find(v => v.lang === targetLang || v.lang.replace('_', '-').startsWith(targetLang)) || voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
                 if (selectedVoice) utterance.voice = selectedVoice;
 
                 utterance.onend = () => { document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); };
@@ -574,23 +576,23 @@
             if (slider && display) { slider.value = userState.speechRate; display.textContent = `${Number(userState.speechRate).toFixed(2)}x`; }
         }
 
-        // 新增：從本地修煉大典尋找中文解釋的函式
         function findLocalMeaning(searchWord) {
             if (!searchWord) return null;
             const sw = searchWord.toLowerCase();
             
-            // 搜尋單字庫
-            for (const diff of ['basic', 'intermediate', 'advanced']) {
-                for (let l = 1; l <= 7; l++) {
-                    const list = (mainDatabase.vocab[diff] && mainDatabase.vocab[diff][l]) || [];
+            // Search all sub-databases
+            for (const diff of ['basic', 'pre_intermediate', 'intermediate', 'advanced']) {
+                let maxL = (diff === 'basic') ? 6 : 10;
+                for (let l = 1; l <= maxL; l++) {
+                    const list = mainDatabase.vocab[diff]?.[l] || [];
                     const found = list.find(item => item.word.toLowerCase() === sw);
                     if (found) return found.chinese;
                 }
             }
             
-            // 搜尋片語庫
-            for (let l = 1; l <= 7; l++) {
-                const list = (mainDatabase.phrase && mainDatabase.phrase[l]) || [];
+            // Search Phrase databases up to level 10
+            for (let l = 1; l <= 10; l++) {
+                const list = mainDatabase.phrase?.[l] || [];
                 const found = list.find(item => item.word.toLowerCase() === sw);
                 if (found) return found.chinese;
             }
@@ -628,7 +630,6 @@
                 </div>
             `;
 
-            // 先從本地庫抓取中文翻譯
             const localChinese = findLocalMeaning(word);
 
             fetchDictionaryDefinition(word).then(data => {
@@ -702,37 +703,42 @@
             try { savedState = localStorage.getItem('english_dojo_state_v5'); savedMainDb = localStorage.getItem('english_dojo_main_db_v5'); } catch (e) {}
             if (savedState) {
                 try { 
-                    userState = Object.assign({}, userState, JSON.parse(savedState)); 
-                    
-                    // 防呆：如果網址是空的，或者使用者儲存的還是舊的預設網址，就幫他強迫更新為最新的預設網址！
-                    if (!userState.autoSyncUrl) {
-                        userState.autoSyncUrl = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
-                    } else if (userState.autoSyncUrl.includes("6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c")) {
-                        userState.autoSyncUrl = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
-                    }
+                    userState = { ...userState, ...JSON.parse(savedState) }; 
+                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
                 } catch(e) {}
             }
             if (savedMainDb) {
                 try { 
                     const parsedDB = JSON.parse(savedMainDb); 
-                    if (parsedDB.vocab && (Array.isArray(parsedDB.vocab['1']) || Array.isArray(parsedDB.vocab['2']))) {
-                        parsedDB.vocab = { basic: {}, intermediate: {}, advanced: {} };
-                        for(let l=1; l<=7; l++) if(JSON.parse(savedMainDb).vocab[l]) parsedDB.vocab.basic[l] = JSON.parse(savedMainDb).vocab[l];
+                    // Handle transition if upgrading from legacy DB structure
+                    if (parsedDB.vocab && !parsedDB.vocab.pre_intermediate) {
+                        const legacyVocab = parsedDB.vocab;
+                        parsedDB.vocab = { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} };
+                        for(let l=1; l<=10; l++) {
+                            if(legacyVocab[l]) parsedDB.vocab.basic[l] = legacyVocab[l];
+                        }
                     }
                     mainDatabase = parsedDB;
                 } catch(e) {}
             }
-            ['basic', 'intermediate', 'advanced'].forEach(diff => {
-                for (let l = 1; l <= 7; l++) {
-                    if (!mainDatabase.vocab[diff]) mainDatabase.vocab[diff] = {};
+
+            // Ensure all difficulty nodes exist L1-L6 for basic, and L1-L10 for others
+            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
+                if (!mainDatabase.vocab[diff]) mainDatabase.vocab[diff] = {};
+                let maxL = (diff === 'basic') ? 6 : 10;
+                for (let l = 1; l <= maxL; l++) {
                     if (!mainDatabase.vocab[diff][l]) mainDatabase.vocab[diff][l] = [];
                     mainDatabase.vocab[diff][l].forEach(item => { if (!item.unit) item.unit = 1; });
                 }
             });
-            for (let l = 1; l <= 7; l++) {
+
+            // Ensure Phrase goes L1-L10
+            if (!mainDatabase.phrase) mainDatabase.phrase = {};
+            for (let l = 1; l <= 10; l++) {
                 if (!mainDatabase.phrase[l]) mainDatabase.phrase[l] = [];
                 mainDatabase.phrase[l].forEach(item => { if (!item.unit) item.unit = 1; });
             }
+            clampState();
         }
 
         function saveProgress() {
@@ -777,18 +783,20 @@
             container.innerHTML = '';
             [
                 { id: 'basic', name: '<i class="fa-solid fa-seedling mr-1.5 opacity-80"></i>初級單字' },
+                { id: 'pre_intermediate', name: '<i class="fa-solid fa-leaf mr-1.5 opacity-80"></i>初中級單字' },
                 { id: 'intermediate', name: '<i class="fa-brands fa-pagelines mr-1.5 opacity-80"></i>中級單字' },
                 { id: 'advanced', name: '<i class="fa-solid fa-tree mr-1.5 opacity-80"></i>中高級單字' }
             ].forEach(diff => {
                 const isActive = userState.currentDifficulty === diff.id;
                 const activeStyle = isActive ? 'bg-orange-500 text-slate-950 font-black shadow-neon-orange scale-105 border-orange-400' : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
-                container.innerHTML += `<button onclick="selectDifficulty('${diff.id}')" class="flex-1 max-w-[140px] px-3 py-2 sm:px-4 rounded-xl border text-[11px] sm:text-xs transition-all duration-350 font-bold ${activeStyle}">${diff.name}</button>`;
+                container.innerHTML += `<button onclick="selectDifficulty('${diff.id}')" class="flex-1 max-w-[140px] px-2 py-2 sm:px-3 rounded-xl border text-[10px] sm:text-xs transition-all duration-350 font-bold ${activeStyle}">${diff.name}</button>`;
             });
         }
 
         function selectDifficulty(diffId) {
             playSound('click'); userState.currentDifficulty = diffId; userState.currentLevel = 1; userState.currentUnit = 1;
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            clampState();
             saveProgress(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent();
         }
 
@@ -797,23 +805,38 @@
             const theme = getThemeColors(); container.innerHTML = '';
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
-            for (let i = 1; i <= 7; i++) {
+            
+            // Dynamic levels limit: Basic goes L6, others L10.
+            let maxL = 10;
+            if (userState.currentDojo === 'vocab' && userState.currentDifficulty === 'basic') {
+                maxL = 6;
+            }
+            
+            for (let i = 1; i <= maxL; i++) {
                 const isActive = userState.currentLevel === i;
                 const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
-                container.innerHTML += `<button onclick="selectLevel(${i})" class="flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle}"><span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-base sm:text-lg font-black font-mono">L${i}</span></button>`;
+                container.innerHTML += `<button onclick="selectLevel(${i})" class="flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle}"><span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-sm sm:text-base font-black font-mono">L${i}</span></button>`;
             }
         }
 
         function selectLevel(lvl) {
             playSound('click'); userState.currentLevel = lvl; userState.currentUnit = 1; 
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            clampState();
             saveProgress(); renderLevelSelector(); renderUnitSelector(); renderContent();
         }
 
         function renderUnitSelector() {
             const container = document.getElementById('unit-tabs-container'); if(!container) return; container.innerHTML = '';
             const isVocab = userState.currentDojo === 'vocab';
-            for (let i = 1; i <= 10; i++) {
+            
+            // Dynamic Unit limits: basic L6 goes to U5, others to U10.
+            let maxU = 10;
+            if (isVocab && userState.currentDifficulty === 'basic' && userState.currentLevel === 6) {
+                maxU = 5;
+            }
+
+            for (let i = 1; i <= maxU; i++) {
                 const isActive = userState.currentUnit === i;
                 const activeStyle = isActive ? (isVocab ? 'bg-orange-400 text-slate-950 font-black shadow-neon-orange scale-105 border-orange-300' : 'bg-blue-400 text-slate-950 font-black shadow-neon-blue scale-105 border-blue-300') : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
                 container.innerHTML += `<button onclick="selectUnit(${i})" class="px-2.5 py-1.5 sm:px-3 rounded-xl border text-[11px] sm:text-xs transition-all duration-350 font-mono ${activeStyle}">Unit ${i}</button>`;
@@ -822,11 +845,13 @@
 
         function selectUnit(u) {
             playSound('click'); userState.currentUnit = u; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            clampState();
             saveProgress(); renderUnitSelector(); renderContent();
         }
 
         function switchDojo(dojoType) {
             playSound('click'); userState.currentDojo = dojoType; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            clampState();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
         }
 
@@ -869,10 +894,13 @@
             }
         }
 
-        // --- Render List Tab (Updated: Single column, larger font, split audio, dictionary integration) ---
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
-            const diffName = userState.currentDojo === 'vocab' ? `[${userState.currentDifficulty === 'basic' ? '初級' : userState.currentDifficulty === 'intermediate' ? '中級' : '中高級'}] ` : '';
+            let diffName = '';
+            if (userState.currentDojo === 'vocab') {
+                const mapping = { basic: '初級', pre_intermediate: '初中級', intermediate: '中級', advanced: '中高級' };
+                diffName = `[${mapping[userState.currentDifficulty] || '單字'}] `;
+            }
             const dbName = `⛩️ 修煉大典 ${diffName}境界 L${userState.currentLevel} - Unit ${userState.currentUnit}`;
             const theme = getThemeColors();
             
@@ -911,7 +939,7 @@
                             <div class="flex items-start justify-between gap-4">
                                 <div class="flex-1">
                                     <p class="text-base sm:text-lg font-bold text-slate-300 leading-relaxed">${clickableExample}</p>
-                                    <p class="mt-2 text-sm sm:text-base text-slate-450 font-bold leading-relaxed">${item.exampleCn}</p>
+                                    <p class="mt-2 text-sm sm:text-base text-slate-455 font-bold leading-relaxed">${item.exampleCn}</p>
                                 </div>
                                 <button onclick="speakWord('${safeExample}')" class="w-10 h-10 flex items-center justify-center text-slate-500 hover:text-orange-400 rounded-lg bg-slate-900 hover:bg-slate-800 transition-all shrink-0 border border-slate-800" title="僅朗讀例句">
                                     <i class="fa-solid fa-comment-dots text-sm"></i>
@@ -960,7 +988,7 @@
                     <div class="flex gap-4 w-full max-w-sm justify-between items-center">
                         <button onclick="navigateFlashcard(-1, ${data.length})" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-white rounded-2xl text-slate-400 font-bold text-xs sm:text-sm transition-all duration-200"><i class="fa-solid fa-arrow-left mr-1.5"></i>上一個</button>
                         <button onclick="speakWord('${safeWord}'); setTimeout(() => speakWord('${safeExample}'), 800);" class="w-11 h-11 flex items-center justify-center rounded-full ${theme.bgLight} ${theme.bgHover} ${theme.text} border ${theme.border} active:scale-95 transition-all shadow-lg" title="朗讀"><i class="fa-solid fa-volume-high text-base"></i></button>
-                        <button onclick="navigateFlashcard(1, ${data.length})" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-white rounded-2xl text-slate-400 font-bold text-xs sm:text-sm transition-all duration-200">下一個<i class="fa-solid fa-arrow-right ml-1.5"></i></button>
+                        <button onclick="navigateFlashcard(1, ${data.length})" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-white rounded-2xl text-slate-400 font-bold text-xs sm:text-sm transition-all duration-200">下一個<i class="fa-solid fa-arrow-right mr-1.5"></i></button>
                     </div>
                 </div>
             `;
@@ -972,19 +1000,17 @@
             setTimeout(() => { userState.flashcardIndex = (userState.flashcardIndex + dir + total) % total; saveProgress(); renderContent(); }, 150);
         }
 
-        let generatedOptions = []; 
-        
-        // Updated generateQuizOptions: strictly ensure non-duplicate options and fix state bug
         function generateQuizOptions(correctItem) {
             let pool = [];
             if(userState.currentDojo === 'vocab') {
-                ['basic', 'intermediate', 'advanced'].forEach(d => {
-                    for(let l=1; l<=7; l++){
+                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                    let maxL = (d === 'basic') ? 6 : 10;
+                    for(let l=1; l<=maxL; l++){
                         if(mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) pool = pool.concat(mainDatabase.vocab[d][l]);
                     }
                 });
             } else {
-                for(let l=1; l<=7; l++){
+                for(let l=1; l<=10; l++){
                     if(mainDatabase.phrase[l]) pool = pool.concat(mainDatabase.phrase[l]);
                 }
             }
@@ -1006,7 +1032,7 @@
                 wrongOptions.push({ word: "Dummy" + wrongOptions.length, chinese: "干擾選項" + wrongOptions.length });
             }
 
-            const finalOptions = [correctItem].concat(wrongOptions);
+            const finalOptions = [correctItem, ...wrongOptions];
             for (let i = finalOptions.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [finalOptions[i], finalOptions[j]] = [finalOptions[j], finalOptions[i]];
@@ -1073,7 +1099,7 @@
                 userState.streak += 1; userState.correctCount += 1;
                 const gainedExp = 15 + Math.min(userState.streak, 5) * 2;
                 const lvlUp = addEXP(gainedExp);
-                showToast(`修煉正確！獲得靈氣 +${gainedExp} ${lvlUp ? '🎉 突破天劫！' : ''}`, 'success');
+                showToast("修煉正確！獲得靈氣 +" + gainedExp + (lvlUp ? ' 🎉 突破天劫！' : ''), 'success');
             } else {
                 playSound('wrong');
                 element.className = "p-4 rounded-xl text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between bg-rose-500/10 border border-rose-500 text-rose-400 shadow-neon-rose";
@@ -1094,7 +1120,6 @@
             saveProgress(); renderContent();
         }
 
-        // --- Render Spelling Tab (Updated: Dynamic fragment tracking) ---
         function renderSpellingTab(data) {
             const contentDiv = document.getElementById('dojo-content'); const idx = userState.spellingIndex;
             if (idx >= data.length) userState.spellingIndex = 0;
@@ -1247,7 +1272,6 @@
 
         function nextSpellingQuestion(totalQuestions) { userState.spellingIndex = (userState.spellingIndex + 1) % totalQuestions; saveProgress(); renderContent(); }
 
-        // --- Render Cloze Tab (Updated: Clickable dictionary words) ---
         function renderClozeTab(data) {
             const contentDiv = document.getElementById('dojo-content'); const idx = userState.clozeIndex;
             if (idx >= data.length) userState.clozeIndex = 0;
@@ -1274,21 +1298,10 @@
                         <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pen text-emerald-450"></i> 語境填空挑戰 - 第 ${userState.clozeIndex + 1} / ${data.length} 題</span>
                         <span class="text-slate-450 font-bold">當前連擊: ${userState.streak} 🔥</span>
                     </div>
-                    
-                    <div class="flex items-stretch gap-3 w-full max-w-3xl mx-auto my-2">
-                        <button onclick="speakWord('${fullSentence.replace(/'/g, "\\'")}')" class="w-14 shrink-0 flex items-center justify-center rounded-2xl bg-slate-900 border border-slate-800 hover:border-slate-750 text-emerald-450 transition-all active:scale-95 shadow-md relative group" title="聽力提示">
-                            <i class="fa-solid fa-headphones text-xl relative z-10 group-hover:scale-110 transition-transform"></i>
-                            <div class="voice-wave-container hidden absolute inset-0 bg-emerald-500/10 rounded-2xl flex items-center justify-center gap-0.5">
-                                <span class="audio-wave-bar w-1 h-4 bg-emerald-400 rounded-full"></span><span class="audio-wave-bar w-1 h-5 bg-emerald-400 rounded-full"></span><span class="audio-wave-bar w-1 h-4 bg-emerald-400 rounded-full"></span>
-                            </div>
-                        </button>
-                        
-                        <div class="flex-1 text-center py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 relative flex flex-col justify-center">
-                            <span class="absolute top-2 left-1/2 -translate-x-1/2 text-[9px] uppercase font-black tracking-widest px-2.5 py-0.5 rounded-full ${theme.bgLight} ${theme.text} whitespace-nowrap">請推敲填入空白處</span>
-                            <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-4 leading-relaxed">${qText}</h3>
-                        </div>
+                    <div class="text-center my-2 py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
+                        <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${theme.bgLight} ${theme.text}">請推敲填入空白處</span>
+                        <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-3.5 leading-relaxed">${qText}</h3>
                     </div>
-
                     <div class="w-full max-w-md mx-auto flex flex-col gap-3">
                         <input type="text" id="cloze-input" placeholder="請填寫對應的英文解答..." autocomplete="off" class="w-full px-4 py-3 bg-slate-950 border border-slate-850 ${theme.borderFocus} rounded-xl font-bold tracking-wide outline-none text-slate-100 placeholder-slate-700 transition-colors shadow-inner text-center text-base sm:text-lg" onkeydown="handleClozeEnter(event, '${qAns.replace(/'/g, "\\'")}', ${data.length}, '${fullSentence.replace(/'/g, "\\'")}')" />
                         <div id="cloze-suggestion-container" class="hidden flex-wrap gap-1.5 justify-center py-2 bg-slate-950/40 p-2.5 rounded-xl border border-slate-850 animate-fade-in">
@@ -1298,13 +1311,13 @@
                     </div>
                     <div class="w-full max-w-md mx-auto flex flex-col gap-2.5">
                         <div class="flex justify-between gap-3">
-                            <button onclick="toggleClozeLetters()" class="flex-1 py-2 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-puzzle-piece mr-1 text-orange-450"></i>字母碎片</button>
+                            <button onclick="toggleClozeLetters()" class="flex-1 py-2 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-puzzle-piece mr-1 text-orange-455"></i>字母碎片</button>
                             <button onclick="revealClozeHint('${currentItem.chinese.replace(/'/g, "\\'")}')" class="flex-1 py-2 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-lightbulb mr-1 ${theme.text}"></i>取得提示</button>
                             <button onclick="checkClozeAnswer('${qAns.replace(/'/g, "\\'")}', ${data.length}, '${fullSentence.replace(/'/g, "\\'")}')" class="flex-1 py-2 ${theme.btnTheme} font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-1.5 shadow-lg transition-all"><i class="fa-solid fa-square-check"></i>提交解答</button>
                         </div>
                         <div id="cloze-feedback" class="hidden p-3.5 rounded-xl text-center text-sm font-bold transition-all duration-300"></div>
                         <div id="cloze-reveal-area" class="hidden flex-col gap-3 bg-slate-900/60 p-4 rounded-xl border border-slate-800/80 animate-fade-in">
-                            <div class="text-xs font-extrabold text-orange-350 border-b border-slate-800/80 pb-2 flex items-center justify-between">
+                            <div class="text-xs font-extrabold text-orange-355 border-b border-slate-800/80 pb-2 flex items-center justify-between">
                                 <span>完整語境解答</span>
                                 <button onclick="speakWord('${fullSentence.replace(/'/g, "\\'")}')" class="w-8 h-8 flex items-center justify-center rounded-lg bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 active:scale-95 transition-all shadow-md" title="朗讀完整句子"><i class="fa-solid fa-volume-high text-xs"></i></button>
                             </div>
@@ -1346,7 +1359,7 @@
                 addEXP(25); showToast("填空正確！修為增加 +25", 'success');
             } else {
                 playSound('wrong');
-                feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-450";
+                feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-455";
                 feedback.innerHTML = `<i class="fa-solid fa-triangle-exclamation mr-1.5"></i>拼法受阻！正確填空答案應為：<span class="underline font-mono ml-1 text-white text-base">${correctAnswer}</span>`;
                 userState.streak = 0; showToast(`答案不對，再接再厲！`, 'error');
             }
@@ -1383,8 +1396,11 @@
         function renderAdminTab() {
             const contentDiv = document.getElementById('dojo-content');
             let mainVocab = 0, mainPhrase = 0;
-            ['basic', 'intermediate', 'advanced'].forEach(d => { for (let l=1; l<=7; l++) mainVocab += (mainDatabase.vocab[d] && mainDatabase.vocab[d][l] ? mainDatabase.vocab[d][l].length : 0); });
-            for (let l=1; l<=7; l++) mainPhrase += (mainDatabase.phrase && mainDatabase.phrase[l] ? mainDatabase.phrase[l].length : 0);
+            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                let maxL = (d === 'basic') ? 6 : 10;
+                for (let l=1; l<=maxL; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
+            });
+            for (let l=1; l<=10; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
 
             contentDiv.innerHTML = `
                 <div class="flex flex-col gap-6">
@@ -1400,27 +1416,27 @@
                     </div>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col gap-3">
-                            <div class="flex justify-between items-center"><h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-folder-plus text-orange-500"></i> 智慧格式批次匯入</h4><button onclick="insertTemplateText()" class="text-[10px] text-orange-400 hover:text-orange-350 font-bold"><i class="fa-solid fa-paste mr-1"></i>帶入自訂填空匯入範本</button></div>
+                            <div class="flex justify-between items-center"><h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-folder-plus text-orange-500"></i> 智慧格式批次匯入</h4><button onclick="insertTemplateText()" class="text-[10px] text-orange-400 hover:text-orange-355 font-bold"><i class="fa-solid fa-paste mr-1"></i>帶入自訂填空匯入範本</button></div>
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="pre_intermediate">初中級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">L${i+1}</option>`).join('')}</select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">U${i+1}</option>`).join('')}</select></div>
                             </div>
                             <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors"></textarea>
                             <div class="flex gap-3 justify-end"><button onclick="processBulkImport()" class="px-5 py-2 bg-orange-600 hover:bg-orange-550 text-slate-100 font-bold text-xs rounded-xl transition-all shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-bolt"></i> 執行格式解析並匯入</button></div>
                         </div>
                         <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col gap-3">
-                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-orange-450"></i> 手動單筆自訂新增</h4>
+                            <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-orange-455"></i> 手動單筆自訂新增</h4>
                             <div class="grid grid-cols-2 gap-3">
                                 <div><input type="text" id="form-word" placeholder="英文字詞 / 片語" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" /></div>
                                 <div><input type="text" id="form-chinese" placeholder="中文含義說明" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" /></div>
                             </div>
                             <div class="grid grid-cols-4 gap-2">
                                 <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option></select>
-                                <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
-                                <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7].map(l => `<option value="${l}">L${l}</option>`).join('')}</select>
-                                <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select>
+                                <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="pre_intermediate">初中級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
+                                <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">L${i+1}</option>`).join('')}</select>
+                                <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">U${i+1}</option>`).join('')}</select>
                             </div>
                             <div class="grid grid-cols-2 gap-3">
                                 <div><input type="text" id="form-example" placeholder="英文例句" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-orange-500" /></div>
@@ -1433,7 +1449,7 @@
                                     <input type="text" id="form-cloze-ans" placeholder="標準答案 (預設為對應英文字詞)" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs text-slate-100 outline-none focus:border-emerald-500" />
                                 </div>
                             </div>
-                            <div class="flex justify-end"><button onclick="saveSingleFormItem()" class="px-5 py-2.5 bg-orange-550 hover:bg-orange-650 text-slate-950 font-black text-xs rounded-xl shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-sm"></i> 儲存此單字</button></div>
+                            <div class="flex justify-end"><button onclick="saveSingleFormItem()" class="px-5 py-2.5 bg-orange-550 hover:bg-orange-655 text-slate-950 font-black text-xs rounded-xl shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-square-plus text-sm"></i> 儲存此單字</button></div>
                         </div>
                     </div>
                     
@@ -1442,7 +1458,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><textarea id="github-url-input" rows="2" placeholder="請貼入 JSON 連結 (支援多個，一行一個)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
+                            <div class="md:col-span-2"><input type="text" id="github-url-input" placeholder="請貼入 JSON 連結" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none" /></div>
                             <div>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1483,20 +1499,22 @@
 
         function fillGithubSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('github-url-input');
-            if (targetInput) targetInput.value = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
+            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
         }
 
         function saveAdminSyncToGlobal() {
-            const inputEl = document.getElementById('github-url-input');
-            const url = inputEl ? inputEl.value.trim() : '';
+            const url = document.getElementById('github-url-input')?.value.trim();
             if (!url) return;
             userState.autoSyncUrl = url; userState.autoSyncOnLoad = true; saveProgress(); updateSyncBadgeUI(); showToast("💾 已將此雲端網址設定為首頁自動同步連結！", "success");
         }
 
         function normalizeImportedJson(data) {
-            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
-            ['basic', 'intermediate', 'advanced'].forEach(d => { for(let i=1;i<=7;i++) normalized.vocab[d][i] = []; });
-            for(let i=1;i<=7;i++) normalized.phrase[i] = [];
+            let normalized = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
+            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                let maxL = (d === 'basic') ? 6 : 10;
+                for(let i=1; i<=maxL; i++) normalized.vocab[d][i] = []; 
+            });
+            for(let i=1; i<=10; i++) normalized.phrase[i] = [];
             if (!data || typeof data !== 'object') return null;
 
             const processList = (list, isVocab, diff, lvl) => {
@@ -1508,22 +1526,39 @@
                             clozeQuestion: String(item.clozeQuestion || "").trim(), clozeCn: String(item.clozeCn || "").trim(),
                             clozeAnswer: String(item.clozeAnswer || item.word || "").trim(), unit: parseInt(item.unit) || 1
                         };
-                        if(isVocab) normalized.vocab[diff][lvl].push(cleanItem);
-                        else normalized.phrase[lvl].push(cleanItem);
+                        if(isVocab) {
+                            if(normalized.vocab[diff] && normalized.vocab[diff][lvl]) {
+                                normalized.vocab[diff][lvl].push(cleanItem);
+                            }
+                        }
+                        else {
+                            if (normalized.phrase[lvl]) {
+                                normalized.phrase[lvl].push(cleanItem);
+                            }
+                        }
                     }
                 });
             };
 
             if (data.vocab) {
-                if (data.vocab.basic || data.vocab.intermediate || data.vocab.advanced) {
-                    ['basic', 'intermediate', 'advanced'].forEach(diff => {
-                        if (data.vocab[diff]) for (let lvl = 1; lvl <= 7; lvl++) if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], true, diff, lvl);
+                if (data.vocab.basic || data.vocab.pre_intermediate || data.vocab.intermediate || data.vocab.advanced) {
+                    ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
+                        let maxL = (diff === 'basic') ? 6 : 10;
+                        if (data.vocab[diff]) {
+                            for (let lvl = 1; lvl <= maxL; lvl++) {
+                                if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], true, diff, lvl);
+                            }
+                        }
                     });
                 } else {
-                    for (let lvl = 1; lvl <= 7; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], true, 'basic', lvl);
+                    for (let lvl = 1; lvl <= 6; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], true, 'basic', lvl);
                 }
             }
-            if (data.phrase) for (let lvl = 1; lvl <= 7; lvl++) if (Array.isArray(data.phrase[lvl])) processList(data.phrase[lvl], false, null, lvl);
+            if (data.phrase) {
+                for (let lvl = 1; lvl <= 10; lvl++) {
+                    if (Array.isArray(data.phrase[lvl])) processList(data.phrase[lvl], false, null, lvl);
+                }
+            }
             return normalized;
         }
 
@@ -1533,83 +1568,75 @@
             const origBtnHtml = fetchBtn.innerHTML; fetchBtn.disabled = true; fetchBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin mr-1.5"></i> 下載同步中...`;
             const importMode = document.querySelector('input[name="github-import-mode"]:checked').value; 
             
-            const rawUrls = urlInput.value.trim().split('\n').map(u => u.trim()).filter(u => u !== '');
-            if (rawUrls.length === 0) { fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml; return; }
-
             if (importMode === 'overwrite') {
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
+                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                    let maxL = (d === 'basic') ? 6 : 10;
+                    for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                });
+                for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
             }
             
-            let successCount = 0;
-            
-            for (let rawUrl of rawUrls) {
-                let url = rawUrl;
-                if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+            let url = urlInput.value.trim();
+            if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
 
-                try {
-                    const res = await fetch(url);
-                    if (res.ok) {
-                        const data = normalizeImportedJson(await res.json());
-                        if (data) {
-                            ['basic', 'intermediate', 'advanced'].forEach(d => {
-                                for(let l=1; l<=7; l++) {
+            try {
+                const res = await fetch(url);
+                if (res.ok) {
+                    const data = normalizeImportedJson(await res.json());
+                    if (data) {
+                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                            let maxL = (d === 'basic') ? 6 : 10;
+                            for(let l=1; l<=maxL; l++) {
+                                if(data.vocab[d] && data.vocab[d][l]) {
                                     data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
                                 }
-                            });
-                            for(let l=1; l<=7; l++) {
+                            }
+                        });
+                        for(let l=1; l<=10; l++) {
+                            if(data.phrase && data.phrase[l]) {
                                 data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                             }
-                            successCount++;
                         }
+                        playSound('levelUp'); showToast("雲端提取成功！", "success");
+                        setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
                     }
-                } catch(e) { console.error("Fetch failed for", url, e); }
-            }
-            
-            if (successCount > 0) {
-                playSound('levelUp'); showToast(`<i class="fa-solid fa-cloud-arrow-down mr-1"></i> 成功提取 ${successCount} 個雲端大典！`, "success");
-                setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
-            } else {
-                playSound('wrong'); showToast("下載失敗，請檢查網址", "error");
-            }
+                } else throw new Error();
+            } catch(e) { playSound('wrong'); showToast("下載失敗，請檢查網址", "error"); }
             fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml;
         }
 
-        async function backgroundSync(urlsStr, mode) {
-            if (!urlsStr) return;
-            const rawUrls = urlsStr.split('\n').map(u => u.trim()).filter(u => u !== '');
-            if (rawUrls.length === 0) return;
-
-            if (mode === 'overwrite') {
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
-            }
-
-            let successCount = 0;
-            for (let rawUrl of rawUrls) {
-                let url = rawUrl; 
-                if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
-                try {
-                    const res = await fetch(url);
-                    if (res.ok) {
-                        const data = normalizeImportedJson(await res.json());
-                        if (data) {
-                            ['basic', 'intermediate', 'advanced'].forEach(d => {
-                                for(let l=1; l<=7; l++) {
+        async function backgroundSync(rawUrl, mode) {
+            if (!rawUrl) return;
+            let url = rawUrl; if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+            try {
+                const res = await fetch(url);
+                if (res.ok) {
+                    if (mode === 'overwrite') {
+                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                            let maxL = (d === 'basic') ? 6 : 10;
+                            for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                        });
+                        for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
+                    }
+                    const data = normalizeImportedJson(await res.json());
+                    if (data) {
+                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                            let maxL = (d === 'basic') ? 6 : 10;
+                            for(let l=1; l<=maxL; l++) {
+                                if(data.vocab[d] && data.vocab[d][l]) {
                                     data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
                                 }
-                            });
-                            for(let l=1; l<=7; l++) {
+                            }
+                        });
+                        for(let l=1; l<=10; l++) {
+                            if(data.phrase && data.phrase[l]) {
                                 data.phrase[l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                             }
-                            successCount++;
                         }
+                        saveProgress(); renderContent(); showToast("背景同步完成", "success");
                     }
-                } catch(e) {}
-            }
-            if (successCount > 0) {
-                saveProgress(); renderContent(); showToast(`背景自動同步完成 (${successCount} 個來源)`, "success");
-            }
+                }
+            } catch(e) {}
             setTimeout(updateSyncBadgeUI, 2000);
         }
 
@@ -1655,8 +1682,8 @@
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
             if (urlInput) {
-                urlInput.value = "https://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_basic.json\nhttps://github.com/less1324-blip/yichentesting/blob/0a91e5a2ae278efb5e842d585669e5c924d73cd2/vocab_intermediateL1%20unit1.json";
-                showToast("已成功帶入多個 GitHub 測試資料庫網址！", "info");
+                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+                showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
             }
         }
 
@@ -1680,6 +1707,13 @@
         function processBulkImport() {
             const ta = document.getElementById('bulk-import-area'); if (!ta || !ta.value.trim()) return;
             const diff = document.getElementById('bulk-difficulty').value, lvl = parseInt(document.getElementById('bulk-level').value), unit = parseInt(document.getElementById('bulk-unit').value);
+            
+            // Check limits for basic difficulty during bulk imports
+            if (diff === 'basic' && (lvl > 6 || (lvl === 6 && unit > 5))) {
+                showToast("初級單字最高支援至 L6，且 L6 僅支援至 U5！", "error");
+                return;
+            }
+
             let added = 0;
             ta.value.trim().split(/\n\s*\n/).forEach(block => {
                 const lines = block.split('\n').filter(l => l.trim().length > 0);
@@ -1697,34 +1731,72 @@
                     if (w && c) {
                         const targetObj = { word: w, chinese: c, example: eg, exampleCn: egC, clozeQuestion: cq, clozeCn: cc, clozeAnswer: ca, unit: unit };
                         const dojo = w.includes(" ") ? 'phrase' : 'vocab';
-                        if(dojo === 'vocab') { mainDatabase.vocab[diff][lvl].push(targetObj); added++; }
-                        else { mainDatabase.phrase[lvl].push(targetObj); added++; }
+                        if(dojo === 'vocab') { 
+                            if (!mainDatabase.vocab[diff][lvl]) mainDatabase.vocab[diff][lvl] = [];
+                            mainDatabase.vocab[diff][lvl].push(targetObj); 
+                            added++; 
+                        }
+                        else { 
+                            if (!mainDatabase.phrase[lvl]) mainDatabase.phrase[lvl] = [];
+                            mainDatabase.phrase[lvl].push(targetObj); 
+                            added++; 
+                        }
                     }
                 }
             });
-            if (added > 0) { ta.value = ""; saveProgress(); showToast(`成功解析匯入！`, "success"); }
+            if (added > 0) { ta.value = ""; saveProgress(); showToast(`成功解析匯入 ${added} 筆修行！`, "success"); }
         }
 
         function saveSingleFormItem() {
             const w = document.getElementById('form-word').value.trim(), c = document.getElementById('form-chinese').value.trim();
             if(!w || !c) return;
             const dojo = document.getElementById('form-dojo').value, diff = document.getElementById('form-difficulty').value, lvl = parseInt(document.getElementById('form-level').value), unit = parseInt(document.getElementById('form-unit').value);
+            
+            if (dojo === 'vocab' && diff === 'basic' && (lvl > 6 || (lvl === 6 && unit > 5))) {
+                showToast("儲存失敗！初級單字 L6 最高僅支援至 U5！", "error");
+                return;
+            }
+
             const item = { word: w, chinese: c, example: document.getElementById('form-example').value.trim(), exampleCn: document.getElementById('form-example-cn').value.trim(), clozeQuestion: document.getElementById('form-cloze-q').value.trim(), clozeCn: document.getElementById('form-cloze-cn').value.trim(), clozeAnswer: document.getElementById('form-cloze-ans').value.trim() || w, unit: unit };
-            if(dojo==='vocab') mainDatabase.vocab[diff][lvl].push(item); else mainDatabase.phrase[lvl].push(item);
+            if(dojo==='vocab') {
+                if (!mainDatabase.vocab[diff][lvl]) mainDatabase.vocab[diff][lvl] = [];
+                mainDatabase.vocab[diff][lvl].push(item);
+            } else {
+                if (!mainDatabase.phrase[lvl]) mainDatabase.phrase[lvl] = [];
+                mainDatabase.phrase[lvl].push(item);
+            }
             saveProgress(); showToast("單字儲存成功！", "success");
+            renderCustomLibraryTable();
         }
 
         function renderCustomLibraryTable() {
             const tbody = document.getElementById('custom-library-tbody'); if (!tbody) return; tbody.innerHTML = '';
-            ['basic', 'intermediate', 'advanced'].forEach(d => {
-                for (let l = 1; l <= 7; l++) {
-                    ((mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) || []).forEach((item, idx) => {
+            
+            // Loop through vocabulary list
+            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                let maxL = (d === 'basic') ? 6 : 10;
+                for (let l = 1; l <= maxL; l++) {
+                    (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
                 }
             });
+
+            // Loop through phrase list
+            for (let l = 1; l <= 10; l++) {
+                (mainDatabase.phrase?.[l] || []).forEach((item, idx) => {
+                    tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">片語 L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('phrase', null, ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
+                });
+            }
         }
-        function deleteDatabaseItem(dojo, diff, lvl, idx) { playSound('wrong'); if(dojo==='vocab') mainDatabase.vocab[diff][lvl].splice(idx,1); else mainDatabase.phrase[lvl].splice(idx,1); saveProgress(); renderCustomLibraryTable(); }
+
+        function deleteDatabaseItem(dojo, diff, lvl, idx) { 
+            playSound('wrong'); 
+            if(dojo==='vocab') mainDatabase.vocab[diff][lvl].splice(idx,1); 
+            else mainDatabase.phrase[lvl].splice(idx,1); 
+            saveProgress(); 
+            renderCustomLibraryTable(); 
+        }
 
         function openStatsModal() {
             playSound('click');
@@ -1786,7 +1858,7 @@
             playSound('click');
             const modal = document.getElementById('custom-confirm-modal');
             document.getElementById('confirm-modal-title').textContent = "確定清空所有修煉大典嗎？";
-            document.getElementById('confirm-modal-desc').textContent = "此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 7 的英文字彙及生活例句，且無法還原！";
+            document.getElementById('confirm-modal-desc').textContent = "此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 10 的英文字彙及生活例句，且無法還原！";
             modal.classList.remove('pointer-events-none', 'opacity-0');
             modal.firstElementChild.classList.remove('scale-95');
             
@@ -1798,9 +1870,12 @@
             
             document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('wrong');
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=7; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=7; l++) mainDatabase.phrase[l] = [];
+                mainDatabase = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
+                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                    let maxL = (d === 'basic') ? 6 : 10;
+                    for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                });
+                for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
                 saveProgress();
                 renderCustomLibraryTable();
                 modal.classList.add('pointer-events-none', 'opacity-0');
@@ -1825,6 +1900,7 @@
             loadProgress();
             const urlSync = new URLSearchParams(window.location.search).get('sync');
             if (urlSync) { userState.autoSyncUrl = urlSync.trim(); userState.autoSyncOnLoad = true; saveProgress(); window.history.pushState({}, '', window.location.pathname); }
+            clampState();
             updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent(); updateHeaderUI(); updateTabButtonsUI(); updateSyncBadgeUI(); updateVoicePanelUI();
             if (userState.autoSyncOnLoad && userState.autoSyncUrl) backgroundSync(userState.autoSyncUrl, userState.autoSyncMode);
         };

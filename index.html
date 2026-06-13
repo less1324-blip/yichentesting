@@ -457,17 +457,7 @@
         function clampState() {
             let maxLevel = 10;
             let maxUnit = 10;
-            if (userState.currentDojo === 'vocab') {
-                if (userState.currentDifficulty === 'basic') {
-                    maxLevel = 6;
-                }
-            }
             if (userState.currentLevel > maxLevel) userState.currentLevel = 1;
-            
-            if (userState.currentDojo === 'vocab' && userState.currentDifficulty === 'basic' && userState.currentLevel === 6) {
-                maxUnit = 5;
-            }
-            
             if (userState.currentUnit > maxUnit) userState.currentUnit = 1;
         }
 
@@ -582,8 +572,7 @@
             
             // Search all sub-databases
             for (const diff of ['basic', 'pre_intermediate', 'intermediate', 'advanced']) {
-                let maxL = (diff === 'basic') ? 6 : 10;
-                for (let l = 1; l <= maxL; l++) {
+                for (let l = 1; l <= 10; l++) {
                     const list = mainDatabase.vocab[diff]?.[l] || [];
                     const found = list.find(item => item.word.toLowerCase() === sw);
                     if (found) return found.chinese;
@@ -722,11 +711,10 @@
                 } catch(e) {}
             }
 
-            // Ensure all difficulty nodes exist L1-L6 for basic, and L1-L10 for others
+            // Ensure all difficulty nodes exist L1-L10
             ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
                 if (!mainDatabase.vocab[diff]) mainDatabase.vocab[diff] = {};
-                let maxL = (diff === 'basic') ? 6 : 10;
-                for (let l = 1; l <= maxL; l++) {
+                for (let l = 1; l <= 10; l++) {
                     if (!mainDatabase.vocab[diff][l]) mainDatabase.vocab[diff][l] = [];
                     mainDatabase.vocab[diff][l].forEach(item => { if (!item.unit) item.unit = 1; });
                 }
@@ -806,11 +794,7 @@
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
             
-            // Dynamic levels limit: Basic goes L6, others L10.
             let maxL = 10;
-            if (userState.currentDojo === 'vocab' && userState.currentDifficulty === 'basic') {
-                maxL = 6;
-            }
             
             for (let i = 1; i <= maxL; i++) {
                 const isActive = userState.currentLevel === i;
@@ -830,11 +814,7 @@
             const container = document.getElementById('unit-tabs-container'); if(!container) return; container.innerHTML = '';
             const isVocab = userState.currentDojo === 'vocab';
             
-            // Dynamic Unit limits: basic L6 goes to U5, others to U10.
             let maxU = 10;
-            if (isVocab && userState.currentDifficulty === 'basic' && userState.currentLevel === 6) {
-                maxU = 5;
-            }
 
             for (let i = 1; i <= maxU; i++) {
                 const isActive = userState.currentUnit === i;
@@ -1004,8 +984,7 @@
             let pool = [];
             if(userState.currentDojo === 'vocab') {
                 ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
-                    let maxL = (d === 'basic') ? 6 : 10;
-                    for(let l=1; l<=maxL; l++){
+                    for(let l=1; l<=10; l++){
                         if(mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) pool = pool.concat(mainDatabase.vocab[d][l]);
                     }
                 });
@@ -1397,8 +1376,7 @@
             const contentDiv = document.getElementById('dojo-content');
             let mainVocab = 0, mainPhrase = 0;
             ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                let maxL = (d === 'basic') ? 6 : 10;
-                for (let l=1; l<=maxL; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
+                for (let l=1; l<=10; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
             });
             for (let l=1; l<=10; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
 
@@ -1511,8 +1489,7 @@
         function normalizeImportedJson(data) {
             let normalized = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
             ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                let maxL = (d === 'basic') ? 6 : 10;
-                for(let i=1; i<=maxL; i++) normalized.vocab[d][i] = []; 
+                for(let i=1; i<=10; i++) normalized.vocab[d][i] = []; 
             });
             for(let i=1; i<=10; i++) normalized.phrase[i] = [];
             if (!data || typeof data !== 'object') return null;
@@ -1543,15 +1520,14 @@
             if (data.vocab) {
                 if (data.vocab.basic || data.vocab.pre_intermediate || data.vocab.intermediate || data.vocab.advanced) {
                     ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
-                        let maxL = (diff === 'basic') ? 6 : 10;
                         if (data.vocab[diff]) {
-                            for (let lvl = 1; lvl <= maxL; lvl++) {
+                            for (let lvl = 1; lvl <= 10; lvl++) {
                                 if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], true, diff, lvl);
                             }
                         }
                     });
                 } else {
-                    for (let lvl = 1; lvl <= 6; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], true, 'basic', lvl);
+                    for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], true, 'basic', lvl);
                 }
             }
             if (data.phrase) {
@@ -1570,8 +1546,7 @@
             
             if (importMode === 'overwrite') {
                 ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                    let maxL = (d === 'basic') ? 6 : 10;
-                    for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                    for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                 });
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
             }
@@ -1585,8 +1560,7 @@
                     const data = normalizeImportedJson(await res.json());
                     if (data) {
                         ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
-                            let maxL = (d === 'basic') ? 6 : 10;
-                            for(let l=1; l<=maxL; l++) {
+                            for(let l=1; l<=10; l++) {
                                 if(data.vocab[d] && data.vocab[d][l]) {
                                     data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
                                 }
@@ -1613,16 +1587,14 @@
                 if (res.ok) {
                     if (mode === 'overwrite') {
                         ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                            let maxL = (d === 'basic') ? 6 : 10;
-                            for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                            for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                         });
                         for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
                     }
                     const data = normalizeImportedJson(await res.json());
                     if (data) {
                         ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
-                            let maxL = (d === 'basic') ? 6 : 10;
-                            for(let l=1; l<=maxL; l++) {
+                            for(let l=1; l<=10; l++) {
                                 if(data.vocab[d] && data.vocab[d][l]) {
                                     data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
                                 }
@@ -1708,12 +1680,6 @@
             const ta = document.getElementById('bulk-import-area'); if (!ta || !ta.value.trim()) return;
             const diff = document.getElementById('bulk-difficulty').value, lvl = parseInt(document.getElementById('bulk-level').value), unit = parseInt(document.getElementById('bulk-unit').value);
             
-            // Check limits for basic difficulty during bulk imports
-            if (diff === 'basic' && (lvl > 6 || (lvl === 6 && unit > 5))) {
-                showToast("初級單字最高支援至 L6，且 L6 僅支援至 U5！", "error");
-                return;
-            }
-
             let added = 0;
             ta.value.trim().split(/\n\s*\n/).forEach(block => {
                 const lines = block.split('\n').filter(l => l.trim().length > 0);
@@ -1752,11 +1718,6 @@
             if(!w || !c) return;
             const dojo = document.getElementById('form-dojo').value, diff = document.getElementById('form-difficulty').value, lvl = parseInt(document.getElementById('form-level').value), unit = parseInt(document.getElementById('form-unit').value);
             
-            if (dojo === 'vocab' && diff === 'basic' && (lvl > 6 || (lvl === 6 && unit > 5))) {
-                showToast("儲存失敗！初級單字 L6 最高僅支援至 U5！", "error");
-                return;
-            }
-
             const item = { word: w, chinese: c, example: document.getElementById('form-example').value.trim(), exampleCn: document.getElementById('form-example-cn').value.trim(), clozeQuestion: document.getElementById('form-cloze-q').value.trim(), clozeCn: document.getElementById('form-cloze-cn').value.trim(), clozeAnswer: document.getElementById('form-cloze-ans').value.trim() || w, unit: unit };
             if(dojo==='vocab') {
                 if (!mainDatabase.vocab[diff][lvl]) mainDatabase.vocab[diff][lvl] = [];
@@ -1774,8 +1735,7 @@
             
             // Loop through vocabulary list
             ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
-                let maxL = (d === 'basic') ? 6 : 10;
-                for (let l = 1; l <= maxL; l++) {
+                for (let l = 1; l <= 10; l++) {
                     (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
@@ -1872,8 +1832,7 @@
                 playSound('wrong');
                 mainDatabase = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
                 ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                    let maxL = (d === 'basic') ? 6 : 10;
-                    for(let l=1; l<=maxL; l++) mainDatabase.vocab[d][l] = []; 
+                    for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                 });
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
                 saveProgress();

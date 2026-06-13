@@ -446,7 +446,7 @@
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json",
+            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
@@ -693,7 +693,7 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json";
                 } catch(e) {}
             }
             if (savedMainDb) {
@@ -1436,7 +1436,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><input type="text" id="github-url-input" placeholder="請貼入 JSON 連結" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none" /></div>
+                            <div class="md:col-span-2"><textarea id="github-url-input" rows="3" placeholder="請貼入 JSON 連結 (可換行輸入多個網址)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
                             <div>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1544,6 +1544,12 @@
             const origBtnHtml = fetchBtn.innerHTML; fetchBtn.disabled = true; fetchBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin mr-1.5"></i> 下載同步中...`;
             const importMode = document.querySelector('input[name="github-import-mode"]:checked').value; 
             
+            const urls = urlInput.value.trim().split('\n').map(u => u.trim()).filter(u => u);
+            if (urls.length === 0) {
+                fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml;
+                return;
+            }
+
             if (importMode === 'overwrite') {
                 ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
                     for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
@@ -1551,62 +1557,80 @@
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
             }
             
-            let url = urlInput.value.trim();
-            if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
-
             try {
-                const res = await fetch(url);
-                if (res.ok) {
-                    const data = normalizeImportedJson(await res.json());
-                    if (data) {
-                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                let successCount = 0;
+                for (let rawUrl of urls) {
+                    let url = rawUrl;
+                    if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+
+                    const res = await fetch(url);
+                    if (res.ok) {
+                        const data = normalizeImportedJson(await res.json());
+                        if (data) {
+                            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                                for(let l=1; l<=10; l++) {
+                                    if(data.vocab[d] && data.vocab[d][l]) {
+                                        data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                    }
+                                }
+                            });
                             for(let l=1; l<=10; l++) {
-                                if(data.vocab[d] && data.vocab[d][l]) {
-                                    data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                if(data.phrase && data.phrase[l]) {
+                                    data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                                 }
                             }
-                        });
-                        for(let l=1; l<=10; l++) {
-                            if(data.phrase && data.phrase[l]) {
-                                data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
-                            }
+                            successCount++;
                         }
-                        playSound('levelUp'); showToast("雲端提取成功！", "success");
-                        setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
                     }
-                } else throw new Error();
+                }
+                if (successCount > 0) {
+                    playSound('levelUp'); showToast(`雲端提取成功 (${successCount} 組資料庫)！`, "success");
+                    setTimeout(() => { userState.currentTab = 'list'; saveProgress(); updateTabButtonsUI(); renderContent(); }, 1000);
+                } else throw new Error("No valid data loaded");
             } catch(e) { playSound('wrong'); showToast("下載失敗，請檢查網址", "error"); }
             fetchBtn.disabled = false; fetchBtn.innerHTML = origBtnHtml;
         }
 
-        async function backgroundSync(rawUrl, mode) {
-            if (!rawUrl) return;
-            let url = rawUrl; if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+        async function backgroundSync(rawUrls, mode) {
+            if (!rawUrls) return;
+            const urls = rawUrls.split('\n').map(u => u.trim()).filter(u => u);
+            if (urls.length === 0) return;
+            
             try {
-                const res = await fetch(url);
-                if (res.ok) {
-                    if (mode === 'overwrite') {
-                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
-                            for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
-                        });
-                        for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
-                    }
-                    const data = normalizeImportedJson(await res.json());
-                    if (data) {
-                        ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                if (mode === 'overwrite') {
+                    ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                        for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
+                    });
+                    for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
+                }
+
+                let successCount = 0;
+                for (let rawUrl of urls) {
+                    let url = rawUrl; 
+                    if (/^https:\/\/github\.com\//i.test(url)) url = url.replace(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+                    
+                    const res = await fetch(url);
+                    if (res.ok) {
+                        const data = normalizeImportedJson(await res.json());
+                        if (data) {
+                            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                                for(let l=1; l<=10; l++) {
+                                    if(data.vocab[d] && data.vocab[d][l]) {
+                                        data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                    }
+                                }
+                            });
                             for(let l=1; l<=10; l++) {
-                                if(data.vocab[d] && data.vocab[d][l]) {
-                                    data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                if(data.phrase && data.phrase[l]) {
+                                    data.phrase[l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                                 }
                             }
-                        });
-                        for(let l=1; l<=10; l++) {
-                            if(data.phrase && data.phrase[l]) {
-                                data.phrase[l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
-                            }
+                            successCount++;
                         }
-                        saveProgress(); renderContent(); showToast("背景同步完成", "success");
                     }
+                }
+                if (successCount > 0) {
+                    saveProgress(); renderContent(); showToast(`背景同步完成 (${successCount} 組資料庫)`, "success");
                 }
             } catch(e) {}
             setTimeout(updateSyncBadgeUI, 2000);
@@ -1654,7 +1678,7 @@
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
             if (urlInput) {
-                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json";
                 showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
             }
         }

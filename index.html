@@ -446,7 +446,7 @@
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json",
+            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_intermediate.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
@@ -693,7 +693,7 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json";
+                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_intermediate.json";
                 } catch(e) {}
             }
             if (savedMainDb) {
@@ -1477,7 +1477,7 @@
 
         function fillGithubSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('github-url-input');
-            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/English-Training-Dojo/6b8a9bab3678daba7ad0f932fa13d29a6e1ed24c/intermediateL1.json";
+            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_intermediate.json";
         }
 
         function saveAdminSyncToGlobal() {
@@ -1678,7 +1678,7 @@
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
             if (urlInput) {
-                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/dc8d42086fa9fd3e823f5b53b097603b021e92c0/vocab_intermediate.json";
+                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/8748aefe8c09eef835aea96bbcbd24895802a0d3/vocab_intermediate.json";
                 showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
             }
         }

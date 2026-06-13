@@ -1059,6 +1059,7 @@
                     </div>
                 </div>
             `;
+            setTimeout(() => { speakWord(currentItem.word); }, 300);
         }
 
         function checkQuizAnswer(selectedWord, element, correctIdx) {
@@ -1078,7 +1079,8 @@
                 userState.streak += 1; userState.correctCount += 1;
                 const gainedExp = 15 + Math.min(userState.streak, 5) * 2;
                 const lvlUp = addEXP(gainedExp);
-                showToast("修煉正確！獲得靈氣 +" + gainedExp + (lvlUp ? ' 🎉 突破天劫！' : ''), 'success');
+                showToast(`修煉正確！獲得靈氣 +${gainedExp} ${lvlUp ? '🎉 突破天劫！' : ''}`, 'success');
+                setTimeout(() => nextQuizQuestion(data.length), 1200);
             } else {
                 playSound('wrong');
                 element.className = "p-4 rounded-xl text-left font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-between bg-rose-500/10 border border-rose-500 text-rose-400 shadow-neon-rose";
@@ -1089,8 +1091,9 @@
                     }
                 });
                 showToast(`參悟錯誤！正確含義為：${currentItem.chinese}`, 'error');
+                document.getElementById('quiz-action-bar').classList.remove('hidden');
             }
-            saveProgress(); updateHeaderUI(); document.getElementById('quiz-action-bar').classList.remove('hidden');
+            saveProgress(); updateHeaderUI(); 
         }
 
         function nextQuizQuestion(totalQuestions) {
@@ -1233,6 +1236,7 @@
                 feedback.innerHTML = `<i class="fa-solid fa-square-check mr-1.5"></i><span class="text-sm font-black">修煉成功！毫釐不差：</span><br><span class="font-mono text-white text-2xl font-black tracking-widest mt-2 inline-block">${correctWord}</span>`;
                 userState.streak += 1; userState.correctCount += 1;
                 const gainedExp = 25; const lvlUp = addEXP(gainedExp); showToast("拼寫正確！增加修为 +25", 'success');
+                setTimeout(() => nextSpellingQuestion(dataLength), 1200);
             } else {
                 playSound('wrong');
                 feedback.className = "p-4 rounded-xl text-center bg-rose-500/10 border border-rose-500 text-rose-350 shadow-neon-rose";
@@ -1245,12 +1249,17 @@
                     </div>
                 `;
                 userState.streak = 0; showToast(`字彙偏差，請牢記正確拼法！`, 'error');
+                nextBtn.classList.remove('hidden');
             }
-            saveProgress(); updateHeaderUI(); nextBtn.classList.remove('hidden');
+            saveProgress(); updateHeaderUI(); 
         }
 
-        function nextSpellingQuestion(totalQuestions) { userState.spellingIndex = (userState.spellingIndex + 1) % totalQuestions; saveProgress(); renderContent(); }
+        function nextSpellingQuestion(totalQuestions) {
+            userState.spellingIndex = (userState.spellingIndex + 1) % totalQuestions;
+            saveProgress(); renderContent();
+        }
 
+        // --- Render Cloze Tab (Updated: Clickable dictionary words) ---
         function renderClozeTab(data) {
             const contentDiv = document.getElementById('dojo-content'); const idx = userState.clozeIndex;
             if (idx >= data.length) userState.clozeIndex = 0;
@@ -1303,7 +1312,7 @@
                             <p class="text-base sm:text-lg text-slate-100 font-bold leading-relaxed">${clickableRevealSentence}</p>
                             <p class="text-xs sm:text-sm text-slate-400 font-bold leading-relaxed">${qCn}</p>
                         </div>
-                        <button id="cloze-next-btn" onclick="nextClozeQuestion(${data.length})" class="hidden py-2.5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-slate-950 font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/15 transition-all mt-1">進入下一填空題 <i class="fa-solid fa-arrow-right"></i></button>
+                        <button id="cloze-next-btn" onclick="nextClozeQuestion(${data.length})" class="hidden py-2.5 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:opacity-95 text-slate-950 font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/15 transition-all mt-1">進入下一填空題 <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
             `;
@@ -1336,18 +1345,23 @@
                 feedback.innerHTML = `<i class="fa-solid fa-square-check mr-1.5"></i>參悟圓滿！語境填空完美切合！`;
                 userState.streak += 1; userState.correctCount += 1;
                 addEXP(25); showToast("填空正確！修為增加 +25", 'success');
+                setTimeout(() => nextClozeQuestion(dataLength), 2200);
             } else {
                 playSound('wrong');
-                feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-455";
+                feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-450";
                 feedback.innerHTML = `<i class="fa-solid fa-triangle-exclamation mr-1.5"></i>拼法受阻！正確填空答案應為：<span class="underline font-mono ml-1 text-white text-base">${correctAnswer}</span>`;
                 userState.streak = 0; showToast(`答案不對，再接再厲！`, 'error');
+                nextBtn.classList.remove('hidden');
             }
 
-            if (fullSentence) setTimeout(() => { speakWord(fullSentence); }, 600);
-            saveProgress(); updateHeaderUI(); nextBtn.classList.remove('hidden');
+            if (fullSentence) setTimeout(() => { speakWord(fullSentence); }, 400);
+            saveProgress(); updateHeaderUI(); 
         }
 
-        function nextClozeQuestion(totalQuestions) { userState.clozeIndex = (userState.clozeIndex + 1) % totalQuestions; saveProgress(); renderContent(); }
+        function nextClozeQuestion(totalQuestions) {
+            userState.clozeIndex = (userState.clozeIndex + 1) % totalQuestions;
+            saveProgress(); renderContent();
+        }
 
         function renderAdminLockScreen() {
             document.getElementById('dojo-content').innerHTML = `

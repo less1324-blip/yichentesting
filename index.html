@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英文修煉閣 - English Training Dojo (修煉大圓滿版)</title>
+    <title>英文修煉閣 - English Training Dojo (雲端自動無感同步版)</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -431,11 +431,9 @@
     </div>
 
     <script>
-        // Updated database to hold vocab levels L1-L6 for basic and L1-L10 for pre_intermediate, intermediate, advanced.
         let mainDatabase = { 
             vocab: { 
                 basic: {}, 
-                pre_intermediate: {},
                 intermediate: {}, 
                 advanced: {} 
             }, 
@@ -570,8 +568,8 @@
             if (!searchWord) return null;
             const sw = searchWord.toLowerCase();
             
-            // Search all sub-databases
-            for (const diff of ['basic', 'pre_intermediate', 'intermediate', 'advanced']) {
+            // Search all sub-databases without pre_intermediate
+            for (const diff of ['basic', 'intermediate', 'advanced']) {
                 for (let l = 1; l <= 10; l++) {
                     const list = mainDatabase.vocab[diff]?.[l] || [];
                     const found = list.find(item => item.word.toLowerCase() === sw);
@@ -699,20 +697,16 @@
             if (savedMainDb) {
                 try { 
                     const parsedDB = JSON.parse(savedMainDb); 
-                    // Handle transition if upgrading from legacy DB structure
-                    if (parsedDB.vocab && !parsedDB.vocab.pre_intermediate) {
-                        const legacyVocab = parsedDB.vocab;
-                        parsedDB.vocab = { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} };
-                        for(let l=1; l<=10; l++) {
-                            if(legacyVocab[l]) parsedDB.vocab.basic[l] = legacyVocab[l];
-                        }
+                    // Safely remove legacy pre_intermediate data if it exists in local storage
+                    if (parsedDB.vocab && parsedDB.vocab.pre_intermediate) {
+                        delete parsedDB.vocab.pre_intermediate;
                     }
                     mainDatabase = parsedDB;
                 } catch(e) {}
             }
 
-            // Ensure all difficulty nodes exist L1-L10
-            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
+            // Ensure all difficulty nodes exist L1-L10 without pre_intermediate
+            ['basic', 'intermediate', 'advanced'].forEach(diff => {
                 if (!mainDatabase.vocab[diff]) mainDatabase.vocab[diff] = {};
                 for (let l = 1; l <= 10; l++) {
                     if (!mainDatabase.vocab[diff][l]) mainDatabase.vocab[diff][l] = [];
@@ -726,6 +720,12 @@
                 if (!mainDatabase.phrase[l]) mainDatabase.phrase[l] = [];
                 mainDatabase.phrase[l].forEach(item => { if (!item.unit) item.unit = 1; });
             }
+            
+            // If the user's saved state was pre_intermediate, default them back to basic
+            if (userState.currentDifficulty === 'pre_intermediate') {
+                userState.currentDifficulty = 'basic';
+            }
+            
             clampState();
         }
 
@@ -771,7 +771,6 @@
             container.innerHTML = '';
             [
                 { id: 'basic', name: '<i class="fa-solid fa-seedling mr-1.5 opacity-80"></i>初級單字' },
-                { id: 'pre_intermediate', name: '<i class="fa-solid fa-leaf mr-1.5 opacity-80"></i>初中級單字' },
                 { id: 'intermediate', name: '<i class="fa-brands fa-pagelines mr-1.5 opacity-80"></i>中級單字' },
                 { id: 'advanced', name: '<i class="fa-solid fa-tree mr-1.5 opacity-80"></i>中高級單字' }
             ].forEach(diff => {
@@ -878,7 +877,7 @@
             const contentDiv = document.getElementById('dojo-content');
             let diffName = '';
             if (userState.currentDojo === 'vocab') {
-                const mapping = { basic: '初級', pre_intermediate: '初中級', intermediate: '中級', advanced: '中高級' };
+                const mapping = { basic: '初級', intermediate: '中級', advanced: '中高級' };
                 diffName = `[${mapping[userState.currentDifficulty] || '單字'}] `;
             }
             const dbName = `⛩️ 修煉大典 ${diffName}境界 L${userState.currentLevel} - Unit ${userState.currentUnit}`;
@@ -980,10 +979,12 @@
             setTimeout(() => { userState.flashcardIndex = (userState.flashcardIndex + dir + total) % total; saveProgress(); renderContent(); }, 150);
         }
 
+        let generatedOptions = []; 
+        
         function generateQuizOptions(correctItem) {
             let pool = [];
             if(userState.currentDojo === 'vocab') {
-                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                ['basic', 'intermediate', 'advanced'].forEach(d => {
                     for(let l=1; l<=10; l++){
                         if(mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) pool = pool.concat(mainDatabase.vocab[d][l]);
                     }
@@ -1259,7 +1260,6 @@
             saveProgress(); renderContent();
         }
 
-        // --- Render Cloze Tab (Updated: Clickable dictionary words) ---
         function renderClozeTab(data) {
             const contentDiv = document.getElementById('dojo-content'); const idx = userState.clozeIndex;
             if (idx >= data.length) userState.clozeIndex = 0;
@@ -1286,9 +1286,19 @@
                         <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pen text-emerald-450"></i> 語境填空挑戰 - 第 ${userState.clozeIndex + 1} / ${data.length} 題</span>
                         <span class="text-slate-450 font-bold">當前連擊: ${userState.streak} 🔥</span>
                     </div>
-                    <div class="text-center my-2 py-3 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
-                        <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${theme.bgLight} ${theme.text}">請推敲填入空白處</span>
-                        <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide mt-3.5 leading-relaxed">${qText}</h3>
+                    <div class="text-center my-2 py-4 px-4 bg-slate-950/30 rounded-2xl border border-slate-800/50 max-w-3xl mx-auto w-full relative">
+                        <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${theme.bgLight} ${theme.text} mb-2 inline-block">請聆聽音檔並推敲填入空白處</span>
+                        
+                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mt-3">
+                            <button onclick="speakWord('${fullSentence.replace(/'/g, "\\'")}')" class="w-14 h-14 flex items-center justify-center rounded-full bg-slate-900 border border-slate-800 hover:border-slate-700 ${theme.text} transition-all active:scale-95 shrink-0 shadow-lg relative group" title="播放語境音檔">
+                                <div class="absolute inset-0 ${theme.bgLight} rounded-full blur-md opacity-50 group-hover:opacity-100 transition-opacity"></div>
+                                <i class="fa-solid fa-volume-high text-xl relative z-10 group-hover:scale-110 transition-transform"></i>
+                                <div class="voice-wave-container hidden absolute inset-0 bg-slate-800 rounded-full flex items-center justify-center gap-0.5 z-20">
+                                    <span class="audio-wave-bar w-1.5 h-4 ${theme.waveColor} rounded-full"></span><span class="audio-wave-bar w-1.5 h-6 ${theme.waveColor} rounded-full"></span><span class="audio-wave-bar w-1.5 h-4 ${theme.waveColor} rounded-full"></span>
+                                </div>
+                            </button>
+                            <h3 class="text-base sm:text-xl font-extrabold text-slate-100 tracking-wide leading-relaxed text-center sm:text-left">${qText}</h3>
+                        </div>
                     </div>
                     <div class="w-full max-w-md mx-auto flex flex-col gap-3">
                         <input type="text" id="cloze-input" placeholder="請填寫對應的英文解答..." autocomplete="off" class="w-full px-4 py-3 bg-slate-950 border border-slate-850 ${theme.borderFocus} rounded-xl font-bold tracking-wide outline-none text-slate-100 placeholder-slate-700 transition-colors shadow-inner text-center text-base sm:text-lg" onkeydown="handleClozeEnter(event, '${qAns.replace(/'/g, "\\'")}', ${data.length}, '${fullSentence.replace(/'/g, "\\'")}')" />
@@ -1316,7 +1326,11 @@
                     </div>
                 </div>
             `;
-            setTimeout(() => { const inp = document.getElementById('cloze-input'); if (inp) inp.focus(); }, 100);
+            setTimeout(() => { 
+                const inp = document.getElementById('cloze-input'); 
+                if (inp) inp.focus(); 
+                speakWord(fullSentence); 
+            }, 300);
         }
 
         function toggleClozeLetters() { playSound('click'); document.getElementById('cloze-suggestion-container').classList.toggle('hidden'); }
@@ -1389,7 +1403,7 @@
         function renderAdminTab() {
             const contentDiv = document.getElementById('dojo-content');
             let mainVocab = 0, mainPhrase = 0;
-            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+            ['basic', 'intermediate', 'advanced'].forEach(d => { 
                 for (let l=1; l<=10; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
             });
             for (let l=1; l<=10; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
@@ -1411,7 +1425,7 @@
                             <div class="flex justify-between items-center"><h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-folder-plus text-orange-500"></i> 智慧格式批次匯入</h4><button onclick="insertTemplateText()" class="text-[10px] text-orange-400 hover:text-orange-355 font-bold"><i class="fa-solid fa-paste mr-1"></i>帶入自訂填空匯入範本</button></div>
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="pre_intermediate">初中級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">L${i+1}</option>`).join('')}</select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">U${i+1}</option>`).join('')}</select></div>
                             </div>
@@ -1426,7 +1440,7 @@
                             </div>
                             <div class="grid grid-cols-4 gap-2">
                                 <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option></select>
-                                <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="pre_intermediate">初中級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
+                                <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
                                 <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">L${i+1}</option>`).join('')}</select>
                                 <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length:10}, (_,i)=>`<option value="${i+1}">U${i+1}</option>`).join('')}</select>
                             </div>
@@ -1450,7 +1464,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><textarea id="github-url-input" rows="3" placeholder="請貼入 JSON 連結 (可換行輸入多個網址)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
+                            <div class="md:col-span-2"><textarea id="github-url-input" rows="3" placeholder="請貼入 JSON 連結 (可換行輸入多個網址)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea></div>
                             <div>
                                 <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-[38px]">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1501,8 +1515,8 @@
         }
 
         function normalizeImportedJson(data) {
-            let normalized = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
-            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+            ['basic', 'intermediate', 'advanced'].forEach(d => { 
                 for(let i=1; i<=10; i++) normalized.vocab[d][i] = []; 
             });
             for(let i=1; i<=10; i++) normalized.phrase[i] = [];
@@ -1532,8 +1546,8 @@
             };
 
             if (data.vocab) {
-                if (data.vocab.basic || data.vocab.pre_intermediate || data.vocab.intermediate || data.vocab.advanced) {
-                    ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(diff => {
+                if (data.vocab.basic || data.vocab.intermediate || data.vocab.advanced) {
+                    ['basic', 'intermediate', 'advanced'].forEach(diff => {
                         if (data.vocab[diff]) {
                             for (let lvl = 1; lvl <= 10; lvl++) {
                                 if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], true, diff, lvl);
@@ -1565,7 +1579,7 @@
             }
 
             if (importMode === 'overwrite') {
-                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                ['basic', 'intermediate', 'advanced'].forEach(d => { 
                     for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                 });
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
@@ -1581,7 +1595,7 @@
                     if (res.ok) {
                         const data = normalizeImportedJson(await res.json());
                         if (data) {
-                            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                            ['basic', 'intermediate', 'advanced'].forEach(d => {
                                 for(let l=1; l<=10; l++) {
                                     if(data.vocab[d] && data.vocab[d][l]) {
                                         data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
@@ -1612,7 +1626,7 @@
             
             try {
                 if (mode === 'overwrite') {
-                    ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                    ['basic', 'intermediate', 'advanced'].forEach(d => { 
                         for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                     });
                     for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
@@ -1627,7 +1641,7 @@
                     if (res.ok) {
                         const data = normalizeImportedJson(await res.json());
                         if (data) {
-                            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+                            ['basic', 'intermediate', 'advanced'].forEach(d => {
                                 for(let l=1; l<=10; l++) {
                                     if(data.vocab[d] && data.vocab[d][l]) {
                                         data.vocab[d][l].forEach(item => { if(mode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
@@ -1772,7 +1786,7 @@
             const tbody = document.getElementById('custom-library-tbody'); if (!tbody) return; tbody.innerHTML = '';
             
             // Loop through vocabulary list
-            ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => {
+            ['basic', 'intermediate', 'advanced'].forEach(d => {
                 for (let l = 1; l <= 10; l++) {
                     (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
@@ -1868,8 +1882,8 @@
             
             document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('wrong');
-                mainDatabase = { vocab: { basic: {}, pre_intermediate: {}, intermediate: {}, advanced: {} }, phrase: {} };
-                ['basic', 'pre_intermediate', 'intermediate', 'advanced'].forEach(d => { 
+                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+                ['basic', 'intermediate', 'advanced'].forEach(d => { 
                     for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; 
                 });
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];

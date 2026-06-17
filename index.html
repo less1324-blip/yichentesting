@@ -847,8 +847,11 @@
         function selectDifficulty(diffId) {
             playSound('click'); userState.currentDifficulty = diffId; userState.currentLevel = 1; userState.currentUnit = 1;
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (isPlayingAll) togglePlayAll();
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent();
+            
+            // 自動流暢跳轉到 Level 選擇區
+            setTimeout(() => document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
         }
 
         function renderLevelSelector() {
@@ -866,8 +869,11 @@
         function selectLevel(lvl) {
             playSound('click'); userState.currentLevel = lvl; userState.currentUnit = 1; 
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (isPlayingAll) togglePlayAll();
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); renderLevelSelector(); renderUnitSelector(); renderContent();
+            
+            // 自動流暢跳轉到 Unit 選擇區
+            setTimeout(() => document.getElementById('unit-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
         }
 
         function renderUnitSelector() {
@@ -882,14 +888,41 @@
 
         function selectUnit(u) {
             playSound('click'); userState.currentUnit = u; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (isPlayingAll) togglePlayAll();
-            saveProgress(); renderUnitSelector(); renderContent();
+            
+            // 強制切換回修煉清單
+            userState.currentTab = 'list'; 
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
+            
+            saveProgress(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
+            
+            // 自動流暢跳轉到下方內容區，並將清單捲動到最頂部
+            setTimeout(() => {
+                document.getElementById('dojo-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                const listScroll = document.getElementById('list-scroll-container');
+                if (listScroll) listScroll.scrollTop = 0;
+            }, 200);
         }
 
         function switchDojo(dojoType) {
-            playSound('click'); userState.currentDojo = dojoType; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (isPlayingAll) togglePlayAll();
+            playSound('click'); userState.currentDojo = dojoType; 
+            
+            // 如果點擊的是單字練功房，強制預設為初級單字
+            if (dojoType === 'vocab') userState.currentDifficulty = 'basic'; 
+            
+            userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
+            
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
+            
+            // 自動流暢跳轉到難度選擇區
+            setTimeout(() => {
+                const diffSection = document.getElementById('difficulty-selector-section');
+                if (diffSection && !diffSection.classList.contains('hidden')) {
+                    diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 150);
         }
 
         function updateDojoTabUI() {

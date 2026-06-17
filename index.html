@@ -326,6 +326,7 @@
         </div>
     </div>
 
+    <!-- Confirm Modal -->
     <div id="custom-confirm-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="glass-panel border border-rose-500/30 max-w-md w-full mx-4 rounded-3xl p-6 shadow-2xl scale-95 transition-transform duration-300 flex flex-col gap-4">
             <div class="flex items-center gap-3 text-rose-400">
@@ -436,7 +437,7 @@
         };
 
         let isAdminUnlocked = false;
-        let currentQuizWord = ""; // Global state to prevent option mismatch
+        let currentQuizWord = ""; 
 
         function getThemeColors() {
             const isVocab = userState.currentDojo === 'vocab';
@@ -470,6 +471,7 @@
             playSound('click');
             userState.currentDojo = 'vocab'; userState.currentDifficulty = 'basic'; userState.currentLevel = 1; userState.currentUnit = 1; userState.currentTab = 'list';
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (isPlayingAll) togglePlayAll();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
             showToast("☯️ 已返回英文修煉大殿", "success");
         }
@@ -504,7 +506,11 @@
         let speechVoicesLoaded = false;
         if ('speechSynthesis' in window) window.speechSynthesis.onvoiceschanged = () => { speechVoicesLoaded = true; };
 
-        function speakWord(text) {
+        let isPlayingAll = false;
+        let currentPlayIndex = 0;
+        let currentPlayType = 'word'; // 'word' or 'example'
+
+        function speakWord(text, callback) {
             initAudioContext();
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.cancel();
@@ -514,13 +520,75 @@
                 const utterance = new SpeechSynthesisUtterance(cleanWordForSpeech);
                 
                 const targetLang = userState.voiceAccent === 'UK' ? 'en-GB' : 'en-US';
-                utterance.lang = targetLang; utterance.rate = userState.speechRate || 0.85;
+                utterance.lang = targetLang; 
+                utterance.rate = userState.speechRate || 0.85;
+                
                 const voices = window.speechSynthesis.getVoices();
                 let selectedVoice = voices.find(v => v.lang === targetLang || v.lang.replace('_', '-').startsWith(targetLang)) || voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
                 if (selectedVoice) utterance.voice = selectedVoice;
 
-                utterance.onend = () => { document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); };
+                utterance.onend = () => { 
+                    document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); 
+                    if (callback) callback();
+                };
+                utterance.onerror = () => {
+                    document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); 
+                    if (callback) callback();
+                }
                 setTimeout(() => { window.speechSynthesis.speak(utterance); }, 50);
+            } else {
+                if(callback) callback();
+            }
+        }
+
+        function togglePlayAll() {
+            const dataList = getActiveDataList();
+            if (dataList.length === 0) return;
+            
+            const btn = document.getElementById('play-all-btn');
+            
+            if (isPlayingAll) {
+                isPlayingAll = false;
+                window.speechSynthesis.cancel();
+                if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> 循序朗讀全部';
+                showToast("已停止循序朗讀", "info");
+            } else {
+                isPlayingAll = true;
+                currentPlayIndex = 0;
+                currentPlayType = 'word';
+                if (btn) btn.innerHTML = '<i class="fa-solid fa-stop"></i> 停止朗讀';
+                showToast("開始循序朗讀", "success");
+                playNextSequence(dataList);
+            }
+        }
+
+        function playNextSequence(dataList) {
+            if (!isPlayingAll || currentPlayIndex >= dataList.length) {
+                isPlayingAll = false;
+                const btn = document.getElementById('play-all-btn');
+                if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> 循序朗讀全部';
+                return;
+            }
+
+            const item = dataList[currentPlayIndex];
+            
+            // Scroll to item
+            const el = document.getElementById(`list-item-${currentPlayIndex}`);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            if (currentPlayType === 'word') {
+                speakWord(item.word, () => {
+                    if(!isPlayingAll) return;
+                    currentPlayType = 'example';
+                    setTimeout(() => playNextSequence(dataList), 800); 
+                });
+            } else {
+                speakWord(item.example, () => {
+                    if(!isPlayingAll) return;
+                    currentPlayType = 'word';
+                    currentPlayIndex++;
+                    setTimeout(() => playNextSequence(dataList), 1500); 
+                });
             }
         }
 
@@ -559,6 +627,7 @@
                 const found = list.find(item => item.word.toLowerCase() === sw);
                 if (found) return found.chinese;
             }
+            
             return null;
         }
 
@@ -666,7 +735,9 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl) userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+                    if (!userState.autoSyncUrl || userState.autoSyncUrl.includes("English-Training-Dojo") || userState.autoSyncUrl.includes("dc8d42") || userState.autoSyncUrl.includes("8748aef")) {
+                        userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+                    }
                 } catch(e) {}
             }
             if (savedMainDb) {
@@ -746,6 +817,7 @@
         function selectDifficulty(diffId) {
             playSound('click'); userState.currentDifficulty = diffId; userState.currentLevel = 1; userState.currentUnit = 1;
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (isPlayingAll) togglePlayAll();
             saveProgress(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent();
         }
 
@@ -754,7 +826,6 @@
             const theme = getThemeColors(); container.innerHTML = '';
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
-            
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentLevel === i;
                 const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
@@ -765,13 +836,13 @@
         function selectLevel(lvl) {
             playSound('click'); userState.currentLevel = lvl; userState.currentUnit = 1; 
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (isPlayingAll) togglePlayAll();
             saveProgress(); renderLevelSelector(); renderUnitSelector(); renderContent();
         }
 
         function renderUnitSelector() {
             const container = document.getElementById('unit-tabs-container'); if(!container) return; container.innerHTML = '';
             const isVocab = userState.currentDojo === 'vocab';
-            
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentUnit === i;
                 const activeStyle = isActive ? (isVocab ? 'bg-orange-400 text-slate-950 font-black shadow-neon-orange scale-105 border-orange-300' : 'bg-blue-400 text-slate-950 font-black shadow-neon-blue scale-105 border-blue-300') : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
@@ -781,11 +852,13 @@
 
         function selectUnit(u) {
             playSound('click'); userState.currentUnit = u; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (isPlayingAll) togglePlayAll();
             saveProgress(); renderUnitSelector(); renderContent();
         }
 
         function switchDojo(dojoType) {
             playSound('click'); userState.currentDojo = dojoType; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (isPlayingAll) togglePlayAll();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
         }
 
@@ -797,7 +870,24 @@
             document.getElementById('phrase-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-blue-500 transition-transform duration-300 ${!isVocab ? 'scale-x-100' : 'scale-x-0'}`;
         }
 
-        function switchTab(tabType) { playSound('click'); userState.currentTab = tabType; saveProgress(); updateTabButtonsUI(); renderContent(); }
+        function switchTab(tabType) { 
+            playSound('click'); 
+            userState.currentTab = tabType; 
+            
+            // 每次切換分頁，將題號重置為 0
+            if (['flashcard', 'quiz', 'spelling', 'cloze'].includes(tabType)) {
+                userState.flashcardIndex = 0;
+                userState.quizIndex = 0;
+                userState.spellingIndex = 0;
+                userState.clozeIndex = 0;
+            }
+
+            if (isPlayingAll) togglePlayAll();
+            
+            saveProgress(); 
+            updateTabButtonsUI(); 
+            renderContent(); 
+        }
 
         function updateTabButtonsUI() {
             const theme = getThemeColors();
@@ -828,7 +918,7 @@
             }
         }
 
-        // --- Render List Tab ---
+        // --- Render List Tab (Sequential play supported) ---
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
             const diffName = userState.currentDojo === 'vocab' ? `[${userState.currentDifficulty === 'basic' ? '初級' : userState.currentDifficulty === 'intermediate' ? '中級' : '中高級'}] ` : '';
@@ -837,14 +927,19 @@
             
             let listHTML = `
                 <div class="flex flex-col gap-4">
-                    <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3 flex-wrap gap-3">
                         <h3 class="font-extrabold text-sm sm:text-base flex items-center gap-2">
                             <i class="fa-solid fa-crown ${theme.text}"></i>
                             ${dbName}
                         </h3>
-                        <span class="text-[10px] sm:text-xs text-slate-400 bg-slate-950 px-3 py-1 rounded-full font-black font-mono">共 ${data.length} 項修行</span>
+                        <div class="flex items-center gap-2">
+                            <button id="play-all-btn" onclick="togglePlayAll()" class="px-3 py-1.5 bg-blue-600 hover:bg-blue-550 text-white rounded-xl font-bold text-[10px] sm:text-xs transition-all shadow-md flex items-center gap-1.5">
+                                ${isPlayingAll ? '<i class="fa-solid fa-stop"></i> 停止朗讀' : '<i class="fa-solid fa-play"></i> 循序朗讀全部'}
+                            </button>
+                            <span class="text-[10px] sm:text-xs text-slate-400 bg-slate-950 px-3 py-1.5 rounded-xl font-black font-mono border border-slate-800">共 ${data.length} 項</span>
+                        </div>
                     </div>
-                    <div class="flex flex-col gap-4 max-h-[60vh] overflow-y-auto pr-2">
+                    <div class="flex flex-col gap-4 max-h-[60vh] overflow-y-auto pr-2" id="list-scroll-container">
             `;
 
             data.forEach((item, idx) => {
@@ -853,7 +948,7 @@
                 const clickableExample = createClickableSentence(item.example);
                 
                 listHTML += `
-                    <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 ${theme.border} flex flex-col justify-between group hover:bg-slate-800/40">
+                    <div id="list-item-${idx}" class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 ${theme.border} flex flex-col justify-between group hover:bg-slate-800/40">
                         <div class="flex items-center justify-between gap-4 mb-3">
                             <div class="flex-1">
                                 <h4 class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors">
@@ -888,8 +983,8 @@
         function handleTouchStart(e) { touchStartX = e.changedTouches[0].screenX; }
         function handleTouchEnd(e, total) { 
             touchEndX = e.changedTouches[0].screenX; 
-            if (touchEndX > touchStartX + 50) navigateFlashcard(1, total); // 右滑 -> 切換下一張
-            else if (touchEndX < touchStartX - 50) navigateFlashcard(-1, total); // 左滑 -> 切換上一張
+            if (touchEndX > touchStartX + 50) navigateFlashcard(1, total); // 右滑 -> 下一張
+            else if (touchEndX < touchStartX - 50) navigateFlashcard(-1, total); // 左滑 -> 上一張
         }
 
         function renderFlashcardTab(data) {
@@ -927,7 +1022,6 @@
                     </div>
                 </div>
             `;
-            // 進入卡牌時自動朗讀單字
             setTimeout(() => speakWord(item.word), 300);
         }
 
@@ -936,7 +1030,6 @@
             const card = document.getElementById('flashcard-element'); 
             if (card) {
                 card.classList.toggle('flipped');
-                // 卡牌翻到背面時，自動朗讀英文例句
                 if (card.classList.contains('flipped')) {
                     const dataList = getActiveDataList();
                     if(dataList && dataList[userState.flashcardIndex]) {
@@ -1379,7 +1472,7 @@
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(l => `<option value="${l}">L${l}</option>`).join('')}</select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option><option value="8">L8</option><option value="9">L9</option><option value="10">L10</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
                             </div>
                             <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors"></textarea>
@@ -1557,7 +1650,7 @@
                 try {
                     const res = await fetch(url);
                     if (res.ok) {
-                        if (mode === 'overwrite' && !syncedAnything) { // Only overwrite on the first successful fetch to avoid wiping subsequent files
+                        if (mode === 'overwrite' && !syncedAnything) { 
                             ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; });
                             for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
                         }

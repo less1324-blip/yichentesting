@@ -1473,17 +1473,26 @@
                 feedback.innerHTML = `<i class="fa-solid fa-square-check mr-1.5"></i>參悟圓滿！語境填空完美切合！`;
                 userState.streak += 1; userState.correctCount += 1;
                 addEXP(25); showToast("填空正確！修為增加 +25", 'success');
-                setTimeout(() => nextClozeQuestion(dataLength), 2000);
+                
+                // 語境填空例句較長，延遲 5.6 秒確保音檔唸完後再自動跳下一題
+                if (fullSentence) {
+                    setTimeout(() => { speakWord(fullSentence); }, 600);
+                    setTimeout(() => { nextClozeQuestion(dataLength); }, 5600);
+                } else {
+                    setTimeout(() => { nextClozeQuestion(dataLength); }, 5000);
+                }
             } else {
                 playSound('wrong');
                 feedback.className = "p-3.5 rounded-xl text-center text-sm font-bold bg-rose-500/10 border border-rose-500 text-rose-450";
                 feedback.innerHTML = `<i class="fa-solid fa-triangle-exclamation mr-1.5"></i>拼法受阻！正確填空答案應為：<span class="underline font-mono ml-1 text-white text-base">${correctAnswer}</span>`;
                 userState.streak = 0; showToast(`答案不對，再接再厲！`, 'error');
+                
+                // 答錯時，依然播放例句語音，並顯示下一題按鈕讓學生自行點擊
+                if (fullSentence) setTimeout(() => { speakWord(fullSentence); }, 600);
                 nextBtn.classList.remove('hidden');
             }
 
-            if (fullSentence) setTimeout(() => { speakWord(fullSentence); }, 600);
-            saveProgress(); updateHeaderUI();
+            saveProgress(); updateHeaderUI(); 
         }
 
         function nextClozeQuestion(totalQuestions) { userState.clozeIndex = (userState.clozeIndex + 1) % totalQuestions; saveProgress(); renderContent(); }

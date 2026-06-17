@@ -519,12 +519,41 @@
                 let cleanWordForSpeech = text.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').trim().replace(/[\u200B-\u200D\uFEFF]/g, '').replace(/\//g, "or");
                 const utterance = new SpeechSynthesisUtterance(cleanWordForSpeech);
                 
-                const targetLang = userState.voiceAccent === 'UK' ? 'en-GB' : 'en-US';
-                utterance.lang = targetLang; 
                 utterance.rate = userState.speechRate || 0.85;
-                
                 const voices = window.speechSynthesis.getVoices();
-                let selectedVoice = voices.find(v => v.lang === targetLang || v.lang.replace('_', '-').startsWith(targetLang)) || voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
+                let selectedVoice = null;
+
+                if (userState.voiceAccent === 'US') {
+                    utterance.lang = 'en-US';
+                    // 美式女聲 (加州西岸風格/General American) - 優先尋找高保真女聲
+                    const usFemalePreferences = ['Google US English', 'Aria', 'Jenny', 'Ava', 'Samantha', 'Victoria', 'Zira'];
+                    for (let pref of usFemalePreferences) {
+                        selectedVoice = voices.find(v => v.name.includes(pref) && (v.lang.includes('en-US') || v.lang.includes('en_US')));
+                        if (selectedVoice) break;
+                    }
+                    // 若找不到指定女聲，降級尋找任何包含 Female 的美聲
+                    if (!selectedVoice) {
+                        selectedVoice = voices.find(v => (v.lang === 'en-US' || v.lang === 'en_US') && v.name.toLowerCase().includes('female')) || 
+                                        voices.find(v => v.lang === 'en-US' || v.lang === 'en_US');
+                    }
+                } else {
+                    utterance.lang = 'en-GB';
+                    // 英式男聲 (倫敦南部風格/RP) - 優先尋找高保真男聲
+                    const ukMalePreferences = ['Google UK English Male', 'Ryan', 'Daniel', 'Arthur', 'George', 'Oliver'];
+                    for (let pref of ukMalePreferences) {
+                        selectedVoice = voices.find(v => v.name.includes(pref) && (v.lang.includes('GB') || v.lang.includes('UK')));
+                        if (selectedVoice) break;
+                    }
+                    // 若找不到指定男聲，降級尋找任何包含 Male 的英聲
+                    if (!selectedVoice) {
+                        selectedVoice = voices.find(v => (v.lang.includes('GB') || v.lang.includes('UK')) && v.name.toLowerCase().includes('male')) || 
+                                        voices.find(v => v.lang.includes('GB') || v.lang.includes('UK'));
+                    }
+                }
+
+                // 終極防呆備用：抓取任何英文發音
+                if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
+                
                 if (selectedVoice) utterance.voice = selectedVoice;
 
                 utterance.onend = () => { 
@@ -535,6 +564,7 @@
                     document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); 
                     if (callback) callback();
                 }
+                // 微幅延遲確保語音緩衝
                 setTimeout(() => { window.speechSynthesis.speak(utterance); }, 50);
             } else {
                 if(callback) callback();

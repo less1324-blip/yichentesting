@@ -29,14 +29,6 @@
                             neonRed: '#F87171', 
                             royalBlue: '#1D4ED8', 
                         }
-                    },
-                    boxShadow: {
-                        'neon-amber': '0 0 25px rgba(245, 158, 11, 0.45)',
-                        'neon-orange': '0 0 25px rgba(249, 115, 22, 0.5)',
-                        'neon-sky': '0 0 25px rgba(56, 189, 248, 0.4)',
-                        'neon-emerald': '0 0 25px rgba(52, 211, 153, 0.4)',
-                        'neon-blue': '0 0 25px rgba(29, 78, 216, 0.55)', 
-                        'neon-rose': '0 0 25px rgba(244, 63, 94, 0.4)',
                     }
                 }
             }
@@ -58,12 +50,6 @@
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .glass-input {
-            background: rgba(11, 15, 25, 0.85);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .flip-card { perspective: 1000px; }
@@ -92,7 +78,11 @@
         ::-webkit-scrollbar-thumb { background: rgba(29, 78, 216, 0.3); border-radius: 99px; }
         ::-webkit-scrollbar-thumb:hover { background: rgba(249, 115, 22, 0.5); }
 
-        /* Dict Word Hover Effect */
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(11,15,25,0.2); }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(249,115,22,0.3); border-radius: 99px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(249,115,22,0.5); }
+
         .dict-word {
             cursor: pointer;
             transition: all 0.2s;
@@ -106,13 +96,20 @@
             border-radius: 4px;
         }
         .dict-word:active { color: #F59E0B; }
+
+        .reading-highlight {
+            background-color: rgba(249, 115, 22, 0.15) !important;
+            border-color: rgba(249, 115, 22, 0.5) !important;
+            box-shadow: 0 0 15px rgba(249, 115, 22, 0.2);
+            border-radius: 8px;
+            transition: all 0.2s ease-in-out;
+        }
     </style>
 </head>
 <body class="text-slate-100 font-sans min-h-screen flex flex-col justify-between selection:bg-blue-500/30 selection:text-blue-200">
 
     <header class="glass-panel border-b border-slate-850 sticky top-0 z-40 py-3.5 px-4 sm:px-6 shadow-xl">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            
             <div onclick="goHome()" class="flex items-center gap-3 cursor-pointer group select-none hover:opacity-95 active:scale-98 transition-all">
                 <div class="bg-gradient-to-br from-amber-500 via-orange-500 to-blue-600 p-2.5 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:scale-105 group-hover:rotate-3 transition-all duration-300">
                     <span class="text-3xl text-white block transform group-hover:scale-110 transition-transform">⛩️</span>
@@ -128,30 +125,22 @@
             </div>
 
             <div class="flex flex-wrap items-center gap-2 sm:gap-3 bg-slate-950/70 p-2 rounded-2xl border border-slate-800/80 justify-between md:justify-start">
-                
                 <button onclick="openStatsModal()" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/90 border border-slate-800 hover:border-orange-500/30 rounded-xl transition-all hover:bg-slate-850 active:scale-95 group">
                     <span class="text-sm font-black text-orange-400 group-hover:scale-105 transition-transform"><i class="fa-solid fa-chart-line mr-1"></i> 修行法海</span>
                 </button>
-
                 <div onclick="openSyncSettingsModal()" id="header-sync-badge" class="flex items-center gap-2 px-3 py-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-850 hover:border-blue-500/50 rounded-xl cursor-pointer transition-all active:scale-95 text-slate-400 hover:text-blue-400 group" title="雲端同步法陣設定">
                     <i id="header-sync-icon" class="fa-solid fa-cloud animate-pulse text-base"></i>
                     <span id="header-sync-status" class="text-xs font-bold">手動修行</span>
                 </div>
-
                 <div class="h-6 w-[1px] bg-slate-800 hidden md:block"></div>
-
                 <div class="flex items-center gap-2 px-1 sm:px-2">
-                    <div class="relative flex items-center justify-center">
-                        <i class="fa-solid fa-crown text-orange-500 text-lg"></i>
-                    </div>
+                    <div class="relative flex items-center justify-center"><i class="fa-solid fa-crown text-orange-500 text-lg"></i></div>
                     <div>
                         <div class="text-[10px] text-slate-500 uppercase tracking-widest font-black">修煉境界</div>
                         <div class="text-sm sm:text-base font-black text-orange-400 leading-tight" id="user-rank">新手侍從</div>
                     </div>
                 </div>
-                
                 <div class="h-6 w-[1px] bg-slate-800"></div>
-
                 <div class="flex-1 md:w-32 lg:w-40 px-2 min-w-[100px]">
                     <div class="flex justify-between text-[10px] mb-1">
                         <span class="text-slate-450 font-bold">修為 (EXP)</span>
@@ -161,9 +150,7 @@
                         <div id="exp-bar" class="bg-gradient-to-r from-orange-400 via-blue-500 to-amber-400 h-full w-0 transition-all duration-500 ease-out"></div>
                     </div>
                 </div>
-
                 <div class="h-6 w-[1px] bg-slate-800"></div>
-
                 <div class="flex items-center gap-1.5 px-2 text-emerald-400 font-black text-sm sm:text-base" id="streak-container">
                     <i class="fa-solid fa-fire text-orange-500 animate-bounce"></i>
                     <span><span id="streak-count">0</span> 連擊</span>
@@ -269,27 +256,114 @@
         </section>
     </main>
 
+    <!-- Welcome Guide Modal -->
+    <div id="welcome-guide-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-[100] flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300">
+        <div class="glass-panel border border-orange-500/40 max-w-2xl w-full mx-4 rounded-3xl p-1 shadow-2xl scale-95 transition-transform duration-300 relative overflow-hidden flex flex-col max-h-[85vh]">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="flex items-center justify-between border-b border-slate-800/80 p-4 sm:p-5 relative z-10 bg-slate-900/40 rounded-t-3xl">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-amber-600 flex items-center justify-center text-slate-950 shadow-lg shadow-orange-500/30">
+                        <i class="fa-solid fa-scroll text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg sm:text-xl font-black text-white tracking-widest">修煉閣新手指南</h3>
+                        <p class="text-[10px] sm:text-xs text-orange-400 font-bold uppercase tracking-wider mt-0.5">Welcome to English Training Dojo</p>
+                    </div>
+                </div>
+                <button onclick="closeWelcomeGuide()" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-all">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <div class="p-4 sm:p-6 overflow-y-auto relative z-10 flex flex-col gap-5 custom-scrollbar">
+                <div class="flex flex-col gap-3">
+                    <div class="bg-slate-900/60 border border-slate-800 p-4 rounded-2xl">
+                        <h4 class="text-sm font-black text-blue-400 mb-2 flex items-center gap-2"><i class="fa-solid fa-graduation-cap"></i> 難度與理念</h4>
+                        <ul class="text-xs sm:text-sm text-slate-300 space-y-2 leading-relaxed font-medium">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-400 mt-1"></i><span><strong class="text-white">初級單字：</strong>大約到國三畢業程度；<strong class="text-white">中級單字：</strong>大約是到高二上程度。</span></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-400 mt-1"></i><span>本系統採用<strong class="text-orange-400">「迴圈式練習」</strong>與<strong class="text-orange-400">「間隔式複習」</strong>，協助您從短期記憶轉化為長期記憶。</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-slate-900/60 border border-slate-800 p-4 rounded-2xl">
+                        <h4 class="text-sm font-black text-orange-400 mb-2 flex items-center gap-2"><i class="fa-solid fa-list-check"></i> 修煉清單步驟</h4>
+                        <ol class="text-xs sm:text-sm text-slate-300 space-y-1.5 leading-relaxed font-medium list-decimal list-inside marker:text-slate-500 marker:font-bold">
+                            <li>按下<strong class="text-white">依序朗讀全部</strong></li>
+                            <li>邊看邊聽句子的發音</li>
+                            <li>搭配跟讀法練習</li>
+                        </ol>
+                    </div>
+                    <div class="bg-slate-900/60 border border-slate-800 p-4 rounded-2xl">
+                        <h4 class="text-sm font-black text-amber-400 mb-2 flex items-center gap-2"><i class="fa-solid fa-clone"></i> 記憶卡牌步驟</h4>
+                        <p class="text-xs text-slate-400 mb-1.5"><i class="fa-solid fa-volume-high mr-1 text-slate-500"></i>卡牌會自動播放音檔</p>
+                        <ol class="text-xs sm:text-sm text-slate-300 space-y-1.5 leading-relaxed font-medium list-decimal list-inside marker:text-slate-500 marker:font-bold">
+                            <li>進行<strong class="text-white">英翻中</strong>的練習</li>
+                            <li>卡牌背面有中文跟例句</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900/60 border border-slate-800 p-4 rounded-2xl flex flex-col gap-3">
+                    <h4 class="text-sm font-black text-emerald-400 mb-1 flex items-center gap-2"><i class="fa-solid fa-shield-halved"></i> 實戰挑戰說明</h4>
+                    
+                    <div class="flex items-start gap-3 bg-slate-950/40 p-3 rounded-xl border border-slate-800/50">
+                        <div class="mt-0.5 text-slate-500"><i class="fa-solid fa-khanda"></i></div>
+                        <div>
+                            <span class="text-xs sm:text-sm font-bold text-slate-200">境界試煉</span>
+                            <p class="text-[11px] sm:text-xs text-slate-400 mt-0.5">中英文連連看，聆聽音檔並選出正確釋義。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-slate-950/40 p-3 rounded-xl border border-slate-800/50">
+                        <div class="mt-0.5 text-slate-500"><i class="fa-solid fa-keyboard"></i></div>
+                        <div>
+                            <span class="text-xs sm:text-sm font-bold text-slate-200">字彙淬鍊</span>
+                            <p class="text-[11px] sm:text-xs text-slate-400 mt-0.5">可先按下音檔，然後手動輸入單字答案。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-slate-950/40 p-3 rounded-xl border border-slate-800/50">
+                        <div class="mt-0.5 text-slate-500"><i class="fa-solid fa-file-pen"></i></div>
+                        <div>
+                            <span class="text-xs sm:text-sm font-bold text-slate-200">語境填空</span>
+                            <p class="text-[11px] sm:text-xs text-slate-400 mt-0.5">英翻中的練習，聽完例句音檔後輸入答案。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-blue-500/10 border border-blue-500/20 p-4 rounded-2xl">
+                    <h4 class="text-sm font-black text-blue-400 mb-1.5 flex items-center gap-2"><i class="fa-solid fa-circle-info"></i> 淬鍊與填空作答須知</h4>
+                    <p class="text-xs sm:text-sm text-slate-200 font-medium leading-relaxed">
+                        答對會<strong class="text-emerald-400">自動進入下一題</strong>；答錯請仔細看過解答再按下一題。<br>
+                        <span class="text-[11px] text-slate-400 mt-1 block">💡 提示：字母碎片與首字提示可以幫助回想喔！</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="p-4 sm:p-5 border-t border-slate-800/80 bg-slate-900/40 rounded-b-3xl flex justify-center">
+                <button onclick="closeWelcomeGuide()" class="px-8 py-3 bg-gradient-to-r from-orange-500 to-amber-600 hover:opacity-90 text-slate-950 font-black text-sm rounded-xl shadow-lg shadow-orange-500/20 transition-all flex items-center gap-2">
+                    <i class="fa-solid fa-bolt"></i> 我已了解，開始修煉！
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Dictionary Modal -->
     <div id="dictionary-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="glass-panel border border-blue-500/40 max-w-lg w-full mx-4 rounded-3xl p-6 shadow-2xl scale-95 transition-transform duration-300 flex flex-col gap-4 relative">
-            <button onclick="closeDictionaryModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
-                <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
+            <button onclick="closeDictionaryModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors"><i class="fa-solid fa-xmark text-xl"></i></button>
             <div class="flex items-center gap-3 text-blue-400 border-b border-slate-800 pb-3">
-                <i class="fa-solid fa-book-atlas text-2xl"></i>
-                <h3 class="text-lg font-black tracking-widest">英漢靈光法典</h3>
+                <i class="fa-solid fa-book-atlas text-2xl"></i><h3 class="text-lg font-black tracking-widest">英漢靈光法典</h3>
             </div>
-            
-            <div id="dictionary-content" class="flex flex-col gap-3 min-h-[150px] max-h-[60vh] overflow-y-auto pr-2">
-                <div class="flex justify-center items-center h-full text-slate-500">
-                    <i class="fa-solid fa-spinner animate-spin text-2xl"></i>
-                </div>
+            <div id="dictionary-content" class="flex flex-col gap-3 min-h-[150px] max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                <div class="flex justify-center items-center h-full text-slate-500"><i class="fa-solid fa-spinner animate-spin text-2xl"></i></div>
             </div>
-            
             <div class="flex justify-end mt-2 pt-3 border-t border-slate-800">
-                <button onclick="closeDictionaryModal()" class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold text-xs rounded-xl border border-slate-700 transition-colors">
-                    關閉法典
-                </button>
+                <button onclick="closeDictionaryModal()" class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold text-xs rounded-xl border border-slate-700 transition-colors">關閉法典</button>
             </div>
         </div>
     </div>
@@ -301,7 +375,6 @@
             <div class="absolute inset-0 bg-orange-500/10 rounded-full blur group-hover:bg-orange-500/20 transition-all"></div>
             <i class="fa-solid fa-headphones text-xl relative z-10"></i>
         </button>
-
         <div id="voice-settings-panel" class="hidden glass-panel border border-slate-750 p-4 rounded-2xl shadow-2xl w-64 origin-bottom-right transition-all">
             <div class="flex justify-between items-center border-b border-slate-800 pb-2 mb-3">
                 <h4 class="text-sm font-black text-slate-200"><i class="fa-solid fa-volume-high mr-2 text-orange-400"></i>語音發音設定</h4>
@@ -354,7 +427,7 @@
             <div class="flex flex-col gap-3">
                 <div>
                     <label class="block text-[10px] text-blue-300 font-extrabold mb-1">GitHub JSON Raw URL</label>
-                    <textarea id="modal-sync-url-input" rows="3" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors resize-none"></textarea>
+                    <textarea id="modal-sync-url-input" rows="3" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-850 focus:border-blue-500 rounded-xl text-xs font-semibold text-slate-200 outline-none transition-colors custom-scrollbar resize-none"></textarea>
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <div>
@@ -439,6 +512,23 @@
         let isAdminUnlocked = false;
         let currentQuizWord = ""; 
 
+        function openWelcomeGuide() {
+            const modal = document.getElementById('welcome-guide-modal');
+            if (modal) {
+                modal.classList.remove('pointer-events-none', 'opacity-0');
+                modal.firstElementChild.classList.remove('scale-95');
+            }
+        }
+
+        function closeWelcomeGuide() {
+            playSound('click');
+            const modal = document.getElementById('welcome-guide-modal');
+            if (modal) {
+                modal.classList.add('pointer-events-none', 'opacity-0');
+                modal.firstElementChild.classList.add('scale-95');
+            }
+        }
+
         function getThemeColors() {
             const isVocab = userState.currentDojo === 'vocab';
             return {
@@ -508,7 +598,7 @@
 
         let isPlayingAll = false;
         let currentPlayIndex = 0;
-        let currentPlayType = 'word'; // 'word' or 'example'
+        let currentPlayType = 'word'; 
 
         function speakWord(text, callback) {
             initAudioContext();
@@ -525,35 +615,29 @@
 
                 if (userState.voiceAccent === 'US') {
                     utterance.lang = 'en-US';
-                    // 美式女聲 (加州西岸風格/General American) - 優先尋找高保真女聲
                     const usFemalePreferences = ['Google US English', 'Aria', 'Jenny', 'Ava', 'Samantha', 'Victoria', 'Zira'];
                     for (let pref of usFemalePreferences) {
                         selectedVoice = voices.find(v => v.name.includes(pref) && (v.lang.includes('en-US') || v.lang.includes('en_US')));
                         if (selectedVoice) break;
                     }
-                    // 若找不到指定女聲，降級尋找任何包含 Female 的美聲
                     if (!selectedVoice) {
                         selectedVoice = voices.find(v => (v.lang === 'en-US' || v.lang === 'en_US') && v.name.toLowerCase().includes('female')) || 
                                         voices.find(v => v.lang === 'en-US' || v.lang === 'en_US');
                     }
                 } else {
                     utterance.lang = 'en-GB';
-                    // 英式男聲 (倫敦南部風格/RP) - 優先尋找高保真男聲
                     const ukMalePreferences = ['Google UK English Male', 'Ryan', 'Daniel', 'Arthur', 'George', 'Oliver'];
                     for (let pref of ukMalePreferences) {
                         selectedVoice = voices.find(v => v.name.includes(pref) && (v.lang.includes('GB') || v.lang.includes('UK')));
                         if (selectedVoice) break;
                     }
-                    // 若找不到指定男聲，降級尋找任何包含 Male 的英聲
                     if (!selectedVoice) {
                         selectedVoice = voices.find(v => (v.lang.includes('GB') || v.lang.includes('UK')) && v.name.toLowerCase().includes('male')) || 
                                         voices.find(v => v.lang.includes('GB') || v.lang.includes('UK'));
                     }
                 }
 
-                // 終極防呆備用：抓取任何英文發音
                 if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en-') || v.lang.startsWith('en_'));
-                
                 if (selectedVoice) utterance.voice = selectedVoice;
 
                 utterance.onend = () => { 
@@ -564,7 +648,6 @@
                     document.querySelectorAll('.voice-wave-container').forEach(el => el.classList.add('hidden')); 
                     if (callback) callback();
                 }
-                // 微幅延遲確保語音緩衝
                 setTimeout(() => { window.speechSynthesis.speak(utterance); }, 50);
             } else {
                 if(callback) callback();
@@ -574,7 +657,6 @@
         function togglePlayAll() {
             const dataList = getActiveDataList();
             if (dataList.length === 0) return;
-            
             const btn = document.getElementById('play-all-btn');
             
             if (isPlayingAll) {
@@ -582,6 +664,8 @@
                 window.speechSynthesis.cancel();
                 if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> 循序朗讀全部';
                 showToast("已停止循序朗讀", "info");
+                
+                document.querySelectorAll('.reading-highlight').forEach(el => el.classList.remove('reading-highlight'));
             } else {
                 isPlayingAll = true;
                 currentPlayIndex = 0;
@@ -597,24 +681,33 @@
                 isPlayingAll = false;
                 const btn = document.getElementById('play-all-btn');
                 if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> 循序朗讀全部';
+                document.querySelectorAll('.reading-highlight').forEach(el => el.classList.remove('reading-highlight'));
                 return;
             }
 
             const item = dataList[currentPlayIndex];
-            
-            // Scroll to item
             const el = document.getElementById(`list-item-${currentPlayIndex}`);
             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
+            document.querySelectorAll('.reading-highlight').forEach(highlighted => highlight.classList.remove('reading-highlight'));
+
             if (currentPlayType === 'word') {
+                const wordEl = document.getElementById(`list-word-${currentPlayIndex}`);
+                if(wordEl) wordEl.classList.add('reading-highlight');
+                
                 speakWord(item.word, () => {
                     if(!isPlayingAll) return;
+                    if(wordEl) wordEl.classList.remove('reading-highlight');
                     currentPlayType = 'example';
                     setTimeout(() => playNextSequence(dataList), 800); 
                 });
             } else {
+                const egEl = document.getElementById(`list-eg-${currentPlayIndex}`);
+                if(egEl) egEl.classList.add('reading-highlight');
+                
                 speakWord(item.example, () => {
                     if(!isPlayingAll) return;
+                    if(egEl) egEl.classList.remove('reading-highlight');
                     currentPlayType = 'word';
                     currentPlayIndex++;
                     setTimeout(() => playNextSequence(dataList), 1500); 
@@ -643,7 +736,6 @@
         function findLocalMeaning(searchWord) {
             if (!searchWord) return null;
             const sw = searchWord.toLowerCase();
-            
             for (const diff of ['basic', 'intermediate', 'advanced']) {
                 for (let l = 1; l <= 10; l++) {
                     const list = mainDatabase.vocab[diff]?.[l] || [];
@@ -651,13 +743,11 @@
                     if (found) return found.chinese;
                 }
             }
-            
             for (let l = 1; l <= 10; l++) {
                 const list = mainDatabase.phrase?.[l] || [];
                 const found = list.find(item => item.word.toLowerCase() === sw);
                 if (found) return found.chinese;
             }
-            
             return null;
         }
 
@@ -828,6 +918,28 @@
             if (userState.streak > userState.highestStreak) userState.highestStreak = userState.streak;
         }
 
+        function switchDojo(dojoType) {
+            playSound('click'); userState.currentDojo = dojoType; 
+            if (dojoType === 'vocab') userState.currentDifficulty = 'basic'; 
+            userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
+            saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
+            
+            setTimeout(() => {
+                const diffSection = document.getElementById('difficulty-selector-section');
+                if (diffSection && !diffSection.classList.contains('hidden')) diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                else document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 150);
+        }
+
+        function updateDojoTabUI() {
+            const isVocab = userState.currentDojo === 'vocab';
+            document.getElementById('dojo-btn-vocab').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${isVocab ? 'border-orange-500/40 shadow-neon-orange bg-slate-900/80' : 'border-slate-800 hover:border-orange-500/50'}`;
+            document.getElementById('dojo-btn-phrase').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${!isVocab ? 'border-blue-500/40 shadow-neon-blue bg-slate-900/80' : 'border-slate-800 hover:border-blue-500/50'}`;
+            document.getElementById('vocab-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-orange-500 transition-transform duration-300 ${isVocab ? 'scale-x-100' : 'scale-x-0'}`;
+            document.getElementById('phrase-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-blue-500 transition-transform duration-300 ${!isVocab ? 'scale-x-100' : 'scale-x-0'}`;
+        }
+
         function renderDifficultySelector() {
             const container = document.getElementById('difficulty-tabs-container'), section = document.getElementById('difficulty-selector-section');
             if(!container || !section) return;
@@ -850,7 +962,6 @@
             if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent();
             
-            // 自動流暢跳轉到 Level 選擇區
             setTimeout(() => document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
         }
 
@@ -859,6 +970,7 @@
             const theme = getThemeColors(); container.innerHTML = '';
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
+            
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentLevel === i;
                 const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
@@ -872,13 +984,13 @@
             if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); renderLevelSelector(); renderUnitSelector(); renderContent();
             
-            // 自動流暢跳轉到 Unit 選擇區
             setTimeout(() => document.getElementById('unit-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
         }
 
         function renderUnitSelector() {
             const container = document.getElementById('unit-tabs-container'); if(!container) return; container.innerHTML = '';
             const isVocab = userState.currentDojo === 'vocab';
+            
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentUnit === i;
                 const activeStyle = isActive ? (isVocab ? 'bg-orange-400 text-slate-950 font-black shadow-neon-orange scale-105 border-orange-300' : 'bg-blue-400 text-slate-950 font-black shadow-neon-blue scale-105 border-blue-300') : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
@@ -888,14 +1000,11 @@
 
         function selectUnit(u) {
             playSound('click'); userState.currentUnit = u; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            
-            // 強制切換回修煉清單
             userState.currentTab = 'list'; 
             if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             
             saveProgress(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
             
-            // 自動流暢跳轉到下方內容區，並將清單捲動到最頂部
             setTimeout(() => {
                 document.getElementById('dojo-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
                 const listScroll = document.getElementById('list-scroll-container');
@@ -903,53 +1012,14 @@
             }, 200);
         }
 
-        function switchDojo(dojoType) {
-            playSound('click'); userState.currentDojo = dojoType; 
-            
-            // 如果點擊的是單字練功房，強制預設為初級單字
-            if (dojoType === 'vocab') userState.currentDifficulty = 'basic'; 
-            
-            userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
-            
-            saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
-            
-            // 自動流暢跳轉到難度選擇區
-            setTimeout(() => {
-                const diffSection = document.getElementById('difficulty-selector-section');
-                if (diffSection && !diffSection.classList.contains('hidden')) {
-                    diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                } else {
-                    document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }, 150);
-        }
-
-        function updateDojoTabUI() {
-            const isVocab = userState.currentDojo === 'vocab';
-            document.getElementById('dojo-btn-vocab').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${isVocab ? 'border-orange-500/40 shadow-neon-orange bg-slate-900/80' : 'border-slate-800 hover:border-orange-500/50'}`;
-            document.getElementById('dojo-btn-phrase').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${!isVocab ? 'border-blue-500/40 shadow-neon-blue bg-slate-900/80' : 'border-slate-800 hover:border-blue-500/50'}`;
-            document.getElementById('vocab-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-orange-500 transition-transform duration-300 ${isVocab ? 'scale-x-100' : 'scale-x-0'}`;
-            document.getElementById('phrase-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-blue-500 transition-transform duration-300 ${!isVocab ? 'scale-x-100' : 'scale-x-0'}`;
-        }
-
         function switchTab(tabType) { 
             playSound('click'); 
             userState.currentTab = tabType; 
-            
-            // 每次切換分頁，將題號重置為 0
             if (['flashcard', 'quiz', 'spelling', 'cloze'].includes(tabType)) {
-                userState.flashcardIndex = 0;
-                userState.quizIndex = 0;
-                userState.spellingIndex = 0;
-                userState.clozeIndex = 0;
+                userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
             }
-
             if (isPlayingAll) togglePlayAll();
-            
-            saveProgress(); 
-            updateTabButtonsUI(); 
-            renderContent(); 
+            saveProgress(); updateTabButtonsUI(); renderContent(); 
         }
 
         function updateTabButtonsUI() {
@@ -981,7 +1051,6 @@
             }
         }
 
-        // --- Render List Tab (Sequential play supported) ---
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
             const diffName = userState.currentDojo === 'vocab' ? `[${userState.currentDifficulty === 'basic' ? '初級' : userState.currentDifficulty === 'intermediate' ? '中級' : '中高級'}] ` : '';
@@ -1002,7 +1071,7 @@
                             <span class="text-[10px] sm:text-xs text-slate-400 bg-slate-950 px-3 py-1.5 rounded-xl font-black font-mono border border-slate-800">共 ${data.length} 項</span>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-4 max-h-[60vh] overflow-y-auto pr-2" id="list-scroll-container">
+                    <div class="flex flex-col gap-4 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar" id="list-scroll-container">
             `;
 
             data.forEach((item, idx) => {
@@ -1014,7 +1083,7 @@
                     <div id="list-item-${idx}" class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 ${theme.border} flex flex-col justify-between group hover:bg-slate-800/40">
                         <div class="flex items-center justify-between gap-4 mb-3">
                             <div class="flex-1">
-                                <h4 class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors">
+                                <h4 id="list-word-${idx}" class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors p-1">
                                     ${item.word} 
                                     ${item.phonetic ? `<span class="text-sm text-slate-500 font-medium font-mono">${item.phonetic}</span>` : ''}
                                 </h4>
@@ -1027,8 +1096,8 @@
                         <div class="border-t border-slate-800/60 pt-4 mt-1">
                             <div class="flex items-start justify-between gap-4">
                                 <div class="flex-1">
-                                    <p class="text-base sm:text-lg font-bold text-slate-300 leading-relaxed">${clickableExample}</p>
-                                    <p class="mt-2 text-sm sm:text-base text-slate-450 font-bold leading-relaxed">${item.exampleCn}</p>
+                                    <p id="list-eg-${idx}" class="text-base sm:text-lg font-bold text-slate-300 leading-relaxed p-1">${clickableExample}</p>
+                                    <p class="mt-2 text-sm sm:text-base text-slate-450 font-bold leading-relaxed p-1">${item.exampleCn}</p>
                                 </div>
                                 <button onclick="speakWord('${safeExample}')" class="w-10 h-10 flex items-center justify-center text-slate-500 hover:text-orange-400 rounded-lg bg-slate-900 hover:bg-slate-800 transition-all shrink-0 border border-slate-800" title="僅朗讀例句">
                                     <i class="fa-solid fa-comment-dots text-sm"></i>
@@ -1046,8 +1115,8 @@
         function handleTouchStart(e) { touchStartX = e.changedTouches[0].screenX; }
         function handleTouchEnd(e, total) { 
             touchEndX = e.changedTouches[0].screenX; 
-            if (touchEndX > touchStartX + 50) navigateFlashcard(1, total); // 右滑 -> 下一張
-            else if (touchEndX < touchStartX - 50) navigateFlashcard(-1, total); // 左滑 -> 上一張
+            if (touchEndX < touchStartX - 50) navigateFlashcard(1, total); 
+            else if (touchEndX > touchStartX + 50) navigateFlashcard(-1, total); 
         }
 
         function renderFlashcardTab(data) {
@@ -1095,9 +1164,7 @@
                 card.classList.toggle('flipped');
                 if (card.classList.contains('flipped')) {
                     const dataList = getActiveDataList();
-                    if(dataList && dataList[userState.flashcardIndex]) {
-                        setTimeout(() => speakWord(dataList[userState.flashcardIndex].example), 300);
-                    }
+                    if(dataList && dataList[userState.flashcardIndex]) setTimeout(() => speakWord(dataList[userState.flashcardIndex].example), 300);
                 }
             } 
         }
@@ -1121,28 +1188,17 @@
                     if(mainDatabase.phrase[l]) pool = pool.concat(mainDatabase.phrase[l]);
                 }
             }
-
             let uniquePoolMap = new Map();
-            pool.forEach(item => {
-                if(item.word !== correctItem.word) uniquePoolMap.set(item.word, item);
-            });
+            pool.forEach(item => { if(item.word !== correctItem.word) uniquePoolMap.set(item.word, item); });
             let uniquePool = Array.from(uniquePoolMap.values());
-
             for (let i = uniquePool.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [uniquePool[i], uniquePool[j]] = [uniquePool[j], uniquePool[i]];
+                const j = Math.floor(Math.random() * (i + 1)); [uniquePool[i], uniquePool[j]] = [uniquePool[j], uniquePool[i]];
             }
-            
             let wrongOptions = uniquePool.slice(0, 3);
-            
-            while (wrongOptions.length < 3) {
-                wrongOptions.push({ word: "Dummy" + wrongOptions.length, chinese: "干擾選項" + wrongOptions.length });
-            }
-
+            while (wrongOptions.length < 3) wrongOptions.push({ word: "Dummy" + wrongOptions.length, chinese: "干擾選項" + wrongOptions.length });
             const finalOptions = [correctItem, ...wrongOptions];
             for (let i = finalOptions.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [finalOptions[i], finalOptions[j]] = [finalOptions[j], finalOptions[i]];
+                const j = Math.floor(Math.random() * (i + 1)); [finalOptions[i], finalOptions[j]] = [finalOptions[j], finalOptions[i]];
             }
             return finalOptions;
         }
@@ -1223,9 +1279,7 @@
         }
 
         function nextQuizQuestion(totalQuestions) {
-            currentQuizWord = "";
-            userState.quizIndex = (userState.quizIndex + 1) % totalQuestions;
-            saveProgress(); renderContent();
+            currentQuizWord = ""; userState.quizIndex = (userState.quizIndex + 1) % totalQuestions; saveProgress(); renderContent();
         }
 
         function renderSpellingTab(data) {
@@ -1289,28 +1343,18 @@
 
         function appendSpellingLetter(char) {
             const input = document.getElementById('spelling-input');
-            if (input) {
-                input.value += char;
-                input.focus();
-                updateSpellingFragments(input.value);
-            }
+            if (input) { input.value += char; input.focus(); updateSpellingFragments(input.value); }
         }
 
         function updateSpellingFragments(inputValue) {
-            const container = document.getElementById('scrambled-hint-container');
-            if (!container) return;
+            const container = document.getElementById('scrambled-hint-container'); if (!container) return;
             const fragments = container.querySelectorAll('.spelling-fragment');
-            fragments.forEach(f => {
-                f.classList.remove('opacity-20', 'line-through', 'scale-95', 'pointer-events-none');
-                f.dataset.used = "false";
-            });
+            fragments.forEach(f => { f.classList.remove('opacity-20', 'line-through', 'scale-95', 'pointer-events-none'); f.dataset.used = "false"; });
             const typed = inputValue.toLowerCase().replace(/[^a-z0-9]/g, '').split('');
             typed.forEach(char => {
                 for (let f of fragments) {
                     if (f.dataset.char === char && f.dataset.used === "false") {
-                        f.dataset.used = "true";
-                        f.classList.add('opacity-20', 'line-through', 'scale-95', 'pointer-events-none');
-                        break;
+                        f.dataset.used = "true"; f.classList.add('opacity-20', 'line-through', 'scale-95', 'pointer-events-none'); break;
                     }
                 }
             });
@@ -1318,23 +1362,14 @@
 
         function scrambleWordLetters(word) { 
             let letters = word.toLowerCase().split('').filter(char => /[a-z0-9]/i.test(char));
-            for (let i = letters.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [letters[i], letters[j]] = [letters[j], letters[i]];
-            }
+            for (let i = letters.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [letters[i], letters[j]] = [letters[j], letters[i]]; }
             return letters; 
         }
 
         function toggleScrambledHint() { playSound('click'); document.getElementById('scrambled-hint-container').classList.toggle('hidden'); }
-        
         function revealSpellingHint(word) {
             playSound('click'); const input = document.getElementById('spelling-input');
-            if (input) { 
-                input.value = word.substring(0, Math.ceil(word.length / 3)); 
-                input.focus(); 
-                updateSpellingFragments(input.value);
-                showToast("召喚出首部拼寫靈光！", "info"); 
-            }
+            if (input) { input.value = word.substring(0, Math.ceil(word.length / 3)); input.focus(); updateSpellingFragments(input.value); showToast("召喚出首部拼寫靈光！", "info"); }
         }
 
         function handleSpellingEnter(event, idx, dataLength) {
@@ -1352,9 +1387,7 @@
             if (userAns === "") { showToast("修行拼寫不可留白！", "error"); return; }
 
             input.disabled = true; feedback.classList.remove('hidden'); userState.totalAnswered += 1;
-
-            const cleanUserAns = userAns.replace(/[^a-z0-9]/gi, '');
-            const cleanRealAns = realAns.replace(/[^a-z0-9]/gi, '');
+            const cleanUserAns = userAns.replace(/[^a-z0-9]/gi, ''); const cleanRealAns = realAns.replace(/[^a-z0-9]/gi, '');
 
             if (cleanUserAns === cleanRealAns) {
                 playSound('correct');
@@ -1395,12 +1428,9 @@
                 const regex = new RegExp(`\\b${word}\\b`, 'gi');
                 let maskStr = word.length > 2 ? word[0] + "_".repeat(word.length - 2) + word[word.length - 1] : "_".repeat(word.length);
                 qText = example.replace(regex, maskStr); qCn = currentItem.exampleCn; qAns = word;
-            } else {
-                fullSentence = qText.replace(/[a-zA-Z]*_+[a-zA-Z]*/g, qAns);
-            }
+            } else { fullSentence = qText.replace(/[a-zA-Z]*_+[a-zA-Z]*/g, qAns); }
 
-            const theme = getThemeColors();
-            const clickableRevealSentence = createClickableSentence(fullSentence);
+            const theme = getThemeColors(); const clickableRevealSentence = createClickableSentence(fullSentence);
 
             contentDiv.innerHTML = `
                 <div class="flex flex-col justify-between min-h-[360px] gap-4">
@@ -1474,7 +1504,6 @@
                 userState.streak += 1; userState.correctCount += 1;
                 addEXP(25); showToast("填空正確！修為增加 +25", 'success');
                 
-                // 語境填空例句較長，延遲 5.6 秒確保音檔唸完後再自動跳下一題
                 if (fullSentence) {
                     setTimeout(() => { speakWord(fullSentence); }, 600);
                     setTimeout(() => { nextClozeQuestion(dataLength); }, 5600);
@@ -1487,11 +1516,9 @@
                 feedback.innerHTML = `<i class="fa-solid fa-triangle-exclamation mr-1.5"></i>拼法受阻！正確填空答案應為：<span class="underline font-mono ml-1 text-white text-base">${correctAnswer}</span>`;
                 userState.streak = 0; showToast(`答案不對，再接再厲！`, 'error');
                 
-                // 答錯時，依然播放例句語音，並顯示下一題按鈕讓學生自行點擊
                 if (fullSentence) setTimeout(() => { speakWord(fullSentence); }, 600);
                 nextBtn.classList.remove('hidden');
             }
-
             saveProgress(); updateHeaderUI(); 
         }
 
@@ -1547,7 +1574,7 @@
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option><option value="8">L8</option><option value="9">L9</option><option value="10">L10</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
                             </div>
-                            <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors"></textarea>
+                            <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors custom-scrollbar"></textarea>
                             <div class="flex gap-3 justify-end"><button onclick="processBulkImport()" class="px-5 py-2 bg-orange-600 hover:bg-orange-550 text-slate-100 font-bold text-xs rounded-xl transition-all shadow-lg flex items-center gap-1.5"><i class="fa-solid fa-bolt"></i> 執行格式解析並匯入</button></div>
                         </div>
                         <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col gap-3">
@@ -1582,7 +1609,7 @@
                             <h4 class="font-extrabold text-sm text-blue-400 flex items-center gap-1.5"><i class="fa-brands fa-github text-lg"></i> GitHub 雲端 JSON 智慧提取</h4>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="md:col-span-2"><textarea id="github-url-input" rows="3" placeholder="請貼入 JSON 連結 (支援多行貼上多個連結)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none"></textarea></div>
+                            <div class="md:col-span-2"><textarea id="github-url-input" rows="3" placeholder="請貼入 JSON 連結 (支援多行貼上多個連結)" class="w-full px-3 py-2.5 bg-slate-950 border border-slate-800 focus:border-blue-500 rounded-xl text-xs font-medium text-slate-200 outline-none resize-none custom-scrollbar"></textarea></div>
                             <div>
                                 <div class="flex flex-col gap-2 bg-slate-950/40 p-2 rounded-xl border border-slate-850 h-full justify-center">
                                     <label class="flex items-center gap-1.5 text-xs text-slate-350 cursor-pointer"><input type="radio" name="github-import-mode" value="merge" checked class="accent-blue-500" /><span>合併儲存</span></label>
@@ -1601,7 +1628,7 @@
                             <h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-database text-orange-450"></i> 全局單字清單</h4>
                             <button onclick="clearDatabaseSource('main')" class="px-3 py-1.5 bg-rose-500/10 text-rose-300 border border-rose-500/20 rounded-xl font-bold text-xs flex items-center gap-1"><i class="fa-solid fa-trash-can"></i> 清空修煉大典</button>
                         </div>
-                        <div class="max-h-[30vh] overflow-y-auto border border-slate-800/80 rounded-xl bg-slate-950/40 p-2">
+                        <div class="max-h-[30vh] overflow-y-auto border border-slate-800/80 rounded-xl bg-slate-950/40 p-2 custom-scrollbar">
                             <table class="w-full text-left text-xs text-slate-300">
                                 <thead class="text-[9px] uppercase font-black text-slate-500 border-b border-slate-800/80 sticky top-0 bg-slate-950 z-10">
                                     <tr><th class="py-2 px-3">英文字彙/片語</th><th class="py-2 px-3">中文翻譯</th><th class="py-2 px-3">分類/難度/境界/章節</th><th class="py-2 px-3 text-center">刪除</th></tr>
@@ -1619,6 +1646,14 @@
         function insertTemplateText() {
             playSound('click');
             document.getElementById('bulk-import-area').value = `achieve /əˈtʃiːv/ 達到、實現\nEg1: We can achieve our goals if we work hard.\n如果我們努力，就能實現目標。\nCloze: Judy study hard in order to a______e her dream of being a lawyer.\nClozeCn: 茱蒂努力讀書是為了要實現成為律師的夢想。`;
+        }
+
+        function fillModalSampleUrl() {
+            playSound('click'); const targetInput = document.getElementById('modal-sync-url-input');
+            if (targetInput) {
+                targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+                showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
+            }
         }
 
         function fillGithubSampleUrl() {
@@ -1785,15 +1820,6 @@
             }
         }
 
-        function fillModalSampleUrl() {
-            playSound('click');
-            const urlInput = document.getElementById('modal-sync-url-input');
-            if (urlInput) {
-                urlInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
-                showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
-            }
-        }
-
         function saveAndTriggerSync() {
             playSound('click');
             const urlInput = document.getElementById('modal-sync-url-input');
@@ -1858,6 +1884,7 @@
                 }
             });
         }
+        
         function deleteDatabaseItem(dojo, diff, lvl, idx) { playSound('wrong'); if(dojo==='vocab') mainDatabase.vocab[diff][lvl].splice(idx,1); else mainDatabase.phrase[lvl].splice(idx,1); saveProgress(); renderCustomLibraryTable(); }
 
         function openStatsModal() {
@@ -1902,14 +1929,8 @@
             
             document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('click');
-                userState.totalAnswered = 0;
-                userState.correctCount = 0;
-                userState.streak = 0;
-                userState.highestStreak = 0;
-                userState.exp = 0;
-                saveProgress();
-                updateHeaderUI();
-                closeStatsModal();
+                userState.totalAnswered = 0; userState.correctCount = 0; userState.streak = 0; userState.highestStreak = 0; userState.exp = 0;
+                saveProgress(); updateHeaderUI(); closeStatsModal();
                 modal.classList.add('pointer-events-none', 'opacity-0');
                 modal.firstElementChild.classList.add('scale-95');
                 showToast("📊 修煉統計數據已重新回歸虛無！", "success");
@@ -1935,8 +1956,7 @@
                 mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
                 ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; });
                 for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
-                saveProgress();
-                renderCustomLibraryTable();
+                saveProgress(); renderCustomLibraryTable();
                 modal.classList.add('pointer-events-none', 'opacity-0');
                 modal.firstElementChild.classList.add('scale-95');
                 showToast("修煉大典已完全淨化清空！", "error");
@@ -1961,6 +1981,11 @@
             if (urlSync) { userState.autoSyncUrl = urlSync.trim(); userState.autoSyncOnLoad = true; saveProgress(); window.history.pushState({}, '', window.location.pathname); }
             updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); renderContent(); updateHeaderUI(); updateTabButtonsUI(); updateSyncBadgeUI(); updateVoicePanelUI();
             if (userState.autoSyncOnLoad && userState.autoSyncUrl) backgroundSync(userState.autoSyncUrl, userState.autoSyncMode);
+            
+            // 載入後延遲彈出使用說明框
+            setTimeout(() => {
+                openWelcomeGuide();
+            }, 600);
         };
     </script>
 </body>

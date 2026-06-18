@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英文修煉閣 - English Training Dojo (雲端自動無感同步版)</title>
+    <title>英文修煉閣 - English Training Dojo (字根字首擴充版)</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -17,6 +17,12 @@
                     fontFamily: {
                         sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
                         mono: ['Fira Code', 'monospace'],
+                    },
+                    boxShadow: {
+                        'neon-orange': '0 0 15px rgba(249, 115, 22, 0.4)',
+                        'neon-blue': '0 0 15px rgba(56, 189, 248, 0.4)',
+                        'neon-emerald': '0 0 15px rgba(52, 211, 153, 0.4)',
+                        'neon-rose': '0 0 15px rgba(244, 63, 94, 0.4)'
                     },
                     colors: {
                         dojo: {
@@ -161,7 +167,8 @@
 
     <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 flex-1 flex flex-col gap-5 relative z-10">
         
-        <section id="dojo-selector-section" class="grid grid-cols-1 md:grid-cols-2 gap-5 transition-all duration-300">
+        <!-- 三排版的練功房選擇區 -->
+        <section id="dojo-selector-section" class="grid grid-cols-1 md:grid-cols-3 gap-5 transition-all duration-300">
             <button id="dojo-btn-vocab" onclick="switchDojo('vocab')" class="relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-orange-500/40 shadow-neon-orange">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500/5 group-hover:bg-orange-500/10 rounded-full blur-2xl transition-all duration-300 pointer-events-none"></div>
                 <div class="flex items-center gap-5">
@@ -196,6 +203,25 @@
                     <i class="fa-solid fa-chevron-right text-base"></i>
                 </div>
                 <div id="phrase-active-border" class="absolute inset-x-0 bottom-0 h-1 bg-blue-500 scale-x-0 transition-transform duration-300"></div>
+            </button>
+
+            <!-- 新增的字根字首專區 -->
+            <button id="dojo-btn-affix" onclick="switchDojo('affix')" class="relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel border-slate-800 hover:border-emerald-500/40">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 group-hover:bg-emerald-500/10 rounded-full blur-2xl transition-all duration-300 pointer-events-none"></div>
+                <div class="flex items-center gap-5">
+                    <div class="bg-emerald-500/10 text-emerald-400 p-4 rounded-xl group-hover:bg-emerald-500/20 transition-all duration-300">
+                        <i class="fa-solid fa-puzzle-piece text-3xl sm:text-4xl"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs sm:text-sm text-emerald-400 font-black uppercase tracking-widest font-mono">Affix Dojo</div>
+                        <h2 class="text-xl sm:text-2xl font-black text-slate-100 mt-1">字根字首專區</h2>
+                        <p class="text-sm text-slate-455 mt-1.5">拆解單字結構，倍增詞彙量</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 border border-slate-800 text-slate-400 group-hover:text-emerald-500 group-hover:border-emerald-500/30 transition-all duration-300">
+                    <i class="fa-solid fa-chevron-right text-base"></i>
+                </div>
+                <div id="affix-active-border" class="absolute inset-x-0 bottom-0 h-1 bg-emerald-500 scale-x-0 transition-transform duration-300"></div>
             </button>
         </section>
 
@@ -499,7 +525,22 @@
     </div>
 
     <script>
-        let mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+        let mainDatabase = { 
+            vocab: { basic: {}, intermediate: {}, advanced: {} }, 
+            phrase: {},
+            affix: {
+                1: [
+                    { word: "impolite", chinese: "不禮貌的", prefix: "im-", base: "polite", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "It is impolite to point at people.", exampleCn: "指著別人是不禮貌的。", unit: 1 },
+                    { word: "impossible", chinese: "不可能的", prefix: "im-", base: "possible", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "It is impossible to finish this in one day.", exampleCn: "要在一天內完成這個是不可能的。", unit: 1 },
+                    { word: "immature", chinese: "不成熟的", prefix: "im-", base: "mature", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "His behavior is very immature.", exampleCn: "他的行為非常不成熟。", unit: 1 },
+                    { word: "impatient", chinese: "沒耐心的", prefix: "im-", base: "patient", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "Don't be so impatient.", exampleCn: "別這麼沒耐心。", unit: 1 },
+                    { word: "imbalance", chinese: "不平衡", prefix: "im-", base: "balance", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "There is an imbalance of power.", exampleCn: "存在著權力不平衡。", unit: 1 },
+                    { word: "inconvenient", chinese: "不便的", prefix: "in-", base: "convenient", rule: "一般的否定字首", example: "The new schedule is very inconvenient.", exampleCn: "新的時間表非常不方便。", unit: 1 },
+                    { word: "incorrect", chinese: "不對的", prefix: "in-", base: "correct", rule: "一般的否定字首", example: "Your answer is incorrect.", exampleCn: "你的答案是不對的。", unit: 1 },
+                    { word: "inactive", chinese: "不活躍的", prefix: "in-", base: "active", rule: "一般的否定字首", example: "He has been inactive in politics lately.", exampleCn: "他最近在政治上不活躍。", unit: 1 }
+                ]
+            } 
+        };
         
         let userState = {
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
@@ -531,66 +572,117 @@
 
         function getThemeColors() {
             const isVocab = userState.currentDojo === 'vocab';
+            const isPhrase = userState.currentDojo === 'phrase';
+            const isAffix = userState.currentDojo === 'affix';
+            
             return {
-                primary: isVocab ? 'orange-500' : 'blue-600', primaryHover: isVocab ? 'orange-400' : 'blue-500',
-                text: isVocab ? 'text-orange-400' : 'text-blue-400', textHover: isVocab ? 'hover:text-orange-400' : 'hover:text-blue-400',
-                border: isVocab ? 'border-orange-500/30' : 'border-blue-500/30', borderFocus: isVocab ? 'focus:border-orange-500' : 'focus:border-blue-500',
-                shadow: isVocab ? 'shadow-neon-orange' : 'shadow-neon-blue', bgLight: isVocab ? 'bg-orange-500/10' : 'bg-blue-500/10',
-                bgHover: isVocab ? 'hover:bg-orange-500/20' : 'hover:bg-blue-500/20', gradient: isVocab ? 'from-orange-500 to-amber-600' : 'from-blue-600 to-indigo-700',
-                gradientNext: isVocab ? 'from-orange-500 to-amber-500' : 'from-blue-600 to-indigo-600',
-                btnTheme: isVocab ? 'bg-orange-500 text-slate-950 font-black shadow-neon-orange' : 'bg-blue-600 text-white font-black shadow-neon-blue',
-                iconColor: isVocab ? 'text-orange-400' : 'text-blue-400', waveColor: isVocab ? 'bg-orange-400' : 'bg-blue-400'
+                primary: isVocab ? 'orange-500' : isPhrase ? 'blue-600' : 'emerald-500',
+                primaryHover: isVocab ? 'orange-400' : isPhrase ? 'blue-500' : 'emerald-400',
+                text: isVocab ? 'text-orange-400' : isPhrase ? 'text-blue-400' : 'text-emerald-400',
+                textHover: isVocab ? 'hover:text-orange-400' : isPhrase ? 'hover:text-blue-400' : 'hover:text-emerald-400',
+                border: isVocab ? 'border-orange-500/30' : isPhrase ? 'border-blue-500/30' : 'border-emerald-500/30',
+                borderFocus: isVocab ? 'focus:border-orange-500' : isPhrase ? 'focus:border-blue-500' : 'focus:border-emerald-500',
+                shadow: isVocab ? 'shadow-neon-orange' : isPhrase ? 'shadow-neon-blue' : 'shadow-neon-emerald',
+                bgLight: isVocab ? 'bg-orange-500/10' : isPhrase ? 'bg-blue-500/10' : 'bg-emerald-500/10',
+                bgHover: isVocab ? 'hover:bg-orange-500/20' : isPhrase ? 'hover:bg-blue-500/20' : 'hover:bg-emerald-500/20',
+                gradient: isVocab ? 'from-orange-500 to-amber-600' : isPhrase ? 'from-blue-600 to-indigo-700' : 'from-emerald-500 to-teal-600',
+                gradientNext: isVocab ? 'from-orange-500 to-amber-500' : isPhrase ? 'from-blue-600 to-indigo-600' : 'from-emerald-500 to-teal-500',
+                btnTheme: isVocab ? 'bg-orange-500 text-slate-950 font-black shadow-neon-orange' : isPhrase ? 'bg-blue-600 text-white font-black shadow-neon-blue' : 'bg-emerald-500 text-slate-950 font-black shadow-neon-emerald',
+                iconColor: isVocab ? 'text-orange-400' : isPhrase ? 'text-blue-400' : 'text-emerald-400',
+                waveColor: isVocab ? 'bg-orange-400' : isPhrase ? 'bg-blue-400' : 'bg-emerald-400'
             };
-        }
-
-        let globalAudioCtx = null;
-        function initAudioContext() {
-            if (!globalAudioCtx) globalAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
-            if (globalAudioCtx.state === 'suspended') globalAudioCtx.resume();
         }
 
         function getActiveDataList() {
             if (userState.currentDojo === 'vocab') {
                 return (mainDatabase.vocab[userState.currentDifficulty]?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
-            } else {
+            } else if (userState.currentDojo === 'phrase') {
                 return (mainDatabase.phrase?.[userState.currentLevel] || []).filter(item => (item.unit || 1) === userState.currentUnit);
+            } else if (userState.currentDojo === 'affix') {
+                return (mainDatabase.affix?.[userState.currentLevel] || []);
             }
+            return [];
         }
 
         function goHome() {
             playSound('click');
             userState.currentDojo = 'vocab'; userState.currentDifficulty = 'basic'; userState.currentLevel = 1; userState.currentUnit = 1; userState.currentTab = 'list';
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            if (isPlayingAll) togglePlayAll();
+            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
             showToast("☯️ 已返回英文修煉大殿", "success");
         }
 
+        let globalAudioCtx = null;
+        
+        function initAudioContext() {
+            try {
+                if (!globalAudioCtx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    globalAudioCtx = new AudioContext();
+                }
+                if (globalAudioCtx.state === 'suspended') {
+                    globalAudioCtx.resume();
+                }
+            } catch (e) { console.warn("Audio init failed", e); }
+            return globalAudioCtx;
+        }
+
+        // 解除瀏覽器對音效的自動播放限制 (點擊或觸控任意處強制喚醒音頻引擎)
+        document.addEventListener('click', () => { initAudioContext(); }, { once: true });
+        document.addEventListener('touchstart', () => { initAudioContext(); }, { once: true });
+
         function playSound(type) {
             try {
-                initAudioContext(); const osc = globalAudioCtx.createOscillator(); const gain = globalAudioCtx.createGain();
-                osc.connect(gain); gain.connect(globalAudioCtx.destination);
+                const ctx = initAudioContext();
+                if (!ctx) return;
+                
+                const now = ctx.currentTime;
+                const osc = ctx.createOscillator(); 
+                const gain = ctx.createGain();
+                
+                osc.connect(gain); 
+                gain.connect(ctx.destination);
+                
                 if (type === 'correct') {
-                    osc.frequency.setValueAtTime(523.25, globalAudioCtx.currentTime); osc.frequency.setValueAtTime(659.25, globalAudioCtx.currentTime + 0.08);
-                    gain.gain.setValueAtTime(0.08, globalAudioCtx.currentTime); gain.gain.exponentialRampToValueAtTime(0.001, globalAudioCtx.currentTime + 0.35);
-                    osc.start(); osc.stop(globalAudioCtx.currentTime + 0.35);
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(523.25, now); 
+                    osc.frequency.setValueAtTime(659.25, now + 0.1);
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+                    osc.start(now); 
+                    osc.stop(now + 0.4);
                 } else if (type === 'wrong') {
-                    osc.frequency.setValueAtTime(220.00, globalAudioCtx.currentTime); osc.frequency.setValueAtTime(146.83, globalAudioCtx.currentTime + 0.12);
-                    gain.gain.setValueAtTime(0.12, globalAudioCtx.currentTime); gain.gain.exponentialRampToValueAtTime(0.001, globalAudioCtx.currentTime + 0.4);
-                    osc.start(); osc.stop(globalAudioCtx.currentTime + 0.4);
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(220.00, now); 
+                    osc.frequency.setValueAtTime(146.83, now + 0.15);
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+                    osc.start(now); 
+                    osc.stop(now + 0.4);
                 } else if (type === 'click') {
-                    osc.frequency.setValueAtTime(700, globalAudioCtx.currentTime); gain.gain.setValueAtTime(0.04, globalAudioCtx.currentTime);
-                    gain.gain.exponentialRampToValueAtTime(0.001, globalAudioCtx.currentTime + 0.08); osc.start(); osc.stop(globalAudioCtx.currentTime + 0.08);
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(700, now); 
+                    gain.gain.setValueAtTime(0.08, now); 
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1); 
+                    osc.start(now); 
+                    osc.stop(now + 0.1);
                 } else if (type === 'levelUp') {
                     [261.63, 329.63, 392.00, 523.25, 659.25].forEach((freq, idx) => {
-                        const noteOsc = globalAudioCtx.createOscillator(); const noteGain = globalAudioCtx.createGain();
-                        noteOsc.connect(noteGain); noteGain.connect(globalAudioCtx.destination);
-                        noteOsc.frequency.setValueAtTime(freq, globalAudioCtx.currentTime + idx * 0.1);
-                        noteGain.gain.setValueAtTime(0.06, globalAudioCtx.currentTime + idx * 0.1); noteGain.gain.exponentialRampToValueAtTime(0.001, globalAudioCtx.currentTime + idx * 0.1 + 0.3);
-                        noteOsc.start(globalAudioCtx.currentTime + idx * 0.1); noteOsc.stop(globalAudioCtx.currentTime + idx * 0.1 + 0.3);
+                        const noteOsc = ctx.createOscillator(); 
+                        const noteGain = ctx.createGain();
+                        noteOsc.connect(noteGain); 
+                        noteGain.connect(ctx.destination);
+                        noteOsc.type = 'sine';
+                        const time = now + idx * 0.1;
+                        noteOsc.frequency.setValueAtTime(freq, time);
+                        noteGain.gain.setValueAtTime(0.1, time); 
+                        noteGain.gain.exponentialRampToValueAtTime(0.001, time + 0.3);
+                        noteOsc.start(time); 
+                        noteOsc.stop(time + 0.3);
                     });
                 }
-            } catch(e) {}
+            } catch(e) { console.warn("Sound play error", e); }
         }
 
         let speechVoicesLoaded = false;
@@ -689,7 +781,7 @@
             const el = document.getElementById(`list-item-${currentPlayIndex}`);
             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-            document.querySelectorAll('.reading-highlight').forEach(highlighted => highlight.classList.remove('reading-highlight'));
+            document.querySelectorAll('.reading-highlight').forEach(highlighted => highlighted.classList.remove('reading-highlight'));
 
             if (currentPlayType === 'word') {
                 const wordEl = document.getElementById(`list-word-${currentPlayIndex}`);
@@ -747,6 +839,10 @@
                 const list = mainDatabase.phrase?.[l] || [];
                 const found = list.find(item => item.word.toLowerCase() === sw);
                 if (found) return found.chinese;
+                
+                const affixList = mainDatabase.affix?.[l] || [];
+                const foundAffix = affixList.find(item => item.word.toLowerCase() === sw);
+                if (foundAffix) return foundAffix.chinese;
             }
             return null;
         }
@@ -867,7 +963,9 @@
                         parsedDB.vocab = { basic: {}, intermediate: {}, advanced: {} };
                         for(let l=1; l<=10; l++) if(JSON.parse(savedMainDb).vocab[l]) parsedDB.vocab.basic[l] = JSON.parse(savedMainDb).vocab[l];
                     }
-                    mainDatabase = parsedDB;
+                    if (parsedDB.affix) mainDatabase.affix = parsedDB.affix;
+                    mainDatabase.vocab = parsedDB.vocab || mainDatabase.vocab;
+                    mainDatabase.phrase = parsedDB.phrase || mainDatabase.phrase;
                 } catch(e) {}
             }
             ['basic', 'intermediate', 'advanced'].forEach(diff => {
@@ -880,6 +978,9 @@
             for (let l = 1; l <= 10; l++) {
                 if (!mainDatabase.phrase[l]) mainDatabase.phrase[l] = [];
                 mainDatabase.phrase[l].forEach(item => { if (!item.unit) item.unit = 1; });
+                
+                if (!mainDatabase.affix[l]) mainDatabase.affix[l] = [];
+                mainDatabase.affix[l].forEach(item => { if (!item.unit) item.unit = 1; });
             }
         }
 
@@ -927,22 +1028,36 @@
             
             setTimeout(() => {
                 const diffSection = document.getElementById('difficulty-selector-section');
-                if (diffSection && !diffSection.classList.contains('hidden')) diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                else document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                if (dojoType === 'vocab' && diffSection && !diffSection.classList.contains('hidden')) {
+                    diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
             }, 150);
         }
 
         function updateDojoTabUI() {
             const isVocab = userState.currentDojo === 'vocab';
+            const isPhrase = userState.currentDojo === 'phrase';
+            const isAffix = userState.currentDojo === 'affix';
+            
             document.getElementById('dojo-btn-vocab').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${isVocab ? 'border-orange-500/40 shadow-neon-orange bg-slate-900/80' : 'border-slate-800 hover:border-orange-500/50'}`;
-            document.getElementById('dojo-btn-phrase').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${!isVocab ? 'border-blue-500/40 shadow-neon-blue bg-slate-900/80' : 'border-slate-800 hover:border-blue-500/50'}`;
+            document.getElementById('dojo-btn-phrase').className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${isPhrase ? 'border-blue-500/40 shadow-neon-blue bg-slate-900/80' : 'border-slate-800 hover:border-blue-500/50'}`;
+            
+            const affixBtn = document.getElementById('dojo-btn-affix');
+            if (affixBtn) affixBtn.className = `relative overflow-hidden group rounded-2xl p-6 flex items-center justify-between border transition-all duration-300 transform hover:-translate-y-0.5 text-left glass-panel ${isAffix ? 'border-emerald-500/40 shadow-neon-emerald bg-slate-900/80' : 'border-slate-800 hover:border-emerald-500/50'}`;
+
             document.getElementById('vocab-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-orange-500 transition-transform duration-300 ${isVocab ? 'scale-x-100' : 'scale-x-0'}`;
-            document.getElementById('phrase-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-blue-500 transition-transform duration-300 ${!isVocab ? 'scale-x-100' : 'scale-x-0'}`;
+            document.getElementById('phrase-active-border').className = `absolute inset-x-0 bottom-0 h-1 bg-blue-500 transition-transform duration-300 ${isPhrase ? 'scale-x-100' : 'scale-x-0'}`;
+            
+            const affixBorder = document.getElementById('affix-active-border');
+            if (affixBorder) affixBorder.className = `absolute inset-x-0 bottom-0 h-1 bg-emerald-500 transition-transform duration-300 ${isAffix ? 'scale-x-100' : 'scale-x-0'}`;
         }
 
         function renderDifficultySelector() {
             const container = document.getElementById('difficulty-tabs-container'), section = document.getElementById('difficulty-selector-section');
             if(!container || !section) return;
+            // 只要不是單字房 (即片語與字根字首)，就隱藏難度選擇器
             if (userState.currentDojo !== 'vocab') { section.classList.add('hidden'); return; } else { section.classList.remove('hidden'); }
             container.innerHTML = '';
             [
@@ -968,12 +1083,13 @@
         function renderLevelSelector() {
             const container = document.getElementById('level-tabs-container'), bgGlow = document.getElementById('level-bg-glow'), groupIcon = document.getElementById('level-group-icon');
             const theme = getThemeColors(); container.innerHTML = '';
-            if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${userState.currentDojo === 'vocab' ? 'bg-orange-500/5' : 'bg-blue-500/5'} blur-3xl pointer-events-none rounded-full glow-pulse`;
+            
+            if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${theme.bgLight} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
             
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentLevel === i;
-                const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' ? 'text-slate-950' : 'text-white'} border-orange-400 ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
+                const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${userState.currentDojo === 'vocab' || userState.currentDojo === 'affix' ? 'text-slate-950' : 'text-white'} border-${theme.primaryHover} ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
                 container.innerHTML += `<button onclick="selectLevel(${i})" class="flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle}"><span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-base sm:text-lg font-black font-mono">L${i}</span></button>`;
             }
         }
@@ -984,16 +1100,34 @@
             if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); renderLevelSelector(); renderUnitSelector(); renderContent();
             
-            setTimeout(() => document.getElementById('unit-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
+            setTimeout(() => {
+                if (userState.currentDojo === 'affix') {
+                    document.getElementById('dojo-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    document.getElementById('unit-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 150);
         }
 
         function renderUnitSelector() {
-            const container = document.getElementById('unit-tabs-container'); if(!container) return; container.innerHTML = '';
-            const isVocab = userState.currentDojo === 'vocab';
+            const container = document.getElementById('unit-tabs-container'); 
+            const section = document.getElementById('unit-selector-section');
+            if(!container || !section) return; 
+            
+            // 如果是字根字首專區，隱藏 Unit 選擇器並直接返回
+            if (userState.currentDojo === 'affix') {
+                section.classList.add('hidden');
+                return;
+            } else {
+                section.classList.remove('hidden');
+            }
+            
+            container.innerHTML = '';
+            const theme = getThemeColors();
             
             for (let i = 1; i <= 10; i++) {
                 const isActive = userState.currentUnit === i;
-                const activeStyle = isActive ? (isVocab ? 'bg-orange-400 text-slate-950 font-black shadow-neon-orange scale-105 border-orange-300' : 'bg-blue-400 text-slate-950 font-black shadow-neon-blue scale-105 border-blue-300') : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
+                const activeStyle = isActive ? `bg-${theme.primaryHover} text-slate-950 font-black ${theme.shadow} scale-105 border-${theme.primary}` : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
                 container.innerHTML += `<button onclick="selectUnit(${i})" class="px-2.5 py-1.5 sm:px-3 rounded-xl border text-[11px] sm:text-xs transition-all duration-350 font-mono ${activeStyle}">Unit ${i}</button>`;
             }
         }
@@ -1036,7 +1170,8 @@
             if (userState.currentTab === 'admin') { if (!isAdminUnlocked) renderAdminLockScreen(); else renderAdminTab(); return; }
             if (dataList.length === 0) {
                 const theme = getThemeColors();
-                contentDiv.innerHTML = `<div class="flex flex-col items-center justify-center py-12 text-slate-400"><div class="p-4 bg-orange-500/10 rounded-full border border-orange-500/20 mb-4 animate-bounce"><i class="fa-solid fa-folder-open text-5xl ${theme.text}"></i></div><p class="font-extrabold text-slate-200 text-center text-base sm:text-lg">修煉境界 L${userState.currentLevel} - Unit ${userState.currentUnit} 目前沒有資料！</p><p class="text-xs text-slate-500 mt-2 max-w-sm text-center leading-relaxed">請點擊下方的「📥 匯入管理」，輸入密碼「yichen」後自訂匯入，或於頂部設定「雲端同步法陣」拉取教師教材！</p><button onclick="switchTab('admin')" class="mt-6 px-6 py-2.5 bg-gradient-to-r ${theme.gradient} hover:opacity-90 text-slate-950 font-bold text-sm rounded-xl transition-all shadow-lg ${theme.shadow} flex items-center gap-2"><i class="fa-solid fa-cloud-arrow-up"></i> 立即解鎖管理後台</button></div>`;
+                const unitText = userState.currentDojo === 'affix' ? '' : ` - Unit ${userState.currentUnit}`;
+                contentDiv.innerHTML = `<div class="flex flex-col items-center justify-center py-12 text-slate-400"><div class="p-4 ${theme.bgLight} rounded-full border ${theme.border} mb-4 animate-bounce"><i class="fa-solid fa-folder-open text-5xl ${theme.text}"></i></div><p class="font-extrabold text-slate-200 text-center text-base sm:text-lg">修煉境界 L${userState.currentLevel}${unitText} 目前沒有資料！</p><p class="text-xs text-slate-500 mt-2 max-w-sm text-center leading-relaxed">請點擊下方的「📥 匯入管理」，輸入密碼「yichen」後自訂匯入，或於頂部設定「雲端同步法陣」拉取教師教材！</p><button onclick="switchTab('admin')" class="mt-6 px-6 py-2.5 bg-gradient-to-r ${theme.gradient} hover:opacity-90 text-slate-950 font-bold text-sm rounded-xl transition-all shadow-lg ${theme.shadow} flex items-center gap-2"><i class="fa-solid fa-cloud-arrow-up"></i> 立即解鎖管理後台</button></div>`;
                 return;
             }
             if (userState.flashcardIndex >= dataList.length) userState.flashcardIndex = 0; if (userState.quizIndex >= dataList.length) userState.quizIndex = 0;
@@ -1054,7 +1189,8 @@
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
             const diffName = userState.currentDojo === 'vocab' ? `[${userState.currentDifficulty === 'basic' ? '初級' : userState.currentDifficulty === 'intermediate' ? '中級' : '中高級'}] ` : '';
-            const dbName = `⛩️ 修煉大典 ${diffName}境界 L${userState.currentLevel} - Unit ${userState.currentUnit}`;
+            const unitText = userState.currentDojo === 'affix' ? '' : ` - Unit ${userState.currentUnit}`;
+            const dbName = `⛩️ 修煉大典 ${diffName}境界 L${userState.currentLevel}${unitText}`;
             const theme = getThemeColors();
             
             let listHTML = `
@@ -1083,11 +1219,14 @@
                     <div id="list-item-${idx}" class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 ${theme.border} flex flex-col justify-between group hover:bg-slate-800/40">
                         <div class="flex items-center justify-between gap-4 mb-3">
                             <div class="flex-1">
-                                <h4 id="list-word-${idx}" class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors p-1">
-                                    ${item.word} 
+                                <h4 id="list-word-${idx}" class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors p-1 rounded-lg">
+                                    ${userState.currentDojo === 'affix' && item.prefix && item.base ? `<span class="${theme.text}">${item.prefix}</span><span class="text-white">${item.base}</span>` : item.word} 
                                     ${item.phonetic ? `<span class="text-sm text-slate-500 font-medium font-mono">${item.phonetic}</span>` : ''}
                                 </h4>
-                                <p class="text-sm sm:text-base text-slate-200 font-semibold mt-2 bg-slate-950/50 px-3 py-1 rounded-lg inline-block border border-slate-800/50">${item.chinese}</p>
+                                <div class="mt-2 flex flex-col items-start gap-1.5">
+                                    <p class="text-sm sm:text-base text-slate-200 font-semibold bg-slate-950/50 px-3 py-1 rounded-lg inline-block border border-slate-800/50">${item.chinese}</p>
+                                    ${userState.currentDojo === 'affix' && item.rule ? `<div class="px-2.5 py-1 rounded-lg ${theme.bgLight} ${theme.border} text-[11px] sm:text-xs ${theme.text} font-bold mt-1"><i class="fa-solid fa-lightbulb mr-1.5"></i>字首法則：${item.rule}</div>` : ''}
+                                </div>
                             </div>
                             <button onclick="speakWord('${safeWord}')" class="w-12 h-12 flex items-center justify-center text-slate-400 ${theme.textHover} rounded-xl bg-slate-850 hover:bg-slate-800 active:scale-90 transition-all shrink-0 shadow-sm border border-slate-800" title="僅朗讀單字">
                                 <i class="fa-solid fa-volume-high text-lg"></i>
@@ -1136,7 +1275,7 @@
                             <div class="absolute inset-0 w-full h-full rounded-3xl p-6 flex flex-col items-center justify-between bg-slate-900 border ${theme.border} ${theme.shadow} text-slate-100 shadow-xl flip-card-back">
                                 <div class="w-full flex justify-between items-start"><span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-lg bg-slate-800 text-slate-400">背面 / 釋義與例句</span><i class="fa-solid fa-rotate text-sm opacity-60 text-slate-400"></i></div>
                                 <div class="text-center px-2 my-auto flex flex-col gap-1.5 w-full">
-                                    <h3 class="text-xl sm:text-2xl font-black text-orange-400 tracking-wide">${item.chinese}</h3>
+                                    <h3 class="text-xl sm:text-2xl font-black ${theme.text} tracking-wide">${item.chinese}</h3>
                                     <div class="border-t border-slate-800/80 pt-3 mt-3 w-full">
                                         <p class="text-sm sm:text-base text-slate-200 font-semibold italic leading-relaxed text-left">"${item.example}"</p>
                                         <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1.5 leading-relaxed text-left">${item.exampleCn}</p>
@@ -1183,9 +1322,13 @@
                         if(mainDatabase.vocab[d] && mainDatabase.vocab[d][l]) pool = pool.concat(mainDatabase.vocab[d][l]);
                     }
                 });
-            } else {
+            } else if (userState.currentDojo === 'phrase') {
                 for(let l=1; l<=10; l++){
                     if(mainDatabase.phrase[l]) pool = pool.concat(mainDatabase.phrase[l]);
+                }
+            } else {
+                for(let l=1; l<=10; l++){
+                    if(mainDatabase.affix[l]) pool = pool.concat(mainDatabase.affix[l]);
                 }
             }
             let uniquePoolMap = new Map();
@@ -1306,7 +1449,7 @@
                     </div>
                     <div class="text-center my-2 py-1">
                         <span class="text-[9px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full ${theme.bgLight} ${theme.text}">中文指引與拼字</span>
-                        <h3 class="text-xl sm:text-2xl font-black text-orange-400 mt-2.5">${currentItem.chinese}</h3>
+                        <h3 class="text-xl sm:text-2xl font-black ${theme.text} mt-2.5">${currentItem.chinese}</h3>
                         <p class="text-xs text-slate-500 mt-1.5 italic font-black tracking-widest font-mono select-none">提示：${masked}</p>
                     </div>
                     <div class="w-full max-w-md mx-auto flex flex-col gap-3">
@@ -1327,7 +1470,7 @@
                     </div>
                     <div class="w-full max-w-md mx-auto flex flex-col gap-2.5 mt-2">
                         <div class="flex justify-between gap-3">
-                            <button onclick="toggleScrambledHint()" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-puzzle-piece mr-1.5 text-orange-400"></i>字母碎片</button>
+                            <button onclick="toggleScrambledHint()" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-puzzle-piece mr-1.5 ${theme.text}"></i>字母碎片</button>
                             <button onclick="revealSpellingHint('${currentItem.word.replace(/'/g, "\\'")}')" class="flex-1 py-2.5 bg-slate-900 border border-slate-800 hover:border-slate-700 hover:text-slate-200 text-slate-400 font-bold text-xs sm:text-sm rounded-xl transition-all"><i class="fa-solid fa-lightbulb mr-1.5 ${theme.text}"></i>首字提示</button>
                             <button onclick="checkSpelling('${currentItem.word.replace(/'/g, "\\'")}', ${userState.spellingIndex}, ${data.length})" class="flex-1 py-2.5 ${theme.btnTheme} font-black text-xs sm:text-sm rounded-xl flex items-center justify-center gap-1.5 shadow-lg transition-all"><i class="fa-solid fa-circle-check"></i>提交修行</button>
                         </div>
@@ -1549,9 +1692,12 @@
 
         function renderAdminTab() {
             const contentDiv = document.getElementById('dojo-content');
-            let mainVocab = 0, mainPhrase = 0;
+            let mainVocab = 0, mainPhrase = 0, mainAffix = 0;
             ['basic', 'intermediate', 'advanced'].forEach(d => { for (let l=1; l<=10; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; });
-            for (let l=1; l<=10; l++) mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
+            for (let l=1; l<=10; l++) {
+                mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
+                mainAffix += mainDatabase.affix?.[l]?.length || 0;
+            }
 
             contentDiv.innerHTML = `
                 <div class="flex flex-col gap-6">
@@ -1561,7 +1707,7 @@
                             <p class="text-xs text-slate-455 mt-1">免除繁雜步驟！在此自由導入教材與設定，並可<b>針對學員客製化非例句的填空題目</b>！</p>
                         </div>
                         <div class="flex flex-wrap items-center gap-2 shrink-0">
-                            <span class="text-[11px] font-black bg-orange-500/10 text-orange-400 px-3 py-1.5 rounded-xl border border-orange-500/20">⛩️ 修煉大典總計: ${mainVocab + mainPhrase} 筆</span>
+                            <span class="text-[11px] font-black bg-orange-500/10 text-orange-400 px-3 py-1.5 rounded-xl border border-orange-500/20">⛩️ 修煉大典總計: ${mainVocab + mainPhrase + mainAffix} 筆</span>
                             <button onclick="lockAdminPortal()" class="px-3 py-1.5 bg-rose-600 hover:bg-rose-550 text-white rounded-xl font-black text-xs transition-all flex items-center gap-1.5 shadow-lg"><i class="fa-solid fa-lock"></i> 🔒 鎖定後台</button>
                         </div>
                     </div>
@@ -1569,7 +1715,7 @@
                         <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col gap-3">
                             <div class="flex justify-between items-center"><h4 class="font-extrabold text-sm text-slate-200 flex items-center gap-1.5"><i class="fa-solid fa-folder-plus text-orange-500"></i> 智慧格式批次匯入</h4><button onclick="insertTemplateText()" class="text-[10px] text-orange-400 hover:text-orange-350 font-bold"><i class="fa-solid fa-paste mr-1"></i>帶入自訂填空匯入範本</button></div>
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option></select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option><option value="affix">字根字首</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option><option value="8">L8</option><option value="9">L9</option><option value="10">L10</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
@@ -1584,7 +1730,7 @@
                                 <div><input type="text" id="form-chinese" placeholder="中文含義說明" class="w-full px-3 py-2 bg-slate-950 border border-slate-850 rounded-lg text-xs font-semibold text-slate-100 outline-none focus:border-orange-500" /></div>
                             </div>
                             <div class="grid grid-cols-4 gap-2">
-                                <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option></select>
+                                <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option><option value="affix">字根字首</option></select>
                                 <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
                                 <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(l => `<option value="${l}">L${l}</option>`).join('')}</select>
                                 <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select>
@@ -1619,7 +1765,7 @@
                         </div>
                         <div class="flex gap-2 justify-end">
                             <button onclick="saveAdminSyncToGlobal()" class="px-5 py-2 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold text-xs rounded-xl transition-all">綁定為「首頁自動同步」網址</button>
-                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5"><i class="fa-solid fa-cloud-arrow-down"></i> 啟動雲端提取大陣</button>
+                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5"><i class="fa-solid fa-cloud-arrow-down"></i> 啟端提取大陣</button>
                         </div>
                     </div>
                     
@@ -1668,22 +1814,24 @@
         }
 
         function normalizeImportedJson(data) {
-            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {} };
             ['basic', 'intermediate', 'advanced'].forEach(d => { for(let i=1;i<=10;i++) normalized.vocab[d][i] = []; });
-            for(let i=1;i<=10;i++) normalized.phrase[i] = [];
+            for(let i=1;i<=10;i++) { normalized.phrase[i] = []; normalized.affix[i] = []; }
             if (!data || typeof data !== 'object') return null;
 
-            const processList = (list, isVocab, diff, lvl) => {
+            const processList = (list, type, diff, lvl) => {
                 list.forEach(item => {
                     if (item && item.word) {
                         const cleanItem = {
                             word: String(item.word || "").trim(), chinese: String(item.chinese || item.translation || "").trim(),
                             example: String(item.example || item.sentence || "").trim(), exampleCn: String(item.exampleCn || item.sentenceCn || "").trim(),
                             clozeQuestion: String(item.clozeQuestion || "").trim(), clozeCn: String(item.clozeCn || "").trim(),
-                            clozeAnswer: String(item.clozeAnswer || item.word || "").trim(), unit: parseInt(item.unit) || 1
+                            clozeAnswer: String(item.clozeAnswer || item.word || "").trim(), unit: parseInt(item.unit) || 1,
+                            prefix: item.prefix, base: item.base, rule: item.rule
                         };
-                        if(isVocab) normalized.vocab[diff][lvl].push(cleanItem);
-                        else normalized.phrase[lvl].push(cleanItem);
+                        if(type === 'vocab') normalized.vocab[diff][lvl].push(cleanItem);
+                        else if (type === 'phrase') normalized.phrase[lvl].push(cleanItem);
+                        else if (type === 'affix') normalized.affix[lvl].push(cleanItem);
                     }
                 });
             };
@@ -1691,13 +1839,14 @@
             if (data.vocab) {
                 if (data.vocab.basic || data.vocab.intermediate || data.vocab.advanced) {
                     ['basic', 'intermediate', 'advanced'].forEach(diff => {
-                        if (data.vocab[diff]) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], true, diff, lvl);
+                        if (data.vocab[diff]) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.vocab[diff][lvl])) processList(data.vocab[diff][lvl], 'vocab', diff, lvl);
                     });
                 } else {
-                    for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], true, 'basic', lvl);
+                    for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.vocab[lvl])) processList(data.vocab[lvl], 'vocab', 'basic', lvl);
                 }
             }
-            if (data.phrase) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.phrase[lvl])) processList(data.phrase[lvl], false, null, lvl);
+            if (data.phrase) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.phrase[lvl])) processList(data.phrase[lvl], 'phrase', null, lvl);
+            if (data.affix) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.affix[lvl])) processList(data.affix[lvl], 'affix', null, lvl);
             return normalized;
         }
 
@@ -1709,7 +1858,7 @@
             
             if (importMode === 'overwrite') {
                 ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
+                for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
             }
             
             let urls = urlInput.value.split('\n').map(u => u.trim()).filter(u => u.length > 0);
@@ -1731,6 +1880,7 @@
                             });
                             for(let l=1; l<=10; l++) {
                                 data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
+                                data.affix[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.affix[l].some(x => x.word === item.word)) mainDatabase.affix[l].push(item); });
                             }
                             successCount++;
                         }
@@ -1759,7 +1909,7 @@
                     if (res.ok) {
                         if (mode === 'overwrite' && !syncedAnything) { 
                             ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; });
-                            for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
+                            for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
                         }
                         const data = normalizeImportedJson(await res.json());
                         if (data) {
@@ -1770,6 +1920,7 @@
                             });
                             for(let l=1; l<=10; l++) {
                                 data.phrase[l].forEach(item => { if(!mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
+                                data.affix[l].forEach(item => { if(!mainDatabase.affix[l].some(x => x.word === item.word)) mainDatabase.affix[l].push(item); });
                             }
                             syncedAnything = true;
                         }
@@ -1856,9 +2007,13 @@
                     }
                     if (w && c) {
                         const targetObj = { word: w, chinese: c, example: eg, exampleCn: egC, clozeQuestion: cq, clozeCn: cc, clozeAnswer: ca, unit: unit };
-                        const dojo = w.includes(" ") ? 'phrase' : 'vocab';
-                        if(dojo === 'vocab') { mainDatabase.vocab[diff][lvl].push(targetObj); added++; }
-                        else { mainDatabase.phrase[lvl].push(targetObj); added++; }
+                        const dojo = document.getElementById('bulk-dojo').value;
+                        let targetDojo = dojo;
+                        if(dojo === 'auto') targetDojo = w.includes(" ") ? 'phrase' : 'vocab';
+                        
+                        if(targetDojo === 'vocab') { mainDatabase.vocab[diff][lvl].push(targetObj); added++; }
+                        else if (targetDojo === 'phrase') { mainDatabase.phrase[lvl].push(targetObj); added++; }
+                        else if (targetDojo === 'affix') { mainDatabase.affix[lvl].push(targetObj); added++; }
                     }
                 }
             });
@@ -1870,7 +2025,11 @@
             if(!w || !c) return;
             const dojo = document.getElementById('form-dojo').value, diff = document.getElementById('form-difficulty').value, lvl = parseInt(document.getElementById('form-level').value), unit = parseInt(document.getElementById('form-unit').value);
             const item = { word: w, chinese: c, example: document.getElementById('form-example').value.trim(), exampleCn: document.getElementById('form-example-cn').value.trim(), clozeQuestion: document.getElementById('form-cloze-q').value.trim(), clozeCn: document.getElementById('form-cloze-cn').value.trim(), clozeAnswer: document.getElementById('form-cloze-ans').value.trim() || w, unit: unit };
-            if(dojo==='vocab') mainDatabase.vocab[diff][lvl].push(item); else mainDatabase.phrase[lvl].push(item);
+            
+            if(dojo==='vocab') mainDatabase.vocab[diff][lvl].push(item); 
+            else if(dojo==='phrase') mainDatabase.phrase[lvl].push(item);
+            else if(dojo==='affix') mainDatabase.affix[lvl].push(item);
+            
             saveProgress(); showToast("單字儲存成功！", "success");
         }
 
@@ -1879,13 +2038,27 @@
             ['basic', 'intermediate', 'advanced'].forEach(d => {
                 for (let l = 1; l <= 10; l++) {
                     (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
-                        tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
+                        tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">單字 ${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
                 }
             });
+            for (let l = 1; l <= 10; l++) {
+                (mainDatabase.phrase?.[l] || []).forEach((item, idx) => {
+                    tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-blue-300 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">片語 L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('phrase', null, ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
+                });
+                (mainDatabase.affix?.[l] || []).forEach((item, idx) => {
+                    tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-emerald-300 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">字根字首 L${l}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('affix', null, ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
+                });
+            }
         }
         
-        function deleteDatabaseItem(dojo, diff, lvl, idx) { playSound('wrong'); if(dojo==='vocab') mainDatabase.vocab[diff][lvl].splice(idx,1); else mainDatabase.phrase[lvl].splice(idx,1); saveProgress(); renderCustomLibraryTable(); }
+        function deleteDatabaseItem(dojo, diff, lvl, idx) { 
+            playSound('wrong'); 
+            if(dojo==='vocab') mainDatabase.vocab[diff][lvl].splice(idx,1); 
+            else if(dojo==='phrase') mainDatabase.phrase[lvl].splice(idx,1); 
+            else if(dojo==='affix') mainDatabase.affix[lvl].splice(idx,1); 
+            saveProgress(); renderCustomLibraryTable(); 
+        }
 
         function openStatsModal() {
             playSound('click');
@@ -1953,9 +2126,9 @@
             
             document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('wrong');
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {} };
+                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {} };
                 ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) mainDatabase.vocab[d][l] = []; });
-                for(let l=1; l<=10; l++) mainDatabase.phrase[l] = [];
+                for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
                 saveProgress(); renderCustomLibraryTable();
                 modal.classList.add('pointer-events-none', 'opacity-0');
                 modal.firstElementChild.classList.add('scale-95');

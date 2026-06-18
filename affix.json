@@ -225,7 +225,9 @@
         "rule": "動詞，表示討厭",
         "example": "I dislike waking up early.",
         "exampleCn": "我不喜歡早起。"
-      },
+      }
+    ],
+    "2": [  
       {
         "word": "misunderstand",
         "chinese": "誤解",
@@ -288,6 +290,3705 @@
         "rule": "表示消除、反轉",
         "example": "He was demoted for his poor performance.",
         "exampleCn": "因為表現不佳，他被降職了。"
+      }
+    ],
+    "3": [  
+      {
+        "word": "antiabortion",
+        "chinese": "反墮胎",
+        "prefix": "anti-",
+        "base": "abortion",
+        "rule": "表示反對",
+        "example": "She is known for her antiabortion stance.",
+        "exampleCn": "她以反墮胎的立場聞名。",
+        "unit": 2
+      },
+      {
+        "word": "antibiotic",
+        "chinese": "抗生素",
+        "prefix": "anti-",
+        "base": "biotic",
+        "rule": "表示反對（抵抗細菌）",
+        "example": "The doctor prescribed an antibiotic for the infection.",
+        "exampleCn": "醫生開了抗生素來治療感染。",
+        "unit": 2
+      },
+      {
+        "word": "antidiscrimination",
+        "chinese": "反歧視",
+        "prefix": "anti-",
+        "base": "discrimination",
+        "rule": "表示反對",
+        "example": "They are fighting for stronger antidiscrimination laws.",
+        "exampleCn": "他們正在爭取更嚴格的反歧視法。",
+        "unit": 2
+      },
+      {
+        "word": "antisocial",
+        "chinese": "反社會的",
+        "prefix": "anti-",
+        "base": "social",
+        "rule": "表示反對（與社會對立）",
+        "example": "Vandalism is considered an antisocial behavior.",
+        "exampleCn": "破壞公物被認為是一種反社會行為。",
+        "unit": 2
+      },
+      {
+        "word": "counteract",
+        "chinese": "對抗",
+        "prefix": "counter-",
+        "base": "act",
+        "rule": "表示反對或對抗",
+        "example": "This medicine helps to counteract the side effects.",
+        "exampleCn": "這藥有助於對抗副作用。",
+        "unit": 2
+      },
+      {
+        "word": "counterclockwise",
+        "chinese": "逆時針的",
+        "prefix": "counter-",
+        "base": "clockwise",
+        "rule": "表示反向",
+        "example": "Turn the knob counterclockwise to open it.",
+        "exampleCn": "將旋鈕逆時針轉動以打開它。",
+        "unit": 2
+      },
+      {
+        "word": "counterexample",
+        "chinese": "反例",
+        "prefix": "counter-",
+        "base": "example",
+        "rule": "表示反對的例子",
+        "example": "A single counterexample can disprove a theory.",
+        "exampleCn": "一個反例就足以推翻一個理論。",
+        "unit": 2
+      },
+      {
+        "word": "ex-wife",
+        "chinese": "前妻",
+        "prefix": "ex-",
+        "base": "wife",
+        "rule": "表示之前的",
+        "example": "He remains on good terms with his ex-wife.",
+        "exampleCn": "他與前妻仍保持良好的關係。",
+        "unit": 2
+      },
+      {
+        "word": "ex-president",
+        "chinese": "前總統",
+        "prefix": "ex-",
+        "base": "president",
+        "rule": "表示之前的",
+        "example": "The ex-president gave a speech yesterday.",
+        "exampleCn": "前總統昨天發表了演講。",
+        "unit": 2
+      },
+      {
+        "word": "forearm",
+        "chinese": "前臂",
+        "prefix": "fore-",
+        "base": "arm",
+        "rule": "表示前方的部位",
+        "example": "She has a tattoo on her forearm.",
+        "exampleCn": "她的前臂上有個刺青。",
+        "unit": 2
+      },
+      {
+        "word": "forefinger",
+        "chinese": "食指",
+        "prefix": "fore-",
+        "base": "finger",
+        "rule": "表示前方的部位",
+        "example": "He pointed at the bird with his forefinger.",
+        "exampleCn": "他用食指指向那隻鳥。",
+        "unit": 2
+      },
+      {
+        "word": "forehead",
+        "chinese": "額頭",
+        "prefix": "fore-",
+        "base": "head",
+        "rule": "表示前方的部位",
+        "example": "She wiped the sweat from her forehead.",
+        "exampleCn": "她擦去額頭上的汗水。",
+        "unit": 2
+      },
+      {
+        "word": "foremost",
+        "chinese": "最重要的",
+        "prefix": "fore-",
+        "base": "most",
+        "rule": "表示最前方的、首要的",
+        "example": "Safety is our foremost concern.",
+        "exampleCn": "安全是我們首要的考量。",
+        "unit": 2
+      },
+      {
+        "word": "forelimb",
+        "chinese": "前肢",
+        "prefix": "fore-",
+        "base": "limb",
+        "rule": "表示前方的部位",
+        "example": "The dog injured its forelimb while running.",
+        "exampleCn": "那隻狗在奔跑時傷到了前肢。",
+        "unit": 2
+      },
+      {
+        "word": "prearrange",
+        "chinese": "預先安排",
+        "prefix": "pre-",
+        "base": "arrange",
+        "rule": "表示事先、之前",
+        "example": "We have prearranged the meeting schedule.",
+        "exampleCn": "我們已經預先安排好了會議時間表。",
+        "unit": 2
+      },
+      {
+        "word": "precaution",
+        "chinese": "預防措施",
+        "prefix": "pre-",
+        "base": "caution",
+        "rule": "表示事先、之前",
+        "example": "Taking an umbrella is a wise precaution.",
+        "exampleCn": "帶傘是一個明智的預防措施。",
+        "unit": 2
+      },
+      {
+        "word": "predestination",
+        "chinese": "命中注定",
+        "prefix": "pre-",
+        "base": "destination",
+        "rule": "表示事先決定",
+        "example": "Some believe in predestination.",
+        "exampleCn": "有些人相信命中注定。",
+        "unit": 2
+      },
+      {
+        "word": "predict",
+        "chinese": "預言",
+        "prefix": "pre-",
+        "base": "dict",
+        "rule": "表示事先說出",
+        "example": "It is hard to predict the future.",
+        "exampleCn": "預測未來是很難的。",
+        "unit": 2
+      },
+      {
+        "word": "proceed",
+        "chinese": "進行",
+        "prefix": "pro-",
+        "base": "ceed",
+        "rule": "表示向前",
+        "example": "Please proceed to the next room.",
+        "exampleCn": "請前往下一個房間。",
+        "unit": 2
+      },
+      {
+        "word": "proclaim",
+        "chinese": "宣布",
+        "prefix": "pro-",
+        "base": "claim",
+        "rule": "表示向前發表",
+        "example": "The leader proclaimed the independence of the country.",
+        "exampleCn": "領導人宣布了該國的獨立。",
+        "unit": 2
+      },
+      {
+        "word": "prospect",
+        "chinese": "前景",
+        "prefix": "pro-",
+        "base": "spect",
+        "rule": "表示向前看",
+        "example": "The job prospects in this field are bright.",
+        "exampleCn": "這個領域的工作前景很看好。",
+        "unit": 2
+      },
+      {
+        "word": "postwar",
+        "chinese": "戰後的",
+        "prefix": "post-",
+        "base": "war",
+        "rule": "表示向後、之後",
+        "example": "The country underwent rapid postwar recovery.",
+        "exampleCn": "該國經歷了快速的戰後復甦。",
+        "unit": 2
+      },
+      {
+        "word": "postgraduate",
+        "chinese": "研究生",
+        "prefix": "post-",
+        "base": "graduate",
+        "rule": "表示之後（大學畢業後）",
+        "example": "He is a postgraduate student in physics.",
+        "exampleCn": "他是一名物理系研究生。",
+        "unit": 2
+      },
+      {
+        "word": "postnuptial",
+        "chinese": "婚後的",
+        "prefix": "post-",
+        "base": "nuptial",
+        "rule": "表示之後",
+        "example": "They signed a postnuptial agreement.",
+        "exampleCn": "他們簽署了一份婚後協議。",
+        "unit": 2
+      },
+      {
+        "word": "recall",
+        "chinese": "回憶",
+        "prefix": "re-",
+        "base": "call",
+        "rule": "表示向後、回",
+        "example": "I cannot recall his name.",
+        "exampleCn": "我回想不起來他的名字。",
+        "unit": 2
+      },
+      {
+        "word": "recede",
+        "chinese": "退後",
+        "prefix": "re-",
+        "base": "cede",
+        "rule": "表示向後、回",
+        "example": "The flood waters began to recede.",
+        "exampleCn": "洪水開始退去。",
+        "unit": 2
+      },
+      {
+        "word": "return",
+        "chinese": "回來",
+        "prefix": "re-",
+        "base": "turn",
+        "rule": "表示向後、回",
+        "example": "What time will you return home?",
+        "exampleCn": "你幾點會回來家裡？",
+        "unit": 2
+      },
+      {
+        "word": "aboard",
+        "chinese": "上傳(飛機、車)",
+        "prefix": "a-",
+        "base": "board",
+        "rule": "表示在...之上",
+        "example": "Welcome aboard the flight.",
+        "exampleCn": "歡迎登機。",
+        "unit": 2
+      },
+      {
+        "word": "ashore",
+        "chinese": "在岸上",
+        "prefix": "a-",
+        "base": "shore",
+        "rule": "表示在...之上",
+        "example": "They finally stepped ashore.",
+        "exampleCn": "他們終於踏上了岸。",
+        "unit": 2
+      },
+      {
+        "word": "ascend",
+        "chinese": "攀登",
+        "prefix": "a-",
+        "base": "scend",
+        "rule": "表示向上",
+        "example": "The hikers began to ascend the mountain.",
+        "exampleCn": "健行者開始攀登這座山。",
+        "unit": 2
+      },
+      {
+        "word": "epicenter",
+        "chinese": "震央",
+        "prefix": "epi-",
+        "base": "center",
+        "rule": "表示在...之上",
+        "example": "The epicenter of the earthquake was near the city.",
+        "exampleCn": "地震的震央在城市附近。",
+        "unit": 2
+      },
+      {
+        "word": "epigram",
+        "chinese": "格言",
+        "prefix": "epi-",
+        "base": "gram",
+        "rule": "表示附加、在...之上",
+        "example": "He quoted a witty epigram.",
+        "exampleCn": "他引用了一句詼諧的格言。",
+        "unit": 2
+      },
+      {
+        "word": "epidermal",
+        "chinese": "表皮的",
+        "prefix": "epi-",
+        "base": "dermal",
+        "rule": "表示在...之上",
+        "example": "The cream works on the epidermal layer.",
+        "exampleCn": "這款乳霜作用於表皮層。",
+        "unit": 2
+      },
+      {
+        "word": "hyperactive",
+        "chinese": "過動的",
+        "prefix": "hyper-",
+        "base": "active",
+        "rule": "表示過度",
+        "example": "The child is very hyperactive.",
+        "exampleCn": "那個小孩非常過動。",
+        "unit": 2
+      },
+      {
+        "word": "hyperinflation",
+        "chinese": "惡性通貨膨脹",
+        "prefix": "hyper-",
+        "base": "inflation",
+        "rule": "表示過度",
+        "example": "The country suffered from hyperinflation.",
+        "exampleCn": "該國遭受了惡性通貨膨脹的痛苦。",
+        "unit": 2
+      },
+      {
+        "word": "hypersensitive",
+        "chinese": "過敏的",
+        "prefix": "hyper-",
+        "base": "sensitive",
+        "rule": "表示過度",
+        "example": "He is hypersensitive to sunlight.",
+        "exampleCn": "他對陽光過度敏感。",
+        "unit": 2
+      },
+      {
+        "word": "hypertension",
+        "chinese": "高血壓；過度緊張",
+        "prefix": "hyper-",
+        "base": "tension",
+        "rule": "表示過度",
+        "example": "Untreated hypertension can lead to heart disease.",
+        "exampleCn": "未經治療的高血壓可能導致心臟病。",
+        "unit": 2
+      },
+      {
+        "word": "overcoat",
+        "chinese": "外套",
+        "prefix": "over-",
+        "base": "coat",
+        "rule": "表示在...之上",
+        "example": "Put on your overcoat, it's cold outside.",
+        "exampleCn": "穿上你的外套，外面很冷。",
+        "unit": 2
+      },
+      {
+        "word": "overflow",
+        "chinese": "溢出",
+        "prefix": "over-",
+        "base": "flow",
+        "rule": "表示過度",
+        "example": "The bathtub began to overflow.",
+        "exampleCn": "浴缸開始溢出水來。",
+        "unit": 2
+      },
+      {
+        "word": "overlook",
+        "chinese": "俯視；忽視",
+        "prefix": "over-",
+        "base": "look",
+        "rule": "表示在...之上看",
+        "example": "Our hotel room overlooks the sea.",
+        "exampleCn": "我們的飯店房間可以俯瞰大海。",
+        "unit": 2
+      },
+      {
+        "word": "superficial",
+        "chinese": "膚淺的",
+        "prefix": "super-",
+        "base": "ficial",
+        "rule": "表示在...之上（表面）",
+        "example": "Don't be so superficial; look deeper.",
+        "exampleCn": "不要那麼膚淺，往深層看。",
+        "unit": 2
+      },
+      {
+        "word": "superman",
+        "chinese": "超人",
+        "prefix": "super-",
+        "base": "man",
+        "rule": "表示超過",
+        "example": "He thinks he is a superman.",
+        "exampleCn": "他以為他是超人。",
+        "unit": 2
+      },
+      {
+        "word": "superscript",
+        "chinese": "標在上方的",
+        "prefix": "super-",
+        "base": "script",
+        "rule": "表示在...之上",
+        "example": "The exponent is written as a superscript.",
+        "exampleCn": "指數寫成上標形式。",
+        "unit": 2
+      },
+      {
+        "word": "supervise",
+        "chinese": "監督",
+        "prefix": "super-",
+        "base": "vise",
+        "rule": "表示在...之上（管理）",
+        "example": "She supervises a team of five people.",
+        "exampleCn": "她監督一個五人的團隊。",
+        "unit": 2
+      },
+      {
+        "word": "surface",
+        "chinese": "表面；浮現",
+        "prefix": "sur-",
+        "base": "face",
+        "rule": "表示在...之上",
+        "example": "The truth will eventually surface.",
+        "exampleCn": "真相終將浮出水面。",
+        "unit": 2
+      },
+      {
+        "word": "surpass",
+        "chinese": "超過",
+        "prefix": "sur-",
+        "base": "pass",
+        "rule": "表示超過",
+        "example": "His achievements surpass all expectations.",
+        "exampleCn": "他的成就超過了所有的期望。",
+        "unit": 2
+      },
+      {
+        "word": "survive",
+        "chinese": "倖存",
+        "prefix": "sur-",
+        "base": "vive",
+        "rule": "表示超過（在艱難中存活）",
+        "example": "Few plants can survive in this cold climate.",
+        "exampleCn": "很少有植物能在那種寒冷氣候下存活。",
+        "unit": 2
+      },
+      {
+        "word": "surplus",
+        "chinese": "剩餘，過剩",
+        "prefix": "sur-",
+        "base": "plus",
+        "rule": "表示超過",
+        "example": "They have a surplus of food this year.",
+        "exampleCn": "他們今年有剩餘的糧食。",
+        "unit": 2
+      },
+      {
+        "word": "subculture",
+        "chinese": "次文化",
+        "prefix": "sub-",
+        "base": "culture",
+        "rule": "表示在...之下，次要的",
+        "example": "He is interested in youth subculture.",
+        "exampleCn": "他對青年次文化很感興趣。",
+        "unit": 3
+      },
+      {
+        "word": "subdivide",
+        "chinese": "細分",
+        "prefix": "sub-",
+        "base": "divide",
+        "rule": "表示向下分，細分",
+        "example": "We need to subdivide this large project into smaller tasks.",
+        "exampleCn": "我們需要將這個大專案細分成較小的任務。",
+        "unit": 3
+      },
+      {
+        "word": "submarine",
+        "chinese": "潛艇",
+        "prefix": "sub-",
+        "base": "marine",
+        "rule": "表示在...之下（海面下）",
+        "example": "The submarine dived deep into the ocean.",
+        "exampleCn": "潛艇潛入了深海。",
+        "unit": 3
+      },
+      {
+        "word": "subtropical",
+        "chinese": "亞熱帶的",
+        "prefix": "sub-",
+        "base": "tropical",
+        "rule": "表示在...之下（低於熱帶）",
+        "example": "Taiwan has a subtropical climate.",
+        "exampleCn": "台灣屬於亞熱帶氣候。",
+        "unit": 3
+      },
+      {
+        "word": "underdog",
+        "chinese": "失敗者",
+        "prefix": "under-",
+        "base": "dog",
+        "rule": "表示在...之下（弱勢者）",
+        "example": "People usually root for the underdog.",
+        "exampleCn": "人們通常會支持弱勢者。",
+        "unit": 3
+      },
+      {
+        "word": "underbelly",
+        "chinese": "下腹部",
+        "prefix": "under-",
+        "base": "belly",
+        "rule": "表示在...之下",
+        "example": "The animal exposed its underbelly to show submission.",
+        "exampleCn": "這隻動物露出下腹部以表示臣服。",
+        "unit": 3
+      },
+      {
+        "word": "underline",
+        "chinese": "在…下面畫線",
+        "prefix": "under-",
+        "base": "line",
+        "rule": "表示在...之下",
+        "example": "Please underline the important keywords.",
+        "exampleCn": "請在重要的關鍵字下面畫線。",
+        "unit": 3
+      },
+      {
+        "word": "underpass",
+        "chinese": "地下道",
+        "prefix": "under-",
+        "base": "pass",
+        "rule": "表示在...之下",
+        "example": "We walked through the underpass to cross the road.",
+        "exampleCn": "我們走過地下道來過馬路。",
+        "unit": 3
+      },
+      {
+        "word": "encamp",
+        "chinese": "紮營",
+        "prefix": "en-",
+        "base": "camp",
+        "rule": "表示向內，進入狀態",
+        "example": "The soldiers decided to encamp by the river.",
+        "exampleCn": "士兵們決定在河邊紮營。",
+        "unit": 3
+      },
+      {
+        "word": "encase",
+        "chinese": "裝入",
+        "prefix": "en-",
+        "base": "case",
+        "rule": "表示向內，進入容器",
+        "example": "The jewelry was encased in glass.",
+        "exampleCn": "珠寶被裝在玻璃櫃中。",
+        "unit": 3
+      },
+      {
+        "word": "enclose",
+        "chinese": "圍住",
+        "prefix": "en-",
+        "base": "close",
+        "rule": "表示向內，環繞",
+        "example": "The garden is enclosed by a high wall.",
+        "exampleCn": "花園被高牆圍住。",
+        "unit": 3
+      },
+      {
+        "word": "encompass",
+        "chinese": "包圍，環繞",
+        "prefix": "en-",
+        "base": "compass",
+        "rule": "表示向內，全面涵蓋",
+        "example": "The study encompasses all aspects of the language.",
+        "exampleCn": "這項研究涵蓋了語言的所有層面。",
+        "unit": 3
+      },
+      {
+        "word": "entomb",
+        "chinese": "埋葬",
+        "prefix": "en-",
+        "base": "tomb",
+        "rule": "表示向內，進入墓穴",
+        "example": "The ancient king was entombed in a pyramid.",
+        "exampleCn": "古國王被埋葬在金字塔中。",
+        "unit": 3
+      },
+      {
+        "word": "introduce",
+        "chinese": "引入，介紹",
+        "prefix": "intro-",
+        "base": "duce",
+        "rule": "表示向內",
+        "example": "Let me introduce my friend to you.",
+        "exampleCn": "讓我把你介紹給我的朋友認識。",
+        "unit": 3
+      },
+      {
+        "word": "intromit",
+        "chinese": "插入",
+        "prefix": "intro-",
+        "base": "mit",
+        "rule": "表示向內發送",
+        "example": "The device is designed to intromit the sample.",
+        "exampleCn": "該裝置設計用於插入樣本。",
+        "unit": 3
+      },
+      {
+        "word": "introspect",
+        "chinese": "反省",
+        "prefix": "intro-",
+        "base": "spect",
+        "rule": "表示向內看",
+        "example": "He took some time to introspect his past actions.",
+        "exampleCn": "他花了一些時間反省過去的行為。",
+        "unit": 3
+      },
+      {
+        "word": "exit",
+        "chinese": "出口",
+        "prefix": "ex-",
+        "base": "it",
+        "rule": "表示向外",
+        "example": "The emergency exit is clearly marked.",
+        "exampleCn": "緊急出口標示得很清楚。",
+        "unit": 3
+      },
+      {
+        "word": "excise",
+        "chinese": "切除",
+        "prefix": "ex-",
+        "base": "cise",
+        "rule": "表示向外切",
+        "example": "The doctor had to excise the tumor.",
+        "exampleCn": "醫生必須切除腫瘤。",
+        "unit": 3
+      },
+      {
+        "word": "exclude",
+        "chinese": "排斥，關在外面",
+        "prefix": "ex-",
+        "base": "clude",
+        "rule": "表示向外關",
+        "example": "They excluded him from the group.",
+        "exampleCn": "他們將他排除在小組外。",
+        "unit": 3
+      },
+      {
+        "word": "exert",
+        "chinese": "施加壓力",
+        "prefix": "ex-",
+        "base": "ert",
+        "rule": "表示向外施加",
+        "example": "He exerted all his strength to lift the rock.",
+        "exampleCn": "他施加全力舉起石頭。",
+        "unit": 3
+      },
+      {
+        "word": "exterior",
+        "chinese": "外部",
+        "prefix": "ex-",
+        "base": "terior",
+        "rule": "表示向外",
+        "example": "The exterior of the house needs painting.",
+        "exampleCn": "房子的外牆需要粉刷。",
+        "unit": 3
+      },
+      {
+        "word": "extracellular",
+        "chinese": "細胞外的",
+        "prefix": "extra-",
+        "base": "cellular",
+        "rule": "表示在...之外",
+        "example": "This protein is found in the extracellular fluid.",
+        "exampleCn": "這種蛋白質存在於細胞外液中。",
+        "unit": 3
+      },
+      {
+        "word": "extramarital",
+        "chinese": "婚外的",
+        "prefix": "extra-",
+        "base": "marital",
+        "rule": "表示在...之外",
+        "example": "Extramarital affairs can hurt a relationship.",
+        "exampleCn": "婚外情會傷害一段關係。",
+        "unit": 3
+      },
+      {
+        "word": "extraordinary",
+        "chinese": "不平凡的",
+        "prefix": "extra-",
+        "base": "ordinary",
+        "rule": "表示在...之外（超乎尋常）",
+        "example": "She has an extraordinary talent for music.",
+        "exampleCn": "她在音樂方面有不平凡的天賦。",
+        "unit": 3
+      },
+      {
+        "word": "extrasensory",
+        "chinese": "超感官的",
+        "prefix": "extra-",
+        "base": "sensory",
+        "rule": "表示在...之外",
+        "example": "Some people claim to have extrasensory perception.",
+        "exampleCn": "有些人聲稱擁有超感官知覺。",
+        "unit": 3
+      },
+      {
+        "word": "outcome",
+        "chinese": "結果",
+        "prefix": "out-",
+        "base": "come",
+        "rule": "表示向外出的結果",
+        "example": "The final outcome was better than expected.",
+        "exampleCn": "最終結果比預期的還要好。",
+        "unit": 3
+      },
+      {
+        "word": "outline",
+        "chinese": "外型，輪廓",
+        "prefix": "out-",
+        "base": "line",
+        "rule": "表示外在線條",
+        "example": "She drew the outline of a bird.",
+        "exampleCn": "她畫了一隻鳥的輪廓。",
+        "unit": 3
+      },
+      {
+        "word": "outlook",
+        "chinese": "前景",
+        "prefix": "out-",
+        "base": "look",
+        "rule": "表示向外看",
+        "example": "The economic outlook is not very optimistic.",
+        "exampleCn": "經濟前景不太樂觀。",
+        "unit": 3
+      },
+      {
+        "word": "output",
+        "chinese": "產量",
+        "prefix": "out-",
+        "base": "put",
+        "rule": "表示向外產出",
+        "example": "The factory increased its output this year.",
+        "exampleCn": "該工廠今年增加了產量。",
+        "unit": 3
+      },
+      {
+        "word": "interactive",
+        "chinese": "互相影響的",
+        "prefix": "inter-",
+        "base": "active",
+        "rule": "表示在...之間",
+        "example": "This is an interactive whiteboard.",
+        "exampleCn": "這是一塊互動式白板。",
+        "unit": 3
+      },
+      {
+        "word": "internet",
+        "chinese": "互聯網",
+        "prefix": "inter-",
+        "base": "net",
+        "rule": "表示在...之間連結",
+        "example": "I found this information on the internet.",
+        "exampleCn": "我在網路上找到了這個資訊。",
+        "unit": 3
+      },
+      {
+        "word": "interpret",
+        "chinese": "口譯",
+        "prefix": "inter-",
+        "base": "pret",
+        "rule": "表示在...之間（傳達語言）",
+        "example": "He can interpret between English and Chinese.",
+        "exampleCn": "他可以在英語和中文之間進行口譯。",
+        "unit": 3
+      },
+      {
+        "word": "interrogate",
+        "chinese": "審問",
+        "prefix": "inter-",
+        "base": "rogate",
+        "rule": "表示在...之間（透過詢問）",
+        "example": "The police interrogated the suspect for hours.",
+        "exampleCn": "警方審問了嫌疑犯好幾個小時。",
+        "unit": 3
+      },
+      {
+        "word": "interrupt",
+        "chinese": "打斷",
+        "prefix": "inter-",
+        "base": "rupt",
+        "rule": "表示在...之間（介入中斷）",
+        "example": "Please don't interrupt me while I'm speaking.",
+        "exampleCn": "請在我說話時不要打斷我。",
+        "unit": 3
+      },
+      {
+        "word": "mediate",
+        "chinese": "調停",
+        "prefix": "medi-",
+        "base": "ate",
+        "rule": "表示在中間進行協調",
+        "example": "He tried to mediate the dispute between the two parties.",
+        "exampleCn": "他試圖調停雙方之間的爭端。",
+        "unit": 4
+      },
+      {
+        "word": "mediator",
+        "chinese": "調停者",
+        "prefix": "medi-",
+        "base": "ator",
+        "rule": "表示在中間的人",
+        "example": "The mediator helped them reach an agreement.",
+        "exampleCn": "調停者幫助他們達成了一項協議。",
+        "unit": 4
+      },
+      {
+        "word": "medieval",
+        "chinese": "中世紀的",
+        "prefix": "medi-",
+        "base": "eval",
+        "rule": "表示中間的時期",
+        "example": "The castle dates back to medieval times.",
+        "exampleCn": "這座城堡可以追溯到中世紀時期。",
+        "unit": 4
+      },
+      {
+        "word": "midair",
+        "chinese": "半空中的",
+        "prefix": "mid-",
+        "base": "air",
+        "rule": "表示中間位置",
+        "example": "The birds collided in midair.",
+        "exampleCn": "鳥兒在半空中相撞了。",
+        "unit": 4
+      },
+      {
+        "word": "midwife",
+        "chinese": "助產士",
+        "prefix": "mid-",
+        "base": "wife",
+        "rule": "表示中間（協助過程）",
+        "example": "The midwife assisted during the delivery.",
+        "exampleCn": "助產士在分娩過程中提供了協助。",
+        "unit": 4
+      },
+      {
+        "word": "midterm",
+        "chinese": "期中考試",
+        "prefix": "mid-",
+        "base": "term",
+        "rule": "表示學期中間",
+        "example": "I have a midterm exam next week.",
+        "exampleCn": "我下週有期中考試。",
+        "unit": 4
+      },
+      {
+        "word": "midsection",
+        "chinese": "中央部分；上腹部",
+        "prefix": "mid-",
+        "base": "section",
+        "rule": "表示中間區域",
+        "example": "The pain is localized in the midsection.",
+        "exampleCn": "疼痛侷限在上腹部區域。",
+        "unit": 4
+      },
+      {
+        "word": "circumcise",
+        "chinese": "環切包皮",
+        "prefix": "circum-",
+        "base": "cise",
+        "rule": "表示圍繞",
+        "example": "The procedure is performed to circumcise the patient.",
+        "exampleCn": "該手術是為了對病人進行包皮環切。",
+        "unit": 4
+      },
+      {
+        "word": "circumnavigate",
+        "chinese": "環航",
+        "prefix": "circum-",
+        "base": "navigate",
+        "rule": "表示圍繞航行",
+        "example": "They plan to circumnavigate the globe by boat.",
+        "exampleCn": "他們計畫乘船進行全球環航。",
+        "unit": 4
+      },
+      {
+        "word": "circumscribe",
+        "chinese": "約束",
+        "prefix": "circum-",
+        "base": "scribe",
+        "rule": "表示圍繞範圍（限制）",
+        "example": "The power of the committee is strictly circumscribed by law.",
+        "exampleCn": "委員會的權力受到法律的嚴格約束。",
+        "unit": 4
+      },
+      {
+        "word": "circumsolar",
+        "chinese": "環繞太陽的",
+        "prefix": "circum-",
+        "base": "solar",
+        "rule": "表示圍繞太陽",
+        "example": "The planet has a circumsolar orbit.",
+        "exampleCn": "這顆行星具有環繞太陽的軌道。",
+        "unit": 4
+      },
+      {
+        "word": "cross-border",
+        "chinese": "越過邊界的",
+        "prefix": "cross-",
+        "base": "border",
+        "rule": "表示橫越",
+        "example": "They are engaged in cross-border trade.",
+        "exampleCn": "他們從事跨境貿易。",
+        "unit": 4
+      },
+      {
+        "word": "cross-cultural",
+        "chinese": "超越文化的",
+        "prefix": "cross-",
+        "base": "cultural",
+        "rule": "表示橫越不同文化",
+        "example": "She has strong cross-cultural communication skills.",
+        "exampleCn": "她擁有強大的跨文化溝通技巧。",
+        "unit": 4
+      },
+      {
+        "word": "crosscut",
+        "chinese": "橫切的",
+        "prefix": "cross-",
+        "base": "cut",
+        "rule": "表示橫向切割",
+        "example": "Use a saw to make a crosscut in the wood.",
+        "exampleCn": "用鋸子在木頭上做一個橫切。",
+        "unit": 4
+      },
+      {
+        "word": "crossfire",
+        "chinese": "交叉火力",
+        "prefix": "cross-",
+        "base": "fire",
+        "rule": "表示橫向交火",
+        "example": "The soldiers were caught in the crossfire.",
+        "exampleCn": "士兵們被困在交叉火力中。",
+        "unit": 4
+      },
+      {
+        "word": "crossroad",
+        "chinese": "十字路",
+        "prefix": "cross-",
+        "base": "road",
+        "rule": "表示道路交會",
+        "example": "Meet me at the crossroad.",
+        "exampleCn": "在十字路口跟我見面。",
+        "unit": 4
+      },
+      {
+        "word": "transaction",
+        "chinese": "交易",
+        "prefix": "trans-",
+        "base": "action",
+        "rule": "表示轉移、穿越",
+        "example": "The transaction was completed successfully.",
+        "exampleCn": "交易已順利完成。",
+        "unit": 4
+      },
+      {
+        "word": "transcribe",
+        "chinese": "轉錄",
+        "prefix": "trans-",
+        "base": "scribe",
+        "rule": "表示轉換形式",
+        "example": "Please transcribe the interview from the recording.",
+        "exampleCn": "請將訪談從錄音檔中轉錄出來。",
+        "unit": 4
+      },
+      {
+        "word": "transgress",
+        "chinese": "違反；犯罪",
+        "prefix": "trans-",
+        "base": "gress",
+        "rule": "表示越過界線",
+        "example": "He transgressed the rules of the club.",
+        "exampleCn": "他違反了俱樂部的規定。",
+        "unit": 4
+      },
+      {
+        "word": "translate",
+        "chinese": "翻譯",
+        "prefix": "trans-",
+        "base": "late",
+        "rule": "表示轉移語言",
+        "example": "Can you translate this document for me?",
+        "exampleCn": "你能幫我翻譯這份文件嗎？",
+        "unit": 4
+      },
+      {
+        "word": "transmit",
+        "chinese": "傳送",
+        "prefix": "trans-",
+        "base": "mit",
+        "rule": "表示轉移信號",
+        "example": "The radio station transmits news 24/7.",
+        "exampleCn": "這家廣播電台全天候傳送新聞。",
+        "unit": 4
+      },
+      {
+        "word": "transport",
+        "chinese": "運輸",
+        "prefix": "trans-",
+        "base": "port",
+        "rule": "表示穿越運送",
+        "example": "They transport goods by ship.",
+        "exampleCn": "他們用船運輸貨物。",
+        "unit": 4
+      },
+      {
+        "word": "megacity",
+        "chinese": "大城市",
+        "prefix": "mega-",
+        "base": "city",
+        "rule": "表示極大的",
+        "example": "Tokyo is a true megacity.",
+        "exampleCn": "東京是一個真正的大型都市。",
+        "unit": 4
+      },
+      {
+        "word": "megadose",
+        "chinese": "大劑量",
+        "prefix": "mega-",
+        "base": "dose",
+        "rule": "表示極大的量",
+        "example": "He took a megadose of vitamins.",
+        "exampleCn": "他服用了一大劑量的維生素。",
+        "unit": 4
+      },
+      {
+        "word": "magnate",
+        "chinese": "富豪、大資本家",
+        "prefix": "magn-",
+        "base": "ate",
+        "rule": "表示偉大的、巨大的",
+        "example": "He is a wealthy business magnate.",
+        "exampleCn": "他是一位富有的商業巨頭。",
+        "unit": 4
+      },
+      {
+        "word": "magnificent",
+        "chinese": "華麗的",
+        "prefix": "magn-",
+        "base": "ficent",
+        "rule": "表示巨大的、宏偉的",
+        "example": "The view from the top is magnificent.",
+        "exampleCn": "從山頂看到的景色非常壯觀。",
+        "unit": 4
+      },
+      {
+        "word": "magnify",
+        "chinese": "放大",
+        "prefix": "magn-",
+        "base": "ify",
+        "rule": "表示使變大",
+        "example": "The lens magnifies the small print.",
+        "exampleCn": "這片鏡片將小字放大。",
+        "unit": 4
+      },
+      {
+        "word": "magnitude",
+        "chinese": "巨大、重要性",
+        "prefix": "magn-",
+        "base": "itude",
+        "rule": "表示巨大程度",
+        "example": "They underestimated the magnitude of the problem.",
+        "exampleCn": "他們低估了這個問題的嚴重性。",
+        "unit": 4
+      },
+      {
+        "word": "microanatomy",
+        "chinese": "顯微解剖學",
+        "prefix": "micro-",
+        "base": "anatomy",
+        "rule": "表示非常小",
+        "example": "She specializes in microanatomy.",
+        "exampleCn": "她專精於顯微解剖學。",
+        "unit": 4
+      },
+      {
+        "word": "microbiology",
+        "chinese": "微生物學",
+        "prefix": "micro-",
+        "base": "biology",
+        "rule": "表示非常小",
+        "example": "He is studying microbiology at university.",
+        "exampleCn": "他正在大學研讀微生物學。",
+        "unit": 4
+      },
+      {
+        "word": "microclimate",
+        "chinese": "局部地區氣候",
+        "prefix": "micro-",
+        "base": "climate",
+        "rule": "表示微小的範圍",
+        "example": "The valley has its own unique microclimate.",
+        "exampleCn": "這個山谷有其獨特的局部氣候。",
+        "unit": 4
+      },
+      {
+        "word": "microscope",
+        "chinese": "顯微鏡",
+        "prefix": "micro-",
+        "base": "scope",
+        "rule": "表示用於看微小事物",
+        "example": "Look at the cells under the microscope.",
+        "exampleCn": "在顯微鏡下觀察細胞。",
+        "unit": 4
+      },
+      {
+        "word": "miniature",
+        "chinese": "微小的",
+        "prefix": "mini-",
+        "base": "ature",
+        "rule": "表示小",
+        "example": "They built a miniature model of the car.",
+        "exampleCn": "他們製作了一個微型汽車模型。",
+        "unit": 4
+      },
+      {
+        "word": "minimize",
+        "chinese": "將…減到最少",
+        "prefix": "mini-",
+        "base": "mize",
+        "rule": "表示使變小",
+        "example": "We need to minimize the risks.",
+        "exampleCn": "我們需要將風險降到最低。",
+        "unit": 4
+      },
+      {
+        "word": "miniskirt",
+        "chinese": "迷你裙",
+        "prefix": "mini-",
+        "base": "skirt",
+        "rule": "表示短小",
+        "example": "Miniskirts were very popular in the 60s.",
+        "exampleCn": "迷你裙在60年代非常流行。",
+        "unit": 4
+      },
+      {
+        "word": "nanoatom",
+        "chinese": "毫微原子",
+        "prefix": "nano-",
+        "base": "atom",
+        "rule": "表示極小的",
+        "example": "Research into the nanoatom is quite new.",
+        "exampleCn": "對毫微原子的研究相當新穎。",
+        "unit": 4
+      },
+      {
+        "word": "nanoid",
+        "chinese": "矮小的",
+        "prefix": "nano-",
+        "base": "oid",
+        "rule": "表示極小的",
+        "example": "The creature had a nanoid appearance.",
+        "exampleCn": "那個生物外表矮小。",
+        "unit": 4
+      },
+      {
+        "word": "nannofossil",
+        "chinese": "微化石",
+        "prefix": "nanno-",
+        "base": "fossil",
+        "rule": "表示極小",
+        "example": "Scientists found nannofossil evidence in the rock.",
+        "exampleCn": "科學家在岩石中發現了微化石證據。",
+        "unit": 4
+      },
+      {
+        "word": "nannoplankton",
+        "chinese": "微型浮游生物",
+        "prefix": "nanno-",
+        "base": "plankton",
+        "rule": "表示極小",
+        "example": "Nannoplankton are essential to the ocean food chain.",
+        "exampleCn": "微型浮游生物對海洋食物鏈至關重要。",
+        "unit": 4
+      },
+      {
+        "word": "multicolored",
+        "chinese": "多色的",
+        "prefix": "multi-",
+        "base": "colored",
+        "rule": "表示多",
+        "example": "The butterfly has multicolored wings.",
+        "exampleCn": "那隻蝴蝶有著多色的翅膀。",
+        "unit": 4
+      },
+      {
+        "word": "multicultural",
+        "chinese": "多元文化的",
+        "prefix": "multi-",
+        "base": "cultural",
+        "rule": "表示多",
+        "example": "We live in a multicultural society.",
+        "exampleCn": "我們生活在一個多元文化的社會中。",
+        "unit": 4
+      },
+      {
+        "word": "multifunctional",
+        "chinese": "多功能的",
+        "prefix": "multi-",
+        "base": "functional",
+        "rule": "表示多",
+        "example": "This tool is very multifunctional.",
+        "exampleCn": "這個工具非常多功能。",
+        "unit": 4
+      },
+      {
+        "word": "multimedia",
+        "chinese": "多媒體的",
+        "prefix": "multi-",
+        "base": "media",
+        "rule": "表示多",
+        "example": "The presentation used multimedia effects.",
+        "exampleCn": "這場簡報使用了多媒體效果。",
+        "unit": 4
+      },
+      {
+        "word": "oliggarchic",
+        "chinese": "寡頭政治的",
+        "prefix": "oligo-",
+        "base": "archic",
+        "rule": "表示少數人",
+        "example": "The country was ruled by an oligarchic group.",
+        "exampleCn": "這個國家由一個寡頭政治團體統治。",
+        "unit": 4
+      },
+      {
+        "word": "oligochrome",
+        "chinese": "少數顏色的",
+        "prefix": "oligo-",
+        "base": "chrome",
+        "rule": "表示少",
+        "example": "The design uses an oligochrome scheme.",
+        "exampleCn": "這個設計採用少數顏色的配色方案。",
+        "unit": 4
+      },
+      {
+        "word": "oligemia",
+        "chinese": "血量減少",
+        "prefix": "oligo-",
+        "base": "emia",
+        "rule": "表示少",
+        "example": "The patient suffered from oligemia.",
+        "exampleCn": "病人患有血量減少症。",
+        "unit": 4
+      },
+      {
+        "word": "underfunded",
+        "chinese": "資金不足的",
+        "prefix": "under-",
+        "base": "funded",
+        "rule": "表示不足夠",
+        "example": "The project is currently underfunded.",
+        "exampleCn": "這個專案目前資金不足。",
+        "unit": 4
+      },
+      {
+        "word": "underachiever",
+        "chinese": "低成就的人",
+        "prefix": "under-",
+        "base": "achiever",
+        "rule": "表示未達標準",
+        "example": "He was considered an underachiever at school.",
+        "exampleCn": "他在學校被認為是成就較低的人。",
+        "unit": 4
+      },
+      {
+        "word": "understaffed",
+        "chinese": "人員不足的",
+        "prefix": "under-",
+        "base": "staffed",
+        "rule": "表示不足夠",
+        "example": "The restaurant is understaffed tonight.",
+        "exampleCn": "餐廳今晚人員不足。",
+        "unit": 4
+      },
+      {
+        "word": "underdeveloped",
+        "chinese": "未發展的",
+        "prefix": "under-",
+        "base": "developed",
+        "rule": "表示不足夠",
+        "example": "Some regions remain economically underdeveloped.",
+        "exampleCn": "有些地區在經濟上仍然未發展。",
+        "unit": 4
+      },
+      {
+        "word": "benediction",
+        "chinese": "祝福",
+        "prefix": "bene-",
+        "base": "diction",
+        "rule": "表示好的，善意的說法",
+        "example": "The priest gave a final benediction to the congregation.",
+        "exampleCn": "牧師給會眾做了最後的祝福。",
+        "unit": 5
+      },
+      {
+        "word": "benefaction",
+        "chinese": "贈品",
+        "prefix": "bene-",
+        "base": "faction",
+        "rule": "表示好的行為（施捨）",
+        "example": "The library was built thanks to a generous benefaction.",
+        "exampleCn": "這座圖書館是多虧了一筆慷慨的捐贈才得以建成。",
+        "unit": 5
+      },
+      {
+        "word": "benefactor",
+        "chinese": "捐助者",
+        "prefix": "bene-",
+        "base": "factor",
+        "rule": "表示行善者",
+        "example": "He is a major benefactor to the university.",
+        "exampleCn": "他是這所大學的主要捐助者。",
+        "unit": 5
+      },
+      {
+        "word": "benefit",
+        "chinese": "利益",
+        "prefix": "bene-",
+        "base": "fit",
+        "rule": "表示好的結果",
+        "example": "Regular exercise is of great benefit to your health.",
+        "exampleCn": "規律運動對你的健康非常有益。",
+        "unit": 5
+      },
+      {
+        "word": "malady",
+        "chinese": "疾病",
+        "prefix": "mal-",
+        "base": "ady",
+        "rule": "表示壞的",
+        "example": "He is suffering from a mysterious malady.",
+        "exampleCn": "他患有一種神秘的疾病。",
+        "unit": 5
+      },
+      {
+        "word": "malcontent",
+        "chinese": "不滿份子",
+        "prefix": "mal-",
+        "base": "content",
+        "rule": "表示壞的狀態（不滿足）",
+        "example": "The factory was full of malcontents demanding higher wages.",
+        "exampleCn": "工廠裡充滿了要求加薪的不滿份子。",
+        "unit": 5
+      },
+      {
+        "word": "malformed",
+        "chinese": "畸形的",
+        "prefix": "mal-",
+        "base": "formed",
+        "rule": "表示壞的形狀",
+        "example": "The plant had malformed leaves due to the cold.",
+        "exampleCn": "由於寒冷，那株植物的葉子長得畸形。",
+        "unit": 5
+      },
+      {
+        "word": "malignant",
+        "chinese": "惡性的",
+        "prefix": "mal-",
+        "base": "ignant",
+        "rule": "表示壞的、有害的",
+        "example": "The doctor confirmed that the tumor was malignant.",
+        "exampleCn": "醫生證實該腫瘤是惡性的。",
+        "unit": 5
+      },
+      {
+        "word": "maltreat",
+        "chinese": "虐待",
+        "prefix": "mal-",
+        "base": "treat",
+        "rule": "表示壞的對待",
+        "example": "It is illegal to maltreat any animal.",
+        "exampleCn": "虐待任何動物都是違法的。",
+        "unit": 5
+      },
+      {
+        "word": "misbehavior",
+        "chinese": "不規矩的行為",
+        "prefix": "mis-",
+        "base": "behavior",
+        "rule": "表示壞的行為",
+        "example": "The student was punished for his misbehavior.",
+        "exampleCn": "該學生因行為不端而受到懲罰。",
+        "unit": 5
+      },
+      {
+        "word": "mischance",
+        "chinese": "不幸",
+        "prefix": "mis-",
+        "base": "chance",
+        "rule": "表示壞的運氣",
+        "example": "By some mischance, he missed the train.",
+        "exampleCn": "真是不幸，他錯過了那班火車。",
+        "unit": 5
+      },
+      {
+        "word": "misrule",
+        "chinese": "暴政",
+        "prefix": "mis-",
+        "base": "rule",
+        "rule": "表示壞的統治",
+        "example": "The country suffered years of misrule.",
+        "exampleCn": "該國經歷了多年的暴政。",
+        "unit": 5
+      },
+      {
+        "word": "homogeneous",
+        "chinese": "同類的",
+        "prefix": "homo-",
+        "base": "geneous",
+        "rule": "表示相同的",
+        "example": "They are a homogeneous group of people.",
+        "exampleCn": "他們是一群同質性高的人。",
+        "unit": 5
+      },
+      {
+        "word": "homophone",
+        "chinese": "同音字",
+        "prefix": "homo-",
+        "base": "phone",
+        "rule": "表示相同的聲音",
+        "example": "'Write' and 'right' are homophones.",
+        "exampleCn": "'Write' 和 'right' 是同音字。",
+        "unit": 5
+      },
+      {
+        "word": "homosexual",
+        "chinese": "同性戀的",
+        "prefix": "homo-",
+        "base": "sexual",
+        "rule": "表示相同的性別",
+        "example": "He is open about being homosexual.",
+        "exampleCn": "他對自己身為同性戀者這件事很坦率。",
+        "unit": 5
+      },
+      {
+        "word": "parable",
+        "chinese": "寓言",
+        "prefix": "para-",
+        "base": "able",
+        "rule": "表示類似的敘述",
+        "example": "The teacher used a parable to explain the lesson.",
+        "exampleCn": "老師用了一個寓言故事來解釋課程。",
+        "unit": 5
+      },
+      {
+        "word": "paraphrase",
+        "chinese": "釋義",
+        "prefix": "para-",
+        "base": "phrase",
+        "rule": "表示類似的表達",
+        "example": "Can you paraphrase the paragraph in your own words?",
+        "exampleCn": "你能用你自己的話改寫這段文字嗎？",
+        "unit": 5
+      },
+      {
+        "word": "paramilitary",
+        "chinese": "準軍事的",
+        "prefix": "para-",
+        "base": "military",
+        "rule": "表示類似軍事的",
+        "example": "The paramilitary group patrols the border.",
+        "exampleCn": "該準軍事組織在邊境巡邏。",
+        "unit": 5
+      },
+      {
+        "word": "sympathy",
+        "chinese": "同情",
+        "prefix": "sym-",
+        "base": "pathy",
+        "rule": "表示一起感覺",
+        "example": "I have great sympathy for those who lost their homes.",
+        "exampleCn": "我對那些失去家園的人深表同情。",
+        "unit": 5
+      },
+      {
+        "word": "symphony",
+        "chinese": "交響樂",
+        "prefix": "sym-",
+        "base": "phony",
+        "rule": "表示聲音一起（和諧）",
+        "example": "They went to a concert to hear a symphony.",
+        "exampleCn": "他們去音樂會聽交響樂。",
+        "unit": 5
+      },
+      {
+        "word": "symptom",
+        "chinese": "症狀",
+        "prefix": "sym-",
+        "base": "ptom",
+        "rule": "表示一起發生的跡象",
+        "example": "Fever is a common symptom of the flu.",
+        "exampleCn": "發燒是流感的常見症狀。",
+        "unit": 5
+      },
+      {
+        "word": "symbiosis",
+        "chinese": "共生現象",
+        "prefix": "sym-",
+        "base": "biosis",
+        "rule": "表示一起生活",
+        "example": "The birds and the crocodile live in symbiosis.",
+        "exampleCn": "鳥類和鱷魚存在著共生關係。",
+        "unit": 5
+      },
+      {
+        "word": "heterogeneous",
+        "chinese": "異種的",
+        "prefix": "hetero-",
+        "base": "geneous",
+        "rule": "表示不同的",
+        "example": "The city has a heterogeneous population.",
+        "exampleCn": "這座城市的人口組成很多元（異質）。",
+        "unit": 5
+      },
+      {
+        "word": "heterosexual",
+        "chinese": "異性戀的",
+        "prefix": "hetero-",
+        "base": "sexual",
+        "rule": "表示不同的性別",
+        "example": "They are a heterosexual couple.",
+        "exampleCn": "他們是一對異性戀伴侶。",
+        "unit": 5
+      },
+      {
+        "word": "heterochromatic",
+        "chinese": "包含不同顏色的",
+        "prefix": "hetero-",
+        "base": "chromatic",
+        "rule": "表示不同的顏色",
+        "example": "The pattern has a heterochromatic design.",
+        "exampleCn": "這個圖案有著多種顏色的設計。",
+        "unit": 5
+      },
+      {
+        "word": "codependency",
+        "chinese": "互相依賴",
+        "prefix": "co-",
+        "base": "dependency",
+        "rule": "表示一起",
+        "example": "Their relationship is based on codependency.",
+        "exampleCn": "他們的關係建立在互相依賴之上。",
+        "unit": 5
+      },
+      {
+        "word": "coexistence",
+        "chinese": "共存",
+        "prefix": "co-",
+        "base": "existence",
+        "rule": "表示一起存在",
+        "example": "The two countries strive for peaceful coexistence.",
+        "exampleCn": "這兩個國家致力於和平共存。",
+        "unit": 5
+      },
+      {
+        "word": "collect",
+        "chinese": "收集",
+        "prefix": "col-",
+        "base": "lect",
+        "rule": "表示一起聚集",
+        "example": "He likes to collect old coins.",
+        "exampleCn": "他喜歡收集古錢幣。",
+        "unit": 5
+      },
+      {
+        "word": "combine",
+        "chinese": "結合",
+        "prefix": "com-",
+        "base": "bine",
+        "rule": "表示一起",
+        "example": "We should combine our efforts to finish it.",
+        "exampleCn": "我們應該結合我們的力量來完成它。",
+        "unit": 5
+      },
+      {
+        "word": "concentrate",
+        "chinese": "專心",
+        "prefix": "con-",
+        "base": "centrate",
+        "rule": "表示一起匯集（心思）",
+        "example": "It is hard to concentrate in a noisy room.",
+        "exampleCn": "在吵雜的房間裡很難專心。",
+        "unit": 5
+      },
+      {
+        "word": "unicorn",
+        "chinese": "獨角獸",
+        "prefix": "uni-",
+        "base": "corn",
+        "rule": "表示一",
+        "example": "The unicorn is a mythical creature.",
+        "exampleCn": "獨角獸是一種神話生物。",
+        "unit": 5
+      },
+      {
+        "word": "biannual",
+        "chinese": "一年兩次的",
+        "prefix": "bi-",
+        "base": "annual",
+        "rule": "表示二",
+        "example": "The conference is a biannual event.",
+        "exampleCn": "這個會議是一年兩次的活動。",
+        "unit": 5
+      },
+      {
+        "word": "triangle",
+        "chinese": "三角形",
+        "prefix": "tri-",
+        "base": "angle",
+        "rule": "表示三",
+        "example": "The sign is in the shape of a triangle.",
+        "exampleCn": "這個標誌呈三角形。",
+        "unit": 5
+      },
+      {
+        "word": "centennial",
+        "chinese": "百年紀念",
+        "prefix": "centi-",
+        "base": "ennial",
+        "rule": "表示百",
+        "example": "The town is celebrating its centennial this year.",
+        "exampleCn": "這個城鎮今年正在慶祝百年紀念。",
+        "unit": 5
+      },
+      {
+        "word": "kilogram",
+        "chinese": "公斤",
+        "prefix": "kilo-",
+        "base": "gram",
+        "rule": "表示千",
+        "example": "This bag weighs five kilograms.",
+        "exampleCn": "這個袋子重五公斤。",
+        "unit": 5
+      },
+      {
+        "word": "acerb",
+        "chinese": "刻薄的",
+        "prefix": "ace-",
+        "base": "erb",
+        "rule": "表示酸、苦澀",
+        "example": "He made an acerb comment about the performance.",
+        "exampleCn": "他對那場表演發表了刻薄的評論。",
+        "unit": 6
+      },
+      {
+        "word": "agriculture",
+        "chinese": "農業",
+        "prefix": "agri-",
+        "base": "culture",
+        "rule": "表示土地、田野",
+        "example": "Agriculture is the backbone of the country's economy.",
+        "exampleCn": "農業是這個國家經濟的支柱。",
+        "unit": 6
+      },
+      {
+        "word": "altitude",
+        "chinese": "高度",
+        "prefix": "alti-",
+        "base": "tude",
+        "rule": "表示高度",
+        "example": "The plane is flying at a high altitude.",
+        "exampleCn": "飛機正在高空飛行。",
+        "unit": 6
+      },
+      {
+        "word": "audible",
+        "chinese": "聽得見的",
+        "prefix": "audi-",
+        "base": "ible",
+        "rule": "表示聽",
+        "example": "The music was barely audible from outside.",
+        "exampleCn": "從外面幾乎聽不見音樂聲。",
+        "unit": 6
+      },
+      {
+        "word": "automatic",
+        "chinese": "自動的",
+        "prefix": "auto-",
+        "base": "matic",
+        "rule": "表示自動",
+        "example": "The door opens by an automatic sensor.",
+        "exampleCn": "門由自動感應器開啟。",
+        "unit": 6
+      },
+      {
+        "word": "biodiversity",
+        "chinese": "生物多樣性",
+        "prefix": "bio-",
+        "base": "diversity",
+        "rule": "表示生命",
+        "example": "We must protect the rainforest's biodiversity.",
+        "exampleCn": "我們必須保護雨林的生物多樣性。",
+        "unit": 6
+      },
+      {
+        "word": "carbohydrate",
+        "chinese": "碳水化合物",
+        "prefix": "carbo-",
+        "base": "hydrate",
+        "rule": "表示碳",
+        "example": "This food is rich in carbohydrate.",
+        "exampleCn": "這種食物富含碳水化合物。",
+        "unit": 6
+      },
+      {
+        "word": "chromosome",
+        "chinese": "染色體",
+        "prefix": "chromo-",
+        "base": "some",
+        "rule": "表示顏色",
+        "example": "Humans have 23 pairs of chromosomes.",
+        "exampleCn": "人類有23對染色體。",
+        "unit": 6
+      },
+      {
+        "word": "chronic",
+        "chinese": "慢性的",
+        "prefix": "chrono-",
+        "base": "ic",
+        "rule": "表示時間（長久）",
+        "example": "She suffers from chronic back pain.",
+        "exampleCn": "她患有慢性的背痛。",
+        "unit": 6
+      },
+      {
+        "word": "climatology",
+        "chinese": "氣候學",
+        "prefix": "climat-",
+        "base": "ology",
+        "rule": "表示氣候",
+        "example": "He is a professor of climatology.",
+        "exampleCn": "他是氣候學教授。",
+        "unit": 6
+      },
+      {
+        "word": "ecosystem",
+        "chinese": "生態系統",
+        "prefix": "eco-",
+        "base": "system",
+        "rule": "表示環境、生態",
+        "example": "Pollution can destroy the local ecosystem.",
+        "exampleCn": "污染會摧毀當地的生態系統。",
+        "unit": 6
+      },
+      {
+        "word": "electron",
+        "chinese": "電子",
+        "prefix": "electro-",
+        "base": "tron",
+        "rule": "表示電",
+        "example": "An electron carries a negative charge.",
+        "exampleCn": "電子帶有負電荷。",
+        "unit": 6
+      },
+      {
+        "word": "geography",
+        "chinese": "地理學",
+        "prefix": "geo-",
+        "base": "graphy",
+        "rule": "表示地球、地理",
+        "example": "We are studying world geography.",
+        "exampleCn": "我們正在研究世界地理。",
+        "unit": 6
+      },
+      {
+        "word": "pharmacy",
+        "chinese": "藥房",
+        "prefix": "pharmaco-",
+        "base": "acy",
+        "rule": "表示藥物",
+        "example": "I need to go to the pharmacy to get my prescription.",
+        "exampleCn": "我需要去藥房拿處方藥。",
+        "unit": 6
+      },
+      {
+        "word": "phonograph",
+        "chinese": "留聲機",
+        "prefix": "phono-",
+        "base": "graph",
+        "rule": "表示聲音",
+        "example": "They played old records on a vintage phonograph.",
+        "exampleCn": "他們用古董留聲機播放舊唱片。",
+        "unit": 6
+      },
+      {
+        "word": "photosynthesis",
+        "chinese": "光合作用",
+        "prefix": "photo-",
+        "base": "synthesis",
+        "rule": "表示光",
+        "example": "Plants produce energy through photosynthesis.",
+        "exampleCn": "植物透過光合作用產生能量。",
+        "unit": 7
+      },
+      {
+        "word": "physician",
+        "chinese": "內科醫師",
+        "prefix": "phys-",
+        "base": "ician",
+        "rule": "表示自然的、身體的",
+        "example": "The physician recommended a balanced diet.",
+        "exampleCn": "內科醫師建議採取均衡的飲食。",
+        "unit": 7
+      },
+      {
+        "word": "pneumonia",
+        "chinese": "肺炎",
+        "prefix": "pneum-",
+        "base": "onia",
+        "rule": "表示肺、呼吸",
+        "example": "He was hospitalized with severe pneumonia.",
+        "exampleCn": "他因嚴重的肺炎住院。",
+        "unit": 7
+      },
+      {
+        "word": "polarize",
+        "chinese": "使兩極分化",
+        "prefix": "polar-",
+        "base": "ize",
+        "rule": "表示兩極的",
+        "example": "The issue tended to polarize public opinion.",
+        "exampleCn": "這個議題傾向於使大眾意見兩極化。",
+        "unit": 7
+      },
+      {
+        "word": "psychology",
+        "chinese": "心理學",
+        "prefix": "psych-",
+        "base": "ology",
+        "rule": "表示心靈、心理",
+        "example": "She is interested in child psychology.",
+        "exampleCn": "她對兒童心理學很感興趣。",
+        "unit": 7
+      },
+      {
+        "word": "radiotherapy",
+        "chinese": "放射線療法",
+        "prefix": "radio-",
+        "base": "therapy",
+        "rule": "表示放射",
+        "example": "He underwent radiotherapy for his condition.",
+        "exampleCn": "他為了病情接受了放射線治療。",
+        "unit": 7
+      },
+      {
+        "word": "sociology",
+        "chinese": "社會學",
+        "prefix": "socio-",
+        "base": "ology",
+        "rule": "表示社會的",
+        "example": "Sociology helps us understand social structures.",
+        "exampleCn": "社會學幫助我們理解社會結構。",
+        "unit": 7
+      },
+      {
+        "word": "somnificent",
+        "chinese": "催眠的",
+        "prefix": "somn-",
+        "base": "ificent",
+        "rule": "表示睡眠",
+        "example": "The music had a somnificent effect on the baby.",
+        "exampleCn": "這音樂對嬰兒有催眠的效果。",
+        "unit": 7
+      },
+      {
+        "word": "sonar",
+        "chinese": "聲納",
+        "prefix": "son-",
+        "base": "ar",
+        "rule": "表示聲音",
+        "example": "The ship used sonar to map the seafloor.",
+        "exampleCn": "這艘船使用聲納來描繪海底地圖。",
+        "unit": 7
+      },
+      {
+        "word": "stereophonic",
+        "chinese": "立體音響的",
+        "prefix": "stereo-",
+        "base": "phonic",
+        "rule": "表示立體的",
+        "example": "They bought a new stereophonic system.",
+        "exampleCn": "他們買了一套新的立體音響系統。",
+        "unit": 7
+      },
+      {
+        "word": "telescope",
+        "chinese": "望遠鏡",
+        "prefix": "tele-",
+        "base": "scope",
+        "rule": "表示遠距離",
+        "example": "You can see the stars clearly through this telescope.",
+        "exampleCn": "透過這架望遠鏡你可以清楚地看到星星。",
+        "unit": 7
+      },
+      {
+        "word": "visible",
+        "chinese": "能看見的",
+        "prefix": "vis-",
+        "base": "ible",
+        "rule": "表示看",
+        "example": "The mountains are visible from our balcony.",
+        "exampleCn": "從我們的陽台可以看到那些山。",
+        "unit": 7
+      },
+      {
+        "word": "workaholic",
+        "chinese": "工作狂",
+        "suffix": "-aholic",
+        "base": "work",
+        "rule": "表示對某事沉迷的人",
+        "example": "He is such a workaholic that he rarely takes a vacation.",
+        "exampleCn": "他是個工作狂，幾乎不休假。",
+        "unit": 8
+      },
+      {
+        "word": "billionaire",
+        "chinese": "億萬富翁",
+        "suffix": "-aire",
+        "base": "billion",
+        "rule": "表示具某項特徵（財富）的人",
+        "example": "The billionaire donated a huge sum to charity.",
+        "exampleCn": "那位億萬富翁捐了一大筆錢給慈善機構。",
+        "unit": 8
+      },
+      {
+        "word": "musician",
+        "chinese": "音樂家",
+        "suffix": "-ian",
+        "base": "music",
+        "rule": "表示從事某領域的人",
+        "example": "She is a talented musician who plays the piano.",
+        "exampleCn": "她是一位彈鋼琴的才華橫溢的音樂家。",
+        "unit": 8
+      },
+      {
+        "word": "applicant",
+        "chinese": "申請者",
+        "suffix": "-ant",
+        "base": "apply",
+        "rule": "表示執行該動作的人",
+        "example": "All applicants must submit their resumes by Friday.",
+        "exampleCn": "所有申請者必須在週五前提交履歷。",
+        "unit": 8
+      },
+      {
+        "word": "beggar",
+        "chinese": "乞丐",
+        "suffix": "-ar",
+        "base": "beg",
+        "rule": "表示執行該動作的人",
+        "example": "The beggar asked for some spare change.",
+        "exampleCn": "那個乞丐討了一些零錢。",
+        "unit": 8
+      },
+      {
+        "word": "crimebuster",
+        "chinese": "犯罪剋星",
+        "suffix": "-buster",
+        "base": "crime",
+        "rule": "表示逮捕或打擊者",
+        "example": "The local police chief is known as a real crimebuster.",
+        "exampleCn": "當地警長被譽為真正的犯罪剋星。",
+        "unit": 8
+      },
+      {
+        "word": "homicide",
+        "chinese": "殺人者",
+        "suffix": "-cide",
+        "base": "homi",
+        "rule": "表示殺手（殺人的行為者）",
+        "example": "He was arrested on a charge of homicide.",
+        "exampleCn": "他因被指控殺人而被逮捕。",
+        "unit": 8
+      },
+      {
+        "word": "astronomer",
+        "chinese": "天文學家",
+        "suffix": "-er",
+        "base": "astronomy",
+        "rule": "表示從事該領域的人",
+        "example": "The astronomer discovered a new star.",
+        "exampleCn": "那位天文學家發現了一顆新星。",
+        "unit": 8
+      },
+      {
+        "word": "artist",
+        "chinese": "藝術家",
+        "suffix": "-ist",
+        "base": "art",
+        "rule": "表示從事該領域的人",
+        "example": "The artist is painting a portrait in the studio.",
+        "exampleCn": "那位藝術家正在工作室裡畫肖像畫。",
+        "unit": 8
+      },
+      {
+        "word": "blacksmith",
+        "chinese": "鐵匠",
+        "suffix": "-smith",
+        "base": "black",
+        "rule": "表示製造金屬器械的人",
+        "example": "The blacksmith forged a new horseshoe.",
+        "exampleCn": "鐵匠打造了一副新的馬蹄鐵。",
+        "unit": 8
+      },
+      {
+        "word": "gangster",
+        "chinese": "匪徒",
+        "suffix": "-ster",
+        "base": "gang",
+        "rule": "表示從事某事的人",
+        "example": "The movie is about a notorious gangster.",
+        "exampleCn": "這部電影是關於一位聲名狼藉的匪徒。",
+        "unit": 9
+      },
+      {
+        "word": "abortifacient",
+        "chinese": "墮胎藥",
+        "suffix": "-facient",
+        "base": "abort",
+        "rule": "表示具某特質的東西",
+        "example": "The substance is classified as an abortifacient.",
+        "exampleCn": "這種物質被歸類為墮胎藥。",
+        "unit": 9
+      },
+      {
+        "word": "booklet",
+        "chinese": "小冊子",
+        "suffix": "-let",
+        "base": "book",
+        "rule": "表示小物品",
+        "example": "Please read the information booklet carefully.",
+        "exampleCn": "請仔細閱讀資訊小冊子。",
+        "unit": 9
+      },
+      {
+        "word": "actress",
+        "chinese": "女演員",
+        "suffix": "-ess",
+        "base": "actor",
+        "rule": "表示陰性",
+        "example": "She is a famous actress in Hollywood.",
+        "exampleCn": "她是好萊塢著名的女演員。",
+        "unit": 9
+      },
+      {
+        "word": "heroine",
+        "chinese": "女英雄",
+        "suffix": "-ine",
+        "base": "hero",
+        "rule": "表示陰性",
+        "example": "She was hailed as a heroine for saving the child.",
+        "exampleCn": "她因救了那孩子而被譽為女英雄。",
+        "unit": 9
+      },
+      {
+        "word": "flexibility",
+        "chinese": "靈活性",
+        "suffix": "-ibility",
+        "base": "flexible",
+        "rule": "將形容詞轉換成名詞，表示性質",
+        "example": "This job offers a lot of flexibility in working hours.",
+        "exampleCn": "這份工作在工作時間上提供了很大的靈活性。",
+        "unit": 9
+      },
+      {
+        "word": "abundance",
+        "chinese": "豐富",
+        "suffix": "-ance",
+        "base": "abundant",
+        "rule": "將形容詞轉換成名詞，表示狀態",
+        "example": "The region has an abundance of natural resources.",
+        "exampleCn": "該地區擁有豐富的天然資源。",
+        "unit": 9
+      },
+      {
+        "word": "accuracy",
+        "chinese": "精確性",
+        "suffix": "-cy",
+        "base": "accurate",
+        "rule": "將形容詞轉換成名詞，表示性質",
+        "example": "The accuracy of the report was questioned.",
+        "exampleCn": "這份報告的精確性受到了質疑。",
+        "unit": 9
+      },
+      {
+        "word": "confidence",
+        "chinese": "信心",
+        "suffix": "-ence",
+        "base": "confident",
+        "rule": "將形容詞轉換成名詞，表示狀態",
+        "example": "He has a lot of confidence in his team.",
+        "exampleCn": "他對他的團隊充滿信心。",
+        "unit": 9
+      },
+      {
+        "word": "darkness",
+        "chinese": "黑暗",
+        "suffix": "-ness",
+        "base": "dark",
+        "rule": "將形容詞轉換成名詞，表示狀態",
+        "example": "She was afraid of the darkness.",
+        "exampleCn": "她害怕黑暗。",
+        "unit": 9
+      },
+      {
+        "word": "acceptance",
+        "chinese": "接受",
+        "suffix": "-ance",
+        "base": "accept",
+        "rule": "將動詞轉換成名詞",
+        "example": "She was happy with the acceptance of her proposal.",
+        "exampleCn": "她對於提案被接受感到高興。",
+        "unit": 9
+      },
+      {
+        "word": "amendment",
+        "chinese": "修正",
+        "suffix": "-ment",
+        "base": "amend",
+        "rule": "將動詞轉換成名詞",
+        "example": "They proposed an amendment to the law.",
+        "exampleCn": "他們提議對該法律進行修正。",
+        "unit": 9
+      },
+      {
+        "word": "abortion",
+        "chinese": "流產",
+        "suffix": "-tion",
+        "base": "abort",
+        "rule": "將動詞轉換成名詞",
+        "example": "The debate on abortion is quite controversial.",
+        "exampleCn": "關於流產的辯論極具爭議性。",
+        "unit": 9
+      },
+      {
+        "word": "exposure",
+        "chinese": "暴露",
+        "suffix": "-ure",
+        "base": "expose",
+        "rule": "將動詞轉換成名詞",
+        "example": "Prolonged exposure to the sun can damage your skin.",
+        "exampleCn": "長時間暴露在陽光下會傷害你的皮膚。",
+        "unit": 9
+      },
+      {
+        "word": "stardom",
+        "chinese": "演員身分",
+        "suffix": "-dom",
+        "base": "star",
+        "rule": "表示地位、身分",
+        "example": "He rose to stardom after his first movie.",
+        "exampleCn": "他在第一部電影後就成為了明星。",
+        "unit": 9
+      },
+      {
+        "word": "brotherhood",
+        "chinese": "手足情誼",
+        "suffix": "-hood",
+        "base": "brother",
+        "rule": "表示性質、關係",
+        "example": "They felt a strong sense of brotherhood.",
+        "exampleCn": "他們感受到了強烈的手足情誼。",
+        "unit": 9
+      },
+      {
+        "word": "friendship",
+        "chinese": "友誼",
+        "suffix": "-ship",
+        "base": "friend",
+        "rule": "表示關係",
+        "example": "Their friendship has lasted for over twenty years.",
+        "exampleCn": "他們的友誼已經持續了二十多年。",
+        "unit": 9
+      },
+      {
+        "word": "democracy",
+        "chinese": "民主政體",
+        "suffix": "-cracy",
+        "base": "democrat",
+        "rule": "表示政體",
+        "example": "Freedom of speech is essential to a democracy.",
+        "exampleCn": "言論自由對民主政體至關重要。",
+        "unit": 9
+      },
+      {
+        "word": "handicraft",
+        "chinese": "手工藝",
+        "suffix": "-craft",
+        "base": "hand",
+        "rule": "表示技能",
+        "example": "She enjoys making beautiful handicraft.",
+        "exampleCn": "她很喜歡製作漂亮的手工藝品。",
+        "unit": 9
+      },
+      {
+        "word": "naturopathy",
+        "chinese": "自然療法",
+        "suffix": "-pathy",
+        "base": "nature",
+        "rule": "表示療法",
+        "example": "He decided to try naturopathy for his back pain.",
+        "exampleCn": "他決定嘗試自然療法來治療背痛。",
+        "unit": 9
+      },
+      {
+        "word": "astronautics",
+        "chinese": "航太學",
+        "suffix": "-ics",
+        "base": "astronaut",
+        "rule": "表示學科、學術",
+        "example": "He is majoring in astronautics.",
+        "exampleCn": "他主修航太學。",
+        "unit": 10
+      },
+      {
+        "word": "oceanography",
+        "chinese": "海洋學",
+        "suffix": "-graphy",
+        "base": "ocean",
+        "rule": "表示撰寫某學科",
+        "example": "She is conducting research in oceanography.",
+        "exampleCn": "她正在進行海洋學的研究。",
+        "unit": 10
+      },
+      {
+        "word": "criminology",
+        "chinese": "犯罪學",
+        "suffix": "-logy",
+        "base": "crimino",
+        "rule": "表示…學；…論",
+        "example": "He published a paper on criminology.",
+        "exampleCn": "他發表了一篇關於犯罪學的論文。",
+        "unit": 10
+      },
+      {
+        "word": "hygrometer",
+        "chinese": "溼度計",
+        "suffix": "-meter",
+        "base": "hygro",
+        "rule": "表示測量儀器",
+        "example": "The hygrometer shows high humidity today.",
+        "exampleCn": "溼度計顯示今天溼度很高。",
+        "unit": 10
+      },
+      {
+        "word": "stethoscope",
+        "chinese": "聽診器",
+        "suffix": "-scope",
+        "base": "stetho",
+        "rule": "表示觀察或檢測儀器",
+        "example": "The doctor used a stethoscope to listen to my heart.",
+        "exampleCn": "醫生用聽診器聽我的心跳。",
+        "unit": 10
+      },
+      {
+        "word": "viraemia",
+        "chinese": "病毒血症",
+        "suffix": "-emia",
+        "base": "vira",
+        "rule": "表示血液疾病",
+        "example": "The patient showed signs of viraemia.",
+        "exampleCn": "該病患出現了病毒血症的跡象。",
+        "unit": 10
+      },
+      {
+        "word": "cardiopathy",
+        "chinese": "心臟病",
+        "suffix": "-pathy",
+        "base": "cardio",
+        "rule": "表示疾病",
+        "example": "He has been diagnosed with a type of cardiopathy.",
+        "exampleCn": "他被診斷出患有一種心臟病。",
+        "unit": 10
+      },
+      {
+        "word": "carload",
+        "chinese": "貨車載重量",
+        "suffix": "-load",
+        "base": "car",
+        "rule": "表示運輸工具的滿載量",
+        "example": "They shipped a full carload of goods.",
+        "exampleCn": "他們運送了一滿車的貨物。",
+        "unit": 10
+      },
+      {
+        "word": "symbiosis",
+        "chinese": "共生",
+        "suffix": "-biosis",
+        "base": "sym",
+        "rule": "表示生活方式",
+        "example": "The relationship is a perfect example of symbiosis.",
+        "exampleCn": "這種關係是共生現象的一個完美例子。",
+        "unit": 10
+      },
+      {
+        "word": "anticline",
+        "chinese": "背斜",
+        "suffix": "-cline",
+        "base": "anti",
+        "rule": "表示斜面",
+        "example": "Geologists found oil near the anticline.",
+        "exampleCn": "地質學家在背斜附近發現了石油。",
+        "unit": 10
+      },
+      {
+        "word": "diplococcus",
+        "chinese": "雙球菌",
+        "suffix": "-coccus",
+        "base": "diplo",
+        "rule": "表示球菌",
+        "example": "The sample showed signs of diplococcus.",
+        "exampleCn": "樣本顯示出雙球菌的跡象。",
+        "unit": 10
+      },
+      {
+        "word": "leucocyte",
+        "chinese": "白血球",
+        "suffix": "-cyte",
+        "base": "leuco",
+        "rule": "表示細胞",
+        "example": "A high count of leucocyte suggests an infection.",
+        "exampleCn": "白血球計數高代表有感染。",
+        "unit": 10
+      },
+      {
+        "word": "febrifuge",
+        "chinese": "退燒藥",
+        "suffix": "-fuge",
+        "base": "febri",
+        "rule": "表示驅走",
+        "example": "The doctor prescribed a febrifuge for the fever.",
+        "exampleCn": "醫生開了退燒藥來治療發燒。",
+        "unit": 10
+      },
+      {
+        "word": "decagon",
+        "chinese": "十邊形",
+        "suffix": "-gon",
+        "base": "deca",
+        "rule": "表示角度或邊數",
+        "example": "A decagon is a polygon with ten sides.",
+        "exampleCn": "十邊形是一個有十個邊的多邊形。",
+        "unit": 11
+      },
+      {
+        "word": "hexahedron",
+        "chinese": "六面體",
+        "suffix": "-hedron",
+        "base": "hexa",
+        "rule": "表示幾何面體",
+        "example": "A cube is a type of regular hexahedron.",
+        "exampleCn": "立方體是一種正六面體。",
+        "unit": 11
+      },
+      {
+        "word": "conservatism",
+        "chinese": "保守主義",
+        "suffix": "-ism",
+        "base": "conservative",
+        "rule": "表示某種主義或信仰",
+        "example": "He is a strong supporter of political conservatism.",
+        "exampleCn": "他是政治保守主義的堅定支持者。",
+        "unit": 11
+      },
+      {
+        "word": "hydrolysis",
+        "chinese": "水解",
+        "suffix": "-lysis",
+        "base": "hydro",
+        "rule": "表示分解或溶解",
+        "example": "The chemical process involves hydrolysis.",
+        "exampleCn": "這個化學過程涉及水解作用。",
+        "unit": 11
+      },
+      {
+        "word": "hydrophone",
+        "chinese": "水中聽音器",
+        "suffix": "-phone",
+        "base": "hydro",
+        "rule": "表示聲音或通訊",
+        "example": "Submarines use a hydrophone to detect underwater sounds.",
+        "exampleCn": "潛水艇使用水中聽音器來探測水下聲音。",
+        "unit": 11
+      },
+      {
+        "word": "chromosome",
+        "chinese": "染色體",
+        "suffix": "-some",
+        "base": "chromo",
+        "rule": "表示體、一組",
+        "example": "Genetic information is carried on each chromosome.",
+        "exampleCn": "遺傳資訊承載於每個染色體上。",
+        "unit": 11
+      },
+      {
+        "word": "biosphere",
+        "chinese": "生物圈",
+        "suffix": "-sphere",
+        "base": "bio",
+        "rule": "表示球體或領域",
+        "example": "Human activities have a significant impact on the biosphere.",
+        "exampleCn": "人類活動對生物圈有顯著的影響。",
+        "unit": 11
+      },
+      {
+        "word": "certifiable",
+        "chinese": "可證明的",
+        "suffix": "-able",
+        "base": "certify",
+        "rule": "表示可……的",
+        "example": "The illness is certifiable by a medical report.",
+        "exampleCn": "該疾病可透過醫療報告證明。",
+        "unit": 12
+      },
+      {
+        "word": "seducible",
+        "chinese": "容易被誘惑的",
+        "suffix": "-ible",
+        "base": "seduce",
+        "rule": "表示可……的",
+        "example": "He was easily seducible by the promise of wealth.",
+        "exampleCn": "他很容易被財富的承諾所誘惑。",
+        "unit": 12
+      },
+      {
+        "word": "countless",
+        "chinese": "數不盡的",
+        "suffix": "-less",
+        "base": "count",
+        "rule": "表示不能……的",
+        "example": "There are countless stars in the sky.",
+        "exampleCn": "天空中有數不盡的星星。",
+        "unit": 12
+      },
+      {
+        "word": "cubiform",
+        "chinese": "立方形的",
+        "suffix": "-form",
+        "base": "cube",
+        "rule": "表示有……性質的",
+        "example": "The crystal has a cubiform structure.",
+        "exampleCn": "這種晶體具有立方形的結構。",
+        "unit": 12
+      },
+      {
+        "word": "babyish",
+        "chinese": "幼稚的",
+        "suffix": "-ish",
+        "base": "baby",
+        "rule": "表示有……性質的",
+        "example": "Stop acting so babyish.",
+        "exampleCn": "別表現得那麼幼稚。",
+        "unit": 12
+      },
+      {
+        "word": "childlike",
+        "chinese": "如孩子般天真的",
+        "suffix": "-like",
+        "base": "child",
+        "rule": "表示有……性質的",
+        "example": "She has a childlike wonder about the world.",
+        "exampleCn": "她對世界有一種孩子般天真的好奇心。",
+        "unit": 12
+      },
+      {
+        "word": "circular",
+        "chinese": "圓形的",
+        "suffix": "-ular",
+        "base": "circle",
+        "rule": "表示有……性質的",
+        "example": "The table has a circular top.",
+        "exampleCn": "這張桌子有個圓形的桌面。",
+        "unit": 12
+      },
+      {
+        "word": "creative",
+        "chinese": "有創造性的",
+        "suffix": "-ive",
+        "base": "create",
+        "rule": "表示有……傾向的",
+        "example": "She is a very creative designer.",
+        "exampleCn": "她是一位非常有創造性的設計師。",
+        "unit": 12
+      },
+      {
+        "word": "brownish",
+        "chinese": "呈褐色的",
+        "suffix": "-ish",
+        "base": "brown",
+        "rule": "表示有幾分的",
+        "example": "The water looked brownish.",
+        "exampleCn": "水看起來呈褐色。",
+        "unit": 12
+      },
+      {
+        "word": "harmful",
+        "chinese": "有害的",
+        "suffix": "-ful",
+        "base": "harm",
+        "rule": "表示充滿……的",
+        "example": "Too much sugar is harmful to your teeth.",
+        "exampleCn": "吃太多糖對你的牙齒有害。",
+        "unit": 12
+      },
+      {
+        "word": "prosperous",
+        "chinese": "繁榮的",
+        "suffix": "-ous",
+        "base": "prosper",
+        "rule": "表示充滿……的",
+        "example": "They live in a prosperous neighborhood.",
+        "exampleCn": "他們住在一個繁榮的社區。",
+        "unit": 12
+      },
+      {
+        "word": "agricultural",
+        "chinese": "農業的",
+        "suffix": "-al",
+        "base": "agriculture",
+        "rule": "表示與……有關的",
+        "example": "The region is known for its agricultural products.",
+        "exampleCn": "該地區以其農產品聞名。",
+        "unit": 12
+      },
+      {
+        "word": "antibiotic",
+        "chinese": "抗生素的",
+        "suffix": "-tic",
+        "base": "antibiosis",
+        "rule": "表示具有……性質的",
+        "example": "This is an antibiotic treatment.",
+        "exampleCn": "這是一種抗生素治療。",
+        "unit": 13
+      },
+      {
+        "word": "actual",
+        "chinese": "實際的",
+        "suffix": "-ual",
+        "base": "act",
+        "rule": "表示具有……性質的",
+        "example": "The actual cost was higher than expected.",
+        "exampleCn": "實際成本比預期高。",
+        "unit": 13
+      },
+      {
+        "word": "worldwide",
+        "chinese": "全世界的",
+        "suffix": "-wide",
+        "base": "world",
+        "rule": "表示方向或範圍",
+        "example": "The company has a worldwide network.",
+        "exampleCn": "該公司擁有全球性的網絡。",
+        "unit": 13
+      },
+      {
+        "word": "clockwise",
+        "chinese": "順時鐘方向的",
+        "suffix": "-wise",
+        "base": "clock",
+        "rule": "表示方向",
+        "example": "Turn the wheel clockwise.",
+        "exampleCn": "將輪子順時鐘方向轉動。",
+        "unit": 13
+      },
+      {
+        "word": "Italian",
+        "chinese": "義大利的",
+        "suffix": "-ian",
+        "base": "Italy",
+        "rule": "表示某國或某地",
+        "example": "I love Italian food.",
+        "exampleCn": "我喜歡義大利食物。",
+        "unit": 13
+      },
+      {
+        "word": "blacken",
+        "chinese": "使變黑",
+        "suffix": "-en",
+        "base": "black",
+        "rule": "動詞字尾，使成為",
+        "example": "The smoke began to blacken the wall.",
+        "exampleCn": "煙開始把牆壁燻黑。",
+        "unit": 13
+      },
+      {
+        "word": "modernize",
+        "chinese": "使現代化",
+        "suffix": "-ize",
+        "base": "modern",
+        "rule": "動詞字尾，使成為",
+        "example": "They decided to modernize their equipment.",
+        "exampleCn": "他們決定將設備現代化。",
+        "unit": 13
+      },
+      {
+        "word": "recede",
+        "chinese": "後退",
+        "suffix": "-cede",
+        "base": "re",
+        "rule": "表示移動或屈服",
+        "example": "The floodwaters began to recede.",
+        "exampleCn": "洪水開始消退。",
+        "unit": 13
+      },
+      {
+        "word": "succeed",
+        "chinese": "成功",
+        "suffix": "-ceed",
+        "base": "suc",
+        "rule": "表示移動或繼承",
+        "example": "If you work hard, you will succeed.",
+        "exampleCn": "如果你努力工作，你就會成功。",
+        "unit": 13
+      },
+      {
+        "word": "perceive",
+        "chinese": "察覺",
+        "suffix": "-ceive",
+        "base": "per",
+        "rule": "表示奪取或取得",
+        "example": "I perceive a change in his attitude.",
+        "exampleCn": "我察覺到他態度的轉變。",
+        "unit": 13
+      },
+      {
+        "word": "accept",
+        "chinese": "接受",
+        "suffix": "-cept",
+        "base": "ac",
+        "rule": "表示拿取",
+        "example": "Please accept my apology.",
+        "exampleCn": "請接受我的道歉。",
+        "unit": 13
+      },
+      {
+        "word": "excite",
+        "chinese": "使興奮",
+        "suffix": "-cite",
+        "base": "ex",
+        "rule": "表示刺激",
+        "example": "The news did not excite me at all.",
+        "exampleCn": "這消息一點也沒有讓我感到興奮。",
+        "unit": 13
+      },
+      {
+        "word": "proclaim",
+        "chinese": "宣告",
+        "suffix": "-claim",
+        "base": "pro",
+        "rule": "表示宣稱",
+        "example": "They proclaimed the winner.",
+        "exampleCn": "他們宣告了獲勝者。",
+        "unit": 13
+      },
+      {
+        "word": "exclude",
+        "chinese": "排除",
+        "suffix": "-clude",
+        "base": "ex",
+        "rule": "表示關閉",
+        "example": "We cannot exclude the possibility of rain.",
+        "exampleCn": "我們不能排除下雨的可能性。",
+        "unit": 13
+      },
+      {
+        "word": "concur",
+        "chinese": "同時發生",
+        "suffix": "-cur",
+        "base": "con",
+        "rule": "表示跑、發生",
+        "example": "His birthday and the holiday concur.",
+        "exampleCn": "他的生日剛好與假期在同一天。",
+        "unit": 14
+      },
+      {
+        "word": "introduce",
+        "chinese": "引進，介紹",
+        "suffix": "-duce",
+        "base": "intro",
+        "rule": "表示導向",
+        "example": "They introduced a new policy last week.",
+        "exampleCn": "他們上週引進了一項新政策。",
+        "unit": 14
+      },
+      {
+        "word": "abduct",
+        "chinese": "誘拐",
+        "suffix": "-duct",
+        "base": "ab",
+        "rule": "表示導向",
+        "example": "The child was abducted from the park.",
+        "exampleCn": "那孩子在公園被誘拐了。",
+        "unit": 14
+      },
+      {
+        "word": "prefer",
+        "chinese": "較喜歡",
+        "suffix": "-fer",
+        "base": "pre",
+        "rule": "表示傳授或具有",
+        "example": "I prefer tea to coffee.",
+        "exampleCn": "我比起咖啡更喜歡茶。",
+        "unit": 14
+      },
+      {
+        "word": "affect",
+        "chinese": "影響",
+        "suffix": "-fect",
+        "base": "af",
+        "rule": "表示做",
+        "example": "The weather can affect your mood.",
+        "exampleCn": "天氣會影響你的心情。",
+        "unit": 14
+      },
+      {
+        "word": "confess",
+        "chinese": "承認",
+        "suffix": "-fess",
+        "base": "con",
+        "rule": "表示承認",
+        "example": "He confessed to the crime.",
+        "exampleCn": "他承認了這項罪行。",
+        "unit": 14
+      },
+      {
+        "word": "define",
+        "chinese": "定義",
+        "suffix": "-fine",
+        "base": "de",
+        "rule": "表示限制",
+        "example": "How do you define success?",
+        "exampleCn": "你如何定義成功？",
+        "unit": 14
+      },
+      {
+        "word": "inflate",
+        "chinese": "使膨脹",
+        "suffix": "-flate",
+        "base": "in",
+        "rule": "表示吹氣",
+        "example": "You need to inflate the balloon.",
+        "exampleCn": "你需要把氣球充氣。",
+        "unit": 14
+      },
+      {
+        "word": "reflect",
+        "chinese": "反射",
+        "suffix": "-flect",
+        "base": "re",
+        "rule": "表示彎曲",
+        "example": "The water reflects the sky.",
+        "exampleCn": "水面反射出天空的影像。",
+        "unit": 14
+      },
+      {
+        "word": "perform",
+        "chinese": "執行",
+        "suffix": "-form",
+        "base": "per",
+        "rule": "表示形成",
+        "example": "He performed the surgery successfully.",
+        "exampleCn": "他成功地執行了手術。",
+        "unit": 14
+      },
+      {
+        "word": "confuse",
+        "chinese": "使困惑",
+        "suffix": "-fuse",
+        "base": "con",
+        "rule": "表示倒入",
+        "example": "The complex instructions confuse me.",
+        "exampleCn": "複雜的指令讓我感到困惑。",
+        "unit": 14
+      },
+      {
+        "word": "transgress",
+        "chinese": "違反",
+        "suffix": "-gress",
+        "base": "trans",
+        "rule": "表示行走",
+        "example": "He transgressed the bounds of law.",
+        "exampleCn": "他越過了法律的界線。",
+        "unit": 14
+      },
+      {
+        "word": "reject",
+        "chinese": "拒絕",
+        "suffix": "-ject",
+        "base": "re",
+        "rule": "表示投擲",
+        "example": "They rejected his application.",
+        "exampleCn": "他們拒絕了他的申請。",
+        "unit": 14
+      },
+      {
+        "word": "collapse",
+        "chinese": "倒塌",
+        "suffix": "-lapse",
+        "base": "col",
+        "rule": "表示掉落",
+        "example": "The old building collapsed yesterday.",
+        "exampleCn": "那棟舊建築物昨天倒塌了。",
+        "unit": 14
+      },
+      {
+        "word": "merge",
+        "chinese": "合併",
+        "suffix": "-merge",
+        "base": "merge",
+        "rule": "表示陷入、沉浸",
+        "example": "The two companies decided to merge.",
+        "exampleCn": "這兩家公司決定合併。",
+        "unit": 14
+      },
+      {
+        "word": "submit",
+        "chinese": "提交",
+        "suffix": "-mit",
+        "base": "sub",
+        "rule": "表示傳送",
+        "example": "Please submit your report by noon.",
+        "exampleCn": "請在中午前提交你的報告。",
+        "unit": 14
+      },
+      {
+        "word": "announce",
+        "chinese": "宣布",
+        "suffix": "-nounce",
+        "base": "an",
+        "rule": "表示報告",
+        "example": "The company announced its new product line.",
+        "exampleCn": "該公司宣布了其新產品線。",
+        "unit": 15
+      },
+      {
+        "word": "export",
+        "chinese": "輸出",
+        "suffix": "-port",
+        "base": "ex",
+        "rule": "表示傳送",
+        "example": "The country exports a lot of oil.",
+        "exampleCn": "這個國家出口大量的石油。",
+        "unit": 15
+      },
+      {
+        "word": "compose",
+        "chinese": "組成，寫作",
+        "suffix": "-pose",
+        "base": "com",
+        "rule": "表示放置",
+        "example": "She composes music for films.",
+        "exampleCn": "她為電影創作音樂。",
+        "unit": 15
+      },
+      {
+        "word": "compress",
+        "chinese": "壓縮",
+        "suffix": "-press",
+        "base": "com",
+        "rule": "表示擠壓",
+        "example": "You can compress the file to save space.",
+        "exampleCn": "你可以壓縮檔案以節省空間。",
+        "unit": 15
+      },
+      {
+        "word": "acquire",
+        "chinese": "獲得",
+        "suffix": "-quire",
+        "base": "ac",
+        "rule": "表示尋找",
+        "example": "He acquired a taste for classical music.",
+        "exampleCn": "他逐漸培養出對古典音樂的品味。",
+        "unit": 15
+      },
+      {
+        "word": "disrupt",
+        "chinese": "使中斷",
+        "suffix": "-rupt",
+        "base": "dis",
+        "rule": "表示破裂",
+        "example": "The strike disrupted train services.",
+        "exampleCn": "罷工導致火車服務中斷。",
+        "unit": 15
+      },
+      {
+        "word": "ascend",
+        "chinese": "上升，攀登",
+        "suffix": "-scend",
+        "base": "a",
+        "rule": "表示爬",
+        "example": "The path ascends steeply up the mountain.",
+        "exampleCn": "這條小路陡峭地向上攀登。",
+        "unit": 15
+      },
+      {
+        "word": "assist",
+        "chinese": "援助",
+        "suffix": "-sist",
+        "base": "as",
+        "rule": "表示立",
+        "example": "He assisted the elderly man across the street.",
+        "exampleCn": "他協助那位老人過馬路。",
+        "unit": 15
+      },
+      {
+        "word": "inspect",
+        "chinese": "檢查",
+        "suffix": "-spect",
+        "base": "in",
+        "rule": "表示看",
+        "example": "The manager inspected the factory floor.",
+        "exampleCn": "經理檢查了工廠車間。",
+        "unit": 15
+      },
+      {
+        "word": "aspire",
+        "chinese": "渴望",
+        "suffix": "-spire",
+        "base": "a",
+        "rule": "表示呼吸",
+        "example": "She aspires to become a great doctor.",
+        "exampleCn": "她渴望成為一名偉大的醫生。",
+        "unit": 15
+      },
+      {
+        "word": "constitute",
+        "chinese": "制定，建立",
+        "suffix": "-stitute",
+        "base": "con",
+        "rule": "表示設立",
+        "example": "These factors constitute a major problem.",
+        "exampleCn": "這些因素構成了一個主要問題。",
+        "unit": 15
+      },
+      {
+        "word": "maintain",
+        "chinese": "維持",
+        "suffix": "-tain",
+        "base": "main",
+        "rule": "表示持有，屬於",
+        "example": "It is difficult to maintain a steady speed.",
+        "exampleCn": "維持恆定的速度很困難。",
+        "unit": 15
+      },
+      {
+        "word": "contribute",
+        "chinese": "捐助，貢獻",
+        "suffix": "-tribute",
+        "base": "con",
+        "rule": "表示分配",
+        "example": "Everyone contributed to the success of the project.",
+        "exampleCn": "每個人都對專案的成功做出了貢獻。",
+        "unit": 15
+      },
+      {
+        "word": "evoke",
+        "chinese": "喚起",
+        "suffix": "-voke",
+        "base": "e",
+        "rule": "表示呼叫",
+        "example": "The music evokes memories of my childhood.",
+        "exampleCn": "這音樂喚起了我童年的記憶。",
+        "unit": 15
+      },
+      {
+        "word": "acerbate",
+        "chinese": "使變苦澀、激怒",
+        "root": "acer",
+        "base": "acerb",
+        "rule": "表示銳利的、酸的",
+        "example": "The heat served to acerbate his mood.",
+        "exampleCn": "炎熱的天氣使他更加焦躁。",
+        "unit": 16
+      },
+      {
+        "word": "agitate",
+        "chinese": "煽動、使焦慮不安",
+        "root": "ag",
+        "base": "agitate",
+        "rule": "表示做、行動",
+        "example": "The activists agitated for social reform.",
+        "exampleCn": "這些激進分子為了社會改革而發起煽動。",
+        "unit": 16
+      },
+      {
+        "word": "agonize",
+        "chinese": "使痛苦，折磨",
+        "root": "agon",
+        "base": "agonize",
+        "rule": "表示掙扎、打鬥",
+        "example": "Don't agonize over the decision.",
+        "exampleCn": "別為這個決定而感到極度痛苦。",
+        "unit": 16
+      },
+      {
+        "word": "alter",
+        "chinese": "改變",
+        "root": "alte",
+        "base": "alter",
+        "rule": "表示其他的、改變",
+        "example": "We had to alter our plans due to the rain.",
+        "exampleCn": "因為下雨，我們必須改變計畫。",
+        "unit": 16
+      },
+      {
+        "word": "amiable",
+        "chinese": "親切的、和藹可親的",
+        "root": "ami",
+        "base": "amiable",
+        "rule": "表示喜愛",
+        "example": "She is an amiable person who gets along with everyone.",
+        "exampleCn": "她是一位與誰都能和睦相處的親切之人。",
+        "unit": 16
+      },
+      {
+        "word": "somnambulate",
+        "chinese": "夢遊",
+        "root": "ambul",
+        "base": "somnambulate",
+        "rule": "表示走動",
+        "example": "He is known to somnambulate during the night.",
+        "exampleCn": "據說他晚上會夢遊。",
+        "unit": 16
+      },
+      {
+        "word": "annual",
+        "chinese": "每年的",
+        "root": "ann",
+        "base": "annual",
+        "rule": "表示年",
+        "example": "They attend the annual meeting every year.",
+        "exampleCn": "他們每年都參加年度會議。",
+        "unit": 16
+      },
+      {
+        "word": "armament",
+        "chinese": "武器、軍備",
+        "root": "arm",
+        "base": "armament",
+        "rule": "表示武器",
+        "example": "The country is increasing its armament.",
+        "exampleCn": "該國正在增加軍備。",
+        "unit": 16
+      },
+      {
+        "word": "astronomy",
+        "chinese": "天文學",
+        "root": "astro",
+        "base": "astronomy",
+        "rule": "表示星星",
+        "example": "He has a keen interest in astronomy.",
+        "exampleCn": "他對天文學有濃厚的興趣。",
+        "unit": 16
+      },
+      {
+        "word": "audible",
+        "chinese": "聽得見的",
+        "root": "audi",
+        "base": "audible",
+        "rule": "表示聽",
+        "example": "The voice was barely audible.",
+        "exampleCn": "那個聲音幾乎聽不見。",
+        "unit": 16
+      },
+      {
+        "word": "combat",
+        "chinese": "戰鬥",
+        "root": "bat",
+        "base": "combat",
+        "rule": "表示打架、打",
+        "example": "Soldiers are trained for hand-to-hand combat.",
+        "exampleCn": "士兵們受過近身格鬥訓練。",
+        "unit": 16
+      },
+      {
+        "word": "antibiotic",
+        "chinese": "抗生素",
+        "root": "bio",
+        "base": "antibiotic",
+        "rule": "表示生命",
+        "example": "The doctor prescribed an antibiotic.",
+        "exampleCn": "醫生開了抗生素。",
+        "unit": 16
+      },
+      {
+        "word": "abbreviate",
+        "chinese": "縮寫、縮短",
+        "root": "brev",
+        "base": "abbreviate",
+        "rule": "表示簡短",
+        "example": "Please abbreviate the long address.",
+        "exampleCn": "請將長地址縮寫。",
+        "unit": 16
+      },
+      {
+        "word": "candor",
+        "chinese": "坦白、直率",
+        "root": "cand",
+        "base": "candor",
+        "rule": "表示赤熱的、白的、純潔的、坦率的",
+        "example": "I appreciate your candor in this matter.",
+        "exampleCn": "我感激你在這件事上的坦率。",
+        "unit": 16
+      },
+      {
+        "word": "access",
+        "chinese": "接近",
+        "root": "cess",
+        "base": "access",
+        "rule": "表示走動、投降",
+        "example": "He has direct access to the files.",
+        "exampleCn": "他可以直接接觸這些檔案。",
+        "unit": 16
+      },
+      {
+        "word": "proclaim",
+        "chinese": "宣布",
+        "root": "claim",
+        "base": "proclaim",
+        "rule": "表示聲音",
+        "example": "They proclaimed him king.",
+        "exampleCn": "他們宣布他為國王。",
+        "unit": 16
+      },
+      {
+        "word": "corporation",
+        "chinese": "公司",
+        "root": "corpor",
+        "base": "corporation",
+        "rule": "表示身體、團體",
+        "example": "He works for a large international corporation.",
+        "exampleCn": "他在一家大型國際公司工作。",
+        "unit": 17
+      },
+      {
+        "word": "credit",
+        "chinese": "信用",
+        "root": "cred",
+        "base": "credit",
+        "rule": "表示相信",
+        "example": "He has a good credit rating with the bank.",
+        "exampleCn": "他在銀行的信用評級很好。",
+        "unit": 17
+      },
+      {
+        "word": "crucial",
+        "chinese": "重要的",
+        "root": "cruc",
+        "base": "crucial",
+        "rule": "表示十字",
+        "example": "This is a crucial moment for our company.",
+        "exampleCn": "這是我們公司關鍵的時刻。",
+        "unit": 17
+      },
+      {
+        "word": "democracy",
+        "chinese": "民主政治",
+        "root": "demo",
+        "base": "democracy",
+        "rule": "表示人類",
+        "example": "Democracy is a system of government by the people.",
+        "exampleCn": "民主是一種由人民統治的政府系統。",
+        "unit": 17
+      },
+      {
+        "word": "predict",
+        "chinese": "預言",
+        "root": "dict",
+        "base": "predict",
+        "rule": "表示說",
+        "example": "Experts predict that the economy will improve.",
+        "exampleCn": "專家預測經濟將會改善。",
+        "unit": 17
+      },
+      {
+        "word": "conduct",
+        "chinese": "指揮，引導",
+        "root": "duct",
+        "base": "conduct",
+        "rule": "表示引導",
+        "example": "The professor conducted a study on sleep.",
+        "exampleCn": "那位教授進行了一項關於睡眠的研究。",
+        "unit": 17
+      },
+      {
+        "word": "egoism",
+        "chinese": "個人主義；自私自利",
+        "root": "ego",
+        "base": "egoism",
+        "rule": "表示自我",
+        "example": "His actions were driven by pure egoism.",
+        "exampleCn": "他的行為完全是由利己主義所驅動的。",
+        "unit": 17
+      },
+      {
+        "word": "confront",
+        "chinese": "使面對",
+        "root": "front",
+        "base": "confront",
+        "rule": "表示正面，表面",
+        "example": "We must confront the problem directly.",
+        "exampleCn": "我們必須直接面對這個問題。",
+        "unit": 17
+      },
+      {
+        "word": "factory",
+        "chinese": "工廠",
+        "root": "fact",
+        "base": "factory",
+        "rule": "表示製作；做",
+        "example": "She works in a car factory.",
+        "exampleCn": "她在一家汽車工廠工作。",
+        "unit": 17
+      },
+      {
+        "word": "transfer",
+        "chinese": "轉移",
+        "root": "fer",
+        "base": "transfer",
+        "rule": "表示帶來，拿來",
+        "example": "He requested a transfer to another department.",
+        "exampleCn": "他申請轉調到另一個部門。",
+        "unit": 17
+      },
+      {
+        "word": "define",
+        "chinese": "定義",
+        "root": "fin",
+        "base": "define",
+        "rule": "表示限制，最終",
+        "example": "Can you define what you mean by that?",
+        "exampleCn": "你能定義你那句話的意思嗎？",
+        "unit": 17
+      },
+      {
+        "word": "confirm",
+        "chinese": "確認",
+        "root": "firm",
+        "base": "confirm",
+        "rule": "表示堅定的，強壯的",
+        "example": "Please confirm your flight reservation.",
+        "exampleCn": "請確認您的機票預訂。",
+        "unit": 17
+      },
+      {
+        "word": "flexible",
+        "chinese": "有彈性的",
+        "root": "flex",
+        "base": "flexible",
+        "rule": "表示彎曲",
+        "example": "We need to be flexible with our schedule.",
+        "exampleCn": "我們在行程安排上需要有彈性。",
+        "unit": 17
+      },
+      {
+        "word": "fluent",
+        "chinese": "流利的",
+        "root": "flu",
+        "base": "fluent",
+        "rule": "表示流，洩",
+        "example": "He is fluent in several languages.",
+        "exampleCn": "他能說多種流利的語言。",
+        "unit": 17
+      },
+      {
+        "word": "fragile",
+        "chinese": "易碎的",
+        "root": "frag",
+        "base": "fragile",
+        "rule": "表示打碎",
+        "example": "Please handle the vase with care as it is fragile.",
+        "exampleCn": "請小心搬運這個花瓶，因為它很易碎。",
+        "unit": 17
+      },
+      {
+        "word": "homogeneous",
+        "chinese": "同類的",
+        "root": "gen",
+        "base": "homogeneous",
+        "rule": "表示產生，種族，起源",
+        "example": "The village has a relatively homogeneous population.",
+        "exampleCn": "這個村莊的人口相對單一。",
+        "unit": 17
+      },
+      {
+        "word": "digest",
+        "chinese": "消化",
+        "root": "gest",
+        "base": "digest",
+        "rule": "表示搬運，攜帶",
+        "example": "It takes time to digest a heavy meal.",
+        "exampleCn": "消化油膩的一餐需要時間。",
+        "unit": 17
+      },
+      {
+        "word": "reject",
+        "chinese": "拒絕",
+        "root": "ject",
+        "base": "reject",
+        "rule": "表示投，擲",
+        "example": "They rejected his offer.",
+        "exampleCn": "他們拒絕了他的提議。",
+        "unit": 17
+      },
+      {
+        "word": "bilateral",
+        "chinese": "雙邊的",
+        "root": "later",
+        "base": "bilateral",
+        "rule": "表示邊",
+        "example": "The two countries signed a bilateral agreement.",
+        "exampleCn": "這兩國簽署了一項雙邊協議。",
+        "unit": 17
+      },
+      {
+        "word": "collect",
+        "chinese": "收集",
+        "root": "lect",
+        "base": "collect",
+        "rule": "表示聚集",
+        "example": "I like to collect old books.",
+        "exampleCn": "我喜歡收集舊書。",
+        "unit": 17
+      },
+      {
+        "word": "liberate",
+        "chinese": "解放，釋放",
+        "root": "liber",
+        "base": "liberate",
+        "rule": "表示自由",
+        "example": "They fought to liberate their country.",
+        "exampleCn": "他們為了解放國家而戰。",
+        "unit": 17
+      },
+      {
+        "word": "bilingual",
+        "chinese": "雙語的",
+        "root": "lingu",
+        "base": "bilingual",
+        "rule": "表示語言，舌",
+        "example": "She is bilingual in English and French.",
+        "exampleCn": "她精通英語與法語（雙語）。",
+        "unit": 17
+      },
+      {
+        "word": "literal",
+        "chinese": "文字的，字面上的",
+        "root": "liter",
+        "base": "literal",
+        "rule": "表示字母",
+        "example": "Please give me a literal translation.",
+        "exampleCn": "請給我一個字面上的翻譯。",
+        "unit": 17
+      },
+      {
+        "word": "illiterate",
+        "chinese": "文盲，不識字的",
+        "root": "liter",
+        "base": "illiterate",
+        "rule": "表示文學、文字",
+        "example": "He is fighting against illiterate policies in rural areas.",
+        "exampleCn": "他正在對抗農村地區的識字率不足問題。",
+        "unit": 18
+      },
+      {
+        "word": "commemorate",
+        "chinese": "紀念",
+        "root": "mem",
+        "base": "commemorate",
+        "rule": "表示記憶",
+        "example": "The monument was built to commemorate the fallen soldiers.",
+        "exampleCn": "這座紀念碑是為了紀念陣亡士兵而建的。",
+        "unit": 18
+      },
+      {
+        "word": "commerce",
+        "chinese": "商業",
+        "root": "merc",
+        "base": "commerce",
+        "rule": "表示貿易",
+        "example": "The chamber of commerce promotes local business.",
+        "exampleCn": "商會致力於促進地方商業發展。",
+        "unit": 18
+      },
+      {
+        "word": "emerge",
+        "chinese": "浮現",
+        "root": "merg",
+        "base": "emerge",
+        "rule": "表示沉，浸，沒",
+        "example": "New evidence began to emerge.",
+        "exampleCn": "新的證據開始浮現。",
+        "unit": 18
+      },
+      {
+        "word": "transmit",
+        "chinese": "傳送",
+        "root": "mit",
+        "base": "transmit",
+        "rule": "表示送",
+        "example": "The radio station transmits signals across the region.",
+        "exampleCn": "該廣播電台向全區傳送訊號。",
+        "unit": 18
+      },
+      {
+        "word": "navigate",
+        "chinese": "航行",
+        "root": "nav",
+        "base": "navigate",
+        "rule": "表示船",
+        "example": "He learned how to navigate the ship in bad weather.",
+        "exampleCn": "他學會了如何在惡劣天氣中航行這艘船。",
+        "unit": 18
+      },
+      {
+        "word": "negative",
+        "chinese": "否定的",
+        "root": "neg",
+        "base": "negative",
+        "rule": "表示否定",
+        "example": "The test results were negative.",
+        "exampleCn": "測試結果呈陰性（否定）。",
+        "unit": 18
+      },
+      {
+        "word": "pedestrian",
+        "chinese": "路人",
+        "root": "ped",
+        "base": "pedestrian",
+        "rule": "表示足",
+        "example": "The pedestrian was hit while crossing the street.",
+        "exampleCn": "那名路人在過馬路時被撞了。",
+        "unit": 18
+      },
+      {
+        "word": "complete",
+        "chinese": "全部的",
+        "root": "plet",
+        "base": "complete",
+        "rule": "表示充足",
+        "example": "The work is now complete.",
+        "exampleCn": "工作現在完成了。",
+        "unit": 18
+      },
+      {
+        "word": "complex",
+        "chinese": "複雜的",
+        "root": "plex",
+        "base": "complex",
+        "rule": "表示重疊，摺疊",
+        "example": "The issue is far more complex than it appears.",
+        "exampleCn": "這個問題遠比看起來更複雜。",
+        "unit": 18
+      },
+      {
+        "word": "expose",
+        "chinese": "使暴露",
+        "root": "pos",
+        "base": "expose",
+        "rule": "表示放置",
+        "example": "Do not expose the film to light.",
+        "exampleCn": "不要讓膠卷曝光。",
+        "unit": 18
+      },
+      {
+        "word": "punctual",
+        "chinese": "準時的",
+        "root": "punct",
+        "base": "punctual",
+        "rule": "表示刺，戳，點",
+        "example": "She is always very punctual for appointments.",
+        "exampleCn": "她赴約總是十分準時。",
+        "unit": 18
+      },
+      {
+        "word": "purify",
+        "chinese": "淨化",
+        "root": "pur",
+        "base": "purify",
+        "rule": "表示清，純",
+        "example": "They use charcoal to purify the water.",
+        "exampleCn": "他們用木炭來淨化水質。",
+        "unit": 18
+      },
+      {
+        "word": "request",
+        "chinese": "請求",
+        "root": "quest",
+        "base": "request",
+        "rule": "表示詢問，尋找",
+        "example": "He requested a meeting with the manager.",
+        "exampleCn": "他要求與經理會面。",
+        "unit": 18
+      },
+      {
+        "word": "subconscious",
+        "chinese": "潛意識的",
+        "root": "sci",
+        "base": "subconscious",
+        "rule": "表示知",
+        "example": "She has a subconscious fear of heights.",
+        "exampleCn": "她有一種潛意識的恐高。",
+        "unit": 18
+      },
+      {
+        "word": "manuscript",
+        "chinese": "手稿",
+        "root": "script",
+        "base": "manuscript",
+        "rule": "表示寫",
+        "example": "The author submitted the manuscript to the publisher.",
+        "exampleCn": "作者將手稿提交給出版社。",
+        "unit": 18
+      },
+      {
+        "word": "assemble",
+        "chinese": "裝配",
+        "root": "semble",
+        "base": "assemble",
+        "rule": "表示相似",
+        "example": "The factory assembles the parts into a whole product.",
+        "exampleCn": "工廠將零件裝配成一個完整的產品。",
+        "unit": 19
+      },
+      {
+        "word": "consensus",
+        "chinese": "共識",
+        "root": "sens",
+        "base": "consensus",
+        "rule": "表示感覺",
+        "example": "They finally reached a consensus.",
+        "exampleCn": "他們最終達成了共識。",
+        "unit": 19
+      },
+      {
+        "word": "assign",
+        "chinese": "分配，指派",
+        "root": "sign",
+        "base": "assign",
+        "rule": "表示標記",
+        "example": "The teacher assigned homework to the students.",
+        "exampleCn": "老師指派功課給學生。",
+        "unit": 19
+      },
+      {
+        "word": "advent",
+        "chinese": "到來，來臨",
+        "root": "vent",
+        "base": "advent",
+        "rule": "表示來",
+        "example": "The advent of the internet changed everything.",
+        "exampleCn": "網路的到來改變了一切。",
+        "unit": 19
+      },
+      {
+        "word": "ventilate",
+        "chinese": "通風",
+        "root": "vent",
+        "base": "ventilate",
+        "rule": "表示風",
+        "example": "You need to ventilate the room.",
+        "exampleCn": "你需要讓房間通風。",
+        "unit": 19
+      },
+      {
+        "word": "convict",
+        "chinese": "宣告有罪",
+        "root": "vict",
+        "base": "convict",
+        "rule": "表示打敗",
+        "example": "The jury convicted him of the crime.",
+        "exampleCn": "陪審團宣告他有罪。",
+        "unit": 19
+      },
+      {
+        "word": "revival",
+        "chinese": "復活",
+        "root": "viv",
+        "base": "revival",
+        "rule": "表示活"
+      },
+      {
+        "word": "resemble",
+        "chinese": "相似，類似",
+        "root": "semble",
+        "base": "resemble",
+        "rule": "表示相似",
+        "example": "He resembles his father in many ways.",
+        "exampleCn": "他在很多方面都很像他父親。",
+        "unit": 19
+      },
+      {
+        "word": "consensus",
+        "chinese": "共識",
+        "root": "sent",
+        "base": "consensus",
+        "rule": "表示感覺",
+        "example": "They finally reached a consensus.",
+        "exampleCn": "他們終於達成了共識。",
+        "unit": 19
+      },
+      {
+        "word": "signify",
+        "chinese": "表示，意味",
+        "root": "sign",
+        "base": "signify",
+        "rule": "表示標記",
+        "example": "The red light signifies stop.",
+        "exampleCn": "紅燈表示停車。",
+        "unit": 19
+      },
+      {
+        "word": "advent",
+        "chinese": "到來，來臨",
+        "root": "vent",
+        "base": "advent",
+        "rule": "表示來",
+        "example": "The advent of the internet changed everything.",
+        "exampleCn": "網際網路的到來改變了一切。",
+        "unit": 19
+      },
+      {
+        "word": "ventilate",
+        "chinese": "通風",
+        "root": "vent",
+        "base": "ventilate",
+        "rule": "表示風",
+        "example": "Please ventilate the room by opening the window.",
+        "exampleCn": "請打開窗戶讓房間通風。",
+        "unit": 19
+      },
+      {
+        "word": "victor",
+        "chinese": "勝利者",
+        "root": "vict",
+        "base": "victor",
+        "rule": "表示打敗",
+        "example": "The victor of the game received a trophy.",
+        "exampleCn": "比賽的勝利者獲得了獎盃。",
+        "unit": 19
+      },
+      {
+        "word": "vivid",
+        "chinese": "鮮明的，生動的",
+        "root": "viv",
+        "base": "vivid",
+        "rule": "表示活",
+        "example": "She has a vivid imagination.",
+        "exampleCn": "她有著生動的想像力。",
+        "unit": 19
+      },
+      {
+        "word": "provoke",
+        "chinese": "煽動，激怒",
+        "root": "vok",
+        "base": "provoke",
+        "rule": "表示喊叫，聲音",
+        "example": "The comment was intended to provoke him.",
+        "exampleCn": "那番評論是為了激怒他。",
+        "unit": 19
       }
     ]
   }

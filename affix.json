@@ -1,0 +1,294 @@
+{
+  "affix": {
+    "1": [
+      {
+        "word": "inconvenient",
+        "chinese": "不便的",
+        "prefix": "in-",
+        "base": "convenient",
+        "rule": "一般的否定字首",
+        "example": "It is inconvenient to travel without a map.",
+        "exampleCn": "沒有地圖旅行很不方便。"
+      },
+      {
+        "word": "incorrect",
+        "chinese": "不對的",
+        "prefix": "in-",
+        "base": "correct",
+        "rule": "一般的否定字首",
+        "example": "Your answer is incorrect.",
+        "exampleCn": "你的答案是不對的。"
+      },
+      {
+        "word": "inactive",
+        "chinese": "不活躍的",
+        "prefix": "in-",
+        "base": "active",
+        "rule": "一般的否定字首",
+        "example": "He has been inactive in the community lately.",
+        "exampleCn": "他最近在社區活動中很不活躍。"
+      },
+      {
+        "word": "impolite",
+        "chinese": "不禮貌的",
+        "prefix": "im-",
+        "base": "polite",
+        "rule": "當單字以 m, p, b 開頭時，否定字首 in- 同化為 im-",
+        "example": "It is impolite to point at people.",
+        "exampleCn": "指著別人是不禮貌的。"
+      },
+      {
+        "word": "impossible",
+        "chinese": "不可能的",
+        "prefix": "im-",
+        "base": "possible",
+        "rule": "當單字以 m, p, b 開頭時，否定字首 in- 同化為 im-",
+        "example": "It is impossible to finish the task in one hour.",
+        "exampleCn": "在一小時內完成這項任務是不可能的。"
+      },
+      {
+        "word": "immature",
+        "chinese": "不成熟的",
+        "prefix": "im-",
+        "base": "mature",
+        "rule": "當單字以 m, p, b 開頭時，否定字首 in- 同化為 im-",
+        "example": "His behavior was very immature.",
+        "exampleCn": "他的行為很不成熟。"
+      },
+      {
+        "word": "impatient",
+        "chinese": "沒耐心的",
+        "prefix": "im-",
+        "base": "patient",
+        "rule": "當單字以 m, p, b 開頭時，否定字首 in- 同化為 im-",
+        "example": "Don't be so impatient; wait your turn.",
+        "exampleCn": "別那麼沒耐心，等輪到你。"
+      },
+      {
+        "word": "imbalance",
+        "chinese": "不平衡",
+        "prefix": "im-",
+        "base": "balance",
+        "rule": "當單字以 m, p, b 開頭時，否定字首 in- 同化為 im-",
+        "example": "The imbalance in the budget is a major concern.",
+        "exampleCn": "預算的不平衡是一個主要的問題。"
+      },
+      {
+        "word": "illegal",
+        "chinese": "違法的",
+        "prefix": "il-",
+        "base": "legal",
+        "rule": "當單字以 l 開頭時，否定字首 in- 同化為 il-",
+        "example": "It is illegal to park here.",
+        "exampleCn": "在這裡停車是違法的。"
+      },
+      {
+        "word": "illogical",
+        "chinese": "沒邏輯的",
+        "prefix": "il-",
+        "base": "logical",
+        "rule": "當單字以 l 開頭時，否定字首 in- 同化為 il-",
+        "example": "His argument is completely illogical.",
+        "exampleCn": "他的論點完全沒邏輯。"
+      },
+      {
+        "word": "illiberal",
+        "chinese": "不自由的",
+        "prefix": "il-",
+        "base": "liberal",
+        "rule": "當單字以 l 開頭時，否定字首 in- 同化為 il-",
+        "example": "He has an illiberal attitude toward new ideas.",
+        "exampleCn": "他對新想法持保守（不自由）的態度。"
+      },
+      {
+        "word": "illiterate",
+        "chinese": "不識字的",
+        "prefix": "il-",
+        "base": "literate",
+        "rule": "當單字以 l 開頭時，否定字首 in- 同化為 il-",
+        "example": "The campaign aims to help illiterate adults.",
+        "exampleCn": "這項運動旨在幫助不識字的成年人。"
+      },
+      {
+        "word": "irresponsible",
+        "chinese": "不負責任的",
+        "prefix": "ir-",
+        "base": "responsible",
+        "rule": "當單字以 r 開頭時，否定字首 in- 同化為 ir-",
+        "example": "It is irresponsible to leave the door unlocked.",
+        "exampleCn": "不鎖門是不負責任的。"
+      },
+      {
+        "word": "irregular",
+        "chinese": "不規則的",
+        "prefix": "ir-",
+        "base": "regular",
+        "rule": "當單字以 r 開頭時，否定字首 in- 同化為 ir-",
+        "example": "The irregular shape of the stone is interesting.",
+        "exampleCn": "這塊石頭不規則的形狀很有趣。"
+      },
+      {
+        "word": "irreducible",
+        "chinese": "不能減少的",
+        "prefix": "ir-",
+        "base": "reducible",
+        "rule": "當單字以 r 開頭時，否定字首 in- 同化為 ir-",
+        "example": "These core costs are irreducible.",
+        "exampleCn": "這些核心成本是不能減少的。"
+      },
+      {
+        "word": "irrecoverable",
+        "chinese": "無可挽救的",
+        "prefix": "ir-",
+        "base": "recoverable",
+        "rule": "當單字以 r 開頭時，否定字首 in- 同化為 ir-",
+        "example": "The damage to the painting is irrecoverable.",
+        "exampleCn": "這幅畫的損毀是無可挽救的。"
+      },
+      {
+        "word": "nonexistent",
+        "chinese": "不存在的",
+        "prefix": "non-",
+        "base": "existent",
+        "rule": "一般的否定字首",
+        "example": "The problem is practically nonexistent.",
+        "exampleCn": "這個問題幾乎是不存在的。"
+      },
+      {
+        "word": "nonfiction",
+        "chinese": "非小說類作品",
+        "prefix": "non-",
+        "base": "fiction",
+        "rule": "一般的否定字首",
+        "example": "I prefer reading nonfiction books.",
+        "exampleCn": "我比較喜歡讀非小說類書籍。"
+      },
+      {
+        "word": "unhappy",
+        "chinese": "不開心的",
+        "prefix": "un-",
+        "base": "happy",
+        "rule": "一般的否定字首",
+        "example": "She felt unhappy about the result.",
+        "exampleCn": "她對結果感到不開心。"
+      },
+      {
+        "word": "uncomfortable",
+        "chinese": "不舒服的",
+        "prefix": "un-",
+        "base": "comfortable",
+        "rule": "一般的否定字首",
+        "example": "The chair is very uncomfortable.",
+        "exampleCn": "這張椅子很不舒服。"
+      },
+      {
+        "word": "unlucky",
+        "chinese": "不幸運的",
+        "prefix": "un-",
+        "base": "lucky",
+        "rule": "一般的否定字首",
+        "example": "I was unlucky enough to lose my wallet.",
+        "exampleCn": "我很不幸運地丟了錢包。"
+      },
+      {
+        "word": "disagree",
+        "chinese": "不同意",
+        "prefix": "dis-",
+        "base": "agree",
+        "rule": "表示相反或否定",
+        "example": "I must disagree with your opinion.",
+        "exampleCn": "我必須反對（不同意）你的意見。"
+      },
+      {
+        "word": "dishonest",
+        "chinese": "不誠實的",
+        "prefix": "dis-",
+        "base": "honest",
+        "rule": "表示相反或否定",
+        "example": "It was dishonest of him to lie.",
+        "exampleCn": "他撒謊是不誠實的行為。"
+      },
+      {
+        "word": "unlike",
+        "chinese": "不像...",
+        "prefix": "un-",
+        "base": "like",
+        "rule": "介系詞，表示與...不同",
+        "example": "Unlike his brother, he loves sports.",
+        "exampleCn": "不像他兄弟，他很熱愛運動。"
+      },
+      {
+        "word": "dislike",
+        "chinese": "不喜歡",
+        "prefix": "dis-",
+        "base": "like",
+        "rule": "動詞，表示討厭",
+        "example": "I dislike waking up early.",
+        "exampleCn": "我不喜歡早起。"
+      },
+      {
+        "word": "misunderstand",
+        "chinese": "誤解",
+        "prefix": "mis-",
+        "base": "understand",
+        "rule": "表示錯誤的",
+        "example": "I think you misunderstood my point.",
+        "exampleCn": "我想你誤解了我的重點。"
+      },
+      {
+        "word": "misuse",
+        "chinese": "誤用",
+        "prefix": "mis-",
+        "base": "use",
+        "rule": "表示錯誤的",
+        "example": "He misused the machine and broke it.",
+        "exampleCn": "他誤用了這台機器，導致它壞了。"
+      },
+      {
+        "word": "mistreat",
+        "chinese": "虐待",
+        "prefix": "mis-",
+        "base": "treat",
+        "rule": "表示錯誤的",
+        "example": "Animals should not be mistreated.",
+        "exampleCn": "動物不應該受到虐待。"
+      },
+      {
+        "word": "detach",
+        "chinese": "分開",
+        "prefix": "de-",
+        "base": "attach",
+        "rule": "表示消除、反轉",
+        "example": "Please detach the coupon from the form.",
+        "exampleCn": "請將優惠券從表格上分開。"
+      },
+      {
+        "word": "decamp",
+        "chinese": "撤營",
+        "prefix": "de-",
+        "base": "camp",
+        "rule": "表示消除、反轉",
+        "example": "We had to decamp because of the storm.",
+        "exampleCn": "因為暴風雨，我們不得不撤營。"
+      },
+      {
+        "word": "decompose",
+        "chinese": "分解",
+        "prefix": "de-",
+        "base": "compose",
+        "rule": "表示消除、反轉",
+        "example": "Leaves will decompose over time.",
+        "exampleCn": "葉子久了會分解。"
+      },
+      {
+        "word": "demote",
+        "chinese": "使降職",
+        "prefix": "de-",
+        "base": "promote",
+        "rule": "表示消除、反轉",
+        "example": "He was demoted for his poor performance.",
+        "exampleCn": "因為表現不佳，他被降職了。"
+      }
+    ]
+  }
+}

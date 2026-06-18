@@ -290,9 +290,7 @@
         "rule": "表示消除、反轉",
         "example": "He was demoted for his poor performance.",
         "exampleCn": "因為表現不佳，他被降職了。"
-      }
-    ],
-    "3": [  
+      },
       {
         "word": "antiabortion",
         "chinese": "反墮胎",
@@ -362,7 +360,9 @@
         "example": "A single counterexample can disprove a theory.",
         "exampleCn": "一個反例就足以推翻一個理論。",
         "unit": 2
-      },
+      }
+    ],
+    "3": [  
       {
         "word": "ex-wife",
         "chinese": "前妻",
@@ -1112,7 +1112,9 @@
         "example": "Please don't interrupt me while I'm speaking.",
         "exampleCn": "請在我說話時不要打斷我。",
         "unit": 3
-      },
+      }
+    ],
+    "4": [  
       {
         "word": "mediate",
         "chinese": "調停",
@@ -1332,7 +1334,9 @@
         "example": "They transport goods by ship.",
         "exampleCn": "他們用船運輸貨物。",
         "unit": 4
-      },
+      }
+    ],
+    "5": [  
       {
         "word": "megacity",
         "chinese": "大城市",
@@ -1623,6 +1627,8 @@
         "exampleCn": "牧師給會眾做了最後的祝福。",
         "unit": 5
       },
+    ],
+    "6": [  
       {
         "word": "benefaction",
         "chinese": "贈品",
@@ -1962,7 +1968,9 @@
         "example": "This bag weighs five kilograms.",
         "exampleCn": "這個袋子重五公斤。",
         "unit": 5
-      },
+      }
+    ],
+    "7": [  
       {
         "word": "acerb",
         "chinese": "刻薄的",
@@ -2062,7 +2070,9 @@
         "example": "He is a professor of climatology.",
         "exampleCn": "他是氣候學教授。",
         "unit": 6
-      },
+      }
+    ],
+    "8": [  
       {
         "word": "ecosystem",
         "chinese": "生態系統",
@@ -2232,7 +2242,9 @@
         "example": "The mountains are visible from our balcony.",
         "exampleCn": "從我們的陽台可以看到那些山。",
         "unit": 7
-      },
+      }
+    ],
+    "9": [  
       {
         "word": "workaholic",
         "chinese": "工作狂",
@@ -2923,6 +2935,8 @@
         "exampleCn": "他們決定將設備現代化。",
         "unit": 13
       },
+    ],
+    "10": [  
       {
         "word": "recede",
         "chinese": "後退",

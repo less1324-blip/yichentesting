@@ -546,7 +546,7 @@
             currentDojo: 'vocab', currentDifficulty: 'basic', currentLevel: 1, currentUnit: 1, currentTab: 'list', 
             exp: 0, streak: 0, highestStreak: 0, quizIndex: 0, spellingIndex: 0, clozeIndex: 0, flashcardIndex: 0,
             correctCount: 0, totalAnswered: 0, voiceAccent: 'US', speechRate: 0.85,
-            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json",
+            autoSyncUrl: "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/49f41879d4c9ab25de45cf0777051266402cb6e7/affix.json",
             autoSyncMode: "merge", autoSyncOnLoad: true
         };
 
@@ -951,8 +951,8 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl || userState.autoSyncUrl.includes("English-Training-Dojo") || userState.autoSyncUrl.includes("dc8d42") || userState.autoSyncUrl.includes("8748aef")) {
-                        userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+                    if (!userState.autoSyncUrl || userState.autoSyncUrl.includes("English-Training-Dojo") || userState.autoSyncUrl.includes("dc8d42") || userState.autoSyncUrl.includes("8748aef") || !userState.autoSyncUrl.includes("affix.json")) {
+                        userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/49f41879d4c9ab25de45cf0777051266402cb6e7/affix.json";
                     }
                 } catch(e) {}
             }
@@ -1805,14 +1805,14 @@
         function fillModalSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('modal-sync-url-input');
             if (targetInput) {
-                targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+                targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/49f41879d4c9ab25de45cf0777051266402cb6e7/affix.json";
                 showToast("已成功帶入 GitHub 測試資料庫網址！", "info");
             }
         }
 
         function fillGithubSampleUrl() {
             playSound('click'); const targetInput = document.getElementById('github-url-input');
-            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json";
+            if (targetInput) targetInput.value = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/49f41879d4c9ab25de45cf0777051266402cb6e7/affix.json";
         }
 
         function saveAdminSyncToGlobal() {

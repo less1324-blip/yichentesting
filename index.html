@@ -79,6 +79,12 @@
         .audio-wave-bar:nth-child(3) { animation-delay: 0.3s; }
         .audio-wave-bar:nth-child(4) { animation-delay: 0.45s; }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
+
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: rgba(11, 15, 25, 0.5); }
         ::-webkit-scrollbar-thumb { background: rgba(29, 78, 216, 0.3); border-radius: 99px; }
@@ -282,7 +288,7 @@
         </section>
     </main>
 
-    <!-- Welcome Guide Modal -->
+    <!-- Welcome Guide Modal (新手指南) -->
     <div id="welcome-guide-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-[100] flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300">
         <div class="glass-panel border border-orange-500/40 max-w-2xl w-full mx-4 rounded-3xl p-1 shadow-2xl scale-95 transition-transform duration-300 relative overflow-hidden flex flex-col max-h-[85vh]">
             <div class="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -373,6 +379,106 @@
             <div class="p-4 sm:p-5 border-t border-slate-800/80 bg-slate-900/40 rounded-b-3xl flex justify-center">
                 <button onclick="closeWelcomeGuide()" class="px-8 py-3 bg-gradient-to-r from-orange-500 to-amber-600 hover:opacity-90 text-slate-950 font-black text-sm rounded-xl shadow-lg shadow-orange-500/20 transition-all flex items-center gap-2">
                     <i class="fa-solid fa-bolt"></i> 我已了解，開始修煉！
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Affix Guide Modal (字根字首解碼指南) -->
+    <div id="affix-guide-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-[100] flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300">
+        <div class="glass-panel border border-emerald-500/40 max-w-2xl w-full mx-4 rounded-3xl p-1 shadow-2xl scale-95 transition-transform duration-300 relative overflow-hidden flex flex-col max-h-[85vh]">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="flex items-center justify-between border-b border-slate-800/80 p-4 sm:p-5 relative z-10 bg-slate-900/40 rounded-t-3xl">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-slate-950 shadow-lg shadow-emerald-500/30">
+                        <i class="fa-solid fa-puzzle-piece text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg sm:text-xl font-black text-white tracking-widest">字根字首解碼指南</h3>
+                        <p class="text-[10px] sm:text-xs text-emerald-400 font-bold uppercase tracking-wider mt-0.5">Affix Decoding Guide</p>
+                    </div>
+                </div>
+                <button onclick="closeAffixGuide()" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-all">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <div class="p-4 sm:p-6 overflow-y-auto relative z-10 flex flex-col gap-5 custom-scrollbar min-h-[250px] sm:min-h-[300px]">
+                
+                <!-- 第一頁：理念 -->
+                <div id="affix-slide-1" class="animate-fade-in flex flex-col gap-4">
+                    <div class="text-center mb-2">
+                        <span class="text-5xl drop-shadow-md">🧩</span>
+                        <h4 class="text-lg sm:text-xl font-black text-emerald-400 mt-4 tracking-wide">背單字，不該是記憶的苦行。</h4>
+                    </div>
+                    <p class="text-sm sm:text-base text-slate-300 leading-relaxed font-medium bg-slate-900/60 border border-slate-800 p-5 rounded-2xl">
+                        你是否發現，英文單字永遠背不完？<br><br>
+                        其實，英文不是由雜亂的字母組成的，而是像拼圖一樣，由<strong class="text-emerald-400 mx-1">「字首、字根、字尾」</strong>組成的邏輯組合。<br><br>
+                        這款軟體將帶你進入單字解碼的世界，讓你學會後，看見陌生單字也能一眼看透它的靈魂。
+                    </p>
+                </div>
+
+                <!-- 第二頁：學習地圖 -->
+                <div id="affix-slide-2" class="hidden animate-fade-in flex flex-col gap-4">
+                    <div class="text-center mb-2">
+                        <span class="text-5xl drop-shadow-md">🗺️</span>
+                        <h4 class="text-lg sm:text-xl font-black text-blue-400 mt-4 tracking-wide">學習地圖</h4>
+                    </div>
+                    <div class="bg-slate-900/60 border border-slate-800 p-4 sm:p-5 rounded-2xl flex flex-col gap-3">
+                        <p class="text-xs sm:text-sm text-slate-400 font-bold leading-relaxed">我們將學習內容分為 Level 1 至 Level 10，這是一套循序漸進的解碼課程：</p>
+                        <div class="flex flex-col gap-3 mt-1">
+                            <div class="bg-slate-950/40 p-3 sm:p-4 rounded-xl border border-slate-800/50">
+                                <span class="text-sm sm:text-base font-bold text-orange-400 block mb-1.5"><i class="fa-solid fa-compass mr-1.5"></i>Level 1-4 (邏輯與方位)</span>
+                                <span class="text-xs sm:text-sm text-slate-300 leading-relaxed block">先學會否定詞與方位邏輯，建立單字的骨架。</span>
+                            </div>
+                            <div class="bg-slate-950/40 p-3 sm:p-4 rounded-xl border border-slate-800/50">
+                                <span class="text-sm sm:text-base font-bold text-blue-400 block mb-1.5"><i class="fa-solid fa-palette mr-1.5"></i>Level 5-6 (性質與分類)</span>
+                                <span class="text-xs sm:text-sm text-slate-300 leading-relaxed block">精準掌握單字的色彩與評估，提升用字精確度。</span>
+                            </div>
+                            <div class="bg-slate-950/40 p-3 sm:p-4 rounded-xl border border-slate-800/50">
+                                <span class="text-sm sm:text-base font-bold text-rose-400 block mb-1.5"><i class="fa-solid fa-microscope mr-1.5"></i>Level 7-10 (詞根解碼)</span>
+                                <span class="text-xs sm:text-sm text-slate-300 leading-relaxed block">深入語源，拆解複雜的學術詞彙。每學一個詞根，等於掌握一個單字家族！</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 第三頁：如何開始 -->
+                <div id="affix-slide-3" class="hidden animate-fade-in flex flex-col gap-4">
+                    <div class="text-center mb-2">
+                        <span class="text-5xl drop-shadow-md">🚀</span>
+                        <h4 class="text-lg sm:text-xl font-black text-amber-400 mt-4 tracking-wide">如何開始</h4>
+                    </div>
+                    <div class="bg-slate-900/60 border border-slate-800 p-6 sm:p-8 rounded-2xl text-center">
+                        <p class="text-sm sm:text-base text-slate-300 leading-relaxed font-medium mb-6">
+                            「準備好進行解碼了嗎？」<br><br>
+                            點擊下方的 <strong class="text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded mx-1">[開始解碼]</strong>，我們將從 Level 1 帶你入門。<br><br>
+                            每完成一個等級，你將收集到更多的「單字積木」。現在，讓我們從拆解第一個單字開始，用邏輯取代死背，讓單字成為你的長期記憶！
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer (Navigation Buttons) -->
+            <div class="p-4 sm:p-5 border-t border-slate-800/80 bg-slate-900/40 rounded-b-3xl flex items-center justify-between">
+                <button id="affix-btn-prev" onclick="prevAffixSlide()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs sm:text-sm font-bold rounded-xl transition-all invisible">
+                    <i class="fa-solid fa-arrow-left mr-1"></i> 上一頁
+                </button>
+                
+                <div class="flex gap-2.5">
+                    <div id="affix-dot-1" class="w-6 h-2 rounded-full bg-emerald-400 transition-all shadow-glow"></div>
+                    <div id="affix-dot-2" class="w-2 h-2 rounded-full bg-slate-700 transition-all"></div>
+                    <div id="affix-dot-3" class="w-2 h-2 rounded-full bg-slate-700 transition-all"></div>
+                </div>
+
+                <button id="affix-btn-next" onclick="nextAffixSlide()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-emerald-400 text-xs sm:text-sm font-bold rounded-xl transition-all border border-emerald-500/30">
+                    下一頁 <i class="fa-solid fa-arrow-right ml-1"></i>
+                </button>
+                
+                <button id="affix-btn-start" onclick="closeAffixGuide()" class="hidden px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:opacity-90 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-lg shadow-emerald-500/20 transition-all">
+                    <i class="fa-solid fa-bolt mr-1"></i> 開始解碼
                 </button>
             </div>
         </div>
@@ -528,18 +634,7 @@
         let mainDatabase = { 
             vocab: { basic: {}, intermediate: {}, advanced: {} }, 
             phrase: {},
-            affix: {
-                1: [
-                    { word: "impolite", chinese: "不禮貌的", prefix: "im-", base: "polite", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "It is impolite to point at people.", exampleCn: "指著別人是不禮貌的。", unit: 1 },
-                    { word: "impossible", chinese: "不可能的", prefix: "im-", base: "possible", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "It is impossible to finish this in one day.", exampleCn: "要在一天內完成這個是不可能的。", unit: 1 },
-                    { word: "immature", chinese: "不成熟的", prefix: "im-", base: "mature", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "His behavior is very immature.", exampleCn: "他的行為非常不成熟。", unit: 1 },
-                    { word: "impatient", chinese: "沒耐心的", prefix: "im-", base: "patient", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "Don't be so impatient.", exampleCn: "別這麼沒耐心。", unit: 1 },
-                    { word: "imbalance", chinese: "不平衡", prefix: "im-", base: "balance", rule: "當原本的單字是以 m, p, b 開頭時，否定字首 in- 會同化變成 im-", example: "There is an imbalance of power.", exampleCn: "存在著權力不平衡。", unit: 1 },
-                    { word: "inconvenient", chinese: "不便的", prefix: "in-", base: "convenient", rule: "一般的否定字首", example: "The new schedule is very inconvenient.", exampleCn: "新的時間表非常不方便。", unit: 1 },
-                    { word: "incorrect", chinese: "不對的", prefix: "in-", base: "correct", rule: "一般的否定字首", example: "Your answer is incorrect.", exampleCn: "你的答案是不對的。", unit: 1 },
-                    { word: "inactive", chinese: "不活躍的", prefix: "in-", base: "active", rule: "一般的否定字首", example: "He has been inactive in politics lately.", exampleCn: "他最近在政治上不活躍。", unit: 1 }
-                ]
-            } 
+            affix: {} 
         };
         
         let userState = {
@@ -552,6 +647,7 @@
 
         let isAdminUnlocked = false;
         let currentQuizWord = ""; 
+        let currentAffixSlide = 1;
 
         function openWelcomeGuide() {
             const modal = document.getElementById('welcome-guide-modal');
@@ -568,6 +664,71 @@
                 modal.classList.add('pointer-events-none', 'opacity-0');
                 modal.firstElementChild.classList.add('scale-95');
             }
+        }
+
+        function openAffixGuide() {
+            currentAffixSlide = 1;
+            updateAffixSlides();
+            const modal = document.getElementById('affix-guide-modal');
+            if (modal) {
+                modal.classList.remove('pointer-events-none', 'opacity-0');
+                modal.firstElementChild.classList.remove('scale-95');
+            }
+        }
+
+        function closeAffixGuide() {
+            playSound('click');
+            const modal = document.getElementById('affix-guide-modal');
+            if (modal) {
+                modal.classList.add('pointer-events-none', 'opacity-0');
+                modal.firstElementChild.classList.add('scale-95');
+            }
+            localStorage.setItem('affix_guide_seen_final', 'true');
+            setTimeout(() => {
+                const levelSection = document.getElementById('level-selector-section');
+                if (levelSection) levelSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 300);
+        }
+
+        function updateAffixSlides() {
+            for(let i=1; i<=3; i++) {
+                const slide = document.getElementById('affix-slide-' + i);
+                const dot = document.getElementById('affix-dot-' + i);
+                if (slide) slide.classList.toggle('hidden', i !== currentAffixSlide);
+                if (dot) {
+                    if (i === currentAffixSlide) {
+                        dot.classList.remove('bg-slate-700', 'w-2');
+                        dot.classList.add('bg-emerald-400', 'w-6');
+                    } else {
+                        dot.classList.remove('bg-emerald-400', 'w-6');
+                        dot.classList.add('bg-slate-700', 'w-2');
+                    }
+                }
+            }
+            const btnPrev = document.getElementById('affix-btn-prev');
+            if (btnPrev) btnPrev.classList.toggle('invisible', currentAffixSlide === 1);
+            
+            const btnNext = document.getElementById('affix-btn-next');
+            const btnStart = document.getElementById('affix-btn-start');
+            if (currentAffixSlide === 3) {
+                if(btnNext) btnNext.classList.add('hidden');
+                if(btnStart) btnStart.classList.remove('hidden');
+            } else {
+                if(btnNext) btnNext.classList.remove('hidden');
+                if(btnStart) btnStart.classList.add('hidden');
+            }
+        }
+
+        function nextAffixSlide() {
+            playSound('click');
+            if (currentAffixSlide < 3) currentAffixSlide++;
+            updateAffixSlides();
+        }
+
+        function prevAffixSlide() {
+            playSound('click');
+            if (currentAffixSlide > 1) currentAffixSlide--;
+            updateAffixSlides();
         }
 
         function getThemeColors() {
@@ -648,7 +809,8 @@
                     osc.type = 'sine';
                     osc.frequency.setValueAtTime(523.25, now); 
                     osc.frequency.setValueAtTime(659.25, now + 0.1);
-                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.setValueAtTime(0.001, now);
+                    gain.gain.linearRampToValueAtTime(0.1, now + 0.02);
                     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
                     osc.start(now); 
                     osc.stop(now + 0.4);
@@ -656,15 +818,17 @@
                     osc.type = 'triangle';
                     osc.frequency.setValueAtTime(220.00, now); 
                     osc.frequency.setValueAtTime(146.83, now + 0.15);
-                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.setValueAtTime(0.001, now);
+                    gain.gain.linearRampToValueAtTime(0.1, now + 0.02);
                     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
                     osc.start(now); 
                     osc.stop(now + 0.4);
                 } else if (type === 'click') {
                     osc.type = 'sine';
                     osc.frequency.setValueAtTime(700, now); 
-                    gain.gain.setValueAtTime(0.08, now); 
-                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1); 
+                    gain.gain.setValueAtTime(0.001, now);
+                    gain.gain.linearRampToValueAtTime(0.05, now + 0.01);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1);
                     osc.start(now); 
                     osc.stop(now + 0.1);
                 } else if (type === 'levelUp') {
@@ -676,7 +840,8 @@
                         noteOsc.type = 'sine';
                         const time = now + idx * 0.1;
                         noteOsc.frequency.setValueAtTime(freq, time);
-                        noteGain.gain.setValueAtTime(0.1, time); 
+                        noteGain.gain.setValueAtTime(0.001, time); 
+                        noteGain.gain.linearRampToValueAtTime(0.08, time + 0.02);
                         noteGain.gain.exponentialRampToValueAtTime(0.001, time + 0.3);
                         noteOsc.start(time); 
                         noteOsc.stop(time + 0.3);
@@ -951,7 +1116,7 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl || userState.autoSyncUrl.includes("English-Training-Dojo") || userState.autoSyncUrl.includes("dc8d42") || userState.autoSyncUrl.includes("8748aef") || !userState.autoSyncUrl.includes("affix.json")) {
+                    if (!userState.autoSyncUrl || userState.autoSyncUrl.includes("English-Training-Dojo") || userState.autoSyncUrl.includes("dc8d42") || userState.autoSyncUrl.includes("8748aef")) {
                         userState.autoSyncUrl = "https://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_basic.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/29a8b124cbe6ed1fbd097b19ae6632750a3e650c/vocab_intermediate.json\nhttps://raw.githubusercontent.com/less1324-blip/yichentesting/49f41879d4c9ab25de45cf0777051266402cb6e7/affix.json";
                     }
                 } catch(e) {}
@@ -1026,14 +1191,18 @@
             if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
             saveProgress(); updateDojoTabUI(); renderDifficultySelector(); renderLevelSelector(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
             
-            setTimeout(() => {
-                const diffSection = document.getElementById('difficulty-selector-section');
-                if (dojoType === 'vocab' && diffSection && !diffSection.classList.contains('hidden')) {
-                    diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                } else {
-                    document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }, 150);
+            if (dojoType === 'affix' && !localStorage.getItem('affix_guide_seen_final')) {
+                openAffixGuide();
+            } else {
+                setTimeout(() => {
+                    const diffSection = document.getElementById('difficulty-selector-section');
+                    if (dojoType === 'vocab' && diffSection && !diffSection.classList.contains('hidden')) {
+                        diffSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    } else {
+                        document.getElementById('level-selector-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }, 150);
+            }
         }
 
         function updateDojoTabUI() {
@@ -1773,7 +1942,7 @@
                         </div>
                         <div class="flex gap-2 justify-end">
                             <button onclick="saveAdminSyncToGlobal()" class="px-5 py-2 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold text-xs rounded-xl transition-all">綁定為「首頁自動同步」網址</button>
-                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5"><i class="fa-solid fa-cloud-arrow-down"></i> 啟端提取大陣</button>
+                            <button id="github-fetch-btn" onclick="fetchGitHubJson()" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5"><i class="fa-solid fa-cloud-arrow-down"></i> 啟動雲端提取大陣</button>
                         </div>
                     </div>
                     

@@ -1215,17 +1215,25 @@
                 const safeExample = item.example.replace(/'/g, "\\'");
                 const clickableExample = createClickableSentence(item.example);
                 
+                let affixWordHTML = item.word;
+                if (userState.currentDojo === 'affix' && (item.prefix || item.base || item.suffix)) {
+                    affixWordHTML = '';
+                    if (item.prefix) affixWordHTML += `<span class="${theme.text}">${item.prefix}</span>`;
+                    if (item.base) affixWordHTML += `<span class="text-white">${item.base}</span>`;
+                    if (item.suffix) affixWordHTML += `<span class="${theme.text}">${item.suffix}</span>`;
+                }
+                
                 listHTML += `
                     <div id="list-item-${idx}" class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 ${theme.border} flex flex-col justify-between group hover:bg-slate-800/40">
                         <div class="flex items-center justify-between gap-4 mb-3">
                             <div class="flex-1">
                                 <h4 id="list-word-${idx}" class="text-xl sm:text-2xl font-black tracking-wide text-white flex flex-wrap items-center gap-3 ${theme.textHover} transition-colors p-1 rounded-lg">
-                                    ${userState.currentDojo === 'affix' && item.prefix && item.base ? `<span class="${theme.text}">${item.prefix}</span><span class="text-white">${item.base}</span>` : item.word} 
+                                    ${affixWordHTML} 
                                     ${item.phonetic ? `<span class="text-sm text-slate-500 font-medium font-mono">${item.phonetic}</span>` : ''}
                                 </h4>
                                 <div class="mt-2 flex flex-col items-start gap-1.5">
                                     <p class="text-sm sm:text-base text-slate-200 font-semibold bg-slate-950/50 px-3 py-1 rounded-lg inline-block border border-slate-800/50">${item.chinese}</p>
-                                    ${userState.currentDojo === 'affix' && item.rule ? `<div class="px-2.5 py-1 rounded-lg ${theme.bgLight} ${theme.border} text-[11px] sm:text-xs ${theme.text} font-bold mt-1"><i class="fa-solid fa-lightbulb mr-1.5"></i>字首法則：${item.rule}</div>` : ''}
+                                    ${userState.currentDojo === 'affix' && item.rule ? `<div class="px-2.5 py-1 rounded-lg ${theme.bgLight} ${theme.border} text-[11px] sm:text-xs ${theme.text} font-bold mt-1"><i class="fa-solid fa-lightbulb mr-1.5"></i>拆解法則：${item.rule}</div>` : ''}
                                 </div>
                             </div>
                             <button onclick="speakWord('${safeWord}')" class="w-12 h-12 flex items-center justify-center text-slate-400 ${theme.textHover} rounded-xl bg-slate-850 hover:bg-slate-800 active:scale-90 transition-all shrink-0 shadow-sm border border-slate-800" title="僅朗讀單字">
@@ -1827,7 +1835,7 @@
                             example: String(item.example || item.sentence || "").trim(), exampleCn: String(item.exampleCn || item.sentenceCn || "").trim(),
                             clozeQuestion: String(item.clozeQuestion || "").trim(), clozeCn: String(item.clozeCn || "").trim(),
                             clozeAnswer: String(item.clozeAnswer || item.word || "").trim(), unit: parseInt(item.unit) || 1,
-                            prefix: item.prefix, base: item.base, rule: item.rule
+                            prefix: item.prefix, base: item.base, suffix: item.suffix, rule: item.rule
                         };
                         if(type === 'vocab') normalized.vocab[diff][lvl].push(cleanItem);
                         else if (type === 'phrase') normalized.phrase[lvl].push(cleanItem);

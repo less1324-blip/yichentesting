@@ -7617,6 +7617,406 @@
           "clozeCn": "這項國際貿易條約獲得所有成員國的批准，以消除關稅並促進經濟合作。",
           "clozeAnswer": "treaty",
           "unit": 8
+        },
+        {
+        "word": "optometry (n.)",
+        "chinese": "驗光",
+        "example": "After completing his degree in optometry, he opened a clinic to provide professional vision care to the local community.",
+        "exampleCn": "完成驗光學位後，他開設了一間診所，為當地社區提供專業的視力保健。",
+        "clozeQuestion": "A career in ______ requires a deep understanding of ocular anatomy and the ability to diagnose common vision disorders.",
+        "clozeCn": "從事驗光職涯需要對眼部解剖學有深刻理解，且具備診斷常見視力障礙的能力。",
+        "clozeAnswer": "optometry",
+        "unit": 9
+        },
+        {
+          "word": "opulence (n.)",
+          "chinese": "奢侈；富麗堂皇",
+          "example": "The mansion was decorated with such opulence that it felt more like a museum than a private residence.",
+          "exampleCn": "那棟豪宅裝飾得極其富麗堂皇，感覺比起私人住宅更像一座博物館。",
+          "clozeQuestion": "The sheer ______ of the royal banquet, featuring gold-plated dinnerware and exotic dishes, stunned the foreign dignitaries.",
+          "clozeCn": "皇家宴會純粹的奢侈（鋪張），包含鍍金餐具與奇珍異味，震懾了外國使節。",
+          "clozeAnswer": "opulence",
+          "unit": 9
+        },
+        {
+          "word": "opulent (adj.)",
+          "chinese": "奢華的；豪華的",
+          "example": "They stayed in an opulent hotel suite overlooking the city, complete with marble floors and silk curtains.",
+          "exampleCn": "他們住在能俯瞰城市的奢華飯店套房，裡頭配備大理石地板與絲綢窗簾。",
+          "clozeQuestion": "The ______ lifestyle of the historical elite is well-documented in the surviving diaries and records of the era.",
+          "clozeCn": "歷史菁英的奢華生活型態，在該時代尚存的日記與紀錄中有詳盡記載。",
+          "clozeAnswer": "opulent",
+          "unit": 9
+        },
+        {
+          "word": "oration (n.)",
+          "chinese": "致詞；演說",
+          "example": "The graduate delivered a powerful oration that inspired his peers to pursue their dreams with courage and integrity.",
+          "exampleCn": "畢業生發表了一場強而有力的致詞，激勵了他的同儕以勇氣與正直追求夢想。",
+          "clozeQuestion": "The senator prepared a formal ______ to address the nation on the importance of unity during these challenging times.",
+          "clozeCn": "參議員準備了一場正式演說，以在這些挑戰時期向全國民眾談論團結的重要性。",
+          "clozeAnswer": "oration",
+          "unit": 9
+        },
+        {
+          "word": "oratorio (n.)",
+          "chinese": "神劇；清唱劇",
+          "example": "The local choir performed a famous Handel oratorio, bringing the complex musical themes to life for the audience.",
+          "exampleCn": "當地唱詩班表演了一場著名的韓德爾神劇，為觀眾活靈活現地呈現了複雜的音樂主題。",
+          "clozeQuestion": "Composed primarily of vocal solos and orchestral accompaniment, the ______ focuses on religious narratives often performed in concert halls.",
+          "clozeCn": "主要由聲樂獨唱與管弦樂伴奏組成，神劇聚焦於常在音樂廳表演的宗教敘事。",
+          "clozeAnswer": "oratorio",
+          "unit": 9
+        },
+        {
+          "word": "oratory (n.)",
+          "chinese": "演講才能；雄辯",
+          "example": "His skills in oratory made him one of the most effective spokespersons in the history of the political movement.",
+          "exampleCn": "他雄辯的才能使他成為該政治運動史上最有效的發言人之一。",
+          "clozeQuestion": "Great leaders throughout history have used the power of ______ to sway public opinion and mobilize social change.",
+          "clozeCn": "縱觀歷史，偉大的領袖們皆運用演講才能的力量來影響公眾輿論並動員社會變革。",
+          "clozeAnswer": "oratory",
+          "unit": 9
+        },
+        {
+          "word": "ornate (adj.)",
+          "chinese": "裝飾華麗的",
+          "example": "The cathedral’s ornate ceiling features intricate carvings and gold leaf applications that date back to the Renaissance.",
+          "exampleCn": "大教堂裝飾華麗的天花板具有複雜的雕刻與金箔應用，可追溯回文藝復興時期。",
+          "clozeQuestion": "In her writing, she prefers a simple and direct style, avoiding the ______ prose favored by many classical authors.",
+          "clozeCn": "在寫作中，她偏好簡單直接的風格，避免許多古典作家所偏好的辭藻華麗文體。",
+          "clozeAnswer": "ornate",
+          "unit": 9
+        },
+        {
+          "word": "orthodoxy (n.)",
+          "chinese": "正統觀念",
+          "example": "Scientific orthodoxy often changes over time as new discoveries challenge long-held theories about the natural world.",
+          "exampleCn": "科學正統觀念常隨時間改變，因為新發現挑戰了長期以來對於自然世界的理論。",
+          "clozeQuestion": "The young researcher dared to challenge the existing ______ within the field, proposing a radical new theory that sparked intense debate.",
+          "clozeCn": "那位年輕研究者敢於挑戰該領域中現存的正統觀念，提出了引發激烈辯論的激進新理論。",
+          "clozeAnswer": "orthodoxy",
+          "unit": 9
+        },
+        {
+          "word": "ossify (v.)",
+          "chinese": "僵化；骨化",
+          "example": "If a corporate culture begins to ossify, it fails to innovate and eventually loses its competitive edge in the market.",
+          "exampleCn": "若企業文化開始僵化，它便無法創新，最終會失去市場上的競爭優勢。",
+          "clozeQuestion": "Without constant exposure to new ideas and perspectives, one’s opinions may begin to ______ and become resistant to change.",
+          "clozeCn": "在沒有持續接觸新構想與觀點下，一個人的意見可能會開始僵化，並對變革產生抗拒。",
+          "clozeAnswer": "ossify",
+          "unit": 9
+        },
+        {
+          "word": "ostensible (adj.)",
+          "chinese": "表面上的；假稱的",
+          "example": "His ostensible reason for visiting the office was to discuss the report, but he really wanted to find out more about the team's plans.",
+          "exampleCn": "他拜訪辦公室表面上的理由是討論報告，但他其實是想了解更多關於團隊計畫的資訊。",
+          "clozeQuestion": "While the ______ purpose of the mission was to conduct geological research, it was also secretly tasked with mapping the terrain.",
+          "clozeCn": "雖然該任務表面上的目的是進行地質研究，但它也被祕密賦予了測繪地形的任務。",
+          "clozeAnswer": "ostensible",
+          "unit": 9
+        },
+        {
+          "word": "ostracize (v.)",
+          "chinese": "排擠；排斥",
+          "example": "The community decided to ostracize the individual who had repeatedly violated the social rules that kept the village together.",
+          "exampleCn": "社區決定排擠那名屢次違反維持村莊團結社會規則的人。",
+          "clozeQuestion": "In some professional circles, it is common for those who voice dissenting opinions to be ______ by their peers.",
+          "clozeCn": "在某些專業圈子中，那些發表異議者被同行排擠是很常見的。",
+          "clozeAnswer": "ostracize",
+          "unit": 9
+        },
+        {
+          "word": "outlandish (adj.)",
+          "chinese": "稀奇古怪的",
+          "example": "The science fiction film featured an outlandish plot where time travel was used to prevent historical disasters.",
+          "exampleCn": "那部科幻電影包含了一段稀奇古怪的劇情，其中時空旅行被用於防止歷史災難。",
+          "clozeQuestion": "Some of his ideas seemed ______ at first, but after further research, they were proven to be scientifically sound.",
+          "clozeCn": "他的一些想法起初看起來稀奇古怪，但經過進一步研究後，它們被證明在科學上是合理的。",
+          "clozeAnswer": "outlandish",
+          "unit": 9
+        },
+        {
+          "word": "outrageous (adj.)",
+          "chinese": "駭人的；無恥的",
+          "example": "The public was outraged by the outrageous conduct of the bank officials who misled clients into poor investments.",
+          "exampleCn": "公眾被銀行官員誤導客戶進行不良投資的無恥行為所激怒。",
+          "clozeQuestion": "The price of the luxury item was ______, and it is no surprise that very few people were willing to purchase it.",
+          "clozeCn": "該奢華物品的價格是駭人的，且很少有人願意購買它一點也不令人驚訝。",
+          "clozeAnswer": "outrageous",
+          "unit": 9
+        },
+        {
+          "word": "outstrip (v.)",
+          "chinese": "超過；勝過",
+          "example": "The demand for renewable energy has begun to outstrip the supply, driving the need for new power plants.",
+          "exampleCn": "對於再生能源的需求已開始超過供給，推動了對於新發電廠的需求。",
+          "clozeQuestion": "Success in the long run will depend on our ability to ______ our competitors in terms of technological innovation and efficiency.",
+          "clozeCn": "長期的成功將取決於我們在技術創新與效率方面勝過競爭對手的能力。",
+          "clozeAnswer": "outstrip",
+          "unit": 9
+        },
+        {
+          "word": "outweigh (v.)",
+          "chinese": "比…更重要",
+          "example": "The benefits of regular exercise far outweigh the effort required to establish a consistent fitness routine.",
+          "exampleCn": "規律運動的益處遠比建立一致健身習慣所需之努力來得重要。",
+          "clozeQuestion": "When making the final decision, we must ensure that the potential risks do not ______ the potential rewards of the expansion plan.",
+          "clozeCn": "在做最終決策時，我們必須確保潛在風險不會重於擴張計畫的潛在回報。",
+          "clozeAnswer": "outweigh",
+          "unit": 9
+        },
+        {
+          "word": "overbear (v.)",
+          "chinese": "壓倒；制服",
+          "example": "The commander used his position to overbear his subordinates, leaving no room for discussion or alternative opinions.",
+          "exampleCn": "指揮官利用他的職位來壓倒他的下屬，沒留下任何討論或替代意見的空間。",
+          "clozeQuestion": "A leader should empower their team rather than try to ______ them with an aggressive and dominating personality.",
+          "clozeCn": "領袖應授權他們的團隊，而非試圖以積極且支配性的個性來壓倒他們。",
+          "clozeAnswer": "overbear",
+          "unit": 9
+        },
+        {
+          "word": "overdo (v.)",
+          "chinese": "把…做得過頭",
+          "example": "He tends to overdo his workout sessions, often causing muscle strain and exhaustion the following day.",
+          "exampleCn": "他傾向於將健身課程做得過頭，常在隔天導致肌肉拉傷與精疲力竭。",
+          "clozeQuestion": "It is easy to ______ the decorations during the holiday season, but simplicity can sometimes be more elegant.",
+          "clozeCn": "在節慶期間很容易把裝飾做得過火，但簡約有時反而更優雅。",
+          "clozeAnswer": "overdo",
+          "unit": 9
+        },
+        {
+          "word": "overrule (v.)",
+          "chinese": "否決；駁回",
+          "example": "The judge decided to overrule the defense attorney's objection, allowing the evidence to be presented to the jury.",
+          "exampleCn": "法官決定駁回辯護律師的反對，允許證據呈現給陪審團。",
+          "clozeQuestion": "The supervisor has the authority to ______ the decision of the lower-level management if the project direction seems flawed.",
+          "clozeCn": "若專案方向看起來有瑕疵，主管有權力否決低層級管理的決策。",
+          "clozeAnswer": "overrule",
+          "unit": 9
+        },
+        {
+          "word": "overseer (n.)",
+          "chinese": "監工；工頭",
+          "example": "The overseer was responsible for ensuring that all workers followed safety protocols and met the daily production targets.",
+          "exampleCn": "監工負責確保所有工人遵循安全準則，並達成每日生產目標。",
+          "clozeQuestion": "The construction company hired a new ______ to monitor the progress of the building and coordinate between different departments.",
+          "clozeCn": "建築公司聘請了一位新監工，以監控建築進度並在不同部門間進行協調。",
+          "clozeAnswer": "overseer",
+          "unit": 9
+        },
+        {
+          "word": "overthrow (v.)",
+          "chinese": "推翻；打倒",
+          "example": "The organized resistance successfully managed to overthrow the dictatorial regime after a long and difficult struggle.",
+          "exampleCn": "有組織的抵抗軍在經過長久且艱難的奮鬥後，成功推翻了獨裁政權。",
+          "clozeQuestion": "The primary goal of the movement was to ______ the corrupt government and restore democratic representation for the people.",
+          "clozeCn": "該運動的首要目標是推翻腐敗政府，並恢復人民的民主代表權。",
+          "clozeAnswer": "overthrow",
+          "unit": 9
+        },
+        {
+          "word": "overture (n.)",
+          "chinese": "序曲；提議",
+          "example": "The orchestra began the evening with a dramatic overture that set the stage for the upcoming opera performance.",
+          "exampleCn": "管弦樂團以一場戲劇性的序曲開啟了夜晚，為即將到來的歌劇表演鋪路。",
+          "clozeQuestion": "The government made a diplomatic ______ to the neighboring country in an attempt to improve relations and reduce border tensions.",
+          "clozeCn": "政府向鄰國提出了一項外交提議，試圖改善關係並減少邊界緊張。",
+          "clozeAnswer": "overture",
+          "unit": 10
+        },
+        {
+          "word": "obviate (v.)",
+          "chinese": "排除；消除",
+          "example": "New safety features were implemented to obviate the need for constant manual monitoring by the staff.",
+          "exampleCn": "新的安全功能被實施以排除工作人員持續手動監控的需求。",
+          "clozeQuestion": "The use of automated payment systems helps to ______ the potential for errors during the manual transaction process.",
+          "clozeCn": "使用自動化支付系統有助於消除手動交易過程中產生錯誤的可能性。",
+          "clozeAnswer": "obviate",
+          "unit": 10
+        },
+        {
+          "word": "nurture (n./v.)",
+          "chinese": "教育；培育",
+          "example": "The teacher spent years trying to nurture the students' natural curiosity by providing them with challenging and creative projects.",
+          "exampleCn": "老師花了數年時間透過提供具挑戰性與創造性的專案，來培養學生天生的好奇心。",
+          "clozeQuestion": "A child's personality is shaped by both nature and ______, as both genetic factors and environment play significant roles.",
+          "clozeCn": "兒童的個性是由天性與後天養育共同形塑的，因為遺傳因素與環境皆扮演重要角色。",
+          "clozeAnswer": "nurture",
+          "unit": 10
+        },
+        {
+          "word": "obdurate (adj.)",
+          "chinese": "頑固的；倔強的",
+          "example": "Despite the mounting evidence against his position, he remained obdurate and refused to change his mind.",
+          "exampleCn": "儘管反對他的立場的證據不斷增加，他仍保持頑固並拒絕改變心意。",
+          "clozeQuestion": "The ______ nature of the management made it impossible for the union to negotiate any meaningful changes to the contract.",
+          "clozeCn": "管理層頑固的本性，使得工會不可能針對合約協商出任何有意義的變更。",
+          "clozeAnswer": "obdurate",
+          "unit": 10
+        },
+        {
+          "word": "obliterate (v.)",
+          "chinese": "徹底毀掉；抹去",
+          "example": "The powerful hurricane threatened to obliterate the coastal town, leaving nothing but debris behind.",
+          "exampleCn": "強大的颶風威脅要徹底毀掉那座沿海小鎮，除碎片外什麼都不剩。",
+          "clozeQuestion": "He tried to ______ all memories of the painful experience from his mind, hoping to move on to a brighter future.",
+          "clozeCn": "他試圖將那段痛苦經驗的所有記憶從心中抹去，希望邁向更光明的未來。",
+          "clozeAnswer": "obliterate",
+          "unit": 10
+        },
+        {
+          "word": "oblivion (n.)",
+          "chinese": "被遺忘；湮沒",
+          "example": "Many great civilizations have slipped into oblivion, leaving behind only ruins that hint at their former glory.",
+          "exampleCn": "許多偉大的文明已滑向被遺忘的深淵，僅留下暗示它們過去榮耀的遺址。",
+          "clozeQuestion": "The once-famous singer had faded into ______ after years of absence from the public eye and the music industry.",
+          "clozeCn": "那位曾經著名的歌手在離開公眾視線與音樂產業多年後，已淡出並漸漸被遺忘。",
+          "clozeAnswer": "oblivion",
+          "unit": 10
+        },
+        {
+          "word": "obsequious (adj.)",
+          "chinese": "巴結的；卑躬屈膝的",
+          "example": "The assistant was so obsequious that it made his colleagues uncomfortable, as he seemed more interested in pleasing his boss than doing his job.",
+          "exampleCn": "那名助理表現得太過諂媚，這讓他的同事感到不適，因為他看起來對取悅老闆的興趣大於做好本職工作。",
+          "clozeQuestion": "To succeed in the court, one had to be ______ to the king, often agreeing with his opinions regardless of how illogical they were.",
+          "clozeCn": "為了在宮廷中成功，一個人必須對國王卑躬屈膝，即便他的意見多麼不合邏輯，也常需表示贊同。",
+          "clozeAnswer": "obsequious",
+          "unit": 10
+        },
+        {
+          "word": "obsolete (adj.)",
+          "chinese": "過時的；淘汰的",
+          "example": "The rapid advancement of digital technology has made many mechanical components completely obsolete in modern machinery.",
+          "exampleCn": "數位技術的快速進展使得許多機械零件在現代機器中變得完全過時。",
+          "clozeQuestion": "Manual typewriters are now considered ______ for most business applications, having been replaced by computers and printers.",
+          "clozeCn": "手動打字機現在被認為對於多數商業用途而言已過時，因為它們已被電腦與印表機所取代。",
+          "clozeAnswer": "obsolete",
+          "unit": 10
+        },
+        {
+          "word": "obstreperous (adj.)",
+          "chinese": "吵鬧的；不服管束的",
+          "example": "The teacher struggled to maintain order in the classroom because of a few obstreperous students who constantly interrupted the lesson.",
+          "exampleCn": "老師努力要在教室中維持秩序，因為有幾位不斷打斷課程吵鬧不服管束的學生。",
+          "clozeQuestion": "The ______ crowd became increasingly agitated, making it difficult for the police to maintain safety at the demonstration.",
+          "clozeCn": "吵鬧的人群變得愈發激動，使得警方難以在示威活動中維持安全。",
+          "clozeAnswer": "obstreperous",
+          "unit": 10
+        },
+        {
+          "word": "occlude (v.)",
+          "chinese": "使…阻塞",
+          "example": "The build-up of plaque can occlude the arteries, significantly increasing the risk of cardiovascular disease.",
+          "exampleCn": "斑塊的堆積會阻塞動脈，顯著增加心血管疾病的風險。",
+          "clozeQuestion": "The doctor warned that a blood clot could ______ the flow of oxygen to the brain, requiring immediate medical intervention.",
+          "clozeCn": "醫生警告血塊可能會阻塞氧氣流向大腦，需要立即的醫療干預。",
+          "clozeAnswer": "occlude",
+          "unit": 10
+        },
+        {
+          "word": "occult (adj.)",
+          "chinese": "神秘的；玄妙的",
+          "example": "In ancient times, certain groups practiced occult rituals, believing they could harness hidden powers of the universe.",
+          "exampleCn": "在古代，某些團體執行神秘儀式，相信他們可以駕馭宇宙隱藏的力量。",
+          "clozeQuestion": "His interest in the ______ grew after he discovered a collection of centuries-old texts regarding alchemy and mysticism.",
+          "clozeCn": "在他發現了一套關於煉金術與神秘主義的數百年古籍後，他對於神秘事物的興趣增加了。",
+          "clozeAnswer": "occult",
+          "unit": 10
+        },
+        {
+          "word": "ocular (adj.)",
+          "chinese": "眼睛的；視力的",
+          "example": "The specialist performed an ocular examination to ensure the patient's vision was not affected by the underlying health issue.",
+          "exampleCn": "專家進行了眼睛檢查，以確保病患的視力未受到潛在健康問題的影響。",
+          "clozeQuestion": "Modern ______ research has significantly improved our ability to treat complex diseases related to retinal function.",
+          "clozeCn": "現代視覺研究顯著改善了我們治療與視網膜功能相關複雜疾病的能力。",
+          "clozeAnswer": "ocular",
+          "unit": 10
+        },
+        {
+          "word": "odious (adj.)",
+          "chinese": "討厭的；可憎的",
+          "example": "He found the task of cleaning the polluted river to be odious, yet he knew it was a necessary contribution to the environment.",
+          "exampleCn": "他發現清理那條污染河流的工作令人討厭，但他知道這是對環境的一項必要貢獻。",
+          "clozeQuestion": "Slavery is widely regarded as an ______ institution, universally condemned for its violation of fundamental human rights.",
+          "clozeCn": "奴隸制被廣泛認為是一種可憎的制度，因其違反基本人權而受到普遍譴責。",
+          "clozeAnswer": "odious",
+          "unit": 10
+        },
+        {
+          "word": "officious (adj.)",
+          "chinese": "愛指手畫腳的；自以為是的",
+          "example": "I was annoyed by the officious clerk who insisted on telling me exactly how to organize my files, despite not being asked.",
+          "exampleCn": "那位愛指手畫腳的職員讓我很惱火，他堅持告訴我該如何整理我的檔案，儘管我並沒有詢問。",
+          "clozeQuestion": "An ______ manager can create a stressful work environment by constantly interfering with team tasks that were already under control.",
+          "clozeCn": "一位自以為是的經理可能會藉由不斷干預已在控制中的團隊任務，而創造出一個充滿壓力的工作環境。",
+          "clozeAnswer": "officious",
+          "unit": 10
+        },
+        {
+          "word": "offshoot (n.)",
+          "chinese": "分支；分支機構",
+          "example": "The successful software company started as a small offshoot of a much larger university research project.",
+          "exampleCn": "這家成功的軟體公司最初只是一個大型大學研究專案的小分支。",
+          "clozeQuestion": "A new ______ of the political party was formed to address the specific needs and interests of the younger generation.",
+          "clozeCn": "該政黨成立了一個新的分支機構，以處理年輕世代的特定需求與利益。",
+          "clozeAnswer": "offshoot",
+          "unit": 10
+        },
+        {
+          "word": "omnipotent (adj.)",
+          "chinese": "全能的",
+          "example": "In many mythological tales, the gods are depicted as omnipotent beings who have total control over nature and humanity.",
+          "exampleCn": "在許多神話故事中，神祇被描述為對自然與人類擁有完全控制權的全能存在。",
+          "clozeQuestion": "No human leader is ______, and acknowledging the limits of one's own power is a crucial aspect of responsible governance.",
+          "clozeCn": "沒有人類領袖是全能的，而承認自身權力的限度是負責治理的重要面向。",
+          "clozeAnswer": "omnipotent",
+          "unit": 10
+        },
+        {
+          "word": "omnipresent (adj.)",
+          "chinese": "無處不在的",
+          "example": "In the modern digital age, the influence of social media has become omnipresent in our daily lives.",
+          "exampleCn": "在現代數位時代，社群媒體的影響力已在我們日常生活中變得無處不在。",
+          "clozeQuestion": "The ______ nature of technology has fundamentally changed how we communicate, work, and perceive the world around us.",
+          "clozeCn": "技術無處不在的本質，已從根本上改變了我們溝通、工作與感知周遭世界的方式。",
+          "clozeAnswer": "omnipresent",
+          "unit": 10
+        },
+        {
+          "word": "omniscient (adj.)",
+          "chinese": "無所不知的",
+          "example": "The author used an omniscient narrator to provide the reader with insight into the thoughts and feelings of every character.",
+          "exampleCn": "作者使用了一位無所不知的旁白，以為讀者提供對每一位角色想法與感覺的見解。",
+          "clozeQuestion": "Some believe that a higher power is ______, aware of every event past, present, and future.",
+          "clozeCn": "有些人相信某種高等力量是無所不知的，知曉過去、現在與未來的每一個事件。",
+          "clozeAnswer": "omniscient",
+          "unit": 10
+        },
+        {
+          "word": "onus (n.)",
+          "chinese": "責任；義務",
+          "example": "The onus is on the company to prove that their new product is safe before it can be released to the general public.",
+          "exampleCn": "證明他們的新產品是安全的責任在於該公司，在它能發布給大眾之前。",
+          "clozeQuestion": "When safety is concerned, the ______ rests with the manufacturer to ensure that all standards are strictly met.",
+          "clozeCn": "當涉及安全時，確保嚴格符合所有標準的責任在於製造商。",
+          "clozeAnswer": "onus",
+          "unit": 10
+        },
+        {
+          "word": "opalescence (n.)",
+          "chinese": "乳光；蛋白光",
+          "example": "The gemstone was prized for its beautiful opalescence, which shifted colors depending on the angle of the light.",
+          "exampleCn": "那塊寶石因其美麗的乳光而備受推崇，它會根據光線角度而改變顏色。",
+          "clozeQuestion": "The mysterious liquid showed a soft ______, glowing faintly when exposed to certain wavelengths of light.",
+          "clozeCn": "那種神祕液體顯示出一種柔和的乳光，在暴露於特定波長的光線下會微微發光。",
+          "clozeAnswer": "opalescence",
+          "unit": 10
         }
       ],
       "5": [
@@ -15743,7 +16143,7 @@
           "exampleCn": "任務重複的本質開始使員工感到煩惱，導致士氣與生產力明顯下降。",
           "clozeQuestion": "It is enough to ______ anyone when the software crashes repeatedly just as you are about to save your progress.",
           "clozeCn": "當你正要儲存進度時，軟體卻重複當機，這足以激怒任何人。",
-          "exasperate": "exasperate",
+          "clozeAnswer": "exasperate",
           "unit": 9
         },
         {

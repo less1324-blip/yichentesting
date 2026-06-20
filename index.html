@@ -791,7 +791,7 @@
             return globalAudioCtx;
         }
 
-        // 解除瀏覽器對音效的自動播放限制 (點擊或觸控任意處強制喚醒音頻引擎)
+        // 解除瀏覽器對音效的自動播放限制
         document.addEventListener('click', () => { initAudioContext(); }, { once: true });
         document.addEventListener('touchstart', () => { initAudioContext(); }, { once: true });
 
@@ -1150,7 +1150,8 @@
                     if (!mainDatabase.vocab[diff]) mainDatabase.vocab[diff] = {};
                     if (!mainDatabase.vocab[diff][l]) mainDatabase.vocab[diff][l] = [];
                     mainDatabase.vocab[diff][l].forEach(item => { if (!item.unit) item.unit = 1; });
-
+                }
+                for (let l = 1; l <= 30; l++) {
                     if (!mainDatabase.exam[diff]) mainDatabase.exam[diff] = {};
                     if (!mainDatabase.exam[diff][l]) mainDatabase.exam[diff][l] = [];
                 }
@@ -1213,6 +1214,10 @@
             userState.currentDojo = dojoType; 
             
             if (dojoType === 'vocab' || dojoType === 'exam') userState.currentDifficulty = 'basic'; 
+            
+            if (dojoType !== 'exam' && userState.currentLevel > 10) {
+                userState.currentLevel = 1; 
+            }
             
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
             
@@ -1310,10 +1315,12 @@
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${theme.bgLight} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
             
-            for (let i = 1; i <= 10; i++) {
+            let maxLevels = (userState.currentDojo === 'exam') ? 30 : 10;
+            
+            for (let i = 1; i <= maxLevels; i++) {
                 const isActive = userState.currentLevel === i;
                 const activeStyle = isActive ? `bg-gradient-to-r ${theme.gradient} ${(userState.currentDojo === 'vocab' || userState.currentDojo === 'affix') ? 'text-slate-950' : 'text-white'} border-${theme.primaryHover} ${theme.shadow} font-extrabold scale-105` : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border-slate-800/80 hover:border-slate-700 hover:bg-slate-800/40';
-                container.innerHTML += `<button onclick="selectLevel(${i})" class="flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle}"><span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-base sm:text-lg font-black font-mono">L${i}</span></button>`;
+                container.innerHTML += `<button onclick="selectLevel(${i})" class="flex flex-col items-center justify-center py-2 rounded-2xl border transition-all duration-300 ${activeStyle} min-w-[60px]"><span class="text-[9px] uppercase tracking-wider opacity-85">境界</span><span class="text-base sm:text-lg font-black font-mono">L${i}</span></button>`;
             }
         }
 
@@ -1337,7 +1344,6 @@
             const section = document.getElementById('unit-selector-section');
             if(!container || !section) return; 
             
-            // 如果是字根字首或實戰考題專區，隱藏 Unit 選擇器並直接返回
             if (userState.currentDojo === 'affix' || userState.currentDojo === 'exam') {
                 section.classList.add('hidden');
                 return;
@@ -1353,20 +1359,6 @@
                 const activeStyle = isActive ? `bg-${theme.primaryHover} text-slate-950 font-black ${theme.shadow} scale-105 border-${theme.primary}` : 'bg-slate-900/60 text-slate-450 hover:text-slate-200 border-slate-800/85 hover:border-slate-700 hover:bg-slate-800/40';
                 container.innerHTML += `<button onclick="selectUnit(${i})" class="px-2.5 py-1.5 sm:px-3 rounded-xl border text-[11px] sm:text-xs transition-all duration-350 font-mono ${activeStyle}">Unit ${i}</button>`;
             }
-        }
-
-        function selectUnit(u) {
-            playSound('click'); userState.currentUnit = u; userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
-            userState.currentTab = 'list'; 
-            if (typeof isPlayingAll !== 'undefined' && isPlayingAll) togglePlayAll();
-            
-            saveProgress(); renderUnitSelector(); updateTabButtonsUI(); renderContent();
-            
-            setTimeout(() => {
-                document.getElementById('dojo-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
-                const listScroll = document.getElementById('list-scroll-container');
-                if (listScroll) listScroll.scrollTop = 0;
-            }, 200);
         }
 
         function switchTab(tabType) { 
@@ -1386,7 +1378,6 @@
             ['list', 'flashcard', 'quiz', 'spelling', 'cloze', 'admin'].forEach(tab => {
                 const btn = document.getElementById(`tab-btn-${tab}`); if (!btn) return;
                 
-                // 考題專區隱藏不適用的標籤
                 if (isExam && ['flashcard', 'spelling', 'cloze'].includes(tab)) {
                     btn.classList.add('hidden');
                     return;
@@ -1426,7 +1417,6 @@
             }
         }
 
-        // ================= Exam Dojo Renders =================
         function renderExamList(data) {
             const contentDiv = document.getElementById('dojo-content');
             const diffName = `[${userState.currentDifficulty === 'basic' ? '初級考題' : userState.currentDifficulty === 'intermediate' ? '中級考題' : '中高級考題'}] `;
@@ -1531,7 +1521,6 @@
             const isCorrect = selectedLetter === correctLetter;
             const optionButtons = document.querySelectorAll('.exam-option-btn');
             
-            // Disable all buttons
             optionButtons.forEach(btn => { 
                 btn.disabled = true; 
                 btn.classList.add('opacity-50'); 
@@ -1553,7 +1542,6 @@
                 const lvlUp = addEXP(gainedExp);
                 showToast(`修煉正確！獲得靈氣 +${gainedExp} ${lvlUp ? '🎉 突破天劫！' : ''}`, 'success');
                 
-                // 答對自動進入下一題
                 setTimeout(() => nextExamQuestion(dataLength), 1500);
             } else {
                 playSound('wrong');
@@ -1562,7 +1550,6 @@
                 
                 userState.streak = 0;
                 
-                // Highlight the correct one
                 optionButtons.forEach(btn => {
                     const letterSpan = btn.querySelector('span');
                     if (letterSpan && letterSpan.textContent === correctLetter) {
@@ -1571,7 +1558,6 @@
                     }
                 });
 
-                // Show Explanation
                 feedbackContainer.classList.remove('hidden');
                 feedbackContainer.classList.add('flex');
                 feedbackMsg.className = "p-3 rounded-xl text-center text-sm sm:text-base font-black border bg-rose-500/10 border-rose-500 text-rose-400";
@@ -1585,7 +1571,6 @@
             saveProgress(); 
             renderContent();
         }
-        // =====================================================
 
         function renderListTab(data) {
             const contentDiv = document.getElementById('dojo-content');
@@ -2103,10 +2088,8 @@
             const contentDiv = document.getElementById('dojo-content');
             let mainVocab = 0, mainPhrase = 0, mainAffix = 0, mainExam = 0;
             ['basic', 'intermediate', 'advanced'].forEach(d => { 
-                for (let l=1; l<=10; l++) {
-                    mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
-                    mainExam += mainDatabase.exam?.[d]?.[l]?.length || 0; 
-                }
+                for (let l=1; l<=10; l++) mainVocab += mainDatabase.vocab[d]?.[l]?.length || 0; 
+                for (let l=1; l<=30; l++) mainExam += mainDatabase.exam?.[d]?.[l]?.length || 0; 
             });
             for (let l=1; l<=10; l++) {
                 mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
@@ -2131,7 +2114,7 @@
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-850">
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標練功房</label><select id="bulk-dojo" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="auto">智慧判定</option><option value="vocab">單字</option><option value="phrase">片語</option><option value="affix">字根字首</option><option value="exam">實戰考題</option></select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度</label><select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select></div>
-                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none"><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">L7</option><option value="8">L8</option><option value="9">L9</option><option value="10">L10</option></select></div>
+                                <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length: 30}, (_, i) => i + 1).map(l => `<option value="${l}">L${l}</option>`).join('')}</select></div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標章節</label><select id="bulk-unit" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select></div>
                             </div>
                             <textarea id="bulk-import-area" rows="6" placeholder="單字名稱 中文翻譯說明&#10;Eg1: 英文例句&#10;例句中文對照&#10;Cloze: 英文填空題 (要填處打 a______e 底線)&#10;ClozeCn: 填空中文提示" class="w-full p-3 bg-slate-950 border border-slate-850 focus:border-orange-500 rounded-xl font-mono text-xs text-slate-300 outline-none placeholder-slate-700 resize-none transition-colors custom-scrollbar"></textarea>
@@ -2146,7 +2129,7 @@
                             <div class="grid grid-cols-4 gap-2">
                                 <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option><option value="affix">字根字首</option><option value="exam">考題</option></select>
                                 <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></select>
-                                <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(l => `<option value="${l}">L${l}</option>`).join('')}</select>
+                                <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length: 30}, (_, i) => i + 1).map(l => `<option value="${l}">L${l}</option>`).join('')}</select>
                                 <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select>
                             </div>
                             <div class="grid grid-cols-2 gap-3">
@@ -2229,7 +2212,10 @@
 
         function normalizeImportedJson(data) {
             let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} } };
-            ['basic', 'intermediate', 'advanced'].forEach(d => { for(let i=1;i<=10;i++) { normalized.vocab[d][i] = []; normalized.exam[d][i] = []; }});
+            ['basic', 'intermediate', 'advanced'].forEach(d => { 
+                for(let i=1;i<=10;i++) { normalized.vocab[d][i] = []; }
+                for(let i=1;i<=30;i++) { normalized.exam[d][i] = []; }
+            });
             for(let i=1;i<=10;i++) { normalized.phrase[i] = []; normalized.affix[i] = []; }
             if (!data || typeof data !== 'object') return null;
 
@@ -2268,7 +2254,7 @@
             }
             if (data.exam) {
                 ['basic', 'intermediate', 'advanced'].forEach(diff => {
-                    if (data.exam[diff]) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.exam[diff][lvl])) processList(data.exam[diff][lvl], 'exam', diff, lvl);
+                    if (data.exam[diff]) for (let lvl = 1; lvl <= 30; lvl++) if (Array.isArray(data.exam[diff][lvl])) processList(data.exam[diff][lvl], 'exam', diff, lvl);
                 });
             }
             if (data.phrase) for (let lvl = 1; lvl <= 10; lvl++) if (Array.isArray(data.phrase[lvl])) processList(data.phrase[lvl], 'phrase', null, lvl);
@@ -2283,7 +2269,10 @@
             const importMode = document.querySelector('input[name="github-import-mode"]:checked').value; 
             
             if (importMode === 'overwrite') {
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; mainDatabase.exam[d][l] = []; }});
+                ['basic', 'intermediate', 'advanced'].forEach(d => { 
+                    for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; }
+                    for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
+                });
                 for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
             }
             
@@ -2302,6 +2291,8 @@
                             ['basic', 'intermediate', 'advanced'].forEach(d => {
                                 for(let l=1; l<=10; l++) {
                                     data.vocab[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                }
+                                for(let l=1; l<=30; l++) {
                                     data.exam[d][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.exam[d][l].some(x => x.question === item.question)) mainDatabase.exam[d][l].push(item); });
                                 }
                             });
@@ -2335,7 +2326,10 @@
                     const res = await fetch(url);
                     if (res.ok) {
                         if (mode === 'overwrite' && !syncedAnything) { 
-                            ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; mainDatabase.exam[d][l] = []; }});
+                            ['basic', 'intermediate', 'advanced'].forEach(d => { 
+                                for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; }
+                                for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
+                            });
                             for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
                         }
                         const data = normalizeImportedJson(await res.json());
@@ -2343,6 +2337,8 @@
                             ['basic', 'intermediate', 'advanced'].forEach(d => {
                                 for(let l=1; l<=10; l++) {
                                     data.vocab[d][l].forEach(item => { if(!mainDatabase.vocab[d][l].some(x => x.word === item.word)) mainDatabase.vocab[d][l].push(item); });
+                                }
+                                for(let l=1; l<=30; l++) {
                                     data.exam[d][l].forEach(item => { if(!mainDatabase.exam[d][l].some(x => x.question === item.question)) mainDatabase.exam[d][l].push(item); });
                                 }
                             });
@@ -2468,6 +2464,8 @@
                     (mainDatabase.vocab[d]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-slate-100 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">單字 ${d} L${l} U${item.unit}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('vocab', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
+                }
+                for (let l = 1; l <= 30; l++) {
                     (mainDatabase.exam[d]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-purple-300 font-bold truncate max-w-[150px]">${item.question}</td><td class="py-2.5 px-3 text-slate-300 truncate max-w-[150px]">解答: ${item.answer}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">考題 ${d} L${l}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('exam', '${d}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                     });
@@ -2546,7 +2544,7 @@
             playSound('click');
             const modal = document.getElementById('custom-confirm-modal');
             document.getElementById('confirm-modal-title').textContent = "確定清空所有修煉大典嗎？";
-            document.getElementById('confirm-modal-desc').textContent = "此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 10 的英文字彙及生活例句，且無法還原！";
+            document.getElementById('confirm-modal-desc').textContent = "此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 30 的英文字彙及生活例句，且無法還原！";
             modal.classList.remove('pointer-events-none', 'opacity-0');
             modal.firstElementChild.classList.remove('scale-95');
             
@@ -2559,7 +2557,10 @@
             document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('wrong');
                 mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} } };
-                ['basic', 'intermediate', 'advanced'].forEach(d => { for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; mainDatabase.exam[d][l] = []; }});
+                ['basic', 'intermediate', 'advanced'].forEach(d => { 
+                    for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; }
+                    for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
+                });
                 for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
                 saveProgress(); renderCustomLibraryTable();
                 modal.classList.add('pointer-events-none', 'opacity-0');

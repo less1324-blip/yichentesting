@@ -344,6 +344,494 @@
           "answer": "C",
           "explanation": "【解答】你想要來點烤牛肉嗎？它剛在烤箱裡烤好。\n(A) boiled: 水煮的 (B) steamed: 蒸的 (C) roast: 烤的 (D) fried: 油炸的"
         }
+      ],
+      "3": [  
+        {
+          "question": "1. Do not __________ children by granting them too much liberty.",
+          "options": ["spare", "spoil", "spin", "splash"],
+          "answer": "B",
+          "explanation": "【解答】不要給予孩子過多的自由而寵壞他們。\n(A) spare: 節省/饒恕 (B) spoil: 寵壞 (C) spin: 旋轉 (D) splash: 濺水"
+        },
+        {
+          "question": "2. The artist is __________ with creative talent; his original works leave every visitor to his exhibition deeply impressed.",
+          "options": ["illustrated", "gifted", "imagined", "evaluated"],
+          "answer": "B",
+          "explanation": "【解答】這位藝術家天賦異稟；他的原創作品讓所有參觀展覽的人印象深刻。\n(A) illustrated: 圖解的 (B) gifted: 有天賦的 (C) imagined: 想像的 (D) evaluated: 評估的"
+        },
+        {
+          "question": "3. In 1989, an Exxon oil tanker suffered an accident in Alaska, resulting in millions of tons of oil __________ into Prince William Sound.",
+          "options": ["leaping", "leaving", "leaking", "leading"],
+          "answer": "C",
+          "explanation": "【解答】1989年，一艘艾克森石油油輪在阿拉斯加發生事故，導致數百萬噸石油外洩到威廉王子灣。\n(A) leaping: 跳躍 (B) leaving: 離開 (C) leaking: 外洩 (D) leading: 領導"
+        },
+        {
+          "question": "4. Your concept is too __________ to grasp. Could you provide some specific examples?",
+          "options": ["abstract", "exact", "clear", "organized"],
+          "answer": "A",
+          "explanation": "【解答】你的概念太過抽象，難以理解。你可以提供一些具體的例子嗎？\n(A) abstract: 抽象的 (B) exact: 精確的 (C) clear: 清楚的 (D) organized: 有組織的"
+        },
+        {
+          "question": "5. The farmer placed a __________ in his field to scare away the birds.",
+          "options": ["battery", "strawberry", "gun", "scarecrow"],
+          "answer": "D",
+          "explanation": "【解答】農夫在田裡放了一個稻草人來嚇走鳥兒。\n(A) battery: 電池 (B) strawberry: 草莓 (C) gun: 槍 (D) scarecrow: 稻草人"
+        },
+        {
+          "question": "6. I feel some __________ about agreeing to this plan, as I worry it may not be practical.",
+          "options": ["complaint", "inspiration", "depression", "hesitation"],
+          "answer": "D",
+          "explanation": "【解答】我對同意這項計畫感到猶豫，因為我擔心它可能不切實際。\n(A) complaint: 抱怨 (B) inspiration: 靈感 (C) depression: 憂鬱 (D) hesitation: 猶豫"
+        },
+        {
+          "question": "7. The young girl is quite thoughtful and __________ for her age.",
+          "options": ["filthy", "annoying", "mature", "foul"],
+          "answer": "C",
+          "explanation": "【解答】這個小女孩以她這個年紀來說相當貼心且成熟。\n(A) filthy: 骯髒的 (B) annoying: 惱人的 (C) mature: 成熟的 (D) foul: 惡臭的"
+        },
+        {
+          "question": "8. She ought to feel thoroughly __________ of herself for telling such a lie.",
+          "options": ["afraid", "upset", "responsible", "ashamed"],
+          "answer": "D",
+          "explanation": "【解答】她撒了這樣的謊，應該為自己感到非常羞恥。\n(A) afraid: 害怕的 (B) upset: 心煩的 (C) responsible: 負責任的 (D) ashamed: 羞恥的"
+        },
+        {
+          "question": "9. He remarried __________ after the passing of his wife.",
+          "options": ["highly", "shortly", "ordinarily", "extremely"],
+          "answer": "B",
+          "explanation": "【解答】他在妻子過世後不久就再婚了。\n(A) highly: 高度地 (B) shortly: 不久地 (C) ordinarily: 通常地 (D) extremely: 極度地"
+        },
+        {
+          "question": "10. His debut novel achieved success __________ following its publication.",
+          "options": ["indecisively", "inclusively", "instantly", "instinctively"],
+          "answer": "C",
+          "explanation": "【解答】他的處女作在出版後立即獲得了成功。\n(A) indecisively: 優柔寡斷地 (B) inclusively: 包含地 (C) instantly: 立即地 (D) instinctively: 本能地"
+        },
+        {
+          "question": "11. While dining, you should use a __________ to wipe your mouth instead of your hand.",
+          "options": ["paper", "leaf", "stocking", "napkin"],
+          "answer": "D",
+          "explanation": "【解答】用餐時，你應該用餐巾擦嘴，而不是用手。\n(A) paper: 紙 (B) leaf: 葉子 (C) stocking: 長襪 (D) napkin: 餐巾"
+        },
+        {
+          "question": "12. My mind went __________ when I was confronted with such a complicated math problem.",
+          "options": ["wrong", "blind", "blank", "deaf"],
+          "answer": "C",
+          "explanation": "【解答】當我面對如此複雜的數學問題時，我的腦子一片空白。\n(A) wrong: 錯誤的 (B) blind: 失明的 (C) blank: 空白的 (D) deaf: 聾的"
+        },
+        {
+          "question": "13. It is a Chinese __________ to enjoy moon cakes during the Moon Festival.",
+          "options": ["ceremony", "invention", "tradition", "hesitation"],
+          "answer": "C",
+          "explanation": "【解答】中秋節吃月餅是一項中國傳統。\n(A) ceremony: 儀式 (B) invention: 發明 (C) tradition: 傳統 (D) hesitation: 猶豫"
+        },
+        {
+          "question": "14. The prisoner listened to the verdict without showing any __________.",
+          "options": ["delight", "emotion", "permission", "limit"],
+          "answer": "B",
+          "explanation": "【解答】囚犯在聽取判決時沒有流露任何情緒。\n(A) delight: 喜悅 (B) emotion: 情緒 (C) permission: 允許 (D) limit: 限度"
+        },
+        {
+          "question": "15. The rescue __________ has been proceeding smoothly; all passengers and crew have been recovered from the sinking vessel.",
+          "options": ["performance", "management", "operation", "technology"],
+          "answer": "C",
+          "explanation": "【解答】救援行動進行得相當順利；所有乘客和船員都已從沉船中獲救。\n(A) performance: 表現 (B) management: 管理 (C) operation: 行動 (D) technology: 科技"
+        },
+        {
+          "question": "16. Five cowboys collaborated to __________ the wild stallion.",
+          "options": ["capture", "respond", "calculate", "free"],
+          "answer": "A",
+          "explanation": "【解答】五名牛仔合力捕捉那匹野馬。\n(A) capture: 捕捉 (B) respond: 回應 (C) calculate: 計算 (D) free: 釋放"
+        },
+        {
+          "question": "17. It is considered bad manners to make __________ while drinking soup.",
+          "options": ["coffee", "sounds", "commitment", "decisions"],
+          "answer": "B",
+          "explanation": "【解答】喝湯時發出聲音被認為是不禮貌的。\n(A) coffee: 咖啡 (B) sounds: 聲音 (C) commitment: 承諾 (D) decisions: 決定"
+        },
+        {
+          "question": "18. The local administration lacks the funds to __________ this program.",
+          "options": ["conquer", "invade", "finance", "download"],
+          "answer": "C",
+          "explanation": "【解答】地方政府缺乏資金來資助這項計畫。\n(A) conquer: 征服 (B) invade: 入侵 (C) finance: 資助 (D) download: 下載"
+        },
+        {
+          "question": "19. The __________ of students accepted into universities has risen over the past few years.",
+          "options": ["portion", "percent", "percentage", "mount"],
+          "answer": "C",
+          "explanation": "【解答】這幾年來，大學錄取學生的比例一直在上升。\n(A) portion: 部分 (B) percent: 百分比 (C) percentage: 比例 (D) mount: 山/數量"
+        },
+        {
+          "question": "20. Louis was a terrible travel __________; he was always dirty and full of complaints.",
+          "options": ["accent", "luggage", "companion", "airliner"],
+          "answer": "C",
+          "explanation": "【解答】路易斯是一個糟糕的旅伴；他總是髒兮兮的且抱怨不斷。\n(A) accent: 口音 (B) luggage: 行李 (C) companion: 同伴 (D) airliner: 客機"
+        }
+      ],
+      "4": [  
+        {
+          "question": "1. The Central Mountains __________ for hundreds of kilometers, spanning from the north to the south.",
+          "options": ["prevents", "reacts", "stretches", "counts"],
+          "answer": "C",
+          "explanation": "【解答】中央山脈從北到南綿延了數百公里。\n(A) prevents: 防止 (B) reacts: 反應 (C) stretches: 延伸 (D) counts: 計算"
+        },
+        {
+          "question": "2. There is no magic __________ for success; it belongs exclusively to those who work diligently.",
+          "options": ["way", "formula", "depression", "reason"],
+          "answer": "B",
+          "explanation": "【解答】成功沒有捷徑或公式；成功屬於那些努力工作的人。\n(A) way: 方法 (B) formula: 公式 (C) depression: 憂鬱 (D) reason: 理由"
+        },
+        {
+          "question": "3. Many weight-conscious homemakers have opted for __________ meat instead of the regular fatty cuts in their meals.",
+          "options": ["thin", "lean", "slim", "slender"],
+          "answer": "B",
+          "explanation": "【解答】許多注重體重的家庭主婦在餐點中選用瘦肉，而非一般的肉類。\n(A) thin: 薄的 (B) lean: 瘦的（指肉類）(C) slim: 苗條的 (D) slender: 細長的"
+        },
+        {
+          "question": "4. This television series serves as a(n) __________ depiction of life and relationships within New York City.",
+          "options": ["accurate", "intimate", "official", "stubborn"],
+          "answer": "A",
+          "explanation": "【解答】這部電視影集準確地反映了紐約的生活與人際關係。\n(A) accurate: 準確的 (B) intimate: 親密的 (C) official: 官方的 (D) stubborn: 固執的"
+        },
+        {
+          "question": "5. What the media reported is not always a fair __________ of what truly occurred.",
+          "options": ["instrument", "statement", "movement", "sportsmanship"],
+          "answer": "B",
+          "explanation": "【解答】報紙所說的內容並不總是對實際發生事件的公正陳述。\n(A) instrument: 儀器 (B) statement: 陳述 (C) movement: 移動 (D) sportsmanship: 運動家精神"
+        },
+        {
+          "question": "6. To my __________, I discovered that my close friend was responsible for the death of ten innocent children.",
+          "options": ["regret", "entertainment", "horror", "amusement"],
+          "answer": "C",
+          "explanation": "【解答】令我感到震驚的是，我的一位密友竟然是殺害十名無辜孩童的兇手。\n(A) regret: 後悔 (B) entertainment: 娛樂 (C) horror: 驚恐 (D) amusement: 樂趣"
+        },
+        {
+          "question": "7. This taxi can accommodate a __________ of four passengers; since there are six of us, we require two vehicles.",
+          "options": ["majority", "minority", "maximum", "minimum"],
+          "answer": "C",
+          "explanation": "【解答】這輛計程車最多可載四名乘客；既然我們有六個人，我們需要兩輛車。\n(A) majority: 大多數 (B) minority: 少數 (C) maximum: 最大量 (D) minimum: 最小量"
+        },
+        {
+          "question": "8. Maggie has successfully __________ a complex doll’s house from the kit.",
+          "options": ["assisted", "assembled", "beat", "domed"],
+          "answer": "B",
+          "explanation": "【解答】Maggie 已經組裝好了一個迷人的娃娃屋。\n(A) assisted: 協助 (B) assembled: 組裝 (C) beat: 打敗 (D) domed: 成穹頂狀"
+        },
+        {
+          "question": "9. I prefer not to participate in __________ activities, as I am uncomfortable interacting with strangers.",
+          "options": ["facial", "social", "creative", "artificial"],
+          "answer": "B",
+          "explanation": "【解答】我不喜歡參加社交活動，因為我不習慣面對陌生人。\n(A) facial: 臉部的 (B) social: 社交的 (C) creative: 創造性的 (D) artificial: 人工的"
+        },
+        {
+          "question": "10. I live within my __________; I only purchase items that I can truly afford.",
+          "options": ["evaluation", "ranking", "rate", "income"],
+          "answer": "D",
+          "explanation": "【解答】我量入為出；我只購買負擔得起的東西。\n(A) evaluation: 評估 (B) ranking: 等級 (C) rate: 比率 (D) income: 收入"
+        },
+        {
+          "question": "11. You should not have made such __________ comments about Brian; after all, he is your brother.",
+          "options": ["educational", "generous", "holy", "nasty"],
+          "answer": "D",
+          "explanation": "【解答】你不應該對 Brian 說那麼惡毒的話；畢竟他是你的兄弟。\n(A) educational: 教育的 (B) generous: 慷慨的 (C) holy: 神聖的 (D) nasty: 惡毒的"
+        },
+        {
+          "question": "12. He severely cut his finger and lost a significant amount of __________.",
+          "options": ["muscle", "liquor", "stream", "blood"],
+          "answer": "D",
+          "explanation": "【解答】他切傷了手指，流了很多血。\n(A) muscle: 肌肉 (B) liquor: 酒 (C) stream: 溪流 (D) blood: 血"
+        },
+        {
+          "question": "13. She __________ her bedroom with her sister and often wished for a private space of her own.",
+          "options": ["shared", "occupied", "flashed", "displayed"],
+          "answer": "A",
+          "explanation": "【解答】她和姊姊共用房間，她渴望擁有自己的房間。\n(A) shared: 分享/共用 (B) occupied: 佔用 (C) flashed: 閃光 (D) displayed: 展示"
+        },
+        {
+          "question": "14. My English instructor places as much __________ on writing assignments as on speaking practice.",
+          "options": ["intonation", "emphasis", "guidance", "instruction"],
+          "answer": "B",
+          "explanation": "【解答】我的英文老師同樣重視寫作作業與口說練習。\n(A) intonation: 語調 (B) emphasis: 強調 (C) guidance: 指導 (D) instruction: 教導"
+        },
+        {
+          "question": "15. There is a major clearance event at the department store next week; I certainly won't miss the __________ to find some great deals.",
+          "options": ["advantage", "opportunity", "benefit", "registration"],
+          "answer": "B",
+          "explanation": "【解答】百貨公司下週有大型特賣會；我絕不會錯過這個撿便宜的好機會。\n(A) advantage: 優勢 (B) opportunity: 機會 (C) benefit: 利益 (D) registration: 登記"
+        },
+        {
+          "question": "16. Many visitors have __________ their initials onto the trunk of this tree.",
+          "options": ["erased", "carved", "risked", "arranged"],
+          "answer": "B",
+          "explanation": "【解答】許多遊客將名字刻在樹幹上。\n(A) erased: 擦除 (B) carved: 雕刻 (C) risked: 冒險 (D) arranged: 安排"
+        },
+        {
+          "question": "17. She felt deep __________ for the homeless children and contributed money to support them.",
+          "options": ["proud", "sympathy", "defensive", "delighted"],
+          "answer": "B",
+          "explanation": "【解答】她對那些無家可歸的孩子感到同情，並捐款幫助他們。\n(A) proud: 驕傲的 (B) sympathy: 同情 (C) defensive: 防禦的 (D) delighted: 高興的"
+        },
+        {
+          "question": "18. He received a heavy __________ for exceeding the speed limit.",
+          "options": ["fined", "defeated", "paid", "passed"],
+          "answer": "A",
+          "explanation": "【解答】他因超速而被處以重罰。\n(A) fined: 處以罰款 (B) defeated: 打敗 (C) paid: 支付 (D) passed: 通過"
+        },
+        {
+          "question": "19. This is private property; you are not permitted to enter without explicit __________.",
+          "options": ["impression", "description", "permission", "procession"],
+          "answer": "C",
+          "explanation": "【解答】這是私人土地；未經許可不得進入。\n(A) impression: 印象 (B) description: 描述 (C) permission: 許可 (D) procession: 隊伍"
+        },
+        {
+          "question": "20. The two athletes are actively __________ for the top prize in the gold medal match.",
+          "options": ["competing", "completing", "composing", "computing"],
+          "answer": "A",
+          "explanation": "【解答】這兩名運動員正在角逐金牌。\n(A) competing: 競爭 (B) completing: 完成 (C) composing: 作曲/組成 (D) computing: 計算"
+        }
+      ],
+      "5": [  
+        {
+          "question": "1. The patient is currently undergoing a new __________ for lung cancer.",
+          "options": ["treatment", "chart", "bandage", "admission"],
+          "answer": "A",
+          "explanation": "【解答】該病患目前正在接受一種針對肺癌的新療法。\n(A) treatment: 治療/療法 (B) chart: 圖表 (C) bandage: 繃帶 (D) admission: 入院/進入"
+        },
+        {
+          "question": "2. I believe this candidate most effectively __________ our criteria, so I intend to cast my vote for him.",
+          "options": ["fulfills", "applies", "answers", "rejects"],
+          "answer": "A",
+          "explanation": "【解答】我覺得這位候選人最符合我們的要求，因此我會投他一票。\n(A) fulfills: 滿足/履行 (B) applies: 申請 (C) answers: 回答 (D) rejects: 拒絕"
+        },
+        {
+          "question": "3. Mr. Spencer is scheduled to deliver a __________ regarding business management next week.",
+          "options": ["lettuce", "lecture", "fracture", "miniature"],
+          "answer": "B",
+          "explanation": "【解答】Spencer 先生下週將針對企業管理進行一場演講。\n(A) lettuce: 萵苣 (B) lecture: 演講 (C) fracture: 骨折 (D) miniature: 縮影"
+        },
+        {
+          "question": "4. I have many professional __________ but only a handful of true friends.",
+          "options": ["companions", "ministers", "immigrants", "acquaintances"],
+          "answer": "D",
+          "explanation": "【解答】我有很多點頭之交，但真正的朋友寥寥無幾。\n(A) companions: 同伴 (B) ministers: 部長/牧師 (C) immigrants: 移民 (D) acquaintances: 熟人"
+        },
+        {
+          "question": "5. His residence is __________ by lush trees; you see nothing but green from every window.",
+          "options": ["threatened", "impressed", "surrounded", "astonished"],
+          "answer": "C",
+          "explanation": "【解答】他的房子被樹木環繞；從窗戶看出去，映入眼簾的盡是一片翠綠。\n(A) threatened: 威脅 (B) impressed: 印象深刻 (C) surrounded: 環繞 (D) astonished: 驚訝"
+        },
+        {
+          "question": "6. An increasing number of people are signing up for this __________ class.",
+          "options": ["basketball", "tennis", "golf", "skating"],
+          "answer": "C",
+          "explanation": "【解答】越來越多人選擇參加這個高爾夫課程。\n(A) basketball: 籃球 (B) tennis: 網球 (C) golf: 高爾夫 (D) skating: 滑冰"
+        },
+        {
+          "question": "7. He utilized a folding ruler to __________ the room before installing the carpet.",
+          "options": ["lengthen", "count", "research", "measure"],
+          "answer": "D",
+          "explanation": "【解答】他在鋪地毯前，用了折疊尺來丈量房間。\n(A) lengthen: 加長 (B) count: 計算 (C) research: 研究 (D) measure: 測量"
+        },
+        {
+          "question": "8. The __________ in the restaurant is so romantic that it attracts many diners.",
+          "options": ["atmosphere", "reservation", "waiters", "check"],
+          "answer": "A",
+          "explanation": "【解答】這家餐廳的氛圍非常浪漫，許多人都喜歡在那裡用餐。\n(A) atmosphere: 氣氛 (B) reservation: 預約 (C) waiters: 服務生 (D) check: 帳單"
+        },
+        {
+          "question": "9. The refugees are in urgent need of __________; they are lacking both food and clothing.",
+          "options": ["surprise", "sunrise", "supplies", "surgery"],
+          "answer": "C",
+          "explanation": "【解答】難民們急需物資；他們缺乏衣食。\n(A) surprise: 驚喜 (B) sunrise: 日出 (C) supplies: 物資 (D) surgery: 手術"
+        },
+        {
+          "question": "10. There is every __________ that the patient will make a full recovery soon.",
+          "options": ["independence", "individual", "indication", "inclusion"],
+          "answer": "C",
+          "explanation": "【解答】有跡象表明這位病患很快就會康復。\n(A) independence: 獨立 (B) individual: 個人 (C) indication: 跡象 (D) inclusion: 包含"
+        },
+        {
+          "question": "11. At the international summit, you will meet students from many different __________.",
+          "options": ["counties", "nationalities", "identities", "humanities"],
+          "answer": "B",
+          "explanation": "【解答】在國際會議上，你可以遇見來自不同國家的人。\n(A) counties: 郡/縣 (B) nationalities: 國籍 (C) identities: 身分 (D) humanities: 人文學科"
+        },
+        {
+          "question": "12. The sound of the piano __________ beautifully with her singing voice.",
+          "options": ["blended", "divided", "hid", "varied"],
+          "answer": "A",
+          "explanation": "【解答】鋼琴聲與她的歌聲完美地融合在一起。\n(A) blended: 融合 (B) divided: 分割 (C) hid: 躲藏 (D) varied: 變化"
+        },
+        {
+          "question": "13. She is my closest friend; I share both my __________ and joys with her.",
+          "options": ["pillow", "hollow", "sorrow", "willow"],
+          "answer": "C",
+          "explanation": "【解答】她是我最好的朋友；我與她分享我的悲傷與喜悅。\n(A) pillow: 枕頭 (B) hollow: 空洞 (C) sorrow: 悲傷 (D) willow: 柳樹"
+        },
+        {
+          "question": "14. I don’t believe you can justify the __________ of the death penalty; I would rather see it abolished.",
+          "options": ["removal", "employment", "campaign", "dismissal"],
+          "answer": "B",
+          "explanation": "【解答】我不認為你能為死刑的執行找到正當理由；我更希望廢除它。\n(A) removal: 移除 (B) employment: 使用/執行 (C) campaign: 活動 (D) dismissal: 解僱"
+        },
+        {
+          "question": "15. You are free to express your own views, but you should also respect the __________ perspective.",
+          "options": ["opposite", "various", "numerous", "additional"],
+          "answer": "A",
+          "explanation": "【解答】你有權主張你的意見，但同時也該聽聽相反的觀點。\n(A) opposite: 相反的 (B) various: 各式各樣的 (C) numerous: 眾多的 (D) additional: 額外的"
+        },
+        {
+          "question": "16. For some individuals, __________ attire simply refers to a pair of jeans and a T-shirt.",
+          "options": ["casual", "occupied", "fit", "cotton"],
+          "answer": "A",
+          "explanation": "【解答】對有些人來說，休閒服裝就是牛仔褲配 T 恤。\n(A) casual: 休閒的 (B) occupied: 佔用的 (C) fit: 合適的 (D) cotton: 棉質的"
+        },
+        {
+          "question": "17. Your roommate has such terrible manners. How can you __________ his rude behavior?",
+          "options": ["express", "demonstrate", "tolerate", "exchange"],
+          "answer": "C",
+          "explanation": "【解答】你的室友真沒教養。你怎麼能忍受他的無禮行為呢？\n(A) express: 表達 (B) demonstrate: 展示 (C) tolerate: 忍受 (D) exchange: 交換"
+        },
+        {
+          "question": "18. The plane ignited and burst into __________; unfortunately, no one survived.",
+          "options": ["sight", "flames", "tears", "laughter"],
+          "answer": "B",
+          "explanation": "【解答】飛機起火並燃燒起來；遺憾的是，無人生還。\n(A) sight: 視野 (B) flames: 火焰 (C) tears: 眼淚 (D) laughter: 笑聲"
+        },
+        {
+          "question": "19. The boy is attempting to __________ his father into letting him borrow the car.",
+          "options": ["persuade", "demand", "inquire", "influence"],
+          "answer": "A",
+          "explanation": "【解答】這男孩正試圖說服他父親借他車子。\n(A) persuade: 說服 (B) demand: 要求 (C) inquire: 詢問 (D) influence: 影響"
+        },
+        {
+          "question": "20. The regulations are far too __________; it is no surprise that many people break them.",
+          "options": ["simple", "reluctant", "complicated", "previous"],
+          "answer": "C",
+          "explanation": "【解答】這些規定太過複雜，難怪許多人違反它們。\n(A) simple: 簡單的 (B) reluctant: 不情願的 (C) complicated: 複雜的 (D) previous: 之前的"
+        }
+      ],
+      "6": [ 
+        {
+          "question": "1. The unfortunate news came as a significant __________ to me; I find it impossible to believe.",
+          "options": ["accomplishment", "circumstance", "demonstration", "shock"],
+          "answer": "D",
+          "explanation": "【解答】這個壞消息對我來說是一個巨大的震驚；我完全無法相信。\n(A) accomplishment: 成就 (B) circumstance: 環境/情況 (C) demonstration: 示範 (D) shock: 震驚"
+        },
+        {
+          "question": "2. I tend to __________ whenever my instructor asks me a question, and my silence frequently triggers her temper.",
+          "options": ["scare", "frighten", "discourage", "freeze"],
+          "answer": "D",
+          "explanation": "【解答】每當老師要我回答問題時，我就會僵住。我的沉默總是讓她勃然大怒。\n(A) scare: 驚嚇 (B) frighten: 使恐懼 (C) discourage: 使氣餒 (D) freeze: 僵住"
+        },
+        {
+          "question": "3. If the individual continues to refuse to repay the debt, we will have no choice but to initiate __________ proceedings against him.",
+          "options": ["gentle", "legal", "mental", "fatal"],
+          "answer": "B",
+          "explanation": "【解答】如果該男子仍拒絕還錢，我們將對他採取法律行動。\n(A) gentle: 溫和的 (B) legal: 法律的 (C) mental: 心智的 (D) fatal: 致命的"
+        },
+        {
+          "question": "4. During his high school years, his son __________ several undesirable habits.",
+          "options": ["acquired", "required", "realized", "entered"],
+          "answer": "A",
+          "explanation": "【解答】他兒子在高中時期養成了一些非常不好的習慣。\n(A) acquired: 獲得/養成 (B) required: 需要 (C) realized: 實現/意識到 (D) entered: 進入"
+        },
+        {
+          "question": "5. Li Po, the author of numerous masterpieces, was truly a poet __________ of the title.",
+          "options": ["worthy", "jealous", "fond", "considerate"],
+          "answer": "A",
+          "explanation": "【解答】李白寫過許多偉大的詩作，是一位名副其實的詩人。\n(A) worthy: 配得上的 (B) jealous: 嫉妒的 (C) fond: 喜愛的 (D) considerate: 體貼的"
+        },
+        {
+          "question": "6. He was born into __________ circumstances; his family background was of low social standing.",
+          "options": ["humbly", "lightly", "heavily", "gratefully"],
+          "answer": "A",
+          "explanation": "【解答】他出身卑微，父母的社會地位較低。\n(A) humbly: 謙卑地 (B) lightly: 輕地 (C) heavily: 重地 (D) gratefully: 感激地"
+        },
+        {
+          "question": "7. I struggle with __________ all of my friends’ phone numbers, so I record them in a notebook.",
+          "options": ["recording", "managing", "memorizing", "contacting"],
+          "answer": "C",
+          "explanation": "【解答】我難以記住所有朋友的電話號碼，所以我必須把它們寫在筆記本裡。\n(A) recording: 記錄 (B) managing: 管理 (C) memorizing: 記憶 (D) contacting: 聯繫"
+        },
+        {
+          "question": "8. He __________ his photograph to the completed application form.",
+          "options": ["assured", "collected", "attached", "gained"],
+          "answer": "C",
+          "explanation": "【解答】他把照片貼到了這份申請表上。\n(A) assured: 保證 (B) collected: 收集 (C) attached: 附上 (D) gained: 獲得"
+        },
+        {
+          "question": "9. Numerous creatures and insects __________ provisions for the winter months.",
+          "options": ["stores", "stirs", "strikes", "struggles"],
+          "answer": "A",
+          "explanation": "【解答】許多動物和昆蟲會儲存過冬的食物。\n(A) stores: 儲存 (B) stirs: 攪動 (C) strikes: 罷工/打擊 (D) struggles: 掙扎"
+        },
+        {
+          "question": "10. __________ prompted her to stay perfectly still and feign death.",
+          "options": ["Instinct", "Stick", "Extinct", "Distinct"],
+          "answer": "A",
+          "explanation": "【解答】本能告訴她要保持不動並假裝死亡。\n(A) Instinct: 本能 (B) Stick: 棍子 (C) Extinct: 滅絕的 (D) Distinct: 明顯的"
+        },
+        {
+          "question": "11. Her French is so fluent that she sounds like a __________ speaker.",
+          "options": ["native", "national", "closed", "open"],
+          "answer": "A",
+          "explanation": "【解答】她法語說得如此流利，聽起來就像母語人士一樣。\n(A) native: 本地的/母語的 (B) national: 國家的 (C) closed: 關閉的 (D) open: 打開的"
+        },
+        {
+          "question": "12. There seems to be something in your eye—try __________ your eyes several times.",
+          "options": ["covering", "blinking", "closed", "open"],
+          "answer": "B",
+          "explanation": "【解答】你眼睛裡好像有東西，試著眨幾次眼睛看看。\n(A) covering: 遮蓋 (B) blinking: 眨眼 (C) closed: 閉上的 (D) open: 打開的"
+        },
+        {
+          "question": "13. The color red can serve as a __________ of warning or danger.",
+          "options": ["harvest", "dose", "symbol", "fantasy"],
+          "answer": "C",
+          "explanation": "【解答】紅色可能是危險的象徵。\n(A) harvest: 收穫 (B) dose: 劑量 (C) symbol: 象徵 (D) fantasy: 幻想"
+        },
+        {
+          "question": "14. We must take action to prevent __________ species from facing extinction.",
+          "options": ["evolved", "endangered", "poisoned", "enormous"],
+          "answer": "B",
+          "explanation": "【解答】我們必須採取行動，阻止瀕危物種滅絕。\n(A) evolved: 進化的 (B) endangered: 瀕危的 (C) poisoned: 中毒的 (D) enormous: 巨大的"
+        },
+        {
+          "question": "15. Before launching her career in show business, she was perceived as just an __________ girl from her hometown.",
+          "options": ["unique", "talented", "ideal", "ordinary"],
+          "answer": "D",
+          "explanation": "【解答】在進入演藝圈成為明星之前，她在故鄉被視為一個普通的女孩。\n(A) unique: 獨特的 (B) talented: 有天賦的 (C) ideal: 理想的 (D) ordinary: 普通的"
+        },
+        {
+          "question": "16. I purchased some new clothing via a mail-order __________.",
+          "options": ["Products", "catalogue", "dialogue", "cooperation"],
+          "answer": "B",
+          "explanation": "【解答】我透過郵購目錄買了一些新衣服。\n(A) Products: 產品 (B) catalogue: 目錄 (C) dialogue: 對話 (D) cooperation: 合作"
+        },
+        {
+          "question": "17. The primary __________ of his election campaign is: “Trust me with your future.”",
+          "options": ["eraser", "fiction", "slogan", "headline"],
+          "answer": "C",
+          "explanation": "【解答】他競選活動的口號是：「將未來交給我。」\n(A) eraser: 橡皮擦 (B) fiction: 小說 (C) slogan: 口號 (D) headline: 標題"
+        },
+        {
+          "question": "18. He gave me a __________ refusal, which left me feeling quite disheartened.",
+          "options": ["fat", "flat", "fate", "fled"],
+          "answer": "B",
+          "explanation": "【解答】他一口回絕了我，這讓我感到很氣餒。\n(A) fat: 胖的 (B) flat: 斷然的/平坦的 (C) fate: 命運 (D) fled: 逃跑"
+        },
+        {
+          "question": "19. I am not accustomed to __________ contact with strangers; even a simple handshake makes me uncomfortable.",
+          "options": ["mental", "physical", "spiritual", "psychological"],
+          "answer": "B",
+          "explanation": "【解答】我不習慣與陌生人有肢體接觸，連握手都讓我感到不自在。\n(A) mental: 心智的 (B) physical: 身體的/肢體的 (C) spiritual: 精神的 (D) psychological: 心理的"
+        },
+        {
+          "question": "20. When he labeled me a workaholic, I interpreted it as a __________.",
+          "options": ["completion", "composition", "concert", "compliment"],
+          "answer": "D",
+          "explanation": "【解答】當他稱我為工作狂時，我將此視為一種讚美。\n(A) completion: 完成 (B) composition: 作文 (C) concert: 音樂會 (D) compliment: 讚美"
+        } 
       ]
     }
   }

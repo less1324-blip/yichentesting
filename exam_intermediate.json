@@ -222,6 +222,128 @@
           "answer": "B",
           "explanation": "解答：因為我很趕時間，我無法看完完整的報告，只粗略看過了第一欄（段落／專欄）。\n(A) colony (殖民地)。\n(B) column (專欄；欄)：為正確答案。\n(C) code (密碼；代碼)。\n(D) copy (複製品；一份)。"
         }
+      ],
+      "2": [  
+        {
+          "question": "1. Change into your __________; we are going out for a run.",
+          "options": ["pajamas", "slippers", "necktie", "sneakers"],
+          "answer": "D",
+          "explanation": "解析：Jogging（慢跑）需要運動鞋，故選 (D) sneakers。其他選項 pajamas（睡衣）、slippers（拖鞋）、necktie（領帶）皆不適合運動。"
+        },
+        {
+          "question": "2. He is very __________ when it comes to the less fortunate, frequently giving generously to charity.",
+          "options": ["devoted", "determined", "generous", "willing"],
+          "answer": "C",
+          "explanation": "解析：句意提到他經常捐錢給慈善機構，這形容一個人很慷慨 (generous)，故選 (C)。"
+        },
+        {
+          "question": "3. Following the social gathering, discarded plates and cups were __________ about the room, creating quite a mess.",
+          "options": ["laid", "lied", "lain", "lay"],
+          "answer": "A",
+          "explanation": "解析：此處需使用動詞 lay（放置）的過去分詞形式當被動語態，lay 的三態為 lay-laid-laid，故選 (A)。"
+        },
+        {
+          "question": "4. The staff members at the gate greeted everyone as they stepped __________ the plane.",
+          "options": ["abroad", "broad", "aboard", "board"],
+          "answer": "C",
+          "explanation": "解析：Aboard 是副詞或介系詞，意為「上（飛機、船等）」，故選 (C)。"
+        },
+        {
+          "question": "5. A skilled educator should be well-versed in various instructional __________.",
+          "options": ["calculation", "techniques", "efficiency", "forecast"],
+          "answer": "B",
+          "explanation": "解析：教學法應對應 teaching techniques（教學技巧），故選 (B)。"
+        },
+        {
+          "question": "6. He gave me absolutely no __________ that he intended to resign.",
+          "options": ["ink", "hint", "proposal", "doubt"],
+          "answer": "B",
+          "explanation": "解析：give a hint 是固定用法，意為「給予暗示」，故選 (B)。"
+        },
+        {
+          "question": "7. It requires persistent effort to __________ a new skill.",
+          "options": ["manufacture", "master", "marvel", "major"],
+          "answer": "B",
+          "explanation": "解析：Master 在此為動詞，意為「精通」，符合句意「需要不斷練習以精通一項技能」，故選 (B)。"
+        },
+        {
+          "question": "8. She prohibits her children from consuming those sweets because they contain __________ ingredients.",
+          "options": ["artificial", "natural", "artistic", "ashamed"],
+          "answer": "A",
+          "explanation": "解析：通常家長不希望小孩吃含有「人工」(artificial) 添加物的糖果，故選 (A)。"
+        },
+        {
+          "question": "9. The students were so filled with excitement that they could barely sit __________.",
+          "options": ["still", "liberally", "deep", "tight"],
+          "answer": "A",
+          "explanation": "解析：Sit still 是固定用法，意為「坐著不動」，故選 (A)。"
+        },
+        {
+          "question": "10. What is their plan for evacuation in the event of an __________?",
+          "options": ["emergency", "embarrassment", "empire", "embassy"],
+          "answer": "A",
+          "explanation": "解析：In case of emergency 是「在緊急情況下」的意思，故選 (A)。"
+        },
+        {
+          "question": "11. There was nothing __________ about the elderly man’s passing, as it was confirmed to be a heart attack.",
+          "options": ["miraculous", "miserable", "marvelous", "mysterious"],
+          "answer": "D",
+          "explanation": "解析：心臟病發是明確的病理原因，所以死亡並不「神祕」(mysterious)，故選 (D)。"
+        },
+        {
+          "question": "12. I simply cannot tolerate the __________ cold weather in Alaska.",
+          "options": ["fair", "warm", "bitter", "scorching"],
+          "answer": "C",
+          "explanation": "解析：Alaska 氣候寒冷，bitter cold（刺骨的寒冷）為常見搭配，故選 (C)。"
+        },
+        {
+          "question": "13. He has been under significant __________ due to the demands of his current position.",
+          "options": ["stress", "information", "miracle", "nonsense"],
+          "answer": "A",
+          "explanation": "解析：工作壓力用 stress，故選 (A)。"
+        },
+        {
+          "question": "14. My personal favorite __________ to eat is sweet and sour chicken.",
+          "options": ["type", "pastime", "dish", "leftover"],
+          "answer": "C",
+          "explanation": "解析：Sweet and sour chicken（糖醋雞）屬於一道「菜餚」(dish)，故選 (C)。"
+        },
+        {
+          "question": "15. The __________ for driving under the influence can include several years in prison.",
+          "options": ["objection", "find", "penalty", "reward"],
+          "answer": "C",
+          "explanation": "解析：酒駕的處罰應為 penalty，故選 (C)。"
+        },
+        {
+          "question": "16. Although he is widely recognized for his serious dramatic works, his latest project is a _________.",
+          "options": ["tragedy", "comedy", "comic", "success"],
+          "answer": "B",
+          "explanation": "解析：語意對比 serious films（嚴肅電影），後者應為喜劇 (comedy)，故選 (B)。"
+        },
+        {
+          "question": "17. Bill performed exceptionally well in high school, which earned him a __________ for his university studies.",
+          "options": ["background", "determination", "scholarship", "circulation"],
+          "answer": "C",
+          "explanation": "解析：表現優異而獲得的是獎學金 (scholarship)，故選 (C)。"
+        },
+        {
+          "question": "18. At 11:00, the boy __________ returned to his bedroom as his mother had instructed.",
+          "options": ["reluctantly", "abruptly", "attractively", "generously"],
+          "answer": "A",
+          "explanation": "解析：Reluctantly（不情願地）最符合小孩被要求回房睡覺的心情，故選 (A)。"
+        },
+        {
+          "question": "19. These armaments are intended for __________ purposes only and not for initiating an assault.",
+          "options": ["thrilled", "permanent", "defensive", "panic"],
+          "answer": "C",
+          "explanation": "解析：與 attack（攻擊）對比的應是防禦性 (defensive) 的武器，故選 (C)。"
+        },
+        {
+          "question": "20. Would you like some __________ beef? It just finished cooking in the oven.",
+          "options": ["boiled", "steamed", "roast", "fried"],
+          "answer": "C",
+          "explanation": "解析：從烤箱 (oven) 拿出來的牛肉是用烤的 (roast)，故選 (C)。"
+        }
       ]
     }
   }

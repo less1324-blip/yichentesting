@@ -1,0 +1,3544 @@
+{
+  "exam": {
+    "basic": {
+      "1": [
+        {
+          "question": "1. I am very _______ because I didn't get enough sleep last night.",
+          "options": ["hungry", "tired", "lucky", "healthy"],
+          "answer": "B",
+          "explanation": "【解答】因為昨晚沒睡飽，所以我很「累」。(A) 飢餓的 (B) 疲倦的 (C) 幸運的 (D) 健康的。"
+        },
+        {
+          "question": "2. It is _______ outside, so please take your umbrella with you.",
+          "options": ["sunny", "dry", "rainy", "warm"],
+          "answer": "C",
+          "explanation": "【解答】外面在「下雨」，所以請帶上你的傘。(A) 晴朗的 (B) 乾燥的 (C) 下雨的 (D) 溫暖的。"
+        },
+        {
+          "question": "3. My father is a _______; he works in a restaurant and cooks delicious meals.",
+          "options": ["farmer", "chef", "nurse", "driver"],
+          "answer": "B",
+          "explanation": "【解答】我爸爸是位「廚師」；他在餐廳工作並烹飪美味的餐點。(A) 農夫 (B) 廚師 (C) 護士 (D) 司機。"
+        },
+        {
+          "question": "4. Can you help me _______ the table? It’s time for dinner.",
+          "options": ["set", "wash", "hide", "break"],
+          "answer": "A",
+          "explanation": "【解答】你能幫我「擺放（餐具）」餐桌嗎？該吃晚餐了。(A) 擺設 (B) 洗 (C) 躲藏 (D) 打破。"
+        },
+        {
+          "question": "5. The test was very _______, so I got 100 points on it.",
+          "options": ["difficult", "easy", "heavy", "noisy"],
+          "answer": "B",
+          "explanation": "【解答】考試非常「簡單」，所以我考了 100 分。(A) 困難的 (B) 簡單的 (C) 重的 (D) 吵雜的。"
+        },
+        {
+          "question": "6. Don’t _______! Everything will be fine.",
+          "options": ["worry", "smile", "laugh", "sleep"],
+          "answer": "A",
+          "explanation": "【解答】別「擔心」！一切都會好起來的。(A) 擔心 (B) 微笑 (C) 笑 (D) 睡覺。"
+        },
+        {
+          "question": "7. We go to the _______ to borrow books on weekends.",
+          "options": ["museum", "park", "library", "supermarket"],
+          "answer": "C",
+          "explanation": "【解答】週末我們去「圖書館」借書。(A) 博物館 (B) 公園 (C) 圖書館 (D) 超市。"
+        },
+        {
+          "question": "8. My grandmother is very _______; she always tells us interesting stories.",
+          "options": ["kind", "mean", "boring", "angry"],
+          "answer": "A",
+          "explanation": "【解答】我祖母非常「仁慈/親切」；她總是告訴我們有趣的故事。(A) 親切的 (B) 刻薄的 (C) 無聊的 (D) 生氣的。"
+        },
+        {
+          "question": "9. I have a sore _______, so I can't talk very well.",
+          "options": ["hand", "foot", "throat", "leg"],
+          "answer": "C",
+          "explanation": "【解答】我的「喉嚨」很痛，所以我不能好好說話。(A) 手 (B) 腳 (C) 喉嚨 (D) 腿。"
+        },
+        {
+          "question": "10. Please _______ the door when you go out.",
+          "options": ["open", "close", "push", "paint"],
+          "answer": "B",
+          "explanation": "【解答】出去時請「關」門。(A) 打開 (B) 關上 (C) 推 (D) 漆上。"
+        },
+        {
+          "question": "11. She is a _______ girl; she always shares her snacks with her classmates.",
+          "options": ["shy", "busy", "generous", "strict"],
+          "answer": "C",
+          "explanation": "【解答】她是一個「慷慨的」女孩；她總是與同學分享零食。(A) 害羞的 (B) 忙碌的 (C) 慷慨的 (D) 嚴格的。"
+        },
+        {
+          "question": "12. I need a _______ to write down the phone number.",
+          "options": ["ruler", "pen", "eraser", "bag"],
+          "answer": "B",
+          "explanation": "【解答】我需要一支「筆」來寫下電話號碼。(A) 尺 (B) 筆 (C) 橡皮擦 (D) 袋子。"
+        },
+        {
+          "question": "13. The _______ on the tree are green in summer and turn yellow in autumn.",
+          "options": ["flowers", "roots", "leaves", "branches"],
+          "answer": "C",
+          "explanation": "【解答】樹上的「葉子」夏天是綠色的，秋天變成黃色。(A) 花 (B) 根 (C) 葉子 (D) 樹枝。"
+        },
+        {
+          "question": "14. We usually have a family _______ on our birthdays.",
+          "options": ["trip", "party", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭「派對」。(A) 旅行 (B) 派對 (C) 會議 (D) 休息。"
+        },
+        {
+          "question": "15. It’s too _______ here; I can’t hear what you are saying.",
+          "options": ["quiet", "noisy", "clean", "dark"],
+          "answer": "B",
+          "explanation": "【解答】這裡太「吵」了；我聽不到你在說什麼。(A) 安靜的 (B) 吵雜的 (C) 乾淨的 (D) 黑暗的。"
+        },
+        {
+          "question": "16. My brother wants to be a _______ when he grows up because he likes flying planes.",
+          "options": ["pilot", "police officer", "waiter", "dentist"],
+          "answer": "A",
+          "explanation": "【解答】我哥哥長大後想成為一名「飛行員」，因為他喜歡駕駛飛機。(A) 飛行員 (B) 警察 (C) 服務生 (D) 牙醫。"
+        },
+        {
+          "question": "17. I _______ my keys at home, so I can't get into my house.",
+          "options": ["found", "forgot", "bought", "washed"],
+          "answer": "B",
+          "explanation": "【解答】我把鑰匙「忘」在家裡了，所以我進不去房子。(A) 找到 (B) 忘記 (C) 購買 (D) 洗。"
+        },
+        {
+          "question": "18. The water in the river is very _______. Don't swim in it.",
+          "options": ["clean", "deep", "soft", "light"],
+          "answer": "B",
+          "explanation": "【解答】河裡的水很「深」。別在裡面游泳。(A) 乾淨的 (B) 深的 (C) 柔軟的 (D) 輕的。"
+        },
+        {
+          "question": "19. She is a _______ student; she studies hard and gets good grades.",
+          "options": ["lazy", "clever", "sad", "mad"],
+          "answer": "B",
+          "explanation": "【解答】她是個「聰明的」學生；她努力讀書並取得好成績。(A) 懶惰的 (B) 聰明的 (C) 難過的 (D) 發瘋的。"
+        },
+        {
+          "question": "20. After the long walk, I feel very _______.",
+          "options": ["thirsty", "full", "fast", "slow"],
+          "answer": "A",
+          "explanation": "【解答】經過長時間的步行，我感到非常「口渴」。(A) 口渴的 (B) 飽的 (C) 快的 (D) 慢的。"
+        }
+      ],
+      "2": [
+        {
+          "question": "1. The ______ of the library is very quiet, so please do not talk loudly.",
+          "options": ["speed", "space", "habit", "style"],
+          "answer": "B",
+          "explanation": "【解答】圖書館的「空間」很安靜，所以請不要大聲交談。(A) 速度 (B) 空間 (C) 習慣 (D) 風格。"
+        },
+        {
+          "question": "2. My grandfather likes to _______ early in the morning to stay healthy.",
+          "options": ["jump", "jog", "cook", "sell"],
+          "answer": "B",
+          "explanation": "【解答】我祖父喜歡在清晨「慢跑」以保持健康。(A) 跳 (B) 慢跑 (C) 烹飪 (D) 販賣。"
+        },
+        {
+          "question": "3. It is _______ to cross the street when the traffic light is red.",
+          "options": ["safe", "dangerous", "easy", "helpful"],
+          "answer": "B",
+          "explanation": "【解答】紅燈時穿越馬路是「危險的」。(A) 安全的 (B) 危險的 (C) 簡單的 (D) 有幫助的。"
+        },
+        {
+          "question": "4. The story has a happy _______. Everyone lived together peacefully.",
+          "options": ["ending", "beginning", "lesson", "start"],
+          "answer": "A",
+          "explanation": "【解答】這個故事有個快樂的「結局」。大家和平地住在一起。(A) 結局 (B) 開端 (C) 教訓 (D) 開始。"
+        },
+        {
+          "question": "5. I bought a new _______ for my computer so I can play games better.",
+          "options": ["mouse", "pillow", "blanket", "glove"],
+          "answer": "A",
+          "explanation": "【解答】我買了一隻新的「滑鼠」給電腦，這樣我能玩得更好。(A) 滑鼠 (B) 枕頭 (C) 毛毯 (D) 手套。"
+        },
+        {
+          "question": "6. The _______ of the movie was so fast that I couldn't follow the story.",
+          "options": ["action", "topic", "pace", "sound"],
+          "answer": "C",
+          "explanation": "【解答】這部電影的「節奏」太快，我跟不上故事發展。(A) 動作 (B) 主題 (C) 節奏 (D) 聲音。"
+        },
+        {
+          "question": "7. After the heavy rain, there was a beautiful _______ in the sky.",
+          "options": ["cloud", "rainbow", "star", "moon"],
+          "answer": "B",
+          "explanation": "【解答】大雨過後，天空中出現了一道美麗的「彩虹」。(A) 雲 (B) 彩虹 (C) 星星 (D) 月亮。"
+        },
+        {
+          "question": "8. Please _______ the trash into the correct bins.",
+          "options": ["separate", "collect", "destroy", "hide"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾「分類」到正確的垃圾桶中。(A) 分類 (B) 收集 (C) 摧毀 (D) 藏起來。"
+        },
+        {
+          "question": "9. My sister is a _______; she likes to paint and draw pictures.",
+          "options": ["singer", "writer", "dancer", "painter"],
+          "answer": "D",
+          "explanation": "【解答】我姊姊是位「畫家」；她喜歡繪畫。(A) 歌手 (B) 作家 (C) 舞者 (D) 畫家。"
+        },
+        {
+          "question": "10. The soup is too _______. Could you add some more water?",
+          "options": ["sweet", "salty", "fresh", "sour"],
+          "answer": "B",
+          "explanation": "【解答】這湯太「鹹」了。你可以多加點水嗎？(A) 甜的 (B) 鹹的 (C) 新鮮的 (D) 酸的。"
+        },
+        {
+          "question": "11. I need to _______ my clothes because they are dirty.",
+          "options": ["iron", "dry", "wash", "fold"],
+          "answer": "C",
+          "explanation": "【解答】我需要「洗」衣服，因為它們髒了。(A) 熨燙 (B) 烘乾 (C) 洗 (D) 摺疊。"
+        },
+        {
+          "question": "12. The _______ of the country is very large, and it has many people.",
+          "options": ["size", "shape", "weight", "height"],
+          "answer": "A",
+          "explanation": "【解答】這個國家的「面積」很大，人口眾多。(A) 大小/面積 (B) 形狀 (C) 重量 (D) 高度。"
+        },
+        {
+          "question": "13. She felt _______ when she realized she had left her wallet on the bus.",
+          "options": ["proud", "nervous", "calm", "brave"],
+          "answer": "B",
+          "explanation": "【解答】當她發現把錢包遺落在公車上時，她感到「緊張」。(A) 驕傲的 (B) 緊張的 (C) 冷靜的 (D) 勇敢的。"
+        },
+        {
+          "question": "14. Eating too much junk food is _______ for your body.",
+          "options": ["healthy", "harmful", "useful", "lucky"],
+          "answer": "B",
+          "explanation": "【解答】吃太多垃圾食物對你的身體是「有害的」。(A) 健康的 (B) 有害的 (C) 有用的 (D) 幸運的。"
+        },
+        {
+          "question": "15. The teacher asked us to _______ the meaning of the word in the dictionary.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要我們「查閱」字典中該詞的意思。(A) 查閱 (B) 尋找 (C) 照顧 (D) 看著。"
+        },
+        {
+          "question": "16. My brother is very _______; he always helps others without asking for anything.",
+          "options": ["selfish", "helpful", "funny", "wild"],
+          "answer": "B",
+          "explanation": "【解答】我哥哥非常「樂於助人」；他總是不求回報地幫助他人。(A) 自私的 (B) 樂於助人的 (C) 有趣的 (D) 野蠻的。"
+        },
+        {
+          "question": "17. The _______ news made everyone in the room feel very sad.",
+          "options": ["good", "great", "terrible", "wonderful"],
+          "answer": "C",
+          "explanation": "【解答】這則「糟糕的」消息讓房裡的每個人都感到很難過。(A) 好的 (B) 棒的 (C) 糟糕的 (D) 美好的。"
+        },
+        {
+          "question": "18. The students were very _______ during the final exam.",
+          "options": ["noisy", "quiet", "active", "excited"],
+          "answer": "B",
+          "explanation": "【解答】學生們在期末考期間非常「安靜」。(A) 吵鬧的 (B) 安靜的 (C) 活躍的 (D) 興奮的。"
+        },
+        {
+          "question": "19. It is important to _______ enough water every day.",
+          "options": ["drink", "eat", "cook", "buy"],
+          "answer": "A",
+          "explanation": "【解答】每天「喝」足夠的水很重要。(A) 喝 (B) 吃 (C) 烹飪 (D) 購買。"
+        },
+        {
+          "question": "20. She _______ a beautiful song at the school talent show.",
+          "options": ["spoke", "shouted", "sang", "whispered"],
+          "answer": "C",
+          "explanation": "【解答】她在學校才藝表演中「唱」了一首美妙的歌。(A) 說 (B) 大喊 (C) 唱 (D) 耳語。"
+        }
+      ],
+      "3": [
+        {
+          "question": "1. My father likes to read the _______ every morning to know what is happening in the world.",
+          "options": ["poster", "newspaper", "diary", "notebook"],
+          "answer": "B",
+          "explanation": "【解答】我父親每天早上喜歡讀「報紙」以了解世界大事。(A) 海報 (B) 報紙 (C) 日記 (D) 筆記本。"
+        },
+        {
+          "question": "2. Be careful! The floor is _______ because I just mopped it.",
+          "options": ["dry", "hard", "slippery", "soft"],
+          "answer": "C",
+          "explanation": "【解答】小心！地板很「滑」，因為我剛拖過。(A) 乾燥的 (B) 硬的 (C) 滑的 (D) 軟的。"
+        },
+        {
+          "question": "3. We need to buy a _______ of milk from the supermarket.",
+          "options": ["box", "bottle", "bowl", "cup"],
+          "answer": "B",
+          "explanation": "【解答】我們需要從超市買一「瓶」牛奶。(A) 盒子 (B) 瓶子 (C) 碗 (D) 杯子。"
+        },
+        {
+          "question": "4. The _______ at the zoo are very cute, especially the monkeys.",
+          "options": ["animals", "plants", "insects", "birds"],
+          "answer": "A",
+          "explanation": "【解答】動物園裡的「動物」很可愛，尤其是猴子。(A) 動物 (B) 植物 (C) 昆蟲 (D) 鳥類。"
+        },
+        {
+          "question": "5. She was so _______ that she couldn't say a word when she saw the big dog.",
+          "options": ["happy", "excited", "scared", "brave"],
+          "answer": "C",
+          "explanation": "【解答】她「害怕」到看到大狗時一句話也說不出來。(A) 開心的 (B) 興奮的 (C) 害怕的 (D) 勇敢的。"
+        },
+        {
+          "question": "6. You should _______ your teeth twice a day to keep them healthy.",
+          "options": ["wash", "brush", "clean", "check"],
+          "answer": "B",
+          "explanation": "【解答】你應該每天「刷」兩次牙以保持它們健康。(A) 洗 (B) 刷 (C) 清潔 (D) 檢查。"
+        },
+        {
+          "question": "7. The _______ is very cold in winter, and sometimes it snows.",
+          "options": ["weather", "temperature", "season", "climate"],
+          "answer": "A",
+          "explanation": "【解答】冬天這裡的「天氣」很冷，有時會下雪。(A) 天氣 (B) 溫度 (C) 季節 (D) 氣候。"
+        },
+        {
+          "question": "8. He is very _______ about his future; he has a clear plan for everything.",
+          "options": ["worried", "confident", "confused", "angry"],
+          "answer": "B",
+          "explanation": "【解答】他對未來非常有「自信」；他對每件事都有清晰的計畫。(A) 擔心的 (B) 自信的 (C) 困惑的 (D) 生氣的。"
+        },
+        {
+          "question": "9. Can you _______ the door for me? My hands are full.",
+          "options": ["lock", "open", "paint", "break"],
+          "answer": "B",
+          "explanation": "【解答】你能幫我「打開」門嗎？我的手滿了。(A) 鎖上 (B) 打開 (C) 漆上 (D) 打破。"
+        },
+        {
+          "question": "10. The city is very _______; there are lights everywhere at night.",
+          "options": ["dark", "bright", "quiet", "lonely"],
+          "answer": "B",
+          "explanation": "【解答】這座城市非常「明亮」；夜晚到處都是燈光。(A) 黑暗的 (B) 明亮的 (C) 安靜的 (D) 孤單的。"
+        },
+        {
+          "question": "11. My sister wants to _______ a new language, like French or Spanish.",
+          "options": ["teach", "learn", "study", "practice"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊想要「學習」一門新語言，像是法語或西班牙語。(A) 教導 (B) 學習 (C) 研究 (D) 練習。"
+        },
+        {
+          "question": "12. The train station is quite _______ from our house, so we usually take a taxi.",
+          "options": ["near", "far", "close", "next"],
+          "answer": "B",
+          "explanation": "【解答】火車站離我們家相當「遠」，所以我們通常搭計程車。(A) 近的 (B) 遠的 (C) 近的 (D) 下一個。"
+        },
+        {
+          "question": "13. I feel _______ after a long day of work; I just want to sit on the sofa.",
+          "options": ["energetic", "exhausted", "bored", "excited"],
+          "answer": "B",
+          "explanation": "【解答】工作一整天後我感到「精疲力竭」；我只想坐在沙發上。(A) 精力充沛的 (B) 精疲力竭的 (C) 無聊的 (D) 興奮的。"
+        },
+        {
+          "question": "14. Please _______ your hands before you eat your meal.",
+          "options": ["wash", "dry", "hold", "shake"],
+          "answer": "A",
+          "explanation": "【解答】請在用餐前「洗」手。(A) 洗 (B) 弄乾 (C) 握住 (D) 搖晃。"
+        },
+        {
+          "question": "15. The _______ of the city is famous for its history and beautiful buildings.",
+          "options": ["center", "edge", "corner", "side"],
+          "answer": "A",
+          "explanation": "【解答】這座城市的「市中心」以其歷史和美麗的建築而聞名。(A) 中心 (B) 邊緣 (C) 角落 (D) 側面。"
+        },
+        {
+          "question": "16. He is a very _______ person; he never tells lies to anyone.",
+          "options": ["honest", "mean", "lazy", "rude"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常「誠實」的人；他從不對任何人說謊。(A) 誠實的 (B) 刻薄的 (C) 懶惰的 (D) 無禮的。"
+        },
+        {
+          "question": "17. I need to _______ for my math test; I’m a bit worried about it.",
+          "options": ["sleep", "play", "study", "rest"],
+          "answer": "C",
+          "explanation": "【解答】我需要為數學考試「讀書（準備）」；我有點擔心。(A) 睡覺 (B) 玩 (C) 讀書 (D) 休息。"
+        },
+        {
+          "question": "18. The movie theater is _______ to the department store.",
+          "options": ["across", "next", "between", "behind"],
+          "answer": "B",
+          "explanation": "【解答】電影院就在百貨公司「隔壁」。(A) 跨越 (B) 隔壁 (C) 在...之間 (D) 在...後面。"
+        },
+        {
+          "question": "19. It’s _______ to be late for school, so please set your alarm clock.",
+          "options": ["good", "polite", "rude", "useful"],
+          "answer": "C",
+          "explanation": "【解答】上學遲到是「無禮/失禮」的，所以請設定鬧鐘。(A) 好的 (B) 有禮貌的 (C) 無禮的 (D) 有用的。"
+        },
+        {
+          "question": "20. We went on a _______ to the mountains during our summer vacation.",
+          "options": ["trip", "party", "lunch", "meeting"],
+          "answer": "A",
+          "explanation": "【解答】我們暑假期間去山上「旅行」。(A) 旅行 (B) 派對 (C) 午餐 (D) 會議。"
+        }
+      ],
+      "4": [
+        {
+          "question": "1. My mother bought some fresh _______ at the market to make a salad.",
+          "options": ["vegetables", "snacks", "candies", "toys"],
+          "answer": "A",
+          "explanation": "【解答】我母親在市場買了一些新鮮的「蔬菜」來做沙拉。(A) 蔬菜 (B) 零食 (C) 糖果 (D) 玩具。"
+        },
+        {
+          "question": "2. It is very _______ to walk in the dark without a flashlight.",
+          "options": ["safe", "bright", "dangerous", "easy"],
+          "answer": "C",
+          "explanation": "【解答】在黑暗中沒有手電筒走路非常「危險」。(A) 安全的 (B) 明亮的 (C) 危險的 (D) 容易的。"
+        },
+        {
+          "question": "3. The girl has a beautiful _______; she sings like an angel.",
+          "options": ["sound", "voice", "noise", "word"],
+          "answer": "B",
+          "explanation": "【解答】這女孩有美麗的「嗓音」；她唱起歌來像天使一樣。(A) 聲音 (B) 嗓音 (C) 噪音 (D) 單字。"
+        },
+        {
+          "question": "4. Please _______ the volume of the radio; it is too loud.",
+          "options": ["turn up", "turn down", "turn on", "turn off"],
+          "answer": "B",
+          "explanation": "【解答】請把收音機的音量「調低」；太大聲了。(A) 調大 (B) 調低 (C) 打開 (D) 關掉。"
+        },
+        {
+          "question": "5. We usually _______ a lot of interesting people when we travel to other countries.",
+          "options": ["look for", "meet", "wait for", "call"],
+          "answer": "B",
+          "explanation": "【解答】當我們去其他國家旅行時，通常會「遇見」許多有趣的人。(A) 尋找 (B) 遇見 (C) 等待 (D) 打電話。"
+        },
+        {
+          "question": "6. The coffee is too _______; I need to add some sugar.",
+          "options": ["sweet", "bitter", "fresh", "soft"],
+          "answer": "B",
+          "explanation": "【解答】這杯咖啡太「苦」了；我需要加點糖。(A) 甜的 (B) 苦的 (C) 新鮮的 (D) 柔軟的。"
+        },
+        {
+          "question": "7. My brother is _______ at playing the piano; he practices every day.",
+          "options": ["bad", "good", "slow", "bored"],
+          "answer": "B",
+          "explanation": "【解答】我哥哥彈鋼琴很「厲害」；他每天練習。(A) 差的 (B) 好的 (C) 慢的 (D) 無聊的。"
+        },
+        {
+          "question": "8. The school is _______ a big library and a swimming pool.",
+          "options": ["with", "for", "at", "of"],
+          "answer": "A",
+          "explanation": "【解答】這間學校「有」一個大圖書館和一個游泳池。(A) 具有/有 (B) 為了 (C) 在 (D) 的。"
+        },
+        {
+          "question": "9. I feel very _______ when I receive a gift from my best friend.",
+          "options": ["sad", "angry", "happy", "tired"],
+          "answer": "C",
+          "explanation": "【解答】當我收到來自好朋友的禮物時，我感到非常「開心」。(A) 難過的 (B) 生氣的 (C) 開心的 (D) 疲倦的。"
+        },
+        {
+          "question": "10. Could you please _______ the window? It’s getting a little hot in here.",
+          "options": ["close", "open", "lock", "break"],
+          "answer": "B",
+          "explanation": "【解答】可以請你「打開」窗戶嗎？這裡變得有點熱。(A) 關上 (B) 打開 (C) 鎖上 (D) 打破。"
+        },
+        {
+          "question": "11. There are many _______ people in the shopping mall today because it is Sunday.",
+          "options": ["quiet", "busy", "lonely", "tall"],
+          "answer": "B",
+          "explanation": "【解答】今天購物中心裡有許多「忙碌」的人，因為今天是星期日。(A) 安靜的 (B) 忙碌的 (C) 孤單的 (D) 高的。"
+        },
+        {
+          "question": "12. He wants to be a _______ when he grows up because he likes to fix cars.",
+          "options": ["teacher", "doctor", "mechanic", "nurse"],
+          "answer": "C",
+          "explanation": "【解答】他長大後想成為一名「修理工」，因為他喜歡修理汽車。(A) 老師 (B) 醫生 (C) 修理工 (D) 護士。"
+        },
+        {
+          "question": "13. It’s important to keep your room _______ and organized.",
+          "options": ["dirty", "messy", "clean", "noisy"],
+          "answer": "C",
+          "explanation": "【解答】保持你的房間「乾淨」且整齊很重要。(A) 髒的 (B) 凌亂的 (C) 乾淨的 (D) 吵雜的。"
+        },
+        {
+          "question": "14. My favorite _______ of the year is spring because the weather is comfortable.",
+          "options": ["month", "week", "season", "day"],
+          "answer": "C",
+          "explanation": "【解答】我一年中最喜歡的「季節」是春天，因為天氣很舒適。(A) 月 (B) 週 (C) 季節 (D) 天。"
+        },
+        {
+          "question": "15. Don’t _______ me! I’m trying to focus on my homework.",
+          "options": ["help", "disturb", "join", "invite"],
+          "answer": "B",
+          "explanation": "【解答】別「打擾」我！我正試著專心做家庭作業。(A) 幫助 (B) 打擾 (C) 加入 (D) 邀請。"
+        },
+        {
+          "question": "16. She is _______ her homework, so she can't go out to play right now.",
+          "options": ["finishing", "starting", "forgetting", "losing"],
+          "answer": "A",
+          "explanation": "【解答】她正在「完成」她的家庭作業，所以她現在不能出去玩。(A) 完成 (B) 開始 (C) 忘記 (D) 失去。"
+        },
+        {
+          "question": "17. The _______ man gave some money to the homeless person.",
+          "options": ["mean", "generous", "angry", "selfish"],
+          "answer": "B",
+          "explanation": "【解答】那位「慷慨的」男士給了遊民一些錢。(A) 刻薄的 (B) 慷慨的 (C) 生氣的 (D) 自私的。"
+        },
+        {
+          "question": "18. Can you _______ me a favor and help me move this heavy box?",
+          "options": ["make", "give", "do", "take"],
+          "answer": "C",
+          "explanation": "【解答】你能幫我一個忙並協助搬這個重箱子嗎？ (do a favor 是固定用法)。(A) 做 (B) 給 (C) 做 (D) 拿。"
+        },
+        {
+          "question": "19. The bus is always _______ during the rush hour.",
+          "options": ["empty", "crowded", "quiet", "dark"],
+          "answer": "B",
+          "explanation": "【解答】尖峰時刻公車總是「擁擠的」。(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 黑暗的。"
+        },
+        {
+          "question": "20. I like to _______ photos when I go on vacation.",
+          "options": ["take", "make", "buy", "paint"],
+          "answer": "A",
+          "explanation": "【解答】我度假時喜歡「拍」照片。(A) 拍 (B) 製造 (C) 買 (D) 畫。"
+        }
+      ],
+      "5": [
+        {
+          "question": "1. The movie was so _______ that we all stayed awake until the very end, even though it was already past midnight.",
+          "options": ["boring", "exciting", "tiring", "confusing"],
+          "answer": "B",
+          "explanation": "【解答】這部電影太「刺激/精彩」了，以至於我們都保持清醒直到最後，儘管已經過午夜了。(A) 無聊的 (B) 刺激的 (C) 令人疲倦的 (D) 令人困惑的。"
+        },
+        {
+          "question": "2. My brother is very _______; he often finishes his homework on time and never leaves a mess in his room.",
+          "options": ["lazy", "shy", "responsible", "nervous"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常「有責任感」；他經常準時完成作業，房間也從不凌亂。(A) 懶惰的 (B) 害羞的 (C) 有責任感的 (D) 緊張的。"
+        },
+        {
+          "question": "3. The heavy rain caused a terrible flood, and many houses were _______ under the water.",
+          "options": ["hidden", "broken", "saved", "covered"],
+          "answer": "D",
+          "explanation": "【解答】大雨造成了可怕的洪水，許多房子都被水「淹沒（覆蓋）」了。(A) 隱藏的 (B) 損壞的 (C) 被拯救的 (D) 覆蓋的。"
+        },
+        {
+          "question": "4. The teacher asked us to _______ the meaning of the word in the dictionary because we didn't know it.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要我們「查閱」字典中該詞的意思，因為我們不懂。(A) 查閱 (B) 尋找 (C) 照顧 (D) 看著。"
+        },
+        {
+          "question": "5. Doing sports every day is _______ to our health. It helps us grow taller and stay strong.",
+          "options": ["harmful", "beneficial", "dangerous", "useless"],
+          "answer": "B",
+          "explanation": "【解答】每天運動對我們的健康「有益」。這能幫助我們長高並保持強壯。(A) 有害的 (B) 有益的 (C) 危險的 (D) 無用的。"
+        },
+        {
+          "question": "6. My mother is very _______ of my cooking. She always says that I am a great chef.",
+          "options": ["afraid", "proud", "tired", "full"],
+          "answer": "B",
+          "explanation": "【解答】我母親對我的烹飪感到非常「驕傲」。她總說我是位偉大的廚師。(A) 害怕的 (B) 驕傲的 (C) 疲倦的 (D) 飽的。"
+        },
+        {
+          "question": "7. The boy felt _______ because he lost his way in the big park and didn't know how to get home.",
+          "options": ["lucky", "brave", "confused", "smart"],
+          "answer": "C",
+          "explanation": "【解答】這男孩感到「困惑/迷惘」，因為他在大公園裡迷了路，不知道怎麼回家。(A) 幸運的 (B) 勇敢的 (C) 困惑的 (D) 聰明的。"
+        },
+        {
+          "question": "8. We should _______ the environment by recycling plastic bottles and paper every day.",
+          "options": ["protect", "destroy", "waste", "pollute"],
+          "answer": "A",
+          "explanation": "【解答】我們應該每天透過回收塑膠瓶和紙張來「保護」環境。(A) 保護 (B) 摧毀 (C) 浪費 (D) 污染。"
+        },
+        {
+          "question": "9. The news about the accident was very _______ to everyone. No one expected such a thing to happen here.",
+          "options": ["funny", "shocking", "helpful", "common"],
+          "answer": "B",
+          "explanation": "【解答】關於那場意外的消息對每個人來說都非常「令人震驚」。沒人預料到這種事會在這裡發生。(A) 有趣的 (B) 震驚的 (C) 有幫助的 (D) 常見的。"
+        },
+        {
+          "question": "10. Please _______ the trash into the correct bins. Don't throw everything in the same place.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾「分類」到正確的垃圾桶。別把所有東西丟在同一個地方。(A) 分類 (B) 收集 (C) 忘記 (D) 漆上。"
+        },
+        {
+          "question": "11. If you want to get good grades, you should _______ your lessons every day instead of waiting until the night before the test.",
+          "options": ["prepare", "finish", "review", "practice"],
+          "answer": "C",
+          "explanation": "【解答】如果你想取得好成績，應該每天「複習」功課，而不是等到考前一晚。(A) 準備 (B) 完成 (C) 複習 (D) 練習。"
+        },
+        {
+          "question": "12. The air in the city is very _______ because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市裡的空氣非常「污染」，因為路上的車子太多了。(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "13. My sister has a great _______ for music. She can play the piano after listening to a song only once.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂「天賦」。她聽過一次歌就能彈鋼琴。(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "14. It is _______ to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲交談是「無禮」的。請放低音量。(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "15. The two brothers had a big _______ yesterday. They didn't speak to each other for the whole day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大「吵」了一架。他們整天都沒跟對方說話。(A) 夢 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Because of the heavy snow, the airport had to _______ all the flights until the weather got better.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大雪，機場必須「取消」所有航班，直到天氣好轉。(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "17. I was so _______ when I heard that I passed the final exam. I jumped up and down with joy.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】聽到我通過期末考時，我感到非常「驚訝」。我高興得又蹦又跳。(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "18. He is a very _______ person. He never tells lies, and people always trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常「誠實」的人。他從不說謊，人們總是信任他。(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "19. You should _______ your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】在車子啟動前，你應該「扣上」安全帶。這是為了你自己的安全。(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "20. The basketball game was very _______ until the last second, when our team scored and won the game.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽非常「緊張/激烈」，直到最後一秒，我們隊得分並贏得比賽。(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        }
+      ],
+      "6": [
+        {
+          "question": "1. Peter: Why do you look so nervous? Are you worried about the English test tomorrow? \nMary: Not at all. I’ve studied hard for it.",
+          "options": ["nervous", "bored", "lazy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】彼得：你為什麼看起來這麼緊張？你擔心明天的英文考試嗎？瑪麗：一點也不。我為它讀得很認真。選項：(A) 緊張的 (B) 無聊的 (C) 懶惰的 (D) 驕傲的。"
+        },
+        {
+          "question": "2. Before you use the new machine, you should read the instructions carefully to avoid any mistakes.",
+          "options": ["read", "paint", "hide", "break"],
+          "answer": "A",
+          "explanation": "【解答】在使用這台新機器前，你應該仔細閱讀說明書以避免任何錯誤。選項：(A) 閱讀 (B) 漆上 (C) 躲藏 (D) 打破。"
+        },
+        {
+          "question": "3. The typhoon is coming, so the government decided to cancel the outdoor concert to keep everyone safe.",
+          "options": ["cancel", "invite", "begin", "enjoy"],
+          "answer": "A",
+          "explanation": "【解答】颱風即將來襲，因此政府決定取消戶外音樂會以保障大家的安全。選項：(A) 取消 (B) 邀請 (C) 開始 (D) 享受。"
+        },
+        {
+          "question": "4. Jack is a polite boy. He always gives his seat to older people on the bus.",
+          "options": ["polite", "rude", "noisy", "wild"],
+          "answer": "A",
+          "explanation": "【解答】傑克是個有禮貌的男孩。他在公車上總是讓座給長輩。選項：(A) 有禮貌的 (B) 無禮的 (C) 吵鬧的 (D) 野蠻的。"
+        },
+        {
+          "question": "5. It’s raining heavily outside. Don't forget to put on your raincoat before you leave.",
+          "options": ["put on", "take off", "look for", "give up"],
+          "answer": "A",
+          "explanation": "【解答】外面正下著大雨。出門前別忘了穿上你的雨衣。選項：(A) 穿上 (B) 脫掉 (C) 尋找 (D) 放棄。"
+        },
+        {
+          "question": "6. Our teacher is very patient; she never gets angry even when we make mistakes.",
+          "options": ["patient", "strict", "selfish", "angry"],
+          "answer": "A",
+          "explanation": "【解答】我們的老師非常有耐心；即使我們犯錯，她也從不生氣。選項：(A) 有耐心的 (B) 嚴格的 (C) 自私的 (D) 生氣的。"
+        },
+        {
+          "question": "7. The library is a place where you should keep quiet and not talk to others.",
+          "options": ["quiet", "active", "busy", "funny"],
+          "answer": "A",
+          "explanation": "【解答】圖書館是一個你應該保持安靜且不與他人交談的地方。選項：(A) 安靜的 (B) 活躍的 (C) 忙碌的 (D) 有趣的。"
+        },
+        {
+          "question": "8. Thanks for your help. Without you, I couldn't finish the project on time.",
+          "options": ["finish", "waste", "miss", "forget"],
+          "answer": "A",
+          "explanation": "【解答】謝謝你的幫忙。沒有你，我無法準時完成這個專案。選項：(A) 完成 (B) 浪費 (C) 錯過 (D) 忘記。"
+        },
+        {
+          "question": "9. My brother wants to be an engineer because he is good at fixing computers and knows a lot about technology.",
+          "options": ["engineer", "waiter", "singer", "farmer"],
+          "answer": "A",
+          "explanation": "【解答】我哥哥想成為一名工程師，因為他擅長修理電腦且對科技了解很多。選項：(A) 工程師 (B) 服務生 (C) 歌手 (D) 農夫。"
+        },
+        {
+          "question": "10. Don’t believe everything you see on the Internet. Sometimes it’s false.",
+          "options": ["false", "true", "useful", "real"],
+          "answer": "A",
+          "explanation": "【解答】別相信你在網路上看到的一切。有時候那是錯誤的資訊。選項：(A) 錯誤的 (B) 真實的 (C) 有用的 (D) 真實的。"
+        },
+        {
+          "question": "11. Walking to school is good for your health; it makes you stronger.",
+          "options": ["health", "money", "time", "test"],
+          "answer": "A",
+          "explanation": "【解答】走路去學校對你的健康有益；它使你更強壯。選項：(A) 健康 (B) 金錢 (C) 時間 (D) 考試。"
+        },
+        {
+          "question": "12. The soup is too hot. You should wait a few minutes before you drink it.",
+          "options": ["wait", "run", "jump", "talk"],
+          "answer": "A",
+          "explanation": "【解答】湯太燙了。你應該在喝它之前等幾分鐘。選項：(A) 等候 (B) 跑步 (C) 跳躍 (D) 說話。"
+        },
+        {
+          "question": "13. The movie was so boring that I fell asleep halfway through.",
+          "options": ["boring", "exciting", "funny", "great"],
+          "answer": "A",
+          "explanation": "【解答】這部電影太無聊了，以至於我看到一半就睡著了。選項：(A) 無聊的 (B) 刺激的 (C) 有趣的 (D) 很棒的。"
+        },
+        {
+          "question": "14. Please remember to turn off the lights when you leave the classroom to save energy.",
+          "options": ["turn off", "turn on", "look at", "pick up"],
+          "answer": "A",
+          "explanation": "【解答】請記得在離開教室時關掉電燈以節省能源。選項：(A) 關掉 (B) 打開 (C) 看著 (D) 撿起。"
+        },
+        {
+          "question": "15. Mary is happy because she won the first prize in the singing contest.",
+          "options": ["happy", "sad", "tired", "thirsty"],
+          "answer": "A",
+          "explanation": "【解答】瑪麗很開心，因為她在歌唱比賽中獲得了第一名。選項：(A) 開心的 (B) 難過的 (C) 疲倦的 (D) 口渴的。"
+        },
+        {
+          "question": "16. Learning a new language takes time. You need to practice every day.",
+          "options": ["practice", "sleep", "buy", "play"],
+          "answer": "A",
+          "explanation": "【解答】學習一門新語言需要時間。你需要每天練習。選項：(A) 練習 (B) 睡覺 (C) 購買 (D) 玩耍。"
+        },
+        {
+          "question": "17. The dress is too big for me; I need a smaller size.",
+          "options": ["too big", "very cheap", "too short", "very soft"],
+          "answer": "A",
+          "explanation": "【解答】這件洋裝對我來說太大了；我需要小一點的尺寸。選項：(A) 太大的 (B) 很便宜的 (C) 太短的 (D) 很軟的。"
+        },
+        {
+          "question": "18. Be careful when you cross the street. Always look both ways before you walk.",
+          "options": ["both ways", "at the sky", "at your phone", "at your friend"],
+          "answer": "A",
+          "explanation": "【解答】過馬路時要小心。走路前總是看看兩邊。選項：(A) 兩邊 (B) 天空 (C) 手機 (D) 朋友。"
+        },
+        {
+          "question": "19. The room is very stuffy. Let's open the window to let some fresh air in.",
+          "options": ["stuffy", "clean", "bright", "quiet"],
+          "answer": "A",
+          "explanation": "【解答】房間非常悶。我們打開窗戶讓一些新鮮空氣進來吧。選項：(A) 悶的 (B) 乾淨的 (C) 明亮的 (D) 安靜的。"
+        },
+        {
+          "question": "20. I didn't do my homework, so the teacher was a little angry with me.",
+          "options": ["do", "have", "make", "take"],
+          "answer": "A",
+          "explanation": "【解答】我沒做家庭作業，所以老師對我有點生氣。選項：(A) 做 (B) 有 (C) 製作 (D) 拿取。"
+        }
+      ],
+      "7": [
+        {
+          "question": "1. The movie was so exciting that we all stayed awake until the very end, even though it was already past midnight.",
+          "options": ["boring", "exciting", "tiring", "confusing"],
+          "answer": "B",
+          "explanation": "【解答】這部電影太刺激了，以至於我們都保持清醒直到最後，儘管已經過午夜了。選項：(A) 無聊的 (B) 刺激的 (C) 令人疲倦的 (D) 令人困惑的。"
+        },
+        {
+          "question": "2. My brother is very responsible; he often finishes his homework on time and never leaves a mess in his room.",
+          "options": ["lazy", "shy", "responsible", "nervous"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常有責任感；他經常準時完成作業，且從不讓房間凌亂。選項：(A) 懶惰的 (B) 害羞的 (C) 有責任感的 (D) 緊張的。"
+        },
+        {
+          "question": "3. The heavy rain caused a terrible flood, and many houses were covered under the water.",
+          "options": ["hidden", "broken", "saved", "covered"],
+          "answer": "D",
+          "explanation": "【解答】大雨造成了嚴重的洪水，許多房子都被水淹沒（覆蓋）了。選項：(A) 隱藏的 (B) 損壞的 (C) 被拯救的 (D) 覆蓋的。"
+        },
+        {
+          "question": "4. The teacher asked us to look up the meaning of the word in the dictionary because we didn't know it.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們查閱字典來找出該字的意思，因為我們不懂。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "5. Doing sports every day is beneficial to our health. It helps us grow taller and stay strong.",
+          "options": ["harmful", "beneficial", "dangerous", "useless"],
+          "answer": "B",
+          "explanation": "【解答】每天運動對我們的健康有益。它幫助我們長高並保持強壯。選項：(A) 有害的 (B) 有益的 (C) 危險的 (D) 無用的。"
+        },
+        {
+          "question": "6. My mother is very proud of my cooking. She always says that I am a great chef.",
+          "options": ["afraid", "proud", "tired", "full"],
+          "answer": "B",
+          "explanation": "【解答】我母親對我的烹飪感到非常驕傲。她總是說我是位很棒的廚師。選項：(A) 害怕的 (B) 驕傲的 (C) 疲倦的 (D) 飽的。"
+        },
+        {
+          "question": "7. The boy felt confused because he lost his way in the big park and didn't know how to get home.",
+          "options": ["lucky", "brave", "confused", "smart"],
+          "answer": "C",
+          "explanation": "【解答】這男孩感到困惑，因為他在大公園裡迷了路，不知道該怎麼回家。選項：(A) 幸運的 (B) 勇敢的 (C) 困惑的 (D) 聰明的。"
+        },
+        {
+          "question": "8. We should protect the environment by recycling plastic bottles and paper every day.",
+          "options": ["protect", "destroy", "waste", "pollute"],
+          "answer": "A",
+          "explanation": "【解答】我們應該透過每天回收塑膠瓶和紙張來保護環境。選項：(A) 保護 (B) 摧毀 (C) 浪費 (D) 污染。"
+        },
+        {
+          "question": "9. The news about the accident was very shocking to everyone. No one expected such a thing to happen here.",
+          "options": ["funny", "shocking", "helpful", "common"],
+          "answer": "B",
+          "explanation": "【解答】關於那場意外的消息讓每個人都感到非常震驚。沒人預料到這種事會在這裡發生。選項：(A) 有趣的 (B) 震驚的 (C) 有幫助的 (D) 常見的。"
+        },
+        {
+          "question": "10. Please separate the trash into the correct bins. Don't throw everything in the same place.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾分類到正確的桶子裡。別把所有東西都丟在同一個地方。選項：(A) 分類 (B) 收集 (C) 忘記 (D) 漆上。"
+        },
+        {
+          "question": "11. If you want to get good grades, you should review your lessons every day instead of waiting until the night before the test.",
+          "options": ["prepare", "finish", "review", "practice"],
+          "answer": "C",
+          "explanation": "【解答】如果你想取得好成績，應該每天複習功課，而不是等到考前一晚。選項：(A) 準備 (B) 完成 (C) 複習 (D) 練習。"
+        },
+        {
+          "question": "12. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市裡的空氣非常髒亂（污染），因為路上的車輛太多了。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "13. My sister has a great talent for music. She can play the piano after listening to a song only once.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦。她聽過一次歌就能彈鋼琴。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "14. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲喧嘩是很沒禮貌的。請保持安靜。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "15. The two brothers had a big argument yesterday. They didn't speak to each other for the whole day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大吵了一架。他們整天都沒跟對方說話。選項：(A) 夢 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Because of the heavy snow, the airport had to cancel all the flights until the weather got better.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】因為大雪，機場必須取消所有航班直到天氣好轉。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "17. I was so surprised when I heard that I passed the final exam. I jumped up and down with joy.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】聽到通過期末考時我非常驚訝。我高興得又蹦又跳。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "18. He is a very honest person. He never tells lies, and people always trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常誠實的人。他從不說謊，且人們總是信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "19. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】在車輛啟動前，你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "20. The basketball game was very intense until the last second, when our team scored and won the game.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽非常激烈，直到最後一秒我們隊得分並贏得勝利。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        }
+      ],
+      "8": [
+        {
+          "question": "1. The math problem was so complex that none of the students in the class could find the answer.",
+          "options": ["simple", "complex", "funny", "popular"],
+          "answer": "B",
+          "explanation": "【解答】這道數學題太複雜了，班上沒有學生能算出答案。選項：(A) 簡單的 (B) 複雜的 (C) 有趣的 (D) 受歡迎的。"
+        },
+        {
+          "question": "2. My father is very careful; he always double-checks everything before he leaves the house to make sure nothing is forgotten.",
+          "options": ["careful", "careless", "lazy", "rude"],
+          "answer": "A",
+          "explanation": "【解答】我父親非常細心；他出門前總是會再三確認每件事，確保沒有遺漏。選項：(A) 細心的 (B) 粗心的 (C) 懶惰的 (D) 無禮的。"
+        },
+        {
+          "question": "3. It is essential to eat healthy food and get enough sleep if you want to perform well on your exams.",
+          "options": ["useless", "essential", "impossible", "harmful"],
+          "answer": "B",
+          "explanation": "【解答】如果你想在考試中表現良好，吃健康的食物和充足的睡眠是至關重要的。選項：(A) 無用的 (B) 必要的 (C) 不可能的 (D) 有害的。"
+        },
+        {
+          "question": "4. After the long hike, we were all exhausted, so we decided to rest under a tree for an hour.",
+          "options": ["energetic", "exhausted", "excited", "curious"],
+          "answer": "B",
+          "explanation": "【解答】經過長途健行後，我們都精疲力竭了，所以決定在樹下休息一小時。選項：(A) 精力充沛的 (B) 精疲力竭的 (C) 興奮的 (D) 好奇的。"
+        },
+        {
+          "question": "5. The little boy was terrified when he saw the big spider on the wall. He cried out for help immediately.",
+          "options": ["brave", "terrified", "calm", "proud"],
+          "answer": "B",
+          "explanation": "【解答】小男孩看到牆上的大蜘蛛時感到非常恐懼。他立刻大聲求救。選項：(A) 勇敢的 (B) 恐懼的 (C) 冷靜的 (D) 驕傲的。"
+        },
+        {
+          "question": "6. Please return the book to the library before the due date, or you will have to pay a fine.",
+          "options": ["borrow", "return", "hide", "sell"],
+          "answer": "B",
+          "explanation": "【解答】請在到期日前將書歸還圖書館，否則你必須支付罰款。選項：(A) 借 (B) 歸還 (C) 躲藏 (D) 販賣。"
+        },
+        {
+          "question": "7. The two friends had a disagreement about which movie to watch, so they ended up going to different theaters.",
+          "options": ["celebration", "connection", "disagreement", "success"],
+          "answer": "C",
+          "explanation": "【解答】這兩個朋友對於看哪部電影產生了分歧，所以最後分別去了不同的電影院。選項：(A) 慶祝 (B) 連接 (C) 分歧/爭論 (D) 成功。"
+        },
+        {
+          "question": "8. Eating too much sugar can lead to serious health problems like tooth decay and weight gain.",
+          "options": ["habits", "problems", "exercises", "diets"],
+          "answer": "B",
+          "explanation": "【解答】吃太多糖會導致嚴重的健康問題，例如蛀牙和體重增加。選項：(A) 習慣 (B) 問題 (C) 運動 (D) 飲食。"
+        },
+        {
+          "question": "9. The scientist spent years doing research to develop a cure for this strange disease.",
+          "options": ["develop", "destroy", "waste", "ignore"],
+          "answer": "A",
+          "explanation": "【解答】這位科學家花費多年進行研究，以開發出一種治療這種怪病的藥方。選項：(A) 開發 (B) 摧毀 (C) 浪費 (D) 忽視。"
+        },
+        {
+          "question": "10. The city government has decided to build more parks to provide a better living environment for citizens.",
+          "options": ["build", "break", "lose", "avoid"],
+          "answer": "A",
+          "explanation": "【解答】市政府已決定興建更多公園，以為市民提供更好的居住環境。選項：(A) 建造 (B) 打破 (C) 遺失 (D) 避免。"
+        },
+        {
+          "question": "11. She has a very positive attitude on life; she always sees the good side of things even when she faces difficulties.",
+          "options": ["attitude", "mistake", "memory", "fashion"],
+          "answer": "A",
+          "explanation": "【解答】她對人生有非常正向的態度；即使面對困難，她總是能看到事情好的一面。選項：(A) 態度 (B) 錯誤 (C) 記憶 (D) 時尚。"
+        },
+        {
+          "question": "12. You need to update your password every few months to keep your personal information safe.",
+          "options": ["invent", "update", "forget", "delete"],
+          "answer": "B",
+          "explanation": "【解答】你需要每隔幾個月更新你的密碼，以確保你的個人資訊安全。選項：(A) 發明 (B) 更新 (C) 忘記 (D) 刪除。"
+        },
+        {
+          "question": "13. Although they lost the game, the team showed great teamwork by working together until the very end.",
+          "options": ["laziness", "teamwork", "sadness", "failure"],
+          "answer": "B",
+          "explanation": "【解答】雖然他們輸了比賽，但團隊展現了偉大的團隊合作精神，直到最後一刻都互相配合。選項：(A) 懶惰 (B) 團隊合作 (C) 悲傷 (D) 失敗。"
+        },
+        {
+          "question": "14. The restaurant is very popular; you usually need to book a table three days in advance.",
+          "options": ["quiet", "empty", "popular", "boring"],
+          "answer": "C",
+          "explanation": "【解答】這家餐廳非常受歡迎；你通常需要提前三天訂位。選項：(A) 安靜的 (B) 空的 (C) 受歡迎的 (D) 無聊的。"
+        },
+        {
+          "question": "15. It is touching to see such a small child help an old man cross the busy street.",
+          "options": ["touching", "annoying", "boring", "scary"],
+          "answer": "A",
+          "explanation": "【解答】看到這麼小的孩子幫助老人過繁忙的街道，令人感動。選項：(A) 感動的 (B) 煩人的 (C) 無聊的 (D) 可怕的。"
+        },
+        {
+          "question": "16. Please turn off your mobile phone during the meeting so that you don't interrupt others.",
+          "options": ["turn on", "turn off", "look for", "pick up"],
+          "answer": "B",
+          "explanation": "【解答】請在會議期間關掉手機，以免打擾他人。選項：(A) 打開 (B) 關掉 (C) 尋找 (D) 撿起。"
+        },
+        {
+          "question": "17. He achieved his goal of becoming a professional athlete after years of hard training.",
+          "options": ["achieved", "failed", "missed", "broke"],
+          "answer": "A",
+          "explanation": "【解答】經過多年的艱苦訓練，他達成了成為職業運動員的目標。選項：(A) 達成 (B) 失敗 (C) 錯過 (D) 打破。"
+        },
+        {
+          "question": "18. The information you provided is irrelevant to our discussion; let’s focus on the main topic instead.",
+          "options": ["important", "irrelevant", "helpful", "certain"],
+          "answer": "B",
+          "explanation": "【解答】你提供的資訊與我們的討論無關；我們還是專注於主要話題吧。選項：(A) 重要的 (B) 無關的 (C) 有幫助的 (D) 確定的。"
+        },
+        {
+          "question": "19. The sudden noise frightened the cat, and it jumped onto the top of the cupboard immediately.",
+          "options": ["pleased", "frightened", "invited", "ignored"],
+          "answer": "B",
+          "explanation": "【解答】突如其來的噪音嚇壞了貓咪，牠立刻跳上了櫥櫃頂部。選項：(A) 取悅 (B) 嚇壞 (C) 邀請 (D) 忽視。"
+        },
+        {
+          "question": "20. Being empathetic is a great quality because you can understand how others feel when they are in trouble.",
+          "options": ["selfish", "proud", "empathetic", "mean"],
+          "answer": "C",
+          "explanation": "【解答】具有同理心是一種很棒的特質，因為你能理解別人在遭遇困難時的感受。選項：(A) 自私的 (B) 驕傲的 (C) 有同理心的 (D) 刻薄的。"
+        }
+      ],
+      "9": [
+        {
+          "question": "1. It is very hot today. Would you like to have some cold water to cool down?",
+          "options": ["cold", "heavy", "dark", "sad"],
+          "answer": "A",
+          "explanation": "【解答】今天天氣很熱。你想喝點冷水來消暑嗎？選項：(A) 冷的 (B) 重的 (C) 暗的 (D) 難過的。"
+        },
+        {
+          "question": "2. My brother is very good at sports. He goes jogging in the park every morning to stay healthy.",
+          "options": ["cooking", "jogging", "singing", "sleeping"],
+          "answer": "B",
+          "explanation": "【解答】我哥哥很擅長運動。他每天早上都會去公園慢跑以保持健康。選項：(A) 烹飪 (B) 慢跑 (C) 唱歌 (D) 睡覺。"
+        },
+        {
+          "question": "3. Please close the window. It is starting to rain, and the floor will get wet.",
+          "options": ["open", "close", "wash", "paint"],
+          "answer": "B",
+          "explanation": "【解答】請關上窗戶。開始下雨了，地板會弄濕。選項：(A) 打開 (B) 關上 (C) 洗 (D) 油漆。"
+        },
+        {
+          "question": "4. I feel very nervous because I have a big test tomorrow. I hope I can pass it.",
+          "options": ["happy", "nervous", "lucky", "funny"],
+          "answer": "B",
+          "explanation": "【解答】我感到很緊張，因為明天有個大考試。我希望我能通過。選項：(A) 開心的 (B) 緊張的 (C) 幸運的 (D) 有趣的。"
+        },
+        {
+          "question": "5. Look at that rainbow in the sky! It has seven colors after the rain.",
+          "options": ["cloud", "star", "rainbow", "moon"],
+          "answer": "C",
+          "explanation": "【解答】看天空中的那道彩虹！下雨後它有七種顏色。選項：(A) 雲 (B) 星星 (C) 彩虹 (D) 月亮。"
+        },
+        {
+          "question": "6. We need to buy some vegetables at the supermarket to make a vegetable salad for dinner.",
+          "options": ["toys", "vegetables", "books", "pens"],
+          "answer": "B",
+          "explanation": "【解答】我們需要在超市買些蔬菜來做晚餐的蔬菜沙拉。選項：(A) 玩具 (B) 蔬菜 (C) 書 (D) 筆。"
+        },
+        {
+          "question": "7. The library is very quiet. Please do not talk or make any noise in there.",
+          "options": ["noisy", "quiet", "busy", "crowded"],
+          "answer": "B",
+          "explanation": "【解答】圖書館非常安靜。請在那裡不要說話或發出噪音。選項：(A) 吵鬧的 (B) 安靜的 (C) 忙碌的 (D) 擁擠的。"
+        },
+        {
+          "question": "8. My grandmother likes to tell me interesting stories when we have dinner together.",
+          "options": ["stories", "games", "maps", "toys"],
+          "answer": "A",
+          "explanation": "【解答】祖母喜歡在我們一起吃晚餐時講有趣的故事給我聽。選項：(A) 故事 (B) 遊戲 (C) 地圖 (D) 玩具。"
+        },
+        {
+          "question": "9. It’s my birthday today. I am so happy to receive many gifts from my friends.",
+          "options": ["angry", "tired", "happy", "bored"],
+          "answer": "C",
+          "explanation": "【解答】今天是我的生日。收到許多朋友們送的禮物，我感到非常開心。選項：(A) 生氣的 (B) 疲倦的 (C) 開心的 (D) 無聊的。"
+        },
+        {
+          "question": "10. The teacher asks us to finish our homework before we go home.",
+          "options": ["finish", "break", "lose", "sell"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們在回家前完成家庭作業。選項：(A) 完成 (B) 打破 (C) 遺失 (D) 販賣。"
+        },
+        {
+          "question": "11. My father is a doctor. He works in a big hospital in the center of the city.",
+          "options": ["restaurant", "hospital", "school", "park"],
+          "answer": "B",
+          "explanation": "【解答】我父親是一名醫生。他在市中心的一家大醫院工作。選項：(A) 餐廳 (B) 醫院 (C) 學校 (D) 公園。"
+        },
+        {
+          "question": "12. I have a sore throat, so I cannot talk very well today. I should drink some warm water.",
+          "options": ["hand", "foot", "throat", "leg"],
+          "answer": "C",
+          "explanation": "【解答】我的喉嚨很痛，所以今天不能好好說話。我應該喝點溫水。選項：(A) 手 (B) 腳 (C) 喉嚨 (D) 腿。"
+        },
+        {
+          "question": "13. Don't forget to bring your umbrella. It is going to rain this afternoon.",
+          "options": ["forget", "remember", "help", "study"],
+          "answer": "A",
+          "explanation": "【解答】別忘了帶你的雨傘。今天下午會下雨。選項：(A) 忘記 (B) 記得 (C) 幫助 (D) 讀書。"
+        },
+        {
+          "question": "14. The water in the river is very deep. Please be careful and don't swim in it.",
+          "options": ["shallow", "deep", "soft", "light"],
+          "answer": "B",
+          "explanation": "【解答】河裡的水非常深。請小心，不要在裡面游泳。選項：(A) 淺的 (B) 深的 (C) 柔軟的 (D) 輕的。"
+        },
+        {
+          "question": "15. I need a pen to write down the phone number. Do you have one?",
+          "options": ["ruler", "pen", "eraser", "bag"],
+          "answer": "B",
+          "explanation": "【解答】我需要一支筆來記下電話號碼。你有嗎？選項：(A) 尺 (B) 筆 (C) 橡皮擦 (D) 袋子。"
+        },
+        {
+          "question": "16. My sister is a good painter. She can paint beautiful pictures of flowers.",
+          "options": ["singer", "writer", "painter", "dancer"],
+          "answer": "C",
+          "explanation": "【解答】我姊姊是位好畫家。她能畫出美麗的花卉圖畫。選項：(A) 歌手 (B) 作家 (C) 畫家 (D) 舞者。"
+        },
+        {
+          "question": "17. Eating too much junk food is harmful for your body. You should eat more fruit.",
+          "options": ["healthy", "harmful", "useful", "lucky"],
+          "answer": "B",
+          "explanation": "【解答】吃太多垃圾食物對你的身體是有害的。你應該多吃水果。選項：(A) 健康的 (B) 有害的 (C) 有用的 (D) 幸運的。"
+        },
+        {
+          "question": "18. The coffee is too bitter for me. Can you add some sugar to it?",
+          "options": ["sweet", "bitter", "fresh", "hot"],
+          "answer": "B",
+          "explanation": "【解答】這咖啡對我來說太苦了。你可以加點糖進去嗎？選項：(A) 甜的 (B) 苦的 (C) 新鮮的 (D) 熱的。"
+        },
+        {
+          "question": "19. We usually have a family party on our birthdays to celebrate together.",
+          "options": ["trip", "party", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭派對來一起慶祝。選項：(A) 旅行 (B) 派對 (C) 會議 (D) 休息。"
+        },
+        {
+          "question": "20. My favorite season of the year is summer because I can go to the beach.",
+          "options": ["month", "week", "season", "day"],
+          "answer": "C",
+          "explanation": "【解答】我一年中最喜歡的季節是夏天，因為我可以去海邊。選項：(A) 月 (B) 週 (C) 季節 (D) 天。"
+        }
+      ],
+      "10": [
+{
+          "question": "1. If you don't know the word, you can _______ it _______ in the dictionary.",
+          "options": ["look; at", "look; up", "look; for", "look; after"],
+          "answer": "B",
+          "explanation": "【解答】如果你不知道這個字，你可以在字典裡「查閱」它。選項：(A) 看著 (B) 查閱 (C) 尋找 (D) 照顧。"
+        },
+        {
+          "question": "2. It is _______ to keep the classroom clean; everyone should help.",
+          "options": ["important", "impossible", "useless", "harmful"],
+          "answer": "A",
+          "explanation": "【解答】保持教室整潔是「重要的」；每個人都應該幫忙。選項：(A) 重要的 (B) 不可能的 (C) 無用的 (D) 有害的。"
+        },
+        {
+          "question": "3. The bus was so _______ that I had to stand all the way home.",
+          "options": ["crowded", "empty", "quiet", "cheap"],
+          "answer": "A",
+          "explanation": "【解答】公車非常「擁擠」，我必須一路站著回家。選項：(A) 擁擠的 (B) 空的 (C) 安靜的 (D) 便宜的。"
+        },
+        {
+          "question": "4. Please _______ the trash into different bins: paper, plastic, and food waste.",
+          "options": ["separate", "collect", "destroy", "hide"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾「分類」到不同的回收桶：紙類、塑膠和廚餘。選項：(A) 分類 (B) 收集 (C) 摧毀 (D) 藏匿。"
+        },
+        {
+          "question": "5. Learning a foreign language can _______ your mind to new cultures.",
+          "options": ["open", "close", "break", "paint"],
+          "answer": "A",
+          "explanation": "【解答】學習外語能為你的心靈「打開」通往新文化的大門。選項：(A) 打開 (B) 關閉 (C) 打破 (D) 油漆。"
+        },
+        {
+          "question": "6. He has a great _______ for painting; his pictures look like photos.",
+          "options": ["talent", "habit", "plan", "dream"],
+          "answer": "A",
+          "explanation": "【解答】他在繪畫方面有極佳的「天賦」；他的畫看起來像照片一樣。選項：(A) 天賦 (B) 習慣 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "7. You should _______ your seatbelt for safety before the car starts.",
+          "options": ["fasten", "open", "break", "pull"],
+          "answer": "A",
+          "explanation": "【解答】在車子啟動前，為了安全，你應該「扣上」安全帶。選項：(A) 扣上 (B) 打開 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "8. The air in the big city is _______ because of the heavy traffic.",
+          "options": ["polluted", "fresh", "clean", "quiet"],
+          "answer": "A",
+          "explanation": "【解答】由於交通繁忙，大城市的空氣被「污染」了。選項：(A) 污染的 (B) 新鮮的 (C) 乾淨的 (D) 安靜的。"
+        },
+        {
+          "question": "9. Don’t _______ me while I am studying; I need to focus.",
+          "options": ["disturb", "help", "join", "invite"],
+          "answer": "A",
+          "explanation": "【解答】當我讀書時請不要「打擾」我；我需要專心。選項：(A) 打擾 (B) 幫助 (C) 加入 (D) 邀請。"
+        },
+        {
+          "question": "10. The news about the accident was very _______; everyone felt sad.",
+          "options": ["shocking", "funny", "helpful", "common"],
+          "answer": "A",
+          "explanation": "【解答】那場意外的消息非常「令人震驚」；每個人都感到很難過。選項：(A) 震驚的 (B) 有趣的 (C) 有幫助的 (D) 常見的。"
+        },
+        {
+          "question": "11. To stay healthy, you should _______ regular exercise.",
+          "options": ["do", "have", "make", "take"],
+          "answer": "A",
+          "explanation": "【解答】為了保持健康，你應該「做」規律運動。選項：(A) 做 (B) 有 (C) 製作 (D) 拿取。"
+        },
+        {
+          "question": "12. She is _______ about the final exam because she is well-prepared.",
+          "options": ["confident", "worried", "confused", "angry"],
+          "answer": "A",
+          "explanation": "【解答】她對期末考感到「有信心」，因為她準備得很充分。選項：(A) 有信心的 (B) 擔心的 (C) 困惑的 (D) 生氣的。"
+        },
+        {
+          "question": "13. It is _______ to be late for school without a good reason.",
+          "options": ["impolite", "polite", "helpful", "friendly"],
+          "answer": "A",
+          "explanation": "【解答】沒有正當理由而遲到是「無禮」的。選項：(A) 無禮的 (B) 有禮貌的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "14. We need to _______ our plans because the weather might be bad.",
+          "options": ["change", "keep", "finish", "start"],
+          "answer": "A",
+          "explanation": "【解答】我們需要「改變」我們的計畫，因為天氣可能會很糟。選項：(A) 改變 (B) 保持 (C) 完成 (D) 開始。"
+        },
+        {
+          "question": "15. The two players had a big _______ during the game, so they stopped talking.",
+          "options": ["argument", "dream", "choice", "party"],
+          "answer": "A",
+          "explanation": "【解答】這兩名球員在比賽中大「吵」了一架，所以他們不再交談了。選項：(A) 爭論 (B) 夢想 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Please _______ the volume; the music is hurting my ears.",
+          "options": ["lower", "raise", "keep", "check"],
+          "answer": "A",
+          "explanation": "【解答】請「調低」音量；音樂震得我耳朵痛。選項：(A) 調低 (B) 調高 (C) 保持 (D) 檢查。"
+        },
+        {
+          "question": "17. I am _______ of my brother because he won the gold medal.",
+          "options": ["proud", "afraid", "tired", "full"],
+          "answer": "A",
+          "explanation": "【解答】我為我的哥哥感到「驕傲」，因為他贏得了金牌。選項：(A) 驕傲的 (B) 害怕的 (C) 疲倦的 (D) 飽的。"
+        },
+        {
+          "question": "18. He is an _______ person; he always speaks the truth.",
+          "options": ["honest", "mean", "noisy", "lazy"],
+          "answer": "A",
+          "explanation": "【解答】他是個「誠實」的人；他總是說實話。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 懶惰的。"
+        },
+        {
+          "question": "19. The basketball game was very _______ until the last second.",
+          "options": ["intense", "boring", "simple", "slow"],
+          "answer": "A",
+          "explanation": "【解答】這場籃球賽直到最後一秒都非常「激烈」。選項：(A) 激烈的 (B) 無聊的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "20. She has a _______ attitude toward learning; she is always ready to try new things.",
+          "options": ["positive", "negative", "bored", "angry"],
+          "answer": "A",
+          "explanation": "【解答】她對學習有「正向」的態度；她總是準備好嘗試新事物。選項：(A) 正向的 (B) 負向的 (C) 無聊的 (D) 生氣的。"
+        }
+      ],
+      "11": [
+{
+          "question": "1. The scientist _______ that the new medicine could help patients recover much faster.",
+          "options": ["claims", "ignores", "wastes", "destroys"],
+          "answer": "A",
+          "explanation": "【解答】那位科學家「宣稱」這種新藥可以幫助病人恢復得快得多。選項：(A) 宣稱 (B) 忽視 (C) 浪費 (D) 摧毀。"
+        },
+        {
+          "question": "2. Despite the heavy rain, the marathon runners _______ to finish the race.",
+          "options": ["persisted", "quit", "failed", "avoided"],
+          "answer": "A",
+          "explanation": "【解答】儘管大雨滂沱，馬拉松選手們仍「堅持」跑完比賽。選項：(A) 堅持 (B) 放棄 (C) 失敗 (D) 避免。"
+        },
+        {
+          "question": "3. The CEO’s _______ decision to invest in solar energy proved to be a great success.",
+          "options": ["strategic", "careless", "useless", "confusing"],
+          "answer": "A",
+          "explanation": "【解答】執行長「策略性的」投資太陽能之決定證明是一項巨大的成功。選項：(A) 策略性的 (B) 粗心的 (C) 無用的 (D) 令人困惑的。"
+        },
+        {
+          "question": "4. Please _______ the document carefully before you sign your name at the bottom.",
+          "options": ["examine", "break", "hide", "paint"],
+          "answer": "A",
+          "explanation": "【解答】在你在底部簽名之前，請仔細「檢視」這份文件。選項：(A) 檢視 (B) 打破 (C) 躲藏 (D) 油漆。"
+        },
+        {
+          "question": "5. Learning to _______ your emotions is an important part of growing up.",
+          "options": ["regulate", "waste", "destroy", "forget"],
+          "answer": "A",
+          "explanation": "【解答】學習「調節」自己的情緒是成長過程中很重要的一部分。選項：(A) 調節 (B) 浪費 (C) 摧毀 (D) 忘記。"
+        },
+        {
+          "question": "6. The museum has a _______ collection of ancient artifacts from all over the world.",
+          "options": ["diverse", "simple", "small", "boring"],
+          "answer": "A",
+          "explanation": "【解答】這座博物館擁有來自世界各地「多元的」古文物收藏。選項：(A) 多元的 (B) 簡單的 (C) 小的 (D) 無聊的。"
+        },
+        {
+          "question": "7. The company's profits _______ significantly after they launched their new product.",
+          "options": ["increased", "decreased", "stayed", "lost"],
+          "answer": "A",
+          "explanation": "【解答】在推出新產品後，該公司的利潤「顯著地」增加。選項：(A) 增加 (B) 減少 (C) 停留 (D) 遺失。"
+        },
+        {
+          "question": "8. We need to find a _______ solution to the problem rather than just ignoring it.",
+          "options": ["permanent", "temporary", "useless", "weak"],
+          "answer": "A",
+          "explanation": "【解答】我們需要找到這個問題的「永久」解決方案，而不是僅僅忽視它。選項：(A) 永久的 (B) 暫時的 (C) 無用的 (D) 微弱的。"
+        },
+        {
+          "question": "9. The artist’s unique style made his work _______ from all the others in the exhibition.",
+          "options": ["stand out", "give up", "look for", "turn off"],
+          "answer": "A",
+          "explanation": "【解答】這位藝術家獨特的風格使他的作品在展覽中「脫穎而出」。選項：(A) 脫穎而出 (B) 放棄 (C) 尋找 (D) 關掉。"
+        },
+        {
+          "question": "10. He _______ his success to his parents' constant support and encouragement.",
+          "options": ["attributes", "blames", "forgets", "hates"],
+          "answer": "A",
+          "explanation": "【解答】他將自己的成功「歸功於」父母持續的支持與鼓勵。選項：(A) 歸因於 (B) 怪罪於 (C) 忘記 (D) 討厭。"
+        },
+        {
+          "question": "11. Global warming is a _______ issue that requires immediate attention from all countries.",
+          "options": ["pressing", "minor", "funny", "useless"],
+          "answer": "A",
+          "explanation": "【解答】全球暖化是一個「迫切的」問題，需要所有國家立即的關注。選項：(A) 迫切的 (B) 次要的 (C) 有趣的 (D) 無用的。"
+        },
+        {
+          "question": "12. She is _______ about the details of the project, so she will check everything twice.",
+          "options": ["meticulous", "lazy", "careless", "mean"],
+          "answer": "A",
+          "explanation": "【解答】她對專案的細節非常「一絲不苟」，所以她會檢查每件事兩次。選項：(A) 一絲不苟的 (B) 懶惰的 (C) 粗心的 (D) 刻薄的。"
+        },
+        {
+          "question": "13. It is _______ that you should arrive early to avoid the rush hour traffic.",
+          "options": ["advisable", "impolite", "helpful", "friendly"],
+          "answer": "A",
+          "explanation": "【解答】為了避開尖峰時刻車潮，提早抵達是「明智的」。選項：(A) 明智的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "14. We must _______ our limited resources if we want to survive in the long run.",
+          "options": ["conserve", "waste", "destroy", "forget"],
+          "answer": "A",
+          "explanation": "【解答】如果我們想要長期生存，就必須「保存」我們有限的資源。選項：(A) 保存 (B) 浪費 (C) 摧毀 (D) 忘記。"
+        },
+        {
+          "question": "15. The two sides finally reached an _______ after hours of heated debate.",
+          "options": ["agreement", "argument", "choice", "party"],
+          "answer": "A",
+          "explanation": "【解答】經過數小時激烈的辯論，雙方最終達成了一項「共識」。選項：(A) 同意/協議 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Please _______ the report to the manager before the deadline tomorrow.",
+          "options": ["submit", "keep", "finish", "start"],
+          "answer": "A",
+          "explanation": "【解答】請在明天截止日期前將報告「提交」給經理。選項：(A) 提交 (B) 保持 (C) 完成 (D) 開始。"
+        },
+        {
+          "question": "17. The city’s new plan aims to _______ the quality of life for all residents.",
+          "options": ["enhance", "destroy", "weaken", "avoid"],
+          "answer": "A",
+          "explanation": "【解答】這座城市的新計畫旨在「提升」所有居民的生活品質。選項：(A) 提升 (B) 摧毀 (C) 削弱 (D) 避免。"
+        },
+        {
+          "question": "18. He is an _______ speaker; he can express his ideas very clearly and fluently.",
+          "options": ["articulate", "honest", "noisy", "lazy"],
+          "answer": "A",
+          "explanation": "【解答】他是位「善於表達的」演說者；他能非常清晰且流利地表達想法。選項：(A) 善於表達的 (B) 誠實的 (C) 吵鬧的 (D) 懶惰的。"
+        },
+        {
+          "question": "19. The team worked with _______ dedication to complete the project on time.",
+          "options": ["utmost", "little", "simple", "slow"],
+          "answer": "A",
+          "explanation": "【解答】團隊以「極大的」奉獻精神準時完成了專案。選項：(A) 極大的 (B) 微小的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "20. She has a _______ outlook on the future, despite the current challenges.",
+          "options": ["hopeful", "negative", "bored", "angry"],
+          "answer": "A",
+          "explanation": "【解答】儘管目前面臨挑戰，她對未來仍抱持著「充滿希望的」看法。選項：(A) 充滿希望的 (B) 負面的 (C) 無聊的 (D) 生氣的。"
+        }
+      ],
+      "12": [
+{
+          "question": "1. The movie was so long and slow. Most of the audience felt bored during the show.",
+          "options": ["excited", "bored", "lucky", "healthy"],
+          "answer": "B",
+          "explanation": "【解答】這部電影又長又慢。大多數觀眾在節目進行中感到無聊。選項：(A) 興奮的 (B) 無聊的 (C) 幸運的 (D) 健康的。"
+        },
+        {
+          "question": "2. I am so nervous because I have a big exam tomorrow. I can't even sleep well tonight.",
+          "options": ["nervous", "proud", "brave", "smart"],
+          "answer": "A",
+          "explanation": "【解答】我感到非常緊張，因為明天有個大考試。我今晚甚至睡不好。選項：(A) 緊張的 (B) 驕傲的 (C) 勇敢的 (D) 聰明的。"
+        },
+        {
+          "question": "3. Please fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車子啟動前請扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "4. My father is a chef. He works in a busy restaurant and prepares delicious meals for customers.",
+          "options": ["sells", "prepares", "loses", "breaks"],
+          "answer": "B",
+          "explanation": "【解答】我父親是一位廚師。他在一家忙碌的餐廳工作，並為客人準備美味餐點。選項：(A) 販賣 (B) 準備 (C) 遺失 (D) 打破。"
+        },
+        {
+          "question": "5. It’s my mother’s birthday today. We are going to have a special dinner at a nice restaurant.",
+          "options": ["meeting", "dinner", "trip", "class"],
+          "answer": "B",
+          "explanation": "【解答】今天是母親的生日。我們要在一家不錯的餐廳享用一頓特別的晚餐。選項：(A) 會議 (B) 晚餐 (C) 旅行 (D) 課程。"
+        },
+        {
+          "question": "6. Be careful when you walk on the floor! I just mopped it, so it is very slippery.",
+          "options": ["dry", "hard", "slippery", "soft"],
+          "answer": "C",
+          "explanation": "【解答】在走廊上行走時要小心！我剛拖過地，所以非常滑。選項：(A) 乾燥的 (B) 硬的 (C) 滑的 (D) 軟的。"
+        },
+        {
+          "question": "7. I need to study for my math test this weekend. I really want to get a high grade.",
+          "options": ["sleep", "study", "play", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我這週末需要為了數學考試讀書。我真的很想拿到高分。選項：(A) 睡覺 (B) 讀書 (C) 玩耍 (D) 休息。"
+        },
+        {
+          "question": "8. Many people like to go to the park on weekends to walk their pets. It’s good for both of them.",
+          "options": ["walk", "feed", "wash", "hide"],
+          "answer": "A",
+          "explanation": "【解答】很多人週末喜歡去公園溜寵物。這對他們雙方都好。選項：(A) 遛（寵物） (B) 餵食 (C) 洗澡 (D) 藏匿。"
+        },
+        {
+          "question": "9. The weather is so nice today! Let's go for a walk in the park after lunch.",
+          "options": ["drive", "walk", "jump", "sleep"],
+          "answer": "B",
+          "explanation": "【解答】今天天氣真好！午餐後我們去公園散散步吧。選項：(A) 開車 (B) 散步 (C) 跳躍 (D) 睡覺。"
+        },
+        {
+          "question": "10. If you don't know the word, you can look up it in the dictionary. It’s a good way to learn.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】如果你不知道這個字，你可以查字典。這是學習的好方法。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "11. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "fresh", "polluted", "quiet"],
+          "answer": "C",
+          "explanation": "【解答】城市的空氣非常污染，因為路上的車太多了。選項：(A) 乾淨的 (B) 新鮮的 (C) 污染的 (D) 安靜的。"
+        },
+        {
+          "question": "12. I have a sore throat, so I cannot talk very well today. I should drink some warm honey water.",
+          "options": ["hand", "throat", "foot", "leg"],
+          "answer": "B",
+          "explanation": "【解答】我的喉嚨很痛，所以今天不能好好說話。我應該喝點溫蜂蜜水。選項：(A) 手 (B) 喉嚨 (C) 腳 (D) 腿。"
+        },
+        {
+          "question": "13. My sister is a very generous person. She always shares her snacks and toys with everyone.",
+          "options": ["mean", "selfish", "generous", "lazy"],
+          "answer": "C",
+          "explanation": "【解答】我姊姊是一個非常慷慨的人。她總是與每個人分享她的零食和玩具。選項：(A) 刻薄的 (B) 自私的 (C) 慷慨的 (D) 懶惰的。"
+        },
+        {
+          "question": "14. The teacher asked us to separate the trash into different bins. It helps save our planet.",
+          "options": ["separate", "collect", "destroy", "hide"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們將垃圾分類到不同的桶子。這有助於拯救我們的星球。選項：(A) 分類 (B) 收集 (C) 摧毀 (D) 隱藏。"
+        },
+        {
+          "question": "15. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲說話是很沒禮貌的。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "16. I am happy to see you again! We haven't met for over three years.",
+          "options": ["sad", "angry", "happy", "bored"],
+          "answer": "C",
+          "explanation": "【解答】見到你我很高興！我們已經三年多沒見了。選項：(A) 難過的 (B) 生氣的 (C) 開心的 (D) 無聊的。"
+        },
+        {
+          "question": "17. Don't forget to bring your umbrella. It is going to rain this afternoon.",
+          "options": ["forget", "remember", "help", "study"],
+          "answer": "A",
+          "explanation": "【解答】別忘了帶雨傘。今天下午會下雨。選項：(A) 忘記 (B) 記得 (C) 幫助 (D) 學習。"
+        },
+        {
+          "question": "18. He is an honest person. He never tells lies, so everyone trusts him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個誠實的人。他從不說謊，所以每個人都信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "19. The two students had a big argument yesterday. They didn't speak to each other for the whole day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】這兩位學生昨天大吵了一架。他們整天都沒跟對方說話。選項：(A) 夢想 (B) 爭論 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "20. We usually have a family party on our birthdays to celebrate together.",
+          "options": ["trip", "party", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭派對來一起慶祝。選項：(A) 旅行 (B) 派對 (C) 會議 (D) 休息。"
+        }
+      ],
+      "13": [
+{
+          "question": "1. The movie was so exciting that we all stayed awake until the very end, even though it was already past midnight.",
+          "options": ["boring", "exciting", "tiring", "confusing"],
+          "answer": "B",
+          "explanation": "【解答】這部電影太刺激了，儘管已過午夜，我們仍保持清醒直到最後。選項：(A) 無聊的 (B) 刺激的 (C) 令人疲倦的 (D) 令人困惑的。"
+        },
+        {
+          "question": "2. My brother is very responsible; he often finishes his homework on time and never leaves a mess in his room.",
+          "options": ["lazy", "shy", "responsible", "nervous"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常有責任感；他總準時完成功課，房間也從不凌亂。選項：(A) 懶惰的 (B) 害羞的 (C) 有責任感的 (D) 緊張的。"
+        },
+        {
+          "question": "3. The heavy rain caused a terrible flood, and many houses were covered under the water.",
+          "options": ["hidden", "broken", "saved", "covered"],
+          "answer": "D",
+          "explanation": "【解答】大雨引發嚴重洪水，許多房屋都被水覆蓋（淹沒）了。選項：(A) 隱藏的 (B) 損壞的 (C) 獲救的 (D) 覆蓋的。"
+        },
+        {
+          "question": "4. The teacher asked us to look up the meaning of the word in the dictionary because we didn't know it.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們查閱字典找出該詞義，因為我們不懂。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "5. Doing sports every day is beneficial to our health. It helps us grow taller and stay strong.",
+          "options": ["harmful", "beneficial", "dangerous", "useless"],
+          "answer": "B",
+          "explanation": "【解答】每天運動對健康有益。它能幫助我們長高並保持強壯。選項：(A) 有害的 (B) 有益的 (C) 危險的 (D) 無用的。"
+        },
+        {
+          "question": "6. My mother is very proud of my cooking. She always says that I am a great chef.",
+          "options": ["afraid", "proud", "tired", "full"],
+          "answer": "B",
+          "explanation": "【解答】我母親對我的烹飪感到非常驕傲。她總是說我是位很棒的廚師。選項：(A) 害怕的 (B) 驕傲的 (C) 疲倦的 (D) 飽的。"
+        },
+        {
+          "question": "7. The boy felt confused because he lost his way in the big park and didn't know how to get home.",
+          "options": ["lucky", "brave", "confused", "smart"],
+          "answer": "C",
+          "explanation": "【解答】男孩感到困惑，因為他在大公園迷路了，不知如何回家。選項：(A) 幸運的 (B) 勇敢的 (C) 困惑的 (D) 聰明的。"
+        },
+        {
+          "question": "8. We should protect the environment by recycling plastic bottles and paper every day.",
+          "options": ["protect", "destroy", "waste", "pollute"],
+          "answer": "A",
+          "explanation": "【解答】我們應該透過每天回收塑膠瓶和紙張來保護環境。選項：(A) 保護 (B) 摧毀 (C) 浪費 (D) 污染。"
+        },
+        {
+          "question": "9. The news about the accident was very shocking to everyone. No one expected such a thing to happen here.",
+          "options": ["funny", "shocking", "helpful", "common"],
+          "answer": "B",
+          "explanation": "【解答】關於那場意外的消息對大家來說都很震驚。沒人預期這種事會在此發生。選項：(A) 有趣的 (B) 震驚的 (C) 有幫助的 (D) 常見的。"
+        },
+        {
+          "question": "10. Please separate the trash into the correct bins. Don't throw everything in the same place.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾分類到正確的回收桶。別把所有東西丟在同個地方。選項：(A) 分類 (B) 收集 (C) 忘記 (D) 漆上。"
+        },
+        {
+          "question": "11. If you want to get good grades, you should review your lessons every day instead of waiting until the night before the test.",
+          "options": ["prepare", "finish", "review", "practice"],
+          "answer": "C",
+          "explanation": "【解答】若想取得好成績，應每天複習功課而非等到考前一晚。選項：(A) 準備 (B) 完成 (C) 複習 (D) 練習。"
+        },
+        {
+          "question": "12. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市空氣因太多車輛行駛而受到污染。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "13. My sister has a great talent for music. She can play the piano after listening to a song only once.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦。她聽過一次歌就能彈鋼琴。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "14. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲喧嘩很不禮貌。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "15. The two brothers had a big argument yesterday. They didn't speak to each other for the whole day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大吵一架。他們整天都沒跟對方說話。選項：(A) 夢 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Because of the heavy snow, the airport had to cancel all the flights until the weather got better.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大雪，機場必須取消所有航班直至天氣轉好。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "17. I was so surprised when I heard that I passed the final exam. I jumped up and down with joy.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】得知通過期末考時我很驚訝。我高興得又蹦又跳。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "18. He is a very honest person. He never tells lies, and people always trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個誠實的人。他從不說謊，人們總是信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "19. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車子移動前應扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "20. The basketball game was very intense until the last second, when our team scored and won the game.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽非常激烈直到最後一秒，我們隊得分並贏得比賽。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        }
+      ],
+      "15": [
+        {
+          "question": "1. The meeting was originally set for Monday, but due to the manager’s emergency business trip, it had to be postponed until Friday.",
+          "options": ["canceled", "postponed", "attended", "reported"],
+          "answer": "B",
+          "explanation": "【解答】會議原定於週一，但由於經理的緊急出差，不得不延後至週五。選項：(A) 取消 (B) 延後 (C) 參加 (D) 報告。"
+        },
+        {
+          "question": "2. Although the hotel looked fancy from the outside, the service was quite disappointing; the staff were rude and the rooms were dirty.",
+          "options": ["impressive", "disappointing", "expensive", "convenient"],
+          "answer": "B",
+          "explanation": "【解答】儘管飯店外觀看起來很高級，但服務相當令人失望；員工粗魯且房間很髒。選項：(A) 令人印象深刻的 (B) 令人失望的 (C) 昂貴的 (D) 便利的。"
+        },
+        {
+          "question": "3. To maintain a healthy lifestyle, it is essential to balance your diet and exercise at least three times a week.",
+          "options": ["optional", "essential", "impossible", "harmful"],
+          "answer": "B",
+          "explanation": "【解答】為了維持健康的生活方式，每週至少三次平衡飲食與運動是必要的。選項：(A) 可選的 (B) 必要的 (C) 不可能的 (D) 有害的。"
+        },
+        {
+          "question": "4. The charity organization is committed to helping local families in need by providing free food and clothes.",
+          "options": ["committed", "reluctant", "indifferent", "resistant"],
+          "answer": "A",
+          "explanation": "【解答】該慈善組織致力於透過提供免費食物與衣物來幫助當地有需要的家庭。選項：(A) 致力於 (B) 不情願的 (C) 冷漠的 (D) 抵抗的。"
+        },
+        {
+          "question": "5. It was very thoughtful of you to offer your seat to the elderly lady on the crowded bus.",
+          "options": ["selfish", "careless", "thoughtful", "annoying"],
+          "answer": "C",
+          "explanation": "【解答】你在擁擠的公車上讓座給那位老太太，真是太貼心了。選項：(A) 自私的 (B) 粗心的 (C) 貼心的 (D) 惱人的。"
+        },
+        {
+          "question": "6. The company is seeking to expand its market share by launching a new series of eco-friendly products.",
+          "options": ["expand", "shrink", "abandon", "ignore"],
+          "answer": "A",
+          "explanation": "【解答】該公司正尋求透過推出一系列環保新品來擴張市場佔有率。選項：(A) 擴張 (B) 縮減 (C) 放棄 (D) 忽視。"
+        },
+        {
+          "question": "7. The scientist is conducting a series of experiments to investigate the effects of climate change on ocean life.",
+          "options": ["investigate", "destroy", "invent", "neglect"],
+          "answer": "A",
+          "explanation": "【解答】科學家正在進行一系列實驗，以調查氣候變遷對海洋生物的影響。選項：(A) 調查 (B) 摧毀 (C) 發明 (D) 忽視。"
+        },
+        {
+          "question": "8. The instructions were so vague that many students misunderstood how to complete the project.",
+          "options": ["clear", "detailed", "vague", "helpful"],
+          "answer": "C",
+          "explanation": "【解答】說明非常模糊，導致許多學生誤解了如何完成該專案。選項：(A) 清晰的 (B) 詳細的 (C) 模糊的 (D) 有幫助的。"
+        },
+        {
+          "question": "9. Despite the heavy traffic, we managed to arrive at the airport just in time for our scheduled flight.",
+          "options": ["boarding", "delayed", "scheduled", "canceled"],
+          "answer": "C",
+          "explanation": "【解答】儘管交通繁忙，我們還是設法及時抵達機場趕上預定的航班。選項：(A) 登機的 (B) 延誤的 (C) 預定的 (D) 取消的。"
+        },
+        {
+          "question": "10. The teacher’s encouraging words gave the students the confidence they needed to finish the challenging task.",
+          "options": ["confidence", "doubt", "fear", "criticism"],
+          "answer": "A",
+          "explanation": "【解答】老師的鼓勵給了學生完成這項挑戰性任務所需的自信。選項：(A) 自信 (B) 懷疑 (C) 恐懼 (D) 批評。"
+        },
+        {
+          "question": "11. Due to the severe storm, the local authorities have suspended all public events for the weekend to ensure safety.",
+          "options": ["hosted", "suspended", "promoted", "celebrated"],
+          "answer": "B",
+          "explanation": "【解答】由於強烈風暴，地方當局已暫停週末所有公共活動以確保安全。選項：(A) 主辦 (B) 暫停 (C) 推廣 (D) 慶祝。"
+        },
+        {
+          "question": "12. It’s a good habit to double-check your answers before you submit your final test paper.",
+          "options": ["a waste of time", "a good habit", "a risky move", "a difficult task"],
+          "answer": "B",
+          "explanation": "【解答】在繳交最終考卷前再三檢查你的答案是一個好習慣。選項：(A) 浪費時間 (B) 好習慣 (C) 風險動作 (D) 困難任務。"
+        },
+        {
+          "question": "13. The restaurant has gained massive popularity because of its unique secret sauce.",
+          "options": ["massive", "limited", "minor", "negative"],
+          "answer": "A",
+          "explanation": "【解答】這家餐廳因為其獨特的祕製醬汁而獲得了極高的人氣。選項：(A) 大量的/極高的 (B) 有限的 (C) 微小的 (D) 負面的。"
+        },
+        {
+          "question": "14. Technology has significantly changed the way we communicate, making it easier to connect with people far away.",
+          "options": ["hardly", "significantly", "rarely", "barely"],
+          "answer": "B",
+          "explanation": "【解答】科技顯著地改變了我們溝通的方式，使得與遠方的人聯繫變得更容易。選項：(A) 幾乎不 (B) 顯著地 (C) 罕見地 (D) 僅僅/幾乎不。"
+        },
+        {
+          "question": "15. If you are interested about the job opportunity, you should submit your resume before the deadline.",
+          "options": ["uncertain", "interested", "confused", "bored"],
+          "answer": "B",
+          "explanation": "【解答】如果你對這個工作機會感興趣，應在截止日期前提交履歷。選項：(A) 不確定的 (B) 有興趣的 (C) 困惑的 (D) 無聊的。"
+        },
+        {
+          "question": "16. The government has implemented a new regulation to reduce plastic waste in convenience stores.",
+          "options": ["ignored", "implemented", "broken", "rejected"],
+          "answer": "B",
+          "explanation": "【解答】政府已實施一項新法規，以減少便利商店的塑膠垃圾。選項：(A) 忽視 (B) 實施 (C) 打破 (D) 拒絕。"
+        },
+        {
+          "question": "17. He is very meticulous about his work, always ensuring that every single detail is perfect.",
+          "options": ["careless", "sloppy", "meticulous", "indifferent"],
+          "answer": "C",
+          "explanation": "【解答】他對工作非常嚴謹，總能確保每一個細節都是完美的。選項：(A) 粗心的 (B) 草率的 (C) 嚴謹的 (D) 冷漠的。"
+        },
+        {
+          "question": "18. The concert was intense, with thousands of fans singing along to every song the band played.",
+          "options": ["quiet", "intense", "lonely", "boring"],
+          "answer": "B",
+          "explanation": "【解答】演唱會氣氛非常熱烈（激烈），數千名粉絲跟著樂團唱出的每一首歌。選項：(A) 安靜的 (B) 熱烈的 (C) 寂寞的 (D) 無聊的。"
+        },
+        {
+          "question": "19. After years of hard work, he finally achieved his dream of opening his own bookstore.",
+          "options": ["achieved", "missed", "failed", "lost"],
+          "answer": "A",
+          "explanation": "【解答】經過多年的努力，他終於實現了開一家屬於自己的書店的夢想。選項：(A) 達成 (B) 錯過 (C) 失敗 (D) 遺失。"
+        },
+        {
+          "question": "20. We need to find a fair solution to the problem that satisfies both sides of the argument.",
+          "options": ["fair", "biased", "temporary", "complicated"],
+          "answer": "A",
+          "explanation": "【解答】我們需要找到一個公平的解決方案，以滿足爭論的雙方。選項：(A) 公平的 (B) 有偏見的 (C) 暫時的 (D) 複雜的。"
+        }
+      ],
+      "16": [
+       {
+          "question": "1. It is very cold outside. Please wear your sweater so that you won't catch a cold.",
+          "options": ["sweater", "skirt", "shorts", "hat"],
+          "answer": "A",
+          "explanation": "【解答】外面很冷。請穿上你的毛衣，這樣你才不會感冒。選項：(A) 毛衣 (B) 裙子 (C) 短褲 (D) 帽子。"
+        },
+        {
+          "question": "2. I am so nervous because I have a big math test tomorrow. I really need to study hard tonight.",
+          "options": ["happy", "nervous", "proud", "lucky"],
+          "answer": "B",
+          "explanation": "【解答】我感到很緊張，因為明天有個大數學考。我今晚真的需要認真讀書。選項：(A) 開心的 (B) 緊張的 (C) 驕傲的 (D) 幸運的。"
+        },
+        {
+          "question": "3. My father drives me to school every morning because it is too far to walk there.",
+          "options": ["near", "close", "far", "fast"],
+          "answer": "C",
+          "explanation": "【解答】我父親每天早上載我去學校，因為走到那裡太遠了。選項：(A) 近的 (B) 近的 (C) 遠的 (D) 快的。"
+        },
+        {
+          "question": "4. The cookies smell so good. I can't wait to have one with my milk.",
+          "options": ["badly", "good", "slowly", "sadly"],
+          "answer": "B",
+          "explanation": "【解答】餅乾聞起來真香。我等不及要配牛奶吃一個了。選項：(A) 差勁地 (B) 好的/香的 (C) 慢地 (D) 難過地。"
+        },
+        {
+          "question": "5. We have a bottle of milk in the refrigerator. Can you go and get it for me?",
+          "options": ["bottle", "box", "bag", "plate"],
+          "answer": "A",
+          "explanation": "【解答】冰箱裡有一瓶牛奶。你可以去幫我拿來嗎？選項：(A) 瓶 (B) 盒 (C) 袋 (D) 盤子。"
+        },
+        {
+          "question": "6. Please wash your hands before you eat. Clean hands keep you healthy.",
+          "options": ["wash", "dry", "hold", "shake"],
+          "answer": "A",
+          "explanation": "【解答】吃飯前請洗手。乾淨的手能讓你保持健康。選項：(A) 洗 (B) 弄乾 (C) 握住 (D) 搖晃。"
+        },
+        {
+          "question": "7. The movie theater is next to the department store. We can go shopping after the movie.",
+          "options": ["across", "next", "between", "behind"],
+          "answer": "B",
+          "explanation": "【解答】電影院就在百貨公司隔壁。我們看完電影後可以去逛街。選項：(A) 對面 (B) 隔壁 (C) 之間 (D) 後面。"
+        },
+        {
+          "question": "8. My sister likes to play the piano in her free time. She practices for one hour every day.",
+          "options": ["piano", "basketball", "bike", "tennis"],
+          "answer": "A",
+          "explanation": "【解答】我姊姊空閒時喜歡彈鋼琴。她每天練習一個小時。選項：(A) 鋼琴 (B) 籃球 (C) 腳踏車 (D) 網球。"
+        },
+        {
+          "question": "9. The sun rises in the east every morning. It is a beautiful sight.",
+          "options": ["west", "east", "north", "south"],
+          "answer": "B",
+          "explanation": "【解答】太陽每天早上從東方升起。這是一個美麗的景象。選項：(A) 西 (B) 東 (C) 北 (D) 南。"
+        },
+        {
+          "question": "10. I like to read a book before I go to bed. It helps me fall asleep easily.",
+          "options": ["poster", "book", "ruler", "bag"],
+          "answer": "B",
+          "explanation": "【解答】我喜歡在睡覺前看本書。這能幫助我容易入睡。選項：(A) 海報 (B) 書 (C) 尺 (D) 袋子。"
+        },
+        {
+          "question": "11. There are many people in the park today because the weather is very nice.",
+          "options": ["people", "cars", "computers", "TVs"],
+          "answer": "A",
+          "explanation": "【解答】今天公園裡有很多人，因為天氣非常好。選項：(A) 人 (B) 車 (C) 電腦 (D) 電視。"
+        },
+        {
+          "question": "12. My uncle is a farmer; he grows rice and vegetables on his farm.",
+          "options": ["pilot", "farmer", "waiter", "dentist"],
+          "answer": "B",
+          "explanation": "【解答】我叔叔是位農夫；他在他的農場種植稻米和蔬菜。選項：(A) 機師 (B) 農夫 (C) 服務生 (D) 牙醫。"
+        },
+        {
+          "question": "13. We need to clean our classroom after school. Please help me pick up the trash.",
+          "options": ["clean", "paint", "break", "open"],
+          "answer": "A",
+          "explanation": "【解答】我們放學後需要打掃教室。請幫我撿垃圾。選項：(A) 打掃 (B) 油漆 (C) 打破 (D) 打開。"
+        },
+        {
+          "question": "14. It is rude to be late for school. You should leave home earlier.",
+          "options": ["good", "polite", "rude", "useful"],
+          "answer": "C",
+          "explanation": "【解答】上學遲到是不禮貌的。你應該早點出門。選項：(A) 好的 (B) 有禮貌的 (C) 無禮的 (D) 有用的。"
+        },
+        {
+          "question": "15. I want to buy a special gift for my mother’s birthday. Do you have any ideas?",
+          "options": ["special", "small", "cheap", "dark"],
+          "answer": "A",
+          "explanation": "【解答】我想買一個特別的禮物給我母親當生日禮物。你有什麼主意嗎？選項：(A) 特別的 (B) 小的 (C) 便宜的 (D) 暗的。"
+        },
+        {
+          "question": "16. My cousin is a very kind boy. He always shares his toys with me.",
+          "options": ["mean", "kind", "noisy", "lazy"],
+          "answer": "B",
+          "explanation": "【解答】我的堂/表兄弟是一個非常善良的男孩。他總是跟我分享他的玩具。選項：(A) 刻薄的 (B) 善良的 (C) 吵鬧的 (D) 懶惰的。"
+        },
+        {
+          "question": "17. Can you help me set the table? It’s time for us to have dinner.",
+          "options": ["set", "wash", "hide", "paint"],
+          "answer": "A",
+          "explanation": "【解答】你可以幫我擺好餐桌嗎？我們要吃晚餐的時間到了。選項：(A) 擺放（餐桌） (B) 洗 (C) 躲藏 (D) 油漆。"
+        },
+        {
+          "question": "18. The music is very loud; please turn it down so I can study.",
+          "options": ["quiet", "loud", "soft", "nice"],
+          "answer": "B",
+          "explanation": "【解答】音樂聲太大了；請轉小聲一點，讓我能讀書。選項：(A) 安靜的 (B) 大聲的 (C) 輕柔的 (D) 好的。"
+        },
+        {
+          "question": "19. We went on a trip to the beach last weekend. We played in the water for a long time.",
+          "options": ["trip", "party", "lunch", "meeting"],
+          "answer": "A",
+          "explanation": "【解答】我們上週末去海邊旅行。我們在水裡玩了很長一段時間。選項：(A) 旅行 (B) 派對 (C) 午餐 (D) 會議。"
+        },
+        {
+          "question": "20. Don’t worry! Everything will be fine. Just take a deep breath.",
+          "options": ["smile", "laugh", "worry", "sleep"],
+          "answer": "C",
+          "explanation": "【解答】別擔心！一切都會沒事的。深呼吸一下就好了。選項：(A) 微笑 (B) 大笑 (C) 擔心 (D) 睡覺。"
+        } 
+      ],
+      "17": [
+        {
+          "question": "1. Ann lost her wallet in the library, so she went to the school office and asked the teacher for help.",
+          "options": ["help", "food", "water", "money"],
+          "answer": "A",
+          "explanation": "【解答】安在圖書館弄丟了錢包，所以她去學校辦公室請求老師幫忙。選項：(A) 幫忙 (B) 食物 (C) 水 (D) 錢。"
+        },
+        {
+          "question": "2. The customer was very thirsty after shopping. He asked the waiter for a glass of cold orange juice.",
+          "options": ["box", "glass", "bowl", "plate"],
+          "answer": "B",
+          "explanation": "【解答】購物後顧客感到很口渴。他向服務生要了一杯冰柳橙汁。選項：(A) 盒 (B) 杯 (C) 碗 (D) 盤子。"
+        },
+        {
+          "question": "3. It is already 10 p.m. and the student has to finish his math homework because it is due tomorrow.",
+          "options": ["finish", "break", "lose", "sell"],
+          "answer": "A",
+          "explanation": "【解答】已經晚上十點了，這名學生必須完成他的數學作業，因為明天到期。選項：(A) 完成 (B) 打破 (C) 遺失 (D) 販賣。"
+        },
+        {
+          "question": "4. The reporter reminded everyone to take an umbrella today because it is going to rain this afternoon.",
+          "options": ["rain", "snow", "windy", "cold"],
+          "answer": "A",
+          "explanation": "【解答】記者提醒大家今天帶把傘，因為今天下午會下雨。選項：(A) 下雨 (B) 下雪 (C) 有風的 (D) 寒冷的。"
+        },
+        {
+          "question": "5. The librarian asked the students to be quiet because many people are reading in the library.",
+          "options": ["sleeping", "reading", "shouting", "playing"],
+          "answer": "B",
+          "explanation": "【解答】圖書館員請學生保持安靜，因為許多人正在圖書館裡閱讀。選項：(A) 睡覺 (B) 閱讀 (C) 大叫 (D) 玩耍。"
+        },
+        {
+          "question": "6. This jacket is popular, but the clerk told the customer that he needs a larger one because it is too small.",
+          "options": ["larger", "shorter", "darker", "heavier"],
+          "answer": "A",
+          "explanation": "【解答】這件夾克很受歡迎，但店員告訴顧客他需要大一點的，因為這件太小了。選項：(A) 較大的 (B) 較短的 (C) 較暗的 (D) 較重的。"
+        },
+        {
+          "question": "7. David is new here and introduced himself to Lucy, who welcomed him to their class.",
+          "options": ["house", "class", "farm", "hospital"],
+          "answer": "B",
+          "explanation": "【解答】大衛是新來的，並向露西自我介紹，露西歡迎他來到他們的班級。選項：(A) 房子 (B) 班級 (C) 農場 (D) 醫院。"
+        },
+        {
+          "question": "8. The doctor noticed the patient looked pale and asked if he felt sick because he had a headache and fever.",
+          "options": ["sick", "happy", "strong", "lucky"],
+          "answer": "A",
+          "explanation": "【解答】醫生注意到病人臉色蒼白，並詢問他是否感到身體不適，因為他頭痛且發燒。選項：(A) 生病的 (B) 開心的 (C) 強壯的 (D) 幸運的。"
+        },
+        {
+          "question": "9. Tom asked Mary how she goes to school, and she replied that she usually take the bus because it is fast.",
+          "options": ["drive", "take", "ride", "walk"],
+          "answer": "B",
+          "explanation": "【解答】湯姆問瑪麗如何上學，她回答她通常搭公車，因為很快。選項：(A) 開車 (B) 搭乘 (C) 騎乘 (D) 走路。"
+        },
+        {
+          "question": "10. It is a beautiful sunny day, so the family decided to go for a walk in the park to get some fresh air.",
+          "options": ["sleep", "walk", "meal", "dream"],
+          "answer": "B",
+          "explanation": "【解答】今天天氣晴朗，這家人決定去公園散步呼吸新鮮空氣。選項：(A) 睡覺 (B) 散步 (C) 餐點 (D) 夢。"
+        },
+        {
+          "question": "11. The tourist asked the local if there is a post office near here, and the local told him to go straight and turn left.",
+          "options": ["near", "far", "between", "next"],
+          "answer": "A",
+          "explanation": "【解答】遊客詢問當地人這附近是否有郵局，當地人告訴他直走再左轉。選項：(A) 附近 (B) 遠處 (C) 之間 (D) 隔壁。"
+        },
+        {
+          "question": "12. When the friend gave the birthday gift, the receiver felt it was very kind of her to remember the special day.",
+          "options": ["kind", "mean", "noisy", "lazy"],
+          "answer": "A",
+          "explanation": "【解答】當朋友送上生日禮物時，收禮者覺得她記得這個特別的日子真是太貼心了。選項：(A) 親切的 (B) 刻薄的 (C) 吵鬧的 (D) 懶惰的。"
+        },
+        {
+          "question": "13. The mother reminded her son that his room is very messy and asked him to pick up his clothes and toys.",
+          "options": ["clean", "messy", "quiet", "empty"],
+          "answer": "B",
+          "explanation": "【解答】母親提醒兒子他的房間很凌亂，並要求他撿起他的衣服和玩具。選項：(A) 乾淨的 (B) 凌亂的 (C) 安靜的 (D) 空的。"
+        },
+        {
+          "question": "14. The teacher asked the student what he likes to do in his free time, and the student answered that he likes to read books.",
+          "options": ["read", "write", "play", "eat"],
+          "answer": "A",
+          "explanation": "【解答】老師問學生空閒時間喜歡做什麼，學生回答他喜歡讀書。選項：(A) 讀 (B) 寫 (C) 玩 (D) 吃。"
+        },
+        {
+          "question": "15. The man flies airplanes and visits many different countries for his job as a pilot.",
+          "options": ["pilot", "doctor", "farmer", "waiter"],
+          "answer": "A",
+          "explanation": "【解答】這名男子駕駛飛機並造訪許多不同的國家，他的職業是機師。選項：(A) 機師 (B) 醫生 (C) 農夫 (D) 服務生。"
+        },
+        {
+          "question": "16. The teacher asked the students to open their books to page 20 to start the lesson.",
+          "options": ["close", "open", "wash", "paint"],
+          "answer": "B",
+          "explanation": "【解答】老師要求學生將書翻開（打開）到第 20 頁以開始課程。選項：(A) 關上 (B) 打開 (C) 洗 (D) 油漆。"
+        },
+        {
+          "question": "17. It is 35 degrees today and so hot that the boy wants to buy some ice cream to cool down.",
+          "options": ["cold", "hot", "dark", "soft"],
+          "answer": "B",
+          "explanation": "【解答】今天氣溫 35 度，非常熱，男孩想買冰淇淋消暑。選項：(A) 寒冷的 (B) 熱的 (C) 暗的 (D) 軟的。"
+        },
+        {
+          "question": "18. The boss told his employees that the meeting starts at 9:00 sharp and asked them not to be late.",
+          "options": ["late", "early", "ready", "happy"],
+          "answer": "A",
+          "explanation": "【解答】老闆告訴員工會議準時 9:00 開始，並要求他們不要遲到。選項：(A) 遲到的 (B) 早的 (C) 準備好的 (D) 開心的。"
+        },
+        {
+          "question": "19. When the boy heard the good news about his test scores, he was so excited that he wanted to dance.",
+          "options": ["sad", "angry", "excited", "bored"],
+          "answer": "C",
+          "explanation": "【解答】當男孩聽到關於考分的好消息時，他非常興奮，想跳起舞來。選項：(A) 難過的 (B) 生氣的 (C) 興奮的 (D) 無聊的。"
+        },
+        {
+          "question": "20. The customer paid 200 dollars for the item and told the clerk to keep the money.",
+          "options": ["money", "card", "food", "gift"],
+          "answer": "A",
+          "explanation": "【解答】顧客為商品支付 200 美元，並告訴店員不用找零（保留餘款）。選項：(A) 錢 (B) 卡 (C) 食物 (D) 禮物。"
+        }
+      ],
+      "18": [
+        {
+          "question": "1. The project was quite complex; it required us to analyze a lot of data and coordinate with different departments.",
+          "options": ["complex", "simple", "tiny", "funny"],
+          "answer": "A",
+          "explanation": "【解答】這個專案相當複雜；它需要我們分析大量數據並與不同部門協調。選項：(A) 複雜的 (B) 簡單的 (C) 微小的 (D) 有趣的。"
+        },
+        {
+          "question": "2. My father is very organized; he always double-checks his schedule every night to make sure he doesn't miss any appointments.",
+          "options": ["careless", "organized", "lazy", "rude"],
+          "answer": "B",
+          "explanation": "【解答】我父親非常有條理；他每天晚上總會再三確認行程，以確保不會錯過任何約會。選項：(A) 粗心的 (B) 有條理的 (C) 懶惰的 (D) 無禮的。"
+        },
+        {
+          "question": "3. It is essential to drink enough water every day, especially when you are doing intense exercise.",
+          "options": ["useless", "essential", "impossible", "harmful"],
+          "answer": "B",
+          "explanation": "【解答】每天喝足夠的水是至關重要的，特別是在做高強度運動時。選項：(A) 無用的 (B) 必要的 (C) 不可能的 (D) 有害的。"
+        },
+        {
+          "question": "4. After a long day of moving heavy furniture, we were all exhausted, so we went to bed as soon as we got home.",
+          "options": ["energetic", "exhausted", "excited", "curious"],
+          "answer": "B",
+          "explanation": "【解答】搬了一整天重家具後，我們都精疲力竭了，所以一到家就上床睡覺。選項：(A) 精力充沛的 (B) 精疲力竭的 (C) 興奮的 (D) 好奇的。"
+        },
+        {
+          "question": "5. The little girl was terrified when she realized she had been left alone in the crowded shopping mall.",
+          "options": ["brave", "terrified", "calm", "proud"],
+          "answer": "B",
+          "explanation": "【解答】小女孩發現自己被獨自留在擁擠的購物中心時，感到非常恐懼。選項：(A) 勇敢的 (B) 恐懼的 (C) 冷靜的 (D) 驕傲的。"
+        },
+        {
+          "question": "6. Please remember to return the borrowed book to the library before the due date to avoid paying a fine.",
+          "options": ["return", "borrow", "hide", "sell"],
+          "answer": "A",
+          "explanation": "【解答】請記得在到期日前將借來的書歸還圖書館，以避免支付罰款。選項：(A) 歸還 (B) 借入 (C) 躲藏 (D) 販賣。"
+        },
+        {
+          "question": "7. The two candidates had a sharp disagreement about how to improve the city’s traffic, so they had a public debate.",
+          "options": ["celebration", "connection", "disagreement", "success"],
+          "answer": "C",
+          "explanation": "【解答】兩位候選人對於如何改善城市交通有嚴重的分歧，因此他們舉行了公開辯論。選項：(A) 慶祝 (B) 連接 (C) 分歧 (D) 成功。"
+        },
+        {
+          "question": "8. Experts say that eating too much junk food can lead to serious health problems, such as high blood pressure.",
+          "options": ["habits", "problems", "exercises", "diets"],
+          "answer": "B",
+          "explanation": "【解答】專家說吃太多垃圾食物會導致嚴重的健康問題，例如高血壓。選項：(A) 習慣 (B) 問題 (C) 運動 (D) 飲食。"
+        },
+        {
+          "question": "9. The scientist spent ten years working in the lab to develop a new medicine that could save many lives.",
+          "options": ["develop", "destroy", "waste", "ignore"],
+          "answer": "A",
+          "explanation": "【解答】這位科學家花了十年在實驗室工作，研發出一種可以拯救許多性命的新藥。選項：(A) 開發 (B) 摧毀 (C) 浪費 (D) 忽視。"
+        },
+        {
+          "question": "10. The city government has decided to build more public transportation, such as subways, to reduce traffic on the road.",
+          "options": ["build", "break", "lose", "avoid"],
+          "answer": "A",
+          "explanation": "【解答】市政府已決定興建更多大眾運輸工具，例如地鐵，以減少道路交通流量。選項：(A) 建造 (B) 打破 (C) 遺失 (D) 避免。"
+        },
+        {
+          "question": "11. She has a very positive attitude on life; she always finds something to be grateful for, even in hard times.",
+          "options": ["attitude", "mistake", "memory", "fashion"],
+          "answer": "A",
+          "explanation": "【解答】她對生活有非常正向的態度；即使在困難時期，她總能找到值得感恩的事。選項：(A) 態度 (B) 錯誤 (C) 記憶 (D) 時尚。"
+        },
+        {
+          "question": "12. You should update your password for your email account regularly to prevent your personal data from being stolen.",
+          "options": ["invent", "update", "forget", "delete"],
+          "answer": "B",
+          "explanation": "【解答】你應該定期更新電子郵件帳號的密碼，以防止個人資料被竊。選項：(A) 發明 (B) 更新 (C) 忘記 (D) 刪除。"
+        },
+        {
+          "question": "13. Although the basketball team lost the final match, they showed great teamwork by cheering for each other until the end.",
+          "options": ["laziness", "teamwork", "sadness", "failure"],
+          "answer": "B",
+          "explanation": "【解答】雖然籃球隊輸了決賽，他們透過直到最後都在為彼此喝采，展現了極佳的團隊合作。選項：(A) 懶惰 (B) 團隊合作 (C) 悲傷 (D) 失敗。"
+        },
+        {
+          "question": "14. The new café is very popular; there is always a long line of people waiting outside even on weekdays.",
+          "options": ["quiet", "empty", "popular", "boring"],
+          "answer": "C",
+          "explanation": "【解答】這家新咖啡館非常受歡迎；即使在平日，店外總是有長長的人龍在排隊。選項：(A) 安靜的 (B) 空的 (C) 受歡迎的 (D) 無聊的。"
+        },
+        {
+          "question": "15. It is truly touching to see a young student spend his weekend helping clean up the local park for free.",
+          "options": ["touching", "annoying", "boring", "scary"],
+          "answer": "A",
+          "explanation": "【解答】看到一位年輕學生花週末時間免費幫忙清理當地公園，真是令人感動。選項：(A) 感動的 (B) 煩人的 (C) 無聊的 (D) 可怕的。"
+        },
+        {
+          "question": "16. Please turn off your mobile phone during the exam, or you will be disqualified.",
+          "options": ["turn on", "turn off", "look for", "pick up"],
+          "answer": "B",
+          "explanation": "【解答】請在考試期間關掉你的手機，否則你將被取消資格。選項：(A) 打開 (B) 關掉 (C) 尋找 (D) 撿起。"
+        },
+        {
+          "question": "17. After five years of persistent practice, she finally achieved her dream of performing in the national orchestra.",
+          "options": ["achieved", "failed", "missed", "broke"],
+          "answer": "A",
+          "explanation": "【解答】經過五年的堅持練習，她終於實現了在國家交響樂團演出的夢想。選項：(A) 達成 (B) 失敗 (C) 錯過 (D) 打破。"
+        },
+        {
+          "question": "18. The data you provided is irrelevant to our current research; please focus on the information from last month.",
+          "options": ["important", "irrelevant", "helpful", "certain"],
+          "answer": "B",
+          "explanation": "【解答】你提供的數據與我們目前的研究無關；請專注於上個月的資訊。選項：(A) 重要的 (B) 無關的 (C) 有幫助的 (D) 確定的。"
+        },
+        {
+          "question": "19. The sudden thunder frightened the sleeping dog, and it jumped up and ran under the sofa in fear.",
+          "options": ["pleased", "frightened", "invited", "ignored"],
+          "answer": "B",
+          "explanation": "【解答】突如其來的雷聲嚇壞了睡覺的狗，牠驚跳起來並恐懼地跑進沙發底下。選項：(A) 取悅 (B) 嚇壞 (C) 邀請 (D) 忽視。"
+        },
+        {
+          "question": "20. Being empathetic is a valuable trait for a leader, as it allows them to truly understand the needs of their team members.",
+          "options": ["selfish", "proud", "empathetic", "mean"],
+          "answer": "C",
+          "explanation": "【解答】具有同理心對領導者來說是一種寶貴的特質，因為這能讓他們真正理解團隊成員的需求。選項：(A) 自私的 (B) 驕傲的 (C) 有同理心的 (D) 刻薄的。"
+        }
+      ],
+      "19": [
+        {
+          "question": "1. The movie was so exciting that we all stayed awake until the very end, even though it was already past midnight.",
+          "options": ["boring", "exciting", "tiring", "confusing"],
+          "answer": "B",
+          "explanation": "【解答】這部電影太刺激了，儘管已過午夜，我們仍保持清醒直到最後。選項：(A) 無聊的 (B) 刺激的 (C) 令人疲倦的 (D) 令人困惑的。"
+        },
+        {
+          "question": "2. My brother is very responsible; he often finishes his homework on time and never leaves a mess in his room.",
+          "options": ["lazy", "shy", "responsible", "nervous"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常有責任感；他總準時完成功課，房間也從不凌亂。選項：(A) 懶惰的 (B) 害羞的 (C) 有責任感的 (D) 緊張的。"
+        },
+        {
+          "question": "3. The heavy rain caused a terrible flood, and many houses were covered under the water.",
+          "options": ["hidden", "broken", "saved", "covered"],
+          "answer": "D",
+          "explanation": "【解答】大雨引發嚴重洪水，許多房屋都被水覆蓋（淹沒）了。選項：(A) 隱藏的 (B) 損壞的 (C) 獲救的 (D) 覆蓋的。"
+        },
+        {
+          "question": "4. The teacher asked us to look up the meaning of the word in the dictionary because we didn't know it.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們查閱字典找出該詞義，因為我們不懂。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "5. Doing sports every day is beneficial to our health. It helps us grow taller and stay strong.",
+          "options": ["harmful", "beneficial", "dangerous", "useless"],
+          "answer": "B",
+          "explanation": "【解答】每天運動對健康有益。它能幫助我們長高並保持強壯。選項：(A) 有害的 (B) 有益的 (C) 危險的 (D) 無用的。"
+        },
+        {
+          "question": "6. My mother is very proud of my cooking. She always says that I am a great chef.",
+          "options": ["afraid", "proud", "tired", "full"],
+          "answer": "B",
+          "explanation": "【解答】我母親對我的烹飪感到非常驕傲。她總是說我是位很棒的廚師。選項：(A) 害怕的 (B) 驕傲的 (C) 疲倦的 (D) 飽的。"
+        },
+        {
+          "question": "7. The boy felt confused because he lost his way in the big park and didn't know how to get home.",
+          "options": ["lucky", "brave", "confused", "smart"],
+          "answer": "C",
+          "explanation": "【解答】男孩感到困惑，因為他在大公園迷路了，不知如何回家。選項：(A) 幸運的 (B) 勇敢的 (C) 困惑的 (D) 聰明的。"
+        },
+        {
+          "question": "8. We should protect the environment by recycling plastic bottles and paper every day.",
+          "options": ["protect", "destroy", "waste", "pollute"],
+          "answer": "A",
+          "explanation": "【解答】我們應該透過每天回收塑膠瓶和紙張來保護環境。選項：(A) 保護 (B) 摧毀 (C) 浪費 (D) 污染。"
+        },
+        {
+          "question": "9. The news about the accident was very shocking to everyone. No one expected such a thing to happen here.",
+          "options": ["funny", "shocking", "helpful", "common"],
+          "answer": "B",
+          "explanation": "【解答】關於那場意外的消息對大家來說都很震驚。沒人預期這種事會在此發生。選項：(A) 有趣的 (B) 震驚的 (C) 有幫助的 (D) 常見的。"
+        },
+        {
+          "question": "10. Please separate the trash into the correct bins. Don't throw everything in the same place.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾分類到正確的回收桶。別把所有東西丟在同個地方。選項：(A) 分類 (B) 收集 (C) 忘記 (D) 漆上。"
+        },
+        {
+          "question": "11. If you want to get good grades, you should review your lessons every day instead of waiting until the night before the test.",
+          "options": ["prepare", "finish", "review", "practice"],
+          "answer": "C",
+          "explanation": "【解答】若想取得好成績，應每天複習功課而非等到考前一晚。選項：(A) 準備 (B) 完成 (C) 複習 (D) 練習。"
+        },
+        {
+          "question": "12. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市空氣因太多車輛行駛而受到污染。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "13. My sister has a great talent for music. She can play the piano after listening to a song only once.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦。她聽過一次歌就能彈鋼琴。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "14. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲喧嘩很不禮貌。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "15. The two brothers had a big argument yesterday. They didn't speak to each other for the whole day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大吵一架。他們整天都沒跟對方說話。選項：(A) 夢 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "16. Because of the heavy snow, the airport had to cancel all the flights until the weather got better.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大雪，機場必須取消所有航班直至天氣轉好。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "17. I was so surprised when I heard that I passed the final exam. I jumped up and down with joy.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】得知通過期末考時我很驚訝。我高興得又蹦又跳。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "18. He is a very honest person. He never tells lies, and people always trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個誠實的人。他從不說謊，人們總是信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "19. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車子移動前應扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "20. The basketball game was very intense until the last second, when our team scored and won the game.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽非常激烈直到最後一秒，我們隊得分並贏得比賽。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        }
+      ],
+      "20": [
+        {
+          "question": "1. The park was crowded with people because it was a beautiful Sunday afternoon. Everyone wanted to enjoy the sun.",
+          "options": ["empty", "crowded", "quiet", "bored"],
+          "answer": "B",
+          "explanation": "【解答】公園裡擠滿了人，因為這是一個美麗的週日午後。每個人都想享受陽光。選項：(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 無聊的。"
+        },
+        {
+          "question": "2. My mom told me not to waste time playing video games. I should finish my project first.",
+          "options": ["save", "spend", "waste", "borrow"],
+          "answer": "C",
+          "explanation": "【解答】我媽媽告訴我不要浪費時間玩電動遊戲。我應該先完成我的專案。選項：(A) 節省 (B) 花費 (C) 浪費 (D) 借。"
+        },
+        {
+          "question": "3. The sign says, \"No parking here.\" We must park our bikes in the parking lot instead.",
+          "options": ["walking", "swimming", "parking", "sleeping"],
+          "answer": "C",
+          "explanation": "【解答】標示寫著：「此處禁止停車」。我們必須把腳踏車停在停車場。選項：(A) 步行 (B) 游泳 (C) 停車 (D) 睡覺。"
+        },
+        {
+          "question": "4. Please turn down the radio; the music is too loud, and it is bothering the neighbors.",
+          "options": ["turn down", "turn on", "look for", "wait for"],
+          "answer": "A",
+          "explanation": "【解答】請把收音機聲音轉小；音樂太大聲了，這在打擾鄰居。選項：(A) 轉小聲 (B) 打開 (C) 尋找 (D) 等待。"
+        },
+        {
+          "question": "5. It’s important to brush your teeth after every meal to keep them white and healthy.",
+          "options": ["wash", "brush", "clean", "check"],
+          "answer": "B",
+          "explanation": "【解答】每餐飯後刷牙對於保持牙齒潔白健康很重要。選項：(A) 洗 (B) 刷 (C) 清理 (D) 檢查。"
+        },
+        {
+          "question": "6. My sister loves animals, especially cats. She has fed three stray cats since last year.",
+          "options": ["kept", "fed", "found", "lost"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊很愛動物，特別是貓。自從去年以來，她已經餵養了三隻流浪貓。選項：(A) 養 (B) 餵食 (C) 發現 (D) 遺失。"
+        },
+        {
+          "question": "7. He is very excited about the upcoming school trip; he has been packing his bag for two days.",
+          "options": ["worried", "excited", "tired", "serious"],
+          "answer": "B",
+          "explanation": "【解答】他對即將到來的校外教學感到非常興奮；他已經打包兩天的行李了。選項：(A) 擔心的 (B) 興奮的 (C) 疲倦的 (D) 嚴肅的。"
+        },
+        {
+          "question": "8. Don't be shy to ask for help when you don't understand the lesson. The teacher is here to support you.",
+          "options": ["shy", "brave", "lucky", "smart"],
+          "answer": "A",
+          "explanation": "【解答】當你不懂課程時，不要害羞而不敢尋求幫助。老師在這裡支持你。選項：(A) 害羞的 (B) 勇敢的 (C) 幸運的 (D) 聰明的。"
+        },
+        {
+          "question": "9. The train station is quite far from our house, so we usually take a taxi instead of walking.",
+          "options": ["near", "far", "close", "next"],
+          "answer": "B",
+          "explanation": "【解答】火車站離我們家相當遠，所以我們通常搭計程車而不走路。選項：(A) 近的 (B) 遠的 (C) 近的 (D) 隔壁的。"
+        },
+        {
+          "question": "10. I feel exhausted after a long day of work; I just want to sit on the sofa and do nothing.",
+          "options": ["energetic", "exhausted", "bored", "excited"],
+          "answer": "B",
+          "explanation": "【解答】工作了一整天後我感到精疲力竭；我只想坐在沙發上什麼都不做。選項：(A) 精力充沛的 (B) 精疲力竭的 (C) 無聊的 (D) 興奮的。"
+        },
+        {
+          "question": "11. You should fasten your seatbelt before the car moves. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】在車子行進前你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "12. The store is between the bank and the bookstore. You can't miss it.",
+          "options": ["across", "next", "between", "behind"],
+          "answer": "C",
+          "explanation": "【解答】這家店在銀行和書店之間。你絕不會錯過的。選項：(A) 對面 (B) 隔壁 (C) 之間 (D) 後面。"
+        },
+        {
+          "question": "13. It is rude to be late for school, so please set your alarm clock tonight.",
+          "options": ["good", "polite", "rude", "useful"],
+          "answer": "C",
+          "explanation": "【解答】上學遲到是不禮貌的，所以請今晚設好你的鬧鐘。選項：(A) 好的 (B) 有禮貌的 (C) 無禮的 (D) 有用的。"
+        },
+        {
+          "question": "14. We went on a trip to the mountains during our summer vacation. We saw many beautiful trees.",
+          "options": ["trip", "party", "lunch", "meeting"],
+          "answer": "A",
+          "explanation": "【解答】暑假期間我們去山區旅行。我們看到了許多美麗的樹木。選項：(A) 旅行 (B) 派對 (C) 午餐 (D) 會議。"
+        },
+        {
+          "question": "15. Don’t disturb me while I am studying! I really need to focus on this chapter.",
+          "options": ["help", "disturb", "join", "invite"],
+          "answer": "B",
+          "explanation": "【解答】當我讀書時不要打擾我！我真的很需要專注於這一章。選項：(A) 幫助 (B) 打擾 (C) 加入 (D) 邀請。"
+        },
+        {
+          "question": "16. She is finishing her homework right now, so she can't go out to play basketball with you.",
+          "options": ["finishing", "starting", "forgetting", "losing"],
+          "answer": "A",
+          "explanation": "【解答】她現在正在完成她的家庭作業，所以她不能出去跟你打籃球。選項：(A) 完成 (B) 開始 (C) 忘記 (D) 遺失。"
+        },
+        {
+          "question": "17. The generous man gave some money to the homeless person on the street.",
+          "options": ["mean", "generous", "angry", "selfish"],
+          "answer": "B",
+          "explanation": "【解答】這名慷慨的男子給了街上的流浪漢一些錢。選項：(A) 刻薄的 (B) 慷慨的 (C) 生氣的 (D) 自私的。"
+        },
+        {
+          "question": "18. Can you do me a favor and help me move this heavy box to the living room?",
+          "options": ["make", "give", "do", "take"],
+          "answer": "C",
+          "explanation": "【解答】你可以幫我個忙，協助我把這個重箱子搬到客廳嗎？選項：(A) 做 (B) 給 (C) 做（忙） (D) 拿。"
+        },
+        {
+          "question": "19. The bus is always crowded during the rush hour. There is almost no space to stand.",
+          "options": ["empty", "crowded", "quiet", "dark"],
+          "answer": "B",
+          "explanation": "【解答】尖峰時刻公車總是擁擠不堪。幾乎沒有站立的空間。選項：(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 暗的。"
+        },
+        {
+          "question": "20. I like to take photos when I go on vacation. It helps me remember the beautiful places.",
+          "options": ["take", "make", "buy", "paint"],
+          "answer": "A",
+          "explanation": "【解答】我度假時喜歡拍照。這能幫助我記住那些美麗的地方。選項：(A) 拍攝 (B) 製作 (C) 購買 (D) 油漆。"
+        }
+              ],
+      "21": [
+        {
+          "question": "1. The kitchen is messy because my brother was trying to bake a cake for the first time.",
+          "options": ["messy", "clean", "dry", "soft"],
+          "answer": "A",
+          "explanation": "【解答】廚房很凌亂，因為我哥哥第一次嘗試烤蛋糕。選項：(A) 凌亂的 (B) 乾淨的 (C) 乾燥的 (D) 柔軟的。"
+        },
+        {
+          "question": "2. Please turn on the TV. I want to watch the news to see what is happening in the world.",
+          "options": ["turn off", "turn on", "look for", "wait for"],
+          "answer": "B",
+          "explanation": "【解答】請打開電視。我想看新聞以了解世界上發生了什麼事。選項：(A) 關掉 (B) 打開 (C) 尋找 (D) 等待。"
+        },
+        {
+          "question": "3. Doing exercise is a great habit; it helps me stay healthy and sleep better at night.",
+          "options": ["dream", "habit", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】運動是一個很棒的習慣；它幫助我保持健康，並在晚上睡得更好。選項：(A) 夢想 (B) 習慣 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "4. It is impolite to talk loudly in the hospital. Please keep your voice down to let patients rest.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在醫院大聲喧嘩是不禮貌的。請放低音量讓病人休息。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "5. The two friends had a big argument yesterday because they couldn't agree on which movie to watch.",
+          "options": ["dream", "argument", "choice", "meeting"],
+          "answer": "B",
+          "explanation": "【解答】這兩位朋友昨天大吵了一架，因為他們無法對要看哪部電影達成共識。選項：(A) 夢想 (B) 爭論 (C) 選擇 (D) 會議。"
+        },
+        {
+          "question": "6. Because of the heavy fog, the ferry had to cancel all the trips until the weather got clearer.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大霧，渡輪必須取消所有航程，直到天氣變好。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "7. I was so surprised when I found out that I won the first prize in the singing contest.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】得知我在歌唱比賽贏得第一名時，我感到非常驚訝。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "8. He is a very honest person. He always returns the wallets he finds on the street to the police.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常誠實的人。他總是把在街上撿到的錢包交給警察。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "9. You should finish your homework before you go out to play with your friends.",
+          "options": ["finish", "break", "lose", "sell"],
+          "answer": "A",
+          "explanation": "【解答】你出去跟朋友玩之前，應該先完成作業。選項：(A) 完成 (B) 打破 (C) 遺失 (D) 販賣。"
+        },
+        {
+          "question": "10. The weather in winter is often freezing, so make sure you wear a warm jacket before going out.",
+          "options": ["sunny", "freezing", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】冬天的天氣通常很寒冷（結冰），出門前請務必穿上溫暖的夾克。選項：(A) 晴朗的 (B) 冰冷的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "11. My sister has a great talent for painting. Her pictures are always chosen for the school art show.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有繪畫的天賦。她的畫總是被選入學校的藝術展。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "12. The soup is too plain; could you add a little more salt to it?",
+          "options": ["sweet", "plain", "fresh", "hot"],
+          "answer": "B",
+          "explanation": "【解答】湯太清淡了；你可以加點鹽巴進去嗎？選項：(A) 甜的 (B) 清淡的/平淡的 (C) 新鮮的 (D) 熱的。"
+        },
+        {
+          "question": "13. We usually have a family gathering on weekends. We go to a restaurant and talk about our week.",
+          "options": ["trip", "gathering", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們週末通常會有家庭聚會。我們會去餐廳談談我們這一週的情況。選項：(A) 旅行 (B) 聚會 (C) 會議 (D) 休息。"
+        },
+        {
+          "question": "14. My favorite season of the year is autumn because the weather is cool and comfortable.",
+          "options": ["month", "week", "season", "day"],
+          "answer": "C",
+          "explanation": "【解答】我一年中最喜歡的季節是秋天，因為天氣涼爽舒適。選項：(A) 月 (B) 週 (C) 季節 (D) 天。"
+        },
+        {
+          "question": "15. Don’t disturb me while I am doing my science project. It takes a lot of focus.",
+          "options": ["help", "disturb", "join", "invite"],
+          "answer": "B",
+          "explanation": "【解答】當我做科學專案時不要打擾我！這需要很大的專注力。選項：(A) 幫助 (B) 打擾 (C) 加入 (D) 邀請。"
+        },
+        {
+          "question": "16. She is cleaning her room right now, so she cannot answer the phone.",
+          "options": ["cleaning", "starting", "forgetting", "losing"],
+          "answer": "A",
+          "explanation": "【解答】她現在正在打掃房間，所以她不能接電話。選項：(A) 打掃 (B) 開始 (C) 忘記 (D) 遺失。"
+        },
+        {
+          "question": "17. The generous woman donated a lot of money to help poor children go to school.",
+          "options": ["mean", "generous", "angry", "selfish"],
+          "answer": "B",
+          "explanation": "【解答】這名慷慨的婦女捐了大筆錢幫助貧困兒童上學。選項：(A) 刻薄的 (B) 慷慨的 (C) 生氣的 (D) 自私的。"
+        },
+        {
+          "question": "18. Can you do me a favor? Could you help me carry this bag to the car?",
+          "options": ["favor", "give", "job", "take"],
+          "answer": "A",
+          "explanation": "【解答】你可以幫我個忙嗎？你能幫我把這個袋子提到車上嗎？選項：(A) 忙 (B) 給 (C) 工作 (D) 拿取。"
+        },
+        {
+          "question": "19. The library is always crowded during the final exam week. Everyone is studying hard.",
+          "options": ["empty", "crowded", "quiet", "dark"],
+          "answer": "B",
+          "explanation": "【解答】期末考週期間圖書館總是擠滿人。每個人都在用功讀書。選項：(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 暗的。"
+        },
+        {
+          "question": "20. I like to take my dog to the park every morning for a walk.",
+          "options": ["take", "make", "buy", "paint"],
+          "answer": "A",
+          "explanation": "【解答】我喜歡每天早上帶我的狗去公園散步。選項：(A) 帶 (B) 製作 (C) 購買 (D) 油漆。"
+        }
+      ],
+      "22": [
+        {
+          "question": "1. My brother and I had a big argument yesterday because he used my computer without asking.",
+          "options": ["experience", "argument", "schedule", "invitation"],
+          "answer": "B",
+          "explanation": "【解答】我和哥哥昨天大吵了一架，因為他未經同意就使用我的電腦。選項：(A) 經驗 (B) 爭論 (C) 行程 (D) 邀請。"
+        },
+        {
+          "question": "2. It’s very illegal to drive without a license. You could get into a lot of trouble.",
+          "options": ["illegal", "helpful", "polite", "wonderful"],
+          "answer": "A",
+          "explanation": "【解答】無照駕駛是非常違法的。你可能會惹上大麻煩。選項：(A) 非法的 (B) 有幫助的 (C) 有禮貌的 (D) 美好的。"
+        },
+        {
+          "question": "3. Could you please turn on the lights? It’s too dark to read anything in here.",
+          "options": ["turn down", "turn on", "put on", "take off"],
+          "answer": "B",
+          "explanation": "【解答】可以請你打開燈嗎？這裡太暗了，沒辦法閱讀任何東西。選項：(A) 調低/拒絕 (B) 打開 (C) 穿上 (D) 脫掉。"
+        },
+        {
+          "question": "4. After working for eight hours, I felt completely exhausted. I just wanted to go home and sleep.",
+          "options": ["relaxed", "exhausted", "energetic", "excited"],
+          "answer": "B",
+          "explanation": "【解答】工作八小時後，我感到精疲力竭。我只想回家睡覺。選項：(A) 放鬆的 (B) 精疲力竭的 (C) 精力充沛的 (D) 興奮的。"
+        },
+        {
+          "question": "5. The library is a place where you should stay quiet. Please don't talk to each other loudly.",
+          "options": ["active", "quiet", "busy", "nervous"],
+          "answer": "B",
+          "explanation": "【解答】圖書館是一個應該保持安靜的地方。請不要大聲交談。選項：(A) 活躍的 (B) 安靜的 (C) 忙碌的 (D) 緊張的。"
+        },
+        {
+          "question": "6. I really enjoy playing the piano in my free time; it makes me feel very calm.",
+          "options": ["playing", "making", "taking", "doing"],
+          "answer": "A",
+          "explanation": "【解答】我真的很享受在空閒時間彈鋼琴；這讓我覺得很平靜。選項：(A) 彈奏 (B) 製作 (C) 拿取 (D) 做。"
+        },
+        {
+          "question": "7. The math problem was quite difficult, so the teacher explained it to us three times.",
+          "options": ["simple", "difficult", "common", "short"],
+          "answer": "B",
+          "explanation": "【解答】這道數學題相當困難，所以老師對我們解釋了三次。選項：(A) 簡單的 (B) 困難的 (C) 常見的 (D) 短的。"
+        },
+        {
+          "question": "8. My father works as a dentist; he helps people take care of their teeth and gums.",
+          "options": ["pilot", "dentist", "farmer", "waiter"],
+          "answer": "B",
+          "explanation": "【解答】我父親擔任牙醫；他協助人們照顧他們的牙齒和牙齦。選項：(A) 機師 (B) 牙醫 (C) 農夫 (D) 服務生。"
+        },
+        {
+          "question": "9. We should protect our environment by picking up the trash on the beach.",
+          "options": ["protect", "destroy", "ignore", "waste"],
+          "answer": "A",
+          "explanation": "【解答】我們應該透過撿起海灘上的垃圾來保護環境。選項：(A) 保護 (B) 摧毀 (C) 忽視 (D) 浪費。"
+        },
+        {
+          "question": "10. The story was so interesting that I couldn't stop reading it until I finished the whole book.",
+          "options": ["boring", "interesting", "terrible", "long"],
+          "answer": "B",
+          "explanation": "【解答】這個故事太有趣了，以至於我讀完整本書前都無法停下來。選項：(A) 無聊的 (B) 有趣的 (C) 可怕的 (D) 長的。"
+        },
+        {
+          "question": "11. Please fill in your name and address on this form before you enter the building.",
+          "options": ["fill in", "look for", "give up", "pick up"],
+          "answer": "A",
+          "explanation": "【解答】進入建築物前，請填寫這份表格上的姓名與地址。選項：(A) 填寫 (B) 尋找 (C) 放棄 (D) 撿起。"
+        },
+        {
+          "question": "12. I need to buy a notebook to write down the important points of the lecture.",
+          "options": ["notebook", "ruler", "eraser", "bag"],
+          "answer": "A",
+          "explanation": "【解答】我需要買一本筆記本來記下演講的重點。選項：(A) 筆記本 (B) 尺 (C) 橡皮擦 (D) 袋子。"
+        },
+        {
+          "question": "13. My cousin is very organized; he never forgets his keys and always keeps his desk tidy.",
+          "options": ["lazy", "organized", "messy", "noisy"],
+          "answer": "B",
+          "explanation": "【解答】我的堂/表兄弟非常有條理；他從不忘記鑰匙，總是保持書桌整潔。選項：(A) 懶惰的 (B) 有條理的 (C) 凌亂的 (D) 吵鬧的。"
+        },
+        {
+          "question": "14. The train is scheduled to arrive at 5:30 p.m., so we have plenty of time to get to the station.",
+          "options": ["scheduled", "finished", "lost", "bought"],
+          "answer": "A",
+          "explanation": "【解答】火車預定於下午 5:30 到達，所以我們有充裕的時間抵達車站。選項：(A) 預定的 (B) 完成的 (C) 遺失的 (D) 購買的。"
+        },
+        {
+          "question": "15. Being kind is a good quality; it means you care about others and try to understand their feelings.",
+          "options": ["selfish", "kind", "mean", "proud"],
+          "answer": "B",
+          "explanation": "【解答】善良是一種好特質；這代表你在乎他人並試圖理解他們的感受。選項：(A) 自私的 (B) 善良的 (C) 刻薄的 (D) 驕傲的。"
+        },
+        {
+          "question": "16. The two teams finally reached an agreement after talking for two hours; they agreed to play on Saturday.",
+          "options": ["argument", "agreement", "accident", "invitation"],
+          "answer": "B",
+          "explanation": "【解答】兩隊談了兩小時後終於達成共識；他們同意週六比賽。選項：(A) 爭論 (B) 協議/共識 (C) 意外 (D) 邀請。"
+        },
+        {
+          "question": "17. You should wear a thick coat because it’s really cold outside today.",
+          "options": ["thick", "thin", "light", "soft"],
+          "answer": "A",
+          "explanation": "【解答】你應該穿件厚外套，因為今天外面真的很冷。選項：(A) 厚的 (B) 薄的 (C) 輕的 (D) 柔軟的。"
+        },
+        {
+          "question": "18. My friend and I decided to share our money to buy a gift for our teacher together.",
+          "options": ["share", "spend", "waste", "borrow"],
+          "answer": "A",
+          "explanation": "【解答】我和朋友決定合湊（共享）我們的錢，一起買個禮物送給老師。選項：(A) 分享/合湊 (B) 花費 (C) 浪費 (D) 借用。"
+        },
+        {
+          "question": "19. The shop is closed right now, but it will be open again tomorrow morning at 9:00.",
+          "options": ["closed", "opened", "busy", "cheap"],
+          "answer": "A",
+          "explanation": "【解答】這家店現在關門了，但明天早上 9:00 會再開。選項：(A) 關閉的 (B) 開啟的 (C) 忙碌的 (D) 便宜的。"
+        },
+        {
+          "question": "20. I feel nervous when I have to speak in front of a lot of people; my hands always shake.",
+          "options": ["relaxed", "nervous", "happy", "proud"],
+          "answer": "B",
+          "explanation": "【解答】當我必須在許多人面前演講時，我會感到緊張；我的手總是不停發抖。選項：(A) 放鬆的 (B) 緊張的 (C) 開心的 (D) 驕傲的。"
+        }
+      ],
+      "23": [
+        {
+          "question": "1. The teacher told us that we should raise our hand if we have any questions during the class.",
+          "options": ["raise", "hide", "shake", "drop"],
+          "answer": "A",
+          "explanation": "【解答】老師告訴我們如果在課堂中有任何問題，應該舉手。選項：(A) 舉起 (B) 隱藏 (C) 搖晃 (D) 落下。"
+        },
+        {
+          "question": "2. I am very lucky to have a friend like you who always helps me when I am in trouble.",
+          "options": ["lucky", "lonely", "angry", "bored"],
+          "answer": "A",
+          "explanation": "【解答】有像你這樣的朋友真幸運，當我有困難時，你總是幫助我。選項：(A) 幸運的 (B) 寂寞的 (C) 生氣的 (D) 無聊的。"
+        },
+        {
+          "question": "3. The coffee shop is a perfect place to hang out with your friends and chat for a while.",
+          "options": ["hang out", "get up", "look for", "turn off"],
+          "answer": "A",
+          "explanation": "【解答】這家咖啡店是與朋友聚聚並聊上一會兒的完美地點。選項：(A) 閒晃/聚聚 (B) 起床 (C) 尋找 (D) 關掉。"
+        },
+        {
+          "question": "4. My grandfather is very active; he still exercises every day at the age of eighty.",
+          "options": ["active", "lazy", "tired", "weak"],
+          "answer": "A",
+          "explanation": "【解答】我的祖父非常活躍；八十歲的他依然每天運動。選項：(A) 活躍的 (B) 懶惰的 (C) 疲倦的 (D) 虛弱的。"
+        },
+        {
+          "question": "5. There was a terrible storm last night; many trees were knocked down by the strong wind.",
+          "options": ["storm", "sunshine", "holiday", "party"],
+          "answer": "A",
+          "explanation": "【解答】昨晚有一場可怕的暴風雨；許多樹木被強風吹倒。選項：(A) 暴風雨 (B) 陽光 (C) 假日 (D) 派對。"
+        },
+        {
+          "question": "6. Before you start cooking, make sure all the vegetables are washed and cut into pieces.",
+          "options": ["vegetables", "machines", "diaries", "mirrors"],
+          "answer": "A",
+          "explanation": "【解答】開始烹飪前，確保所有的蔬菜都清洗並切塊。選項：(A) 蔬菜 (B) 機器 (C) 日記 (D) 鏡子。"
+        },
+        {
+          "question": "7. The singer has a wonderful voice; everyone in the concert hall was moved by her beautiful singing.",
+          "options": ["noisy", "wonderful", "terrible", "rude"],
+          "answer": "B",
+          "explanation": "【解答】這名歌手有美妙的嗓音；音樂廳裡的每個人都被她優美的歌聲感動了。選項：(A) 吵雜的 (B) 美妙的 (C) 可怕的 (D) 無禮的。"
+        },
+        {
+          "question": "8. Please lock the door when you leave the house; we need to keep everything safe inside.",
+          "options": ["lock", "break", "open", "paint"],
+          "answer": "A",
+          "explanation": "【解答】離開房子時請鎖門；我們需要保護屋內物品的安全。選項：(A) 鎖上 (B) 打破 (C) 打開 (D) 油漆。"
+        },
+        {
+          "question": "9. I had a busy day at school, and I really look forward to resting in my bed tonight.",
+          "options": ["resting", "running", "jumping", "cooking"],
+          "answer": "A",
+          "explanation": "【解答】在學校忙了一整天，我很期待今晚能在床上休息。選項：(A) 休息 (B) 跑步 (C) 跳躍 (D) 烹飪。"
+        },
+        {
+          "question": "10. The bus was crowded, so we had to stand in the aisle all the way to the city center.",
+          "options": ["empty", "crowded", "quiet", "slow"],
+          "answer": "B",
+          "explanation": "【解答】公車很擁擠，所以我們一路站在走道直到市中心。選項：(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 慢的。"
+        },
+        {
+          "question": "11. Many students find it difficult to balance their time between studying and playing games.",
+          "options": ["balance", "waste", "lose", "forget"],
+          "answer": "A",
+          "explanation": "【解答】許多學生發現要在讀書和玩遊戲之間分配平衡時間很困難。選項：(A) 平衡 (B) 浪費 (C) 遺失 (D) 忘記。"
+        },
+        {
+          "question": "12. The museum is closed on Mondays, so we should plan our visit for another day.",
+          "options": ["open", "closed", "busy", "cheap"],
+          "answer": "B",
+          "explanation": "【解答】博物館週一休館，所以我們應該改天再規劃參觀行程。選項：(A) 開放的 (B) 關閉的 (C) 忙碌的 (D) 便宜的。"
+        },
+        {
+          "question": "13. It is important to be honest with your parents, even when you have made a mistake.",
+          "options": ["important", "dangerous", "impossible", "useless"],
+          "answer": "A",
+          "explanation": "【解答】即使犯了錯，對父母誠實是很重要的。選項：(A) 重要的 (B) 危險的 (C) 不可能的 (D) 無用的。"
+        },
+        {
+          "question": "14. We need to change our plans because the weather forecast says it will rain all day tomorrow.",
+          "options": ["change", "keep", "finish", "buy"],
+          "answer": "A",
+          "explanation": "【解答】我們需要更動計畫，因為氣象預報說明天會下整天雨。選項：(A) 改變 (B) 保持 (C) 完成 (D) 購買。"
+        },
+        {
+          "question": "15. She listened to the music while doing her homework, but she still finished it on time.",
+          "options": ["listened", "looked", "talked", "waited"],
+          "answer": "A",
+          "explanation": "【解答】她寫作業時一邊聽音樂，但仍準時完成。選項：(A) 聽 (B) 看 (C) 談論 (D) 等待。"
+        },
+        {
+          "question": "16. The air in the countryside is much fresher than that in the big city.",
+          "options": ["fresher", "dirtier", "noisier", "hotter"],
+          "answer": "A",
+          "explanation": "【解答】鄉下的空氣比大城市新鮮得多。選項：(A) 更新鮮的 (B) 更髒的 (C) 更吵的 (D) 更熱的。"
+        },
+        {
+          "question": "17. If you want to get in shape, you should choose a healthy diet instead of eating junk food.",
+          "options": ["choose", "ignore", "break", "sell"],
+          "answer": "A",
+          "explanation": "【解答】如果你想保持體態，應該選擇健康飲食而非吃垃圾食物。選項：(A) 選擇 (B) 忽視 (C) 打破 (D) 販賣。"
+        },
+        {
+          "question": "18. The boy was so hungry that he finished the whole pizza by himself.",
+          "options": ["hungry", "tired", "angry", "bored"],
+          "answer": "A",
+          "explanation": "【解答】男孩太餓了，他一個人吃完了整塊披薩。選項：(A) 飢餓的 (B) 疲倦的 (C) 生氣的 (D) 無聊的。"
+        },
+        {
+          "question": "19. Please read the instructions before you try to use the new coffee machine.",
+          "options": ["read", "write", "paint", "hide"],
+          "answer": "A",
+          "explanation": "【解答】嘗試使用這台新咖啡機前，請先閱讀說明書。選項：(A) 閱讀 (B) 寫 (C) 油漆 (D) 隱藏。"
+        },
+        {
+          "question": "20. The long trip was a great experience; we saw many places we had never visited before.",
+          "options": ["experience", "argument", "problem", "mistake"],
+          "answer": "A",
+          "explanation": "【解答】長途旅行是一次很棒的體驗；我們看到了許多以前從未造訪過的地方。選項：(A) 經驗/體驗 (B) 爭論 (C) 問題 (D) 錯誤。"
+        }
+      ],
+      "24": [
+        {
+          "question": "1. It’s getting dark outside. Could you please help me turn on the lights in the living room?",
+          "options": ["turn on", "turn off", "look for", "wait for"],
+          "answer": "A",
+          "explanation": "【解答】外面天黑了，請幫我把客廳的燈打開。選項：(A) 打開 (B) 關掉 (C) 尋找 (D) 等待。"
+        },
+        {
+          "question": "2. Doing regular exercise is good for your health. It can help you reduce stress after a long school day.",
+          "options": ["increase", "reduce", "create", "forget"],
+          "answer": "B",
+          "explanation": "【解答】規律運動對健康有益，能幫助你在漫長的學校生活後減輕壓力。選項：(A) 增加 (B) 減少 (C) 創造 (D) 遺忘。"
+        },
+        {
+          "question": "3. The baby is sleeping now, so please walk quietly so you don't wake him up.",
+          "options": ["loudly", "quietly", "slowly", "fast"],
+          "answer": "B",
+          "explanation": "【解答】寶寶正在睡覺，請安靜地走，以免把他吵醒。選項：(A) 大聲地 (B) 安靜地 (C) 緩慢地 (D) 快地。"
+        },
+        {
+          "question": "4. My sister is very competitive; she always wants to be the best in everything she does.",
+          "options": ["lazy", "competitive", "shy", "mean"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊非常有競爭心，無論做什麼事都想當第一。選項：(A) 懶惰的 (B) 競爭心強的 (C) 害羞的 (D) 刻薄的。"
+        },
+        {
+          "question": "5. We have to complete the project by Friday, so everyone needs to work hard this week.",
+          "options": ["complete", "break", "lose", "ignore"],
+          "answer": "A",
+          "explanation": "【解答】我們必須在週五前完成專案，所以這週大家都要努力工作。選項：(A) 完成 (B) 打破 (C) 遺失 (D) 忽視。"
+        },
+        {
+          "question": "6. The news on the TV was quite boring, so we decided to change the channel.",
+          "options": ["interesting", "boring", "exciting", "helpful"],
+          "answer": "B",
+          "explanation": "【解答】電視上的新聞相當無聊，所以我們決定轉台。選項：(A) 有趣的 (B) 無聊的 (C) 刺激的 (D) 有幫助的。"
+        },
+        {
+          "question": "7. Could you please close the window? It’s a bit cold in here with the wind blowing in.",
+          "options": ["close", "open", "paint", "clean"],
+          "answer": "A",
+          "explanation": "【解答】可以請你把窗戶關上嗎？風吹進來這裡有點冷。選項：(A) 關上 (B) 打開 (C) 油漆 (D) 清理。"
+        },
+        {
+          "question": "8. My mom is a great cook. She prepares a delicious dinner for us every evening.",
+          "options": ["prepares", "destroys", "loses", "breaks"],
+          "answer": "A",
+          "explanation": "【解答】我媽很會做菜。她每天晚上都為我們準備美味的晚餐。選項：(A) 準備 (B) 摧毀 (C) 遺失 (D) 打破。"
+        },
+        {
+          "question": "9. I am so proud that I passed the swimming test! I practiced for a whole month.",
+          "options": ["proud", "sad", "angry", "bored"],
+          "answer": "A",
+          "explanation": "【解答】我通過游泳測試了，真為自己感到驕傲！我練習了整整一個月。選項：(A) 驕傲的 (B) 難過的 (C) 生氣的 (D) 無聊的。"
+        },
+        {
+          "question": "10. It is important to follow the rules of the library; no eating or drinking is allowed.",
+          "options": ["important", "dangerous", "impossible", "useless"],
+          "answer": "A",
+          "explanation": "【解答】遵守圖書館規則很重要；禁止飲食。選項：(A) 重要的 (B) 危險的 (C) 不可能的 (D) 無用的。"
+        },
+        {
+          "question": "11. The local market is crowded with fresh fruits and vegetables every morning.",
+          "options": ["crowded", "empty", "quiet", "dark"],
+          "answer": "A",
+          "explanation": "【解答】當地市場每天早上都擠滿了新鮮蔬果。選項：(A) 擁擠的 (B) 空的 (C) 安靜的 (D) 暗的。"
+        },
+        {
+          "question": "12. You should finish your homework before you go out to play with your friends.",
+          "options": ["finish", "break", "lose", "sell"],
+          "answer": "A",
+          "explanation": "【解答】你應該在出去跟朋友玩之前完成功課。選項：(A) 完成 (B) 打破 (C) 遺失 (D) 販賣。"
+        },
+        {
+          "question": "13. The two brothers had a big argument yesterday because they couldn't agree on where to go.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大吵一架，因為他們無法對去哪裡達成共識。選項：(A) 夢 (B) 爭論 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "14. Because of the heavy snow, the airport had to cancel all the flights this morning.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大雪，機場今早必須取消所有航班。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "15. He is a very honest person. He never tells lies, so we all trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常誠實的人。他從不說謊，所以我們都很信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "16. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車輛啟動前你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "17. The basketball game was very intense until the last second, when our team finally won.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽直到最後一秒都非常激烈，最後我們隊贏了。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "18. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市空氣因太多車輛而受到污染。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "19. My sister has a great talent for music. She can play the piano very well.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦。她鋼琴彈得很好。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "20. It is impolite to talk loudly on the bus. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在公車上大聲喧嘩是不禮貌的。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        }
+      ],
+      "25": [
+        {
+          "question": "1. The summer vacation is coming. Have you made any plans for your trip to Japan yet?",
+          "options": ["plans", "secrets", "dreams", "habits"],
+          "answer": "A",
+          "explanation": "【解答】暑假快到了。你對日本之旅做好計畫了嗎？選項：(A) 計畫 (B) 秘密 (C) 夢想 (D) 習慣。"
+        },
+        {
+          "question": "2. Please park your bike on the sidewalk. You should park it in the rack over there.",
+          "options": ["ride", "fix", "park", "wash"],
+          "answer": "C",
+          "explanation": "【解答】請把腳踏車停在停車架上（而不是人行道上）。選項：(A) 騎乘 (B) 修理 (C) 停車 (D) 清洗。"
+        },
+        {
+          "question": "3. My sister is good at math. She can solve even the most difficult problems in just a few minutes.",
+          "options": ["simple", "difficult", "common", "small"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊數學很好。她甚至能在幾分鐘內解出最困難的題目。選項：(A) 簡單的 (B) 困難的 (C) 常見的 (D) 小的。"
+        },
+        {
+          "question": "4. The coffee shop is a great place to work; it’s quiet, and the chairs are very comfortable.",
+          "options": ["work", "run", "hide", "fight"],
+          "answer": "A",
+          "explanation": "【解答】這家咖啡店是工作的好地方；那裡很安靜，椅子也很舒適。選項：(A) 工作 (B) 跑步 (C) 躲藏 (D) 打架。"
+        },
+        {
+          "question": "5. After the rain stopped, the sun came out, and a beautiful rainbow appeared in the sky.",
+          "options": ["cloud", "rainbow", "shadow", "star"],
+          "answer": "B",
+          "explanation": "【解答】雨停後太陽露臉，天空出現了一道美麗的彩虹。選項：(A) 雲 (B) 彩虹 (C) 影子 (D) 星星。"
+        },
+        {
+          "question": "6. I was so forgetful that I couldn't remember where I put my keys this morning.",
+          "options": ["careful", "forgetful", "proud", "brave"],
+          "answer": "B",
+          "explanation": "【解答】我太健忘了，以至於今天早上想不起來把鑰匙放哪。選項：(A) 細心的 (B) 健忘的 (C) 驕傲的 (D) 勇敢的。"
+        },
+        {
+          "question": "7. We need to protect our environment. Please don't throw your trash on the ground.",
+          "options": ["protect", "destroy", "ignore", "waste"],
+          "answer": "A",
+          "explanation": "【解答】我們需要保護我們的環境。請不要把垃圾丟在地上。選項：(A) 保護 (B) 摧毀 (C) 忽視 (D) 浪費。"
+        },
+        {
+          "question": "8. The team worked hard and finally achieved their goal of winning the championship.",
+          "options": ["achieved", "failed", "missed", "broke"],
+          "answer": "A",
+          "explanation": "【解答】團隊努力工作，終於達成了贏得冠軍的目標。選項：(A) 達成 (B) 失敗 (C) 錯過 (D) 打破。"
+        },
+        {
+          "question": "9. It’s essential for us to be on time for the meeting, so please don't be late.",
+          "options": ["essential", "impossible", "optional", "useless"],
+          "answer": "A",
+          "explanation": "【解答】準時參加會議對我們來說是必要的，所以請不要遲到。選項：(A) 必要的 (B) 不可能的 (C) 可選的 (D) 無用的。"
+        },
+        {
+          "question": "10. She felt disappointed because she had worked so hard but didn't get the result she wanted.",
+          "options": ["happy", "disappointed", "excited", "proud"],
+          "answer": "B",
+          "explanation": "【解答】她感到很失望，因為她努力工作卻沒得到想要的結果。選項：(A) 開心的 (B) 失望的 (C) 興奮的 (D) 驕傲的。"
+        },
+        {
+          "question": "11. The teacher asked the students to write down their ideas on a piece of paper before speaking.",
+          "options": ["write down", "look up", "take off", "turn on"],
+          "answer": "A",
+          "explanation": "【解答】老師要求學生在發言前把想法寫在一張紙上。選項：(A) 寫下 (B) 查閱 (C) 脫掉 (D) 打開。"
+        },
+        {
+          "question": "12. My uncle is a famous artist. He paints beautiful pictures of the ocean and the mountains.",
+          "options": ["artist", "farmer", "waiter", "dentist"],
+          "answer": "A",
+          "explanation": "【解答】我叔叔是位著名的藝術家。他畫了許多海洋與山脈的美麗畫作。選項：(A) 藝術家 (B) 農夫 (C) 服務生 (D) 牙醫。"
+        },
+        {
+          "question": "13. Don’t worry! Everything will be fine. Just stay calm and think about the next step.",
+          "options": ["worry", "laugh", "smile", "sleep"],
+          "answer": "A",
+          "explanation": "【解答】別擔心！一切都會沒事的。保持冷靜並想想下一步。選項：(A) 擔心 (B) 大笑 (C) 微笑 (D) 睡覺。"
+        },
+        {
+          "question": "14. The food at that restaurant is very delicious. That’s why there are always many people waiting for a table.",
+          "options": ["cheap", "delicious", "boring", "dirty"],
+          "answer": "B",
+          "explanation": "【解答】那家餐廳的食物非常美味。這就是為什麼總有很多人在排隊等位子。選項：(A) 便宜的 (B) 美味的 (C) 無聊的 (D) 髒的。"
+        },
+        {
+          "question": "15. Could you please close the door? It’s very hot outside, and I want to keep the cool air inside.",
+          "options": ["close", "open", "paint", "clean"],
+          "answer": "A",
+          "explanation": "【解答】可以請你關門嗎？外面非常熱，我想把冷氣（涼空氣）留在室內。選項：(A) 關上 (B) 打開 (C) 油漆 (D) 清理。"
+        },
+        {
+          "question": "16. It is a good habit to read a book before you go to sleep; it helps you relax your mind.",
+          "options": ["a good habit", "a waste of time", "a bad idea", "a difficult task"],
+          "answer": "A",
+          "explanation": "【解答】睡前閱讀是一個好習慣；它能幫助你放鬆心靈。選項：(A) 好習慣 (B) 浪費時間 (C) 壞主意 (D) 困難任務。"
+        },
+        {
+          "question": "17. The two boys had a disagreement about the rules of the game, so they asked the teacher to help.",
+          "options": ["party", "disagreement", "celebration", "meeting"],
+          "answer": "B",
+          "explanation": "【解答】兩個男孩對於遊戲規則產生分歧，所以他們請求老師幫忙。選項：(A) 派對 (B) 分歧/爭論 (C) 慶祝 (D) 會議。"
+        },
+        {
+          "question": "18. I am very excited to hear that you are coming to visit me this summer!",
+          "options": ["excited", "bored", "angry", "sad"],
+          "answer": "A",
+          "explanation": "【解答】聽到你今年夏天要來拜訪我，我感到非常興奮！選項：(A) 興奮的 (B) 無聊的 (C) 生氣的 (D) 難過的。"
+        },
+        {
+          "question": "19. He was surprised to see his old friend at the airport after ten years of not meeting.",
+          "options": ["surprised", "tired", "hungry", "sleepy"],
+          "answer": "A",
+          "explanation": "【解答】十年沒見後，在機場看見老朋友讓他感到驚訝。選項：(A) 驚訝的 (B) 疲倦的 (C) 飢餓的 (D) 想睡的。"
+        },
+        {
+          "question": "20. We should save the electricity by turning off the lights when we leave the room.",
+          "options": ["save", "spend", "waste", "buy"],
+          "answer": "A",
+          "explanation": "【解答】我們離開房間時應該關燈來節省用電。選項：(A) 節省 (B) 花費 (C) 浪費 (D) 購買。"
+        }
+      ],
+      "26": [
+        {
+          "question": "1. The restaurant is very popular; it is always full of people, even on weekdays.",
+          "options": ["popular", "empty", "quiet", "dark"],
+          "answer": "A",
+          "explanation": "【解答】這家餐廳非常受歡迎；即使在平日，也總是坐滿了人。選項：(A) 受歡迎的 (B) 空的 (C) 安靜的 (D) 暗的。"
+        },
+        {
+          "question": "2. Before you take the test, please fill in your name and seat number on the answer sheet.",
+          "options": ["fill in", "turn on", "look for", "wash out"],
+          "answer": "A",
+          "explanation": "【解答】考試前，請在答案卡上填寫你的姓名與座位號碼。選項：(A) 填寫 (B) 打開 (C) 尋找 (D) 洗掉。"
+        },
+        {
+          "question": "3. The train was delayed, so we had to wait for another 30 minutes at the station.",
+          "options": ["on time", "delayed", "full", "fast"],
+          "answer": "B",
+          "explanation": "【解答】火車誤點了，所以我們得在車站再等 30 分鐘。選項：(A) 準時的 (B) 延誤的 (C) 滿的 (D) 快的。"
+        },
+        {
+          "question": "4. My sister is very careful; she always remembers to bring her umbrella when it looks like rain.",
+          "options": ["careful", "lazy", "messy", "rude"],
+          "answer": "A",
+          "explanation": "【解答】我姊姊非常細心；當看起來快要下雨時，她總記得帶傘。選項：(A) 細心的 (B) 懶惰的 (C) 凌亂的 (D) 無禮的。"
+        },
+        {
+          "question": "5. We need to change our plans because the park will be closed for cleaning tomorrow.",
+          "options": ["change", "keep", "finish", "buy"],
+          "answer": "A",
+          "explanation": "【解答】我們需要更動計畫，因為公園明天會關閉進行清潔。選項：(A) 改變 (B) 保持 (C) 完成 (D) 購買。"
+        },
+        {
+          "question": "6. It is impolite to talk loudly on the cell phone in the movie theater; it disturbs other people.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在電影院大聲講手機是不禮貌的；這會打擾他人。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "7. I am really anxious about the math exam; I don't think I studied enough for it.",
+          "options": ["confident", "anxious", "relaxed", "proud"],
+          "answer": "B",
+          "explanation": "【解答】我對數學考試真的很焦慮；我不覺得我有準備充足。選項：(A) 有信心的 (B) 焦慮的 (C) 放鬆的 (D) 驕傲的。"
+        },
+        {
+          "question": "8. The company decided to increase the price of its products because of the high cost of materials.",
+          "options": ["increase", "ignore", "finish", "paint"],
+          "answer": "A",
+          "explanation": "【解答】公司決定提高產品價格，因為原物料成本很高。選項：(A) 增加/提高 (B) 忽視 (C) 完成 (D) 油漆。"
+        },
+        {
+          "question": "9. My father is very generous; he spends a lot of time helping people in the community for free.",
+          "options": ["selfish", "generous", "mean", "proud"],
+          "answer": "B",
+          "explanation": "【解答】我父親非常慷慨；他花很多時間免費幫助社區的人。選項：(A) 自私的 (B) 慷慨的 (C) 刻薄的 (D) 驕傲的。"
+        },
+        {
+          "question": "10. After walking for three hours, we were all exhausted and needed to sit down and have a rest.",
+          "options": ["energetic", "exhausted", "excited", "bored"],
+          "answer": "B",
+          "explanation": "【解答】走了三小時後，我們都精疲力竭，需要坐下來休息。選項：(A) 精力充沛的 (B) 精疲力竭的 (C) 興奮的 (D) 無聊的。"
+        },
+        {
+          "question": "11. Please separate the trash into different bins; it’s part of our recycling policy.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾分類到不同的桶子；這是我們回收政策的一部分。選項：(A) 分類 (B) 收集 (C) 忘記 (D) 油漆。"
+        },
+        {
+          "question": "12. She has a great talent for learning languages; she learned French in just six months.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】她有學習語言的天賦；她只用了六個月就學會法文。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "13. The two friends had a big argument, but they talked it out and became friends again.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】這兩位朋友大吵了一架，但他們講開後又變回朋友。選項：(A) 夢想 (B) 爭論 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "14. Because of the heavy storm, the school had to cancel all outdoor activities this afternoon.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於強烈風暴，學校必須取消今天下午所有的戶外活動。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "15. He is a very honest person; he always tells the truth, no matter what happens.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常誠實的人；無論發生什麼事，他總是說實話。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "16. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車輛啟動前你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "17. The game was very intense until the last minute, when the winning goal was scored.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】比賽直到最後一分鐘都非常激烈，當時踢進了致勝的一球。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "18. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市空氣因太多車輛行駛而受到污染。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "19. I was so surprised when I heard the news that I would be going to France for vacation.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】聽到我要去法國度假的消息時，我感到非常驚訝。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "20. We usually have a family party on our birthdays to celebrate together.",
+          "options": ["trip", "party", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭派對來一起慶祝。選項：(A) 旅行 (B) 派對 (C) 會議 (D) 休息。"
+        }
+      ],
+      "27": [
+        {
+          "question": "1. The local museum is open to the public on weekends, so you can visit it for free on Saturday or Sunday.",
+          "options": ["open", "closed", "busy", "cheap"],
+          "answer": "A",
+          "explanation": "【解答】當地博物館週末對外開放，所以你可以週六或週日免費參觀。選項：(A) 開放的 (B) 關閉的 (C) 忙碌的 (D) 便宜的。"
+        },
+        {
+          "question": "2. It is a good idea to check the weather forecast before you plan a big outdoor activity.",
+          "options": ["a good idea", "a waste of time", "a dangerous thing", "a difficult task"],
+          "answer": "A",
+          "explanation": "【解答】在規劃大型戶外活動前，先查看天氣預報是個好主意。選項：(A) 好主意 (B) 浪費時間 (C) 危險的事 (D) 困難的任務。"
+        },
+        {
+          "question": "3. My brother is very helpful; he always helps our parents with the housework without being asked.",
+          "options": ["lazy", "selfish", "helpful", "mean"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常樂於助人；他總是不待要求就協助父母做家事。選項：(A) 懶惰的 (B) 自私的 (C) 樂於助人的 (D) 刻薄的。"
+        },
+        {
+          "question": "4. I really regret that I didn't study harder for the English test. I should have prepared more.",
+          "options": ["regret", "enjoy", "hope", "believe"],
+          "answer": "A",
+          "explanation": "【解答】我真的很後悔沒為英文考試更努力讀書。我本該準備更多。選項：(A) 後悔 (B) 享受 (C) 希望 (D) 相信。"
+        },
+        {
+          "question": "5. Could you please turn down the television? I need to focus on my writing.",
+          "options": ["turn down", "turn on", "look for", "wait for"],
+          "answer": "A",
+          "explanation": "【解答】可以請你把電視轉小聲嗎？我需要專心寫作。選項：(A) 調低音量 (B) 打開 (C) 尋找 (D) 等待。"
+        },
+        {
+          "question": "6. It is important to wash your hands before eating to keep yourself away from germs.",
+          "options": ["important", "dangerous", "impossible", "useless"],
+          "answer": "A",
+          "explanation": "【解答】吃飯前洗手對於避開細菌很重要。選項：(A) 重要的 (B) 危險的 (C) 不可能的 (D) 無用的。"
+        },
+        {
+          "question": "7. She is feeling lonely because she hasn't talked to her best friend for a whole week.",
+          "options": ["lonely", "excited", "confident", "proud"],
+          "answer": "A",
+          "explanation": "【解答】她感到很孤單，因為她已經整整一週沒跟最好的朋友說話了。選項：(A) 孤單的 (B) 興奮的 (C) 自信的 (D) 驕傲的。"
+        },
+        {
+          "question": "8. The supermarket is having a big sale this weekend; everything is 20% off.",
+          "options": ["sale", "party", "meeting", "trip"],
+          "answer": "A",
+          "explanation": "【解答】超市這週末有大拍賣；所有東西都打八折。選項：(A) 拍賣 (B) 派對 (C) 會議 (D) 旅行。"
+        },
+        {
+          "question": "9. You should express your opinion clearly so that everyone can understand what you mean.",
+          "options": ["express", "hide", "ignore", "waste"],
+          "answer": "A",
+          "explanation": "【解答】你應該清楚表達你的意見，好讓每個人都能理解你的意思。選項：(A) 表達 (B) 隱藏 (C) 忽略 (D) 浪費。"
+        },
+        {
+          "question": "10. I am confused about my future career. I have many ideas, but I don't know which one is best.",
+          "options": ["certain", "confused", "happy", "relaxed"],
+          "answer": "B",
+          "explanation": "【解答】我對未來的職涯感到困惑。我有許多想法，但不知哪一個最好。選項：(A) 確定的 (B) 困惑的 (C) 高興的 (D) 放鬆的。"
+        },
+        {
+          "question": "11. Please check the document carefully to make sure there are no mistakes.",
+          "options": ["check", "throw", "lose", "break"],
+          "answer": "A",
+          "explanation": "【解答】請仔細檢查文件，確保沒有任何錯誤。選項：(A) 檢查 (B) 丟棄 (C) 遺失 (D) 打破。"
+        },
+        {
+          "question": "12. My sister has a great talent for music; she can play the guitar very well.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦；她吉他彈得非常好。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "13. The two sides finally reached an agreement after hours of talking about the rules.",
+          "options": ["argument", "agreement", "accident", "invitation"],
+          "answer": "B",
+          "explanation": "【解答】雙方在討論規則數小時後，終於達成共識。選項：(A) 爭論 (B) 協議/共識 (C) 意外 (D) 邀請。"
+        },
+        {
+          "question": "14. Because of the heavy traffic, we were late for the movie, so we missed the beginning.",
+          "options": ["late", "early", "ready", "happy"],
+          "answer": "A",
+          "explanation": "【解答】由於交通繁忙，我們看電影遲到了，所以錯過了開頭。選項：(A) 遲到的 (B) 早的 (C) 準備好的 (D) 高興的。"
+        },
+        {
+          "question": "15. He is a very honest person. He never tells a lie, and people trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個非常誠實的人。他從不說謊，大家都很信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "16. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車輛啟動前你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "17. The basketball game was very intense until the final minute, when our team scored the winning goal.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽直到最後一分鐘都非常激烈，當時我們隊踢進了致勝球。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "18. The air in the countryside is much fresher than that in the busy city center.",
+          "options": ["fresher", "dirtier", "noisier", "hotter"],
+          "answer": "A",
+          "explanation": "【解答】鄉下的空氣比忙碌的市中心新鮮得多。選項：(A) 更新鮮的 (B) 更髒的 (C) 更吵的 (D) 更熱的。"
+        },
+        {
+          "question": "19. I was so surprised when I received the gift from my friend; I didn't expect it at all.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】收到朋友送的禮物時我很驚訝；我完全沒預料到。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "20. We usually have a family gathering on our birthdays to celebrate together at a nice restaurant.",
+          "options": ["trip", "gathering", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭聚會，在不錯的餐廳一起慶祝。選項：(A) 旅行 (B) 聚會 (C) 會議 (D) 休息。"
+        }
+      ],
+      "28": [
+        {
+          "question": "1. The library is a place where you should stay quiet. Please don't talk to each other loudly.",
+          "options": ["active", "quiet", "busy", "nervous"],
+          "answer": "B",
+          "explanation": "【解答】圖書館是一個應該保持安靜的地方。請不要大聲交談。選項：(A) 活躍的 (B) 安靜的 (C) 忙碌的 (D) 緊張的。"
+        },
+        {
+          "question": "2. Could you please help me set the table? It’s time for us to have dinner.",
+          "options": ["set", "wash", "hide", "paint"],
+          "answer": "A",
+          "explanation": "【解答】可以請你幫我擺好餐桌嗎？我們要吃晚餐的時間到了。選項：(A) 擺放（餐桌） (B) 洗 (C) 躲藏 (D) 油漆。"
+        },
+        {
+          "question": "3. My cousin is a very kind boy. He always shares his favorite snacks with everyone in class.",
+          "options": ["mean", "kind", "noisy", "lazy"],
+          "answer": "B",
+          "explanation": "【解答】我的堂/表兄弟是一個非常善良的男孩。他總是與班上每個人分享他最愛的零食。選項：(A) 刻薄的 (B) 善良的 (C) 吵鬧的 (D) 懶惰的。"
+        },
+        {
+          "question": "4. The bus was very crowded during the rush hour; there was almost no space to move at all.",
+          "options": ["empty", "crowded", "quiet", "dark"],
+          "answer": "B",
+          "explanation": "【解答】尖峰時刻公車非常擁擠；幾乎沒有任何空間可以移動。選項：(A) 空的 (B) 擁擠的 (C) 安靜的 (D) 暗的。"
+        },
+        {
+          "question": "5. I like to take photos when I go to the beach. They help me remember the beautiful view.",
+          "options": ["take", "make", "buy", "paint"],
+          "answer": "A",
+          "explanation": "【解答】我去海邊時喜歡拍照。這些照片幫助我記住美麗的景色。選項：(A) 拍攝 (B) 製作 (C) 購買 (D) 油漆。"
+        },
+        {
+          "question": "6. Please turn down the radio; the music is too loud, and it is bothering the neighbors.",
+          "options": ["turn down", "turn on", "look for", "wait for"],
+          "answer": "A",
+          "explanation": "【解答】請把收音機聲音轉小；音樂太大聲了，這在打擾鄰居。選項：(A) 轉小聲 (B) 打開 (C) 尋找 (D) 等待。"
+        },
+        {
+          "question": "7. It’s important to brush your teeth after every meal to keep them healthy.",
+          "options": ["wash", "brush", "clean", "check"],
+          "answer": "B",
+          "explanation": "【解答】每餐飯後刷牙對於保持牙齒健康很重要。選項：(A) 洗 (B) 刷 (C) 清理 (D) 檢查。"
+        },
+        {
+          "question": "8. He is very excited about the upcoming school trip; he has been talking about it for days.",
+          "options": ["worried", "excited", "tired", "serious"],
+          "answer": "B",
+          "explanation": "【解答】他對即將到來的校外教學感到非常興奮；他已經談論這件事好幾天了。選項：(A) 擔心的 (B) 興奮的 (C) 疲倦的 (D) 嚴肅的。"
+        },
+        {
+          "question": "9. The train station is quite far from our house, so we usually take a taxi.",
+          "options": ["near", "far", "close", "next"],
+          "answer": "B",
+          "explanation": "【解答】火車站離我們家相當遠，所以我們通常搭計程車。選項：(A) 近的 (B) 遠的 (C) 近的 (D) 隔壁的。"
+        },
+        {
+          "question": "10. Don't be shy to ask for help when you don't understand the lesson. The teacher is here to support you.",
+          "options": ["shy", "brave", "lucky", "smart"],
+          "answer": "A",
+          "explanation": "【解答】當你不懂課程時，不要害羞而不敢尋求幫助。老師在這裡支持你。選項：(A) 害羞的 (B) 勇敢的 (C) 幸運的 (D) 聰明的。"
+        },
+        {
+          "question": "11. My sister loves animals, especially cats. She has fed three stray cats since last year.",
+          "options": ["kept", "fed", "found", "lost"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊很愛動物，特別是貓。自從去年以來，她已經餵養了三隻流浪貓。選項：(A) 養 (B) 餵食 (C) 發現 (D) 遺失。"
+        },
+        {
+          "question": "12. It is rude to be late for school, so please set your alarm clock tonight.",
+          "options": ["good", "polite", "rude", "useful"],
+          "answer": "C",
+          "explanation": "【解答】上學遲到是不禮貌的，所以請今晚設好你的鬧鐘。選項：(A) 好的 (B) 有禮貌的 (C) 無禮的 (D) 有用的。"
+        },
+        {
+          "question": "13. The store is between the bank and the bookstore. You can't miss it.",
+          "options": ["across", "next", "between", "behind"],
+          "answer": "C",
+          "explanation": "【解答】這家店在銀行和書店之間。你絕不會錯過的。選項：(A) 對面 (B) 隔壁 (C) 之間 (D) 後面。"
+        },
+        {
+          "question": "14. Don’t disturb me while I am studying! I really need to focus on this chapter.",
+          "options": ["help", "disturb", "join", "invite"],
+          "answer": "B",
+          "explanation": "【解答】當我讀書時不要打擾我！我真的很需要專注於這一章。選項：(A) 幫助 (B) 打擾 (C) 加入 (D) 邀請。"
+        },
+        {
+          "question": "15. She is finishing her homework right now, so she cannot go out to play basketball with you.",
+          "options": ["finishing", "starting", "forgetting", "losing"],
+          "answer": "A",
+          "explanation": "【解答】她現在正在完成她的家庭作業，所以她不能出去跟你打籃球。選項：(A) 完成 (B) 開始 (C) 忘記 (D) 遺失。"
+        },
+        {
+          "question": "16. Can you do me a favor? Could you help me carry this heavy bag to the car?",
+          "options": ["favor", "give", "job", "take"],
+          "answer": "A",
+          "explanation": "【解答】你可以幫我個忙嗎？你能幫我把這個重袋子提到車上嗎？選項：(A) 忙 (B) 給 (C) 工作 (D) 拿取。"
+        },
+        {
+          "question": "17. The generous man gave some money to the homeless person on the street.",
+          "options": ["mean", "generous", "angry", "selfish"],
+          "answer": "B",
+          "explanation": "【解答】這名慷慨的男子給了街上的流浪漢一些錢。選項：(A) 刻薄的 (B) 慷慨的 (C) 生氣的 (D) 自私的。"
+        },
+        {
+          "question": "18. We went on a trip to the mountains during our summer vacation. We saw many beautiful trees.",
+          "options": ["trip", "party", "lunch", "meeting"],
+          "answer": "A",
+          "explanation": "【解答】暑假期間我們去山區旅行。我們看到了許多美麗的樹木。選項：(A) 旅行 (B) 派對 (C) 午餐 (D) 會議。"
+        },
+        {
+          "question": "19. You should fasten your seatbelt before the car moves. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】在車子行進前你應該扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "20. I feel exhausted after a long day of work; I just want to sit on the sofa and do nothing.",
+          "options": ["energetic", "exhausted", "bored", "excited"],
+          "answer": "B",
+          "explanation": "【解答】工作了一整天後我感到精疲力竭；我只想坐在沙發上什麼都不做。選項：(A) 精力充沛的 (B) 精疲力竭的 (C) 無聊的 (D) 興奮的。"
+        }
+      ],
+      "29": [
+        {
+          "question": "1. The weather is so nice today! Let's go for a walk in the park to enjoy the fresh air.",
+          "options": ["walk", "drive", "jump", "sleep"],
+          "answer": "A",
+          "explanation": "【解答】今天天氣真好！我們去公園散步享受新鮮空氣吧。選項：(A) 散步 (B) 開車 (C) 跳躍 (D) 睡覺。"
+        },
+        {
+          "question": "2. My father works as a farmer; he spends most of his time growing rice on the farm.",
+          "options": ["pilot", "farmer", "waiter", "dentist"],
+          "answer": "B",
+          "explanation": "【解答】我父親是一位農夫；他大部分時間都在農場種稻。選項：(A) 機師 (B) 農夫 (C) 服務生 (D) 牙醫。"
+        },
+        {
+          "question": "3. If you don't know the word, you can look up it in the dictionary. It’s a great way to learn.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】如果你不知道這個字，可以查字典。這是學習的好方法。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "4. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "fresh", "polluted", "quiet"],
+          "answer": "C",
+          "explanation": "【解答】城市空氣非常污染，因為路上的車太多了。選項：(A) 乾淨的 (B) 新鮮的 (C) 污染的 (D) 安靜的。"
+        },
+        {
+          "question": "5. I have a sore throat, so I cannot talk very well today. I should drink some warm water.",
+          "options": ["hand", "throat", "foot", "leg"],
+          "answer": "B",
+          "explanation": "【解答】我的喉嚨很痛，所以今天不能好好說話。我應該喝點溫水。選項：(A) 手 (B) 喉嚨 (C) 腳 (D) 腿。"
+        },
+        {
+          "question": "6. My sister is a very generous person; she always shares her snacks and toys with everyone.",
+          "options": ["mean", "selfish", "generous", "lazy"],
+          "answer": "C",
+          "explanation": "【解答】我姊姊是一個非常慷慨的人；她總是與每個人分享她的零食和玩具。選項：(A) 刻薄的 (B) 自私的 (C) 慷慨的 (D) 懶惰的。"
+        },
+        {
+          "question": "7. The teacher asked us to separate the trash into different bins. It helps save our planet.",
+          "options": ["separate", "collect", "destroy", "hide"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們將垃圾分類到不同的桶子。這有助於拯救我們的星球。選項：(A) 分類 (B) 收集 (C) 摧毀 (D) 隱藏。"
+        },
+        {
+          "question": "8. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲說話是很沒禮貌的。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "9. I am happy to see you again! We haven't met for over three years.",
+          "options": ["sad", "angry", "happy", "bored"],
+          "answer": "C",
+          "explanation": "【解答】見到你我很高興！我們已經三年多沒見了。選項：(A) 難過的 (B) 生氣的 (C) 開心的 (D) 無聊的。"
+        },
+        {
+          "question": "10. Don't forget to bring your umbrella. It is going to rain this afternoon.",
+          "options": ["forget", "remember", "help", "study"],
+          "answer": "A",
+          "explanation": "【解答】別忘了帶雨傘。今天下午會下雨。選項：(A) 忘記 (B) 記得 (C) 幫助 (D) 學習。"
+        },
+        {
+          "question": "11. He is an honest person. He never tells lies, so everyone trusts him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個誠實的人。他從不說謊，所以每個人都信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "12. The two students had a big argument yesterday. They didn't speak to each other all day.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】這兩位學生昨天大吵了一架。他們整天都沒跟對方說話。選項：(A) 夢想 (B) 爭論 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "13. We usually have a family party on our birthdays to celebrate together.",
+          "options": ["trip", "party", "meeting", "rest"],
+          "answer": "B",
+          "explanation": "【解答】我們生日時通常會舉辦家庭派對來一起慶祝。選項：(A) 旅行 (B) 派對 (C) 會議 (D) 休息。"
+        },
+        {
+          "question": "14. It is a good habit to double-check your answers before you submit your test paper.",
+          "options": ["a waste of time", "a good habit", "a risky move", "a difficult task"],
+          "answer": "B",
+          "explanation": "【解答】在繳交考卷前再三檢查你的答案是一個好習慣。選項：(A) 浪費時間 (B) 好習慣 (C) 風險動作 (D) 困難任務。"
+        },
+        {
+          "question": "15. Technology has significantly changed the way we communicate, making it easier to connect with friends.",
+          "options": ["hardly", "significantly", "rarely", "barely"],
+          "answer": "B",
+          "explanation": "【解答】科技顯著地改變了我們溝通的方式，使得與朋友聯繫變得更容易。選項：(A) 幾乎不 (B) 顯著地 (C) 罕見地 (D) 僅僅。"
+        },
+        {
+          "question": "16. The concert was intense, with thousands of fans singing along to every song.",
+          "options": ["quiet", "intense", "lonely", "boring"],
+          "answer": "B",
+          "explanation": "【解答】演唱會非常熱烈，數千名粉絲跟著唱每一首歌。選項：(A) 安靜的 (B) 熱烈的 (C) 寂寞的 (D) 無聊的。"
+        },
+        {
+          "question": "17. After years of hard work, he finally achieved his dream of opening his own shop.",
+          "options": ["achieved", "missed", "failed", "lost"],
+          "answer": "A",
+          "explanation": "【解答】經過多年的努力，他終於實現了開一家屬於自己的店的夢想。選項：(A) 達成 (B) 錯過 (C) 失敗 (D) 遺失。"
+        },
+        {
+          "question": "18. We need to find a fair solution to the problem that satisfies both sides.",
+          "options": ["fair", "biased", "temporary", "complicated"],
+          "answer": "A",
+          "explanation": "【解答】我們需要找到一個公平的解決方案，以滿足雙方。選項：(A) 公平的 (B) 有偏見的 (C) 暫時的 (D) 複雜的。"
+        },
+        {
+          "question": "19. Before you travel abroad, it is wise to familiarize yourself with the local customs.",
+          "options": ["familiarize", "confuse", "isolate", "ignore"],
+          "answer": "A",
+          "explanation": "【解答】出國旅遊前，熟悉當地習俗是明智的。選項：(A) 使熟悉 (B) 使困惑 (C) 使隔離 (D) 忽視。"
+        },
+        {
+          "question": "20. The charity event was a success; we managed to raise a lot of money for the hospital.",
+          "options": ["spend", "lose", "raise", "borrow"],
+          "answer": "C",
+          "explanation": "【解答】慈善活動很成功；我們成功為醫院募得了許多錢。選項：(A) 花費 (B) 遺失 (C) 募款 (D) 借貸。"
+        }
+      ],
+      "30": [
+        {
+          "question": "1. If you don't know how to spell this word, you can look it up in the dictionary.",
+          "options": ["up", "for", "at", "after"],
+          "answer": "A",
+          "explanation": "【解答】如果你不知道這個字怎麼拼，可以查字典。look up 為「查閱」之意。選項：(A) up (B) for (C) at (D) after。"
+        },
+        {
+          "question": "2. The park is very beautiful because there are many old trees and flowers there.",
+          "options": ["beautiful", "boring", "dirty", "noisy"],
+          "answer": "A",
+          "explanation": "【解答】公園非常美麗，因為那裡有很多老樹和花。選項：(A) 美麗的 (B) 無聊的 (C) 髒的 (D) 吵雜的。"
+        },
+        {
+          "question": "3. My sister has a strong talent for music; she can play the piano after listening to a song just once.",
+          "options": ["habit", "talent", "plan", "dream"],
+          "answer": "B",
+          "explanation": "【解答】我姊姊有音樂天賦；她聽過一次歌就能彈鋼琴。選項：(A) 習慣 (B) 天賦 (C) 計畫 (D) 夢想。"
+        },
+        {
+          "question": "4. It is impolite to talk loudly in the library. Please keep your voice down.",
+          "options": ["polite", "impolite", "helpful", "friendly"],
+          "answer": "B",
+          "explanation": "【解答】在圖書館大聲喧嘩很不禮貌。請放低音量。選項：(A) 有禮貌的 (B) 無禮的 (C) 有幫助的 (D) 友善的。"
+        },
+        {
+          "question": "5. The two brothers had a big argument yesterday, so they did not speak to each other.",
+          "options": ["dream", "argument", "choice", "party"],
+          "answer": "B",
+          "explanation": "【解答】兩兄弟昨天大吵一架，所以他們沒跟對方說話。選項：(A) 夢 (B) 爭吵 (C) 選擇 (D) 派對。"
+        },
+        {
+          "question": "6. Because of the heavy snow, the airport had to cancel all the flights until the weather got better.",
+          "options": ["cancel", "start", "celebrate", "join"],
+          "answer": "A",
+          "explanation": "【解答】由於大雪，機場必須取消所有航班直至天氣轉好。選項：(A) 取消 (B) 開始 (C) 慶祝 (D) 加入。"
+        },
+        {
+          "question": "7. I was so surprised when I heard that I passed the final exam. I was jumping with joy.",
+          "options": ["sad", "angry", "surprised", "bored"],
+          "answer": "C",
+          "explanation": "【解答】得知通過期末考時我很驚訝。我高興得跳了起來。選項：(A) 難過的 (B) 生氣的 (C) 驚訝的 (D) 無聊的。"
+        },
+        {
+          "question": "8. He is a very honest person. He never tells lies, and people always trust him.",
+          "options": ["honest", "mean", "noisy", "proud"],
+          "answer": "A",
+          "explanation": "【解答】他是個誠實的人。他從不說謊，人們總是信任他。選項：(A) 誠實的 (B) 刻薄的 (C) 吵鬧的 (D) 驕傲的。"
+        },
+        {
+          "question": "9. You should fasten your seatbelt before the car starts moving. It is for your own safety.",
+          "options": ["open", "fasten", "break", "pull"],
+          "answer": "B",
+          "explanation": "【解答】車子移動前應扣好安全帶。這是為了你自己的安全。選項：(A) 打開 (B) 扣上 (C) 打破 (D) 拉。"
+        },
+        {
+          "question": "10. The basketball game was very intense until the last second, when our team finally scored and won.",
+          "options": ["boring", "intense", "simple", "slow"],
+          "answer": "B",
+          "explanation": "【解答】籃球比賽非常激烈直到最後一秒，我們隊終於得分並贏了。選項：(A) 無聊的 (B) 激烈的 (C) 簡單的 (D) 慢的。"
+        },
+        {
+          "question": "11. We should protect the environment by recycling plastic bottles and paper every day.",
+          "options": ["environment", "laboratory", "restaurant", "hospital"],
+          "answer": "A",
+          "explanation": "【解答】我們應該透過每天回收塑膠瓶和紙張來保護環境。選項：(A) 環境 (B) 實驗室 (C) 餐廳 (D) 醫院。"
+        },
+        {
+          "question": "12. Please separate the trash into the correct bins. Don't throw everything in the same place.",
+          "options": ["separate", "collect", "forget", "paint"],
+          "answer": "A",
+          "explanation": "【解答】請將垃圾分類到正確的回收桶。別把所有東西丟在同個地方。選項：(A) 分類 (B) 收集 (C) 忘記 (D) 漆上。"
+        },
+        {
+          "question": "13. If you want to get good grades, you should review your lessons every day.",
+          "options": ["prepare", "finish", "review", "practice"],
+          "answer": "C",
+          "explanation": "【解答】若想取得好成績，應每天複習功課。選項：(A) 準備 (B) 完成 (C) 複習 (D) 練習。"
+        },
+        {
+          "question": "14. The air in the city is very polluted because there are too many cars on the road.",
+          "options": ["clean", "polluted", "fresh", "quiet"],
+          "answer": "B",
+          "explanation": "【解答】城市空氣因太多車輛行駛而受到污染。選項：(A) 乾淨的 (B) 污染的 (C) 新鮮的 (D) 安靜的。"
+        },
+        {
+          "question": "15. The movie was so exciting that we all stayed awake until the very end of the story.",
+          "options": ["boring", "exciting", "tiring", "confusing"],
+          "answer": "B",
+          "explanation": "【解答】這部電影太刺激了，我們保持清醒直到故事最後。選項：(A) 無聊的 (B) 刺激的 (C) 令人疲倦的 (D) 令人困惑的。"
+        },
+        {
+          "question": "16. My brother is very responsible; he often finishes his homework on time and keeps his room tidy.",
+          "options": ["lazy", "shy", "responsible", "nervous"],
+          "answer": "C",
+          "explanation": "【解答】我哥哥非常有責任感；他總準時完成功課，房間也保持整潔。選項：(A) 懶惰的 (B) 害羞的 (C) 有責任感的 (D) 緊張的。"
+        },
+        {
+          "question": "17. The heavy rain caused a terrible flood, and many houses were covered under the water.",
+          "options": ["hidden", "broken", "saved", "covered"],
+          "answer": "D",
+          "explanation": "【解答】大雨引發嚴重洪水，許多房屋都被水覆蓋（淹沒）了。選項：(A) 隱藏的 (B) 損壞的 (C) 獲救的 (D) 覆蓋的。"
+        },
+        {
+          "question": "18. The teacher asked us to look up the meaning of the word because we didn't know it.",
+          "options": ["look up", "look for", "look after", "look at"],
+          "answer": "A",
+          "explanation": "【解答】老師要求我們找出該詞義，因為我們不懂。選項：(A) 查閱 (B) 尋找 (C) 照顧 (D) 注視。"
+        },
+        {
+          "question": "19. Doing sports every day is beneficial to our health. It helps us stay strong.",
+          "options": ["harmful", "beneficial", "dangerous", "useless"],
+          "answer": "B",
+          "explanation": "【解答】每天運動對健康有益。它能幫助我們保持強壯。選項：(A) 有害的 (B) 有益的 (C) 危險的 (D) 無用的。"
+        },
+        {
+          "question": "20. My mother is very proud of my cooking. She always says that I am a great chef.",
+          "options": ["afraid", "proud", "tired", "full"],
+          "answer": "B",
+          "explanation": "【解答】我母親對我的烹飪感到非常驕傲。她總是說我是位很棒的廚師。選項：(A) 害怕的 (B) 驕傲的 (C) 疲倦的 (D) 飽的。"
+        }
+      ]
+    }
+  }
+}

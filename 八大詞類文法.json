@@ -1,6 +1,6 @@
 {
   "grammar": {
-    "pos": {
+    "structure_review": {
       "1": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I have ____ apple in my bag.</div>",

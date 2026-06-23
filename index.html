@@ -231,7 +231,7 @@
                         <h2 class="text-lg sm:text-xl font-black text-slate-100 mt-0.5">文法特訓</h2>
                     </div>
                 </div>
-                <div id="grammar-active-border" class="absolute inset-x-0 bottom-0 h-1 bg-rose-500 scale-x-0 transition-transform duration-300"></div>
+                <div id="grammar-active-border" class="absolute inset-x-0 bottom-0 h-1 bg-rose-500 scale-x-100 transition-transform duration-300"></div>
             </button>
 
             <!-- 實戰考題專區 -->
@@ -297,7 +297,6 @@
             <button onclick="switchTab('cloze')" id="tab-btn-cloze" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
                 <i class="fa-solid fa-file-pen text-xs sm:text-sm"></i> <span>語境填空</span>
             </button>
-            <!-- 新增錯題回顧按鈕 -->
             <button onclick="switchTab('review')" id="tab-btn-review" class="w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200">
                 <i class="fa-solid fa-book-medical text-xs sm:text-sm"></i> <span>錯題回顧</span>
             </button>
@@ -488,7 +487,7 @@
                         <p class="text-sm sm:text-base text-slate-300 leading-relaxed font-medium mb-6">
                             「準備好進行解碼了嗎？」<br><br>
                             點擊下方的 <strong class="text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded mx-1">[開始解碼]</strong>，我們將從 Level 1 帶你入門。<br><br>
-                            每完成一個等級，你將收集到更多的「單字積 চিন্ত木」。現在，讓我們從拆解第一個單字開始，用邏輯取代死背，讓單字成為你的長期記憶！
+                            每完成一個等級，你將收集到更多的「單字積木」。現在，讓我們從拆解第一個單字開始，用邏輯取代死背，讓單字成為你的長期記憶！
                         </p>
                     </div>
                 </div>
@@ -684,6 +683,7 @@
                 advanced: {} 
             },
             grammar: {
+                pos: {}, 
                 pattern: {
                     1: [
                         {
@@ -694,7 +694,7 @@
                         }
                     ]
                 }, 
-                pos: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, participle: {}, sense: {}, inversion: {}, tense: {}, reading: {}
+                tense: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, sense: {}, participle: {}, inversion: {}, structure_review: {}, reading: {}
             }
         };
         
@@ -836,22 +836,21 @@
         document.addEventListener('click', () => { initAudioContext(); }, { once: true });
         document.addEventListener('touchstart', () => { initAudioContext(); }, { once: true });
 
-        async function playSound(type) {
+        function playSound(type) {
             try {
                 const ctx = initAudioContext();
                 if (!ctx) return;
                 
-                // 強制喚醒音效引擎，突破 iframe 限制
-                if (ctx.state === 'suspended') {
-                    await ctx.resume();
-                }
-                
-                const now = ctx.currentTime;
+                // 加一點點微小的緩衝時間 (15ms)，避免 DOM 渲染的瞬間卡斷主執行緒而產生音效延遲感
+                const now = ctx.currentTime + 0.015;
                 const osc = ctx.createOscillator(); 
                 const gain = ctx.createGain();
                 
                 osc.connect(gain); 
                 gain.connect(ctx.destination);
+                
+                // 預設靜音，避免雜音
+                gain.gain.value = 0;
                 
                 if (type === 'correct') {
                     osc.type = 'sine';
@@ -883,6 +882,7 @@
                         noteOsc.connect(noteGain); 
                         noteGain.connect(ctx.destination);
                         noteOsc.type = 'sine';
+                        noteGain.gain.value = 0;
                         const time = now + idx * 0.1;
                         noteOsc.frequency.setValueAtTime(freq, time);
                         noteGain.gain.setValueAtTime(0.1, time); 
@@ -1205,7 +1205,7 @@
                     if (!mainDatabase.exam[diff][l]) mainDatabase.exam[diff][l] = [];
                 }
             });
-            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                 if (!mainDatabase.grammar[unit]) mainDatabase.grammar[unit] = {};
                 for (let l = 1; l <= 30; l++) {
                     if (!mainDatabase.grammar[unit][l]) mainDatabase.grammar[unit][l] = [];
@@ -1269,12 +1269,13 @@
             userState.currentDojo = dojoType; 
             
             if (dojoType === 'vocab' || dojoType === 'exam') userState.currentDifficulty = 'basic'; 
-            else if (dojoType === 'grammar') userState.currentDifficulty = 'pattern';
+            else if (dojoType === 'grammar') userState.currentDifficulty = 'pos';
             
-            if (dojoType !== 'exam' && dojoType !== 'grammar' && userState.currentLevel > 10) {
-                userState.currentLevel = 1; 
-            } else if (dojoType === 'grammar' && userState.currentDifficulty === 'pattern' && userState.currentLevel > 5) {
-                // 如果切換到文法(預設為五大句型)，且原先等級大於5，則重置回第1層
+            if (dojoType === 'exam') {
+                // 實戰考題保留到 L30 不重置
+            } else if (dojoType === 'grammar' && (userState.currentDifficulty === 'structure_review' || userState.currentDifficulty === 'reading')) {
+                // 句型結構與閱讀練習保留到 L30 不重置
+            } else if (userState.currentLevel > 10) {
                 userState.currentLevel = 1; 
             }
             
@@ -1373,9 +1374,9 @@
             let diffTabs = [];
             if (isGrammar) {
                 diffTabs = [
-                    { id: 'pos', name: '句型結構與詞性' },
+                    { id: 'pos', name: '八大詞類' },
                     { id: 'pattern', name: '五大句型' },
-                    { id: 'tense', name: '動詞時態系統' },
+                    { id: 'tense', name: '12時態' },
                     { id: 'relative', name: '關係代名詞' },
                     { id: 'noun_clause', name: '名詞子句' },
                     { id: 'causative', name: '使役動詞' },
@@ -1383,6 +1384,7 @@
                     { id: 'sense', name: '感官動詞' },
                     { id: 'participle', name: '分詞構句' },
                     { id: 'inversion', name: '倒裝句' },
+                    { id: 'structure_review', name: '句型結構總複習' },
                     { id: 'reading', name: '綜合閱讀練習' }
                 ];
             } else {
@@ -1425,11 +1427,15 @@
             if (bgGlow) bgGlow.className = `absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-20 ${theme.bgLight} blur-3xl pointer-events-none rounded-full glow-pulse`;
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
             
-            let maxLevels = (userState.currentDojo === 'exam' || userState.currentDojo === 'grammar') ? 30 : 10;
-            
-            // 特別針對五大句型，將最大等級限制為5
-            if (userState.currentDojo === 'grammar' && userState.currentDifficulty === 'pattern') {
-                maxLevels = 5;
+            let maxLevels = 10;
+            if (userState.currentDojo === 'exam') {
+                maxLevels = 30;
+            } else if (userState.currentDojo === 'grammar') {
+                if (userState.currentDifficulty === 'structure_review' || userState.currentDifficulty === 'reading') {
+                    maxLevels = 30;
+                } else {
+                    maxLevels = 10;
+                }
             }
             
             for (let i = 1; i <= maxLevels; i++) {
@@ -1670,10 +1676,10 @@
             
             const diffNameMap = {
                 'basic': '初級', 'intermediate': '中級', 'advanced': '中高級',
-                'pattern': '五大句型', 'pos': '八大詞類', 'relative': '關係代名詞',
-                'noun_clause': '名詞子句', 'causative': '使役動詞', 'linking': '連綴動詞',
-                'participle': '分詞構句', 'sense': '感官動詞', 'inversion': '倒裝句',
-                'tense': '12時態', 'reading': '綜合閱讀練習'
+                'pos': '八大詞類', 'pattern': '五大句型', 'tense': '12時態', 
+                'relative': '關係代名詞', 'noun_clause': '名詞子句', 'causative': '使役動詞', 
+                'linking': '連綴動詞', 'sense': '感官動詞', 'participle': '分詞構句', 
+                'inversion': '倒裝句', 'structure_review': '句型結構總複習', 'reading': '綜合閱讀練習'
             };
             const diffName = diffNameMap[userState.currentDifficulty] ? `[${diffNameMap[userState.currentDifficulty]}] ` : '';
             const typeName = userState.currentDojo === 'grammar' ? '文法特訓' : '實戰測驗';
@@ -2363,7 +2369,7 @@
                 mainPhrase += mainDatabase.phrase?.[l]?.length || 0;
                 mainAffix += mainDatabase.affix?.[l]?.length || 0;
             }
-            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                 for (let l=1; l<=30; l++) mainGrammar += mainDatabase.grammar[unit]?.[l]?.length || 0;
             });
 
@@ -2395,7 +2401,7 @@
                                     <label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標難度/單元</label>
                                     <select id="bulk-difficulty" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-[11px] font-bold text-slate-200 outline-none custom-scrollbar">
                                         <optgroup label="單字/考題級別"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></optgroup>
-                                        <optgroup label="文法單元"><option value="pattern">五大句型</option><option value="pos">八大詞類</option><option value="relative">關係代名詞</option><option value="noun_clause">名詞子句</option><option value="causative">使役動詞</option><option value="linking">連綴動詞</option><option value="participle">分詞構句</option><option value="sense">感官動詞</option><option value="inversion">倒裝句</option><option value="tense">12時態</option><option value="reading">綜合閱讀練習</option></optgroup>
+                                        <optgroup label="文法單元"><option value="pos">八大詞類</option><option value="pattern">五大句型</option><option value="tense">12時態</option><option value="relative">關係代名詞</option><option value="noun_clause">名詞子句</option><option value="causative">使役動詞</option><option value="linking">連綴動詞</option><option value="sense">感官動詞</option><option value="participle">分詞構句</option><option value="inversion">倒裝句</option><option value="structure_review">句型結構總複習</option><option value="reading">綜合閱讀練習</option></optgroup>
                                     </select>
                                 </div>
                                 <div><label class="block text-[9px] text-orange-400 font-extrabold mb-1">目標境界</label><select id="bulk-level" class="w-full px-2 py-1 bg-slate-900 border border-slate-850 rounded-lg text-xs font-bold text-slate-200 outline-none">${Array.from({length: 30}, (_, i) => i + 1).map(l => `<option value="${l}">L${l}</option>`).join('')}</select></div>
@@ -2414,7 +2420,7 @@
                                 <select id="form-dojo" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300"><option value="vocab">單字</option><option value="phrase">片語</option><option value="affix">字根字首</option><option value="grammar">文法特訓</option><option value="exam">考題</option></select>
                                 <select id="form-difficulty" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300 custom-scrollbar">
                                     <optgroup label="單字/考題級別"><option value="basic">初級</option><option value="intermediate">中級</option><option value="advanced">中高級</option></optgroup>
-                                    <optgroup label="文法單元"><option value="pattern">五大句型</option><option value="pos">八大詞類</option><option value="relative">關係代名詞</option><option value="noun_clause">名詞子句</option><option value="causative">使役動詞</option><option value="linking">連綴動詞</option><option value="participle">分詞構句</option><option value="sense">感官動詞</option><option value="inversion">倒裝句</option><option value="tense">12時態</option><option value="reading">綜合閱讀練習</option></optgroup>
+                                    <optgroup label="文法單元"><option value="pos">八大詞類</option><option value="pattern">五大句型</option><option value="tense">12時態</option><option value="relative">關係代名詞</option><option value="noun_clause">名詞子句</option><option value="causative">使役動詞</option><option value="linking">連綴動詞</option><option value="sense">感官動詞</option><option value="participle">分詞構句</option><option value="inversion">倒裝句</option><option value="structure_review">句型結構總複習</option><option value="reading">綜合閱讀練習</option></optgroup>
                                 </select>
                                 <select id="form-level" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${Array.from({length: 30}, (_, i) => i + 1).map(l => `<option value="${l}">L${l}</option>`).join('')}</select>
                                 <select id="form-unit" class="w-full px-2 py-1.5 bg-slate-950 border border-slate-850 rounded-lg text-[10px] text-slate-300">${[1,2,3,4,5,6,7,8,9,10].map(u => `<option value="${u}">U${u}</option>`).join('')}</select>
@@ -2498,13 +2504,13 @@
         }
 
         function normalizeImportedJson(data) {
-            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} }, grammar: { pattern: {}, pos: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, participle: {}, sense: {}, inversion: {}, tense: {}, reading: {} } };
+            let normalized = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} }, grammar: { pos: {}, pattern: {}, tense: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, sense: {}, participle: {}, inversion: {}, structure_review: {}, reading: {} } };
             ['basic', 'intermediate', 'advanced'].forEach(d => { 
                 for(let i=1;i<=10;i++) { normalized.vocab[d][i] = []; }
                 for(let i=1;i<=30;i++) { normalized.exam[d][i] = []; }
             });
             for(let i=1;i<=10;i++) { normalized.phrase[i] = []; normalized.affix[i] = []; }
-            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                 for(let i=1;i<=30;i++) { normalized.grammar[unit][i] = []; }
             });
             if (!data || typeof data !== 'object') return null;
@@ -2550,7 +2556,7 @@
                 });
             }
             if (data.grammar) {
-                ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                     if (data.grammar[unit]) for (let lvl = 1; lvl <= 30; lvl++) if (Array.isArray(data.grammar[unit][lvl])) processList(data.grammar[unit][lvl], 'grammar', unit, lvl);
                 });
             }
@@ -2571,7 +2577,7 @@
                     for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
                 });
                 for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
-                ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                     for(let l=1; l<=30; l++) { mainDatabase.grammar[unit][l] = []; }
                 });
             }
@@ -2600,7 +2606,7 @@
                                 data.phrase[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                                 data.affix[l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.affix[l].some(x => x.word === item.word)) mainDatabase.affix[l].push(item); });
                             }
-                            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                                 for(let l=1; l<=30; l++) {
                                     data.grammar[unit][l].forEach(item => { if(importMode === 'overwrite' || !mainDatabase.grammar[unit][l].some(x => x.question === item.question)) mainDatabase.grammar[unit][l].push(item); });
                                 }
@@ -2636,7 +2642,7 @@
                                 for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
                             });
                             for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
-                            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                                 for(let l=1; l<=30; l++) { mainDatabase.grammar[unit][l] = []; }
                             });
                         }
@@ -2654,7 +2660,7 @@
                                 data.phrase[l].forEach(item => { if(!mainDatabase.phrase[l].some(x => x.word === item.word)) mainDatabase.phrase[l].push(item); });
                                 data.affix[l].forEach(item => { if(!mainDatabase.affix[l].some(x => x.word === item.word)) mainDatabase.affix[l].push(item); });
                             }
-                            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                                 for(let l=1; l<=30; l++) {
                                     data.grammar[unit][l].forEach(item => { if(!mainDatabase.grammar[unit][l].some(x => x.question === item.question)) mainDatabase.grammar[unit][l].push(item); });
                                 }
@@ -2696,7 +2702,7 @@
             const syncBadge = document.getElementById('header-sync-badge');
             if (!syncIcon || !syncStatus || !syncBadge) return;
             syncBadge.className = "flex items-center gap-2 px-3 py-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-blue-500/50 rounded-xl cursor-pointer transition-all active:scale-95 text-slate-400 hover:text-blue-400 group";
-            syncStatus.className = "text-[11px] font-bold";
+            syncStatus.className = "text-[11px] font-bold text-slate-400";
             if (userState.autoSyncUrl && userState.autoSyncUrl.trim() !== "") {
                 syncIcon.className = "fa-solid fa-cloud-arrow-down text-blue-450";
                 syncStatus.textContent = "已連線";
@@ -2704,7 +2710,6 @@
             } else {
                 syncIcon.className = "fa-solid fa-cloud text-slate-550";
                 syncStatus.textContent = "手動修行";
-                syncStatus.className = "text-[11px] font-bold text-slate-400";
             }
         }
 
@@ -2794,7 +2799,7 @@
                     tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-emerald-300 font-bold">${item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate">${item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">字根字首 L${l}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('affix', null, ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
                 });
             }
-            ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+            ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                 for (let l = 1; l <= 30; l++) {
                     (mainDatabase.grammar[unit]?.[l] || []).forEach((item, idx) => {
                         tbody.innerHTML += `<tr class="border-b border-slate-900/60"><td class="py-2.5 px-3 text-rose-300 font-bold truncate max-w-[150px]">${item.question || item.word}</td><td class="py-2.5 px-3 text-slate-300 truncate max-w-[150px]">解答: ${item.answer || item.chinese}</td><td class="py-2.5 px-3"><span class="px-2 py-0.5 rounded text-[9px] bg-slate-900 border border-slate-800">文法 ${unit} L${l}</span></td><td class="py-2.5 px-3 text-center"><button onclick="deleteDatabaseItem('grammar', '${unit}', ${l}, ${idx})" class="text-rose-450 hover:text-rose-300"><i class="fa-solid fa-trash-can"></i></button></td></tr>`;
@@ -2854,38 +2859,14 @@
             };
             
             document.getElementById('confirm-modal-proceed').onclick = () => {
-                playSound('click');
-                userState.totalAnswered = 0; userState.correctCount = 0; userState.streak = 0; userState.highestStreak = 0; userState.exp = 0;
-                saveProgress(); updateHeaderUI(); closeStatsModal();
-                modal.classList.add('pointer-events-none', 'opacity-0');
-                modal.firstElementChild.classList.add('scale-95');
-                showToast("📊 修煉統計數據已重新回歸虛無！", "success");
-            };
-        }
-
-        function clearDatabaseSource(sourceKey) {
-            playSound('click');
-            const modal = document.getElementById('custom-confirm-modal');
-            document.getElementById('confirm-modal-title').textContent = "確定清空所有修煉大典嗎？";
-            document.getElementById('confirm-modal-desc').textContent = "此動作將完全刪除修煉大典下所有的境界 Level 1 ~ 30 的英文字彙及生活例句，且無法還原！";
-            modal.classList.remove('pointer-events-none', 'opacity-0');
-            modal.firstElementChild.classList.remove('scale-95');
-            
-            document.getElementById('confirm-modal-cancel').onclick = () => {
-                playSound('click');
-                modal.classList.add('pointer-events-none', 'opacity-0');
-                modal.firstElementChild.classList.add('scale-95');
-            };
-            
-            document.getElementById('confirm-modal-proceed').onclick = () => {
                 playSound('wrong');
-                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} }, grammar: { pattern: {}, pos: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, participle: {}, sense: {}, inversion: {}, tense: {}, reading: {} } };
+                mainDatabase = { vocab: { basic: {}, intermediate: {}, advanced: {} }, phrase: {}, affix: {}, exam: { basic: {}, intermediate: {}, advanced: {} }, grammar: { pos: {}, pattern: {}, tense: {}, relative: {}, noun_clause: {}, causative: {}, linking: {}, sense: {}, participle: {}, inversion: {}, structure_review: {}, reading: {} } };
                 ['basic', 'intermediate', 'advanced'].forEach(d => { 
                     for(let l=1; l<=10; l++) { mainDatabase.vocab[d][l] = []; }
                     for(let l=1; l<=30; l++) { mainDatabase.exam[d][l] = []; }
                 });
                 for(let l=1; l<=10; l++) { mainDatabase.phrase[l] = []; mainDatabase.affix[l] = []; }
-                ['pattern', 'pos', 'relative', 'noun_clause', 'causative', 'linking', 'participle', 'sense', 'inversion', 'tense', 'reading'].forEach(unit => {
+                ['pos', 'pattern', 'tense', 'relative', 'noun_clause', 'causative', 'linking', 'sense', 'participle', 'inversion', 'structure_review', 'reading'].forEach(unit => {
                     for(let l=1; l<=30; l++) { mainDatabase.grammar[unit][l] = []; }
                 });
                 saveProgress(); renderCustomLibraryTable();

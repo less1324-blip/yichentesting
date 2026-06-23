@@ -72,6 +72,78 @@
           "answer": "A",
           "explanation": "解答：(A)\n解析：前句提到 chasing 'a cat' (單數)，後句指同一隻貓，應使用單數 'cat'。"
         }
+      ],
+        "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>How ____ rice do you eat for dinner?</div>",
+          "options": ["many", "much", "any", "a lot"],
+          "answer": "B",
+          "explanation": "解答：(B) much\n解析：rice 為不可數名詞，詢問數量需用 how much。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>There are ____ apples on the table. Help yourself!</div>",
+          "options": ["much", "a little", "a few", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) a few\n解析：apples 為可數複數名詞，搭配 a few 表示「一些」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I don't have ____ homework to do today. I'm so happy!</div>",
+          "options": ["many", "a few", "much", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) much\n解析：homework 是不可數名詞，且此句為否定句，用 much。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Do you have ____ brothers or sisters?</div>",
+          "options": ["much", "any", "a little", "some"],
+          "answer": "B",
+          "explanation": "解答：(B) any\n解析：在疑問句中詢問數量，常用 any 來修飾可數名詞複數。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Please put ____ sugar in my coffee. I like it sweet.</div>",
+          "options": ["a few", "many", "a little", "any"],
+          "answer": "C",
+          "explanation": "解答：(C) a little\n解析：sugar 為不可數名詞，用 a little 表示「一點點」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>This is ________ (Mary) book. It is not yours.</div>",
+          "options": ["Mary", "Marys", "Mary's", "Marys'"],
+          "answer": "C",
+          "explanation": "解答：(C) Mary's\n解析：單數名詞所有格為 's。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Those are the ________ (children) toys. Please clean them up.</div>",
+          "options": ["children", "childrens", "children's", "childrens'"],
+          "answer": "C",
+          "explanation": "解答：(C) children's\n解析：children 是複數但不以 s 結尾，所有格直接加 's。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We are going to ________ (John and Kevin) house for dinner tonight. (兩人共有的家)</div>",
+          "options": ["John and Kevin", "John's and Kevin's", "John and Kevin's", "Johns and Kevins"],
+          "answer": "C",
+          "explanation": "解答：(C) John and Kevin's\n解析：兩人共有，所有格符號加在最後一個名字後面。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>There are <span class='text-rose-500 underline decoration-2'>a little</span> students in the classroom today.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: a little, Correction: a few)",
+            "(Error: are, Correction: is)",
+            "(Error: little, Correction: few)",
+            "(Error: students, Correction: student)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：students 為可數名詞複數，修飾可數名詞應使用 a few。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Look at the dog's tail; it is wagging. The <span class='text-rose-500 underline decoration-2'>dogs' tails</span> are very long.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: dogs', Correction: dogs)",
+            "(Error: dogs' tails, Correction: dog's tail)",
+            "(Error: tails, Correction: tail)",
+            "(Error: are, Correction: is)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：前句已說明只有一隻狗，故應改回 dog's tail。"
+        }
       ]
     }
   }

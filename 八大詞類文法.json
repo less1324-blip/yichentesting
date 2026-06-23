@@ -1,0 +1,130 @@
+{
+  "grammar": {
+    "pos": {
+      "1": [
+        {
+          "question": "1. I have <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> apple in my bag.",
+          "options": ["a", "an", "the", "/"],
+          "answer": "B",
+          "explanation": "解答：(B) an\n解析：apple 的第一個音是母音開頭 (/æ/)，因此冠詞使用 an。"
+        },
+        {
+          "question": "2. Look at those <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> in the park. They are so cute!",
+          "options": ["child", "childs", "children", "childrens"],
+          "answer": "C",
+          "explanation": "解答：(C) children\n解析：those 後面接複數名詞。child 的不規則複數為 children。"
+        },
+        {
+          "question": "3. My mother bought some <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> from the supermarket.",
+          "options": ["milk", "milks", "a milk", "the milk"],
+          "answer": "A",
+          "explanation": "解答：(A) milk\n解析：milk (牛奶) 是不可數名詞，不可加 s，也不可加 a。"
+        },
+        {
+          "question": "4. There is <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> university near my house.",
+          "options": ["a", "an", "the", "/"],
+          "answer": "A",
+          "explanation": "解答：(A) a\n解析：university 的第一個發音是子音 /j/，不是母音，因此冠詞用 a。"
+        },
+        {
+          "question": "5. He is <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> honest man; he never tells lies.",
+          "options": ["a", "an", "the", "/"],
+          "answer": "B",
+          "explanation": "解答：(B) an\n解析：honest 的 h 不發音，第一個音是母音 /ɒ/，因此使用 an。"
+        },
+        {
+          "question": "6. Could you pass me <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> water, please?",
+          "options": ["a", "an", "some", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) some\n解析：water 為不可數名詞。在疑問句中若有請求語氣 (Could you...)，通常使用 some 而非 any。"
+        },
+        {
+          "question": "7. All the <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> are playing in the schoolyard.",
+          "options": ["man", "mans", "men", "a man"],
+          "answer": "C",
+          "explanation": "解答：(C) men\n解析：All the 後面需接複數名詞，man 的複數為 men。"
+        },
+        {
+          "question": "8. This is <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> interesting book. I really like it.",
+          "options": ["a", "an", "the", "/"],
+          "answer": "B",
+          "explanation": "解答：(B) an\n解析：interesting 的第一個音是母音 /ɪ/，因此冠詞使用 an。"
+        },
+        {
+          "question": "9. The <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> are barking at the stranger.",
+          "options": ["dog", "dogs", "a dog", "doges"],
+          "answer": "B",
+          "explanation": "解答：(B) dogs\n解析：後方的動詞為 are，代表主詞需為複數，dog 的複數為 dogs。"
+        },
+        {
+          "question": "10. Do you have <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> pen I can use?",
+          "options": ["a", "an", "/", "some"],
+          "answer": "A",
+          "explanation": "解答：(A) a\n解析：pen 為可數單數名詞，表示「一支筆」時，前面需加冠詞 a。"
+        }
+       ],
+        "2": [
+        {
+          "question": "1. How <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> rice do you eat for dinner?",
+          "options": ["many", "much", "any", "a lot"],
+          "answer": "B",
+          "explanation": "解答：(B) much\n解析：rice (米飯) 為不可數名詞，詢問不可數名詞的量，使用 How much。"
+        },
+        {
+          "question": "2. There are <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> apples on the table. Help yourself!",
+          "options": ["much", "a little", "a few", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) a few\n解析：apples 為可數複數名詞，a few 用於修飾可數名詞（意為「一些」）。"
+        },
+        {
+          "question": "3. This is <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> room. We share it together.",
+          "options": ["Mary and John's", "Mary's and John's", "Mary and John", "Mary's and John"],
+          "answer": "A",
+          "explanation": "解答：(A) Mary and John's\n解析：若兩人共同擁有同一事物，僅在最後一個名字後加上 's。"
+        },
+        {
+          "question": "4. I don't have <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> homework to do today. I'm so happy!",
+          "options": ["many", "a few", "much", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) much\n解析：homework (作業) 為不可數名詞，修飾不可數名詞使用 much。"
+        },
+        {
+          "question": "5. Look at the <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> tail. It is wagging happily.",
+          "options": ["dog", "dogs", "dog's", "dogs'"],
+          "answer": "C",
+          "explanation": "解答：(C) dog's\n解析：由後句 It is... 可知主詞為單數，因此尾巴屬於「那隻狗的」，使用單數所有格 dog's。"
+        },
+        {
+          "question": "6. We need to buy <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> bottles of water for the picnic.",
+          "options": ["many", "much", "a little", "/"],
+          "answer": "A",
+          "explanation": "解答：(A) many\n解析：bottles (瓶子) 為可數複數名詞，修飾可數名詞使用 many。"
+        },
+        {
+          "question": "7. Do you have <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> brothers or sisters?",
+          "options": ["much", "any", "a little", "some"],
+          "answer": "B",
+          "explanation": "解答：(B) any\n解析：在疑問句中詢問對方是否有某物，通常使用 any。"
+        },
+        {
+          "question": "8. The <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> dresses are very beautiful.",
+          "options": ["girl", "girls", "girl's", "girls'"],
+          "answer": "D",
+          "explanation": "解答：(D) girls'\n解析：dresses (洋裝) 是複數，表示「女孩們的洋裝」，所有格需加在複數 s 後面，故為 girls'。"
+        },
+        {
+          "question": "9. There is only <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> milk left in the fridge. We should buy some.",
+          "options": ["a few", "a little", "many", "any"],
+          "answer": "B",
+          "explanation": "解答：(B) a little\n解析：milk 為不可數名詞，修飾不可數名詞且表示「少許」使用 a little。"
+        },
+        {
+          "question": "10. Please put <strong class='text-orange-400 border-b-2 border-orange-400'>&nbsp;____&nbsp;</strong> sugar in my coffee. I like it sweet.",
+          "options": ["a few", "many", "a little", "any"],
+          "answer": "C",
+          "explanation": "解答：(C) a little\n解析：sugar 為不可數名詞，修飾不可數名詞使用 a little。"
+        }
+      ]
+    }
+  }
+}

@@ -1273,6 +1273,9 @@
             
             if (dojoType !== 'exam' && dojoType !== 'grammar' && userState.currentLevel > 10) {
                 userState.currentLevel = 1; 
+            } else if (dojoType === 'grammar' && userState.currentDifficulty === 'pattern' && userState.currentLevel > 5) {
+                // 如果切換到文法(預設為五大句型)，且原先等級大於5，則重置回第1層
+                userState.currentLevel = 1; 
             }
             
             userState.flashcardIndex = 0; userState.quizIndex = 0; userState.spellingIndex = 0; userState.clozeIndex = 0;
@@ -1370,9 +1373,9 @@
             let diffTabs = [];
             if (isGrammar) {
                 diffTabs = [
-                    { id: 'pos', name: '八大詞類' },
+                    { id: 'pos', name: '句型結構與詞性' },
                     { id: 'pattern', name: '五大句型' },
-                    { id: 'tense', name: '12時態' },
+                    { id: 'tense', name: '動詞時態系統' },
                     { id: 'relative', name: '關係代名詞' },
                     { id: 'noun_clause', name: '名詞子句' },
                     { id: 'causative', name: '使役動詞' },
@@ -1423,6 +1426,11 @@
             if (groupIcon) groupIcon.className = `fa-solid fa-crown ${theme.iconColor}`;
             
             let maxLevels = (userState.currentDojo === 'exam' || userState.currentDojo === 'grammar') ? 30 : 10;
+            
+            // 特別針對五大句型，將最大等級限制為5
+            if (userState.currentDojo === 'grammar' && userState.currentDifficulty === 'pattern') {
+                maxLevels = 5;
+            }
             
             for (let i = 1; i <= maxLevels; i++) {
                 const isActive = userState.currentLevel === i;

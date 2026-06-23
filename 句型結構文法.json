@@ -1,0 +1,2026 @@
+{
+  "grammar": {
+    "structure_review": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I have ____ apple in my bag.</div>",
+          "options": ["a", "an", "the", "/"],
+          "answer": "B",
+          "explanation": "解答：(B) an\n解析：apple 的第一個音是母音 [æ]，因此冠詞要用 an。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Look at those ____ in the park. They are so cute!</div>",
+          "options": ["child", "childs", "children", "childrens"],
+          "answer": "C",
+          "explanation": "解答：(C) children\n解析：child 的複數不規則變化為 children。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My mother bought some ____ from the supermarket.</div>",
+          "options": ["milk", "milks", "a milk", "the milk"],
+          "answer": "A",
+          "explanation": "解答：(A) milk\n解析：milk 是不可數名詞，不可加 s，也不能直接加 a。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>There is ____ university near my house.</div>",
+          "options": ["a", "an", "the", "/"],
+          "answer": "A",
+          "explanation": "解答：(A) a\n解析：university 的發音第一個音為子音 [j]，所以冠詞用 a。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He is ____ honest man; he never tells lies.</div>",
+          "options": ["a", "an", "the", "/"],
+          "answer": "B",
+          "explanation": "解答：(B) an\n解析：honest 的 h 不發音，第一個發音是母音 [ɑ]，所以用 an。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>There are three ________ (box) on the desk.</div>",
+          "options": ["boxs", "boxes", "boxesies", "box"],
+          "answer": "B",
+          "explanation": "解答：(B) boxes\n解析：以 x 結尾的名詞複數變化需加 -es。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My father is a ________ (dentist). He helps people with their teeth.</div>",
+          "options": ["dentist", "dentists", "dentist's", "dentisting"],
+          "answer": "A",
+          "explanation": "解答：(A) dentist\n解析：冠詞 a 後面應接單數名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The ________ (woman) are talking in the kitchen.</div>",
+          "options": ["woman", "womans", "women", "womens"],
+          "answer": "C",
+          "explanation": "解答：(C) women\n解析：woman 的不規則複數為 women。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She has <span class='text-rose-500 underline decoration-2'>a money</span> in her wallet.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: a money, Correction: a cash)",
+            "(Error: a money, Correction: money)",
+            "(Error: has, Correction: have)",
+            "(Error: a money, Correction: some moneys)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：money 為不可數名詞，不可加 a。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The dog is chasing a cat. The <span class='text-rose-500 underline decoration-2'>cats</span> are very fast.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: cats, Correction: cat)",
+            "(Error: are, Correction: is)",
+            "(Error: cats, Correction: a cat)",
+            "(Error: fast, Correction: fastly)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：前句提到 chasing 'a cat' (單數)，後句指同一隻貓，應使用單數 'cat'。"
+        }
+      ],
+        "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>How ____ rice do you eat for dinner?</div>",
+          "options": ["many", "much", "any", "a lot"],
+          "answer": "B",
+          "explanation": "解答：(B) much\n解析：rice 為不可數名詞，詢問數量需用 how much。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>There are ____ apples on the table. Help yourself!</div>",
+          "options": ["much", "a little", "a few", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) a few\n解析：apples 為可數複數名詞，搭配 a few 表示「一些」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I don't have ____ homework to do today. I'm so happy!</div>",
+          "options": ["many", "a few", "much", "/"],
+          "answer": "C",
+          "explanation": "解答：(C) much\n解析：homework 是不可數名詞，且此句為否定句，用 much。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Do you have ____ brothers or sisters?</div>",
+          "options": ["much", "any", "a little", "some"],
+          "answer": "B",
+          "explanation": "解答：(B) any\n解析：在疑問句中詢問數量，常用 any 來修飾可數名詞複數。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Please put ____ sugar in my coffee. I like it sweet.</div>",
+          "options": ["a few", "many", "a little", "any"],
+          "answer": "C",
+          "explanation": "解答：(C) a little\n解析：sugar 為不可數名詞，用 a little 表示「一點點」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>This is ________ (Mary) book. It is not yours.</div>",
+          "options": ["Mary", "Marys", "Mary's", "Marys'"],
+          "answer": "C",
+          "explanation": "解答：(C) Mary's\n解析：單數名詞所有格為 's。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Those are the ________ (children) toys. Please clean them up.</div>",
+          "options": ["children", "childrens", "children's", "childrens'"],
+          "answer": "C",
+          "explanation": "解答：(C) children's\n解析：children 是複數但不以 s 結尾，所有格直接加 's。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We are going to ________ (John and Kevin) house for dinner tonight. (兩人共有的家)</div>",
+          "options": ["John and Kevin", "John's and Kevin's", "John and Kevin's", "Johns and Kevins"],
+          "answer": "C",
+          "explanation": "解答：(C) John and Kevin's\n解析：兩人共有，所有格符號加在最後一個名字後面。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>There are <span class='text-rose-500 underline decoration-2'>a little</span> students in the classroom today.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: a little, Correction: a few)",
+            "(Error: are, Correction: is)",
+            "(Error: little, Correction: few)",
+            "(Error: students, Correction: student)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：students 為可數名詞複數，修飾可數名詞應使用 a few。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Look at the dog's tail; it is wagging. The <span class='text-rose-500 underline decoration-2'>dogs' tails</span> are very long.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: dogs', Correction: dogs)",
+            "(Error: dogs' tails, Correction: dog's tail)",
+            "(Error: tails, Correction: tail)",
+            "(Error: are, Correction: is)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：前句已說明只有一隻狗，故應改回 dog's tail。"
+        }
+      ],
+        "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The police ____ looking for the thief everywhere.</div>",
+          "options": ["is", "are", "has", "was"],
+          "answer": "B",
+          "explanation": "解答：(B) are\n解析：police (警察) 是集合名詞，永遠視為複數，動詞需用 are。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I would like to buy ____ of paper to write a letter.</div>",
+          "options": ["a piece", "a glass", "a loaf", "a bar"],
+          "answer": "A",
+          "explanation": "解答：(A) a piece\n解析：紙張(paper)的單位詞常用 a piece of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We have a lot of ____ in our family; we are very close.</div>",
+          "options": ["people", "peoples", "person", "a person"],
+          "answer": "A",
+          "explanation": "解答：(A) people\n解析：people 本身即為複數，不可再加 s。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She drank two ____ of orange juice this morning.</div>",
+          "options": ["bowl", "bag", "glasses", "loaf"],
+          "answer": "C",
+          "explanation": "解答：(C) glasses\n解析：裝在杯子裡的液體，單位詞為 glass，因為是 two，所以用複數 glasses。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The ____ in this class are very hardworking.</div>",
+          "options": ["staff", "staffs", "staff's", "a staff"],
+          "answer": "A",
+          "explanation": "解答：(A) staff\n解析：staff (員工/教職員) 為集合名詞，型態不變，但視句意可作單複數。此處搭配 are，應選 staff。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Could you buy me ________ bread on your way home?</div>",
+          "options": ["a bottle of", "a cup of", "a slice of", "a bag of"],
+          "answer": "D",
+          "explanation": "解答：(D) a bag of\n解析：買麵包通常會用袋子裝，故選擇 a bag of bread。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I usually drink ________ coffee before I start working.</div>",
+          "options": ["a bottle of", "a cup of", "a slice of", "a bar of"],
+          "answer": "B",
+          "explanation": "解答：(B) a cup of\n解析：咖啡通常用杯子裝，故選 a cup of coffee。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My brother ate a whole ________ chocolate by himself!</div>",
+          "options": ["a bottle of", "a cup of", "a slice of", "a bar of"],
+          "answer": "D",
+          "explanation": "解答：(D) a bar of\n解析：巧克力塊的標準單位詞為 a bar of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The family is very happy; they <span class='text-rose-500 underline decoration-2'>loves</span> each other very much.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: loves, Correction: love)",
+            "(Error: family, Correction: families)",
+            "(Error: happy, Correction: happily)",
+            "(Error: much, Correction: many)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：主詞為 they，動詞 love 不需要加 s。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>I need two bottles of <span class='text-rose-500 underline decoration-2'>waters</span> because I am very thirsty.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: bottles, Correction: bottle)",
+            "(Error: waters, Correction: water)",
+            "(Error: two, Correction: a)",
+            "(Error: thirsty, Correction: thirst)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：water 是不可數名詞，單位詞已由 bottles 表現，water 本身不可加 s。"
+        }
+      ],
+        "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ is my best friend. We study English together every day.</div>",
+          "options": ["Him", "His", "He", "Her"],
+          "answer": "C",
+          "explanation": "解答：(C) He\n解析：空格為句首主詞，需使用主格 He。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I saw Sarah at the store, and I talked to ____ for a while.</div>",
+          "options": ["she", "her", "hers", "she's"],
+          "answer": "B",
+          "explanation": "解答：(B) her\n解析：talked to 後面接介系詞 to，需使用受格 her。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>This notebook is not mine. Is it ____?</div>",
+          "options": ["you", "your", "yours", "you're"],
+          "answer": "C",
+          "explanation": "解答：(C) yours\n解析：句尾無名詞，需使用所有代名詞 yours (your notebook)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My brother and I love our parents. They love ____ too.</div>",
+          "options": ["we", "our", "us", "ours"],
+          "answer": "C",
+          "explanation": "解答：(C) us\n解析：love 是動詞，後面需接受格 us。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The cat is hungry. Please give ____ some food.</div>",
+          "options": ["it", "its", "it's", "its'"],
+          "answer": "A",
+          "explanation": "解答：(A) it\n解析：give 是動詞，後接受格。cat 是動物，受格為 it。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My mother is a doctor. ________ works at a local hospital.</div>",
+          "options": ["She", "Her", "Hers", "She's"],
+          "answer": "A",
+          "explanation": "解答：(A) She\n解析：句首主詞，需使用主格 She。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I have a new car, but the color of ________ is blue.</div>",
+          "options": ["it", "its", "it's", "itself"],
+          "answer": "A",
+          "explanation": "解答：(A) it\n解析：of 是介系詞，後需接受格 it。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Tom and Jerry are playing games. I am watching ________.</div>",
+          "options": ["they", "them", "their", "themselves"],
+          "answer": "B",
+          "explanation": "解答：(B) them\n解析：watching 是動詞，後接複數受格 them。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Give the book to <span class='text-rose-500 underline decoration-2'>I</span>; I want to read it.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: I, Correction: me)",
+            "(Error: I, Correction: my)",
+            "(Error: Give, Correction: Giving)",
+            "(Error: read, Correction: reading)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：to 為介系詞，後方需接受格 me。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'><span class='text-rose-500 underline decoration-2'>Me and John</span> are classmates.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: Me and John, Correction: John and me)",
+            "(Error: Me and John, Correction: John and I)",
+            "(Error: are, Correction: is)",
+            "(Error: classmates, Correction: classmate)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：句首主詞需使用主格 I，且禮貌上通常將對方放前面，故修正為 John and I。"
+        }
+      ],
+        "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ are my shoes over there by the door.</div>",
+          "options": ["This", "That", "Those", "These"],
+          "answer": "C",
+          "explanation": "解答：(C) Those\n解析：shoes 為複數，且位置在遠處 (over there)，故用 Those。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I saw the pictures on the wall. ____ were taken by my father.</div>",
+          "options": ["This", "That", "These", "Those"],
+          "answer": "D",
+          "explanation": "解答：(D) Those\n解析：pictures 為複數，且掛在牆上，通常指代遠處的事物，故用 Those。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Be careful with the knife! You might cut ____.</div>",
+          "options": ["you", "your", "yourself", "yours"],
+          "answer": "C",
+          "explanation": "解答：(C) yourself\n解析：主詞與受詞皆為 you，需使用反身代名詞 yourself。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The students finished the homework by ____.</div>",
+          "options": ["them", "their", "theirs", "themselves"],
+          "answer": "D",
+          "explanation": "解答：(D) themselves\n解析：by + 反身代名詞表示「靠自己」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Look at the photo in my hand. ____ is my family.</div>",
+          "options": ["This", "That", "These", "Those"],
+          "answer": "A",
+          "explanation": "解答：(A) This\n解析：照片在自己手中 (in my hand)，距離近，故用 This。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I taught ________ (I) how to play the guitar.</div>",
+          "options": ["me", "my", "mine", "myself"],
+          "answer": "D",
+          "explanation": "解答：(D) myself\n解析：主詞 I 教自己，需用反身代名詞 myself。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The cat washed ________ (it) after eating the fish.</div>",
+          "options": ["it", "its", "itself", "its'"],
+          "answer": "C",
+          "explanation": "解答：(C) itself\n解析：貓把自己洗乾淨，需用反身代名詞 itself。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We enjoyed ________ (we) at the party last night.</div>",
+          "options": ["us", "our", "ours", "ourselves"],
+          "answer": "D",
+          "explanation": "解答：(D) ourselves\n解析：enjoy oneself 表示「玩得開心」，主詞為 We，故用 ourselves。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'><span class='text-rose-500 underline decoration-2'>These</span> is the book I was telling you about yesterday.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: These, Correction: This)",
+            "(Error: is, Correction: are)",
+            "(Error: about, Correction: on)",
+            "(Error: book, Correction: books)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：後接單數名詞 book 與動詞 is，故主詞應為 This。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She looked at herself in the mirror and smiled at <span class='text-rose-500 underline decoration-2'>her</span>.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: her, Correction: she)",
+            "(Error: her, Correction: herself)",
+            "(Error: mirror, Correction: mirrors)",
+            "(Error: smiled, Correction: smile)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：主詞為 She，是對著「自己」微笑，受詞需改為反身代名詞 herself。"
+        }
+      ],
+        "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My brother and I ____ students at the local high school.</div>",
+          "options": ["is", "am", "are", "be"],
+          "answer": "C",
+          "explanation": "解答：(C) are\n解析：主詞為 My brother and I (複數)，be 動詞用 are。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She ____ not like to play video games after school.</div>",
+          "options": ["do", "does", "is", "doing"],
+          "answer": "B",
+          "explanation": "解答：(B) does\n解析：主詞為 She (第三人稱單數)，否定句助動詞用 does。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Where ____ your parents live?</div>",
+          "options": ["is", "are", "do", "does"],
+          "answer": "C",
+          "explanation": "解答：(C) do\n解析：主詞為 your parents (複數)，問句助動詞用 do。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The math teacher ____ very kind to all of us.</div>",
+          "options": ["be", "are", "am", "is"],
+          "answer": "D",
+          "explanation": "解答：(D) is\n解析：主詞為 The math teacher (單數)，be 動詞用 is。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My dogs ____ in the yard right now.</div>",
+          "options": ["run", "runs", "are", "is"],
+          "answer": "C",
+          "explanation": "解答：(C) are\n解析：雖然 right now 常搭配進行式，但在此選項中只有 are (be動詞) 能與複數主詞 My dogs 搭配構成現在狀態。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He ________ (study) English every day.</div>",
+          "options": ["study", "studies", "studys", "studying"],
+          "answer": "B",
+          "explanation": "解答：(B) studies\n解析：主詞 He 為第三人稱單數，動詞需加 es (子音+y去y加ies)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We ________ (not be) hungry, so we didn't eat dinner.</div>",
+          "options": ["aren't", "don't be", "isn't", "not are"],
+          "answer": "A",
+          "explanation": "解答：(A) aren't\n解析：主詞 We 搭配 be 動詞的否定形式為 are not (aren't)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My sister ________ (watch) TV in the living room every evening.</div>",
+          "options": ["watch", "watchs", "watches", "watching"],
+          "answer": "C",
+          "explanation": "解答：(C) watches\n解析：主詞 My sister 為單數，watch 以 ch 結尾，動詞需加 es。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>They <span class='text-rose-500 underline decoration-2'>plays</span> basketball in the park every Sunday.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: plays, Correction: play)", "(Error: plays, Correction: playing)", "(Error: They, Correction: He)", "(Error: Sunday, Correction: Sundays)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：主詞 They 是複數，動詞 play 不需要加 s。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Does he <span class='text-rose-500 underline decoration-2'>is</span> a doctor? No, he is a teacher.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: is, Correction: be)", "(Error: Does, Correction: Is)", "(Error: is, Correction: do)", "(Error: a, Correction: /)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：這句要表達身分，應使用 Is he a doctor? 而不是使用助動詞 Does。"
+        }
+      ],
+        "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Listen! The baby ____ in the other room.</div>",
+          "options": ["cry", "cries", "is crying", "are crying"],
+          "answer": "C",
+          "explanation": "解答：(C) is crying\n解析：Listen! 為提示語，表示動作正在進行，應使用現在進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>What ____ you ____ now?</div>",
+          "options": ["do; do", "are; doing", "is; doing", "are; do"],
+          "answer": "B",
+          "explanation": "解答：(B) are; doing\n解析：now 表示現在正在進行，結構為 be 動詞 + V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We ____ TV at this moment; we are studying.</div>",
+          "options": ["not watching", "aren't watching", "don't watch", "isn't watching"],
+          "answer": "B",
+          "explanation": "解答：(B) aren't watching\n解析：at this moment 表示現在正在進行，否定句結構為 be not + V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Look! The sun ____ behind the clouds.</div>",
+          "options": ["shine", "shines", "is shining", "are shining"],
+          "answer": "C",
+          "explanation": "解答：(C) is shining\n解析：Look! 為提示語，表示動作正在進行。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Why ____ she running so fast?</div>",
+          "options": ["is", "are", "does", "do"],
+          "answer": "A",
+          "explanation": "解答：(A) is\n解析：現在進行式問句，she 搭配 be 動詞 is。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The students ________ (write) a report in the classroom right now.</div>",
+          "options": ["write", "writes", "is writing", "are writing"],
+          "answer": "D",
+          "explanation": "解答：(D) are writing\n解析：主詞 The students 是複數，現在進行式為 are writing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I ________ (plan) to visit my grandmother this weekend.</div>",
+          "options": ["plan", "am plan", "am planning", "is planning"],
+          "answer": "C",
+          "explanation": "解答：(C) am planning\n解析：現在進行式常用來表示未來的計畫，結構為 am planning (字尾重複字首加 ing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My brother ________ (not lie) to you; he is telling the truth.</div>",
+          "options": ["isn't lying", "isn't lieing", "doesn't lie", "is not lie"],
+          "answer": "A",
+          "explanation": "解答：(A) isn't lying\n解析：lie (說謊) 的進行式變化為 lie + ing = lying。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Are you <span class='text-rose-500 underline decoration-2'>eat</span> your dinner now?</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: eat, Correction: eating)",
+            "(Error: Are, Correction: Do)",
+            "(Error: you, Correction: your)",
+            "(Error: now, Correction: every day)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：現在進行式疑問句結構為 Be + 主詞 + V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>My mom is <span class='text-rose-500 underline decoration-2'>cook</span> dinner in the kitchen.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: cook, Correction: cooked)",
+            "(Error: cook, Correction: cooking)",
+            "(Error: is, Correction: does)",
+            "(Error: kitchen, Correction: kitchens)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：現在進行式結構為 is/am/are + V-ing，cook 應改為 cooking。"
+        }
+      ],
+        "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I ____ to the library with my friends yesterday.</div>",
+          "options": ["go", "goes", "went", "gone"],
+          "answer": "C",
+          "explanation": "解答：(C) went\n解析：yesterday 為過去式時間副詞，動詞需用過去式 went。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ she buy a new dress last week?</div>",
+          "options": ["Do", "Does", "Did", "Was"],
+          "answer": "C",
+          "explanation": "解答：(C) Did\n解析：last week 為過去式時間副詞，過去式疑問句助動詞用 Did。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We ____ at home last night because it was raining.</div>",
+          "options": ["stay", "stayed", "stays", "are staying"],
+          "answer": "B",
+          "explanation": "解答：(B) stayed\n解析：last night 為過去式時間副詞，動詞需用過去式 stayed。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I didn't ____ my homework this morning.</div>",
+          "options": ["finished", "finish", "finishes", "finishing"],
+          "answer": "B",
+          "explanation": "解答：(B) finish\n解析：did not (didn't) 後方應接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The movie ____ very interesting, but it was too long.</div>",
+          "options": ["is", "was", "were", "be"],
+          "answer": "B",
+          "explanation": "解答：(B) was\n解析：後面用了 was too long，整句語氣一致，故動詞使用過去式 was。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>She ________ (teach) English at this school three years ago.</div>",
+          "options": ["teach", "teaches", "taught", "teaching"],
+          "answer": "C",
+          "explanation": "解答：(C) taught\n解析：ago 表示過去，teach 的過去式為不規則變化 taught。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>They ________ (not have) enough time to finish the project.</div>",
+          "options": ["didn't have", "doesn't have", "had not", "haven't"],
+          "answer": "A",
+          "explanation": "解答：(A) didn't have\n解析：過去式否定句，助動詞使用 didn't，後接原形動詞 have。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My father ________ (drive) me to the train station this morning.</div>",
+          "options": ["drive", "drives", "drived", "drove"],
+          "answer": "D",
+          "explanation": "解答：(D) drove\n解析：this morning 已是過去時間，drive 的過去式為 drove。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He <span class='text-rose-500 underline decoration-2'>writed</span> a letter to his mother yesterday.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: writed, Correction: wrote)",
+            "(Error: writed, Correction: written)",
+            "(Error: He, Correction: They)",
+            "(Error: yesterday, Correction: now)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：write 的過去式為不規則變化 wrote，不可加 ed。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Did you <span class='text-rose-500 underline decoration-2'>saw</span> the beautiful sunset yesterday?</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: saw, Correction: seen)",
+            "(Error: saw, Correction: see)",
+            "(Error: Did, Correction: Do)",
+            "(Error: sunset, Correction: sunsets)"
+          ],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：疑問句已有助動詞 Did，後方的動詞應恢復原形 see。"
+        }
+      ],
+        "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>This is a very ____ movie. I really enjoyed it.</div>",
+          "options": ["interest", "interested", "interesting", "interestingly"],
+          "answer": "C",
+          "explanation": "解答：(C) interesting\n解析：修飾名詞 movie，表示事物本身的性質，應使用現在分詞作形容詞 (interesting)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She looks ____ in that red dress.</div>",
+          "options": ["beauty", "beautifully", "beautiful", "beautyful"],
+          "answer": "C",
+          "explanation": "解答：(C) beautiful\n解析：look 是感官動詞，後面需接形容詞作補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>That house is ____ than mine.</div>",
+          "options": ["big", "bigger", "biggest", "the big"],
+          "answer": "B",
+          "explanation": "解答：(B) bigger\n解析：句子中有 than，應使用形容詞比較級 (bigger)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>It is a ____ day today. Let's go to the park.</div>",
+          "options": ["sun", "sunny", "sunshine", "sunnily"],
+          "answer": "B",
+          "explanation": "解答：(B) sunny\n解析：空格修飾名詞 day，需使用形容詞 sunny。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He is the ____ student in our class.</div>",
+          "options": ["tall", "taller", "tallest", "more tall"],
+          "answer": "C",
+          "explanation": "解答：(C) tallest\n解析：句中有 the，後方比較範圍是 in our class，故使用最高級 tallest。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The weather is very ________ (cloud) today.</div>",
+          "options": ["cloud", "clouds", "cloudy", "cloudily"],
+          "answer": "C",
+          "explanation": "解答：(C) cloudy\n解析：cloudy 為形容詞，用來修飾天氣狀態。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Don't be ________ (fear); I am right here with you.</div>",
+          "options": ["fear", "fearing", "afraid", "fearful"],
+          "answer": "C",
+          "explanation": "解答：(C) afraid\n解析：be 動詞後接形容詞，afraid (害怕的) 為常用形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>That ________ (noise) car woke me up early this morning.</div>",
+          "options": ["noise", "noising", "noisy", "noisily"],
+          "answer": "C",
+          "explanation": "解答：(C) noisy\n解析：修飾名詞 car，需使用形容詞 noisy (吵雜的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She is a very <span class='text-rose-500 underline decoration-2'>happily</span> girl who always smiles.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: happily, Correction: happy)",
+            "(Error: happily, Correction: happier)",
+            "(Error: is, Correction: looks)",
+            "(Error: smiles, Correction: smiling)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：happily 是副詞，修飾名詞 girl 需用形容詞 happy。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>This question is <span class='text-rose-500 underline decoration-2'>more easy</span> than the previous one.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: more easy, Correction: easier)",
+            "(Error: more easy, Correction: easiest)",
+            "(Error: previous, Correction: next)",
+            "(Error: than, Correction: that)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：easy 是單音節結尾為 y 的形容詞，比較級為去 y 加 ier，即 easier。"
+        }
+      ],
+        "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Which one is ____, the blue pen or the red one?</div>",
+          "options": ["good", "better", "best", "the best"],
+          "answer": "B",
+          "explanation": "解答：(B) better\n解析：題目比較兩者 (blue pen vs. red one)，應使用比較級。good 的比較級為 better。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Everest is the ____ mountain in the world.</div>",
+          "options": ["high", "higher", "highest", "more high"],
+          "answer": "C",
+          "explanation": "解答：(C) highest\n解析：與世界所有山比較，範圍超過三者，需使用最高級 highest。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Learning English is ____ than learning math for me.</div>",
+          "options": ["difficult", "more difficult", "most difficult", "difficulter"],
+          "answer": "B",
+          "explanation": "解答：(B) more difficult\n解析：長音節形容詞(difficult)的比較級應在前方加 more。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>This is the ____ story I have ever read.</div>",
+          "options": ["sad", "sadder", "saddest", "more sad"],
+          "answer": "C",
+          "explanation": "解答：(C) saddest\n解析：由 I have ever read(我讀過中)可知是最高級，sad 需重複字尾 d 加 est。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My car is ____ than yours, but yours is more expensive.</div>",
+          "options": ["cheap", "cheaper", "cheapest", "more cheap"],
+          "answer": "B",
+          "explanation": "解答：(B) cheaper\n解析：句中有 than，使用比較級 cheaper。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Today is ________ (hot) than yesterday.</div>",
+          "options": ["hot", "hottest", "hotter", "more hot"],
+          "answer": "C",
+          "explanation": "解答：(C) hotter\n解析：比較級變化，hot 為短音節，需重複字尾 t 加 er。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>She is the ________ (smart) student in our school.</div>",
+          "options": ["smart", "smarter", "smartest", "more smart"],
+          "answer": "C",
+          "explanation": "解答：(C) smartest\n解析：最高級變化，smartest。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>This book is ________ (interesting) than the one I read last week.</div>",
+          "options": ["interesting", "more interesting", "most interesting", "interestinger"],
+          "answer": "B",
+          "explanation": "解答：(B) more interesting\n解析：interesting 為長音節，比較級使用 more interesting。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He is the <span class='text-rose-500 underline decoration-2'>most tall</span> boy in the basketball team.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: most tall, Correction: tallest)", "(Error: most tall, Correction: taller)", "(Error: in, Correction: of)", "(Error: team, Correction: teams)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：tall 為單音節形容詞，最高級為 tallest，不可加 most。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Who is <span class='text-rose-500 underline decoration-2'>the best</span>, your mother or your father?</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: the best, Correction: better)", "(Error: the best, Correction: best)", "(Error: Who, Correction: Which)", "(Error: or, Correction: and)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：比較兩者 (母親或父親) 應使用比較級 better，且比較級前不加冠詞 the。"
+        }
+      ],
+        "11": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He ran ____ to catch the bus, but he still missed it.</div>",
+          "options": ["fast", "fastly", "fasterly", "more fast"],
+          "answer": "A",
+          "explanation": "解答：(A) fast\n解析：fast 是形容詞也是副詞，沒有 fastly 這個字。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She speaks English very ____, so everyone can understand her clearly.</div>",
+          "options": ["good", "well", "better", "best"],
+          "answer": "B",
+          "explanation": "解答：(B) well\n解析：修飾動詞 speaks，需使用副詞 well。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The test was ____ easy that I finished it in ten minutes.</div>",
+          "options": ["too", "very", "so", "such"],
+          "answer": "C",
+          "explanation": "解答：(C) so\n解析：so + 形容詞 + that 子句，表示「如此...以至於...」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I ____ go to the gym on weekends; I prefer to stay home.</div>",
+          "options": ["hardly", "hardly ever", "hard", "most"],
+          "answer": "B",
+          "explanation": "解答：(B) hardly ever\n解析：表達「幾乎不去」的頻率，應使用 hardly ever。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Please drive ____. The road is very slippery because of the rain.</div>",
+          "options": ["careful", "carefuller", "carefully", "care"],
+          "answer": "C",
+          "explanation": "解答：(C) carefully\n解析：修飾動詞 drive，需使用副詞 carefully。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The man smiled ________ (kind) at the little girl.</div>",
+          "options": ["kind", "kinding", "kindly", "kindness"],
+          "answer": "C",
+          "explanation": "解答：(C) kindly\n解析：修飾動詞 smiled，副詞為 kindly。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>You should listen ________ (careful) to the teacher’s instructions.</div>",
+          "options": ["careful", "carefully", "caring", "care"],
+          "answer": "B",
+          "explanation": "解答：(B) carefully\n解析：修飾動詞 listen，副詞為 carefully。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The project was ________ (success) completed ahead of schedule.</div>",
+          "options": ["success", "successed", "successfully", "successful"],
+          "answer": "C",
+          "explanation": "解答：(C) successfully\n解析：修飾動詞 completed，副詞為 successfully。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He is a very <span class='text-rose-500 underline decoration-2'>hardly</span> worker; he works 12 hours a day.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: hardly, Correction: hard)", "(Error: hardly, Correction: harder)", "(Error: worker, Correction: work)", "(Error: works, Correction: worked)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：hard 在此作為形容詞修飾 worker，hardly 是「幾乎不」的意思，意思錯誤。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 11 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She sings <span class='text-rose-500 underline decoration-2'>beautiful</span>, just like a professional singer.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: beautiful, Correction: beauty)", "(Error: beautiful, Correction: beautifully)", "(Error: sings, Correction: singing)", "(Error: like, Correction: as)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：sings 為動詞，需使用副詞 beautifully 修飾。"
+        }
+      ],
+        "12": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I ____ have time to read books because I am too busy with work.</div>",
+          "options": ["always", "usually", "rarely", "often"],
+          "answer": "C",
+          "explanation": "解答：(C) rarely\n解析：因為工作太忙而沒時間，表示頻率很低，選 rarely (幾乎不)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>They ____ have been to Europe, but they are planning to go next year.</div>",
+          "options": ["never", "always", "usually", "often"],
+          "answer": "A",
+          "explanation": "解答：(A) never\n解析：後句提到「計畫明年去」，表示以前沒去過，故選 never。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The soup is ____ hot for me to drink; I need to wait a few minutes.</div>",
+          "options": ["very", "too", "enough", "so"],
+          "answer": "B",
+          "explanation": "解答：(B) too\n解析：too...to... 表示「太...而不能...」，需等待表示無法立即喝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He doesn't study ____ to pass the difficult exam.</div>",
+          "options": ["enough hard", "hard enough", "too hard", "very hard"],
+          "answer": "B",
+          "explanation": "解答：(B) hard enough\n解析：enough 修飾形容詞或副詞時，必須放在後方。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I ____ finish my work before the deadline.</div>",
+          "options": ["almost", "most", "mostly", "most of"],
+          "answer": "A",
+          "explanation": "解答：(A) almost\n解析：almost 修飾動詞，表示「差點、幾乎」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I eat at this restaurant. (often)</div>",
+          "options": ["I often eat at this restaurant.", "I eat often at this restaurant.", "Often I eat at this restaurant.", "I eat at this often restaurant."],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：頻率副詞一般放在一般動詞前面。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He is late for school. (hardly ever)</div>",
+          "options": ["He is hardly ever late.", "He hardly ever is late.", "Hardly ever he is late.", "He is late hardly ever."],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：頻率副詞放在 be 動詞之後。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We have gone to the movies together. (seldom)</div>",
+          "options": ["We seldom have gone.", "We have seldom gone.", "We have gone seldom.", "Seldom we have gone."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：頻率副詞放在助動詞 (have) 之後，過去分詞 (gone) 之前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>My brother <span class='text-rose-500 underline decoration-2'>plays always</span> video games in his room.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: plays always, Correction: always plays)",
+            "(Error: plays always, Correction: plays playing)",
+            "(Error: video, Correction: a video)",
+            "(Error: room, Correction: rooms)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：頻率副詞 always 應放在一般動詞 plays 之前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 12 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The room is <span class='text-rose-500 underline decoration-2'>enough big</span> for three people to live in.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: enough big, Correction: big enough)",
+            "(Error: enough big, Correction: very big)",
+            "(Error: live, Correction: lives)",
+            "(Error: people, Correction: persons)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：enough 修飾形容詞時需置於其後。"
+        }
+      ],
+        "13": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Among all the students, John finished the test ____.</div>",
+          "options": ["fast", "faster", "fastest", "more fast"],
+          "answer": "C",
+          "explanation": "解答：(C) fastest\n解析：among all the students 指全體比較，需使用最高級 fastest。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She works ____ than her brother, so she gets better grades.</div>",
+          "options": ["hard", "harder", "hardest", "more hard"],
+          "answer": "B",
+          "explanation": "解答：(B) harder\n解析：句子中有 than，需使用比較級 harder。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Of the three speakers, he spoke ____ to the audience.</div>",
+          "options": ["clearly", "clearer", "more clearly", "most clearly"],
+          "answer": "D",
+          "explanation": "解答：(D) most clearly\n解析：比較三個對象 (the three speakers)，需使用最高級，clearly 的最高級為 most clearly。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My car runs ____ than yours, but it uses more gas.</div>",
+          "options": ["well", "better", "best", "more well"],
+          "answer": "B",
+          "explanation": "解答：(B) better\n解析：比較兩台車，well 的比較級為 better。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>You should drive ____ if the road is covered with ice.</div>",
+          "options": ["more carefully", "most carefully", "carefuller", "careful"],
+          "answer": "A",
+          "explanation": "解答：(A) more carefully\n解析：修飾動詞 drive，且在此語境為比較級概念(比平常更小心)，使用 more carefully。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He runs ________ (fast) than any other athlete on the team.</div>",
+          "options": ["fast", "faster", "fastest", "more fast"],
+          "answer": "B",
+          "explanation": "解答：(B) faster\n解析：有 than，需用比較級 faster。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Out of all the workers, she arrived ________ (early) this morning.</div>",
+          "options": ["early", "earlier", "earliest", "more early"],
+          "answer": "C",
+          "explanation": "解答：(C) earliest\n解析：Out of all 表示範圍，使用最高級 earliest。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Please speak ________ (slowly) so that everyone can understand you.</div>",
+          "options": ["slowly", "slower", "slowest", "more slow"],
+          "answer": "A",
+          "explanation": "解答：(A) slowly\n解析：此處為單純副詞修飾動詞，不需比較級。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He speaks English <span class='text-rose-500 underline decoration-2'>more good</span> than I do.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: more good, Correction: better)", "(Error: more good, Correction: best)", "(Error: speaks, Correction: spoke)", "(Error: do, Correction: did)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：good 的比較級為 better，不可用 more good。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 13 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Of all the employees, he works <span class='text-rose-500 underline decoration-2'>the most hard</span>.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: most hard, Correction: hardest)", "(Error: most hard, Correction: harder)", "(Error: works, Correction: worked)", "(Error: all, Correction: every)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：hard 的最高級為 hardest，而非 most hard。"
+        }
+      ],
+        "14": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The meeting will be held ____ Monday ____ 10:00 a.m.</div>",
+          "options": ["in; on", "on; at", "at; in", "on; in"],
+          "answer": "B",
+          "explanation": "解答：(B) on; at\n解析：星期幾（Monday）前面使用 on，具體時刻（10:00 a.m.）前面使用 at。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My birthday is ____ July. I was born ____ a hot summer day.</div>",
+          "options": ["in; on", "on; in", "at; on", "in; at"],
+          "answer": "A",
+          "explanation": "解答：(A) in; on\n解析：月份前面使用 in；特定的一天（即使有形容詞修飾）使用 on。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We live ____ 123 Sunshine Road, right ____ the corner of the street.</div>",
+          "options": ["in; at", "on; in", "at; on", "at; at"],
+          "answer": "C",
+          "explanation": "解答：(C) at; on\n解析：詳細地址（門牌號碼）用 at；街道角落（corner）通常用 on。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She has been waiting for the bus ____ the bus stop for twenty minutes.</div>",
+          "options": ["in", "on", "at", "to"],
+          "answer": "C",
+          "explanation": "解答：(C) at\n解析：公車站點屬明確位置，使用 at。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I usually visit my grandparents ____ the weekend.</div>",
+          "options": ["in", "on", "at", "to"],
+          "answer": "C",
+          "explanation": "解答：(C) at\n解析：at the weekend (英式用法) 為常見慣用語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The store is closed ________ midnight, so don't go there too late.</div>",
+          "options": ["in", "on", "at", "to"],
+          "answer": "C",
+          "explanation": "解答：(C) at\n解析：Midnight 為特定時間點，使用 at。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We plan to travel to Europe ________ the spring.</div>",
+          "options": ["in", "on", "at", "to"],
+          "answer": "A",
+          "explanation": "解答：(A) in\n解析：季節（spring）之前使用 in。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>My office is ________ the second floor of the building.</div>",
+          "options": ["in", "on", "at", "to"],
+          "answer": "B",
+          "explanation": "解答：(B) on\n解析：樓層（the second floor）前面使用 on。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He was born <span class='text-rose-500 underline decoration-2'>on 1990</span> in a small village.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: on 1990, Correction: in 1990)", "(Error: on 1990, Correction: at 1990)", "(Error: born, Correction: bared)", "(Error: village, Correction: villager)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：年份前面應使用 in。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 14 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Let's meet <span class='text-rose-500 underline decoration-2'>at next Friday</span> for coffee.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: at next Friday, Correction: at Friday)", "(Error: at next Friday, Correction: next Friday)", "(Error: at next Friday, Correction: on next Friday)", "(Error: coffee, Correction: a coffee)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：next, last, this 等字連接時間名詞時，前方不需加介系詞。"
+        }
+      ],
+        "15": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The cat jumped ____ the fence and ran into the garden.</div>",
+          "options": ["across", "over", "into", "toward"],
+          "answer": "B",
+          "explanation": "解答：(B) over\n解析：跳過柵欄是越過障礙物，使用 over。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We walked ____ the tunnel to get to the other side of the mountain.</div>",
+          "options": ["through", "along", "across", "into"],
+          "answer": "A",
+          "explanation": "解答：(A) through\n解析：穿過隧道（封閉空間）應使用 through。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She walked ____ the street to buy some coffee at the shop.</div>",
+          "options": ["onto", "across", "into", "over"],
+          "answer": "B",
+          "explanation": "解答：(B) across\n解析：走到街道對面（橫跨街道）應使用 across。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The train is heading ____ the city center.</div>",
+          "options": ["into", "toward", "through", "across"],
+          "answer": "B",
+          "explanation": "解答：(B) toward\n解析：heading toward 表示正往某個方向行駛。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He took his books ____ his bag and started to study.</div>",
+          "options": ["out of", "out", "into", "off"],
+          "answer": "A",
+          "explanation": "解答：(A) out of\n解析：從 bag 裡面拿出來，out of 後面需接名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The river flows ________ the city, from north to south.</div>",
+          "options": ["across", "along", "into", "through"],
+          "answer": "B",
+          "explanation": "解答：(B) along\n解析：沿著城市流動，使用 along。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>They walked ________ the dark forest to find the hidden temple.</div>",
+          "options": ["across", "along", "into", "through"],
+          "answer": "D",
+          "explanation": "解答：(D) through\n解析：穿過森林應使用 through。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Please put the files ________ the drawer after you finish reading them.</div>",
+          "options": ["across", "along", "into", "through"],
+          "answer": "C",
+          "explanation": "解答：(C) into\n解析：放入抽屜內，使用 into。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>We drove <span class='text-rose-500 underline decoration-2'>into</span> the mountain road for three hours.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: into, Correction: along)", "(Error: into, Correction: over)", "(Error: three, Correction: thirty)", "(Error: drove, Correction: drive)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：沿著道路行駛，應使用 along。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 15 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He jumped <span class='text-rose-500 underline decoration-2'>across</span> the river to catch the ball.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: across, Correction: over)", "(Error: across, Correction: through)", "(Error: jumped, Correction: jumps)", "(Error: catch, Correction: catching)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：跳過河川（跨越障礙），應使用 over。"
+        }
+      ],
+        "16": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She is very interested ____ learning how to play the piano.</div>",
+          "options": ["in", "at", "on", "for"],
+          "answer": "A",
+          "explanation": "解答：(A) in\n解析：固定搭配 be interested in (對...感興趣)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I am tired ____ listening to the same music every day.</div>",
+          "options": ["with", "of", "at", "by"],
+          "answer": "B",
+          "explanation": "解答：(B) of\n解析：固定搭配 be tired of (對...感到厭煩)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Are you afraid ____ spiders?</div>",
+          "options": ["with", "of", "at", "for"],
+          "answer": "B",
+          "explanation": "解答：(B) of\n解析：固定搭配 be afraid of (害怕...)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We are looking forward ____ meeting you in person next week.</div>",
+          "options": ["to", "at", "for", "with"],
+          "answer": "A",
+          "explanation": "解答：(A) to\n解析：固定搭配 look forward to + V-ing (期待...)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Success depends ____ how hard you work.</div>",
+          "options": ["on", "in", "at", "of"],
+          "answer": "A",
+          "explanation": "解答：(A) on\n解析：固定搭配 depend on (依賴、取決於... )。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He is good ________ playing basketball; he wins every game.</div>",
+          "options": ["to", "for", "with", "at"],
+          "answer": "D",
+          "explanation": "解答：(D) at\n解析：固定搭配 be good at (擅長...)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Don't be angry ________ me; I didn't mean to break your pen.</div>",
+          "options": ["to", "for", "with", "at"],
+          "answer": "C",
+          "explanation": "解答：(C) with\n解析：對某人感到生氣使用 be angry with someone。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>This book is full ________ interesting stories.</div>",
+          "options": ["to", "for", "with", "of"],
+          "answer": "D",
+          "explanation": "解答：(D) of\n解析：固定搭配 be full of (充滿...)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She is married <span class='text-rose-500 underline decoration-2'>with</span> a doctor who works in the city.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: with, Correction: to)", "(Error: married, Correction: marry)", "(Error: a, Correction: the)", "(Error: works, Correction: work)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：結婚的固定搭配為 be married to someone。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 16 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>I am familiar <span class='text-rose-500 underline decoration-2'>to</span> the rules of this game.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: to, Correction: with)", "(Error: to, Correction: for)", "(Error: familiar, Correction: family)", "(Error: rules, Correction: rule)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：熟悉某事物的固定搭配為 be familiar with something。"
+        }
+      ],
+        "17": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I wanted to go for a run, ____ it started to rain heavily.</div>",
+          "options": ["and", "but", "so", "for"],
+          "answer": "B",
+          "explanation": "解答：(B) but\n解析：前句表示想去跑步，後句表示下雨，語意轉折，使用 but。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Would you like tea ____ coffee?</div>",
+          "options": ["nor", "so", "or", "yet"],
+          "answer": "C",
+          "explanation": "解答：(C) or\n解析：疑問句中詢問選項時，使用 or。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He studied hard for the final exam, ____ he passed with flying colors.</div>",
+          "options": ["and", "so", "nor", "but"],
+          "answer": "B",
+          "explanation": "解答：(B) so\n解析：前句是原因，後句是結果，使用 so。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She doesn't like sushi, ____ does she like sashimi.</div>",
+          "options": ["and", "or", "nor", "but"],
+          "answer": "C",
+          "explanation": "解答：(C) nor\n解析：否定句的「也不...」，使用 nor 接倒裝句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>It was a cold night, ____ I decided to stay inside and read a book.</div>",
+          "options": ["yet", "for", "or", "so"],
+          "answer": "D",
+          "explanation": "解答：(D) so\n解析：因為夜晚寒冷，所以決定待在室內，使用 so。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The store was closed, ________ I had to go to another supermarket.</div>",
+          "options": ["and", "but", "so", "yet"],
+          "answer": "C",
+          "explanation": "解答：so\n解析：商店關門是原因，得去別間是結果。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>You can study now, ________ you can play video games later.</div>",
+          "options": ["and", "but", "so", "or"],
+          "answer": "D",
+          "explanation": "解答：or\n解析：兩者選一，使用 or。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He is very talented in music, ________ he is also a great athlete.</div>",
+          "options": ["and", "but", "so", "or"],
+          "answer": "A",
+          "explanation": "解答：and\n解析：兩個優點並列，使用 and。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>I am hungry <span class='text-rose-500 underline decoration-2'>so</span> I didn't have lunch today.</div><div class='mt-2'>請選出正確的錯誤修正：</div>",
+          "options": ["(Error: so, Correction: because)", "(Error: so, Correction: and)", "(Error: hungry, Correction: hungrily)", "(Error: didn't have, Correction: don't have)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：因為沒吃午餐導致現在很餓，故應改為 because 表示原因。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 17 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He is poor, <span class='text-rose-500 underline decoration-2'>but</span> he is happy. (改用 yet)</div><div class='mt-2'>請選出正確的修改方式：</div>",
+          "options": ["(Error: but, Correction: yet)", "(Error: poor, Correction: poorer)", "(Error: happy, Correction: happier)", "(Error: but, Correction: so)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：but 與 yet 在表示轉折語氣時可以通用，改為 yet 符合題意。"
+        }
+      ],
+        "18": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ it was raining, we decided to cancel the picnic.</div>",
+          "options": ["Because", "Although", "Since", "If"],
+          "answer": "A",
+          "explanation": "解答：(A) Because\n解析：下雨是取消野餐的原因，故使用 because。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I will call you ____ I arrive at the station.</div>",
+          "options": ["while", "as soon as", "although", "because"],
+          "answer": "B",
+          "explanation": "解答：(B) as soon as\n解析：表示「一...就...」的時間從屬關係，使用 as soon as。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ you practice every day, you won't improve your English skills.</div>",
+          "options": ["If", "Unless", "Because", "While"],
+          "answer": "B",
+          "explanation": "解答：(B) Unless\n解析：Unless = If...not，意指「如果不練習，就不會進步」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She was reading a book ____ her brother was playing video games.</div>",
+          "options": ["when", "while", "because", "if"],
+          "answer": "B",
+          "explanation": "解答：(B) while\n解析：while 用於連接兩個同時發生的動作 (在...期間)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ he is very busy, he always finds time for his family.</div>",
+          "options": ["Since", "Although", "Unless", "If"],
+          "answer": "B",
+          "explanation": "解答：(B) Although\n解析：前後句語意相反（忙碌但仍找得到時間），需使用 Although (雖然)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>________ you need any help, please let me know.</div>",
+          "options": ["If", "Although", "Because", "While"],
+          "answer": "A",
+          "explanation": "解答：If\n解析：表示「如果」需要幫忙，請讓我知道。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I couldn't finish the report ________ I was sick yesterday.</div>",
+          "options": ["if", "because", "although", "while"],
+          "answer": "B",
+          "explanation": "解答：because\n解析：因為生病所以無法完成報告，表示原因。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>________ he studied very hard, he didn't pass the exam.</div>",
+          "options": ["Although", "Because", "If", "While"],
+          "answer": "A",
+          "explanation": "解答：Although\n解析：轉折語氣，雖然讀得很認真，卻沒及格。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Because I was tired, <span class='text-rose-500 underline decoration-2'>so</span> I went to bed early.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: so, Correction: remove so)",
+            "(Error: Because, Correction: Although)",
+            "(Error: tired, Correction: tiring)",
+            "(Error: early, Correction: earlier)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：Because 與 so 不能在同一句重複使用，應刪除 so。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 18 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Unless you <span class='text-rose-500 underline decoration-2'>don't</span> study hard, you will fail the test.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": [
+            "(Error: don't, Correction: remove don't)",
+            "(Error: Unless, Correction: If)",
+            "(Error: fail, Correction: failed)",
+            "(Error: hard, Correction: hardly)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：Unless 本身即帶有否定語意，後方不可再用 don't。"
+        }
+      ],
+        "19": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I remember ____ him before, but I can't recall his name.</div>",
+          "options": ["to meet", "meet", "meeting", "to meeting"],
+          "answer": "C",
+          "explanation": "解答：(C) meeting\n解析：remember + V-ing 表示「記得做過某事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She stopped ____ a coffee on her way to the office.</div>",
+          "options": ["to buy", "buying", "buy", "bought"],
+          "answer": "A",
+          "explanation": "解答：(A) to buy\n解析：stop + to V 表示「停下來去做另一件事」；stop + V-ing 則是「停止正在進行的動作」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He suggested ____ to the movies tonight.</div>",
+          "options": ["go", "to go", "going", "went"],
+          "answer": "C",
+          "explanation": "解答：(C) going\n解析：suggest 後面接動詞時，必須使用動名詞 (V-ing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My father promised ____ me a new bike for my birthday.</div>",
+          "options": ["buy", "to buy", "buying", "bought"],
+          "answer": "B",
+          "explanation": "解答：(B) to buy\n解析：promise 後面接動詞時，必須使用不定詞 (to V)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We should avoid ____ too much time on social media.</div>",
+          "options": ["spend", "to spend", "spending", "spent"],
+          "answer": "C",
+          "explanation": "解答：(C) spending\n解析：avoid 後面接動詞時，必須使用動名詞 (V-ing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Would you mind ________ (open) the window, please?</div>",
+          "options": ["open", "to open", "opening", "to opening"],
+          "answer": "C",
+          "explanation": "解答：(C) opening\n解析：Would you mind + V-ing 是常見的客氣請求句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I hope ________ (travel) to Europe next summer.</div>",
+          "options": ["travel", "traveling", "to travel", "to traveling"],
+          "answer": "C",
+          "explanation": "解答：(C) to travel\n解析：hope 後面接動詞時，需使用不定詞 to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>They decided ________ (move) to a new apartment.</div>",
+          "options": ["move", "moving", "to move", "to moving"],
+          "answer": "C",
+          "explanation": "解答：(C) to move\n解析：decide 後面接動詞時，需使用不定詞 to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He finished <span class='text-rose-500 underline decoration-2'>to write</span> his essay two hours ago.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: to write, Correction: writing)", "(Error: to write, Correction: write)", "(Error: finished, Correction: finish)", "(Error: ago, Correction: before)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：finish 後面接動詞時，需使用動名詞 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 19 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Please remember <span class='text-rose-500 underline decoration-2'>locking</span> the door before you leave.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: locking, Correction: to lock)", "(Error: locking, Correction: lock)", "(Error: leave, Correction: leaving)", "(Error: remember, Correction: remembering)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：remember + to V 表示「記得要去做(還沒做)」，故應改為 to lock。"
+        }
+      ],
+        "20": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>My mother made me ____ my room before going out.</div>",
+          "options": ["clean", "to clean", "cleaning", "cleaned"],
+          "answer": "A",
+          "explanation": "解答：(A) clean\n解析：make 為使役動詞，用法為 make + O + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I saw him ____ across the street when I was driving.</div>",
+          "options": ["walk", "to walk", "walked", "walks"],
+          "answer": "A",
+          "explanation": "解答：(A) walk\n解析：see 為感官動詞，用法為 see + O + 原形動詞(強調過程)或 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The teacher had the students ____ a short essay about their hobbies.</div>",
+          "options": ["writing", "write", "to write", "written"],
+          "answer": "B",
+          "explanation": "解答：(B) write\n解析：have 為使役動詞，用法為 have + O + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>I heard someone ____ my name in the hallway.</div>",
+          "options": ["call", "called", "to call", "is calling"],
+          "answer": "A",
+          "explanation": "解答：(A) call\n解析：hear 為感官動詞，用法為 hear + O + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He got his car ____ at the garage yesterday.</div>",
+          "options": ["repair", "repairing", "repaired", "to repair"],
+          "answer": "C",
+          "explanation": "解答：(C) repaired\n解析：get + O + p.p. 表示「使某事被...」，車子是被修理的，故選 p.p. (repaired)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The boss let the employees ________ (leave) work early today.</div>",
+          "options": ["leave", "to leave", "leaving", "left"],
+          "answer": "A",
+          "explanation": "解答：(A) leave\n解析：let 為使役動詞，let + O + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I watched the sun ________ (rise) over the mountains this morning.</div>",
+          "options": ["rise", "to rise", "rising", "rose"],
+          "answer": "A",
+          "explanation": "解答：(A) rise\n解析：watch 為感官動詞，用法為 watch + O + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We need to get our house ________ (paint) before the party next month.</div>",
+          "options": ["paint", "to paint", "painting", "painted"],
+          "answer": "D",
+          "explanation": "解答：(D) painted\n解析：get + O + p.p. 表示「使某物被...」，房子是被漆的，故選 p.p. (painted)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She felt something <span class='text-rose-500 underline decoration-2'>crawled</span> up her leg.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: crawled, Correction: crawl)", "(Error: crawled, Correction: to crawl)", "(Error: felt, Correction: feel)", "(Error: something, Correction: someone)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：感官動詞 feel + O + 原形動詞或 V-ing，故 crawled 應改為 crawl。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 20 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>My father had his bike repaired by the mechanic, but I had my brother <span class='text-rose-500 underline decoration-2'>to repair</span> it.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: to repair, Correction: repair)", "(Error: to repair, Correction: repairing)", "(Error: had, Correction: got)", "(Error: mechanic, Correction: mechanics)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：have + O (人) + 原形動詞，故 to repair 應改為 repair。"
+        }
+      ],
+        "21": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____! We have finally reached the top of the mountain after such a long climb.</div>",
+          "options": ["Alas", "Hurrah", "Oh dear", "Eww"],
+          "answer": "B",
+          "explanation": "解答：(B) Hurrah\n解析：Hurrah 用於表達成功或快樂的歡呼。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The way he explained the complex theory was ____ clear that even a child could understand.</div>",
+          "options": ["such", "so", "too", "quite"],
+          "answer": "B",
+          "explanation": "解答：(B) so\n解析：so + 形容詞 + that 子句，意指「如此...以至於...」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The witness's testimony was ____ consistent with the evidence that the jury had no doubts left.</div>",
+          "options": ["such", "so", "very", "enough"],
+          "answer": "B",
+          "explanation": "解答：(B) so\n解析：so + 形容詞 (consistent) + that 子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____, we failed to secure the contract despite our best efforts.</div>",
+          "options": ["Alas", "Bravo", "Wow", "Hey"],
+          "answer": "A",
+          "explanation": "解答：(A) Alas\n解析：Alas 用於表達遺憾、不幸。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>That was ____ a difficult project that we had to work overtime for a month.</div>",
+          "options": ["so", "such", "too", "very"],
+          "answer": "B",
+          "explanation": "解答：(B) such\n解析：such + a + 形容詞 + 名詞 + that 子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The politician's speech was ________ (surprising) eloquent, leaving the audience speechless.</div>",
+          "options": ["surprise", "surprised", "surprisingly", "surprising"],
+          "answer": "C",
+          "explanation": "解答：surprisingly\n解析：需使用副詞修飾形容詞 eloquent。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>It was ________ (such/so) a beautiful sunset that we all stood there in silence.</div>",
+          "options": ["such", "so", "very", "too"],
+          "answer": "A",
+          "explanation": "解答：such\n解析：such + a + adj + N + that 子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>________ (Alas/Bravo)! The team played remarkably well and won the championship.</div>",
+          "options": ["Alas", "Bravo", "Oh dear", "Eww"],
+          "answer": "B",
+          "explanation": "解答：Bravo\n解析：Bravo 用於祝賀或稱讚表現卓越。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The lecture was so interesting that everyone paid attention to it, but, <span class='text-rose-500 underline decoration-2'>alas</span>, I fell asleep.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: alas, Correction: unfortunately)", "(Error: alas, Correction: bravo)", "(Error: fell, Correction: fall)", "(Error: paid, Correction: pay)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：Alas 表達悲痛，在此處表達尷尬或不幸的事實，應使用 unfortunately 或 embarrassing to say。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 21 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>It was <span class='text-rose-500 underline decoration-2'>such cold weather</span> that we decided to cancel the outdoor event.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: such cold weather, Correction: so cold)", "(Error: such cold weather, Correction: such a cold weather)", "(Error: decided, Correction: decide)", "(Error: outdoor, Correction: indoors)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：weather 是不可數名詞，後面若不接名詞，應改用 so + adj + that 子句。"
+        }
+      ],
+        "22": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The company's ____ of the new software led to a significant increase in productivity.</div>",
+          "options": ["implement", "implementation", "implementing", "implemented"],
+          "answer": "B",
+          "explanation": "解答：(B) implementation\n解析：名詞所有格 (company's) 後面需接名詞，故選 implementation (實施)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We need a more ____ approach to solve this environmental problem.</div>",
+          "options": ["systematic", "system", "systematically", "systematize"],
+          "answer": "A",
+          "explanation": "解答：(A) systematic\n解析：形容詞 (systematic) 修飾名詞 approach (方法)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The ____ of the data suggests that our hypothesis was correct.</div>",
+          "options": ["analyze", "analyst", "analysis", "analytical"],
+          "answer": "C",
+          "explanation": "解答：(C) analysis\n解析：定冠詞 The 後面需接名詞 (analysis)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Despite her ____, she managed to complete the marathon in record time.</div>",
+          "options": ["exhaust", "exhaustion", "exhausting", "exhausted"],
+          "answer": "B",
+          "explanation": "解答：(B) exhaustion\n解析：介系詞 Despite 後面需接名詞 (exhaustion, 疲憊)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The ____ of the ancient manuscript provides insights into their daily life.</div>",
+          "options": ["discovery", "discover", "discoverable", "discovered"],
+          "answer": "A",
+          "explanation": "解答：(A) discovery\n解析：定冠詞 The 後面需接名詞 (discovery, 發現)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The ________ (evolve) of AI technology is happening faster than we expected.</div>",
+          "options": ["evolve", "evolution", "evolutionary", "evolved"],
+          "answer": "B",
+          "explanation": "解答：evolution\n解析：The 後面需接名詞 (evolution, 進化)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>You need to be more ________ (strategy) when planning your business expansion.</div>",
+          "options": ["strategy", "strategic", "strategically", "strategize"],
+          "answer": "B",
+          "explanation": "解答：strategic\n解析：be 動詞後接形容詞 (strategic, 策略性的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>His ________ (contribute) to the field of linguistics is widely recognized.</div>",
+          "options": ["contribute", "contribution", "contributing", "contributed"],
+          "answer": "B",
+          "explanation": "解答：contribution\n解析：所有格 His 後面需接名詞 (contribution, 貢獻)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The <span class='text-rose-500 underline decoration-2'>apply</span> of this new method requires a lot of patience.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: apply, Correction: application)", "(Error: apply, Correction: applying)", "(Error: requires, Correction: require)", "(Error: patience, Correction: patient)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：定冠詞 The 後面需接名詞 (application, 應用)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 22 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The teacher emphasized the <span class='text-rose-500 underline decoration-2'>important</span> of critical thinking in her class.</div><div class='mt-2'>請選擇正確的修改方式：</div>",
+          "options": ["(Error: important, Correction: importance)", "(Error: important, Correction: importantly)", "(Error: emphasized, Correction: emphasize)", "(Error: thinking, Correction: think)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：the 後面需接名詞 (importance, 重要性)。"
+        }
+      ],
+        "23": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The decision ____ by the committee last night will affect our project for the next six months.</div>",
+          "options": ["make", "making", "made", "to make"],
+          "answer": "C",
+          "explanation": "解答：(C) made\n解析：決策是被「做出的」，故使用過去分詞 (p.p.) 修飾 decision。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Having ____ the report, he finally felt he could take a break.</div>",
+          "options": ["finish", "finished", "finishing", "to finish"],
+          "answer": "B",
+          "explanation": "解答：(B) finished\n解析：Having + p.p. 是完成式分詞結構，表示動作已完成。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The scientists are researching a way to ____ the spread of the virus.</div>",
+          "options": ["prevention", "prevent", "preventative", "preventive"],
+          "answer": "B",
+          "explanation": "解答：(B) prevent\n解析：to 不定詞後應接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ in the lobby, the guests were waiting for the conference to begin.</div>",
+          "options": ["Seat", "To seat", "Seated", "Seating"],
+          "answer": "C",
+          "explanation": "解答：(C) Seated\n解析：客人在大廳「被安排就座」，需使用過去分詞 Seated。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>It is essential that every student ____ their assignment on time.</div>",
+          "options": ["submits", "submit", "submitted", "to submit"],
+          "answer": "B",
+          "explanation": "解答：(B) submit\n解析：It is essential that... 的子句中需使用原形動詞 (假設語氣)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>________ (Inspire) by the speech, the students decided to start a club.</div>",
+          "options": ["Inspiring", "Inspired", "To inspire", "Inspire"],
+          "answer": "B",
+          "explanation": "解答：Inspired\n解析：學生被「啟發」，故使用過去分詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>It is vital that he ________ (be) present at the meeting.</div>",
+          "options": ["is", "was", "be", "were"],
+          "answer": "C",
+          "explanation": "解答：be\n解析：It is vital that... 子句需使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The book, ________ (write) by a famous novelist, became an instant bestseller.</div>",
+          "options": ["write", "wrote", "written", "writing"],
+          "answer": "C",
+          "explanation": "解答：written\n解析：書是被「寫出的」，使用過去分詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Being exhausted, <span class='text-rose-500 underline decoration-2'>the bed was very inviting</span> to him.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: the bed was very inviting, Correction: he found the bed very inviting)",
+            "(Error: Being, Correction: To be)",
+            "(Error: exhausted, Correction: exhaustion)",
+            "(Error: inviting, Correction: invited)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：分詞構句的主詞需與後句主詞一致。原本句子變成「床」很累，語意不合，應改為主詞為「他」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 23 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The plan which was <span class='text-rose-500 underline decoration-2'>suggest</span> by the consultant seems very promising.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: suggest, Correction: suggested)",
+            "(Error: suggest, Correction: suggesting)",
+            "(Error: was, Correction: is)",
+            "(Error: promising, Correction: promised)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：被動語態 (was + p.p.)，故 suggest 應改為 suggested。"
+        }
+      ],
+        "24": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The company's expansion into new markets is quite ____.</div>",
+          "options": ["ambition", "ambitious", "ambitiously", "ambitioned"],
+          "answer": "B",
+          "explanation": "解答：(B) ambitious\n解析：quite 為程度副詞，後面應接形容詞 (ambitious, 野心勃勃的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We should treat this matter with the greatest ____ possible.</div>",
+          "options": ["cautious", "cautiously", "caution", "cauterize"],
+          "answer": "C",
+          "explanation": "解答：(C) caution\n解析：with + 形容詞 + 名詞，greatest 為形容詞，空格應填入名詞 (caution, 謹慎)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The ____ of the evidence was undeniable, leading to a quick verdict.</div>",
+          "options": ["valid", "validate", "validity", "validator"],
+          "answer": "C",
+          "explanation": "解答：(C) validity\n解析：The + 名詞，空格需填入名詞 (validity, 有效性)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>She has an ____ ability to connect with people from different backgrounds.</div>",
+          "options": ["exception", "exceptional", "except", "exceptionally"],
+          "answer": "B",
+          "explanation": "解答：(B) exceptional\n解析：空格修飾名詞 ability，應使用形容詞 (exceptional, 非凡的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The new policy aims to ____ the local economy by encouraging innovation.</div>",
+          "options": ["stimulus", "stimulant", "stimulate", "stimulating"],
+          "answer": "C",
+          "explanation": "解答：(C) stimulate\n解析：aims to + 原形動詞，故填入動詞 (stimulate, 刺激)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>His ________ (persuade) skills helped him win the debate.</div>",
+          "options": ["persuasion", "persuasive", "persuaded", "persuading"],
+          "answer": "B",
+          "explanation": "解答：persuasive\n解析：修飾名詞 skills，應填入形容詞 (persuasive, 有說服力的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We need to ________ (short) the meeting to fit everyone’s schedule.</div>",
+          "options": ["short", "shorter", "shortly", "shorten"],
+          "answer": "D",
+          "explanation": "解答：shorten\n解析：need to + 原形動詞，填入動詞 (shorten, 縮短)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The ________ (diverse) of the student body makes our school a vibrant place.</div>",
+          "options": ["diverse", "diversify", "diversity", "diversely"],
+          "answer": "C",
+          "explanation": "解答：diversity\n解析：The + 名詞，填入名詞 (diversity, 多樣性)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The government is trying to simplify the tax <span class='text-rose-500 underline decoration-2'>collect</span> process for citizens.</div><div class='mt-2'>請選出正確的修改方式：</div>",
+          "options": [
+            "(Error: collect, Correction: collection)",
+            "(Error: collect, Correction: collecting)",
+            "(Error: simplify, Correction: simple)",
+            "(Error: process, Correction: proceed)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：tax collection process (稅務收集流程)，collect 應改為名詞 collection。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 24 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>It is a highly <span class='text-rose-500 underline decoration-2'>inform</span> article that provides a lot of useful data.</div><div class='mt-2'>請選出正確的修改方式：</div>",
+          "options": [
+            "(Error: inform, Correction: informative)",
+            "(Error: inform, Correction: information)",
+            "(Error: provides, Correction: provide)",
+            "(Error: data, Correction: datum)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：修飾名詞 article，應使用形容詞 (informative, 資訊豐富的)。"
+        }
+      ],
+        "25": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The information you provided is ____; it doesn't match the facts at all.</div>",
+          "options": ["accurate", "inaccurate", "misaccurate", "unaccurate"],
+          "answer": "B",
+          "explanation": "解答：(B) inaccurate\n解析：與事實不符，應使用否定字首 in-，意為「不精確的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>He was ____ by the lack of clear instructions, leading to the mistake.</div>",
+          "options": ["guided", "misguided", "unguided", "disguided"],
+          "answer": "B",
+          "explanation": "解答：(B) misguided\n解析：因為缺乏清楚指示而導致錯誤，意指被「誤導」了。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>It is ____ for us to finish the whole project by tomorrow without extra help.</div>",
+          "options": ["possible", "impossible", "mispossible", "unpossible"],
+          "answer": "B",
+          "explanation": "解答：(B) impossible\n解析：Without extra help (沒有額外幫助)，無法完成，故為「不可能的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The manager decided to ____ the contract because the terms were no longer favorable.</div>",
+          "options": ["continue", "discontinue", "miscontinue", "uncontinue"],
+          "answer": "B",
+          "explanation": "解答：(B) discontinue\n解析：條件已不再有利，故決定「終止」合約。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Please ____ your essay to remove any grammatical errors before submitting it.</div>",
+          "options": ["write", "rewrite", "miswrite", "unwrite"],
+          "answer": "B",
+          "explanation": "解答：(B) rewrite\n解析：為了移除錯誤而重新撰寫，使用字首 re-。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>I ________ (agree) with his opinion; I think his logic is flawed.</div>",
+          "options": ["disagree", "unagree", "imagree", "misagree"],
+          "answer": "A",
+          "explanation": "解答：disagree\n解析：表達不同意，使用 dis- 字首。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The machine is ________ (function); it hasn't worked since yesterday.</div>",
+          "options": ["malfunction", "disfunction", "misfunction", "unfunction"],
+          "answer": "A",
+          "explanation": "解答：malfunction\n解析：機器故障無法運作，使用 mal- 字首。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Please ________ (load) the files from the website to your computer.</div>",
+          "options": ["download", "reload", "misload", "unload"],
+          "answer": "A",
+          "explanation": "解答：download\n解析：將檔案從網站載入電腦，使用 down- (註：本題擴充常用字首)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>His behavior was very <span class='text-rose-500 underline decoration-2'>respectful</span>, and the teacher scolded him.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: respectful, Correction: disrespectful)",
+            "(Error: behavior, Correction: behaviors)",
+            "(Error: scolded, Correction: scold)",
+            "(Error: and, Correction: so)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：老師因為學生行為不禮貌而責罵他，故應為 disrespectful (不敬的)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 25 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The plan was <span class='text-rose-500 underline decoration-2'>unlogical</span> and lacked any practical foundation.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: unlogical, Correction: illogical)",
+            "(Error: unlogical, Correction: mislogical)",
+            "(Error: lacked, Correction: lack)",
+            "(Error: practical, Correction: practically)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：以 l 開頭的單字，否定字首通常使用 il-，故為 illogical。"
+        }
+      ],
+        "26": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The company plans to ____ the new marketing strategy next month.</div>",
+          "options": ["effect", "affect", "effective", "affection"],
+          "answer": "A",
+          "explanation": "解答：(A) effect\n解析：在此處 effect 作為動詞，意為「使...發生、實施」，常用於 effect change / effect a strategy。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The recent policy change had a significant ____ on our daily operations.</div>",
+          "options": ["effect", "affect", "effective", "affected"],
+          "answer": "A",
+          "explanation": "解答：(A) effect\n解析：have an effect on something 為固定用法 (對...有影響)，名詞使用 effect。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We need to ____ the current situation before we can provide any advice.</div>",
+          "options": ["assessment", "assess", "assessor", "assessing"],
+          "answer": "B",
+          "explanation": "解答：(B) assess\n解析：need to 後方需接原形動詞 (assess, 評估)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The ____ of the evidence took several weeks of intensive study.</div>",
+          "options": ["analyze", "analyst", "analysis", "analyzing"],
+          "answer": "C",
+          "explanation": "解答：(C) analysis\n解析：定冠詞 The + 名詞，故選 analysis (分析)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Please ____ to the attached document for more information.</div>",
+          "options": ["reference", "refer", "referral", "referee"],
+          "answer": "B",
+          "explanation": "解答：(B) refer\n解析：Please + 原形動詞，refer to 為固定用法 (參考/提及)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The new law will ________ (effect/affect) everyone in the industry.</div>",
+          "options": ["affect", "effect", "affected", "effective"],
+          "answer": "A",
+          "explanation": "解答：affect\n解析：affect (動詞) 意為「影響」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We need to conduct a thorough ________ (assess/assessment) of the risks involved.</div>",
+          "options": ["assess", "assessment", "assessing", "assessor"],
+          "answer": "B",
+          "explanation": "解答：assessment\n解析：a + 形容詞 + 名詞，故選名詞 assessment。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He gave an interesting ________ (reference/refer) to the classic novel in his speech.</div>",
+          "options": ["refer", "reference", "referring", "referral"],
+          "answer": "B",
+          "explanation": "解答：reference\n解析：an interesting + 名詞，指「參考/提及」，應為 reference。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The manager decided to <span class='text-rose-500 underline decoration-2'>effect</span> some changes to the team structure.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: effect, Correction: implement)", "(Error: effect, Correction: affect)", "(Error: decided, Correction: decide)", "(Error: structure, Correction: structural)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：雖 effect 可作動詞，但在此語境下使用 implement (執行/實行) 更為自然與精確。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 26 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The <span class='text-rose-500 underline decoration-2'>analyze</span> of the market shows that we should invest in AI.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: analyze, Correction: analysis)", "(Error: analyze, Correction: analytical)", "(Error: shows, Correction: show)", "(Error: invest, Correction: investment)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：The + 名詞，analyze 為動詞，應改為名詞 analysis。"
+        }
+      ],
+        "27": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ the final report, she submitted it to the manager immediately.</div>",
+          "options": ["Finish", "Finished", "Having finished", "To finish"],
+          "answer": "C",
+          "explanation": "解答：(C) Having finished\n解析：分詞構句中，動作已完成使用 Having + p.p.。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The bridge ____ by the local government was completed ahead of schedule.</div>",
+          "options": ["build", "building", "built", "was built"],
+          "answer": "C",
+          "explanation": "解答：(C) built\n解析：橋是被「蓋的」，故使用過去分詞 (p.p.) 作修飾。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>It is requested that every member ____ in the survey.</div>",
+          "options": ["participate", "participates", "participating", "to participate"],
+          "answer": "A",
+          "explanation": "解答：(A) participate\n解析：It is requested that... 的子句中需使用原形動詞 (假設語氣)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Little ____ about the plans for the upcoming merger.</div>",
+          "options": ["did he know", "he knew", "he did know", "knew he"],
+          "answer": "A",
+          "explanation": "解答：(A) did he know\n解析：否定副詞 Little 置於句首，需進行倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ for his contribution to science, he was awarded the prize.</div>",
+          "options": ["Honoring", "Honored", "Honor", "To honor"],
+          "answer": "B",
+          "explanation": "解答：(B) Honored\n解析：他「被表揚」了，故使用過去分詞開頭的分詞構句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>________ (Compare) with last year, this year's sales have doubled.</div>",
+          "options": ["Compared", "Comparing", "Compare", "To compare"],
+          "answer": "A",
+          "explanation": "解答：Compared\n解析：與去年「相比」，使用固定用法 Compared with。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Not only ________ (he/do) a great job, but he also inspired his teammates.</div>",
+          "options": ["did he do", "he did do", "he does do", "he did"],
+          "answer": "A",
+          "explanation": "解答：did he do\n解析：Not only 置於句首，需進行倒裝 (did he do)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>There is no doubt ________ (that/whether) he is the best candidate for the job.</div>",
+          "options": ["that", "whether", "if", "why"],
+          "answer": "A",
+          "explanation": "解答：that\n解析：doubt 用於肯定句時，與 that 子句連用。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>Being lost, <span class='text-rose-500 underline decoration-2'>the map was not very helpful to the tourists.</span></div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: the map was not very helpful to the tourists, Correction: the tourists found the map not very helpful)",
+            "(Error: Being, Correction: To be)",
+            "(Error: helpful, Correction: helping)",
+            "(Error: tourists, Correction: tourist)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：原句主詞 (the map) 並非「迷路」的主體。應改為主詞為 tourists 的句子。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 27 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The teacher required that each student <span class='text-rose-500 underline decoration-2'>finish</span> their work by noon. (改寫為被動)</div><div class='mt-2'>請選出被動語態的正確改寫：</div>",
+          "options": [
+            "(Correction: The teacher required that the work be finished by noon by each student.)",
+            "(Correction: The teacher required that the work finish by noon.)",
+            "(Correction: The teacher required the work to be finish by noon.)",
+            "(Correction: The teacher required the work was finished by noon.)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：假設語氣子句的被動語態結構為 (should) be + p.p.，故為 be finished。"
+        }
+      ],
+        "28": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The project was put on ____ until the budget is approved.</div>",
+          "options": ["hold", "held", "holding", "holder"],
+          "answer": "A",
+          "explanation": "解答：(A) hold\n解析：put on hold 為固定慣用語，意為「暫停、擱置」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Despite his busy schedule, he always finds time to ____ up with his old friends.</div>",
+          "options": ["catch", "caught", "catching", "catches"],
+          "answer": "A",
+          "explanation": "解答：(A) catch\n解析：catch up with 為固定用法，意為「敘舊、與...聯絡」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>We need to get a clear ____ of the situation before making any rash decisions.</div>",
+          "options": ["picture", "painting", "drawing", "graph"],
+          "answer": "A",
+          "explanation": "解答：(A) picture\n解析：get a clear picture of... 為慣用語，意為「了解/掌握...的全貌」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The CEO decided to ____ the new policy into effect immediately.</div>",
+          "options": ["bring", "take", "make", "do"],
+          "answer": "A",
+          "explanation": "解答：(A) bring\n解析：bring... into effect 為慣用語，意為「使...生效、實施」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>His explanation was quite ____; he didn't give us any concrete evidence.</div>",
+          "options": ["vague", "vague-like", "vaguely", "vagueness"],
+          "answer": "A",
+          "explanation": "解答：(A) vague\n解析：be 動詞後接形容詞，vague 意為「含糊的、不明確的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We should ________ into account the potential risks before we invest.</div>",
+          "options": ["take", "put", "keep", "get"],
+          "answer": "A",
+          "explanation": "解答：take\n解析：take... into account 為慣用語，意為「將...納入考慮」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>It’s hard to ________ up with the latest technological trends.</div>",
+          "options": ["keep", "put", "make", "take"],
+          "answer": "A",
+          "explanation": "解答：keep\n解析：keep up with 為慣用語，意為「跟上...」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The manager ________ an end to the unnecessary meetings last week.</div>",
+          "options": ["put", "took", "made", "got"],
+          "answer": "A",
+          "explanation": "解答：put\n解析：put an end to 為固定用法，意為「結束、終止」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>She was taken by surprise... (改寫為主動語態表達驚訝)</div><div class='mt-2'>請選出正確的改寫方式：</div>",
+          "options": [
+            "(Correction: The sudden change of heart took her by surprise.)",
+            "(Correction: She surprisedly took the change.)",
+            "(Correction: She was surprising because of the change.)",
+            "(Correction: The change took surprise to her.)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：took someone by surprise 是表達「使人驚訝」的正確主動寫法。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 28 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>The situation is getting <span class='text-rose-500 underline decoration-2'>out from hand</span>; we need to intervene immediately.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: out from hand, Correction: out of hand)",
+            "(Error: out from hand, Correction: away from hand)",
+            "(Error: intervene, Correction: intervention)",
+            "(Error: immediately, Correction: immediate)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：out of hand 為固定慣用語，意為「失控」，沒有 out from hand 的用法。"
+        }
+      ],
+        "29": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ the company faced financial difficulties, it continued to invest in R&D.</div>",
+          "options": ["Even though", "Despite", "In spite of", "Because of"],
+          "answer": "A",
+          "explanation": "解答：(A) Even though\n解析：Even though 後面接 S+V，表示轉折語氣。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The report is comprehensive; ____, it lacks a clear conclusion.</div>",
+          "options": ["furthermore", "nevertheless", "therefore", "similarly"],
+          "answer": "B",
+          "explanation": "解答：(B) nevertheless\n解析：語意轉折，表示「儘管如此」，使用 nevertheless。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>You should study harder; ____, you will fail the final exam.</div>",
+          "options": ["otherwise", "consequently", "moreover", "besides"],
+          "answer": "A",
+          "explanation": "解答：(A) otherwise\n解析：表示「否則」，對後果進行警告。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>____ my previous experience, I found the new task quite challenging.</div>",
+          "options": ["Despite", "Although", "Even though", "Because"],
+          "answer": "A",
+          "explanation": "解答：(A) Despite\n解析：Despite 後面接名詞片語，表示「儘管」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>The new system is efficient; ____, it is also user-friendly.</div>",
+          "options": ["on the contrary", "moreover", "otherwise", "yet"],
+          "answer": "B",
+          "explanation": "解答：(B) moreover\n解析：表示語意遞進，使用 moreover (此外)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The first group performed well, ________ the second group struggled to keep up.</div>",
+          "options": ["whereas", "subsequently", "consequently", "moreover"],
+          "answer": "A",
+          "explanation": "解答：whereas\n解析：表示兩者對比，使用 whereas。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The company expanded its market share; ________, it increased its annual profit.</div>",
+          "options": ["moreover", "nevertheless", "consequently", "whereas"],
+          "answer": "A",
+          "explanation": "解答：moreover\n解析：表示補充說明，擴展市場外，「此外」還增加了利潤。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>He made a serious mistake, and ________, he was fired from his position.</div>",
+          "options": ["consequently", "nevertheless", "whereas", "moreover"],
+          "answer": "A",
+          "explanation": "解答：consequently\n解析：表示因果關係，「因此」他被開除了。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>In spite of the fact that it was raining, <span class='text-rose-500 underline decoration-2'>but</span> we still went hiking.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": [
+            "(Error: but, Correction: remove but)",
+            "(Error: In spite of, Correction: Although)",
+            "(Error: raining, Correction: rain)",
+            "(Error: went, Correction: go)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：In spite of the fact that 已是轉折連接，後方不可再接 but。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 29 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>He is very intelligent; <span class='text-rose-500 underline decoration-2'>however</span>, he is quite lazy. (請改寫為讓步連接詞)</div><div class='mt-2'>請選出正確的改寫方式：</div>",
+          "options": [
+            "(Correction: Although he is very intelligent, he is quite lazy.)",
+            "(Correction: He is intelligent; but, he is lazy.)",
+            "(Correction: He is intelligent, so he is lazy.)",
+            "(Correction: He is intelligent, nevertheless he is lazy.)"
+          ],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：although 為讓步連接詞，可自然地連接兩個相反的事實。"
+        }
+      ],
+        "30": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Which of the following sentences is the most appropriate for an academic paper?</div>",
+          "options": ["We think the data is pretty cool.", "The findings suggest that the data are significant.", "We have a lot of reasons to believe it works.", "It's super clear that this stuff works."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：學術寫作應避免使用 cool, super, stuff 等口語詞，(B) 選項使用了 significant, suggest 等專業詞彙。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Choose the sentence that expresses formal politeness in a business email.</div>",
+          "options": ["Can you tell me when you'll send the files?", "I'm waiting for your files.", "Could you please advise when the files will be transmitted?", "Hurry up and send the files."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：使用 Could you please advise 以及 transmitted 等詞彙，最符合商務書信的禮貌與正式度。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>\"The project was ____ because of the sudden budget cut.\" (Choose the most professional verb)</div>",
+          "options": ["messed up", "terminated", "kicked out", "put in the trash"],
+          "answer": "B",
+          "explanation": "解答：(B) terminated\n解析：Terminated (中止/終止) 為專業術語，適合職場書面報告。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Multiple Choice</span></div><div class='font-bold text-lg'>Identify the sentence with the most concise and professional structure.</div>",
+          "options": ["The reason why the plan failed was because of the lack of money.", "The plan failed due to insufficient funding.", "It was lack of money that made the plan not work.", "Because there was not enough money, the plan failed."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：(B) 選項使用了 due to insufficient funding，直接且精煉，避開了冗長的語句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>We need to ________ more information before making a decision. (get -> ?)</div>",
+          "options": ["obtain", "grab", "fetch", "pick"],
+          "answer": "A",
+          "explanation": "解答：obtain\n解析：商務正式語境中，obtain 比 get 更為正式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>The results ________ that the strategy is effective. (show -> ?)</div>",
+          "options": ["demonstrate", "show off", "look at", "see"],
+          "answer": "A",
+          "explanation": "解答：demonstrate\n解析：show 在正式語境中常被 elevate 為 demonstrate 或 indicate。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Fill-in-the-blanks</span></div><div class='font-bold text-lg'>Please ________ if you have any questions. (let me know -> ?)</div>",
+          "options": ["inform me", "talk to me", "holler", "gossip"],
+          "answer": "A",
+          "explanation": "解答：inform me\n解析：let me know 較口語，書面正式用法為 inform me 或 please advise。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>I don't like the new plan; it's a <span class='text-rose-500 underline decoration-2'>bit bad</span>.</div><div class='mt-2'>請選出專業的修正方式：</div>",
+          "options": ["(Error: a bit bad, Correction: suboptimal)", "(Error: a bit bad, Correction: very bad)", "(Error: don't like, Correction: dislike)", "(Error: new, Correction: novel)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：suboptimal (次佳的/不理想的) 是商務用語中表達「不好」的優雅方式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'><span class='text-rose-500 underline decoration-2'>Lots of people</span> think that AI will change education.</div><div class='mt-2'>請選出專業的修正方式：</div>",
+          "options": ["(Error: Lots of people, Correction: A significant number of people)", "(Error: Lots of people, Correction: Many guys)", "(Error: think, Correction: thinking)", "(Error: change, Correction: changes)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：Lots of 較口語，在正式文體中應改為 A significant number of 或 Many people。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 30 回</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Error Correction</span></div><div class='font-bold text-lg'>You should <span class='text-rose-500 underline decoration-2'>check out</span> the website for more info.</div><div class='mt-2'>請選出專業的修正方式：</div>",
+          "options": ["(Error: check out, Correction: consult/examine)", "(Error: check out, Correction: look at)", "(Error: for more info, Correction: for more infos)", "(Error: should, Correction: shall)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：check out 是口語動詞，正式應使用 consult (諮詢) 或 examine (檢閱)；info 應改為 information。"
+        }
+      ]
+    }
+  }
+}

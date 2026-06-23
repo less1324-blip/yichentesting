@@ -1,0 +1,657 @@
+{
+  "grammar": {
+    "pattern": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The baby slept soundly.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "A",
+          "explanation": "解答：(A) SV\n解析：slept 為不及物動詞，soundly 為副詞修飾動詞，屬於 SV 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The coffee tastes bitter.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：tastes 為連綴動詞，bitter 為形容詞作主詞補語，屬於 SVC 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The leaves turned yellow in autumn.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：turned 在此為變化連綴動詞，yellow 為形容詞補語，屬於 SVC 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>He walked to the station yesterday.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "A",
+          "explanation": "解答：(A) SV\n解析：walked 為不及物動詞，to the station 為副詞片語，屬於 SV 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The situation remains serious.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：remains 為連綴動詞，serious 為形容詞補語，屬於 SVC 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>The music sounds ________.</div>",
+          "options": ["beautifully", "beautiful", "beauty", "beautify"],
+          "answer": "B",
+          "explanation": "解答：(B) beautiful\n解析：sound 為連綴動詞，需接形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>After the hard work, they felt ________.</div>",
+          "options": ["tiredly", "tire", "tired", "tiring"],
+          "answer": "C",
+          "explanation": "解答：(C) tired\n解析：feel 為連綴動詞，形容人感到「疲倦的」應用形容詞 tired。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>The experiment proved ________, so we had to start over.</div>",
+          "options": ["unsuccessfully", "unsuccessful", "success", "succeed"],
+          "answer": "B",
+          "explanation": "解答：(B) unsuccessful\n解析：prove 為連綴動詞，應用形容詞作補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 綜合練習</span></div><div class='font-bold text-lg'>The flowers smell ________ (sweet / sweetly).</div><div class='mt-2'>請選出正確選項：</div>",
+          "options": ["sweet", "sweetly"],
+          "answer": "A",
+          "explanation": "解答：sweet (SVC)\n解析：smell 為感官動詞 (連綴動詞)，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回：SV / SVC</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 綜合練習</span></div><div class='font-bold text-lg'>The children grew ________ (happy / happily) after receiving the gifts.</div><div class='mt-2'>請選出正確選項：</div>",
+          "options": ["happy", "happily"],
+          "answer": "A",
+          "explanation": "解答：happy (SVC)\n解析：grow 為變化連綴動詞，應用形容詞作補語。"
+        }
+
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 選擇題</span></div><div class='font-bold text-lg'>The music sounds ________.</div>",
+          "options": ["beautifully", "beautiful", "beauty", "beautify"],
+          "answer": "B",
+          "explanation": "解答：(B) beautiful\n解析：sound 為連綴動詞，需接形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 選擇題</span></div><div class='font-bold text-lg'>After the hard work, they felt ________.</div>",
+          "options": ["tiredly", "tire", "tired", "tiring"],
+          "answer": "C",
+          "explanation": "解答：(C) tired\n解析：feel 為連綴動詞，形容詞 tired 表示主詞感到疲憊。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 選擇題</span></div><div class='font-bold text-lg'>The experiment proved ________, so we had to start over.</div>",
+          "options": ["unsuccessfully", "unsuccessful", "success", "succeed"],
+          "answer": "B",
+          "explanation": "解答：(B) unsuccessful\n解析：prove 為連綴動詞，應用形容詞作補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與結構練習</span></div><div class='font-bold text-lg'>The flowers smell ________ (sweet / sweetly).</div><div class='mt-2'>句型：SVC</div>",
+          "options": ["sweet", "sweetly"],
+          "answer": "A",
+          "explanation": "解答：sweet\n解析：smell 為感官動詞 (連綴動詞)，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與結構練習</span></div><div class='font-bold text-lg'>The children grew ________ (happy / happily) after receiving the gifts.</div><div class='mt-2'>句型：SVC</div>",
+          "options": ["happy", "happily"],
+          "answer": "A",
+          "explanation": "解答：happy\n解析：grow 為變化連綴動詞，後接形容詞作補語。"
+        }
+    ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The manager finalized the report.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVO", "SV"],
+          "answer": "A",
+          "explanation": "解答：(A) SVO\n解析：finalized 為及物動詞，the report 為受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The cat chased the mouse quickly.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVO", "SV"],
+          "answer": "A",
+          "explanation": "解答：(A) SVO\n解析：chased 為及物動詞，the mouse 為受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>He laughed at the joke.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVO", "SV"],
+          "answer": "B",
+          "explanation": "解答：(B) SV\n解析：laugh 為不及物動詞，at the joke 是介系詞片語，並非受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>Our team achieved a major milestone.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVO", "SV"],
+          "answer": "A",
+          "explanation": "解答：(A) SVO\n解析：achieved 為及物動詞，milestone 為受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>She smiled at me warmly.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVO", "SV"],
+          "answer": "B",
+          "explanation": "解答：(B) SV\n解析：smiled 為不及物動詞，at me 為介系詞片語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>The company decided to ____ a new branch in Taichung.</div>",
+          "options": ["establishment", "establish", "established", "establishing"],
+          "answer": "B",
+          "explanation": "解答：(B) establish\n解析：to 不定詞後需接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>We have to ____ our marketing strategy to reach more customers.</div>",
+          "options": ["modification", "modify", "modifier", "modified"],
+          "answer": "B",
+          "explanation": "解答：(B) modify\n解析：have to 後方需接動詞作為 SVO 的 V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>The CEO ____ the meeting due to an emergency.</div>",
+          "options": ["cancellation", "cancelled", "canceling", "cancellable"],
+          "answer": "B",
+          "explanation": "解答：(B) cancelled\n解析：SVO 句型，空格需填入動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 找錯與修正</span></div><div class='font-bold text-lg'>We <span class='text-rose-500 underline decoration-2'>discussed about</span> the project for hours.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: discussed about, Correction: discussed)", "(Error: about, Correction: on)", "(Error: discussed, Correction: discuss)", "(Error: project, Correction: the project)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：discuss 為及物動詞，後方直接接受詞，不可加 about。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 找錯與修正</span></div><div class='font-bold text-lg'>The company <span class='text-rose-500 underline decoration-2'>produces efficiently</span> high-quality furniture.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: produces efficiently, Correction: produces efficiently)", "(Error: produces efficiently, Correction: efficiently produces)", "(Error: produces, Correction: producing)", "(Error: high-quality, Correction: high quality)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：副詞不能插在動詞與受詞之間，應改為 produces high-quality furniture efficiently，或將副詞修飾動詞置於前方(但此句語意更適合 placement 在後方)。修正為 produces high-quality furniture efficiently。"
+        } 
+    ],
+      "3": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The professor sent me an email.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVOO", "SVO"],
+          "answer": "A",
+          "explanation": "解答：(A) SVOO\n解析：sent 是授與動詞，me 是間接受詞，an email 是直接受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>My mother baked a cake for me.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVOO", "SVO"],
+          "answer": "B",
+          "explanation": "解答：(B) SVO\n解析：此句使用了 for me (介系詞片語)，故句型為 SVO。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The company offered all employees a bonus.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVOO", "SVO"],
+          "answer": "A",
+          "explanation": "解答：(A) SVOO\n解析：offered 為授與動詞，接兩個受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>She explained the theory to the class.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVOO", "SVO"],
+          "answer": "B",
+          "explanation": "解答：(B) SVO\n解析：explain 不能接雙受詞，需搭配 to 使用，故為 SVO。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>Could you pass the salt to me?</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SVOO", "SVO"],
+          "answer": "B",
+          "explanation": "解答：(B) SVO\n解析：pass the salt (O) + to me (介系詞片語)，故為 SVO。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>Please bring these documents ____ me as soon as possible.</div>",
+          "options": ["to", "for", "with", "at"],
+          "answer": "A",
+          "explanation": "解答：(A) to\n解析：bring 的動作導向某人，用 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>My teacher bought a souvenir ____ me during her trip to Europe.</div>",
+          "options": ["to", "for", "with", "in"],
+          "answer": "B",
+          "explanation": "解答：(B) for\n解析：buy 為買給某人，屬「為某人做某事」，使用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>Which sentence is incorrect?</div>",
+          "options": ["Give him a chance.", "Give a chance to him.", "Cook a meal to me.", "Cook a meal for me."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：cook 為準備食物給某人，應用 for 而非 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 轉換與改錯</span></div><div class='font-bold text-lg'>Convert to SVOO: \"I wrote a letter to him.\"</div><div class='mt-2'>請選出正確的 SVOO 寫法：</div>",
+          "options": ["I wrote him a letter.", "I wrote a letter him.", "I wrote to him a letter.", "I wrote him to a letter."],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：SVOO 結構為 Subject + Verb + Indirect Object + Direct Object。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 轉換與改錯</span></div><div class='font-bold text-lg'>Correct: \"He <span class='text-rose-500 underline decoration-2'>showed to the audience</span> his secret design.\"</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["He showed the audience his secret design.", "He showed his secret design to the audience.", "Both are correct.", "None of the above."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：Show 為授與動詞，可寫為 SVOO (showed the audience his design) 或 SVO+to (showed his design to the audience)。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The news made me happy.</div><div class='mt-2'>請問這是否為 SVOC 句型？</div>",
+          "options": ["是", "否"],
+          "answer": "A",
+          "explanation": "解答：(A) 是\n解析：make 為使役動詞，me 為受詞，happy 為形容詞補語 (C)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>I saw him playing basketball in the gym.</div><div class='mt-2'>請問這是否為 SVOC 句型？</div>",
+          "options": ["是", "否"],
+          "answer": "A",
+          "explanation": "解答：(A) 是\n解析：saw 為感官動詞，him 為受詞，playing... 為現在分詞補語 (C)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The coach wants the players to practice daily.</div><div class='mt-2'>請問這是否為 SVOC 句型？</div>",
+          "options": ["是", "否"],
+          "answer": "A",
+          "explanation": "解答：(A) 是\n解析：want 為要求類動詞，to practice 為不定詞補語 (C)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>She keeps her room clean.</div><div class='mt-2'>請問這是否為 SVOC 句型？</div>",
+          "options": ["是", "否"],
+          "answer": "A",
+          "explanation": "解答：(A) 是\n解析：keep 為連綴/使役概念動詞，her room 為受詞，clean 為形容詞補語 (C)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The teacher told us a story.</div><div class='mt-2'>請問這是否為 SVOC 句型？</div>",
+          "options": ["是", "否"],
+          "answer": "B",
+          "explanation": "解答：(B) 否\n解析：此為授與動詞，句型為 SVOO。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>The manager had his assistant ____ the report before the meeting.</div>",
+          "options": ["finished", "finishing", "finish", "to finish"],
+          "answer": "C",
+          "explanation": "解答：(C) finish\n解析：have 為使役動詞，後接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>We found the movie ____.</div>",
+          "options": ["bored", "boring", "to bore", "bore"],
+          "answer": "B",
+          "explanation": "解答：(B) boring\n解析：形容詞補語，電影使人感到無聊，用形容詞 boring。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 選擇題</span></div><div class='font-bold text-lg'>She felt someone ____ her on the shoulder.</div>",
+          "options": ["touch", "touched", "to touch", "touching"],
+          "answer": "A",
+          "explanation": "解答：(A) touch\n解析：felt 為感官動詞，可接原形動詞或 V-ing，本題選項 A 為正確結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 改錯與寫作</span></div><div class='font-bold text-lg'>The judge ordered the suspect <span class='text-rose-500 underline decoration-2'>leaving</span> the courtroom.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: leaving, Correction: to leave)", "(Error: leaving, Correction: leave)", "(Error: ordered, Correction: order)", "(Error: suspect, Correction: suspecting)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：order 為要求類動詞，補語需使用不定詞 to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (4)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 改錯與寫作</span></div><div class='font-bold text-lg'>I heard my name <span class='text-rose-500 underline decoration-2'>calling</span> from the hallway.</div><div class='mt-2'>請選出正確的修正方式：</div>",
+          "options": ["(Error: calling, Correction: called)", "(Error: calling, Correction: to call)", "(Error: heard, Correction: hear)", "(Error: name, Correction: names)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：名字是被呼叫的，感官動詞後的補語需使用過去分詞 P.P. (called)。"
+        } 
+    ],
+      "5": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>The ancient temple in the mountains remains a mystery to local people.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：remains 為連綴動詞，a mystery 為名詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>The government granted the local farmers a subsidy for their losses.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "D",
+          "explanation": "解答：(D) SVOO\n解析：granted 為授與動詞，接間接受詞 (farmers) 與直接受詞 (a subsidy)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>My boss had me rewrite the proposal before the deadline.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "E",
+          "explanation": "解答：(E) SVOC\n解析：had 為使役動詞，me 為受詞，rewrite 為原形動詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>She bought a beautiful gift for her mother yesterday.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "C",
+          "explanation": "解答：(C) SVO\n解析：bought 為動詞，gift 為受詞，for her mother 為介系詞片語，並非雙受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>The weather in July is often extremely hot.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：is 為 be 動詞 (連綴動詞)，hot 為形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 綜合選擇</span></div><div class='font-bold text-lg'>The candidate ____ confident during the interview.</div>",
+          "options": ["looks", "is looking at", "looking", "to look"],
+          "answer": "A",
+          "explanation": "解答：(A) looks\n解析：SVC 句型，look 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 綜合選擇</span></div><div class='font-bold text-lg'>I would like to ____ you a quick question regarding the project.</div>",
+          "options": ["asking", "asked", "ask", "asks"],
+          "answer": "C",
+          "explanation": "解答：(C) ask\n解析：like to 後接原形動詞，ask 在此為授與動詞開頭的 SVOO 結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 綜合選擇</span></div><div class='font-bold text-lg'>We consider the new policy ____ for the long-term benefit of the company.</div>",
+          "options": ["necessary", "necessarily", "necessity", "be necessary"],
+          "answer": "A",
+          "explanation": "解答：(A) necessary\n解析：consider + O + OC，補語需使用形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 找錯與修正</span></div><div class='font-bold text-lg'>They made the broken window <span class='text-rose-500 underline decoration-2'>to look</span> like it was brand new.</div><div class='mt-2'>請選出正確修正方式：</div>",
+          "options": ["(Error: to look, Correction: look)", "(Error: to look, Correction: looking)", "(Error: made, Correction: make)", "(Error: window, Correction: windows)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：make 為使役動詞，SVOC 補語應為原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 找錯與修正</span></div><div class='font-bold text-lg'>The doctor <span class='text-rose-500 underline decoration-2'>gave to the patient</span> some medicine for the pain.</div><div class='mt-2'>請選出正確修正方式：</div>",
+          "options": ["(Error: gave to the patient, Correction: gave the patient)", "(Error: gave to the patient, Correction: gave the patient some medicine)", "(Error: medicine, Correction: medicines)", "(Error: pain, Correction: pains)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：Give 為授與動詞，SVOO 應為 gave + 間接受詞 + 直接受詞。"
+        }
+    ],
+      "6": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>The girl (with a red umbrella) walked toward the bus stop.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "A",
+          "explanation": "解答：(A) SV\n解析：walked 為不及物動詞，其餘皆為修飾語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>The man kept the secret (that he told me) to himself.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "E",
+          "explanation": "解答：(E) SVOC\n解析：keep + O (the secret) + OC (to himself/形容詞性結構)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>The new manager offered all the staff (in the office) a pay raise.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "D",
+          "explanation": "解答：(D) SVOO\n解析：offered 為授與動詞，all the staff 為間接受詞，a pay raise 為直接受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>A large box (filled with old books) remains in the attic.</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "A",
+          "explanation": "解答：(A) SV\n解析：remains 為不及物動詞，in the attic 為修飾地點的副詞片語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>The decision (made by the committee) seems quite reasonable (to everyone).</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "B",
+          "explanation": "解答：(B) SVC\n解析：seems 為連綴動詞，reasonable 為形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 進階動詞屬性</span></div><div class='font-bold text-lg'>The cake ____ delicious. I couldn't stop eating it.</div>",
+          "options": ["tasted", "was tasted", "tasting", "to taste"],
+          "answer": "A",
+          "explanation": "解答：(A) tasted\n解析：在此為 SVC (連綴動詞) 用法，表示「嘗起來」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 進階動詞屬性</span></div><div class='font-bold text-lg'>The chef ____ the soup to see if it needed more salt.</div>",
+          "options": ["tasted", "was tasted", "tasting", "to taste"],
+          "answer": "A",
+          "explanation": "解答：(A) tasted\n解析：在此為 SVO (及物動詞) 用法，表示「品嘗某物」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 進階動詞屬性</span></div><div class='font-bold text-lg'>We ____ the room cold so we turned up the heater.</div>",
+          "options": ["felt", "found", "looked", "seemed"],
+          "answer": "B",
+          "explanation": "解答：(B) found\n解析：find + O + OC (形容詞)，表「發現...狀態」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 長難句分析</span></div><div class='font-bold text-lg'>\"The unexpected news (that he won the lottery) <span class='text-rose-500 underline decoration-2'>made</span> the whole family extremely happy.\"</div><div class='mt-2'>主詞 (S)、動詞 (V) 及句型結構為：</div>",
+          "options": ["S: news, V: made, 句型: SVOC", "S: news, V: made, 句型: SVOO", "S: he, V: won, 句型: SVO", "S: family, V: made, 句型: SVOC"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：news 為主詞，made 為使役動詞，family 為受詞，happy 為形容詞補語 (SVOC)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 長難句分析</span></div><div class='font-bold text-lg'>\"My brother, (who studies abroad), <span class='text-rose-500 underline decoration-2'>sent</span> me a postcard yesterday.\"</div><div class='mt-2'>主詞 (S)、動詞 (V) 及句型結構為：</div>",
+          "options": ["S: brother, V: sent, 句型: SVOO", "S: brother, V: sent, 句型: SVOC", "S: postcard, V: sent, 句型: SVO", "S: brother, V: studies, 句型: SV"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：brother 為主詞，sent 為授與動詞，me 為間接受詞，postcard 為直接受詞 (SVOO)。"
+        }
+    ],
+      "7": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>I heard the girl singing in the shower.</div><div class='mt-2'>補語關係為？</div>",
+          "options": ["主動", "被動"],
+          "answer": "A",
+          "explanation": "解答：(A) 主動\n解析：女孩「正在唱歌」(進行狀態)，受詞與補語為關係主動。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>I heard the song played on the radio.</div><div class='mt-2'>補語關係為？</div>",
+          "options": ["主動", "被動"],
+          "answer": "B",
+          "explanation": "解答：(B) 被動\n解析：歌曲「被播放」，受詞與補語為被動關係，故用 P.P. (played)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>The boss had his secretary type the letter immediately.</div><div class='mt-2'>補語關係為？</div>",
+          "options": ["主動", "被動"],
+          "answer": "A",
+          "explanation": "解答：(A) 主動\n解析：秘書「打字」，關係主動，使役動詞 have 後接原形 V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>The boss had the letter typed by his secretary.</div><div class='mt-2'>補語關係為？</div>",
+          "options": ["主動", "被動"],
+          "answer": "B",
+          "explanation": "解答：(B) 被動\n解析：信件「被輸入」，關係被動，故用 P.P. (typed)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 選擇題</span></div><div class='font-bold text-lg'>They watched the building ____ down during the earthquake.</div>",
+          "options": ["fall", "to fall", "fallen", "falling"],
+          "answer": "A",
+          "explanation": "解答：(A) fall\n解析：watched 為感官動詞，目睹「倒塌」的全過程，接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 選擇題</span></div><div class='font-bold text-lg'>My father let me ____ my own decisions about my future.</div>",
+          "options": ["make", "to make", "making", "made"],
+          "answer": "A",
+          "explanation": "解答：(A) make\n解析：let 為使役動詞，後接原形 V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 選擇題</span></div><div class='font-bold text-lg'>I felt something ____ on my leg.</div>",
+          "options": ["crawl", "crawled", "to crawl", "crawls"],
+          "answer": "A",
+          "explanation": "解答：(A) crawl\n解析：felt 為感官動詞，something 與 crawl 為主動關係。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 選擇題</span></div><div class='font-bold text-lg'>Have you ever heard this song ____ in Japanese?</div>",
+          "options": ["sing", "sang", "singing", "sung"],
+          "answer": "D",
+          "explanation": "解答：(D) sung\n解析：歌曲「被演唱」，被動關係需用 P.P. (sing-sang-sung)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 改寫</span></div><div class='font-bold text-lg'>She made her son <span class='text-rose-500 underline decoration-2'>to clean</span> his room.</div><div class='mt-2'>請選出正確修正：</div>",
+          "options": ["(Error: to clean, Correction: clean)", "(Error: to clean, Correction: cleaning)", "(Error: made, Correction: make)", "(Error: son, Correction: sons)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：make 為使役動詞，補語不可加 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 改寫</span></div><div class='font-bold text-lg'>I saw the thief steal the purse and run away.</div><div class='mt-2'>此句是否有錯誤？</div>",
+          "options": ["None (正確)", "(Error: steal, Correction: stolen)", "(Error: run, Correction: running)", "(Error: saw, Correction: see)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：此句無誤。saw 為感官動詞，接原形動詞 steal 與 run (對等結構)。"
+        }
+            ],
+      "8": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列授與動詞分類 (搭配 to 或 for)：</div><div class='mt-2 text-sm text-gray-600'>(give, buy, send, make, show, find, cook, tell, get, lend)</div>",
+          "options": ["To: give, send, show, tell, lend; For: buy, make, find, cook, get"],
+          "answer": "A",
+          "explanation": "解答：To (傳遞方向): give, send, show, tell, lend；For (服務/利益): buy, make, find, cook, get。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 句型轉換</span></div><div class='font-bold text-lg'>My teacher gave me a gift. (改寫為 SVO + 介系詞)</div>",
+          "options": ["My teacher gave a gift to me.", "My teacher gave a gift for me.", "My teacher gave me for a gift.", "My teacher gave to me a gift."],
+          "answer": "A",
+          "explanation": "解答：(A) My teacher gave a gift to me.\n解析：give 為傳遞動詞，搭配 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 句型轉換</span></div><div class='font-bold text-lg'>I cooked my family a big dinner. (改寫為 SVO + 介系詞)</div>",
+          "options": ["I cooked a big dinner for my family.", "I cooked a big dinner to my family.", "I cooked for my family a big dinner.", "I cooked to my family a big dinner."],
+          "answer": "A",
+          "explanation": "解答：(A) I cooked a big dinner for my family.\n解析：cook 為「為某人做某事」，搭配 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 句型轉換</span></div><div class='font-bold text-lg'>Please find a seat for the elderly woman. (改寫為 SVOO)</div>",
+          "options": ["Please find the elderly woman a seat.", "Please find a seat to the elderly woman.", "Please find for the elderly woman a seat.", "Please find the seat for the elderly woman."],
+          "answer": "A",
+          "explanation": "解答：(A) Please find the elderly woman a seat.\n解析：SVOO 結構直接將間接受詞 (the elderly woman) 放在動詞後。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 句型轉換</span></div><div class='font-bold text-lg'>He showed us his collection of old coins. (改寫為 SVO + 介系詞)</div>",
+          "options": ["He showed his collection of old coins to us.", "He showed his collection of old coins for us.", "He showed us to his collection.", "He showed for us his collection."],
+          "answer": "A",
+          "explanation": "解答：(A) He showed his collection of old coins to us.\n解析：show 為傳遞動作，搭配 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題辨析</span></div><div class='font-bold text-lg'>Choose the incorrect one:</div>",
+          "options": ["She explained the situation to me.", "She explained me the situation.", "She described the place to us.", "She described us the place."],
+          "answer": "B",
+          "explanation": "解答：(B) 與 (D) 皆不正確\n解析：explain 與 describe 是「不能接雙受詞」的動詞，必須搭配 to + 人。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 綜合實戰</span></div><div class='font-bold text-lg'>Could you get ____ a cup of coffee?</div>",
+          "options": ["to him", "for him", "him", "both (B) and (C)"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：get 為授與動詞，get him a cup of coffee (SVOO) 與 get a cup of coffee for him (SVO+介系詞) 皆正確。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 綜合實戰</span></div><div class='font-bold text-lg'>She told ____ an interesting story.</div>",
+          "options": ["to us", "us", "for us", "all of the above"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：tell 為授與動詞，直接接間接受詞 (us)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 綜合實戰</span></div><div class='font-bold text-lg'>I found ____ a new job yesterday.</div>",
+          "options": ["for my brother", "my brother", "both (A) and (B)"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：find 為授與動詞，SVOO (found my brother a job) 與 SVO+介系詞 (found a job for my brother) 皆正確。"
+        }
+    ],
+      "9": [ 
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列連綴動詞正確分類：</div><div class='mt-2 text-sm text-gray-600'>(become, taste, keep, turn, seem, look, remain, smell, grow, appear)</div>",
+          "options": ["感官: taste, look, smell; 變化: become, turn, grow; 狀態: keep, seem, remain, appear"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：感官動詞描述感官體驗；變化動詞描述從 A 到 B 的轉變；狀態動詞描述持續性的情狀。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>After the long winter, the ice finally turned ____.</div>",
+          "options": ["soft", "softly", "softened", "to soften"],
+          "answer": "A",
+          "explanation": "解答：(A) soft\n解析：turn 為變化連綴動詞，後接形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>She ____ calm even though the alarm was ringing.</div>",
+          "options": ["remained", "remained to be", "was remaining", "remaining"],
+          "answer": "A",
+          "explanation": "解答：(A) remained\n解析：remained 為狀態動詞，直接接形容詞 calm 作補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>The old man ____ tired after the long walk.</div>",
+          "options": ["grow", "grew", "grown", "growing"],
+          "answer": "B",
+          "explanation": "解答：(B) grew\n解析：grew 為變化連綴動詞，過去式動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>Everything ____ fine so far, don't worry.</div>",
+          "options": ["seems", "seemed", "has seemed", "seeming"],
+          "answer": "C",
+          "explanation": "解答：(C) has seemed\n解析：so far (到目前為止) 應搭配現在完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題辨析</span></div><div class='font-bold text-lg'>The food smells good.</div><div class='mt-2'>請問這屬於什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "B",
+          "explanation": "解答：SVC\n解析：smells 為連綴動詞，形容詞 good 為補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題辨析</span></div><div class='font-bold text-lg'>The dog smelled the meat carefully.</div><div class='mt-2'>請問這屬於什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "A",
+          "explanation": "解答：SV\n解析：smelled 為動作動詞，meat 為受詞 (SVO)，整體為及物動詞結構 (或稱 SV 變體)；carefully 為副詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題辨析</span></div><div class='font-bold text-lg'>The sky turned dark before the storm.</div><div class='mt-2'>請問這屬於什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "B",
+          "explanation": "解答：SVC\n解析：turned 為變化動詞，dark 為形容詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題辨析</span></div><div class='font-bold text-lg'>The light turned quickly to green.</div><div class='mt-2'>請問這屬於什麼句型？</div>",
+          "options": ["SV", "SVC"],
+          "answer": "A",
+          "explanation": "解答：SV\n解析：turned 此處為「轉向」動作動詞，quickly 修飾轉向，to green 是介系詞片語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 句型寫作</span></div><div class='font-bold text-lg'>在這場會議之後，情況變得嚴峻了。</div>",
+          "options": ["The situation became severe after the meeting.", "The situation turned severely after the meeting.", "The situation seemed severe after the meeting.", "The situation was severe after the meeting."],
+          "answer": "A",
+          "explanation": "解答：(A) The situation became severe after the meeting.\n解析：become + 形容詞 (severe) 為標準 SVC 句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 句型寫作</span></div><div class='font-bold text-lg'>你做的蛋糕聞起來好香。</div>",
+          "options": ["The cake you made smells delicious.", "The cake you made smells deliciously.", "The cake you made smelled delicious.", "Both (A) and (C)"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：Smell 為感官動詞，形容詞 delicious 為正確補語，時態亦可自由調整。"
+        }
+    ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"Cooking is a relaxing activity.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "B",
+          "explanation": "解答：SVC (is 為連綴動詞，activity 為名詞補語)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"Many people find cooking a great way to relieve stress.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "E",
+          "explanation": "解答：SVOC (find 為使役概念動詞，cooking 為 O，a great way 為 OC)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"First, choose your favorite ingredients carefully.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "C",
+          "explanation": "解答：SVO (choose 為及物動詞，ingredients 為受詞)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"Then, cook your family a delicious meal.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "D",
+          "explanation": "解答：SVOO (cook 為授與動詞，family 為間接受詞，meal 為直接受詞)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"Finally, you will feel happy after the meal.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
+          "answer": "B",
+          "explanation": "解答：SVC (feel 為連綴動詞，happy 為形容詞補語)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構抓漏</span></div><div class='font-bold text-lg'>\"The teacher told the students a funny story.\"</div><div class='mt-2'>請選出正確句型：</div>",
+          "options": ["SVOO", "SVOC", "SVC", "SVO"],
+          "answer": "A",
+          "explanation": "解答：SVOO (told 為授與動詞，students 為 IO，story 為 DO)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構抓漏</span></div><div class='font-bold text-lg'>\"The players remained determined to win the game.\"</div><div class='mt-2'>請選出正確句型：</div>",
+          "options": ["SVOO", "SVOC", "SVC", "SVO"],
+          "answer": "C",
+          "explanation": "解答：SVC (remained 為狀態動詞，determined 為形容詞補語)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構抓漏</span></div><div class='font-bold text-lg'>\"The scientist proved the theory correct.\"</div><div class='mt-2'>請選出正確句型：</div>",
+          "options": ["SVOO", "SVOC", "SVC", "SVO"],
+          "answer": "B",
+          "explanation": "解答：SVOC (proved 為使役概念動詞，theory 為 O，correct 為 OC)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 偵錯</span></div><div class='font-bold text-lg'>\"The news made me <span class='text-rose-500 underline decoration-2'>sadly</span> when I heard it.\"</div><div class='mt-2'>請選出正確修正：</div>",
+          "options": ["(Error: sadly, Correction: sad)", "(Error: sadly, Correction: sadness)", "(Error: made, Correction: make)", "(Error: heard, Correction: hear)"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：made 為使役動詞，補語需使用形容詞 sad。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 偵錯</span></div><div class='font-bold text-lg'>\"The manager <span class='text-rose-500 underline decoration-2'>gave to the assistant</span> some important documents.\"</div><div class='mt-2'>請選出正確修正：</div>",
+          "options": ["(Error: gave to the assistant, Correction: gave the assistant)", "(Error: gave to the assistant, Correction: gave the assistant some documents)", "(Error: documents, Correction: document)", "(Error: important, Correction: importance)"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：授與動詞 Give 的 SVOO 結構應為 gave + 間接受詞 + 直接受詞。"
+        } 
+      ]
+    }
+  }
+}

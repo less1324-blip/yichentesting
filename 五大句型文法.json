@@ -61,8 +61,7 @@
           "options": ["happy", "happily"],
           "answer": "A",
           "explanation": "解答：happy (SVC)\n解析：grow 為變化連綴動詞，應用形容詞作補語。"
-        }
-
+        },
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回：SVC 強化</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 選擇題</span></div><div class='font-bold text-lg'>The music sounds ________.</div>",
           "options": ["beautifully", "beautiful", "beauty", "beautify"],
@@ -93,7 +92,7 @@
           "answer": "A",
           "explanation": "解答：happy\n解析：grow 為變化連綴動詞，後接形容詞作補語。"
         }
-    ],
+      ],
       "2": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The manager finalized the report.</div><div class='mt-2'>請問這是什麼句型？</div>",
@@ -154,9 +153,9 @@
           "options": ["(Error: produces efficiently, Correction: produces efficiently)", "(Error: produces efficiently, Correction: efficiently produces)", "(Error: produces, Correction: producing)", "(Error: high-quality, Correction: high quality)"],
           "answer": "B",
           "explanation": "解答：(B)\n解析：副詞不能插在動詞與受詞之間，應改為 produces high-quality furniture efficiently，或將副詞修飾動詞置於前方(但此句語意更適合 placement 在後方)。修正為 produces high-quality furniture efficiently。"
-        } 
-    ],
-      "3": [ 
+        }
+      ],
+      "3": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 句型辨識</span></div><div class='font-bold text-lg'>The professor sent me an email.</div><div class='mt-2'>請問這是什麼句型？</div>",
           "options": ["SVOO", "SVO"],
@@ -278,9 +277,9 @@
           "options": ["(Error: calling, Correction: called)", "(Error: calling, Correction: to call)", "(Error: heard, Correction: hear)", "(Error: name, Correction: names)"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：名字是被呼叫的，感官動詞後的補語需使用過去分詞 P.P. (called)。"
-        } 
-    ],
-      "5": [ 
+        }
+      ],
+      "5": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 結構拆解</span></div><div class='font-bold text-lg'>The ancient temple in the mountains remains a mystery to local people.</div><div class='mt-2'>請問這是什麼句型？</div>",
           "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
@@ -341,8 +340,8 @@
           "answer": "B",
           "explanation": "解答：(B)\n解析：Give 為授與動詞，SVOO 應為 gave + 間接受詞 + 直接受詞。"
         }
-    ],
-      "6": [ 
+      ],
+      "6": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 骨幹拆解</span></div><div class='font-bold text-lg'>The girl (with a red umbrella) walked toward the bus stop.</div><div class='mt-2'>請問這是什麼句型？</div>",
           "options": ["SV", "SVC", "SVO", "SVOO", "SVOC"],
@@ -403,8 +402,8 @@
           "answer": "A",
           "explanation": "解答：(A)\n解析：brother 為主詞，sent 為授與動詞，me 為間接受詞，postcard 為直接受詞 (SVOO)。"
         }
-    ],
-      "7": [ 
+      ],
+      "7": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>I heard the girl singing in the shower.</div><div class='mt-2'>補語關係為？</div>",
           "options": ["主動", "被動"],
@@ -465,8 +464,8 @@
           "answer": "A",
           "explanation": "解答：(A)\n解析：此句無誤。saw 為感官動詞，接原形動詞 steal 與 run (對等結構)。"
         }
-            ],
-      "8": [ 
+      ],
+      "8": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列授與動詞分類 (搭配 to 或 for)：</div><div class='mt-2 text-sm text-gray-600'>(give, buy, send, make, show, find, cook, tell, get, lend)</div>",
           "options": ["To: give, send, show, tell, lend; For: buy, make, find, cook, get"],
@@ -521,8 +520,8 @@
           "answer": "C",
           "explanation": "解答：(C)\n解析：find 為授與動詞，SVOO (found my brother a job) 與 SVO+介系詞 (found a job for my brother) 皆正確。"
         }
-    ],
-      "9": [ 
+      ],
+      "9": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列連綴動詞正確分類：</div><div class='mt-2 text-sm text-gray-600'>(become, taste, keep, turn, seem, look, remain, smell, grow, appear)</div>",
           "options": ["感官: taste, look, smell; 變化: become, turn, grow; 狀態: keep, seem, remain, appear"],
@@ -589,7 +588,7 @@
           "answer": "D",
           "explanation": "解答：(D)\n解析：Smell 為感官動詞，形容詞 delicious 為正確補語，時態亦可自由調整。"
         }
-    ],
+      ],
       "10": [
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>五大句型 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 閱讀分析</span></div><div class='font-bold text-lg'>\"Cooking is a relaxing activity.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
@@ -650,7 +649,7 @@
           "options": ["(Error: gave to the assistant, Correction: gave the assistant)", "(Error: gave to the assistant, Correction: gave the assistant some documents)", "(Error: documents, Correction: document)", "(Error: important, Correction: importance)"],
           "answer": "B",
           "explanation": "解答：(B)\n解析：授與動詞 Give 的 SVOO 結構應為 gave + 間接受詞 + 直接受詞。"
-        } 
+        }
       ]
     }
   }

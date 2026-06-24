@@ -1,0 +1,136 @@
+{
+  "grammar": {
+    "special_verbs": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Concept Check</span></div><div class='font-bold text-lg'>請從下列動詞中，圈出屬於「感官動詞」的詞彙。(see, make, hear, notice, let, watch, feel, smell, get, observe)</div>",
+          "options": ["see", "make", "hear", "notice", "let", "watch", "feel", "smell", "get", "observe"],
+          "answer": "see, hear, notice, watch, feel, smell, observe",
+          "explanation": "解答：see, hear, notice, watch, feel, smell, observe\n解析：感官動詞包含表達知覺的詞彙（see, hear, notice, watch, feel, smell, observe）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic B</span></div><div class='font-bold text-lg'>I saw him ____ (cross / crossing) the street when I was driving to work. (只看到他走過馬路的一個片段)</div>",
+          "options": ["cross", "crossing"],
+          "answer": "crossing",
+          "explanation": "解答：crossing\n解析：捕捉到動作進行中的片段，需使用 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic A</span></div><div class='font-bold text-lg'>I saw him ____ (cross / crossing) the street; he walked from one side to the other. (看到了完整的過馬路過程)</div>",
+          "options": ["cross", "crossing"],
+          "answer": "cross",
+          "explanation": "解答：cross\n解析：捕捉到動作的全過程，需使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic C</span></div><div class='font-bold text-lg'>I heard my name ____ (call / calling / called) by someone in the distance.</div>",
+          "options": ["call", "calling", "called"],
+          "answer": "called",
+          "explanation": "解答：called\n解析：受詞 my name 與動作 call 為被動關係，故使用 P.P. (called)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic A</span></div><div class='font-bold text-lg'>I watched the thief ____ (run / running / run) away after he stole the bag. (完整的動作)</div>",
+          "options": ["run", "running"],
+          "answer": "run",
+          "explanation": "解答：run\n解析：捕捉完整的動作事實，使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic B</span></div><div class='font-bold text-lg'>Can you smell something ____ (burn / burning)?</div>",
+          "options": ["burn", "burning"],
+          "answer": "burning",
+          "explanation": "解答：burning\n解析：捕捉到動作進行中的狀態，使用 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>The teacher noticed the student to sleep during the lecture.</div>",
+          "options": ["Correction"],
+          "answer": "sleeping",
+          "explanation": "解答：Error: to sleep / Correction: sleeping\n解析：感官動詞後接 V-ing，不需 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>I felt the house to shake during the earthquake.</div>",
+          "options": ["Correction"],
+          "answer": "shake",
+          "explanation": "解答：Error: to shake / Correction: shake\n解析：感官動詞後接原形動詞，不需 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>I heard the song sing in English by the singer.</div>",
+          "options": ["Correction"],
+          "answer": "sung",
+          "explanation": "解答：Error: sing / Correction: sung\n解析：歌是被唱的（被動），需用 P.P. (sung)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我看見他在雨中奔跑。(強調他正在奔跑的狀態)</div>",
+          "options": ["Translation"],
+          "answer": "I saw him running in the rain.",
+          "explanation": "解答：I saw him running in the rain.\n解析：強調進行中的動作使用 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我聽到這扇窗戶被打破了。(強調窗戶與動作是被動關係)</div>",
+          "options": ["Translation"],
+          "answer": "I heard the window broken.",
+          "explanation": "解答：I heard the window broken.\n解析：窗戶是被打破的，需用 P.P. (broken)。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Power Scale</span></div><div class='font-bold text-lg'>請根據「強制力」由強到弱，將下列使役動詞排序 (1 最強，4 最弱)。(Make, Let, Have, Get)</div>",
+          "options": ["Make", "Have", "Get", "Let"],
+          "answer": "Make: 1, Have: 2, Get: 3, Let: 4",
+          "explanation": "解答：(1) Make (強制) > (2) Have (職責/委託) > (3) Get (說服) > (4) Let (許可)\n解析：依據語氣強度排序，Make 強制力最大，Let 則是給予許可。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>My boss made me ____ overtime last night.</div>",
+          "options": ["work", "to work", "working"],
+          "answer": "work",
+          "explanation": "解答：work\n解析：使役動詞 make 後接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>The manager had the assistant ____ the report.</div>",
+          "options": ["type", "to type", "typed"],
+          "answer": "type",
+          "explanation": "解答：type\n解析：使役動詞 have 後接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>I couldn't get my brother ____ me with the laundry.</div>",
+          "options": ["help", "to help", "helped"],
+          "answer": "to help",
+          "explanation": "解答：to help\n解析：使役動詞 get 後接不定詞 (to V)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>Please let me ____ if you have any questions.</div>",
+          "options": ["know", "to know", "knowing"],
+          "answer": "know",
+          "explanation": "解答：know\n解析：使役動詞 let 後接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>I had my hair ____ yesterday.</div>",
+          "options": ["cut", "cutting", "to cut"],
+          "answer": "cut",
+          "explanation": "解答：cut\n解析：頭髮是被剪的，使用 P.P. (cut 的三態皆為 cut)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>I need to get my computer ____ as soon as possible.</div>",
+          "options": ["fix", "to fix", "fixed"],
+          "answer": "fixed",
+          "explanation": "解答：fixed\n解析：電腦是被修理的，使用 P.P. (fixed)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>He made his voice ____ by speaking loudly.</div>",
+          "options": ["hear", "heard"],
+          "answer": "heard",
+          "explanation": "解答：heard\n解析：聲音是被聽見的，使用 P.P. (heard)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>老師叫我們把作業寫完。(強調權威與要求)</div>",
+          "options": ["翻譯"],
+          "answer": "The teacher made us finish our homework.",
+          "explanation": "解答：The teacher made us finish our homework.\n解析：make 強調強制力與權威要求。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我會請人幫忙修理那台印表機。(強調委託，可用 have)</div>",
+          "options": ["翻譯"],
+          "answer": "I will have someone fix the printer.",
+          "explanation": "解答：I will have someone fix the printer.\n解析：have 用於委託他人執行職責。"
+        }
+      ]
+    }
+  }
+}

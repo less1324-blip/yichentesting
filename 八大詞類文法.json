@@ -3,55 +3,55 @@
     "pos": {
       "1": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (C/U)</span></div><div class='font-bold text-lg'><span class='text-blue-600 underline decoration-2'>Equipment</span> (C/U?) / <span class='text-blue-600 underline decoration-2'>Advice</span> (C/U?) / <span class='text-blue-600 underline decoration-2'>Idea</span> (C/U?)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (C/U)</span></div><div class='font-bold text-lg'>Equipment (C/U?) / Advice (C/U?) / Idea (C/U?)</div>",
           "options": ["Equipment[U], Advice[U], Idea[C]", "Equipment[C], Advice[C], Idea[U]", "Equipment[U], Advice[C], Idea[C]", "Equipment[C], Advice[U], Idea[C]"],
           "answer": "A",
           "explanation": "解答：(A) Equipment (不可數), Advice (不可數), Idea (可數)\n解析：Equipment 和 Advice 是常見的不可數名詞陷阱。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (C/U)</span></div><div class='font-bold text-lg'><span class='text-blue-600 underline decoration-2'>Information</span> (C/U?) / <span class='text-blue-600 underline decoration-2'>Bottle</span> (C/U?) / <span class='text-blue-600 underline decoration-2'>Homework</span> (C/U?)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (C/U)</span></div><div class='font-bold text-lg'>Information (C/U?) / Bottle (C/U?) / Homework (C/U?)</div>",
           "options": ["Information[U], Bottle[C], Homework[U]", "Information[C], Bottle[C], Homework[U]", "Information[U], Bottle[U], Homework[C]", "Information[C], Bottle[U], Homework[C]"],
           "answer": "A",
           "explanation": "解答：(A) Information (不可數), Bottle (可數), Homework (不可數)\n解析：Homework 和 Information 皆為不可數名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>We need some <span class='text-blue-600 underline decoration-2'>____</span> on how to improve our business model.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>We need some ____ on how to improve our business model.</div>",
           "options": ["informations", "piece of information", "pieces of information", "information"],
           "answer": "D",
           "explanation": "解答：(D) information\n解析：Information 為不可數，不可加 s。some 後面可直接接不可數名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>The <span class='text-blue-600 underline decoration-2'>____</span> in this cram school is well-maintained and modern.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>The ____ in this cram school is well-maintained and modern.</div>",
           "options": ["equipments", "equipment", "an equipment", "many equipment"],
           "answer": "B",
           "explanation": "解答：(B) equipment\n解析：Equipment 為不可數集合名詞，無複數型。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>I have a lot of <span class='text-blue-600 underline decoration-2'>____</span> to do before the lecture tomorrow.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>I have a lot of ____ to do before the lecture tomorrow.</div>",
           "options": ["homeworks", "homework", "a homework", "works"],
           "answer": "B",
           "explanation": "解答：(B) homework\n解析：Homework 為不可數名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>There <span class='text-blue-600 underline decoration-2'>____</span> a lot of advice for students in this manual.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性選擇</span></div><div class='font-bold text-lg'>There ____ a lot of advice for students in this manual.</div>",
           "options": ["is", "are", "have", "be"],
           "answer": "A",
           "explanation": "解答：(A) is\n解析：Advice 為不可數名詞，視為單數。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>How <span class='text-blue-600 underline decoration-2'>____</span> students are there in your class today?</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>How ____ students are there in your class today?</div>",
           "options": ["much", "many", "a little", "some"],
           "answer": "B",
           "explanation": "解答：(B) many\n解析：Students 為可數名詞複數，用 many。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>We only have <span class='text-blue-600 underline decoration-2'>____</span> time left before the meeting starts.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>We only have ____ time left before the meeting starts.</div>",
           "options": ["a few", "few", "a little", "many"],
           "answer": "C",
           "explanation": "解答：(C) a little\n解析：Time 在此為不可數名詞，用 a little 表示「一點點」。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>I have <span class='text-blue-600 underline decoration-2'>____</span> friends in Hemei; I feel very lonely here.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (1)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 量詞搭配</span></div><div class='font-bold text-lg'>I have ____ friends in Hemei; I feel very lonely here.</div>",
           "options": ["a few", "few", "a little", "little"],
           "answer": "B",
           "explanation": "解答：(B) few\n解析：根據後半句 feel very lonely (感到孤單)，可知朋友數量極少，應用 few (幾乎沒有)。"
@@ -71,37 +71,37 @@
       ],
       "2": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (指涉辨識)</span></div><div class='font-bold text-lg'>\"The <span class='text-blue-600 underline decoration-2'>committee</span> met to discuss the budget, and <span class='text-blue-600 underline decoration-2'>it</span> lasted for three hours.\"</div><div class='mt-2'>請問代名詞 <span class='text-blue-600 underline decoration-2'>it</span> 的先行詞為？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (指涉辨識)</span></div><div class='font-bold text-lg'>\"The <u>committee</u> met to discuss the budget, and <u>it</u> lasted for three hours.\"</div><div class='mt-2'>請問代名詞 it 的先行詞為？</div>",
           "options": ["the committee", "the budget"],
           "answer": "A",
           "explanation": "解答：(A) the committee\n解析：會議持續了三小時，指代的是委員會召開的會議。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (指涉辨識)</span></div><div class='font-bold text-lg'>\"The <span class='text-blue-600 underline decoration-2'>people</span> in the room were surprised when <span class='text-blue-600 underline decoration-2'>they</span> heard the news.\"</div><div class='mt-2'>請問代名詞 <span class='text-blue-600 underline decoration-2'>they</span> 的先行詞為？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身 (指涉辨識)</span></div><div class='font-bold text-lg'>\"The <u>people</u> in the room were surprised when <u>they</u> heard the news.\"</div><div class='mt-2'>請問代名詞 they 的先行詞為？</div>",
           "options": ["the room", "the people"],
           "answer": "B",
           "explanation": "解答：(B) the people\n解析：聽到消息的是 room 裡的人們。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>Neither of the two boys did <span class='text-blue-600 underline decoration-2'>____</span> homework.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>Neither of the two boys did ____ homework.</div>",
           "options": ["his", "their", "its", "them"],
           "answer": "A",
           "explanation": "解答：(A) his\n解析：Neither (兩者皆非) 在文法上視為單數，故用 his。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>The company announced <span class='text-blue-600 underline decoration-2'>____</span> new strategy to the public yesterday.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>The company announced ____ new strategy to the public yesterday.</div>",
           "options": ["their", "its", "it's", "his"],
           "answer": "B",
           "explanation": "解答：(B) its\n解析：公司為單數單位，使用其所有格 its。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>If anyone calls, tell <span class='text-blue-600 underline decoration-2'>____</span> I will be back in an hour.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>If anyone calls, tell ____ I will be back in an hour.</div>",
           "options": ["him", "her", "them", "all of the above"],
           "answer": "D",
           "explanation": "解答：(D) all of the above\n解析：現代英文中，Anyone 若性別不明，可用 them 作為單數代名詞，him/her 亦為常見用法。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>I hurt <span class='text-blue-600 underline decoration-2'>____</span> while I was cooking dinner.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (2)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性與指涉</span></div><div class='font-bold text-lg'>I hurt ____ while I was cooking dinner.</div>",
           "options": ["me", "mine", "myself", "I"],
           "answer": "C",
           "explanation": "解答：(C) myself\n解析：受詞與主詞相同，應使用反身代名詞 myself。"
@@ -127,43 +127,43 @@
       ],
       "3": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞分類</span></div><div class='font-bold text-lg'>請將下列<span class='text-blue-600 underline decoration-2'>動詞</span>分類：Run / Know / Listen / Believe / Own / Write</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞分類</span></div><div class='font-bold text-lg'>請將下列動詞分類：Run / Know / Listen / Believe / Own / Write</div>",
           "options": ["動作: Run, Listen, Write; 狀態: Know, Believe, Own", "動作: Run, Know, Write; 狀態: Listen, Believe, Own", "動作: Run, Listen, Believe; 狀態: Know, Own, Write", "動作: Own, Know, Write; 狀態: Run, Listen, Believe"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：狀態動詞 (Know, Believe, Own) 表示內心狀態或所有權，通常不用進行式。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>The baby <span class='text-blue-600 underline decoration-2'>slept</span> for three hours.</div><div class='mt-2'>請問 <span class='text-blue-600 underline decoration-2'>slept</span> 是什麼詞性？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>The baby slept for three hours.</div><div class='mt-2'>請問 slept 是什麼詞性？</div>",
           "options": ["及物動詞", "不及物動詞"],
           "answer": "B",
           "explanation": "解答：(B) 不及物動詞\n解析：for three hours 是副詞片語，sleep 後面不需直接接受詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>The company <span class='text-blue-600 underline decoration-2'>announced</span> the new policy.</div><div class='mt-2'>請問 <span class='text-blue-600 underline decoration-2'>announced</span> 是什麼詞性？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>The company announced the new policy.</div><div class='mt-2'>請問 announced 是什麼詞性？</div>",
           "options": ["及物動詞", "不及物動詞"],
           "answer": "A",
           "explanation": "解答：(A) 及物動詞\n解析：announced 後面需要 policy 作為受詞才能完整表達意思。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>He <span class='text-blue-600 underline decoration-2'>arrived</span> at the station early.</div><div class='mt-2'>請問 <span class='text-blue-600 underline decoration-2'>arrived</span> 是什麼詞性？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 及物/不及物</span></div><div class='font-bold text-lg'>He arrived at the station early.</div><div class='mt-2'>請問 arrived 是什麼詞性？</div>",
           "options": ["及物動詞", "不及物動詞"],
           "answer": "B",
           "explanation": "解答：(B) 不及物動詞\n解析：arrived 後面接的是介系詞片語，不需要受詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>I <span class='text-blue-600 underline decoration-2'>____</span> my new car, and I am very proud of it.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>I ____ my new car, and I am very proud of it.</div>",
           "options": ["am owning", "own", "am owned", "was owning"],
           "answer": "B",
           "explanation": "解答：(B) own\n解析：own 為狀態動詞 (擁有)，不可用進行式。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>Why <span class='text-blue-600 underline decoration-2'>____</span> you <span class='text-blue-600 underline decoration-2'>____</span> at the picture so intently?</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>Why ____ you ____ at the picture so intently?</div>",
           "options": ["are / looking", "do / look", "were / look", "are / look"],
           "answer": "A",
           "explanation": "解答：(A) are / looking\n解析：look at 為動作行為，可以使用進行式來強調當下的動作。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>She <span class='text-blue-600 underline decoration-2'>____</span> the secret, but she cannot tell anyone.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (3)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法陷阱</span></div><div class='font-bold text-lg'>She ____ the secret, but she cannot tell anyone.</div>",
           "options": ["is knowing", "knows", "is known", "knew"],
           "answer": "B",
           "explanation": "解答：(B) knows\n解析：know 為狀態動詞，不用進行式；依句意使用現在式。"
@@ -177,43 +177,43 @@
       ],
       "4": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞三態</span></div><div class='font-bold text-lg'>請選出正確的三態組合：<span class='text-blue-600 underline decoration-2'>Send</span> / <span class='text-blue-600 underline decoration-2'>Choose</span> / <span class='text-blue-600 underline decoration-2'>Build</span></div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞三態</span></div><div class='font-bold text-lg'>請選出正確的三態組合：Send / Choose / Build</div>",
           "options": ["Send-sent-sent / Choose-chose-chosen / Build-built-built", "Send-sended-sended / Choose-choosed-choosed / Build-builded-builded", "Send-sent-sent / Choose-choosed-chosen / Build-built-builded"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：這三個都是不規則變化動詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞三態</span></div><div class='font-bold text-lg'>請選出正確的三態組合：<span class='text-blue-600 underline decoration-2'>Keep</span> / <span class='text-blue-600 underline decoration-2'>Speak</span></div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 動詞三態</span></div><div class='font-bold text-lg'>請選出正確的三態組合：Keep / Speak</div>",
           "options": ["Keep-kept-kept / Speak-spoke-spoken", "Keep-keeped-keeped / Speak-speak-speaked", "Keep-kept-keeped / Speak-spoke-spoked"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：Keep 為不規則 (kept-kept)，Speak 為不規則 (spoke-spoken)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"Please <span class='text-blue-600 underline decoration-2'>report</span> to the office.\" / \"The school <span class='text-blue-600 underline decoration-2'>report</span> shows...\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"Please report to the office.\" / \"The school report shows...\"</div>",
           "options": ["(1) 動詞, (2) 名詞", "(1) 名詞, (2) 動詞", "(1) 動詞, (2) 動詞", "(1) 名詞, (2) 名詞"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：前者為祈使句中的動作，後者為修飾 school 的名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"We need to <span class='text-blue-600 underline decoration-2'>book</span> the ticket.\" / \"Did you read the <span class='text-blue-600 underline decoration-2'>book</span>?\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"We need to book the ticket.\" / \"Did you read the book?\"</div>",
           "options": ["(1) 動詞, (2) 名詞", "(1) 名詞, (2) 動詞", "(1) 動詞, (2) 動詞", "(1) 名詞, (2) 名詞"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：前者為 to 後的動詞，後者為 read 的受詞名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"The company will <span class='text-blue-600 underline decoration-2'>increase</span> the price.\" / \"A significant <span class='text-blue-600 underline decoration-2'>increase</span> in sales.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 詞性判斷</span></div><div class='font-bold text-lg'>\"The company will increase the price.\" / \"A significant increase in sales.\"</div>",
           "options": ["(1) 動詞, (2) 名詞", "(1) 名詞, (2) 動詞", "(1) 動詞, (2) 動詞", "(1) 名詞, (2) 名詞"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：前者為助動詞 will 後的動詞，後者為修飾語 significant 後的名詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法改寫</span></div><div class='font-bold text-lg'>改寫: \"The teacher gave a <span class='text-blue-600 underline decoration-2'>demonstration</span> of how to solve the problem.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法改寫</span></div><div class='font-bold text-lg'>改寫: \"The teacher gave a demonstration of how to solve the problem.\"</div>",
           "options": ["The teacher demonstrated how to solve the problem.", "The teacher demonstrating the problem.", "The teacher had demonstrated the problem.", "The teacher was demonstration the problem."],
           "answer": "A",
           "explanation": "解答：(A)\n解析：將名詞片語 demonstration 改寫為動詞 demonstrate，句意更簡潔。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法改寫</span></div><div class='font-bold text-lg'>改寫: \"They made a <span class='text-blue-600 underline decoration-2'>decision</span> to hire more staff.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (4)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 語法改寫</span></div><div class='font-bold text-lg'>改寫: \"They made a decision to hire more staff.\"</div>",
           "options": ["They decided to hire more staff.", "They were decision to hire more staff.", "They had decided hire more staff.", "They decisioned to hire more staff."],
           "answer": "A",
           "explanation": "解答：(A)\n解析：將片語 made a decision 改為動詞 decided，更符合學術寫作建議。"
@@ -221,31 +221,31 @@
       ],
       "5": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 形容詞位置</span></div><div class='font-bold text-lg'>A <span class='text-blue-600 underline decoration-2'>diligent</span> student always finishes his work.</div><div class='mt-2'>形容詞 <span class='text-blue-600 underline decoration-2'>diligent</span> 的位置屬於：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 形容詞位置</span></div><div class='font-bold text-lg'>A diligent student always finishes his work.</div><div class='mt-2'>形容詞 diligent 的位置屬於：</div>",
           "options": ["修飾名詞前 (Attributive)", "連綴動詞後 (Predicative)"],
           "answer": "A",
           "explanation": "解答：(A) Attributive\n解析：形容詞直接修飾 student，放在名詞前面。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 形容詞位置</span></div><div class='font-bold text-lg'>The student is <span class='text-blue-600 underline decoration-2'>diligent</span>.</div><div class='mt-2'>形容詞 <span class='text-blue-600 underline decoration-2'>diligent</span> 的位置屬於：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 形容詞位置</span></div><div class='font-bold text-lg'>The student is diligent.</div><div class='mt-2'>形容詞 diligent 的位置屬於：</div>",
           "options": ["修飾名詞前 (Attributive)", "連綴動詞後 (Predicative)"],
           "answer": "B",
           "explanation": "解答：(B) Predicative\n解析：diligent 作為補語，放在連綴動詞 is 後面。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>The lecture was so <span class='text-blue-600 underline decoration-2'>____</span> that I fell asleep.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>The lecture was so ____ that I fell asleep.</div>",
           "options": ["boring", "bored"],
           "answer": "A",
           "explanation": "解答：(A) boring\n解析：課程本身「令人感到」無聊，用 V-ing。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>I was quite <span class='text-blue-600 underline decoration-2'>____</span> during the lecture.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>I was quite ____ during the lecture.</div>",
           "options": ["boring", "bored"],
           "answer": "B",
           "explanation": "解答：(B) bored\n解析：人「感到」無聊，用 P.P. (bored)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>We were <span class='text-blue-600 underline decoration-2'>____</span> by the news of the victory.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 分詞大對決</span></div><div class='font-bold text-lg'>We were ____ by the news of the victory.</div>",
           "options": ["exciting", "excited"],
           "answer": "B",
           "explanation": "解答：(B) excited\n解析：我們被消息「激勵/感到興奮」，用 P.P. (excited)。"
@@ -257,13 +257,13 @@
           "explanation": "解答：(A)\n解析：形容詞長度應直接用 too long 或 very long，much 不可修飾形容詞原級。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 詞性修辭升級</span></div><div class='font-bold text-lg'>升級: \"The service in this restaurant is <span class='text-blue-600 underline decoration-2'>good</span>.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 詞性修辭升級</span></div><div class='font-bold text-lg'>升級: \"The service in this restaurant is good.\"</div>",
           "options": ["excellent", "well", "very good", "best"],
           "answer": "A",
           "explanation": "解答：(A) excellent\n解析：用更精確的 excellent 取代較模糊的 good。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 詞性修辭升級</span></div><div class='font-bold text-lg'>升級: \"The movie was <span class='text-blue-600 underline decoration-2'>bad</span>.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (5)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: 詞性修辭升級</span></div><div class='font-bold text-lg'>升級: \"The movie was bad.\"</div>",
           "options": ["terrible", "badly", "very bad", "worse"],
           "answer": "A",
           "explanation": "解答：(A) terrible\n解析：用更具張力的 terrible 取代 bad。"
@@ -271,43 +271,43 @@
       ],
       "6": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 位置診斷</span></div><div class='font-bold text-lg'>請放入副詞使句子正確：\"I eat breakfast. (<span class='text-blue-600 underline decoration-2'>often</span>)\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 位置診斷</span></div><div class='font-bold text-lg'>請放入副詞使句子正確：\"I eat breakfast. (often)\"</div>",
           "options": ["I often eat breakfast.", "I eat often breakfast.", "Often I eat breakfast.", "I eat breakfast often."],
           "answer": "A",
           "explanation": "解答：(A) I often eat breakfast.\n解析：頻率副詞放在一般動詞之前。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 位置診斷</span></div><div class='font-bold text-lg'>請放入副詞使句子正確：\"She is late for class. (<span class='text-blue-600 underline decoration-2'>always</span>)\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 位置診斷</span></div><div class='font-bold text-lg'>請放入副詞使句子正確：\"She is late for class. (always)\"</div>",
           "options": ["She is always late for class.", "She always is late for class.", "Always she is late for class.", "She is late always for class."],
           "answer": "A",
           "explanation": "解答：(A) She is always late for class.\n解析：頻率副詞放在 be 動詞之後。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>She looked <span class='text-blue-600 underline decoration-2'>____</span> (careful / carefully) at the document.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>She looked ____ (careful / carefully) at the document.</div>",
           "options": ["careful", "carefully"],
           "answer": "B",
           "explanation": "解答：(B) carefully\n解析：此處 look 為「動作動詞」，需用副詞修飾動作。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>The nurse is a <span class='text-blue-600 underline decoration-2'>____</span> (friendly / friendlily) person.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>The nurse is a ____ (friendly / friendlily) person.</div>",
           "options": ["friendly", "friendlily"],
           "answer": "A",
           "explanation": "解答：(A) friendly\n解析：friendly 雖然結尾是 ly，但它是形容詞 (friend + ly)，用來修飾 person。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>The test was <span class='text-blue-600 underline decoration-2'>____</span>; I <span class='text-blue-600 underline decoration-2'>____</span> understood any of it.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>The test was ____; I ____ understood any of it.</div>",
           "options": ["hard / hardly", "hardly / hard", "hard / hard", "hardly / hardly"],
           "answer": "A",
           "explanation": "解答：(A) hard / hardly\n解析：hard (困難的)，hardly (幾乎不)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>She sings very <span class='text-blue-600 underline decoration-2'>____</span>.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 易混淆對決</span></div><div class='font-bold text-lg'>She sings very ____.</div>",
           "options": ["good", "well"],
           "answer": "B",
           "explanation": "解答：(B) well\n解析：修飾動詞 sings 需用副詞 well。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 程度副詞強度</span></div><div class='font-bold text-lg'>請由弱到強排列：(<span class='text-blue-600 underline decoration-2'>quite, extremely, slightly, very</span>)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (6)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 程度副詞強度</span></div><div class='font-bold text-lg'>請由弱到強排列：(quite, extremely, slightly, very)</div>",
           "options": ["slightly < quite < very < extremely", "slightly < very < quite < extremely", "quite < slightly < very < extremely"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：slightly (輕微) < quite (相當) < very (很) < extremely (極度)。"
@@ -327,49 +327,49 @@
       ],
       "7": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>My office is <span class='text-blue-600 underline decoration-2'>____</span> the 5th floor.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>My office is ____ the 5th floor.</div>",
           "options": ["at", "in", "on"],
           "answer": "C",
           "explanation": "解答：(C) on\n解析：對於樓層 (floor)，使用介系詞 on。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>We have a meeting <span class='text-blue-600 underline decoration-2'>____</span> 10:00 AM <span class='text-blue-600 underline decoration-2'>____</span> Monday morning.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>We have a meeting ____ 10:00 AM ____ Monday morning.</div>",
           "options": ["at / on", "in / on", "on / at", "at / in"],
           "answer": "A",
           "explanation": "解答：(A) at / on\n解析：時間點用 at，特定的日子 (Monday morning) 用 on。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>He lives <span class='text-blue-600 underline decoration-2'>____</span> Hemei, a small town <span class='text-blue-600 underline decoration-2'>____</span> Changhua County.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>He lives ____ Hemei, a small town ____ Changhua County.</div>",
           "options": ["at / in", "in / in", "at / at", "in / at"],
           "answer": "B",
           "explanation": "解答：(B) in / in\n解析：城市、城鎮、區域等較大的地理範圍，一律使用 in。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>Please leave your bag <span class='text-blue-600 underline decoration-2'>____</span> the door.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 空間邏輯</span></div><div class='font-bold text-lg'>Please leave your bag ____ the door.</div>",
           "options": ["at", "in", "on"],
           "answer": "A",
           "explanation": "解答：(A) at\n解析：門口表示一個特定的位置點，使用 at。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>The new product will be launched <span class='text-blue-600 underline decoration-2'>____</span> March.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>The new product will be launched ____ March.</div>",
           "options": ["in", "on", "at"],
           "answer": "A",
           "explanation": "解答：(A) in\n解析：月份前面使用 in。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>I am very interested <span class='text-blue-600 underline decoration-2'>____</span> learning about AI.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>I am very interested ____ learning about AI.</div>",
           "options": ["in", "of", "at"],
           "answer": "A",
           "explanation": "解答：(A) in\n解析：be interested in 為固定用法。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>The company is famous <span class='text-blue-600 underline decoration-2'>____</span> its products.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>The company is famous ____ its products.</div>",
           "options": ["for", "of", "about"],
           "answer": "A",
           "explanation": "解答：(A) for\n解析：be famous for (因...而著名) 為固定用法。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>We need to focus <span class='text-blue-600 underline decoration-2'>____</span> our business goals.</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (7)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 抽象邏輯</span></div><div class='font-bold text-lg'>We need to focus ____ our business goals.</div>",
           "options": ["in", "on", "to"],
           "answer": "B",
           "explanation": "解答：(B) on\n解析：focus on (專注於) 為固定用法。"
@@ -401,31 +401,31 @@
       ],
       "8": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列<span class='text-blue-600 underline decoration-2'>連接詞</span>分類：(<span class='text-blue-600 underline decoration-2'>and, but, although, so, because, or, if, while</span>)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念分類</span></div><div class='font-bold text-lg'>請將下列連接詞分類：(and, but, although, so, because, or, if, while)</div>",
           "options": ["對等: and, but, or; 因果: so, because; 條件/讓步: although, if, while", "對等: and, so, or; 因果: because, although; 條件/讓步: if, while, but", "對等: and, but, while; 因果: because, so; 條件/讓步: although, if, or"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：對等連接詞連接同類成分；因果連接詞說明理由與結果；條件與讓步從屬連接詞引導副詞子句。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>\"The boss is busy, <span class='text-blue-600 underline decoration-2'>but</span> he always finds time for his students.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>\"The boss is busy, but he always finds time for his students.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
           "options": ["並列句 (Compound)", "複雜句 (Complex)"],
           "answer": "A",
           "explanation": "解答：(A) 並列句\n解析：but 為對等連接詞，連接兩個獨立子句。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>\"<span class='text-blue-600 underline decoration-2'>Because</span> the storm was severe, we cancelled the class.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構分析</span></div><div class='font-bold text-lg'>\"Because the storm was severe, we cancelled the class.\"</div><div class='mt-2'>請問這是什麼句型？</div>",
           "options": ["並列句 (Compound)", "複雜句 (Complex)"],
           "answer": "B",
           "explanation": "解答：(B) 複雜句\n解析：Because 為從屬連接詞，引導副詞子句。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題</span></div><div class='font-bold text-lg'>下列何者錯誤 (<span class='text-rose-500 underline decoration-2'>Although...but...</span>)？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題</span></div><div class='font-bold text-lg'>下列何者錯誤 (Although...but...)？</div>",
           "options": ["(A) Although he was tired, but he kept working.", "(B) Although he was tired, he kept working.", "(C) He was tired, but he kept working."],
           "answer": "A",
           "explanation": "解答：(A) 錯誤\n解析：英文中 Although 與 but 不可同時出現。修正：(A) 應移除 but。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題</span></div><div class='font-bold text-lg'>下列何者錯誤 (<span class='text-rose-500 underline decoration-2'>Because...so...</span>)？</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (8)</span><span class='bg-rose-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: 陷阱題</span></div><div class='font-bold text-lg'>下列何者錯誤 (Because...so...)？</div>",
           "options": ["(A) Because it rained, so I stayed home.", "(B) Because it rained, I stayed home.", "(C) It rained, so I stayed home."],
           "answer": "A",
           "explanation": "解答：(A) 錯誤\n解析：Because 與 so 不可同時出現。修正：(A) 應移除 so。"
@@ -445,25 +445,25 @@
       ],
       "9": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 詞性家族</span></div><div class='font-bold text-lg'>請填入正確的詞性形態：<br>1. <span class='text-blue-600 underline decoration-2'>Decision / Decide / Decisive</span> / ?<br>2. ? / <span class='text-blue-600 underline decoration-2'>Create / Creative / Creatively</span><br>3. <span class='text-blue-600 underline decoration-2'>Beauty / Beautify / Beautiful</span> / ?</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 詞性家族</span></div><div class='font-bold text-lg'>請填入正確的詞性形態：</div><div class='mt-2'>1. Decision / Decide / Decisive / ?<br>2. ? / Create / Creative / Creatively<br>3. Beauty / Beautify / Beautiful / ?</div>",
           "options": ["1. Decisively, 2. Creation, 3. Beautifully", "1. Decisively, 2. Creator, 3. Beautician", "1. Decide, 2. Create, 3. Beauty"],
           "answer": "A",
           "explanation": "解答：(A)\n解析：1. Decisively (副詞); 2. Creation (名詞); 3. Beautifully (副詞)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"The project was completed <span class='text-blue-600 underline decoration-2'>successfully</span>.\" (改寫為名詞 <span class='text-blue-600 underline decoration-2'>Success</span>)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"The project was completed successfully.\" (改寫為名詞 Success)</div>",
           "options": ["The project was a success.", "The project has success.", "The project is success.", "The project made a success."],
           "answer": "A",
           "explanation": "解答：(A) The project was a success.\n解析：以名詞 a success 作為 SVC 句型的補語，語氣更具定論感。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"She made a <span class='text-blue-600 underline decoration-2'>decisive choice</span> at the last minute.\" (改寫為動詞 <span class='text-blue-600 underline decoration-2'>Decide</span>)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"She made a decisive choice at the last minute.\" (改寫為動詞 Decide)</div>",
           "options": ["She decided decisively at the last minute.", "She decided at the last minute.", "She was decide at the last minute.", "She decision at the last minute."],
           "answer": "A",
           "explanation": "解答：(A) She decided decisively at the last minute.\n解析：動詞與副詞結合，更強調果斷的動作過程。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"His design is very <span class='text-blue-600 underline decoration-2'>creative</span>.\" (改寫為副詞 <span class='text-blue-600 underline decoration-2'>Creatively</span>)</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (9)</span><span class='bg-emerald-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 結構轉換</span></div><div class='font-bold text-lg'>\"His design is very creative.\" (改寫為副詞 Creatively)</div>",
           "options": ["He designed the project creatively.", "He is creatively design.", "He design the project creatively.", "He has design the project creatively."],
           "answer": "A",
           "explanation": "解答：(A) He designed the project creatively.\n解析：用副詞 creatively 修飾動作設計 (designed)，展現動作的特質。"
@@ -513,19 +513,19 @@
           "explanation": "解答：(A)\n解析：cold 的比較級為 colder，沒有 coldlier 的寫法。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"The way he speaks is <span class='text-blue-600 underline decoration-2'>in a very fast manner</span>.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"The way he speaks is in a very fast manner.\"</div>",
           "options": ["The way he speaks is fast.", "The way he speaks is fastly.", "The way he speaks is faster.", "The way he speaks is fastest."],
           "answer": "A",
           "explanation": "解答：(A)\n解析：用單詞 fast 替換冗長的片語 in a fast manner。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"We must <span class='text-blue-600 underline decoration-2'>make a decision about</span> our business strategy.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"We must make a decision about our business strategy.\"</div>",
           "options": ["We must decide our business strategy soon.", "We must decision our business strategy soon.", "We must decided our business strategy soon.", "We must deciding our business strategy soon."],
           "answer": "A",
           "explanation": "解答：(A)\n解析：將 make a decision about 改為動詞 decide，句型更精簡。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"The manager handled the crisis <span class='text-blue-600 underline decoration-2'>with great skill</span>.\"</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>八大詞類 (10)</span><span class='bg-teal-500 text-white py-0.5 rounded text-[10px] font-bold'>Part 2: 寫作升級</span></div><div class='font-bold text-lg'>轉換: \"The manager handled the crisis with great skill.\"</div>",
           "options": ["The manager handled the crisis skillfully.", "The manager handled the crisis skillful.", "The manager handled the crisis skill.", "The manager handled the crisis skillfuly."],
           "answer": "A",
           "explanation": "解答：(A)\n解析：用副詞 skillfully 替換冗長的片語 with great skill。"

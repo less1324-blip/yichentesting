@@ -3,10 +3,10 @@
     "special_verbs": {
       "1": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Concept Check</span></div><div class='font-bold text-lg'>請從下列動詞中，圈出屬於「感官動詞」的詞彙。(see, make, hear, notice, let, watch, feel, smell, get, observe)</div>",
-          "options": ["see", "make", "hear", "notice", "let", "watch", "feel", "smell", "get", "observe"],
-          "answer": "see, hear, notice, watch, feel, smell, observe",
-          "explanation": "解答：see, hear, notice, watch, feel, smell, observe\n解析：感官動詞包含表達知覺的詞彙（see, hear, notice, watch, feel, smell, observe）。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Concept Check</span></div><div class='font-bold text-lg'>下列哪一個動詞不屬於「感官動詞」？</div>",
+          "options": ["see", "make", "hear", "feel"],
+          "answer": "B",
+          "explanation": "解答：(B) make\n解析：make 是「使役動詞」，其餘 see, hear, feel 皆為感官動詞。"
         },
         {
           "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic B</span></div><div class='font-bold text-lg'>I saw him ____ (cross / crossing) the street when I was driving to work. (只看到他走過馬路的一個片段)</div>",

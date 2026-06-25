@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "noun_clause": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I know ____ he is a kind person.</div>",
+          "options": ["which", "what", "that", "why"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：that 引導名詞子句作 know 的受詞，此處 that 無義且可省略。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The truth is ____ we lost the game.</div>",
+          "options": ["what", "that", "which", "who"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導名詞子句作主詞補語 (subject complement)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>It is true ____ he won the lottery.</div>",
+          "options": ["what", "which", "that", "how"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：It 是虛主詞，that 引導的名詞子句為真主詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She thinks ____ English is easy to learn.</div>",
+          "options": ["that", "what", "which", "where"],
+          "answer": "A",
+          "explanation": "解答：(A) that\n解析：that 引導名詞子句作 think 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I believe ____ you will succeed in the end.</div>",
+          "options": ["what", "that", "why", "how"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導名詞子句作 believe 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you are late for school is not a good excuse.</div>",
+          "options": ["The fact", "That", "Which", "What"],
+          "answer": "B",
+          "explanation": "解答：(B) That\n解析：That 引導名詞子句作主詞，這是一件事實 (That you are late for school)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["I know that he will come.", "I know he will come.", "Both (A) and (B) are correct.", "Neither is correct."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：在及物動詞後，名詞子句引導詞 that 可省略。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I realized ____ I had made a big mistake.</div>",
+          "options": ["that", "what", "which", "why"],
+          "answer": "A",
+          "explanation": "解答：(A) that\n解析：that 引導名詞子句作 realized 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He hopes ____ he can visit Japan next year.</div>",
+          "options": ["what", "which", "that", "where"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：that 引導名詞子句作 hopes 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I am afraid that I can't go.", "She is sure that he is right.", "I believe that he is honest.", "I know that what he said."],
+          "answer": "D",
+          "explanation": "解答：(D) I know that what he said.\n解析：句子錯誤，因為 what he said 本身就是一個名詞子句，前面不需要再加 that。正確應為 I know what he said."
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ he will come to the party is still a mystery.</div>",
+          "options": ["If", "Whether", "That", "What"],
+          "answer": "B",
+          "explanation": "解答：(B) Whether\n解析：當名詞子句作主詞時，通常使用 whether，不使用 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I haven't decided ____ to accept the job offer.</div>",
+          "options": ["if", "whether", "that", "what"],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：不定詞片語 (to V) 前面僅能搭配 whether，不能接 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am interested in ____ they will agree to our plan.</div>",
+          "options": ["if", "whether", "that", "which"],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：介系詞 (in) 後面接名詞子句，應使用 whether，不可使用 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We discussed ____ we should change our marketing strategy.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：在動詞 discuss 之後，if 和 whether 皆可使用。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The question is ____ we have enough budget for the project.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：作主詞補語時，whether 比 if 更正式且常見。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't care ____ he likes me or not.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：當句尾有 or not 時，if 和 whether 皆可使用。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I don't know if he is coming.", "I wonder whether or not he will show up.", "If he is rich is not my concern.", "It depends on whether she likes the gift."],
+          "answer": "C",
+          "explanation": "解答：(C) If he is rich is not my concern.\n解析：名詞子句作主詞時，不可用 if，應改為 Whether he is rich..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She asked me ____ I had finished my homework.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：作動詞 ask 的受詞時，if 和 whether 皆可使用。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>It depends on ____ we should start now or later.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：介系詞 (on) 後面接名詞子句，應使用 whether，不可使用 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please let me know ____ you can attend the meeting.</div>",
+          "options": ["if", "whether", "Both (A) and (B) are correct", "None are correct"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：在動詞短語 let me know 之後，if 和 whether 皆可使用。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Can you tell me ____?</div>",
+          "options": ["where is the post office", "where the post office is", "the post office is where", "is where the post office"],
+          "answer": "B",
+          "explanation": "解答：(B) where the post office is\n解析：名詞子句作受詞，語序必須為「主詞 + 動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I really don't know ____ last night.</div>",
+          "options": ["where did he go", "where he did go", "where he went", "where goes he"],
+          "answer": "C",
+          "explanation": "解答：(C) where he went\n解析：間接問句語序為「主詞 + 動詞」，過去式使用 went。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please explain to me ____ to solve this math problem.</div>",
+          "options": ["how you did", "how did you", "how to", "how you managed"],
+          "answer": "C",
+          "explanation": "解答：(C) how to\n解析：疑問詞 + 不定詞 (how to V) 可作名詞片語，當作 explain 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Do you have any idea ____?</div>",
+          "options": ["what time does the train leave", "what time the train leaves", "what time leaves the train", "the train leaves what time"],
+          "answer": "B",
+          "explanation": "解答：(B) what time the train leaves\n解析：間接問句語序應為「主詞 + 動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>No one knows ____ exactly.</div>",
+          "options": ["what caused the fire", "what did cause the fire", "the fire caused what", "what the fire caused"],
+          "answer": "A",
+          "explanation": "解答：(A) what caused the fire\n解析：what 在此處為疑問代名詞兼作子句主詞，語序即為「主詞 (what) + 動詞 (caused)」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I wonder ____ to the party tomorrow.</div>",
+          "options": ["who will she invite", "who she will invite", "she will invite who", "will she invite who"],
+          "answer": "B",
+          "explanation": "解答：(B) who she will invite\n解析：間接問句語序為「主詞 + 動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I don't know who is knocking on the door.", "Tell me what you are looking for.", "She asked me why was I late.", "I forgot how much this shirt cost."],
+          "answer": "C",
+          "explanation": "解答：(C) She asked me why was I late.\n解析：間接問句語序錯誤，應為 why I was late。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am not sure ____ this computer belongs to.</div>",
+          "options": ["who", "whose", "whom", "Both (A) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：介系詞 to 後面接受格，在口語中 who 被接受，正式語法則用 whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Let's find out ____ inside the box.</div>",
+          "options": ["what is", "is what", "what it is", "what does it have"],
+          "answer": "A",
+          "explanation": "解答：(A) what is\n解析：what 在此作子句主詞，語序為「what + 動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Did he tell you ____?</div>",
+          "options": ["how much money did he spend", "how much money he spent", "he spent how much money", "how much did he spend money"],
+          "answer": "B",
+          "explanation": "解答：(B) how much money he spent\n解析：名詞子句語序為「主詞 + 動詞」。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ she said to me yesterday is a lie.</div>",
+          "options": ["What", "That", "Which", "The thing which"],
+          "answer": "A",
+          "explanation": "解答：(A) What\n解析：What 引導的名詞子句意為「她昨天對我說的話」，在句中作主詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ the students need is a quiet place to study.</div>",
+          "options": ["What", "That", "Which", "Those who"],
+          "answer": "A",
+          "explanation": "解答：(A) What\n解析：What 引導名詞子句作主詞，意為「學生們所需要的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ he will come or not remains a secret.</div>",
+          "options": ["If", "Whether", "That", "The fact"],
+          "answer": "B",
+          "explanation": "解答：(B) Whether\n解析：名詞子句作主詞時，須使用 whether，不可使用 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ they are late is not surprising.</div>",
+          "options": ["The fact", "The fact that", "That", "What"],
+          "answer": "C",
+          "explanation": "解答：(C) That\n解析：That 引導名詞子句作主詞。選項(A)(B)雖然語意通順，但並非該空位的直接主詞引導詞 (The fact that 是一個複合結構，這裡選 C 為最直接的引導詞)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>What he bought ____ expensive.</div>",
+          "options": ["are", "were", "is", "have been"],
+          "answer": "C",
+          "explanation": "解答：(C) is\n解析：What 引導的名詞子句作為主詞，一律視為單數，動詞需用單數 is。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you choose to believe is up to you.</div>",
+          "options": ["Whoever", "Whichever", "Whatever", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：這三個複合疑問詞皆可引導名詞子句作主詞，視語境而定。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>How he solved the problems ____ amazed everyone.</div>",
+          "options": ["have", "were", "was", "are"],
+          "answer": "C",
+          "explanation": "解答：(C) was\n解析：名詞子句「如何解決問題」作為主詞，動詞用單數 was。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["What I need are some books.", "What I need is some money.", "That he is honest is well known.", "Whether he will win is uncertain."],
+          "answer": "A",
+          "explanation": "解答：(A) What I need are some books.\n解析：What 引導的主詞子句通常視為單數，即便補語是複數，動詞仍以單數 is 為原則 (What I need is some books.)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you like to do is your own business.</div>",
+          "options": ["What", "Which", "That", "The thing"],
+          "answer": "A",
+          "explanation": "解答：(A) What\n解析：What 引導的名詞子句作主詞，意為「你喜歡做的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["What the teachers say are important.", "That the boys are playing in the park are true.", "Whether the rain will stop remains unknown.", "Where they go are a secret."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：名詞子句作主詞皆視為單數，(A)(B)(D)動詞皆誤用了複數 (are)。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The news ____ he passed the exam made his parents happy.</div>",
+          "options": ["which", "that", "what", "how"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導同位格子句，用來補充說明 news 的內容。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The reason why he failed is ____ he didn't study hard enough.</div>",
+          "options": ["which", "what", "that", "why"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：that 引導名詞子句作主詞補語 (subject complement)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I have a firm belief ____ she will succeed one day.</div>",
+          "options": ["which", "that", "what", "whether"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導同位格子句，用來解釋 belief 的內容。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The problem is ____ we have no idea where to go.</div>",
+          "options": ["what", "that", "which", "why"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導名詞子句作主詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The fact ____ he lied to me is unforgivable.</div>",
+          "options": ["that", "which", "what", "how"],
+          "answer": "A",
+          "explanation": "解答：(A) that\n解析：that 引導同位格子句，補充說明 fact。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["The news, which he died, is false.", "The news that he died is false.", "The news what he died is false.", "The news how he died is false."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：that 引導同位格子句是正確用法。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The idea ____ we should save more money is good.</div>",
+          "options": ["which", "that", "what", "how"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導同位格子句解釋 idea。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>His biggest fear is ____ he might lose his job.</div>",
+          "options": ["that", "which", "what", "whether"],
+          "answer": "A",
+          "explanation": "解答：(A) that\n解析：that 引導名詞子句作主詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We were shocked by the fact ____ he was actually a spy.</div>",
+          "options": ["which", "that", "what", "whether"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：that 引導同位格子句，補充說明 fact。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The belief that ghosts exist is common.", "The fact that he arrived late is clear.", "My suggestion is that we start early.", "The fact which he is rich is true."],
+          "answer": "D",
+          "explanation": "解答：(D) The fact which he is rich is true.\n解析：同位格子句需用 that 引導，不可用 which。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>You should listen to ____ the teacher says.</div>",
+          "options": ["that", "what", "which", "how"],
+          "answer": "B",
+          "explanation": "解答：(B) what\n解析：介系詞 to 後接名詞子句，what 意為「老師所說的話」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am not sure about ____ she is happy or not.</div>",
+          "options": ["that", "if", "whether", "Both (B) and (C) are correct."],
+          "answer": "C",
+          "explanation": "解答：(C) whether\n解析：介系詞 about 後面僅能接 whether，不可接 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We need to talk about ____ we should handle this situation.</div>",
+          "options": ["that", "how", "the fact that", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：介系詞 about 後接名詞子句，how (如何處理) 或 the fact that (事實) 皆為正確引導。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He succeeded in ____ he wanted to do.</div>",
+          "options": ["that", "what", "which", "the fact that"],
+          "answer": "B",
+          "explanation": "解答：(B) what\n解析：介系詞 in 後接 what 引導的名詞子句，意為「他想要做的（事情）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am curious about ____ he made such a decision.</div>",
+          "options": ["why", "that", "the fact that", "All of the above."],
+          "answer": "A",
+          "explanation": "解答：(A) why\n解析：好奇的內容為「他為什麼做那個決定」，故用 why 引導。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I am afraid of that he might fail.", "I am afraid of whether he might fail.", "I am afraid of what he might do.", "I am afraid of the fact that he might fail."],
+          "answer": "A",
+          "explanation": "解答：(A) I am afraid of that he might fail.\n解析：介系詞 of 後面不可直接接 that 引導的名詞子句。若要用 that，需加上 the fact (I am afraid of the fact that...)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Can you tell me more about ____ you chose this major?</div>",
+          "options": ["that", "why", "the fact that", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：介系詞 about 後可接 why (為什麼) 或 the fact that (事實) 子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>It depends on ____ we can get the money on time.</div>",
+          "options": ["that", "whether", "if", "Both (A) and (B) are correct."],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：介系詞 on 後面僅能接 whether，不可接 if 或 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please focus on ____ you are doing right now.</div>",
+          "options": ["that", "what", "which", "the fact that"],
+          "answer": "B",
+          "explanation": "解答：(B) what\n解析：介系詞 on 後接 what 引導的名詞子句，意為「你現在正在做的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The teacher is annoyed at ____ you keep making the same mistake.</div>",
+          "options": ["that", "the fact that", "what", "Both (B) and (C) are correct."],
+          "answer": "B",
+          "explanation": "解答：(B) the fact that\n解析：介系詞 at 後面不能直接接 that 子句，需加 the fact。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ that the Earth revolves around the Sun.</div>",
+          "options": ["It is known", "Known is it", "That is known", "It known"],
+          "answer": "A",
+          "explanation": "解答：(A) It is known\n解析：使用虛主詞 It 代替後面真實的主詞子句 (that the Earth revolves...)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ that he will resign from his position soon.</div>",
+          "options": ["It is reported", "Reported it is", "That is reported", "Reported is it"],
+          "answer": "A",
+          "explanation": "解答：(A) It is reported\n解析：被動語態的句型 It is reported that...，用 It 作虛主詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ that we should arrive at the airport two hours early.</div>",
+          "options": ["It is important", "Important is it", "That is important", "Is it important"],
+          "answer": "A",
+          "explanation": "解答：(A) It is important\n解析：使用 It 作虛主詞，導出後面真實主詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ a pity that you missed the party.</div>",
+          "options": ["It is", "There is", "That is", "What is"],
+          "answer": "A",
+          "explanation": "解答：(A) It is\n解析：固定句型 It is a pity that...，用 It 作虛主詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ believed by many people that aliens exist.</div>",
+          "options": ["It is", "There is", "That is", "This is"],
+          "answer": "A",
+          "explanation": "解答：(A) It is\n解析：It is believed that... 被動句型結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["It is clear that he is innocent.", "It is clear which he is innocent.", "That he is innocent is clear it.", "Clear it is that he is innocent."],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：標準的虛主詞句型 It is + adj + that 子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ that he was born in a small village.</div>",
+          "options": ["It said", "It is said", "Said it is", "That said is it"],
+          "answer": "B",
+          "explanation": "解答：(B) It is said\n解析：It is said that... 的被動語態用法。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["It is obvious that she is talented.", "It is certain that they will win.", "It is true whether he will come.", "It is a fact that he is honest."],
+          "answer": "C",
+          "explanation": "解答：(C) It is true whether he will come.\n解析：It is true 之後通常接 that 子句；若用 whether，語氣通常不搭配 it is true，應改為 It is not certain whether..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ surprising that she didn't show up.</div>",
+          "options": ["It is", "It was", "Both (A) and (B) are correct.", "None of the above."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：時態上可用現在式或過去式，皆符合虛主詞句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ that he stole the money is not true.</div>",
+          "options": ["It", "That", "What", "Whether"],
+          "answer": "B",
+          "explanation": "解答：(B) That\n解析：That 引導的名詞子句作為句子的主詞。不能用 It，因為 It 必須放在句首作虛主詞，若句首已接 that 子句則不可再加 It。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The doctor suggested that he ____ more exercise every day.</div>",
+          "options": ["takes", "take", "took", "has taken"],
+          "answer": "B",
+          "explanation": "解答：(B) take\n解析：建議、命令、要求等動詞後的 that 子句，動詞應使用原形 (省略 should)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I insisted that he ____ to the police station immediately.</div>",
+          "options": ["go", "goes", "went", "has gone"],
+          "answer": "A",
+          "explanation": "解答：(A) go\n解析：insist 表堅持要求，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The boss demanded that everyone ____ on time.</div>",
+          "options": ["is", "are", "be", "will be"],
+          "answer": "C",
+          "explanation": "解答：(C) be\n解析：demand 表要求，that 子句使用原形動詞 be。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She recommended that we ____ the hotel before we leave.</div>",
+          "options": ["book", "books", "booked", "to book"],
+          "answer": "A",
+          "explanation": "解答：(A) book\n解析：recommend 表建議，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The teacher asked that the student ____ talking in class.</div>",
+          "options": ["stops", "stop", "stopped", "stopping"],
+          "answer": "B",
+          "explanation": "解答：(B) stop\n解析：ask 表要求，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["He suggested that she studies hard.", "He suggested that she study hard.", "He suggested that she should studies hard.", "All of the above."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：(A) 應為原形；(C) should 後面應接原形動詞而非 studies。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>They requested that he ____ the documents by tomorrow.</div>",
+          "options": ["submits", "submit", "submitted", "to submit"],
+          "answer": "B",
+          "explanation": "解答：(B) submit\n解析：request 表要求，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My father insists that I ____ home by 10 p.m. every night.</div>",
+          "options": ["am", "be", "was", "will be"],
+          "answer": "B",
+          "explanation": "解答：(B) be\n解析：insist 表堅持要求，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The captain ordered that the soldiers ____ the enemy.</div>",
+          "options": ["attack", "attacks", "attacked", "are attacking"],
+          "answer": "A",
+          "explanation": "解答：(A) attack\n解析：order 表命令，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(注意語意) He insisted that he ____ the keys on the table, but I didn't see them.</div>",
+          "options": ["put", "puts", "had put", "should put"],
+          "answer": "C",
+          "explanation": "解答：(C) had put\n解析：此處 insist 表「堅持說（過去發生的事實）」，而非表要求，故不需原形動詞，需依時態使用過去完成式。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't know the reason ____ he left so early.</div>",
+          "options": ["what", "which", "why", "that"],
+          "answer": "C",
+          "explanation": "解答：(C) why\n解析：先行詞為 the reason，關係副詞用 why。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't know ____ he is talking about.</div>",
+          "options": ["what", "which", "that", "the thing"],
+          "answer": "A",
+          "explanation": "解答：(A) what\n解析：名詞子句作 know 的受詞，what 作為 talking about 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the house ____ I lived in when I was a child.</div>",
+          "options": ["what", "which", "where", "how"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：子句中有介系詞 in，先行詞 house 為物，用 which (若無 in 則可用 where)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you told me yesterday is very important.</div>",
+          "options": ["What", "Which", "That", "The fact"],
+          "answer": "A",
+          "explanation": "解答：(A) What\n解析：What 引導名詞子句作主詞，意為「你昨天告訴我的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The movie ____ we watched last night was fantastic.</div>",
+          "options": ["what", "which", "where", "who"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：先行詞為物 (movie)，關係代名詞用 which 或 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please tell me ____ you want for dinner.</div>",
+          "options": ["what", "which", "that", "the fact"],
+          "answer": "A",
+          "explanation": "解答：(A) what\n解析：名詞子句作 tell 的受詞，what 作為 want 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The girl ____ is standing there is my sister.</div>",
+          "options": ["what", "who", "which", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) who\n解析：先行詞為人 (girl)，關係代名詞作主詞用 who。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ makes me happy is seeing you smile.</div>",
+          "options": ["What", "Which", "That", "The thing"],
+          "answer": "A",
+          "explanation": "解答：(A) What\n解析：What 引導名詞子句作主詞，意為「讓我開心的事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't believe ____ he said to me.</div>",
+          "options": ["what", "which", "that", "how"],
+          "answer": "A",
+          "explanation": "解答：(A) what\n解析：名詞子句作 believe 的受詞，what 作為 said 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The car ____ my father bought is very expensive.</div>",
+          "options": ["what", "which", "who", "why"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：先行詞為物 (car)，關係代名詞用 which 或 that。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I wonder ____ he lives.</div>",
+          "options": ["where does", "where he", "where he does", "does he where"],
+          "answer": "B",
+          "explanation": "解答：(B) where he\n解析：間接問句語序為「疑問詞 + 主詞 + 動詞」，故為 where he lives。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My doctor suggested that I ____ more vegetables.</div>",
+          "options": ["eat", "eats", "ate", "will eat"],
+          "answer": "A",
+          "explanation": "解答：(A) eat\n解析：suggest 表建議，that 子句使用原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ they are late is not a big deal.</div>",
+          "options": ["If", "Whether", "That", "What"],
+          "answer": "C",
+          "explanation": "解答：(C) That\n解析：That 引導名詞子句作主詞，表達「他們遲到」這件事實。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am not sure about ____ he likes the gift.</div>",
+          "options": ["if", "whether", "that", "what"],
+          "answer": "B",
+          "explanation": "解答：(B) whether\n解析：介系詞 (about) 後面僅能接 whether，不可接 if。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The fact ____ he won the game surprised us all.</div>",
+          "options": ["which", "what", "that", "how"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：that 引導同位格子句，補充說明 fact 的內容。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the book ____ I bought yesterday.</div>",
+          "options": ["what", "which", "why", "where"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：先行詞為物 (book)，關係代名詞用 which 或 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ is true is that we need to study harder.</div>",
+          "options": ["It", "That", "What", "The fact"],
+          "answer": "C",
+          "explanation": "解答：(C) What\n解析：What 引導的名詞子句作主詞，意為「真實的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ he will come is still unknown.</div>",
+          "options": ["If", "Whether", "That", "What"],
+          "answer": "B",
+          "explanation": "解答：(B) Whether\n解析：名詞子句作主詞時，須使用 whether (不可用 if)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please tell me ____ you are talking about.</div>",
+          "options": ["which", "that", "what", "the fact"],
+          "answer": "C",
+          "explanation": "解答：(C) what\n解析：what 作為 talking about 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-green-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>綜合複習</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The problem is that he lied.", "I don't know what he wants.", "It is said that he is rich.", "The fact which he is rich is true."],
+          "answer": "D",
+          "explanation": "解答：(D) The fact which he is rich is true.\n解析：同位格子句應使用 that，不可使用 which。"
+        }
+      ]
+    }
+  }
+}

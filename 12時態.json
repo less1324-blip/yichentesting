@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "tense": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Simple vs. Progressive) Look! The baby ____ in the crib.</div>",
+          "options": ["sleeps", "is sleeping", "has slept", "slept"],
+          "answer": "B",
+          "explanation": "解答：(B) is sleeping\n解析：Look! 為現在進行式的關鍵字，表示動作正在發生。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Simple vs. Perfect) I ____ my homework, so I can go out now.</div>",
+          "options": ["do", "am doing", "have done", "did"],
+          "answer": "C",
+          "explanation": "解答：(C) have done\n解析：現在完成式表示過去完成的動作對現在造成的結果。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Past vs. Perfect) I ____ my wallet yesterday, so I couldn't buy dinner.</div>",
+          "options": ["lose", "have lost", "lost", "had lost"],
+          "answer": "C",
+          "explanation": "解答：(C) lost\n解析：yesterday 為明確的過去時間，使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Duration) We ____ here for three hours. We are getting tired.</div>",
+          "options": ["wait", "are waiting", "have been waiting", "waited"],
+          "answer": "C",
+          "explanation": "解答：(C) have been waiting\n解析：強調一段時間（for three hours）且持續到現在的狀態，用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Fact) The sun ____ in the east every morning.</div>",
+          "options": ["rises", "is rising", "has risen", "rose"],
+          "answer": "A",
+          "explanation": "解答：(A) rises\n解析：表真理或規律習慣，使用現在簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Past Narrative) When I arrived at the station, the train ____ already.</div>",
+          "options": ["leaves", "left", "has left", "had left"],
+          "answer": "D",
+          "explanation": "解答：(D) had left\n解析：兩個過去動作，火車離開發生在到達之前，使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Future Focus) I ____ my report by 5 p.m. tomorrow.</div>",
+          "options": ["finish", "will finish", "will have finished", "am finishing"],
+          "answer": "C",
+          "explanation": "解答：(C) will have finished\n解析：by + 未來時間，使用未來完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Momentary vs. Continuous) While I ____, the phone rang.</div>",
+          "options": ["studied", "was studying", "have studied", "study"],
+          "answer": "B",
+          "explanation": "解答：(B) was studying\n解析：While 子句常用過去進行式表示背景動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Experience) ____ you ever ____ to Japan?</div>",
+          "options": ["Do; go", "Are; going", "Have; been", "Will; go"],
+          "answer": "C",
+          "explanation": "解答：(C) Have; been\n解析：詢問人生經驗常用現在完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(Comprehensive) By the time we get home, my brother ____ for his exam for two hours.</div>",
+          "options": ["will study", "will be studying", "will have been studying", "has studied"],
+          "answer": "C",
+          "explanation": "解答：(C) will have been studying\n解析：by the time + 現在式，主句強調未來某時間點前動作持續的時間，使用未來完成進行式。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My father ____ the newspaper every morning.</div>",
+          "options": ["read", "reads", "has read", "is reading"],
+          "answer": "B",
+          "explanation": "解答：(B) reads\n解析：every morning 表習慣，使用現在簡單式，主詞為第三人稱單數。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The earth ____ around the sun. This is a scientific fact.</div>",
+          "options": ["move", "moves", "moved", "is moving"],
+          "answer": "B",
+          "explanation": "解答：(B) moves\n解析：科學真理使用現在簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ to the movies with my friends last night.</div>",
+          "options": ["go", "went", "gone", "am going"],
+          "answer": "B",
+          "explanation": "解答：(B) went\n解析：last night 表過去時間，使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She ____ her keys at home two hours ago.</div>",
+          "options": ["forgets", "forgot", "has forgotten", "forgetting"],
+          "answer": "B",
+          "explanation": "解答：(B) forgot\n解析：two hours ago 表過去時間，使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Why ____ you ____ me yesterday? I was waiting for your call.</div>",
+          "options": ["do; call", "did; call", "did; called", "were; calling"],
+          "answer": "B",
+          "explanation": "解答：(B) did; call\n解析：yesterday 為過去時間，疑問句用助動詞 did，後接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ tennis every Sunday when I was in high school.</div>",
+          "options": ["play", "played", "am playing", "have played"],
+          "answer": "B",
+          "explanation": "解答：(B) played\n解析：when I was in high school 為過去的時間點，描述過去的習慣。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ this movie, so I don't want to watch it again. (狀態動詞)</div>",
+          "options": ["love", "am loving", "loved", "will love"],
+          "answer": "A",
+          "explanation": "解答：(A) love\n解析：love 是狀態動詞，通常不用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He ____ always ____ late for work last year.</div>",
+          "options": ["does; arrive", "did; arrive", "is; arriving", "has; arrived"],
+          "answer": "B",
+          "explanation": "解答：(B) did; arrive\n解析：last year 表過去，強調過去動作，用 did + V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My brother usually ____ to school by bus, but today he walked.</div>",
+          "options": ["go", "goes", "went", "is going"],
+          "answer": "B",
+          "explanation": "解答：(B) goes\n解析：usually 為頻率副詞，表示習慣，使用現在簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["Did you finish your homework?", "She didn't went to school yesterday.", "They visited the museum last week.", "We played basketball after school."],
+          "answer": "B",
+          "explanation": "解答：(B) She didn't went to school yesterday.\n解析：助動詞 did/didn't 後須接原形動詞，應改為 didn't go。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I am thirsty. I ____ get a glass of water for myself.</div>",
+          "options": ["am going to", "will", "am", "do"],
+          "answer": "B",
+          "explanation": "解答：(B) will\n解析：表示當下決定的意願 (instant decision)，使用 will。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at those black clouds! It ____ rain soon.</div>",
+          "options": ["will", "is going to", "rains", "rained"],
+          "answer": "B",
+          "explanation": "解答：(B) is going to\n解析：已有跡象（黑雲）的未來預測，使用 be going to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>If it ____ tomorrow, we will cancel the picnic.</div>",
+          "options": ["will rain", "rains", "raining", "rained"],
+          "answer": "B",
+          "explanation": "解答：(B) rains\n解析：條件句 (If) 中，時間與條件用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please call me as soon as he ____ at the airport.</div>",
+          "options": ["will arrive", "arrives", "is arriving", "arrived"],
+          "answer": "B",
+          "explanation": "解答：(B) arrives\n解析：時間副詞子句 (as soon as) 中，用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I won't go out until the rain ____.</div>",
+          "options": ["stops", "will stop", "stopped", "is stopping"],
+          "answer": "A",
+          "explanation": "解答：(A) stops\n解析：時間副詞子句 (until) 中，用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you ____ to the party next Saturday? (計畫好的)</div>",
+          "options": ["Will; come", "Are; going to come", "Do; come", "Did; come"],
+          "answer": "B",
+          "explanation": "解答：(B) Are; going to come\n解析：表示計畫好的未來安排，使用 be going to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Unless you ____ hard, you will fail the final exam.</div>",
+          "options": ["will study", "study", "studied", "studying"],
+          "answer": "B",
+          "explanation": "解答：(B) study\n解析：條件子句 (Unless = If not) 中，用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't know when he ____ back. (注意：這不是時間子句，是名詞子句)</div>",
+          "options": ["comes", "will come", "is coming", "came"],
+          "answer": "B",
+          "explanation": "解答：(B) will come\n解析：當 when 引導的是名詞子句（作 know 的受詞），時態不受時間子句規則限制，可用未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Before you ____, please turn off the lights.</div>",
+          "options": ["will leave", "leave", "left", "are leaving"],
+          "answer": "B",
+          "explanation": "解答：(B) leave\n解析：時間副詞子句 (Before) 中，用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I will finish the report when I have time.", "If you need help, let me know.", "He says that he will come here when he will finish his work.", "As soon as the movie ends, we will go home."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：when 引導的時間副詞子句中，不能用 will finish，應改為 when he finishes his work。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look! The teacher ____ to us. Let's listen carefully.</div>",
+          "options": ["talks", "is talking", "has talked", "talked"],
+          "answer": "B",
+          "explanation": "解答：(B) is talking\n解析：Look! 表動作正在發生，使用現在進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>When the phone rang, I ____ a shower.</div>",
+          "options": ["take", "am taking", "was taking", "took"],
+          "answer": "C",
+          "explanation": "解答：(C) was taking\n解析：過去某個短暫動作 (rang) 打斷了過去正在進行的動作 (was taking)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>While my mother ____ dinner, my father was reading the newspaper.</div>",
+          "options": ["cook", "is cooking", "was cooking", "cooked"],
+          "answer": "C",
+          "explanation": "解答：(C) was cooking\n解析：While 後接過去進行式，表示兩個過去同時進行的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ this movie; it's so boring. (狀態動詞陷阱)</div>",
+          "options": ["am hating", "hate", "hated", "have hated"],
+          "answer": "B",
+          "explanation": "解答：(B) hate\n解析：hate 為狀態動詞，不使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>What ____ you ____ at 8:00 yesterday evening?</div>",
+          "options": ["do; do", "were; doing", "did; do", "are; doing"],
+          "answer": "B",
+          "explanation": "解答：(B) were; doing\n解析：詢問過去特定時間點正在做的事，用過去進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Recently, more and more people ____ from home because of the internet.</div>",
+          "options": ["work", "are working", "worked", "have worked"],
+          "answer": "B",
+          "explanation": "解答：(B) are working\n解析：more and more 表示變化趨勢，常用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Do you ____ who that man is?</div>",
+          "options": ["knowing", "know", "are knowing", "knew"],
+          "answer": "B",
+          "explanation": "解答：(B) know\n解析：know 為狀態動詞，不使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ my homework when the electricity went out.</div>",
+          "options": ["do", "am doing", "was doing", "did"],
+          "answer": "C",
+          "explanation": "解答：(C) was doing\n解析：過去進行式表示過去某動作 (went out) 發生時，另一個動作正在進行。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She ____ a red dress at the party last night.</div>",
+          "options": ["wears", "is wearing", "was wearing", "wore"],
+          "answer": "C",
+          "explanation": "解答：(C) was wearing\n解析：過去特定時間點 (at the party last night) 的狀態，使用過去進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I am believing you.", "I am writing a letter now.", "They were playing soccer when it started to rain.", "He is reading a book at the moment."],
+          "answer": "A",
+          "explanation": "解答：(A) I am believing you.\n解析：believe 為狀態動詞，不使用進行式，應改為 I believe you."
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>At this time tomorrow, we ____ on the beach in Hawaii.</div>",
+          "options": ["will relax", "will be relaxing", "relax", "relaxed"],
+          "answer": "B",
+          "explanation": "解答：(B) will be relaxing\n解析：未來進行式表示未來特定時間點正在進行的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Don't call me at 8:00 p.m.; I ____ a meeting then.</div>",
+          "options": ["will have", "will be having", "have", "had"],
+          "answer": "B",
+          "explanation": "解答：(B) will be having\n解析：未來進行式表示未來某時間點正在進行的狀態。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ of buying a new phone, but I haven't decided yet. (think 表示思考過程)</div>",
+          "options": ["think", "am thinking", "thought", "have thought"],
+          "answer": "B",
+          "explanation": "解答：(B) am thinking\n解析：think 若表示「思考過程（主動動作）」時，可以使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ that he is a reliable person. (think 表示意見/觀點)</div>",
+          "options": ["think", "am thinking", "thought", "will be thinking"],
+          "answer": "A",
+          "explanation": "解答：(A) think\n解析：think 若表示「心裡的觀點/意見（狀態）」時，不可使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The perfume ____ wonderful; I want to buy it.</div>",
+          "options": ["is smelling", "smells", "smelled", "smell"],
+          "answer": "B",
+          "explanation": "解答：(B) smells\n解析：smell 指「聞起來（狀態）」時，為連綴動詞，不可接進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Why ____ you ____ the flowers?</div>",
+          "options": ["do; smell", "are; smelling", "have; smelt", "did; smell"],
+          "answer": "B",
+          "explanation": "解答：(B) are; smelling\n解析：smell 指「聞（主動動作）」時，可以使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We ____ a great time at the party right now.</div>",
+          "options": ["have", "are having", "will have", "had"],
+          "answer": "B",
+          "explanation": "解答：(B) are having\n解析：have 表示「經歷/享受（動作）」時，可以使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ my breakfast at 7:00 a.m. yesterday.</div>",
+          "options": ["have", "am having", "was having", "have had"],
+          "answer": "C",
+          "explanation": "解答：(C) was having\n解析：指過去特定時間點正在「吃」的動作，使用進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By this time next year, I ____ in London.</div>",
+          "options": ["will live", "will be living", "live", "lived"],
+          "answer": "B",
+          "explanation": "解答：(B) will be living\n解析：未來進行式常用於表示未來某段時間內會持續發生的狀態。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I am having a headache.", "She is having an English class.", "They are having a new house built.", "He is having a brother."],
+          "answer": "D",
+          "explanation": "解答：(D) He is having a brother.\n解析：have 表示「擁有」時為狀態動詞，不可使用進行式，應改為 He has a brother."
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ the report yet, so I still have to work on it.</div>",
+          "options": ["haven't finished", "didn't finish", "hadn't finished", "don't finish"],
+          "answer": "A",
+          "explanation": "解答：(A) haven't finished\n解析：yet 常用於現在完成式，表示「尚未完成」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you ever ____ to Japan before?</div>",
+          "options": ["Did; go", "Have; been", "Do; go", "Were; gone"],
+          "answer": "B",
+          "explanation": "解答：(B) Have; been\n解析：詢問生命經驗常用現在完成式 Have you ever been to...?"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ my key, so I can't enter my house now. (結果用法)</div>",
+          "options": ["lost", "lose", "have lost", "had lost"],
+          "answer": "C",
+          "explanation": "解答：(C) have lost\n解析：現在完成式強調過去發生的動作對現在造成的結果（鑰匙丟了，所以現在進不去）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He ____ to the USA in 2020. (明確時間)</div>",
+          "options": ["has moved", "moved", "moves", "is moving"],
+          "answer": "B",
+          "explanation": "解答：(B) moved\n解析：2020 為明確的過去時間點，應使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ just ____ my lunch, so I am very full.</div>",
+          "options": ["have; finished", "finished", "finish", "had; finished"],
+          "answer": "A",
+          "explanation": "解答：(A) have; finished\n解析：just 常用於現在完成式，表示剛完成某事。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She ____ never ____ such a beautiful sunset.</div>",
+          "options": ["did; see", "has; seen", "saw", "is; seeing"],
+          "answer": "B",
+          "explanation": "解答：(B) has; seen\n解析：never 用於現在完成式表示「從未有過某經驗」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["I have finished my homework two hours ago.", "I finished my homework two hours ago.", "I have finished my homework already yesterday.", "I finished my homework just now."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：(A)(C) 為現在完成式不能與明確過去時間連用；(D) just now 應搭配過去簡單式，故 (B) 為唯一正確選項。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We ____ each other for ten years. (持續用法)</div>",
+          "options": ["know", "have known", "knew", "are knowing"],
+          "answer": "B",
+          "explanation": "解答：(B) have known\n解析：for ten years 表持續一段時間，know 為狀態動詞，使用現在完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ to the bank just now, so I have the money.</div>",
+          "options": ["have gone", "went", "have been", "go"],
+          "answer": "B",
+          "explanation": "解答：(B) went\n解析：just now 為明確過去時間點，使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["She has already arrived home.", "Have you ever eaten snails?", "They have lived here since 2010.", "I have bought this car in 2022."],
+          "answer": "D",
+          "explanation": "解答：(D) I have bought this car in 2022.\n解析：明確過去時間 (in 2022) 不可使用現在完成式，應改為 I bought this car in 2022."
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By the time I arrived at the station, the train ____ already.</div>",
+          "options": ["leaves", "left", "has left", "had left"],
+          "answer": "D",
+          "explanation": "解答：(D) had left\n解析：By the time 後接過去簡單式時，主要子句表示在該過去時間點前已完成的動作，須使用過去完成式 (had + P.P.)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She realized that she ____ her smartphone at home.</div>",
+          "options": ["left", "has left", "had left", "leaves"],
+          "answer": "C",
+          "explanation": "解答：(C) had left\n解析：「把手機留在家裡」發生的時間點早於「意識到 (realized)」，屬於大過去，須使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Before he joined this company, he ____ for a bank for five years.</div>",
+          "options": ["worked", "had worked", "has worked", "works"],
+          "answer": "B",
+          "explanation": "解答：(B) had worked\n解析：「在銀行工作五年」發生在「加入這家公司 (joined)」之前，表示過去某時間點前的持續狀態，用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>When the police arrived, the thief ____.</div>",
+          "options": ["already escaped", "already escapes", "had already escaped", "has already escaped"],
+          "answer": "C",
+          "explanation": "解答：(C) had already escaped\n解析：小偷逃跑的動作在警察到達 (arrived) 之前就已經完成，故使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>After he ____ his homework, he went to bed immediately.</div>",
+          "options": ["finished", "has finished", "had finished", "finishes"],
+          "answer": "C",
+          "explanation": "解答：(C) had finished\n解析：「完成作業」的動作發生在「上床睡覺 (went to bed)」之前，用過去完成式表達大過去。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I couldn't get into my house because I ____ my keys.</div>",
+          "options": ["lost", "have lost", "had lost", "lose"],
+          "answer": "C",
+          "explanation": "解答：(C) had lost\n解析：「弄丟鑰匙」是導致過去進不去家門的原因，發生在 couldn't 之前，用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The movie ____ by the time we reached the cinema.</div>",
+          "options": ["started", "had started", "has started", "starts"],
+          "answer": "B",
+          "explanation": "解答：(B) had started\n解析：「電影開始」先發生，「到達電影院 (reached)」後發生，前一個動作使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He told me that he ____ to Paris before.</div>",
+          "options": ["had been", "has been", "was", "went"],
+          "answer": "A",
+          "explanation": "解答：(A) had been\n解析：去巴黎的經驗發生在他「告訴我 (told)」之前，間接引句中要將現在完成式改為過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She felt nervous because she ____ such a big exam before.</div>",
+          "options": ["never took", "has never taken", "had never taken", "never takes"],
+          "answer": "C",
+          "explanation": "解答：(C) had never taken\n解析：指在過去某時間點（感到緊張 felt）之前，從未有過某種經驗，使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I had finished the project before the boss asked.", "When she got home, her mom had cooked dinner.", "By the time we met, he had been married for two years.", "I had gone to the supermarket yesterday morning."],
+          "answer": "D",
+          "explanation": "解答：(D) I had gone to the supermarket yesterday morning.\n解析：yesterday morning 為明確過去時間，若無其他過去動作進行先後對比，直接用過去簡單式 (went) 即可，不需用過去完成式。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By this time tomorrow, I ____ my final exam.</div>",
+          "options": ["finish", "will finish", "will have finished", "have finished"],
+          "answer": "C",
+          "explanation": "解答：(C) will have finished\n解析：By + 未來時間點，表示未來某時間點前動作已完成，使用未來完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By the end of this year, we ____ in this house for ten years.</div>",
+          "options": ["will live", "will have lived", "have lived", "live"],
+          "answer": "B",
+          "explanation": "解答：(B) will have lived\n解析：By + 未來時間點，加上一段時間長度 (for ten years)，強調未來某時間點的持續狀態，使用未來完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>When you arrive at the station, the train ____ already.</div>",
+          "options": ["will leave", "will have left", "leaves", "is leaving"],
+          "answer": "B",
+          "explanation": "解答：(B) will have left\n解析：在未來某時間點 (arrive) 之前，動作已經完成，使用未來完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ my report by 5:00 p.m. today, so don't call me.</div>",
+          "options": ["will finish", "will have finished", "have finished", "finish"],
+          "answer": "B",
+          "explanation": "解答：(B) will have finished\n解析：By + 未來時間點 (5:00 p.m. today)，表示該時間點前動作已完成。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>How long ____ you ____ in this city by the end of next month?</div>",
+          "options": ["will; live", "do; live", "will have; been living", "have; lived"],
+          "answer": "C",
+          "explanation": "解答：(C) will have; been living\n解析：By + 未來時間點，詢問持續時間，使用未來完成進行式 (will have been V-ing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By the time he graduates, he ____ all his savings.</div>",
+          "options": ["will spend", "will have spent", "spends", "is spending"],
+          "answer": "B",
+          "explanation": "解答：(B) will have spent\n解析：By the time + 現在式，主句用未來完成式表示該時間點前已完成的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Don't worry. I ____ by the time you wake up.</div>",
+          "options": ["will have cleaned", "will clean", "clean", "have cleaned"],
+          "answer": "A",
+          "explanation": "解答：(A) will have cleaned\n解析：By the time + 現在式，主句用未來完成式表示該時間點前已完成的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By 2030, scientists ____ a cure for this disease.</div>",
+          "options": ["will find", "will have found", "find", "have found"],
+          "answer": "B",
+          "explanation": "解答：(B) will have found\n解析：By + 未來年份，表示未來該時間點前已完成的結果。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She ____ English for five years by the time she finishes this course.</div>",
+          "options": ["will study", "will have been studying", "has studied", "is studying"],
+          "answer": "B",
+          "explanation": "解答：(B) will have been studying\n解析：By the time + 現在式，主句強調持續到未來某時間點的動作，使用未來完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["By next week, I will have finished the project.", "By the time he comes, I will have been waiting for two hours.", "I will have finished my homework at 8:00 p.m. tomorrow.", "By tomorrow, I will have been work for 10 hours."],
+          "answer": "D",
+          "explanation": "解答：(D) By tomorrow, I will have been work for 10 hours.\n解析：未來完成進行式結構應為 will have been working，此處 work 為動詞原形，應改為 working。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ English for two hours, so I need a break.</div>",
+          "options": ["study", "have studied", "have been studying", "am studying"],
+          "answer": "C",
+          "explanation": "解答：(C) have been studying\n解析：強調過去開始並持續到現在的動作（for two hours），且動作對現在產生影響（需要休息），使用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>How long ____ you ____ for the bus when it finally arrived?</div>",
+          "options": ["have; waited", "had; been waiting", "did; wait", "have; been waiting"],
+          "answer": "B",
+          "explanation": "解答：(B) had; been waiting\n解析：過去動作 (waited) 發生前，另一個動作持續進行的時間，使用過去完成進行式 (had been V-ing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By the time he finishes this project, he ____ on it for three months.</div>",
+          "options": ["will work", "will have worked", "will have been working", "works"],
+          "answer": "C",
+          "explanation": "解答：(C) will have been working\n解析：By the time + 現在式，主句強調到未來某點為止動作持續的時間，使用未來完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ this phone for three years, but it still works perfectly.</div>",
+          "options": ["have had", "have been having", "had", "have"],
+          "answer": "A",
+          "explanation": "解答：(A) have had\n解析：have 表示「擁有」為狀態動詞，不能用進行式，故使用現在完成式 (have + P.P.)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She was out of breath because she ____.</div>",
+          "options": ["has run", "had been running", "runs", "ran"],
+          "answer": "B",
+          "explanation": "解答：(B) had been running\n解析：過去某狀態 (out of breath) 的前因，且該動作在過去某時間點前持續進行，使用過去完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I have been knowing him since we were kids.", "I have been playing tennis for two hours.", "She had been sleeping when I called.", "By next month, I will have been working here for a year."],
+          "answer": "A",
+          "explanation": "解答：(A) I have been knowing him since we were kids.\n解析：know 為狀態動詞，不可使用進行式，應改為 I have known him since we were kids."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ a book all afternoon, and I’ve finished three chapters.</div>",
+          "options": ["have read", "have been reading", "read", "am reading"],
+          "answer": "B",
+          "explanation": "解答：(B) have been reading\n解析：強調「整個下午 (all afternoon)」動作持續進行的過程，使用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Why are your hands so dirty? ____ you ____ in the garden?</div>",
+          "options": ["Have; worked", "Have; been working", "Did; work", "Are; working"],
+          "answer": "B",
+          "explanation": "解答：(B) Have; been working\n解析：詢問剛剛造成結果 (hands are dirty) 的持續動作，使用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I ____ for the exam all night, so I am exhausted.</div>",
+          "options": ["have been studying", "have studied", "study", "studied"],
+          "answer": "A",
+          "explanation": "解答：(A) have been studying\n解析：強調「整晚 (all night)」持續動作的過程，且對現在造成影響 (exhausted)，使用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He ____ the piano for ten years before he won the competition.</div>",
+          "options": ["has been playing", "had been playing", "plays", "was playing"],
+          "answer": "B",
+          "explanation": "解答：(B) had been playing\n解析：在過去動作 (won) 之前，動作持續了十年，使用過去完成進行式。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Yesterday, the witness claimed that he ____ the suspect near the bank.</div>",
+          "options": ["sees", "saw", "has seen", "will see"],
+          "answer": "B",
+          "explanation": "解答：(B) saw\n解析：主句為過去式 (claimed)，間接引句應配合時態一致，使用過去簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My teacher told us that the earth ____ around the sun.</div>",
+          "options": ["moved", "moves", "had moved", "will move"],
+          "answer": "B",
+          "explanation": "解答：(B) moves\n解析：雖主句為過去式 (told)，但間接引句敘述的是「科學真理」，不受時態一致限制，仍用現在簡單式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>By the time I retire, I ____ for this company for 30 years.</div>",
+          "options": ["will work", "will have worked", "worked", "have worked"],
+          "answer": "B",
+          "explanation": "解答：(B) will have worked\n解析：By the time + 現在式，主句表示未來該時間點前已完成的持續狀態，使用未來完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She ____ at the airport when I finally found her.</div>",
+          "options": ["waits", "has waited", "had been waiting", "is waiting"],
+          "answer": "C",
+          "explanation": "解答：(C) had been waiting\n解析：在過去某個動作 (found) 發生前，動作持續進行一段時間，使用過去完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I knew he ____, so I wasn't surprised when I heard the news. (未來過去式)</div>",
+          "options": ["will fail", "fails", "has failed", "would fail"],
+          "answer": "D",
+          "explanation": "解答：(D) would fail\n解析：時態一致，past future (would V) 用於過去對未來的預測。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>If you ____ hard, you will succeed.</div>",
+          "options": ["study", "will study", "studied", "have studied"],
+          "answer": "A",
+          "explanation": "解答：(A) study\n解析：未來條件句中，If 子句用現在式代替未來式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He said he ____ to Taipei the day before.</div>",
+          "options": ["goes", "will go", "had gone", "has gone"],
+          "answer": "C",
+          "explanation": "解答：(C) had gone\n解析：間接引句時態一致，且「去台北」發生在「說 (said)」之前，使用過去完成式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look! The boy ____ in the pool since 2:00 p.m.</div>",
+          "options": ["swims", "swam", "has been swimming", "was swimming"],
+          "answer": "C",
+          "explanation": "解答：(C) has been swimming\n解析：since 2:00 p.m. 表持續到現在，使用現在完成進行式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["He said he loved me.", "He says he loves me.", "He said he loves me yesterday.", "He claimed that he had finished the work."],
+          "answer": "C",
+          "explanation": "解答：(C) He said he loves me yesterday.\n解析：若要用 said (過去式)，子句動詞原則上需配合時態一致 (loved)。雖然真理可以維持現在式，但句尾加了 yesterday 更強調過去的時間點，維持時態一致較為精確。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(綜合偵錯) When I walked into the room, everyone ____ on the floor, and I ____ why they were doing that.</div>",
+          "options": ["sat; don't know", "was sitting; didn't know", "has sat; haven't known", "sits; hadn't known"],
+          "answer": "B",
+          "explanation": "解答：(B) was sitting; didn't know\n解析：第一個空格為過去進行式 (正在坐著)，第二個空格為時態一致 (過去式)。"
+        }
+      ]
+    }
+  }
+}

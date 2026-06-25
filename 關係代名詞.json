@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "relative": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I have a friend ____ lives in London.</div>",
+          "options": ["who", "which", "whose", "whom"],
+          "answer": "A",
+          "explanation": "解答：(A) who\n解析：先行詞為人 (a friend)，且在子句中作主詞，故用關代 who。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The book ____ is on the desk is mine.</div>",
+          "options": ["who", "whom", "that", "where"],
+          "answer": "C",
+          "explanation": "解答：(C) that\n解析：先行詞為物 (the book)，在子句中作主詞，可用 that 或 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The woman ____ I met yesterday is my teacher. (受格)</div>",
+          "options": ["who", "which", "whose", "when"],
+          "answer": "A",
+          "explanation": "解答：(A) who\n解析：先行詞為人，且在子句中作受詞，who (受格用法) 或 whom 皆可。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The car ____ he bought last week broke down today.</div>",
+          "options": ["who", "which", "whom", "whose"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：先行詞為物，在子句中作受詞，用 which 或 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(合併題) 兩句合併：I have a cat. It likes to eat fish.</div>",
+          "options": ["I have a cat who likes to eat fish.", "I have a cat which likes to eat fish.", "I have a cat that likes to eat fish.", "All of the above are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：動物可用 which 或 that；若該寵物被視為家庭成員，有時亦可用 who。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(合併題) 兩句合併：The boy is my brother. You saw him at the park.</div>",
+          "options": ["The boy who you saw at the park is my brother.", "The boy which you saw at the park is my brother.", "The boy whom you saw at the park is my brother.", "Both (A) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：先行詞為人且作受詞，who 與 whom 皆正確。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The man ____ you are talking to is my boss.</div>",
+          "options": ["who", "which", "whose", "where"],
+          "answer": "A",
+          "explanation": "解答：(A) who\n解析：先行詞為人，此處為受格，故用 who (亦可用 whom)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The movie ____ we watched last night was very exciting.</div>",
+          "options": ["who", "which", "whom", "where"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：先行詞為物，用 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The dog who bit him was mine.", "The man who is standing there is my father.", "The book which I bought is interesting.", "The man which I saw is a doctor."],
+          "answer": "D",
+          "explanation": "解答：(D) The man which I saw is a doctor.\n解析：先行詞為人，不可用 which，應改為 who 或 whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at the dog ____ is chasing the cat.</div>",
+          "options": ["who", "which", "whom", "whose"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：一般動物先行詞多用 which。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I met a boy ____ father is a famous writer.</div>",
+          "options": ["who", "whom", "whose", "which"],
+          "answer": "C",
+          "explanation": "解答：(C) whose\n解析：子句中表示所有格關係（男孩的父親），故用 whose。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The house ____ roof was damaged in the storm has been repaired.</div>",
+          "options": ["which", "whose", "that", "who"],
+          "answer": "B",
+          "explanation": "解答：(B) whose\n解析：表所有格關係（房子的屋頂），whose 可用於物。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the only book ____ I have ever read in my life.</div>",
+          "options": ["which", "that", "who", "whose"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：先行詞若受最高級或 the only 修飾，習慣上使用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My father, ____ I respect the most, is a teacher.</div>",
+          "options": ["that", "who", "which", "whose"],
+          "answer": "B",
+          "explanation": "解答：(B) who\n解析：非限定用法 (逗號後) 不可使用 that，必須用 who 或 whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The office ____ in I work is very modern. (注意介系詞位置)</div>",
+          "options": ["that", "which", "who", "whose"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：介系詞 (in) 後面不可接 that，且先行詞為 office (物)，故用 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Do you know the man ____ dog is barking in the yard?</div>",
+          "options": ["who", "which", "whose", "whom"],
+          "answer": "C",
+          "explanation": "解答：(C) whose\n解析：表所有格關係（那人的狗），用 whose。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The car ____ the door is broken belongs to my neighbor.</div>",
+          "options": ["whose", "which", "that", "whom"],
+          "answer": "A",
+          "explanation": "解答：(A) whose\n解析：表所有格關係（車子的門），用 whose。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I have a friend whose brother is a doctor.", "The city, that is beautiful, is my hometown.", "This is the house that I live in.", "The tree whose leaves are yellow is dying."],
+          "answer": "B",
+          "explanation": "解答：(B) The city, that is beautiful, is my hometown.\n解析：非限定用法 (逗號後) 不可使用 that，應改為 The city, which is beautiful, is my hometown."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The table ____ legs are broken needs to be fixed.</div>",
+          "options": ["whose", "which", "that", "who"],
+          "answer": "A",
+          "explanation": "解答：(A) whose\n解析：表所有格關係（桌子的腿），用 whose。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The girl ____ to whom I spoke is my cousin.</div>",
+          "options": ["that", "which", "who", "whose"],
+          "answer": "C",
+          "explanation": "解答：(C) who\n解析：雖然 to whom 為正確表達，但在語法變形中，若先行詞為人且已帶介系詞，有時會混淆。本題題幹已包含 to whom，應直接選 who (因 to whom 已經結合了介系詞，此處應視為多餘，但若填空則以 who 為主)。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I have three cars. The car ____ is red is the fastest one.</div>",
+          "options": [", which", "which", ", that", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：這是限定用法（用來從三台車中挑出紅色那台），不能加逗號，且先行詞為物，用 which 或 that 皆可。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Mr. Lin, ____ is my favorite teacher, is moving to the US.</div>",
+          "options": ["who", ", who", "that", ", that"],
+          "answer": "B",
+          "explanation": "解答：(B) , who\n解析：專有名詞 (Mr. Lin) 後面必須使用非限定用法（加逗號），且不能用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I talked to my mother ____ lives in Kaohsiung. (假設我只有一位母親)</div>",
+          "options": [", who", "who", ", that", "that"],
+          "answer": "A",
+          "explanation": "解答：(A) , who\n解析：母親是獨一無二的，補充資訊必須用非限定用法（加逗號），且不能用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["The book, that I bought yesterday, is very expensive.", "The book that I bought yesterday, is very expensive.", "The book that I bought yesterday is very expensive.", "The book, which I bought yesterday is very expensive."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：(A) 非限定不能用 that；(B) 限定用法子句後不該直接加逗號；(D) 非限定用法逗號應成對出現。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She has only one daughter, ____ studies medicine in Paris.</div>",
+          "options": ["who", ", who", "that", ", that"],
+          "answer": "B",
+          "explanation": "解答：(B) , who\n解析：only one daughter 表唯一，為非限定用法（加逗號），且不能用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The students ____ studied hard passed the exam. (指定是哪些學生)</div>",
+          "options": [", who", "who", ", that", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) who\n解析：意指「努力讀書的那群學生」，為限定用法（不加逗號）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My house, ____ was built in 1990, needs a renovation.</div>",
+          "options": ["which", "that", ", which", ", that"],
+          "answer": "C",
+          "explanation": "解答：(C) , which\n解析：My house 為特定事物，補充資訊用非限定用法（加逗號），且不能用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I visited New York, ____ is the largest city in the US.</div>",
+          "options": ["which", ", which", ", that", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) , which\n解析：專有名詞後補充資訊，用非限定用法（加逗號），且不能用 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which of the following sentences implies that the speaker has more than one brother?</div>",
+          "options": ["My brother, who is a doctor, is tall.", "My brother who is a doctor is tall.", "My brothers, who are doctors, are tall.", "None of the above."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：限定用法 (無逗號) 暗示說話者有多個兄弟，該子句用於區分出「當醫生的那個兄弟」。(A) 非限定用法暗示只有一個兄弟。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The man, ____ I told you about, called me today.</div>",
+          "options": ["who", ", who", ", that", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) , who\n解析：這裡是用逗號將補充資訊分開，屬於非限定用法，先行詞為人，用 who。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The hotel ____ I stayed last night was very comfortable.</div>",
+          "options": ["in that", "in which", "which", "in where"],
+          "answer": "B",
+          "explanation": "解答：(B) in which\n解析：原本為 I stayed in the hotel，介系詞 + 關代可合併為 in which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The lady ____ you were talking is my cousin.</div>",
+          "options": ["to who", "to whom", "who", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) to whom\n解析：介系詞後必須使用受格 whom，不可用 who 或 that。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the project ____ I am working.</div>",
+          "options": ["on that", "on which", "which", "on who"],
+          "answer": "B",
+          "explanation": "解答：(B) on which\n解析：原本為 working on the project，介系詞 + 關代為 on which (that 不可放在介系詞後)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The chair on which I sat is broken.", "The girl with whom I went to the movies is smart.", "The pen with that I write is expensive.", "The table at which we are eating is wooden."],
+          "answer": "C",
+          "explanation": "解答：(C) The pen with that I write is expensive.\n解析：介系詞 (with) 後面不可接關代 that，應改為 with which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't know the person ____ he is waiting.</div>",
+          "options": ["for whom", "for who", "for that", "whom"],
+          "answer": "A",
+          "explanation": "解答：(A) for whom\n解析：wait for someone，介系詞 + 受格關代為 for whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The book ____ he is interested is very famous.</div>",
+          "options": ["in that", "in which", "which", "in whom"],
+          "answer": "B",
+          "explanation": "解答：(B) in which\n解析：be interested in the book，合併為 in which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the village ____ I was born.</div>",
+          "options": ["in that", "which", "in which", "that"],
+          "answer": "C",
+          "explanation": "解答：(C) in which\n解析：I was born in the village，故為 in which (亦可用 where)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at the people ____ you are laughing.</div>",
+          "options": ["at whom", "at who", "at that", "who"],
+          "answer": "A",
+          "explanation": "解答：(A) at whom\n解析：laugh at someone，合併為 at whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["The room in that I sleep is big.", "The room in which I sleep is big.", "The room which I sleep is big.", "The room where I sleep in is big."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：(A) 介系詞後不能用 that；(C) 漏了介系詞 (sleep in)；(D) where 後面不可再重複介系詞 in。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The company ____ he works is very successful.</div>",
+          "options": ["for which", "for whom", "which", "in that"],
+          "answer": "A",
+          "explanation": "解答：(A) for which\n解析：work for the company，合併為 for which。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you need is a good night's sleep.</div>",
+          "options": ["Which", "That", "What", "The thing"],
+          "answer": "C",
+          "explanation": "解答：(C) What\n解析：What 引導名詞子句作主詞，意為「你所需要的東西」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't know ____ he is talking about.</div>",
+          "options": ["which", "what", "that", "who"],
+          "answer": "B",
+          "explanation": "解答：(B) what\n解析：talk about 後面缺少受詞，what 作為關代引導名詞子句作 know 的受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the book ____ I told you about.</div>",
+          "options": ["what", "that", "who", "where"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：先行詞為 book，關係代名詞用 that 或 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Do you understand ____ I just said?</div>",
+          "options": ["which", "the thing", "what", "whose"],
+          "answer": "C",
+          "explanation": "解答：(C) what\n解析：what 引導名詞子句作 understand 的受詞，意為「我剛說的話」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ matters most is your attitude, not your ability.</div>",
+          "options": ["That", "Which", "What", "The thing that"],
+          "answer": "C",
+          "explanation": "解答：(C) What\n解析：what 引導名詞子句作主詞，意為「最重要的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She gave me ____ I wanted for my birthday.</div>",
+          "options": ["that", "what", "which", "who"],
+          "answer": "B",
+          "explanation": "解答：(B) what\n解析：what 引導名詞子句作 gave 的直接受詞，意為「我想要的東西」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ he said yesterday was completely false.</div>",
+          "options": ["Which", "What", "That", "The thing"],
+          "answer": "B",
+          "explanation": "解答：(B) What\n解析：what 引導名詞子句作主詞，意為「他說過的話」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Is this the house ____ you lived in when you were a child?</div>",
+          "options": ["what", "that", "which", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：先行詞為物 (house)，關係代名詞可用 that 或 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I don't know what is in the box.", "The gift what she gave me is beautiful.", "What you see is what you get.", "I believe what you told me."],
+          "answer": "B",
+          "explanation": "解答：(B) The gift what she gave me is beautiful.\n解析：what 不能作為「形容詞性的關係代名詞」放在名詞 (gift) 後面，應改為 The gift that/which she gave me..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I finally found ____ I was looking for.</div>",
+          "options": ["that", "which", "what", "who"],
+          "answer": "C",
+          "explanation": "解答：(C) what\n解析：what 引導名詞子句作 found 的受詞，意為「我正在尋找的東西」。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The girl ____ I talked to yesterday is my classmate.</div>",
+          "options": ["who", "whom", "- (可以省略)", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：作受格的關代 (who/whom/that) 在非介系詞後方皆可省略。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The movie ____ last night was boring.</div>",
+          "options": ["which I watched", "I watched", "(A) and (B) are both correct.", "that I watched it"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：受格關代可以省略 (I watched)，也可以用 which/that 引導。選項(D)多了一個受詞 it 是錯誤的。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The woman ____ the piano in the room is my aunt.</div>",
+          "options": ["who plays", "playing", "who is playing", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：主詞與現在分詞作後位修飾可簡化 (playing)，亦可保留關係子句 (who is playing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The cookies ____ by my mom are delicious.</div>",
+          "options": ["which were made", "made", "that were made", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：被動態分詞修飾可簡化為過去分詞 (made)，或保留關代加 be 動詞 (which/that were made)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the only place ____ I have ever visited.</div>",
+          "options": ["that", "which", "- (可以省略)", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：先行詞有 the only 修飾時，優先用 that，且受格關代可省略。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The man I saw was tall.", "The man who I saw was tall.", "The man was tall who I saw.", "The man whom I saw was tall."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：關係子句應緊接在先行詞 (The man) 後面，不可置於句尾。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Choose the correct sentence.</div>",
+          "options": ["The boy runs in the park is my son.", "The boy who runs in the park is my son.", "The boy running in the park is my son.", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：可用關係子句 (who runs) 或現在分詞片語 (running) 修飾。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The car ____ in the garage is mine.</div>",
+          "options": ["which is parked", "parked", "that is parked", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：被動態修飾，可保留關代 (which/that is parked) 或縮減為過去分詞 (parked)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I like the song (that) you sang.", "I like the song (which) you sang.", "I like the song (who) you sang.", "I like the song you sang."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：先行詞為物 (song)，不可用 who。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The teacher ____ us is very strict.</div>",
+          "options": ["who teaches", "teaching", "that teaches", "All of the above"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：主動態修飾，可用關係子句 (who/that teaches) 或現在分詞 (teaching)。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>This is the place ____ I was born.</div>",
+          "options": ["which", "where", "in where", "that"],
+          "answer": "B",
+          "explanation": "解答：(B) where\n解析：where 為關係副詞，引導地點子句；若用 which 則須加上介系詞 (in which)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Do you know the reason ____ he left so early?</div>",
+          "options": ["why", "which", "for that", "what"],
+          "answer": "A",
+          "explanation": "解答：(A) why\n解析：reason 的關係副詞用 why。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I will never forget the day ____ I met you.</div>",
+          "options": ["which", "on which", "when", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：時間先行詞可用 when 或「介系詞 + which」 (on which) 表示。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I don't like the way ____ he talks to his parents.</div>",
+          "options": ["how", "that", "in which", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：the way 後面不可直接加 how，可用 that 或 in which 代替。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The city where I live is beautiful.", "The city in which I live is beautiful.", "The city where I live in is beautiful.", "The city which I live in is beautiful."],
+          "answer": "C",
+          "explanation": "解答：(C) The city where I live in is beautiful.\n解析：where 已經包含介系詞 in，後面不可再出現 in。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The time ____ you arrive is very important.</div>",
+          "options": ["when", "which", "in where", "why"],
+          "answer": "A",
+          "explanation": "解答：(A) when\n解析：時間先行詞用 when。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Is this the reason ____ you didn't call me?</div>",
+          "options": ["why", "which", "for that", "what"],
+          "answer": "A",
+          "explanation": "解答：(A) why\n解析：reason 的關係副詞用 why。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please tell me the way ____ you solved this problem.</div>",
+          "options": ["how", "that", "in that", "which"],
+          "answer": "B",
+          "explanation": "解答：(B) that\n解析：the way 後面不可用 how，可用 that 或 in which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The library ____ I study is quiet.</div>",
+          "options": ["where", "which", "in where", "at that"],
+          "answer": "A",
+          "explanation": "解答：(A) where\n解析：地點先行詞 (library) 用 where。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["This is the reason why I love you for.", "This is the reason why I love you.", "This is the reason which I love you.", "This is the reason how I love you."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：reason 後面用 why，且不需再加介系詞 for。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The man ____ next to my mother is my uncle.</div>",
+          "options": ["sits", "sitting", "sat", "is sitting"],
+          "answer": "B",
+          "explanation": "解答：(B) sitting\n解析：主動語態修飾先行詞，簡化關係子句為現在分詞 (sitting)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The bridge ____ by the government last year is very beautiful.</div>",
+          "options": ["building", "built", "builds", "was built"],
+          "answer": "B",
+          "explanation": "解答：(B) built\n解析：被動語態修飾先行詞，簡化關係子句為過去分詞 (built)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at the girl ____ a red dress.</div>",
+          "options": ["wears", "wearing", "worn", "is wearing"],
+          "answer": "B",
+          "explanation": "解答：(B) wearing\n解析：表示狀態的主動修飾，用現在分詞 (wearing)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The problem ____ in the meeting was very difficult.</div>",
+          "options": ["discussing", "discussed", "discusses", "was discussed"],
+          "answer": "B",
+          "explanation": "解答：(B) discussed\n解析：問題是被討論的 (被動)，用過去分詞 (discussed)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I found a wallet ____ on the ground.</div>",
+          "options": ["lying", "lied", "lies", "was lying"],
+          "answer": "A",
+          "explanation": "解答：(A) lying\n解析：主動修飾，且表示「躺」的狀態，用現在分詞 (lying)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The book written by him is a bestseller.", "The car repairing in the garage is mine.", "The apple eaten by the worm was sour.", "The boy standing there is my friend."],
+          "answer": "B",
+          "explanation": "解答：(B) The car repairing in the garage is mine.\n解析：車子是被修理的 (被動)，應改為 The car repaired in the garage... (若是表示「車子正在被修理」，則須用 The car being repaired in the garage...)"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>All the students ____ in the exam passed.</div>",
+          "options": ["succeed", "succeeding", "succeeded", "who succeeded"],
+          "answer": "D",
+          "explanation": "解答：(D) who succeeded\n解析：雖然 (C) 過去分詞表被動，但 succeed 是不及物動詞，沒有被動態，此處需使用關係子句 (who succeeded) 表主動。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The languages ____ in this country are Chinese and English.</div>",
+          "options": ["speak", "speaking", "spoken", "were spoken"],
+          "answer": "C",
+          "explanation": "解答：(C) spoken\n解析：語言是被說的 (被動)，用過去分詞 (spoken)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The letter ____ to you yesterday arrived this morning.</div>",
+          "options": ["sending", "sent", "sends", "was sent"],
+          "answer": "B",
+          "explanation": "解答：(B) sent\n解析：信是被寄的 (被動)，用過去分詞 (sent)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at the mountains ____ with snow.</div>",
+          "options": ["covering", "covered", "cover", "are covered"],
+          "answer": "B",
+          "explanation": "解答：(B) covered\n解析：山是被雪覆蓋的 (被動)，用過去分詞 (covered)。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you invite to the party is fine with me.</div>",
+          "options": ["Whomever", "Whoever", "Whatever", "Whichever"],
+          "answer": "A",
+          "explanation": "解答：(A) Whomever\n解析：子句中 invite 的受詞，故用受格 Whomever。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>You can choose ____ book you like.</div>",
+          "options": ["whoever", "whatever", "whichever", "however"],
+          "answer": "C",
+          "explanation": "解答：(C) whichever\n解析：在有限的選項中進行選擇，使用 whichever。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ hard he tries, he always fails.</div>",
+          "options": ["Whatever", "However", "Whichever", "Whoever"],
+          "answer": "B",
+          "explanation": "解答：(B) However\n解析：However + 形容詞/副詞，表示「無論多麼...」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I will do ____ it takes to win the game.</div>",
+          "options": ["whatever", "whoever", "whichever", "whenever"],
+          "answer": "A",
+          "explanation": "解答：(A) whatever\n解析：do 後接 whatever 引導的名詞子句，意為「任何事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["Give the prize to whoever you want.", "Give the prize to whomever you want.", "Both (A) and (B) are acceptable in modern English.", "Neither is correct."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：在正式語法中，受格應為 whomever，但現代口語中 whoever 已廣泛被接受。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The book [which I borrowed (that was recommended by my teacher)] is very interesting. The main verb of this sentence is ____.</div>",
+          "options": ["borrowed", "recommended", "is", "which"],
+          "answer": "C",
+          "explanation": "解答：(C) is\n解析：主詞 The book 對應的動詞為 is (is very interesting)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you go, I will be with you.</div>",
+          "options": ["Whenever", "Wherever", "Whatever", "Whoever"],
+          "answer": "B",
+          "explanation": "解答：(B) Wherever\n解析：引導地點副詞子句，意為「無論你到哪裡」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ tells you that is lying.</div>",
+          "options": ["Whomever", "Whatever", "Whoever", "Whichever"],
+          "answer": "C",
+          "explanation": "解答：(C) Whoever\n解析：Whoever 引導名詞子句作主詞，意為「無論是誰」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Please follow the instructions ____ they are written.</div>",
+          "options": ["however", "whatever", "whichever", "whoever"],
+          "answer": "A",
+          "explanation": "解答：(A) however\n解析：意為「無論它們是如何被寫的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(長句拆解) The students [who are studying in the library (which is located on the second floor)] are very quiet. 主詞是 ____。</div>",
+          "options": ["The students", "the library", "the second floor", "quiet"],
+          "answer": "A",
+          "explanation": "解答：(A) The students\n解析：主詞為 The students，動詞為 are (very quiet)。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The students ____ you saw in the library are preparing for the exam.</div>",
+          "options": ["who", "which", "whose", "what"],
+          "answer": "A",
+          "explanation": "解答：(A) who\n解析：先行詞為人 (students)，在子句中作受詞，使用 who 或 whom。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My car, ____ was bought last year, is already broken.</div>",
+          "options": ["that", "which", "what", "where"],
+          "answer": "B",
+          "explanation": "解答：(B) which\n解析：非限定用法 (逗號後) 不可使用 that，先行詞為物使用 which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ you told me yesterday is very important to my project.</div>",
+          "options": ["Which", "The thing which", "What", "That"],
+          "answer": "C",
+          "explanation": "解答：(C) What\n解析：What 引導名詞子句作主詞，意為「你告訴我的事情」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The man ____ father is a famous doctor lives next door.</div>",
+          "options": ["who", "whom", "whose", "which"],
+          "answer": "C",
+          "explanation": "解答：(C) whose\n解析：所有格關係 (男人的父親)，使用 whose。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The house ____ I am living is very small.</div>",
+          "options": ["in which", "in that", "which", "where"],
+          "answer": "A",
+          "explanation": "解答：(A) in which\n解析：I am living in the house，介系詞 + 關代為 in which。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Look at the boy ____ in the garden.</div>",
+          "options": ["who runs", "running", "is running", "ran"],
+          "answer": "B",
+          "explanation": "解答：(B) running\n解析：主動語態分詞修飾，簡化關係子句為現在分詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I will never forget the day ____ we first met.</div>",
+          "options": ["which", "in which", "when", "where"],
+          "answer": "C",
+          "explanation": "解答：(C) when\n解析：時間先行詞 (the day) 使用關係副詞 when。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>____ of the two bikes you choose is fine with me.</div>",
+          "options": ["Whatever", "Whichever", "Whoever", "However"],
+          "answer": "B",
+          "explanation": "解答：(B) Whichever\n解析：有限的選項 (two bikes) 進行選擇，使用 whichever。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The letter ____ by my friend arrived this morning.</div>",
+          "options": ["wrote", "writing", "written", "which written"],
+          "answer": "C",
+          "explanation": "解答：(C) written\n解析：信是被寫的 (被動)，使用過去分詞 (written)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The way how he speaks is strange.", "I don't know the reason why he left.", "This is the apartment in which I live.", "The man, who is my uncle, is coming tomorrow."],
+          "answer": "A",
+          "explanation": "解答：(A) The way how he speaks is strange.\n解析：the way 後面不可接 how，應改為 the way that/in which..."
+        }
+      ]
+    }
+  }
+}

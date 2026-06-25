@@ -393,15 +393,16 @@
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/exam_advanced.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/exam_basic.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/exam_intermediate.json",
-            "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/vocab_advanced.json",
+            "https://raw.githubusercontent.com/less1324-blip/yichentesting/d0234f63130b05788e9012257326d80c57b798d9/vocab_advanced.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/vocab_basic.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/vocab_intermediate.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/%E4%BA%94%E5%A4%A7%E5%8F%A5%E5%9E%8B%E6%96%87%E6%B3%95.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/%E5%85%AB%E5%A4%A7%E8%A9%9E%E9%A1%9E%E6%96%87%E6%B3%95.json",
             "https://raw.githubusercontent.com/less1324-blip/yichentesting/f244b2a14757b2a73b0abb87c4d55927cc5306a2/%E5%8F%A5%E5%9E%8B%E7%B5%90%E6%A7%8B%E6%96%87%E6%B3%95.json",
-            "https://raw.githubusercontent.com/less1324-blip/yichentesting/6f6c66793e4fdd765d8d7af6ee4fac61c1dda9f4/%E5%90%8D%E8%A9%9E%E5%AD%90%E5%8F%A5.json",
-            "https://raw.githubusercontent.com/less1324-blip/yichentesting/6f6c66793e4fdd765d8d7af6ee4fac61c1dda9f4/%E9%97%9C%E4%BF%82%E4%BB%A3%E5%90%8D%E8%A9%9E.json",
-            "https://raw.githubusercontent.com/less1324-blip/yichentesting/39d5d6f2328accbc1d5e28d2718225907d0d3bf2/12%E6%99%82%E6%85%8B.json"
+            "https://raw.githubusercontent.com/less1324-blip/yichentesting/d0234f63130b05788e9012257326d80c57b798d9/12%E6%99%82%E6%85%8B.json",
+            "https://raw.githubusercontent.com/less1324-blip/yichentesting/d0234f63130b05788e9012257326d80c57b798d9/%E5%90%8D%E8%A9%9E%E5%AD%90%E5%8F%A5.json",
+            "https://raw.githubusercontent.com/less1324-blip/yichentesting/d0234f63130b05788e9012257326d80c57b798d9/%E9%97%9C%E4%BF%82%E4%BB%A3%E5%90%8D%E8%A9%9E.json",
+            "https://raw.githubusercontent.com/less1324-blip/yichentesting/d0234f63130b05788e9012257326d80c57b798d9/%E7%89%B9%E6%AE%8A%E5%8B%95%E8%A9%9E.json"
         ].join('\n');
 
         const GRAMMAR_UNITS_DATA = [
@@ -707,7 +708,7 @@
             if (savedState) {
                 try { 
                     userState = { ...userState, ...JSON.parse(savedState) }; 
-                    if (!userState.autoSyncUrl || !userState.autoSyncUrl.includes("f244b2a14757b2a73b0abb87c4d55927cc5306a2")) userState.autoSyncUrl = DEFAULT_SYNC_URLS;
+                    if (!userState.autoSyncUrl || !userState.autoSyncUrl.includes("%E7%89%B9%E6%AE%8A%E5%8B%95%E8%A9%9E")) userState.autoSyncUrl = DEFAULT_SYNC_URLS;
                 } catch(e) {}
             }
             if (savedMainDb) {

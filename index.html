@@ -930,15 +930,21 @@
             const theme = getThemeColors(); const isExamOrGrammar = ['exam', 'grammar'].includes(userState.currentDojo);
             ['list', 'flashcard', 'quiz', 'spelling', 'cloze', 'review', 'admin'].forEach(tab => {
                 const btn = document.getElementById(`tab-btn-${tab}`); if (!btn) return;
-                btn.classList.toggle('hidden', isExamOrGrammar && ['flashcard', 'spelling', 'cloze', 'review'].includes(tab));
-                if (userState.currentTab === tab) btn.className = `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-black text-xs sm:text-sm transition-all duration-200 ${theme.btnTheme} shadow-md`;
-                else btn.className = tab === 'admin' ? `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200 bg-slate-900/60 text-blue-300 hover:text-blue-100 border border-blue-500/20 hover:bg-slate-850` : `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200 bg-slate-900/60 text-slate-400 hover:text-slate-100 border border-slate-800 hover:bg-slate-800/55`;
+                
+                let baseClasses = '';
+                if (userState.currentTab === tab) baseClasses = `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-black text-xs sm:text-sm transition-all duration-200 ${theme.btnTheme} shadow-md`;
+                else if (tab === 'admin') baseClasses = `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200 bg-slate-900/60 text-blue-300 hover:text-blue-100 border border-blue-500/20 hover:bg-slate-850`;
+                else baseClasses = `w-full py-2.5 sm:py-3 px-2 rounded-xl flex items-center justify-center gap-1.5 sm:gap-2 font-bold text-xs sm:text-sm transition-all duration-200 bg-slate-900/60 text-slate-400 hover:text-slate-100 border border-slate-800 hover:bg-slate-800/55`;
+                
+                if (isExamOrGrammar && ['flashcard', 'spelling', 'cloze'].includes(tab)) btn.className = `${baseClasses} hidden`;
+                else btn.className = baseClasses;
             });
         }
 
         function renderContent() {
             const contentDiv = document.getElementById('dojo-content'); let dataList = getActiveDataList();
             if (userState.currentTab === 'admin') { if (!isAdminUnlocked) renderAdminLockScreen(); else renderAdminTab(); return; }
+            if (userState.currentTab === 'review') { renderReviewTab(); return; }
             if (dataList.length === 0) {
                 const theme = getThemeColors(); const unitText = ['affix', 'exam', 'grammar'].includes(userState.currentDojo) ? '' : ` - Unit ${userState.currentUnit}`;
                 contentDiv.innerHTML = `<div class="flex flex-col items-center justify-center py-12 text-slate-400"><div class="p-4 ${theme.bgLight} rounded-full border ${theme.border} mb-4 animate-bounce"><i class="fa-solid fa-folder-open text-5xl ${theme.text}"></i></div><p class="font-extrabold text-slate-200 text-center text-base sm:text-lg">修煉境界 L${userState.currentLevel}${unitText} 目前沒有資料！</p><p class="text-xs text-slate-500 mt-2 max-w-sm text-center leading-relaxed">請點擊下方的「📥 匯入管理」，輸入密碼「yichen」後自訂匯入，或於頂部設定「雲端同步法陣」拉取教師教材！</p><button onclick="switchTab('admin')" class="mt-6 px-6 py-2.5 bg-gradient-to-r ${theme.gradient} hover:opacity-90 text-slate-950 font-bold text-sm rounded-xl transition-all shadow-lg ${theme.shadow} flex items-center gap-2"><i class="fa-solid fa-cloud-arrow-up"></i> 立即解鎖管理後台</button></div>`;
@@ -954,7 +960,7 @@
             switch(userState.currentTab) {
                 case 'list': renderListTab(dataList); break; case 'flashcard': renderFlashcardTab(dataList); break;
                 case 'quiz': renderQuizTab(dataList); break; case 'spelling': renderSpellingTab(dataList); break;
-                case 'cloze': renderClozeTab(dataList); break; case 'review': renderReviewTab(); break;
+                case 'cloze': renderClozeTab(dataList); break;
             }
         }
         

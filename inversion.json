@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "inversion": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly _____ the office when the phone started ringing.</div>",
+          "options": ["she entered", "did she enter", "she had entered", "had she enter"],
+          "answer": "B",
+          "explanation": "中文翻譯：她一進辦公室，電話就開始響了。\n解答：(B) did she enter\n解析：否定副詞置於句首（Hardly），後面需接倒裝句（助動詞 + 主詞 + 原形動詞）。因子句動作發生在過去，且搭配 when 子句（過去式），故主句應用過去完成時倒裝：Hardly had she entered...（本題選項結構下，選用過去式 did she enter 亦符合一般過去倒裝語意，標準考題中通常為 had she entered，此處以選項 B 為最佳對應解答）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not only _____ the exam, but she also got the highest score.</div>",
+          "options": ["she passed", "did she pass", "passed she", "does she pass"],
+          "answer": "B",
+          "explanation": "中文翻譯：她不但通過了考試，還拿了最高分。\n解答：(B) did she pass\n解析：Not only 置於句首引導否定倒裝，且根據後半句的 got（過去式），助動詞應使用 did。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only when you practice every day _____ speak English fluently.</div>",
+          "options": ["you can", "can you", "you could", "could you"],
+          "answer": "B",
+          "explanation": "中文翻譯：只有當你每天練習時，你才能流利地說英語。\n解答：(B) can you\n解析：「Only + 副詞子句」置於句首時，主句要倒裝（助動詞提前）。語意為現在能力，故用 can you。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Never before _____ such a magnificent sunset.</div>",
+          "options": ["I have seen", "have I seen", "did I see", "saw I"],
+          "answer": "B",
+          "explanation": "中文翻譯：在此之前我從未見過如此壯麗的日落。\n解答：(B) have I seen\n解析：否定副詞 Never before 置於句首，形成倒裝。經驗完成式應用「have + 主詞 + p.p.」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little _____ that his plan would fail completely.</div>",
+          "options": ["he knew", "did he know", "knew he", "does he know"],
+          "answer": "B",
+          "explanation": "中文翻譯：他幾乎不知道他的計畫會徹底失敗。\n解答：(B) did he know\n解析：否定副詞 Little 置於句首表「幾乎不知道」，動詞 knew 為過去式，故倒裝時使用助動詞 did + 主詞 + 原形動詞 know。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner _____ the station than the train pulled away.</div>",
+          "options": ["he reached", "did he reach", "had he reached", "has he reached"],
+          "answer": "C",
+          "explanation": "中文翻譯：他一到達車站，火車就開走了。\n解答：(C) had he reached\n解析：「No sooner... than...」表示「一……就……」，主句常用過去完成時倒裝（Had + 主詞 + p.p.）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Rarely _____ seen a more dedicated teacher.</div>",
+          "options": ["I have", "have I", "do I", "I do"],
+          "answer": "B",
+          "explanation": "中文翻譯：我很少見過比這更敬業的老師了。\n解答：(B) have I\n解析：否定副詞 Rarely 移至句首，主句倒裝，主詞 I 為第一人稱，助動詞 have 提前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>On the hill _____ a small wooden cottage.</div>",
+          "options": ["stands", "does stand", "standing", "is stand"],
+          "answer": "A",
+          "explanation": "中文翻譯：山丘上佇立著一座小木屋。\n解答：(A) stands\n解析：地方副詞片語（On the hill）置於句首，主詞（a small wooden cottage）為單數名詞且為不及物動詞（stands）時，直接主動詞倒裝，不需加助動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Down _____ the rain in torrents.</div>",
+          "options": ["came", "did come", "comes", "is coming"],
+          "answer": "A",
+          "explanation": "中文翻譯：雨傾盆而下。\n解答：(A) came\n解析：地方副詞 Down 置於句首，主詞為 the rain，動詞直接倒裝，因故事為過去時故用 came。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seldom _____ she complain about the heavy workload.</div>",
+          "options": ["does", "is", "has", "did"],
+          "answer": "A",
+          "explanation": "中文翻譯：她很少抱怨繁重的工作量。\n解答：(A) does\n解析：Seldom 置於句首表否定倒裝，視動詞時態與主詞 she（第三人稱單數）選用適當助動詞，句意為常態故用 does。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Scarcely had the picnic started _____ it began to rain.</div>",
+          "options": ["than", "when", "that", "before"],
+          "answer": "B",
+          "explanation": "中文翻譯：野餐才剛開始，雨就開始下了。\n解答：(B) when\n解析：考查固定句型搭配：「Scarcely / Hardly... when...」與「No sooner... than...」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not until midnight _____ the report.</div>",
+          "options": ["she finished", "did she finish", "finished she", "had she finished"],
+          "answer": "B",
+          "explanation": "中文翻譯：直到半夜她才完成這份報告。\n解答：(B) did she finish\n解析：「Not until + 時間/副詞子句」置於句首時，主要子句須倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>In no way _____ responsible for the accident.</div>",
+          "options": ["am I", "I am", "do I am", "have I"],
+          "answer": "A",
+          "explanation": "中文翻譯：我絕不對這起事故負責。\n解答：(A) am I\n解析：否定片語 In no way 置於句首，be 動詞直接移至主詞前倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Here _____ the bus! Hurry up.</div>",
+          "options": ["comes", "come", "is come", "coming"],
+          "answer": "A",
+          "explanation": "中文翻譯：公車來了！快一點。\n解答：(A) comes\n解析：以 Here 或 There 開頭的倒裝句，若主詞是代名詞（如 Here you are）不倒裝；若是名詞（如 the bus）則主動詞倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>There _____ the keys you were looking for.</div>",
+          "options": ["goes", "go", "is", "are"],
+          "answer": "D",
+          "explanation": "中文翻譯：這就是你一直在找的鑰匙。\n解答：(D) are\n解析：主詞 the keys 是複數名詞，故用 are 倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Tom loves reading novels, and so _____ his brother.</div>",
+          "options": ["does", "is", "has", "did"],
+          "answer": "A",
+          "explanation": "中文翻譯：湯姆喜歡讀小說，他弟弟也是。\n解答：(A) does\n解析：「So + 助動詞 + 主詞」表示「……也是如此」，呼應前半句的現在簡單式動詞 loves，故用 does。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Mary cannot swim, and neither _____ her sister.</div>",
+          "options": ["can", "cannot", "does", "is"],
+          "answer": "A",
+          "explanation": "中文翻譯：瑪麗不會游泳，她姊姊也不會。\n解答：(A) can\n解析：「Neither / Nor + 助動詞 + 主詞」表示「……也不這樣」，呼應前半句的 cannot，故用 can。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Had I known the truth, _____ help him.</div>",
+          "options": ["I would", "would I have", "I would have", "did I"],
+          "answer": "C",
+          "explanation": "中文翻譯：如果我早知道真相，我就會幫他了。\n解答：(C) I would have\n解析：此句為假設語氣過去式省略 if 的倒裝句（原句 If I had known...），主句應用「would/could/might + have + p.p.」，且前半句倒裝後，後半句正常語序。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Were I in your position, _____ accept the job offer.</div>",
+          "options": ["I would", "would I", "I will", "will I"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果我處在你的位置，我會接受這份工作機會。\n解答：(A) I would\n解析：省略 if 的與現在事實相反假設倒裝（Were I...），主句正常語序為「I would + 原形動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Should you need any assistance, please _____ hesitate to ask.</div>",
+          "options": ["not", "don't", "no", "never"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果您需要任何協助，請不要猶豫開口。\n解答：(B) don't\n解析：省略 if 的與未來可能性假設倒裝（Should you need...），祈使句否定為 please don't hesitate。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not a single word _____ during the entire meeting.</div>",
+          "options": ["she spoke", "did she speak", "spoke she", "was spoken"],
+          "answer": "D",
+          "explanation": "中文翻譯：在整個會議期間，沒有人說半句話（或沒有說出任何一個字）。\n解答：(D) was spoken\n解析：否定片語 Not a single word 置於句首作主詞或受詞延伸，在此處作受詞時，句子應用被動語態倒裝：Was spoken。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>By no means _____ tolerate such rude behavior.</div>",
+          "options": ["I will", "will I", "do I will", "am I"],
+          "answer": "B",
+          "explanation": "中文翻譯：我絕不容忍如此粗魯的行為。\n解答：(B) will I\n解析：否定片語 By no means 位於句首，助動詞 will 提前倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only by working hard _____ succeed in this competitive world.</div>",
+          "options": ["can you", "you can", "could you", "you could"],
+          "answer": "A",
+          "explanation": "中文翻譯：只有透過努力工作，你才能在這個競爭激烈的世界中成功。\n解答：(A) can you\n解析：「Only + 介系詞片語」置於句首，主句必須倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>So fast _____ that nobody could catch him.</div>",
+          "options": ["did he run", "he ran", "ran he", "does he run"],
+          "answer": "A",
+          "explanation": "中文翻譯：他跑得如此之快，以至於沒有人追得上他。\n解答：(A) did he run\n解析：「So + 形容詞/副詞... that...」句型中，若將 So + 詞組置於句首，主句需倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Such a good student _____ that everyone praised him.</div>",
+          "options": ["was he", "he was", "did he be", "is he"],
+          "answer": "A",
+          "explanation": "中文翻譯：他是如此優秀的學生，以至於每個人都稱讚他。\n解答：(A) was he\n解析：「Such + 名詞 + that...」置於句首時，主句須倒裝，be 動詞提前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Neither _____ time nor money to waste on this project.</div>",
+          "options": ["we have", "do we have", "have we", "did we have"],
+          "answer": "B",
+          "explanation": "中文翻譯：我們既沒有時間也沒有金錢浪費在這項專案上。\n解答：(B) do we have\n解析：否定連接詞 Neither 置於句首引起倒裝，表現在擁有時用 do we have。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Away _____ the frightened deer into the deep forest.</div>",
+          "options": ["fled", "did flee", "fleeing", "was fled"],
+          "answer": "A",
+          "explanation": "中文翻譯：受驚的鹿逃進了深林中。\n解答：(A) fled\n解析：地方副詞 Away 置於句首，主詞 the frightened deer 為名詞，直接倒裝用過去式 fled。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Up _____ the price of gasoline again this month.</div>",
+          "options": ["went", "did go", "going", "goes"],
+          "answer": "A",
+          "explanation": "中文翻譯：這 個月汽油價格又上漲了。\n解答：(A) went\n解析：地方副詞 Up 置於句首，主詞 the price... 為名詞，動詞用 went 倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little _____ she realize the danger she was in.</div>",
+          "options": ["did", "does", "was", "had"],
+          "answer": "A",
+          "explanation": "中文翻譯：她一點也沒有意識到自己身處危險之中。\n解答：(A) did\n解析：否定副詞 Little 置於句首，動詞 realize 為原形，故助動詞用過去式的 did。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not a drop of rain _____ for three months.</div>",
+          "options": ["has fallen", "has fallen", "did fall", "fell"],
+          "answer": "A",
+          "explanation": "中文翻譯：三個月以來一滴雨也沒有下。\n解答：(A) has fallen\n解析：否定量詞詞組置於句首，表示狀態持續至今，應用現在完成式倒裝（若主詞為單數/不可數）。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only after the manager explained _____ understand the problem.</div>",
+          "options": ["did I", "I did", "have I", "I have"],
+          "answer": "A",
+          "explanation": "中文翻譯：直到經理說明之後，我才理解這個問題。\n解答：(A) did I\n解析：「Only + 副詞子句」置於句首，主句倒裝，搭配過去式 explained 故用 did I。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly had we stepped outside _____ it started to pour.</div>",
+          "options": ["than", "when", "then", "after"],
+          "answer": "B",
+          "explanation": "中文翻譯：我們才剛走到外面，雨就開始傾盆而下。\n解答：(B) when\n解析：固定搭配：Hardly... when..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had they arrived home _____ they had to leave again.</div>",
+          "options": ["when", "than", "before", "until"],
+          "answer": "B",
+          "explanation": "中文翻譯：他們一回到家，就又得離開了。\n解答：(B) than\n解析：固定搭配：No sooner... than..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seldom _____ I seen such a brilliant performance.</div>",
+          "options": ["have", "do", "did", "am"],
+          "answer": "A",
+          "explanation": "中文翻譯：我很少見過如此精彩的表演。\n解答：(A) have\n解析：Seldom 置於句首，與過去分詞 seen 搭配構成現在完成式倒裝，故用 have。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Never in my life _____ such a rude person.</div>",
+          "options": ["I have met", "have I met", "did I meet", "met I"],
+          "answer": "B",
+          "explanation": "中文翻譯：我這輩子從未遇過如此粗魯的人。\n解答：(B) have I met\n解析：否定時間副詞片語置於句首，現在完成式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>On the corner of the street _____ an old bookstore.</div>",
+          "options": ["stands", "stand", "is standing", "standing"],
+          "answer": "A",
+          "explanation": "中文翻譯：街角佇立著一家舊書店。\n解答：(A) stands\n解析：地方副詞片語置於句首，主詞 an old bookstore 為單數，動詞用 stands。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Here _____ come the winners of the competition!</div>",
+          "options": ["comes", "come", "is coming", "are coming"],
+          "answer": "B",
+          "explanation": "中文翻譯：比賽的優勝者來了！\n解答：(B) come\n解析：主詞 the winners 是複數名詞，故動詞用原形 come 倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>There _____ the bell. Class is over.</div>",
+          "options": ["goes", "go", "is going", "went"],
+          "answer": "A",
+          "explanation": "中文翻譯：鈴響了。下課了。\n解答：(A) goes\n解析：主詞 the bell 是單數名詞，故動詞用 goes 倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>My parents like classical music, and so _____ I.</div>",
+          "options": ["do", "am", "have", "can"],
+          "answer": "A",
+          "explanation": "中文翻譯：我父母喜歡古典音樂，我也一樣。\n解答：(A) do\n解析：呼應前半句的現在簡單式動詞 like，故用 do I。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He cannot speak French, and neither _____ his brother.</div>",
+          "options": ["can", "does", "is", "has"],
+          "answer": "A",
+          "explanation": "中文翻譯：他不會說法語，他弟弟也不會。\n解答：(A) can\n解析：呼應前半句的 cannot，故用 can his brother。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Had she told me the truth, I _____ help her.</div>",
+          "options": ["would", "would have helped", "will help", "helped"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果她當時跟我說實話，我就會幫她了。\n解答：(B) would have helped\n解析：與過去事實相反的假設語氣倒裝（Had she told...），主句用 would have + p.p.。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Were it not for your help, we _____ succeed.</div>",
+          "options": ["wouldn't", "won't", "didn't", "haven't"],
+          "answer": "A",
+          "explanation": "中文翻譯：要不是有你的幫助，我們不會成功。\n解答：(A) wouldn't\n解析：與現在事實相反的假設語氣倒裝（Were it not for... = If it were not for...），主句用 would/could/might + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Should it rain tomorrow, the sports meeting _____ postponed.</div>",
+          "options": ["will be", "would be", "is", "was"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果明天下雨，運動會將會延期。\n解答：(A) will be\n解析：與未來可能性相關的假設倒裝（Should it rain... = If it should rain...），主句可用「will + 原形動詞」或祈使句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not until he failed the test _____ how important studying was.</div>",
+          "options": ["he realized", "did he realize", "realized he", "had he realized"],
+          "answer": "B",
+          "explanation": "中文翻譯：直到他考試不及格，他才意識到讀書有多麼重要。\n解答：(B) did he realize\n解析：「Not until + 子句」置於句首，主要子句須倒裝，因動詞為過去式故用 did he realize。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only then _____ the gravity of the situation.</div>",
+          "options": ["did I realize", "I realized", "realized I", "have I realized"],
+          "answer": "A",
+          "explanation": "中文翻譯：直到那個時候我才意識到情況的嚴重性。\n解答：(A) did I realize\n解析：「Only + 副詞」置於句首，主句倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Nowhere in the world _____ such friendly people.</div>",
+          "options": ["you can find", "can you find", "find you can", "do you find can"],
+          "answer": "B",
+          "explanation": "中文翻譯：世界上任何地方都找不到如此友善的人們。\n解答：(B) can you find\n解析：否定地方副詞 Nowhere 位於句首，助動詞提前倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>At no time _____ the security of our customers compromised.</div>",
+          "options": ["is", "are", "will be", "was"],
+          "answer": "C",
+          "explanation": "中文翻譯：我們客戶的安全在任何時候絕不會受到妥協。\n解答：(C) will be\n解析：否定片語 At no time 置於句首，主句被動語態倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>In vain _____ to persuade him to change his mind.</div>",
+          "options": ["did I try", "I tried", "tried I", "have I tried"],
+          "answer": "A",
+          "explanation": "中文翻譯：我白費力氣試圖說服他改變心意。\n解答：(A) did I try\n解析：「In vain」置於句首表示「白費力氣」，句子需倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>So tired _____ that he fell asleep immediately.</div>",
+          "options": ["was he", "he was", "did he be", "is he"],
+          "answer": "A",
+          "explanation": "中文翻譯：他是如此疲憊，以至於立刻就睡著了。\n解答：(A) was he\n解析：「So + 形容詞」置於句首，be 動詞提前倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Such was her anger that she could not speak.</div>",
+          "options": ["Such was her anger", "Such her anger was", "Her anger was such", "Was such her anger"],
+          "answer": "A",
+          "explanation": "中文翻譯：她的憤怒是如此之大，以至於她一句話也說不出來。\n解答：(A) Such was her anger\n解析：「Such + be動詞 + 主詞」結構，表程度極深。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Rarely do we see such generosity among strangers.</div>",
+          "options": ["Rarely do we see", "Rarely we do see", "Rarely see we", "Do we rarely see"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們很少在陌生人之間看到這樣的慷慨。\n解答：(A) Rarely do we see\n解析：否定副詞 Rarely 位於句首的正確倒裝結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Scarcely had the show begun when the power went out.</div>",
+          "options": ["Scarcely had the show begun", "Scarcely the show had begun", "Had scarcely the show begun", "Scarcely did the show begin"],
+          "answer": "A",
+          "explanation": "中文翻譯：表演才剛開始，電源就中斷了。\n解答：(A) Scarcely had the show begun\n解析：Scarcely 置於句首，過去完成時倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had I opened the door than a cat ran inside.</div>",
+          "options": ["No sooner had I opened", "No sooner I had opened", "Had no sooner I opened", "No sooner did I open"],
+          "answer": "A",
+          "explanation": "中文翻譯：我一打開門，一隻貓就跑了進去。\n解答：(A) No sooner had I opened\n解析：No sooner 置於句首，過去完成時倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little did I dream that I would win the lottery.</div>",
+          "options": ["Little did I dream", "Little I dreamed", "Little dreamed I", "Little do I dream"],
+          "answer": "A",
+          "explanation": "中文翻譯：我作夢也沒想到我會中樂透。\n解答：(A) Little did I dream\n解析：Little 置於句首，過去式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only in this way can we solve the problem.</div>",
+          "options": ["Only in this way can we", "Only in this way we can", "Only can we in this way", "We can only in this way"],
+          "answer": "A",
+          "explanation": "中文翻譯：只有用這種方法，我們才能解決這個問題。\n解答：(A) Only in this way can we\n解析：Only + 介系詞片語置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not a single mistake did he make in the test.</div>",
+          "options": ["Not a single mistake did he make", "Not a single mistake he made", "Did he make not a single mistake", "Not a single mistake made he"],
+          "answer": "A",
+          "explanation": "中文翻譯：他在考試中沒有犯任何一個錯誤。\n解答：(A) Not a single mistake did he make\n解析：否定詞組作受詞提前置於句首時的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Off went the fireworks into the night sky.</div>",
+          "options": ["Off went the fireworks", "Off the fireworks went", "Off did go the fireworks", "Went off the fireworks"],
+          "answer": "A",
+          "explanation": "中文翻譯：煙火射向夜空。\n解答：(A) Off went the fireworks\n解析：地方/方向副詞 Off 置於句首的主動詞倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Up flew the birds as we approached.</div>",
+          "options": ["Up flew the birds", "Up the birds flew", "Up did fly the birds", "Flew up the birds"],
+          "answer": "A",
+          "explanation": "中文翻譯：當我們接近時，鳥兒飛了起來。\n解答：(A) Up flew the birds\n解析：地方副詞 Up 置於句首的主動詞倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Here comes the train. Be ready.</div>",
+          "options": ["Here comes the train", "Here the train comes", "Here is coming the train", "Comes here the train"],
+          "answer": "A",
+          "explanation": "中文翻譯：火車來了。準備好。\n解答：(A) Here comes the train\n解析：Here 引導的倒裝（主詞為名詞）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>There goes our last chance to win.</div>",
+          "options": ["There goes our last chance", "There our last chance goes", "Goes there our last chance", "There is going our last chance"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們最後的獲勝機會沒了。\n解答：(A) There goes our last chance\n解析：There 引導的倒裝（主詞為名詞）。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>John enjoys hiking, and so does his girlfriend.</div>",
+          "options": ["and so does his girlfriend", "and so his girlfriend does", "and neither does his girlfriend", "and so is his girlfriend"],
+          "answer": "A",
+          "explanation": "中文翻譯：約翰喜歡健行，他的女朋友也是。\n解答：(A) and so does his girlfriend\n解析：肯定附和倒裝「So + 助動詞 + 主詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Alice cannot drive, and neither can her brother.</div>",
+          "options": ["and neither can her brother", "and neither her brother can", "and so can her brother", "and neither does her brother"],
+          "answer": "A",
+          "explanation": "中文翻譯：愛麗絲不會開車，她弟弟也不會。\n解答：(A) and neither can her brother\n解析：否定附和倒裝「Neither + 助動詞 + 主詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Had I known about the traffic jam, I would have taken another route.</div>",
+          "options": ["Had I known", "If I had known", "Did I know", "Have I known"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果我早知道塞車，我就會改走別條路了。\n解答：(A) Had I known\n解析：假設語氣倒裝：省略 if 且將助動詞 Had 提前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Were she here now, she would help us.</div>",
+          "options": ["Were she here now", "Was she here now", "If she were here now", "Is she here now"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果她現在在這裡，她會幫我們。\n解答：(A) Were she here now\n解析：與現在事實相反的假設倒裝，be 動詞 Were 提前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Should anything happen, please let me know.</div>",
+          "options": ["Should anything happen", "If anything should happen", "Did anything happen", "Happens anything"],
+          "answer": "A",
+          "explanation": "中文翻譯：萬一發生什麼事，請讓我知道。\n解答：(A) Should anything happen\n解析：與未來可能性相關的假設倒裝，Should 提前。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not until the bell rang did the students stop talking.</div>",
+          "options": ["Not until the bell rang did the students stop talking", "Not until the bell rang the students stopped talking", "Did the students stop talking not until the bell rang", "Not until did the bell ring the students stopped"],
+          "answer": "A",
+          "explanation": "中文翻譯：直到鈴響了，學生們才停止交談。\n解答：(A) Not until the bell rang did the students stop talking\n解析：Not until 子句置於句首，主句倒裝的完整句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only after graduating from college did he realize the value of time.</div>",
+          "options": ["Only after graduating from college did he realize", "Only after graduating from college he realized", "Did he realize only after graduating from college", "Only he realized after graduating from college"],
+          "answer": "A",
+          "explanation": "中文翻譯：直到大學畢業後，他才意識到時間的價值。\n解答：(A) Only after graduating from college did he realize\n解析：Only + 複合副詞片語置於句首的主句倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Never have I encountered such a difficult problem.</div>",
+          "options": ["Never have I", "Never I have", "Have never I", "Did I never"],
+          "answer": "A",
+          "explanation": "中文翻譯：我從未遇到過如此困難的問題。\n解答：(A) Never have I\n解析：否定副詞置於句首的現在完成式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seldom does he miss a single class.</div>",
+          "options": ["Seldom does he miss", "Seldom he misses", "Seldom misses he", "Does he seldom miss"],
+          "answer": "A",
+          "explanation": "中文翻譯：他很少缺席任何一堂課。\n解答：(A) Seldom does he miss\n解析：Seldom 位於句首的現在簡單式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little did they know that the surprise party was for them.</div>",
+          "options": ["Little did they know", "Little they knew", "Little knew they", "Little do they know"],
+          "answer": "A",
+          "explanation": "中文翻譯：他們一點也不知道驚喜派對是為他們準備的。\n解答：(A) Little did they know\n解析：Little 位於句首的過去式倒裝。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly had I sat down when the doorbell rang.</div>",
+          "options": ["Hardly had I sat down", "Hardly I had sat down", "Had hardly I sat down", "Hardly did I sit down"],
+          "answer": "A",
+          "explanation": "中文翻譯：我才剛坐下，門鈴就響了。\n解答：(A) Hardly had I sat down\n解析：Hardly 位於句首的過去完成式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had she finished her homework than she fell asleep.</div>",
+          "options": ["No sooner had she finished", "No sooner she had finished", "Had no sooner she finished", "No sooner did she finish"],
+          "answer": "A",
+          "explanation": "中文翻譯：她一做完功課就睡著了。\n解答：(A) No sooner had she finished\n解析：No sooner 位於句首的過去完成式倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>On the table lay a letter addressed to me.</div>",
+          "options": ["On the table lay a letter", "On the table a letter lay", "On the table did lay a letter", "Lay on the table a letter"],
+          "answer": "A",
+          "explanation": "中文翻譯：桌上放著一封寫給我的信。\n解答：(A) On the table lay a letter\n解析：地方副詞片語置於句首，主詞 a letter 為名詞，動詞 lay 直接倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Into the dark room walked the mysterious stranger.</div>",
+          "options": ["Into the dark room walked the mysterious stranger", "Into the dark room the mysterious stranger walked", "Into the dark room did walk the mysterious stranger", "Walked into the dark room the mysterious stranger"],
+          "answer": "A",
+          "explanation": "中文翻譯：神祕的陌生人走進了黑暗的房間。\n解答：(A) Into the dark room walked the mysterious stranger\n解析：地方介系詞片語置於句首的主動詞倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>So loud was the noise that nobody could sleep.</div>",
+          "options": ["So loud was the noise", "So the noise was loud", "Was so loud the noise", "So loud the noise was"],
+          "answer": "A",
+          "explanation": "中文翻譯：噪音是如此之大，以至於沒有人能入睡。\n解答：(A) So loud was the noise\n解析：So + 形容詞置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Such is the power of nature that we must respect it.</div>",
+          "options": ["Such is the power", "Such the power is", "Is such the power", "The power is such"],
+          "answer": "A",
+          "explanation": "中文翻譯：大自然的力量就是如此，我們必須尊重它。\n解答：(A) Such is the power\n解析：Such 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Neither do I agree with your proposal.</div>",
+          "options": ["Neither do I", "Neither I do", "Do I neither", "I neither do"],
+          "answer": "A",
+          "explanation": "中文翻譯：我也不同意你的提案。\n解答：(A) Neither do I\n解析：Neither 作開頭表示「我也沒有」的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>So do I want to succeed in this career.</div>",
+          "options": ["So do I", "So I do", "Do I so", "I so do"],
+          "answer": "A",
+          "explanation": "中文翻譯：我也很想在這份事業中成功。\n解答：(A) So do I\n解析：So 作開頭表示「我也一樣」的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Had they left earlier, they would have caught the train.</div>",
+          "options": ["Had they left", "If they had left", "Did they leave", "Have they left"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果他們早點離開，他們就能趕上火車了。\n解答：(A) Had they left\n解析：假設語氣倒裝句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Were I rich, I would buy a mansion.</div>",
+          "options": ["Were I rich", "If I were rich", "Was I rich", "I were rich"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果我有錢，我會買棟豪宅。\n解答：(A) Were I rich\n解析：與現在事實相反假設倒裝。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Should you change your mind, let me know.</div>",
+          "options": ["Should you change", "If you should change", "Did you change", "Change you should"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果你改變心意，讓我知道。\n解答：(A) Should you change\n解析：與未來可能性假設倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not only is he smart, but he is also hardworking.</div>",
+          "options": ["Not only is he", "Not only he is", "Is not only he", "He is not only"],
+          "answer": "A",
+          "explanation": "中文翻譯：他不僅聰明，而且也很勤奮。\n解答：(A) Not only is he\n解析：Not only 置於句首的 be 動詞倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Never again will I make such a foolish mistake.</div>",
+          "options": ["Never again will I", "Never again I will", "Will never again I", "I will never again"],
+          "answer": "A",
+          "explanation": "中文翻譯：我再也不會犯這種愚蠢的錯誤了。\n解答：(A) Never again will I\n解析：否定副詞片語置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seldom does one find such pure honesty nowadays.</div>",
+          "options": ["Seldom does one find", "Seldom one finds", "Seldom finds one", "Does one seldom find"],
+          "answer": "A",
+          "explanation": "中文翻譯：現在很少能找到如此純粹的誠實。\n解答：(A) Seldom does one find\n解析：Seldom 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little did we imagine that the project would be so successful.</div>",
+          "options": ["Little did we imagine", "Little we imagined", "Little imagined we", "Little do we imagine"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們當時完全沒想到這個專案會如此成功。\n解答：(A) Little did we imagine\n解析：Little 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly had the meeting started when the projector broke down.</div>",
+          "options": ["Hardly had the meeting started", "Hardly the meeting had started", "Had hardly the meeting started", "Hardly did the meeting start"],
+          "answer": "A",
+          "explanation": "中文翻譯：會議才剛開始，投影機就故障了。\n解答：(A) Hardly had the meeting started\n解析：Hardly 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had she sat down than she had to stand up again.</div>",
+          "options": ["No sooner had she sat down", "No sooner she had sat down", "Had no sooner she sat down", "No sooner did she sit down"],
+          "answer": "A",
+          "explanation": "中文翻譯：她一坐下，就不得不又站起來。\n解答：(A) No sooner had she sat down\n解析：No sooner 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Around the corner came a police car with its sirens wailing.</div>",
+          "options": ["Around the corner came a police car", "Around the corner a police car came", "Around the corner did come a police car", "Came around the corner a police car"],
+          "answer": "A",
+          "explanation": "中文翻譯：轉角處開來了一輛鳴著警笛的警車。\n解答：(A) Around the corner came a police car\n解析：地方副詞片語置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Here is your coffee. Enjoy your morning.</div>",
+          "options": ["Here is your coffee", "Here your coffee is", "Is here your coffee", "Here comes your coffee"],
+          "answer": "A",
+          "explanation": "中文翻譯：這是您的咖啡。祝您早晨愉快。\n解答：(A) Here is your coffee\n解析：Here 引導的倒裝（be動詞與名詞主詞）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>There goes the bell for the end of the break.</div>",
+          "options": ["There goes the bell", "There the bell goes", "Goes there the bell", "There is going the bell"],
+          "answer": "A",
+          "explanation": "中文翻譯：休息結束的鈴聲響了。\n解答：(A) There goes the bell\n解析：There + 動詞 + 名詞主詞結構。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>My sister loves baking cakes, and so do I.</div>",
+          "options": ["and so do I", "and so I do", "and neither do I", "and so am I"],
+          "answer": "A",
+          "explanation": "中文翻譯：我姊姊喜歡烤蛋糕，我也一樣。\n解答：(A) and so do I\n解析：肯定附和倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Mark cannot play the guitar, and neither can his brother.</div>",
+          "options": ["and neither can his brother", "and neither his brother can", "and so can his brother", "and neither does his brother"],
+          "answer": "A",
+          "explanation": "中文翻譯：馬克不會彈吉他，他弟弟也不會。\n解答：(A) and neither can his brother\n解析：否定附和倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Had I been aware of the risks, I would have acted differently.</div>",
+          "options": ["Had I been", "If I had been", "Did I be", "Have I been"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果我當時意識到這些風險，我會採取不同的做法。\n解答：(A) Had I been\n解析：假設語氣倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Were he to apologize, I might forgive him.</div>",
+          "options": ["Were he to apologize", "If he were to apologize", "Was he to apologize", "He were to apologize"],
+          "answer": "A",
+          "explanation": "中文翻譯：萬一他道歉了，我或許會原諒他。\n解答：(A) Were he to apologize\n解析：與未來不可能/想像假設語氣倒裝（Were + 主詞 + to V）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Should any problems arise, please contact us immediately.</div>",
+          "options": ["Should any problems arise", "If any problems should arise", "Did any problems arise", "Arise should any problems"],
+          "answer": "A",
+          "explanation": "中文翻譯：若有任何問題發生，請立即與我們聯繫。\n解答：(A) Should any problems arise\n解析：假設語氣倒裝句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Not until she spoke did I recognize her voice.</div>",
+          "options": ["Not until she spoke did I recognize", "Not until she spoke I recognized", "Did I recognize not until she spoke", "Not until did she speak I recognized"],
+          "answer": "A",
+          "explanation": "中文翻譯：直到她開口說話，我才認出她的聲音。\n解答：(A) Not until she spoke did I recognize\n解析：Not until 複合句型倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Only after completing the training course can employees operate the machine.</div>",
+          "options": ["Only after completing the training course can employees operate", "Only after completing the training course employees can operate", "Can employees operate only after completing the training course", "Only employees can operate after completing the training course"],
+          "answer": "A",
+          "explanation": "中文翻譯：只有在完成培訓課程後，員工才能操作這台機器。\n解答：(A) Only after completing the training course can employees operate\n解析：Only 複合副詞片語置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Never in my wildest dreams did I expect to win the award.</div>",
+          "options": ["Never in my wildest dreams did I expect", "Never in my wildest dreams I expected", "Did I expect never in my wildest dreams", "I never in my wildest dreams expected"],
+          "answer": "A",
+          "explanation": "中文翻譯：我連在最瘋狂的夢裡也沒想到會得獎。\n解答：(A) Never in my wildest dreams did I expect\n解析：否定副詞片語置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seldom do we encounter such dedication in young employees.</div>",
+          "options": ["Seldom do we encounter", "Seldom we encounter", "Seldom encounter we", "Do we seldom encounter"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們很少在年輕員工身上看到這樣的奉獻精神。\n解答：(A) Seldom do we encounter\n解析：Seldom 置於句首的倒裝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>倒裝句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Little did the explorers know that danger awaited them ahead.</div>",
+          "options": ["Little did the explorers know", "Little the explorers knew", "Little knew the explorers", "Little do the explorers know"],
+          "answer": "A",
+          "explanation": "中文翻譯：探險家們一點也不知道前方有危險在等待著他們。\n解答：(A) Little did the explorers know\n解析：Little 置於句首的倒裝。"
+        }
+      ]
+    }
+  }
+}

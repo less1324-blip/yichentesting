@@ -3,7 +3,7 @@
     "Irregular Verbs Table": {
       "1": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>get</b>（得到）的三態變化：</div>",
+          "question": "get (得到)",
           "answers": {
             "base": "get",
             "past": "got",
@@ -12,7 +12,7 @@
           "explanation": "【解答】get - got - gotten (得到)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>give</b>（給）的三態變化：</div>",
+          "question": "give (給)",
           "answers": {
             "base": "give",
             "past": "gave",
@@ -21,7 +21,7 @@
           "explanation": "【解答】give - gave - given (給)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>go</b>（去）的三態變化：</div>",
+          "question": "go (去)",
           "answers": {
             "base": "go",
             "past": "went",
@@ -30,7 +30,7 @@
           "explanation": "【解答】go - went - gone (去)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>grow</b>（成長；種植）的三態變化：</div>",
+          "question": "grow (成長；種植)",
           "answers": {
             "base": "grow",
             "past": "grew",
@@ -39,7 +39,7 @@
           "explanation": "【解答】grow - grew - grown (成長；種植)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hang</b>（掛；吊）的三態變化：</div>",
+          "question": "hang (掛；吊)",
           "answers": {
             "base": "hang",
             "past": "hung",
@@ -48,7 +48,7 @@
           "explanation": "【解答】hang - hung - hung (掛；吊)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>have</b>（有）的三態變化：</div>",
+          "question": "have (有)",
           "answers": {
             "base": "have",
             "past": "had",
@@ -57,7 +57,7 @@
           "explanation": "【解答】have - had - had (有)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hear</b>（聽見）的三態變化：</div>",
+          "question": "hear (聽見)",
           "answers": {
             "base": "hear",
             "past": "heard",
@@ -66,7 +66,7 @@
           "explanation": "【解答】hear - heard - heard (聽見)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hide</b>（隱藏）的三態變化：</div>",
+          "question": "hide (隱藏)",
           "answers": {
             "base": "hide",
             "past": "hid",
@@ -75,7 +75,7 @@
           "explanation": "【解答】hide - hid - hidden (隱藏)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hit</b>（打擊）的三態變化：</div>",
+          "question": "hit (打擊)",
           "answers": {
             "base": "hit",
             "past": "hit",
@@ -84,17 +84,18 @@
           "explanation": "【解答】hit - hit - hit (打擊)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hold</b>（掌握）的三態變化：</div>",
+          "question": "hold (掌握)",
           "answers": {
             "base": "hold",
             "past": "held",
             "past_participle": "held"
           },
           "explanation": "【解答】hold - held - held (掌握)"
-       ],
-       "2": [
+        }
+      ],
+      "2": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>hurt</b>（傷害）的三態變化：</div>",
+          "question": "hurt (傷害)",
           "answers": {
             "base": "hurt",
             "past": "hurt",
@@ -103,7 +104,7 @@
           "explanation": "【解答】hurt - hurt - hurt (傷害)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>keep</b>（保持）的三態變化：</div>",
+          "question": "keep (保持)",
           "answers": {
             "base": "keep",
             "past": "kept",
@@ -112,7 +113,7 @@
           "explanation": "【解答】keep - kept - kept (保持)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>know</b>（知道）的三態變化：</div>",
+          "question": "know (知道)",
           "answers": {
             "base": "know",
             "past": "knew",
@@ -121,7 +122,7 @@
           "explanation": "【解答】know - knew - known (知道)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>lead</b>（引導）的三態變化：</div>",
+          "question": "lead (引導)",
           "answers": {
             "base": "lead",
             "past": "led",
@@ -130,7 +131,7 @@
           "explanation": "【解答】lead - led - led (引導)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>leave</b>（離開）的三態變化：</div>",
+          "question": "leave (離開)",
           "answers": {
             "base": "leave",
             "past": "left",
@@ -139,7 +140,7 @@
           "explanation": "【解答】leave - left - left (離開)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>lend</b>（借出）的三態變化：</div>",
+          "question": "lend (借出)",
           "answers": {
             "base": "lend",
             "past": "lent",
@@ -148,7 +149,7 @@
           "explanation": "【解答】lend - lent - lent (借出)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>let</b>（讓）的三態變化：</div>",
+          "question": "let (讓)",
           "answers": {
             "base": "let",
             "past": "let",
@@ -157,7 +158,7 @@
           "explanation": "【解答】let - let - let (讓)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>lose</b>（失去）的三態變化：</div>",
+          "question": "lose (失去)",
           "answers": {
             "base": "lose",
             "past": "lost",
@@ -166,7 +167,7 @@
           "explanation": "【解答】lose - lost - lost (失去)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>make</b>（製造）的三態變化：</div>",
+          "question": "make (製造)",
           "answers": {
             "base": "make",
             "past": "made",
@@ -175,7 +176,7 @@
           "explanation": "【解答】make - made - made (製造)"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Verb Forms</span></div><div class='font-bold text-lg'>請填寫動詞 <b>mean</b>（意指）的三態變化：</div>",
+          "question": "mean (意指)",
           "answers": {
             "base": "mean",
             "past": "meant",

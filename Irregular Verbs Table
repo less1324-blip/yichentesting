@@ -3,61 +3,61 @@
     "Irregular Verbs Table": {
       "1": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>get</b>（得到）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>get</b>（得到）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["get - got - gotten", "get - getted - getted", "get - got - got", "get - gotten - gotten"],
           "answer": "A",
           "explanation": "解答：(A) get - got - gotten\n解析：get（得到）的三態變化為 get - got - gotten。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>give</b>（給）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>give</b>（給）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["give - gived - gived", "give - gave - given", "give - given - gave", "give - gave - gave"],
           "answer": "B",
           "explanation": "解答：(B) give - gave - given\n解析：give（給）的三態變化為 give - gave - given。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>go</b>（去）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>go</b>（去）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["go - goed - goed", "go - gone - went", "go - went - gone", "go - went - went"],
           "answer": "C",
           "explanation": "解答：(C) go - went - gone\n解析：go（去）的三態變化為 go - went - gone。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>grow</b>（成長；種植）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>grow</b>（成長；種植）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["grow - grew - grown", "grow - growed - growed", "grow - grown - grew", "grow - grew - grew"],
           "answer": "A",
           "explanation": "解答：(A) grow - grew - grown\n解析：grow（成長；種植）的三態變化為 grow - grew - grown。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hang</b>（掛；吊）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hang</b>（掛；吊）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hang - hanged - hanged", "hang - hung - hung", "hang - hung - hungen", "hang - hange - hange"],
           "answer": "B",
           "explanation": "解答：(B) hang - hung - hung\n解析：hang（掛；吊）的三態變化為 hang - hung - hung。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>have</b>（有）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>have</b>（有）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["have - haved - haved", "have - had - haven", "have - had - had", "have - has - had"],
           "answer": "C",
           "explanation": "解答：(C) have - had - had\n解析：have（有）的三態變化為 have - had - had。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hear</b>（聽見）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hear</b>（聽見）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hear - heard - heard", "hear - heared - heared", "hear - heard - hearden", "hear - hear - hear"],
           "answer": "A",
           "explanation": "解答：(A) hear - heard - heard\n解析：hear（聽見）的三態變化為 hear - heard - heard。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hide</b>（隱藏）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hide</b>（隱藏）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hide - hided - hided", "hide - hid - hid", "hide - hid - hidden", "hide - hidden - hid"],
           "answer": "C",
           "explanation": "解答：(C) hide - hid - hidden\n解析：hide（隱藏）的三態變化為 hide - hid - hidden。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hit</b>（打擊）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hit</b>（打擊）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hit - hitted - hitted", "hit - hit - hit", "hit - hat - hot", "hit - hit - hitten"],
           "answer": "B",
           "explanation": "解答：(B) hit - hit - hit\n解析：hit（打擊）的三態變化為 hit - hit - hit（三態同形）。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hold</b>（掌握）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hold</b>（掌握）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hold - held - held", "hold - holded - holded", "hold - held - holden", "hold - hold - hold"],
           "answer": "A",
           "explanation": "解答：(A) hold - held - held\n解析：hold（掌握）的三態變化為 hold - held - held。"
@@ -65,61 +65,61 @@
       ],
       "2": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>hurt</b>（傷害）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>hurt</b>（傷害）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["hurt - hurt - hurt", "hurt - hurted - hurted", "hurt - hart - hurt", "hurt - hurt - hurn"],
           "answer": "A",
           "explanation": "解答：(A) hurt - hurt - hurt\n解析：hurt（傷害）的三態變化為 hurt - hurt - hurt（三態同形）。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>keep</b>（保持）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>keep</b>（保持）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["keep - keeped - keeped", "keep - kept - kept", "keep - kept - keepen", "keep - keep - keep"],
           "answer": "B",
           "explanation": "解答：(B) keep - kept - kept\n解析：keep（保持）的三態變化為 keep - kept - kept。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>know</b>（知道）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>know</b>（知道）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["know - knowed - knowed", "know - knew - knew", "know - knew - known", "know - known - knew"],
           "answer": "C",
           "explanation": "解答：(C) know - knew - known\n解析：know（知道）的三態變化為 know - knew - known。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>lead</b>（引導）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>lead</b>（引導）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["lead - led - led", "lead - leaded - leaded", "lead - led - leden", "lead - lead - lead"],
           "answer": "A",
           "explanation": "解答：(A) lead - led - led\n解析：lead（引導）的三態變化為 lead - led - led。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>leave</b>（離開）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>leave</b>（離開）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["leave - leaved - leaved", "leave - left - leften", "leave - left - left", "leave - leave - leave"],
           "answer": "C",
           "explanation": "解答：(C) leave - left - left\n解析：leave（離開）的三態變化為 leave - left - left。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>lend</b>（借出）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>lend</b>（借出）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["lend - lended - lended", "lend - lent - lent", "lend - lent - lenden", "lend - land - land"],
           "answer": "B",
           "explanation": "解答：(B) lend - lent - lent\n解析：lend（借出）的三態變化為 lend - lent - lent。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>let</b>（讓）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>let</b>（讓）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["let - let - let", "let - letted - letted", "let - lat - lat", "let - let - letten"],
           "answer": "A",
           "explanation": "解答：(A) let - let - let\n解析：let（讓）的三態變化為 let - let - let（三態同形）。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>lose</b>（失去）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>lose</b>（失去）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["lose - losed - losed", "lose - lost - loosen", "lose - lost - lost", "lose - lose - lose"],
           "answer": "C",
           "explanation": "解答：(C) lose - lost - lost\n解析：lose（失去）的三態變化為 lose - lost - lost。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>make</b>（製造）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>make</b>（製造）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["make - maked - maked", "make - made - made", "make - mad - mad", "make - made - maden"],
           "answer": "B",
           "explanation": "解答：(B) make - made - made\n解析：make（製造）的三態變化為 make - made - made。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>請選出動詞 <b>mean</b>（意指）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>三態表 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 觀念暖身</span></div><div class='font-bold text-lg'>請選出動詞 <b>mean</b>（意指）正確的三態變化 (原形 - 過去式 - 過去分詞)：</div>",
           "options": ["mean - meant - meant", "mean - meaned - meaned", "mean - meant - meanen", "mean - moan - moan"],
           "answer": "A",
           "explanation": "解答：(A) mean - meant - meant\n解析：mean（意指）的三態變化為 mean - meant - meant。"

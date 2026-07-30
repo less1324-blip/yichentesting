@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "adv_clause": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>When I was a child, I _____ in a small village.</div>",
+          "options": ["live", "lived", "have lived", "had lived"],
+          "answer": "B",
+          "explanation": "中文翻譯：當我還是個孩子的時候，我住在一個小村莊裡。\n解答：(B) lived\n解析：句首有 when I was a child（當我還是個孩子時）這個過去時間副詞子句，主要子句的時態也必須使用過去式 lived。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She was reading a book _____ her brother was playing video games.</div>",
+          "options": ["while", "after", "because", "until"],
+          "answer": "A",
+          "explanation": "中文翻譯：當她弟弟在打電動時，她正在看書。\n解答：(A) while\n解析：while 用於連接兩個同時進行的動作，且子句動詞用進行式（was playing），表示「當……同時」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ time went by, they realized the importance of education.</div>",
+          "options": ["Although", "As", "Unless", "Before"],
+          "answer": "B",
+          "explanation": "中文翻譯：隨著時間流逝，他們意識到了教育的重要性。\n解答：(B) As\n解析：As 在此表示「隨著」，引導時間或伴隨的副詞子句，意即「隨著時間流逝」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Please wash your hands _____ you eat dinner.</div>",
+          "options": ["after", "before", "since", "although"],
+          "answer": "B",
+          "explanation": "中文翻譯：吃晚餐前請先洗手。\n解答：(B) before\n解析：根據常識，吃飯前（before）要洗手。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He went straight to bed _____ he finished his homework.</div>",
+          "options": ["before", "until", "after", "unless"],
+          "answer": "C",
+          "explanation": "中文翻譯：他一完成家庭作業後，就直接去上床睡覺了。\n解答：(C) after\n解析：句意為「他一完成家庭作業後，就直接去上床睡覺了」，after 表示「在……之後」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I have known her _____ we were in high school.</div>",
+          "options": ["since", "for", "when", "until"],
+          "answer": "A",
+          "explanation": "中文翻譯：自從我們上高中以來，我就認識她了。\n解答：(A) since\n解析：主要子句使用現在完成式（have known），搭配 since 引導過去某個時間點（we were in high school）的副詞子句，意指「自從……以來」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>You must wait here _____ the rain stops.</div>",
+          "options": ["when", "until", "because", "although"],
+          "answer": "B",
+          "explanation": "中文翻譯：你必須在這裡等，直到雨停為止。\n解答：(B) until\n解析：until 表示「直到……為止」，用來連接持續到某個時間點的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ the boss arrived, everyone started working hard.</div>",
+          "options": ["As soon as", "Although", "Unless", "Because"],
+          "answer": "A",
+          "explanation": "中文翻譯：老闆一到，大家就開始努力工作。\n解答：(A) As soon as\n解析：As soon as 表示「一……就……」，引導時間副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ you understand the rule, it is very easy.</div>",
+          "options": ["Once", "Before", "Although", "Until"],
+          "answer": "A",
+          "explanation": "中文翻譯：一旦你理解了這條規則，它就非常簡單。\n解答：(A) Once\n解析：Once 在此作連接詞用，表示「一旦……」，引導條件副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>By the time we reached the station, the train _____ already left.</div>",
+          "options": ["has", "had", "would have", "was"],
+          "answer": "B",
+          "explanation": "中文翻譯：等我們到達車站時，火車已經開走了。\n解答：(B) had\n解析：By the time 引導的過去時間副詞子句中動詞用過去式（reached），主要子句表示「在過去某個時間點之前已經完成的動作」，需用過去完成式（had + p.p.）。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ time I hear this song, I think of my grandmother.</div>",
+          "options": ["Every", "All", "Every time", "Each"],
+          "answer": "C",
+          "explanation": "中文翻譯：每當我聽到這首歌時，我就會想起我的祖母。\n解答：(C) Every time\n解析：Every time（每次當……時）可用作連接詞引導副詞子句，等同於 whenever。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ she saw her son, she burst into tears.</div>",
+          "options": ["The moment", "While", "Although", "Unless"],
+          "answer": "A",
+          "explanation": "中文翻譯：她一看到她的兒子，就放聲大哭起來。\n解答：(A) The moment\n解析：The moment（一……就……）在此作為連接詞引導時間副詞子句，相當於 as soon as。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ it was raining heavily, we canceled the picnic.</div>",
+          "options": ["Because", "Because of", "Although", "If"],
+          "answer": "A",
+          "explanation": "中文翻譯：因為雨下得很大，我們取消了野餐。\n解答：(A) Because\n解析：空格後接「主詞 + 動詞」的完整子句（it was raining heavily），因此需用連接詞 Because，而 Because of 後方只能接名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ you are free now, could you help me with this report?</div>",
+          "options": ["Since", "Although", "Unless", "Before"],
+          "answer": "A",
+          "explanation": "中文翻譯：既然你現在有空，可以幫我處理一下這份報告嗎？\n解答：(A) Since\n解析：Since 在此表示「既然」，引導原因副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ he was late for the meeting, he missed the introduction.</div>",
+          "options": ["As", "Although", "If", "While"],
+          "answer": "A",
+          "explanation": "中文翻譯：因為他開會遲到了，所以錯過了開場介紹。\n解答：(A) As\n解析：As 在此表示「因為」，引導原因副詞子句，相當於 because。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ that you have grown up, you should be responsible for your actions.</div>",
+          "options": ["Now", "Since", "Because", "Now that"],
+          "answer": "D",
+          "explanation": "中文翻譯：既然你已經長大了，你應該為你的行為負責。\n解答：(D) Now that\n解析：Now that（既然……）是固定片語連接詞，用來引導原因副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>If it rains tomorrow, we _____ the sports meeting.</div>",
+          "options": ["postpone", "will postpone", "postponed", "would postpone"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果明天下雨，我們將會延期運動會。\n解答：(B) will postpone\n解析：條件副詞子句（If it rains tomorrow）遵循「條件句用現在式代替未來式，主要子句用未來式（will + 原形動詞）」的規則。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>You will fail the exam _____ you study harder.</div>",
+          "options": ["if", "unless", "although", "because"],
+          "answer": "B",
+          "explanation": "中文翻譯：除非你更努力讀書，否則你考試會不及格。\n解答：(B) unless\n解析：unless 意指「除非」，相當於 if... not，用來引導條件副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>You can borrow my car _____ you drive safely.</div>",
+          "options": ["as long as", "unless", "although", "because"],
+          "answer": "A",
+          "explanation": "中文翻譯：只要你安全駕駛，你就可以借我的車。\n解答：(A) as long as\n解析：as long as 意指「只要」，用來引導條件副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ he is very rich, he lives a very simple life.</div>",
+          "options": ["Because", "Although", "Unless", "If"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然他很有錢，但他過著非常簡樸的生活。\n解答：(B) Although\n解析：前後文意構成轉折對比（有錢卻過得簡樸），因此使用表示「雖然」的 Although 引導讓步副詞子句。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Though the task was difficult, they _____ it on time.</div>",
+          "options": ["complete", "completed", "completing", "had completed"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然任務很困難，但他們準時完成了。\n解答：(B) completed\n解析：讓步副詞子句中使用了過去式（was），主要子句敘述過去發生的動作，也需使用過去式 completed。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Even though I apologized, she _____ still angry with me.</div>",
+          "options": ["is", "was", "has been", "were"],
+          "answer": "B",
+          "explanation": "中文翻譯：儘管我道歉了，她對我還是很生氣。\n解答：(B) was\n解析：句首的 apologized 是過去式，整句敘述過去的狀態，故主動詞也應搭配過去式 was（she 為單數主詞）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He put on a heavy coat so that he _____ catch a cold.</div>",
+          "options": ["won't", "wouldn't", "doesn't", "isn't"],
+          "answer": "B",
+          "explanation": "中文翻譯：他穿上厚大衣，以便才不會感冒。\n解答：(B) wouldn't\n解析：so that（以便……）引導目的副詞子句，當主要子句為過去式（put 為過去式）時，子句中的助動詞通常使用過去式（wouldn't）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She left her keys _____ she could easily find them.</div>",
+          "options": ["which", "where", "what", "that"],
+          "answer": "B",
+          "explanation": "中文翻譯：她把鑰匙放在她能輕易找到的地方。\n解答：(B) where\n解析：where 在此作連接詞用，引導地方副詞子句，表示「在……的地方」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Do _____ I tell you, and everything will be fine.</div>",
+          "options": ["as", "like", "that", "which"],
+          "answer": "A",
+          "explanation": "中文翻譯：照我告訴你的去做，一切都會沒事的。\n解答：(A) as\n解析：as 在此作連接詞，引導方式副詞子句，表示「照……一樣／如同」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>While I respect your opinion, I _____ agree with your decision.</div>",
+          "options": ["can", "cannot", "will", "do"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然我尊重你的意見，但我無法同意你的決定。\n解答：(B) cannot\n解析：While 在此引導讓步副詞子句（意指「雖然」），前後文意形成強烈對比，故主要子句應填入否定含意的 cannot。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>John is outgoing and talkative, _____ his brother is quiet and shy.</div>",
+          "options": ["whereas", "because", "if", "unless"],
+          "answer": "A",
+          "explanation": "中文翻譯：約翰外向且話多，而他的兄弟卻安靜又害羞。\n解答：(A) whereas\n解析：whereas 表示「然而、反之」，用來引導對比的副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No matter what happens, I _____ always support you.</div>",
+          "options": ["would", "will", "did", "have"],
+          "answer": "B",
+          "explanation": "中文翻譯：無論發生什麼事，我都會永遠支持你。\n解答：(B) will\n解析：No matter what 引導讓步副詞子句，主要子句表達未來的承諾或決定，使用 will。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whatever you decide to do, make sure you think it _____.</div>",
+          "options": ["over", "out", "through", "up"],
+          "answer": "C",
+          "explanation": "中文翻譯：無論你決定做什麼，確保你把它想透徹。\n解答：(C) through\n解析：think through 為固定片語，意指「想透徹、深思熟慮」；think over 則是指「仔細考慮（某事）」，但在句尾接代名詞時常以 think it through 或 think it over 表達，這裡以 think it through 最為精確貼切。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Take an umbrella with you _____ it rains in the afternoon.</div>",
+          "options": ["in case", "unless", "although", "so that"],
+          "answer": "A",
+          "explanation": "中文翻譯：隨身帶把傘，以防下午下雨。\n解答：(A) in case\n解析：in case 意指「以防萬一」，用來引導條件副詞子句。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>We can go on the trip provided _____ we finish our project this week.</div>",
+          "options": ["that", "if", "when", "whether"],
+          "answer": "A",
+          "explanation": "中文翻譯：只要我們這週完成專案，我們就可以去旅行。\n解答：(A) that\n解析：provided that（或 providing that）為固定片語連接詞，意指「假如、只要」，用來引導條件副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Supposing you _____ the lottery, what will you do with the money?</div>",
+          "options": ["win", "won", "winning", "had won"],
+          "answer": "B",
+          "explanation": "中文翻譯：假設你中樂透了，你會怎麼用這筆錢？\n解答：(B) won\n解析：Supposing（that）意指「假設」，用來引導假設語氣的條件副詞子句；對現在或未來的不實假設，子句動詞需用過去式 won。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She spoke in a whisper for fear that she _____ wake the baby.</div>",
+          "options": ["might", "must", "will", "can"],
+          "answer": "A",
+          "explanation": "中文翻譯：她低聲耳語，深怕吵醒了寶寶。\n解答：(A) might\n解析：for fear that 意指「唯恐、以免」，引導目的副詞子句，助動詞通常使用 should 或 might（表過去可能性）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He studied day and night lest he _____ fail the final exam.</div>",
+          "options": ["should", "will", "can", "may"],
+          "answer": "A",
+          "explanation": "中文翻譯：他日夜苦讀，以免期末考不及格。\n解答：(A) should\n解析：lest 意指「唯恐、以免」，引導目的副詞子句，其後方子句通常使用 should + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The box was _____ heavy that nobody could lift it.</div>",
+          "options": ["such", "so", "too", "very"],
+          "answer": "B",
+          "explanation": "中文翻譯：這個箱子太重了，以至於沒有人搬得動它。\n解答：(B) so\n解析：本句為「so + 形容詞/副詞 + that...」結構，用來引導結果副詞子句，表示「如此……以至於……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was _____ a beautiful day that we decided to go to the beach.</div>",
+          "options": ["so", "such", "very", "too"],
+          "answer": "B",
+          "explanation": "中文翻譯：那是一個如此美好的日子，以至於我們決定去海灘。\n解答：(B) such\n解析：本句為「such + a/an + 形容詞 + 名詞 + that...」結構，用來引導結果副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>You can sit _____ you like in this auditorium.</div>",
+          "options": ["wherever", "whatever", "however", "whenever"],
+          "answer": "A",
+          "explanation": "中文翻譯：在這個禮堂裡，你想坐哪裡就可以坐哪裡。\n解答：(A) wherever\n解析：wherever 引導地方副詞子句，意指「無論在哪裡／任何地方」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He looked as if he _____ seen a ghost.</div>",
+          "options": ["has", "had", "would have", "has had"],
+          "answer": "B",
+          "explanation": "中文翻譯：他看起來好像見過鬼似的。\n解答：(B) had\n解析：as if（彷彿、好像）引導方式副詞子句，用來表達與過去事實相反的假設語氣，故需使用過去完成式（had + p.p.）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Health is more important _____ wealth.</div>",
+          "options": ["as", "than", "to", "that"],
+          "answer": "B",
+          "explanation": "中文翻譯：健康比財富更重要。\n解答：(B) than\n解析：本句為比較級句型（more important），其後搭配連接詞 than 引導比較副詞子句／比較結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She is _____ smart as her older sister.</div>",
+          "options": ["so", "as", "too", "more"],
+          "answer": "B",
+          "explanation": "中文翻譯：她和她姊姊一樣聰明。\n解答：(B) as\n解析：原級比較句型為「as + 原級形容詞/副詞 + as」，句中空格處需填入 as。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly had I stepped outside _____ it started to pour.</div>",
+          "options": ["than", "when", "then", "before"],
+          "answer": "B",
+          "explanation": "中文翻譯：我一走到外面，雨就開始傾盆而下。\n解答：(B) when\n解析：句型為「Hardly + 過去完成式（倒裝句）... when + 過去式」，意指「一……就……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had the game started _____ the lights went out.</div>",
+          "options": ["when", "than", "before", "after"],
+          "answer": "B",
+          "explanation": "中文翻譯：比賽一開始，燈就熄滅了。\n解答：(B) than\n解析：句型為「No sooner + 過去完成式（倒裝句）... than + 過去式」，意指「一……就……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Each time I visit this town, I _____ something new.</div>",
+          "options": ["discover", "discovered", "will discover", "have discovered"],
+          "answer": "A",
+          "explanation": "中文翻譯：每次我造訪這座城鎮，我都會發現一些新事物。\n解答：(A) discover\n解析：Each time（每次當……時）引導時間副詞子句，描述常態或習慣，主句與從屬子句均使用現在式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The instant the bell rang, the students _____ out of the classroom.</div>",
+          "options": ["rush", "rushed", "are rushing", "have rushed"],
+          "answer": "B",
+          "explanation": "中文翻譯：鈴聲一響，學生們就衝出了教室。\n解答：(B) rushed\n解析：The instant（一……就……）引導時間副詞子句；根據子句的過去式 rang，主句動作也發生在過去，故使用 rushed。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Seeing _____ the weather is fine, let's go hiking.</div>",
+          "options": ["that", "if", "whether", "as"],
+          "answer": "A",
+          "explanation": "中文翻譯：既然天氣很好，我們去健行吧。\n解答：(A) that\n解析：Seeing that（或 Seeing as）為固定片語，意指「既然、由於」，用來引導原因副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Language differs from animal communication in _____ humans can express abstract ideas.</div>",
+          "options": ["which", "that", "what", "how"],
+          "answer": "B",
+          "explanation": "中文翻譯：語言不同於動物溝通的地方在於人類能夠表達抽象概念。\n解答：(B) that\n解析：in that 為固定片語連接詞，意指「在於……、因為」，用來引導說明限制或原因的副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The committee approved the plan on the _____ that it was cost-effective.</div>",
+          "options": ["grounds", "reason", "condition", "purpose"],
+          "answer": "A",
+          "explanation": "中文翻譯：委員會批准該計畫，其理由是它具成本效益。\n解答：(A) grounds\n解析：on the grounds that 為固定片語，意指「基於……理由／根據……」，引導原因副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>You are allowed to join the club on _____ that you attend all meetings.</div>",
+          "options": ["condition", "terms", "rule", "demand"],
+          "answer": "A",
+          "explanation": "中文翻譯：只要你出席所有會議，就允許你加入社團。\n解答：(A) condition\n解析：on condition that 為固定片語，意指「在……條件下／只要」，用來引導條件副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whether you like it _____ not, you have to finish this task.</div>",
+          "options": ["and", "or", "but", "nor"],
+          "answer": "B",
+          "explanation": "中文翻譯：不管你喜不喜歡，你都必須完成這項任務。\n解答：(B) or\n解析：Whether... or not 為固定對應連接詞結構，意指「無論是否……」，引導讓步副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whenever you need help, don't _____ to call me.</div>",
+          "options": ["hesitate", "stop", "refuse", "fail"],
+          "answer": "A",
+          "explanation": "中文翻譯：每當你需要幫助時，不要猶豫打電話給我。\n解答：(A) hesitate\n解析：don't hesitate to do sth 為常用片語，意指「不要遲疑／別猶豫去做某事」；Whenever 引導時間副詞子句意指「每當」。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ his work early, he went home.</div>",
+          "options": ["Finished", "Having finished", "Finishing", "To finish"],
+          "answer": "B",
+          "explanation": "中文翻譯：由於提早做完工作，他回家了。\n解答：(B) Having finished\n解析：分詞構句中，因「完成工作」的動作發生在「回家」之前，且主詞為同一人（he），故使用現在分詞完成式（Having + p.p.）來表達先後順序。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ down the street, she met an old friend.</div>",
+          "options": ["Walked", "Walking", "Walk", "Having walked"],
+          "answer": "B",
+          "explanation": "中文翻譯：走在街上時，她遇到了一位老朋友。\n解答：(B) Walking\n解析：分詞構句表同時進行的主動動作，原句為 While she was walking down the street...，簡化後成為現在分詞片語 Walking down the street。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Weather _____, we will hold the party outdoors.</div>",
+          "options": ["permit", "permitting", "permitted", "permits"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果天氣允許，我們將在戶外舉辦派對。\n解答：(B) permitting\n解析：本題為獨立分詞構句（Independent Participle Construction），因語意上天氣是「主動允許」，故使用現在分詞 permitting（相當於 If weather permits）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Tired as he _____, he kept on working.</div>",
+          "options": ["is", "was", "be", "were"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然他很累，但他還是繼續工作。\n解答：(B) was\n解析：本句為「形容詞/副詞 + as + 主詞 + 動詞」的讓步副詞子句倒裝結構（原句為 Although he was tired）；根據下文的過去式 kept，此處動詞應搭配過去式 was。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Though _____ twice, he didn't give up.</div>",
+          "options": ["failed", "having failed", "failing", "fails"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然失敗了兩次，但他沒有放棄。\n解答：(B) having failed\n解析：讓步副詞子句中省略了主詞 he，因「失敗」發生在「放棄」之前，故使用完成式分詞結構（Having failed）來強調過去的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ a prize, she smiled brightly.</div>",
+          "options": ["Giving", "Given", "Give", "To give"],
+          "answer": "B",
+          "explanation": "中文翻譯：被授予獎項時，她笑得燦爛。\n解答：(B) Given\n解析：分詞構句表被動語意（她被給予獎項），原句為 When she was given a prize...，簡化後保留過去分詞 Given。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>When _____ a child, he loved drawing.</div>",
+          "options": ["is", "was", "a", "being"],
+          "answer": "D",
+          "explanation": "中文翻譯：當他還是個孩子時，他很喜歡畫畫。\n解答：(D) being\n解析：連接詞後直接接名詞補語的分詞構句，原句為 When he was a child...，省略主詞並將動詞改為現在分詞 being（亦可省略 being 直接寫 When a child）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Come early if _____.</div>",
+          "options": ["possible", "possibly", "possibility", "it possible"],
+          "answer": "A",
+          "explanation": "中文翻譯：如果可能的話，請早點來。\n解答：(A) possible\n解析：if possible 為常見的條件副詞子句省略句型，原句為 if it is possible，省略了主詞與 be 動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No sooner had she arrived home _____ the phone rang.</div>",
+          "options": ["when", "than", "then", "before"],
+          "answer": "B",
+          "explanation": "中文翻譯：她一回到家，電話就響了。\n解答：(B) than\n解析：固定句型「No sooner + 過去完成式（倒裝句）... than + 過去式」，意指「一……就……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Scarcely had we sat down _____ the movie began.</div>",
+          "options": ["than", "when", "then", "after"],
+          "answer": "B",
+          "explanation": "中文翻譯：我們剛坐下，電影就開始了。\n解答：(B) when\n解析：固定句型「Scarcely/Hardly + 過去完成式（倒裝句）... when/before + 過去式」，意指「一……就……」。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ hard you try, you cannot finish it in one hour.</div>",
+          "options": ["Whatever", "However", "Whenever", "Wherever"],
+          "answer": "B",
+          "explanation": "中文翻譯：不管你有多努力，你都無法在一個小時內完成它。\n解答：(B) However\n解析：However（無論多麼……）在此引導讓步副詞子句，結構為「However + 形容詞/副詞 + 主詞 + 動詞」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ comes to the office should sign in at the front desk.</div>",
+          "options": ["Whomever", "Whoever", "Whichever", "Whatever"],
+          "answer": "B",
+          "explanation": "中文翻譯：任何來到辦公室的人都應該在前台簽到。\n解答：(B) Whoever\n解析：Whoever 引導名詞子句作主詞，且在子句（comes to the office）中作主格。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ you invite to the party will be welcome.</div>",
+          "options": ["Whoever", "Whomever", "Whichever", "Whatever"],
+          "answer": "B",
+          "explanation": "中文翻譯：你邀請去派對的任何人都會受到歡迎。\n解答：(B) Whomever\n解析：Whomever 引導名詞子句作主詞，且在子句（you invite...）中作動詞 invite 的受格。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ you go, I will follow you.</div>",
+          "options": ["Wherever", "Whatever", "However", "Whenever"],
+          "answer": "A",
+          "explanation": "中文翻譯：無論你去哪裡，我都將跟隨著你。\n解答：(A) Wherever\n解析：Wherever 引導地方副詞子句，意指「無論在哪裡／無論去哪裡」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whenever she smiles, people _____ warm and happy.</div>",
+          "options": ["feel", "felt", "feeling", "have felt"],
+          "answer": "A",
+          "explanation": "中文翻譯：每當她微笑時，人們就會感到溫暖和快樂。\n解答：(A) feel\n解析：Whenever 引導時間副詞子句描述客觀規律或常態時，主句與從屬子句均使用現在式。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>As the night advanced, the temperature _____ sharply.</div>",
+          "options": ["drop", "dropped", "dropping", "has dropped"],
+          "answer": "B",
+          "explanation": "中文翻譯：隨著夜色漸深，氣溫急劇下降。\n解答：(B) dropped\n解析：As 引導時間副詞子句表示「隨著」，子句動詞為過去式 advanced，故主句動詞亦需使用過去式 dropped。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He acted as though nothing _____ happened.</div>",
+          "options": ["has", "had", "would", "was"],
+          "answer": "B",
+          "explanation": "中文翻譯：他表現得好像什麼事也沒發生過一樣。\n解答：(B) had\n解析：as though（彷彿、好像）引導方式副詞子句，表達與過去事實相反的假設語氣，需用過去完成式（had + p.p.）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She wrote the essay the way her teacher _____.</div>",
+          "options": ["instruct", "instructed", "had instructed", "has instructed"],
+          "answer": "C",
+          "explanation": "中文翻譯：她寫這篇論文的方式正如她老師所指導的那樣。\n解答：(C) had instructed\n解析：the way 引導方式副詞子句；因「老師指導」發生在「她寫論文」這個過去動作之前，故使用過去完成式（had instructed）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>As I _____ saying, we need to cut down our expenses.</div>",
+          "options": ["am", "was", "have been", "will be"],
+          "answer": "B",
+          "explanation": "中文翻譯：正如我剛才所說的，我們需要削減開支。\n解答：(B) was\n解析：As I was saying 為常用習慣說法，意指「正如我剛才所言／正如此前談到的」，用過去進行式表示方才正在進行的動作。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He is as fast a runner as _____ be found in the school.</div>",
+          "options": ["can", "could", "will", "may"],
+          "answer": "A",
+          "explanation": "中文翻譯：他跑得和校內能找到的任何人一樣快。\n解答：(A) can\n解析：本題為比較級從屬子句中常見的慣用語型「as + 形容詞 + 名詞 + as can be（或 possible）」，表「極度、無以復加」。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>So fast _____ he run that he broke the world record.</div>",
+          "options": ["did", "does", "was", "had"],
+          "answer": "A",
+          "explanation": "中文翻譯：他跑得如此快，以至於打破了世界紀錄。\n解答：(A) did\n解析：本題為「So + 副詞 + 助動詞 + 主詞 + 原形動詞... that...」的倒裝結果副詞子句結構，因後半句 break 為過去式，故助動詞使用 did。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Such was her anger _____ she couldn't utter a single word.</div>",
+          "options": ["that", "as", "so", "than"],
+          "answer": "A",
+          "explanation": "中文翻譯：她的憤怒是如此之大，以至於她一句話也說不出來。\n解答：(A) that\n解析：本題為「Such + be動詞 + 主詞 + that...」的倒裝結果副詞子句結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ you need any further assistance, please let me know.</div>",
+          "options": ["If", "Should", "Had", "Were"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果您需要任何進一步的協助，請讓我知道。\n解答：(B) Should\n解析：表未來可能性較低的條件句省略 if 的倒裝句型，將 Should 移至句首（原句為 If you should need...）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ I known the truth earlier, I would have stopped him.</div>",
+          "options": ["If", "Should", "Had", "Were"],
+          "answer": "C",
+          "explanation": "中文翻譯：如果我早點知道真相，我就會阻止他了。\n解答：(C) Had\n解析：與過去事實相反的假設語氣省略 if 的倒裝句型，將過去完成式的 Had 移至句首（原句為 If I had known...）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ I in your shoes, I would accept the job offer.</div>",
+          "options": ["If", "Should", "Had", "Were"],
+          "answer": "D",
+          "explanation": "中文翻譯：如果我是你，我會接受這份工作機會。\n解答：(D) Were\n解析：與現在事實相反的假設語氣省略 if 的倒裝句型，將 be 動詞 Were 移至句首（原句為 If I were in your shoes...）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The project failed not because the idea was bad, _____ because the execution was poor.</div>",
+          "options": ["but", "and", "or", "nor"],
+          "answer": "A",
+          "explanation": "中文翻譯：這項專案失敗不是因為點子不好，而是因為執行力很差。\n解答：(A) but\n解析：固定對等連接詞結構「not because A, but because B」（不是因為A，而是因為B）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He speaks English as if he _____ a native speaker.</div>",
+          "options": ["is", "was", "were", "be"],
+          "answer": "C",
+          "explanation": "中文翻譯：他說英語的樣子就像他是母語人士一樣。\n解答：(C) were\n解析：as if（彷彿、好像）引導表與現在事實相反的假設語氣副詞子句，be 動詞一律使用 were。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Much _____ I would like to help you, I have too much work to do.</div>",
+          "options": ["as", "though", "although", "if"],
+          "answer": "A",
+          "explanation": "中文翻譯：儘管我很想幫你，但我有太多工作要做。\n解答：(A) as\n解析：本題為讓步副詞子句的置換倒裝句型「副詞/名詞/形容詞 + as/though + 主詞 + 動詞」，其中 as 等同於 though，表「雖然」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Try as he _____, he couldn't open the locked door.</div>",
+          "options": ["might", "may", "can", "could"],
+          "answer": "A",
+          "explanation": "中文翻譯：任憑他如何嘗試，他就是打不開那扇上鎖的門。\n解答：(A) might\n解析：本題為「原形動詞 + as + 主詞 + might/may」的讓步副詞子句倒裝結構（表「縱使……」），因後半句為過去式 couldn't，故助動詞選 might。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Child as he _____, he knew how to comfort his mother.</div>",
+          "options": ["is", "was", "be", "were"],
+          "answer": "B",
+          "explanation": "中文翻譯：雖然他還是個孩子，但他知道如何安慰他的母親。\n解答：(B) was\n解析：名詞置於句首的讓步副詞子句倒裝結構（原句為 Although he was a child）；根據下文的過去式 knew，動詞應搭配 was。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>By the time you read this letter, I _____ left the country.</div>",
+          "options": ["will have", "have", "had", "would have"],
+          "answer": "A",
+          "explanation": "中文翻譯：等你讀到這封信時，我已經離開這個國家了。\n解答：(A) will have\n解析：By the time 引導的時間副詞子句中動詞用現在式（read），主句表示「在未來某個時間點之前將已完成的動作」，需用未來完成式（will have + p.p.）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>In case you _____ change your mind, here is my phone number.</div>",
+          "options": ["should", "will", "would", "can"],
+          "answer": "A",
+          "explanation": "中文翻譯：以防你改變心意，這是我的電話號碼。\n解答：(A) should\n解析：In case 意指「以防萬一」，用來引導條件副詞子句；子句中常用 should 來表達可能性較低的假設。另外，此處亦可直接使用現在式 change。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Provided that the terms _____ acceptable, we will sign the contract tomorrow.</div>",
+          "options": ["are", "were", "will be", "have been"],
+          "answer": "A",
+          "explanation": "中文翻譯：只要條件可以接受，我們明天就會簽署合約。\n解答：(A) are\n解析：Provided that（只要）引導條件副詞子句，遵循「條件句用現在式代替未來式」的原則，故使用現在式 are。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He left the room quietly so as _____ disturb the sleeping baby.</div>",
+          "options": ["not to", "to not", "not", "to"],
+          "answer": "A",
+          "explanation": "中文翻譯": "他靜悄悄地離開房間，以免吵醒正在睡覺的寶寶。\n解答：(A) not to\n解析：so as to 意指「為了……」，其否定形式為「so as not to + 原形動詞」，用來引導目的副詞片語／子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Now that the internet is widely available, information _____ very fast.</div>",
+          "options": ["flow", "flows", "flowed", "has flowed"],
+          "answer": "B",
+          "explanation": "中文翻譯：既然網際網路已經普及，資訊流動得非常快。\n解答：(B) flows\n解析：Now that（既然）引導原因副詞子句；主句敘述普遍事實與常態，主語 information 為不可數名詞（視為單數），故動詞使用現在式 flows。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She won the competition, _____ that everyone was surprised.</div>",
+          "options": ["so", "and", "making", "leading"],
+          "answer": "A",
+          "explanation": "中文翻譯：她贏得了比賽，因此每個人都很驚訝。\n解答：(A) so\n解析：本題為結果連接詞 so 引導的對等或結果子句結構（so that 在此引導結果子句，意指「因此」）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Unless you _____ attention in class, you will miss important details.</div>",
+          "options": ["pay", "paid", "will pay", "don't pay"],
+          "answer": "A",
+          "explanation": "中文翻譯：除非你在課堂上專心，否則你會錯過重要細節。\n解答：(A) pay\n解析：unless 本身已經帶有否定含意（相當於 if not），因此其引導的條件副詞子句中直接使用現在式肯定動詞 pay（表示未來時間）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He acts like a boss, _____ he is just a regular employee.</div>",
+          "options": ["although", "because", "if", "unless"],
+          "answer": "A",
+          "explanation": "中文翻譯：他表現得像個老闆，雖然他只是一名普通員工。\n解答：(A) although\n解析：前後文意構成轉折對比（行為像老闆卻只是普通員工），故使用表示「雖然」的 although 引導讓步副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Every time the phone rings, the dog _____ loudly.</div>",
+          "options": ["bark", "barks", "barked", "is barking"],
+          "answer": "B",
+          "explanation": "中文翻譯：每次電話響起，這隻狗就會大聲吠叫。\n解答：(B) barks\n解析：Every time 引導時間副詞子句表達每次重複發生的習慣或常態，主句與從屬子句皆用現在式；主詞 the dog 為第三人稱單數，動詞需加 s。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The moment the gate opened, the children _____ into the playground.</div>",
+          "options": ["rush", "rushed", "were rushing", "have rushed"],
+          "answer": "B",
+          "explanation": "中文翻譯：大門一開，孩子們就衝進了遊樂場。\n解答：(B) rushed\n解析：The moment 引導時間副詞子句表示「一……就……」；子句動詞 opened 為過去式，故主句動作也發生在過去，需使用過去式 rushed。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>No matter _____ difficult the problem is, we must solve it together.</div>",
+          "options": ["what", "how", "whatever", "however"],
+          "answer": "D",
+          "explanation": "中文翻譯：不管問題有多困難，我們必須一起解決它。\n解答：(D) however\n解析：No matter however（或單獨使用 however）意指「無論多麼……」，用來修飾後方的形容詞 difficult，引導讓步副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whatever may happen, we _____ stay calm and focused.</div>",
+          "options": ["must", "should", "would", "might"],
+          "answer": "A",
+          "explanation": "中文翻譯：無論發生什麼事，我們都必須保持冷靜與專注。\n解答：(A) must\n解析：Whatever 引導讓步副詞子句；主句表達強烈的必要性與義務，使用 must。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>She looks as though she _____ for days.</div>",
+          "options": ["hasn't slept", "hadn't slept", "doesn't sleep", "didn't sleep"],
+          "answer": "B",
+          "explanation": "中文翻譯：她看起來好像已經好幾天沒睡覺了。\n解答：(B) hadn't slept\n解析：as though 引導方式副詞子句，表示與過去事實相反的假設語氣，因此使用過去完成式（hadn't slept）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>As it _____ to snow, we decided to stay indoors.</div>",
+          "options": ["begin", "began", "beginning", "has begun"],
+          "answer": "B",
+          "explanation": "中文翻譯：由於開始下雪了，我們決定待在室內。\n解答：(B) began\n解析：As 引導原因副詞子句，主句動詞 decided 為過去式，故子句動詞亦需使用過去式 began。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Since you _____ it, I do remember seeing him before.</div>",
+          "options": ["mention", "mentioned", "mention about", "are mentioning"],
+          "answer": "B",
+          "explanation": "中文翻譯：既然你提起了，我確實想起來以前見過他。\n解答：(B) mentioned\n解析：Since 引導原因副詞子句（意指「既然」），敘述過去發生的提起動作，故使用過去式 mentioned。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The shoes fit me well, save _____ they are a bit too narrow.</div>",
+          "options": ["that", "what", "which", "if"],
+          "answer": "A",
+          "explanation": "中文翻譯：這雙鞋子很合腳，只是稍微窄了一點。\n解答：(A) that\n解析：save that（或 except that）為固定片語連接詞，意指「除了……之外／只是」，用來引導限制或修正意義的副詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He spoke slowly so that the audience _____ understand every word.</div>",
+          "options": ["can", "could", "will", "shall"],
+          "answer": "B",
+          "explanation": "中文翻譯：他說話很慢，以便聽眾能聽懂每一個字。\n解答：(B) could\n解析：so that 引導目的副詞子句，當主句動詞為過去式（spoke）時，子句中的助動詞通常使用過去式 could。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Hardly had the police officer stepped inside _____ the suspect tried to escape.</div>",
+          "options": ["than", "when", "then", "before"],
+          "answer": "B",
+          "explanation": "中文翻譯：警官一踏進裡面，嫌犯就試圖逃跑。\n解答：(B) when\n解析：固定句型「Hardly + 過去完成式（倒裝句）... when + 過去式」，意指「一……就……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Though _____ by enemies, the brave knight did not surrender.</div>",
+          "options": ["surround", "surrounding", "surrounded", "surrounds"],
+          "answer": "C",
+          "explanation": "中文翻譯：儘管被敵人包圍，這位勇敢的騎士依然沒有投降。\n解答：(C) surrounded\n解析：讓步副詞子句省略主詞與 be 動詞的分詞構句；因騎士是「被包圍」，故使用過去分詞 surrounded（原句為 Though he was surrounded...）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>副詞子句 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Whether you choose science _____ arts, you should pursue your true passion.</div>",
+          "options": ["and", "or", "nor", "but"],
+          "answer": "B",
+          "explanation": "中文翻譯：無論你選擇自然科學還是藝術，你都應該追求你真正的熱情。\n解答：(B) or\n解析：Whether... or... 為固定對應連接詞結構，意指「無論是……還是……」，用來引導讓步副詞子句。"
+        }
+      ]
+    }
+  }
+}

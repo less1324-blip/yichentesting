@@ -1,0 +1,626 @@
+{
+  "grammar": {
+    "dummy_subj": {
+      "1": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ is important to wear a helmet while riding a motorcycle.</div>",
+          "options": ["That", "This", "It", "There"],
+          "answer": "C",
+          "explanation": "中文翻譯：騎機車時戴安全帽是很重要的。\n解答：(C) It\n解析：真主詞為 to wear a helmet...，句首需用虛主詞 It。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ took me two hours to finish the homework.</div>",
+          "options": ["That", "It", "This", "Which"],
+          "answer": "B",
+          "explanation": "中文翻譯：我花了兩個小時才寫完作業。\n解答：(B) It\n解析：It takes sb + 時間 + to V 表示某人花費時間做某事。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Is _____ necessary to attend every meeting?</div>",
+          "options": ["this", "it", "that", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：有必要出席每一場會議嗎？\n解答：(B) it\n解析：疑問句中，虛主詞 it 用於代表後方的 to attend..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is reported _____ the weather will be stormy tomorrow.</div>",
+          "options": ["that", "which", "what", "whether"],
+          "answer": "A",
+          "explanation": "中文翻譯：據報導明天天氣將會有暴風雨。\n解答：(A) that\n解析：It is reported that... 表示「據報導……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It cost him fifty dollars _____ the broken window.</div>",
+          "options": ["repair", "repaired", "to repair", "repairing"],
+          "answer": "C",
+          "explanation": "中文翻譯：修理破掉的窗戶花了他五十美元。\n解答：(C) to repair\n解析：It costs sb + 金額 + to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ is a pity that you missed the concert.</div>",
+          "options": ["This", "That", "It", "There"],
+          "answer": "C",
+          "explanation": "中文翻譯：很遺憾你錯過了音樂會。\n解答：(C) It\n解析：It is a pity that... 表示「很遺憾……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Does _____ take long to get to the airport?</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：去機場要花很長時間嗎？\n解答：(C) it\n解析：It takes time to V 的疑問句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is well known _____ smoking is harmful to health.</div>",
+          "options": ["whether", "that", "which", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：眾所皆知，抽菸對健康有害。\n解答：(B) that\n解析：It is well known that... 意為「眾所皆知……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is true _____ he has won the first prize in the contest.</div>",
+          "options": ["what", "that", "which", "whether"],
+          "answer": "B",
+          "explanation": "中文翻譯：他在比賽中獲得一等獎是真的。\n解答：(B) that\n解析：It is true that... 意為「……是真的」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (1)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is possible _____ the flight will be delayed due to heavy rain.</div>",
+          "options": ["which", "that", "what", "whether"],
+          "answer": "B",
+          "explanation": "中文翻譯：由於大雨，航班有可能會延誤。\n解答：(B) that\n解析：It is possible that... 意為「可能……」。"
+        }
+      ],
+      "2": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is estimated _____ the project will cost millions of dollars.</div>",
+          "options": ["when", "if", "that", "where"],
+          "answer": "C",
+          "explanation": "中文翻譯：據估計該專案將花費數百萬美元。\n解答：(C) that\n解析：It is estimated that... 意為「據估計……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It seems _____ they have already made a decision.</div>",
+          "options": ["that", "which", "how", "what"],
+          "answer": "A",
+          "explanation": "中文翻譯：看起來他們已經做出決定了。\n解答：(A) that\n解析：It seems that... 意為「似乎……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ appeared that she was quite happy with the results.</div>",
+          "options": ["That", "It", "There", "What"],
+          "answer": "B",
+          "explanation": "中文翻譯：看起來她對結果相當滿意。\n解答：(B) It\n解析：It appeared that... 意為「似乎……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It happened _____ I was in the same city as my old friend.</div>",
+          "options": ["that", "whether", "which", "where"],
+          "answer": "A",
+          "explanation": "中文翻譯：碰巧我和我的老朋友在同一個城市。\n解答：(A) that\n解析：It happens that... 意為「碰巧……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It doesn't matter _____ you arrive late or not.</div>",
+          "options": ["that", "whether", "which", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：你遲到與否都沒有關係。\n解答：(B) whether\n解析：It doesn't matter whether... 意為「不論……與否都沒關係」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is certain _____ they will arrive by noon.</div>",
+          "options": ["that", "which", "what", "whether"],
+          "answer": "A",
+          "explanation": "中文翻譯：可以肯定他們會在中午前抵達。\n解答：(A) that\n解析：It is certain that... 意為「可以肯定……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is obvious _____ she is lying about her age.</div>",
+          "options": ["that", "what", "which", "whether"],
+          "answer": "A",
+          "explanation": "中文翻譯：很明顯她在謊報年齡。\n解答：(A) that\n解析：It is obvious that... 意為「很明顯……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is said _____ the old house is haunted.</div>",
+          "options": ["that", "which", "what", "where"],
+          "answer": "A",
+          "explanation": "中文翻譯：據說那棟老房子鬧鬼。\n解答：(A) that\n解析：It is said that... 意為「據說……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ is clear that she doesn't like the plan.</div>",
+          "options": ["This", "That", "It", "There"],
+          "answer": "C",
+          "explanation": "中文翻譯：很清楚她不喜歡這個計畫。\n解答：(C) It\n解析：It is clear that... 意為「很清楚……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (2)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It turns out _____ the story was true after all.</div>",
+          "options": ["that", "which", "what", "where"],
+          "answer": "A",
+          "explanation": "中文翻譯：結果證明這個故事畢竟是真的。\n解答：(A) that\n解析：It turns out that... 意為「結果證明……」。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is a fact _____ the Earth orbits the Sun.</div>",
+          "options": ["that", "what", "which", "whether"],
+          "answer": "A",
+          "explanation": "中文翻譯：地球繞著太陽運轉是一個事實。\n解答：(A) that\n解析：It is a fact that..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is doubtful _____ they will come on time.</div>",
+          "options": ["that", "whether", "which", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：他們是否能準時來令人懷疑。\n解答：(B) whether\n解析：It is doubtful whether... 意為「令人懷疑是否……」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is not clear _____ caused the accident.</div>",
+          "options": ["that", "what", "which", "whether"],
+          "answer": "B",
+          "explanation": "中文翻譯：目前尚不清楚是什麼造成了這起事故。\n解答：(B) what\n解析：疑問詞引導的名詞子句作真主詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is high time _____ we went home.</div>",
+          "options": ["that", "which", "what", "when"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們該回家了。\n解答：(A) that\n解析：It is high time that + 過去式 正是時候。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Does _____ make any difference if we leave now?</div>",
+          "options": ["it", "this", "that", "there"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們現在離開會有什麼差別嗎？\n解答：(A) it\n解析：Does it make any difference...? 有差別嗎？"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>_____ is surprising that she didn't come to the party.</div>",
+          "options": ["This", "That", "It", "There"],
+          "answer": "C",
+          "explanation": "中文翻譯：她沒有來參加派對，這讓人感到驚訝。\n解答：(C) It\n解析：虛主詞 It 引導驚訝情緒。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is believed _____ the Great Wall can be seen from space.</div>",
+          "options": ["which", "that", "what", "if"],
+          "answer": "B",
+          "explanation": "中文翻譯：據信從太空中可以看到萬里長城。\n解答：(B) that\n解析：It is believed that... 據信。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is expected _____ the team will win the championship.</div>",
+          "options": ["that", "what", "whether", "where"],
+          "answer": "A",
+          "explanation": "中文翻譯：預期該隊將會贏得冠軍。\n解答：(A) that\n解析：It is expected that... 預期。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is highly likely _____ the price of oil will rise.</div>",
+          "options": ["which", "that", "what", "where"],
+          "answer": "B",
+          "explanation": "中文翻譯：油價很有可能會上漲。\n解答：(B) that\n解析：It is likely that... 很可能。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (3)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It followed _____ he was innocent of the crime.</div>",
+          "options": ["that", "which", "what", "where"],
+          "answer": "A",
+          "explanation": "中文翻譯：由此可推斷他是清白無罪的。\n解答：(A) that\n解析：It follows that... 由此可推斷。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is very kind _____ you to help the old lady cross the street.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：你幫老太太過馬路，真是太好了。\n解答：(B) of\n解析：形容詞 kind 形容人的特質，介系詞用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is necessary _____ students to bring their ID cards.</div>",
+          "options": ["of", "for", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：學生有必要帶他們的證件。\n解答：(B) for\n解析：形容詞 necessary 形容事情的屬性，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is no use _____ over spilled milk.</div>",
+          "options": ["to cry", "cry", "crying", "cried"],
+          "answer": "C",
+          "explanation": "中文翻譯：覆水難收（為灑了的牛奶哭泣是沒有用的）。\n解答：(C) crying\n解析：It is no use + V-ing 做某事是沒用的。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I find _____ difficult to balance work and family life.</div>",
+          "options": ["that", "this", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我發現平衡工作與家庭生活很困難。\n解答：(C) it\n解析：虛受詞用法，真受詞為 to balance..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>He makes _____ a rule to exercise for an hour every morning.</div>",
+          "options": ["that", "it", "which", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：他規定自己每天早上運動一小時。\n解答：(B) it\n解析：make it a rule to V 養成習慣。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is dangerous _____ children to play with matches.</div>",
+          "options": ["of", "for", "to", "with"],
+          "answer": "B",
+          "explanation": "中文翻譯：小孩子玩火柴是很危險的。\n解答：(B) for\n解析：形容行為屬性，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is foolish _____ him to waste all his money on gambling.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：他把所有的錢都賭博浪費掉，真是愚蠢。\n解答：(B) of\n解析：foolish 形容人的特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It occurs _____ me that I have left my keys in the car.</div>",
+          "options": ["for", "with", "to", "at"],
+          "answer": "C",
+          "explanation": "中文翻譯：我突然想起我把鑰匙留在車裡了。\n解答：(C) to\n解析：It occurs to sb that... 某人突然想到。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I think _____ better to tell him the news as soon as possible.</div>",
+          "options": ["that", "this", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我認為盡快把這消息告訴他是比較好的。\n解答：(C) it\n解析：虛受詞結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (4)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is common _____ many teenagers to spend hours on social media.</div>",
+          "options": ["of", "for", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：許多青少年花好幾個小時在社群媒體上是很常見的。\n解答：(B) for\n解析：common 表普遍現象，用 for。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is wise _____ her to save money for the future.</div>",
+          "options": ["of", "for", "to", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：她為未來存錢，真是明智。\n解答：(A) of\n解析：wise 形容人的明智，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I felt _____ my duty to help the refugees.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我覺得幫助難民是我的責任。\n解答：(C) it\n解析：虛受詞用法。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is natural _____ parents to care for their children.</div>",
+          "options": ["of", "for", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：父母關心孩子是理所當然的。\n解答：(B) for\n解析：natural 表客觀自然，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is brave _____ the soldier to save the child from the fire.</div>",
+          "options": ["of", "for", "with", "about"],
+          "answer": "A",
+          "explanation": "中文翻譯：這位士兵把小孩從火場中救出來，真勇敢。\n解答：(A) of\n解析：brave 形容人的勇敢，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is not worth _____ so much money on a luxury car.</div>",
+          "options": ["to spend", "spend", "spending", "spent"],
+          "answer": "C",
+          "explanation": "中文翻譯：花那麼多錢買一台豪華車是不值得的。\n解答：(C) spending\n解析：It is worth + V-ing 值得做某事。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I find _____ annoying when people talk loudly on the phone in public.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我發現人們在公共場所大聲講電話很討厭。\n解答：(C) it\n解析：find it + adj. + when... 虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It takes courage _____ the truth in such a difficult situation.</div>",
+          "options": ["speak", "spoke", "speaking", "to speak"],
+          "answer": "D",
+          "explanation": "中文翻譯：在如此困難的情況下說出真相需要勇氣。\n解答：(D) to speak\n解析：It takes + 名詞 + to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is polite _____ say \"thank you\" when someone helps you.</div>",
+          "options": ["for", "of", "to", "with"],
+          "answer": "C",
+          "explanation": "中文翻譯：當有人幫你時，說「謝謝」是很有禮貌的。\n解答：(C) to\n解析：真主詞為 to say..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was very rude _____ him to leave without saying goodbye.</div>",
+          "options": ["for", "of", "to", "with"],
+          "answer": "B",
+          "explanation": "中文翻譯：他連道別都沒說就離開，真粗魯。\n解答：(B) of\n解析：rude 形容人的粗魯，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (5)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It takes a lot of time _____ a new language fluently.</div>",
+          "options": ["learn", "learned", "to learn", "learning"],
+          "answer": "C",
+          "explanation": "中文翻譯：流利地學習一門新語言需要花費大量時間。\n解答：(C) to learn\n解析：It takes time to V。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I hate _____ when it rains on weekends.</div>",
+          "options": ["that", "this", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我很討厭週末下雨。\n解答：(C) it\n解析：hate it when... 虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It makes no sense _____ buy things you don't need.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：買你不需要的東西是沒有意義的。\n解答：(A) to\n解析：It makes no sense to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It takes two _____ tango.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：孤掌難鳴（一個巴掌拍不響）。\n解答：(A) to\n解析：慣用語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is generous _____ her to donate so much money to the charity.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：她捐了這麼多錢給慈善機構，真是慷慨。\n解答：(B) of\n解析：generous 人的特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is impossible _____ solve this math problem in five minutes.</div>",
+          "options": ["for", "of", "to", "with"],
+          "answer": "C",
+          "explanation": "中文翻譯：在五分鐘內解開這道數學題是不可能的。\n解答：(C) to\n解析：It is impossible to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I take _____ for granted that you will help me.</div>",
+          "options": ["that", "this", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我理所當然地認為你會幫我。\n解答：(C) it\n解析：take it for granted that...。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It doesn't pay _____ be dishonest.</div>",
+          "options": ["for", "to", "of", "with"],
+          "answer": "B",
+          "explanation": "中文翻譯：不誠實是得不償失的。\n解答：(B) to\n解析：It doesn't pay to V 不划算。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was careless _____ her to leave the door unlocked.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：她出門沒鎖門，真是粗心。\n解答：(B) of\n解析：careless 人的特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is hard _____ learn a new skill without practice.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：沒有練習很難學會一項新技能。\n解答：(A) to\n解析：It is adj. to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (6)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It makes _____ difficult for me to sleep if I drink coffee late.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：如果我晚喝咖啡，會讓我很難入睡。\n解答：(C) it\n解析：虛受詞。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It took him a long time _____ over the shock.</div>",
+          "options": ["get", "getting", "to get", "got"],
+          "answer": "C",
+          "explanation": "中文翻譯：他花了很長時間才從驚嚇中恢復過來。\n解答：(C) to get\n解析：It takes time to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was smart _____ you to check the map before starting the trip.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：你在出發前先查地圖，真是聰明。\n解答：(B) of\n解析：smart 人的特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>Does _____ bother you if I open the window?</div>",
+          "options": ["it", "this", "that", "there"],
+          "answer": "A",
+          "explanation": "中文翻譯：我開窗戶會打擾到你嗎？\n解答：(A) it\n解析：虛主詞代替子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is pointless _____ argue with him; he never listens.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：跟他爭論是毫無意義的；他從不聽人說。\n解答：(A) to\n解析：It is pointless to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is better _____ give than to receive.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：施比受更有福。\n解答：(A) to\n解析：諺語句型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is easy _____ him to solve the puzzle.</div>",
+          "options": ["of", "for", "to", "with"],
+          "answer": "B",
+          "explanation": "中文翻譯：對他來說解開這個謎題很容易。\n解答：(B) for\n解析：easy 形容事情屬性，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is unfair _____ the employees to work without pay.</div>",
+          "options": ["of", "for", "to", "with"],
+          "answer": "B",
+          "explanation": "中文翻譯：讓員工無償工作是不公平的。\n解答：(B) for\n解析：unfair 針對對象，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I find _____ amazing that he can speak five languages.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我發現他能說五種語言真是令人驚奇。\n解答：(C) it\n解析：虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is cruel _____ him to treat animals like that.</div>",
+          "options": ["for", "of", "with", "about"],
+          "answer": "B",
+          "explanation": "中文翻譯：他那樣虐待動物真是殘忍。\n解答：(B) of\n解析：cruel 人的特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (7)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It doesn't hurt _____ try.</div>",
+          "options": ["to", "for", "of", "with"],
+          "answer": "A",
+          "explanation": "中文翻譯：試試看也無妨。\n解答：(A) to\n解析：It doesn't hurt to V。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is imperative that every candidate _____ their application form before the deadline.</div>",
+          "options": ["submits", "submitted", "submit", "has submitted"],
+          "answer": "C",
+          "explanation": "中文翻譯：每位候選人都必須在截止日期前繳交申請表，這是非常必要的。\n解答：(C) submit\n解析：imperative 類形容詞引導的虛主詞子句，省略 should，動詞用原形。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was not until midnight _____ the final revision of the research paper.</div>",
+          "options": ["when she finished", "that she finished", "did she finish", "when did she finish"],
+          "answer": "B",
+          "explanation": "中文翻譯：直到半夜她才完成研究論文的最後修訂。\n解答：(B) that she finished\n解析：強調句型 It was not until... that...，that 後接正常語序。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>The management team considers _____ a top priority to upgrade the cybersecurity system this year.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：管理團隊認為今年升級網路安全系統是首要任務。\n解答：(C) it\n解析：虛受詞結構，真受詞為 to upgrade..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It would have been much easier _____ about the schedule changes in advance.</div>",
+          "options": ["to notify us", "for us to be notified", "us to notify", "notifying us"],
+          "answer": "B",
+          "explanation": "中文翻譯：如果能提前通知我們關於日程表的變更，事情會輕鬆得多。\n解答：(B) for us to be notified\n解析：與過去事實相反假設語氣，被動不定詞 to be notified。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>By the time the audit starts, it is essential that all financial records _____.</div>",
+          "options": ["are checked", "have checked", "be checked", "checked"],
+          "answer": "C",
+          "explanation": "中文翻譯：在審計開始前，所有財務紀錄必須被核對，這是至關重要的。\n解答：(C) be checked\n解析：It is essential that... 省略 should 的被動原形。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>We take _____ for granted that AI tools will replace human labor in certain routine tasks.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我們理所當然地認為人工智慧工具將在某些日常工作中取代人類勞動力。\n解答：(C) it\n解析：take it for granted that... 虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It remains to _____ whether the new marketing strategy will yield positive returns.</div>",
+          "options": ["see", "be seen", "seeing", "seen"],
+          "answer": "B",
+          "explanation": "中文翻譯：新的行銷策略是否能帶來正向回報，仍有待觀察。\n解答：(B) be seen\n解析：It remains to be seen... 拭目以待（被動）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was foolish _____ such a critical mistake in the initial phase of the project.</div>",
+          "options": ["for him to make", "of him making", "of him to make", "for him making"],
+          "answer": "C",
+          "explanation": "中文翻譯：他在專案初期犯下如此關鍵的錯誤，真是愚蠢。\n解答：(C) of him to make\n解析：foolish 搭配 of sb. to V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is suggested _____ the manager should cancel the business trip.</div>",
+          "options": ["that", "which", "what", "if"],
+          "answer": "A",
+          "explanation": "中文翻譯：有人建議經理應該取消這次出差。\n解答：(A) that\n解析：It is suggested that... 名詞子句。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (8)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is vital that no employee _____ to disclose confidential information.</div>",
+          "options": ["is allowed", "be allowed", "allows", "allowed"],
+          "answer": "B",
+          "explanation": "中文翻譯：絕對不能允許任何員工洩露機密資訊，這是至關重要的。\n解答：(B) be allowed\n解析：vital 要求的虛主詞子句，省略 should 加被動原形 be allowed。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>I make _____ a rule never to check work emails over the weekend.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我規定自己週末絕不查看工作郵件。\n解答：(C) it\n解析：make it a rule to V 虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is requested that all visitors _____ their ID at the front desk.</div>",
+          "options": ["show", "showed", "showing", "shows"],
+          "answer": "A",
+          "explanation": "中文翻譯：要求所有訪客必須在櫃檯出示身分證件。\n解答：(A) show\n解析：It is requested that... 省略 should 的原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is no use _____ to convince him once he has made up his mind.</div>",
+          "options": ["try", "trying", "to try", "tried"],
+          "answer": "B",
+          "explanation": "中文翻譯：一旦他下定決心，試圖說服他是沒有用的。\n解答：(B) trying\n解析：It is no use + V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is crucial that the software bug _____ fixed before the product launch.</div>",
+          "options": ["is", "was", "be", "has been"],
+          "answer": "C",
+          "explanation": "中文翻譯：在產品發表之前，修復軟體錯誤是至關重要的。\n解答：(C) be\n解析：crucial 引導的省略 should 原形動詞（be）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It proved difficult _____ the missing files from the damaged hard drive.</div>",
+          "options": ["recover", "recovering", "to recover", "recovered"],
+          "answer": "C",
+          "explanation": "中文翻譯：從受損的硬碟中恢復遺失的檔案證明是很困難的。\n解答：(C) to recover\n解析：It proved adj. to V 虛主詞結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It struck me _____ we had missed a critical step in the procedure.</div>",
+          "options": ["that", "what", "whether", "which"],
+          "answer": "A",
+          "explanation": "中文翻譯：我突然想到我們在流程中漏掉了一個關鍵步驟。\n解答：(A) that\n解析：It strikes sb. that... 某人突然想到。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>We found _____ impossible for the team to meet the tight deadline.</div>",
+          "options": ["this", "that", "it", "what"],
+          "answer": "C",
+          "explanation": "中文翻譯：我們發現團隊要在緊迫的期限內完成是不可能的。\n解答：(C) it\n解析：find it + adj. + for sb. to V 虛受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is strange that he _____ ignored our emails for over a week.</div>",
+          "options": ["has", "had", "should have", "would"],
+          "answer": "C",
+          "explanation": "中文翻譯：真奇怪，他竟然無視我們的郵件超過一個星期。\n解答：(C) should have\n解析：情緒性形容詞（strange）後方的虛主詞子句可用 should + p.p. 表驚訝。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is high time we _____ serious measures to curb inflation.</div>",
+          "options": ["take", "took", "have taken", "will take"],
+          "answer": "B",
+          "explanation": "中文翻譯：我們是時候採取嚴厲措施來抑制通貨膨脹了。\n解答：(B) took\n解析：It is high time + 過去式 假設語氣。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (9)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was through her recommendation _____ he got the promotion.</div>",
+          "options": ["which", "that", "what", "where"],
+          "answer": "B",
+          "explanation": "中文翻譯：正是透過她的推薦，他才獲得了晉升。\n解答：(B) that\n解析：強調句型 It was through... that...。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is regrettable that the contract _____ cancelled without prior notice.</div>",
+          "options": ["was", "has been", "should be", "were"],
+          "answer": "C",
+          "explanation": "中文翻譯：合約竟然在沒有事前通知的情況下被取消，這是令人遺憾的。\n解答：(C) should be\n解析：regrettable 後方子句可用 should be 表遺憾。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It pays _____ patient when dealing with difficult clients.</div>",
+          "options": ["being", "to be", "be", "been"],
+          "answer": "B",
+          "explanation": "中文翻譯：在應付難纏的客戶時，保持耐心是值得的。\n解答：(B) to be\n解析：It pays to V 做……是值得的。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was kind _____ you to offer your assistance during the crisis.</div>",
+          "options": ["for", "of", "with", "to"],
+          "answer": "B",
+          "explanation": "中文翻譯：你在危機期間提供協助，真是太好了。\n解答：(B) of\n解析：kind 形容人的善良特質，用 of。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It seems _____ the economic downturn is affecting our sales volume.</div>",
+          "options": ["as if", "that", "whether", "what"],
+          "answer": "B",
+          "explanation": "中文翻譯：看起來經濟衰退正在影響我們的銷售量。\n解答：(B) that\n解析：It seems that... 似乎。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It was necessary _____ all employees to undergo safety training.</div>",
+          "options": ["of", "for", "with", "to"],
+          "answer": "B",
+          "explanation": "中文翻譯：所有員工接受安全培訓是有必要的。\n解答：(B) for\n解析：necessary 形容事物屬性，用 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is clear _____ the project needs more funding to succeed.</div>",
+          "options": ["what", "that", "whether", "which"],
+          "answer": "B",
+          "explanation": "中文翻譯：很明顯，這個專案需要更多資金才能成功。\n解答：(B) that\n解析：It is clear that..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is doubtful whether _____ worth investing in this startup.</div>",
+          "options": ["this is", "it is", "there is", "that is"],
+          "answer": "B",
+          "explanation": "中文翻譯：投資這家新創公司是否值得令人懷疑。\n解答：(B) it is\n解析：用 it 作虛主詞引導是否值得投資。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It occurred to none of us _____ the plan would fail so miserably.</div>",
+          "options": ["that", "what", "whether", "which"],
+          "answer": "A",
+          "explanation": "中文翻譯：我們當中沒有人想到這項計畫會失敗得如此慘烈。\n解答：(A) that\n解析：It occurred to sb. that..."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It makes me _____ angry when people break their promises.</div>",
+          "options": ["feel", "to feel", "feeling", "felt"],
+          "answer": "A",
+          "explanation": "中文翻譯：當人們違背諾言時，這讓我感到生氣。\n解答：(A) feel\n解析：make + 受詞(it為虛受詞) + 原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>虛主詞 (10)</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: 實戰演練</span></div><div class='font-bold text-lg'>It is ordered that the suspect _____ detained for further investigation.</div>",
+          "options": ["is", "be", "was", "has been"],
+          "answer": "B",
+          "explanation": "中文翻譯：命令嫌疑人予以拘留以便進一步調查。\n解答：(B) be\n解析：It is ordered that... 命令類虛主詞子句，省略 should 用原形 be。"
+        }
+      ]
+    }
+  }
+}

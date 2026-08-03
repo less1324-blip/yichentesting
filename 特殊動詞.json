@@ -3,132 +3,616 @@
     "special_verbs": {
       "1": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Concept Check</span></div><div class='font-bold text-lg'>下列哪一個動詞不屬於「感官動詞」？</div>",
-          "options": ["see", "make", "hear", "feel"],
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I watched the cat ____ across the roof this morning. (我看到牠走完整個過程)</div>",
+          "options": ["jump", "to jump", "jumping", "jumped"],
+          "answer": "A",
+          "explanation": "解答：(A) jump\n解析：感官動詞 watch 後面接原形動詞表示看到動作的「全過程」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I caught him ____ through my private documents.</div>",
+          "options": ["look", "looking", "to look", "looked"],
           "answer": "B",
-          "explanation": "解答：(B) make\n解析：make 是「使役動詞」，其餘 see, hear, feel 皆為感官動詞。"
+          "explanation": "解答：(B) looking\n解析：catch + O + V-ing 表示「撞見某人正在做某事」。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic B</span></div><div class='font-bold text-lg'>I saw him ____ (cross / crossing) the street when I was driving to work. (只看到他走過馬路的一個片段)</div>",
-          "options": ["cross", "crossing"],
-          "answer": "crossing",
-          "explanation": "解答：crossing\n解析：捕捉到動作進行中的片段，需使用 V-ing。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Did you hear the alarm ____ in the middle of the night?</div>",
+          "options": ["ring", "to ring", "rang", "rung"],
+          "answer": "A",
+          "explanation": "解答：(A) ring\n解析：hear + O + 原形動詞表示聽見動作的發生。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic A</span></div><div class='font-bold text-lg'>I saw him ____ (cross / crossing) the street; he walked from one side to the other. (看到了完整的過馬路過程)</div>",
-          "options": ["cross", "crossing"],
-          "answer": "cross",
-          "explanation": "解答：cross\n解析：捕捉到動作的全過程，需使用原形動詞。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>I heard my name ____ by the teacher during the class.</div>",
+          "options": ["call", "calling", "called", "to call"],
+          "answer": "C",
+          "explanation": "解答：(C) called\n解析：名字與呼喊是被動關係，故用 P.P. (called)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic C</span></div><div class='font-bold text-lg'>I heard my name ____ (call / calling / called) by someone in the distance.</div>",
-          "options": ["call", "calling", "called"],
-          "answer": "called",
-          "explanation": "解答：called\n解析：受詞 my name 與動作 call 為被動關係，故使用 P.P. (called)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>When I entered the room, I felt the house ____ by the earthquake.</div>",
+          "options": ["shake", "shaking", "shaken", "to shake"],
+          "answer": "C",
+          "explanation": "解答：(C) shaken\n解析：房子是被搖晃的，呈現被動關係，故用 P.P. (shaken)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic A</span></div><div class='font-bold text-lg'>I watched the thief ____ (run / running / run) away after he stole the bag. (完整的動作)</div>",
-          "options": ["run", "running"],
-          "answer": "run",
-          "explanation": "解答：run\n解析：捕捉完整的動作事實，使用原形動詞。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>主動：We saw him enter the building. 被動：He was seen ____ the building.</div>",
+          "options": ["enter", "entering", "to enter", "entered"],
+          "answer": "C",
+          "explanation": "解答：(C) to enter\n解析：感官動詞變為被動語態時，必須把原先省略的 to 還原。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Logic B</span></div><div class='font-bold text-lg'>Can you smell something ____ (burn / burning)?</div>",
-          "options": ["burn", "burning"],
-          "answer": "burning",
-          "explanation": "解答：burning\n解析：捕捉到動作進行中的狀態，使用 V-ing。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>主動：The boss noticed the employee leave early. 被動：The employee was noticed ____ early.</div>",
+          "options": ["leave", "leaving", "to leave", "left"],
+          "answer": "C",
+          "explanation": "解答：(C) to leave\n解析：同上，被動語態需還原 to。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>The teacher noticed the student to sleep during the lecture.</div>",
-          "options": ["Correction"],
-          "answer": "sleeping",
-          "explanation": "解答：Error: to sleep / Correction: sleeping\n解析：感官動詞後接 V-ing，不需 to。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>主動：They observed the suspect running away. 被動：The suspect was observed ____ away.</div>",
+          "options": ["run", "running", "to run", "to running"],
+          "answer": "B",
+          "explanation": "解答：(B) running\n解析：感官動詞後若接 V-ing，變為被動語態時直接保留 V-ing，不需要加 to。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>I felt the house to shake during the earthquake.</div>",
-          "options": ["Correction"],
-          "answer": "shake",
-          "explanation": "解答：Error: to shake / Correction: shake\n解析：感官動詞後接原形動詞，不需 to。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["He was heard sing a song.", "He was heard to sing a song.", "He was heard singing a song.", "Both (B) and (C) are correct."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：被動還原後可接 to V (由原形還原) 或保留 V-ing。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Pitfalls</span></div><div class='font-bold text-lg'>I heard the song sing in English by the singer.</div>",
-          "options": ["Correction"],
-          "answer": "sung",
-          "explanation": "解答：Error: sing / Correction: sung\n解析：歌是被唱的（被動），需用 P.P. (sung)。"
-        },
-        {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我看見他在雨中奔跑。(強調他正在奔跑的狀態)</div>",
-          "options": ["Translation"],
-          "answer": "I saw him running in the rain.",
-          "explanation": "解答：I saw him running in the rain.\n解析：強調進行中的動作使用 V-ing。"
-        },
-        {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我聽到這扇窗戶被打破了。(強調窗戶與動作是被動關係)</div>",
-          "options": ["Translation"],
-          "answer": "I heard the window broken.",
-          "explanation": "解答：I heard the window broken.\n解析：窗戶是被打破的，需用 P.P. (broken)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 1 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>I saw the thief ____ by the police.</div>",
+          "options": ["catch", "catching", "caught", "to catch"],
+          "answer": "C",
+          "explanation": "解答：(C) caught\n解析：小偷是被警察抓的，需用被動語態 (P.P. caught)。"
         }
       ],
       "2": [
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1: Power Scale</span></div><div class='font-bold text-lg'>請根據「強制力」由強到弱，將下列使役動詞排序 (1 最強，4 最弱)。(Make, Let, Have, Get)</div>",
-          "options": ["Make", "Have", "Get", "Let"],
-          "answer": "Make: 1, Have: 2, Get: 3, Let: 4",
-          "explanation": "解答：(1) Make (強制) > (2) Have (職責/委託) > (3) Get (說服) > (4) Let (許可)\n解析：依據語氣強度排序，Make 強制力最大，Let 則是給予許可。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The boss made me ____ the project all over again.</div>",
+          "options": ["rewrite", "to rewrite", "rewriting", "rewritten"],
+          "answer": "A",
+          "explanation": "解答：(A) rewrite\n解析：使役動詞 make 後接原形動詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>My boss made me ____ overtime last night.</div>",
-          "options": ["work", "to work", "working"],
-          "answer": "work",
-          "explanation": "解答：work\n解析：使役動詞 make 後接原形動詞。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I had my assistant ____ the documents to the client.</div>",
+          "options": ["send", "to send", "sending", "sent"],
+          "answer": "A",
+          "explanation": "解答：(A) send\n解析：使役動詞 have 後接原形動詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>The manager had the assistant ____ the report.</div>",
-          "options": ["type", "to type", "typed"],
-          "answer": "type",
-          "explanation": "解答：type\n解析：使役動詞 have 後接原形動詞。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She couldn't get her children ____ their vegetables.</div>",
+          "options": ["eat", "to eat", "eating", "eaten"],
+          "answer": "B",
+          "explanation": "解答：(B) to eat\n解析：使役動詞 get 後接不定詞 (to V)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>I couldn't get my brother ____ me with the laundry.</div>",
-          "options": ["help", "to help", "helped"],
-          "answer": "to help",
-          "explanation": "解答：to help\n解析：使役動詞 get 後接不定詞 (to V)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My parents let me ____ the party last night.</div>",
+          "options": ["attend", "to attend", "attending", "attended"],
+          "answer": "A",
+          "explanation": "解答：(A) attend\n解析：使役動詞 let 後接原形動詞。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2: Structure</span></div><div class='font-bold text-lg'>Please let me ____ if you have any questions.</div>",
-          "options": ["know", "to know", "knowing"],
-          "answer": "know",
-          "explanation": "解答：know\n解析：使役動詞 let 後接原形動詞。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>I need to have my broken watch ____ as soon as possible.</div>",
+          "options": ["repair", "to repair", "repairing", "repaired"],
+          "answer": "D",
+          "explanation": "解答：(D) repaired\n解析：手錶是被修的，受詞與動作呈被動關係，用 P.P. (repaired)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>I had my hair ____ yesterday.</div>",
-          "options": ["cut", "cutting", "to cut"],
-          "answer": "cut",
-          "explanation": "解答：cut\n解析：頭髮是被剪的，使用 P.P. (cut 的三態皆為 cut)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>The company got the new system ____ before the deadline.</div>",
+          "options": ["install", "to install", "installed", "installing"],
+          "answer": "C",
+          "explanation": "解答：(C) installed\n解析：系統是被安裝的，用 P.P. (installed)。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>I need to get my computer ____ as soon as possible.</div>",
-          "options": ["fix", "to fix", "fixed"],
-          "answer": "fixed",
-          "explanation": "解答：fixed\n解析：電腦是被修理的，使用 P.P. (fixed)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>主動：The teacher made the students study hard. 被動：The students were made ____ hard.</div>",
+          "options": ["study", "to study", "studying", "studied"],
+          "answer": "B",
+          "explanation": "解答：(B) to study\n解析：make 變被動時，須還原 to。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3: Passive Trap</span></div><div class='font-bold text-lg'>He made his voice ____ by speaking loudly.</div>",
-          "options": ["hear", "heard"],
-          "answer": "heard",
-          "explanation": "解答：heard\n解析：聲音是被聽見的，使用 P.P. (heard)。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>主動：They got him to clean the room. 被動：He was got ____ the room.</div>",
+          "options": ["clean", "to clean", "cleaning", "cleaned"],
+          "answer": "B",
+          "explanation": "解答：(B) to clean\n解析：get 的主動結構即為 to V，被動時保留 to V。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>老師叫我們把作業寫完。(強調權威與要求)</div>",
-          "options": ["翻譯"],
-          "answer": "The teacher made us finish our homework.",
-          "explanation": "解答：The teacher made us finish our homework.\n解析：make 強調強制力與權威要求。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["My mom made me finish my homework.", "My mom had me finish my homework.", "My mom got me to finish my homework.", "My mom let me to finish my homework."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：let 後接原形動詞，不加 to。"
         },
         {
-          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4: Translation</span></div><div class='font-bold text-lg'>我會請人幫忙修理那台印表機。(強調委託，可用 have)</div>",
-          "options": ["翻譯"],
-          "answer": "I will have someone fix the printer.",
-          "explanation": "解答：I will have someone fix the printer.\n解析：have 用於委託他人執行職責。"
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 2 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>I made the letter ____ by my secretary.</div>",
+          "options": ["write", "to write", "writing", "written"],
+          "answer": "D",
+          "explanation": "解答：(D) written\n解析：信是被寫的，用 P.P. (written)。"
+        }
+      ],
+      "3": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My father bought ____ last week.</div>",
+          "options": ["for me a new watch", "a new watch for me", "a new watch to me", "me a new watch for"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：buy 為「為某人服務」，SVO+prep 結構為 S+V+O+for+sb。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The teacher explained the difficult concept ____.</div>",
+          "options": ["us", "to us", "for us", "the us"],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：explain 不能接雙受詞，須搭配介系詞 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>He gave me a bonus. (以 I 為主詞的被動語態)</div>",
+          "options": ["I was given a bonus by him.", "I was given to a bonus by him.", "I was given for a bonus by him.", "I gave a bonus by him."],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：give 為授與動詞，人作主詞時，動詞後直接接第二受詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>He gave me a bonus. (以 A bonus 為主詞的被動語態)</div>",
+          "options": ["A bonus was given me by him.", "A bonus was given for me by him.", "A bonus was given to me by him.", "A bonus was given by him me."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：物作主詞時，須補上介系詞 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>My mother cooked me a delicious meal. (以 A delicious meal 為主詞)</div>",
+          "options": ["A delicious meal was cooked me by my mother.", "A delicious meal was cooked to me by my mother.", "A delicious meal was cooked by me for my mother.", "A delicious meal was cooked for me by my mother."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：cook 為「為某人服務」，物作主詞時須補上 for。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>Which sentence is grammatically correct?</div>",
+          "options": ["She suggested me a good idea.", "She suggested a good idea to me.", "She suggested to me a good idea.", "She suggested a good idea for me."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：suggest 不可接雙受詞，須用 SVO + to + sb。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>The company donated ____ to the local charity.</div>",
+          "options": ["the local charity a lot of money", "a lot of money the local charity", "a lot of money to the local charity", "to the local charity a lot of money"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：donate 不可接雙受詞，固定搭配 donate sth. to sb. 結構。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>Can you ____ the rules to the new employees?</div>",
+          "options": ["explain", "suggest", "introduce", "以上皆可"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：explain, suggest, introduce 皆屬於不可直接接雙受詞的動詞，皆需搭配介系詞 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which of the following is INCORRECT?</div>",
+          "options": ["He sent a letter to his friend.", "He sent his friend a letter.", "He sent to his friend a letter.", "His friend was sent a letter by him."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：SVOO 轉為 SVO+prep 時，介系詞應放在受詞之後 (send a letter to his friend)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 3 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>The manager ____ at the last minute to save the project.</div>",
+          "options": ["offered him help", "offered help to him", "both A and B are correct", "both A and B are incorrect"],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：offer 可作授與動詞，SVOO (A) 與 SVO+to (B) 皆為正確用法。"
+        }
+      ],
+      "4": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The soup tastes ____, so I want to have another bowl.</div>",
+          "options": ["delicious", "deliciously", "more deliciously", "deliciousness"],
+          "answer": "A",
+          "explanation": "解答：(A) delicious\n解析：taste 為連綴動詞，後接形容詞作主詞補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The chef tasted the soup ____ to see if it needed more salt.</div>",
+          "options": ["careful", "carefully", "care", "caring"],
+          "answer": "B",
+          "explanation": "解答：(B) carefully\n解析：此處 taste 指「品嚐」動作，需用副詞修飾動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She looks ____, but she is actually feeling very nervous.</div>",
+          "options": ["calm", "calmly", "calmness", "more calmly"],
+          "answer": "A",
+          "explanation": "解答：(A) calm\n解析：look 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She looked ____ at the map to find the way to the station.</div>",
+          "options": ["angry", "angrily", "anger", "angrier"],
+          "answer": "B",
+          "explanation": "解答：(B) angrily\n解析：此處 looked 指「看」的動作，須用副詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The new plan seems ____ to me, so let's give it a try.</div>",
+          "options": ["reasonable", "reasonably", "reason", "more reasonably"],
+          "answer": "A",
+          "explanation": "解答：(A) reasonable\n解析：seem 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He remained ____ during the whole meeting, even when people disagreed with him.</div>",
+          "options": ["silent", "silently", "silence", "in silence"],
+          "answer": "A",
+          "explanation": "解答：(A) silent\n解析：remain 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The heavy rain sounds ____, so I don't want to go out tonight.</div>",
+          "options": ["terrible", "terribly", "terrifically", "in terror"],
+          "answer": "A",
+          "explanation": "解答：(A) terrible\n解析：sound 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The young man appeared ____ when he heard the good news about his promotion.</div>",
+          "options": ["excited", "excitedly", "excitement", "excitingly"],
+          "answer": "A",
+          "explanation": "解答：(A) excited\n解析：appear 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The flowers in the garden smell ____, attracting many bees and butterflies.</div>",
+          "options": ["sweet", "sweetly", "sweetness", "more sweetly"],
+          "answer": "A",
+          "explanation": "解答：(A) sweet\n解析：smell 為連綴動詞，後接形容詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 4 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The milk went bad after three days.", "He became a famous doctor.", "They grow old together.", "He runs quickly to catch the bus."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：A, B, C 皆為連綴動詞句型 (SVC)，(D) 為一般動詞 + 副詞修飾 (SVO)，非連綴動詞結構。"
+        }
+      ],
+      "5": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The boss insisted that she ____ on time for the meeting.</div>",
+          "options": ["arrive", "arrives", "arrived", "will arrive"],
+          "answer": "A",
+          "explanation": "解答：(A) arrive\n解析：insist 後接 that 子句，動詞需使用原型 (Should + V，Should 可省略)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>It is essential that every student ____ a mask in the classroom.</div>",
+          "options": ["wear", "wears", "wearing", "to wear"],
+          "answer": "A",
+          "explanation": "解答：(A) wear\n解析：essential (必要的) 為情緒/建議類形容詞，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My doctor recommended that I ____ so hard in the gym.</div>",
+          "options": ["not train", "don't train", "didn't train", "not to train"],
+          "answer": "A",
+          "explanation": "解答：(A) not train\n解析：recommend 為建議類動詞，否定用法為 should not V，省略 should 後為 not V。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The committee proposed that the plan ____ until next month.</div>",
+          "options": ["is delayed", "be delayed", "was delayed", "delays"],
+          "answer": "B",
+          "explanation": "解答：(B) be delayed\n解析：propose 為建議類動詞，且為被動語態 (be + P.P.)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>She demanded that he ____ the money back immediately.</div>",
+          "options": ["pays", "paid", "pay", "will pay"],
+          "answer": "C",
+          "explanation": "解答：(C) pay\n解析：demand 為強制類動詞，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The professor required that all the students ____ the essay by Friday.</div>",
+          "options": ["submit", "submits", "submitted", "to submit"],
+          "answer": "A",
+          "explanation": "解答：(A) submit\n解析：require 為強烈要求類動詞，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>It is important that you ____ of this opportunity.</div>",
+          "options": ["make the most", "makes the most", "made the most", "making the most"],
+          "answer": "A",
+          "explanation": "解答：(A) make the most\n解析：important 為形容詞表達重要性，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The manager suggested that the new policy ____ right away.</div>",
+          "options": ["is implemented", "be implemented", "was implemented", "implements"],
+          "answer": "B",
+          "explanation": "解答：(B) be implemented\n解析：suggest 為建議動詞，被動語態為 be + P.P."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>My father advises that I ____ my career path carefully.</div>",
+          "options": ["consider", "considers", "considered", "to consider"],
+          "answer": "A",
+          "explanation": "解答：(A) consider\n解析：advise 為建議類動詞，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 5 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["The leader suggested that we start early.", "It is vital that he be informed.", "They insisted that he tells the truth.", "I requested that she be present at the party."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：insist 需接原型動詞，tells 應改為 tell。"
+        }
+      ],
+      "6": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The students enjoyed ____ the new scientific experiment in class.</div>",
+          "options": ["to do", "doing", "to be done", "do"],
+          "answer": "B",
+          "explanation": "解答：(B) doing\n解析：enjoy 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>I have finished ____ the report, so I can go home now.</div>",
+          "options": ["write", "to write", "writing", "being written"],
+          "answer": "C",
+          "explanation": "解答：(C) writing\n解析：finish 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>Would you mind ____ the door? It's a bit cold in here.</div>",
+          "options": ["close", "to close", "closing", "being closed"],
+          "answer": "C",
+          "explanation": "解答：(C) closing\n解析：mind 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He avoided ____ the question when the reporter asked him about the scandal.</div>",
+          "options": ["answer", "to answer", "answering", "answered"],
+          "answer": "C",
+          "explanation": "解答：(C) answering\n解析：avoid 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>You should practice ____ English every day if you want to improve.</div>",
+          "options": ["speak", "to speak", "speaking", "spoken"],
+          "answer": "C",
+          "explanation": "解答：(C) speaking\n解析：practice 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>He denied ____ the money from the cash register.</div>",
+          "options": ["steal", "to steal", "stealing", "stolen"],
+          "answer": "C",
+          "explanation": "解答：(C) stealing\n解析：deny 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>She suggested ____ a meeting to discuss the new project.</div>",
+          "options": ["hold", "to hold", "holding", "held"],
+          "answer": "C",
+          "explanation": "解答：(C) holding\n解析：suggest 為 V-ing 專屬動詞，後接動名詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>He enjoys ____ by others.</div>",
+          "options": ["praise", "to praise", "being praised", "been praised"],
+          "answer": "C",
+          "explanation": "解答：(C) being praised\n解析：enjoy 的被動語態為 being + P.P."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>She avoids ____ by others.</div>",
+          "options": ["criticize", "to criticize", "being criticized", "been criticized"],
+          "answer": "C",
+          "explanation": "解答：(C) being criticized\n解析：avoid 的被動語態為 being + P.P."
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 6 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I keep hearing that strange noise in the basement.", "She considered to move to a new apartment.", "He quit smoking last year for his health.", "We appreciate having you as our guest."],
+          "answer": "B",
+          "explanation": "解答：(B) She considered to move to a new apartment.\n解析：consider 為 V-ing 專屬動詞，應改為 considering moving。"
+        }
+      ],
+      "7": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>He was tired, so he stopped ____ a break.</div>",
+          "options": ["take", "to take", "taking", "taken"],
+          "answer": "B",
+          "explanation": "解答：(B) to take\n解析：stop to V 表示「停下來去做另一件事（目的）」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The doctor told the patient to stop ____ because it's bad for his lungs.</div>",
+          "options": ["smoke", "to smoke", "smoking", "smoked"],
+          "answer": "C",
+          "explanation": "解答：(C) smoking\n解析：stop V-ing 表示「停止正在進行的動作」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>Do you remember ____ me at the party last year?</div>",
+          "options": ["see", "to see", "seeing", "seen"],
+          "answer": "C",
+          "explanation": "解答：(C) seeing\n解析：remember V-ing 表示「記得過去曾經做過某事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>Please remember ____ the lights before you leave the office.</div>",
+          "options": ["turn off", "to turn off", "turning off", "turned off"],
+          "answer": "B",
+          "explanation": "解答：(B) to turn off\n解析：remember to V 表示「記得要去執行某個任務」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>I’ll never forget ____ my first car; it was such an exciting day.</div>",
+          "options": ["buy", "to buy", "buying", "bought"],
+          "answer": "C",
+          "explanation": "解答：(C) buying\n解析：forget V-ing 表示「忘記過去曾經做過某事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>Oh no! I forgot ____ the door when I left home this morning.</div>",
+          "options": ["lock", "to lock", "locking", "locked"],
+          "answer": "B",
+          "explanation": "解答：(B) to lock\n解析：forget to V 表示「忘記（該做而未做）某事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>If you want to lose weight, try ____ some exercise every day.</div>",
+          "options": ["do", "to do", "doing", "done"],
+          "answer": "C",
+          "explanation": "解答：(C) doing\n解析：try V-ing 表示「試著做做看（實驗性做法）」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>The student tried ____ the exam, but it was too difficult.</div>",
+          "options": ["pass", "to pass", "passing", "passed"],
+          "answer": "B",
+          "explanation": "解答：(B) to pass\n解析：try to V 表示「努力嘗試去做某件困難的事」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>I regret ____ that to you; I didn't mean to hurt your feelings.</div>",
+          "options": ["say", "to say", "saying", "said"],
+          "answer": "C",
+          "explanation": "解答：(C) saying\n解析：regret V-ing 表示「對過去所做過的事感到後悔」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 7 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which sentence is grammatically CORRECT?</div>",
+          "options": ["I regret to tell you...", "I regret telling you...", "Both (A) and (B) are correct.", "Both (A) and (B) are incorrect."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：regret to V (對即將告知的壞消息感到抱歉) 與 regret V-ing (對過去所為感到後悔) 兩者皆為正確句型。"
+        }
+      ],
+      "8": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>You ____ bring an umbrella; it's going to rain later.</div>",
+          "options": ["must", "should", "don't have to", "couldn't"],
+          "answer": "A",
+          "explanation": "解答：(A) must\n解析：表示強烈的建議或必要性（因為即將下雨）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>You ____ touch the exhibit; it is strictly prohibited.</div>",
+          "options": ["mustn't", "don't have to", "needn't", "shouldn't"],
+          "answer": "A",
+          "explanation": "解答：(A) mustn't\n解析：mustn't 表示禁止。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>We ____ pay for the tickets because they were free.</div>",
+          "options": ["mustn't", "shouldn't", "didn't have to", "couldn't"],
+          "answer": "C",
+          "explanation": "解答：(C) didn't have to\n解析：表示過去沒有必要做某事。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>Look at that fancy car! Its owner ____ very rich.</div>",
+          "options": ["must be", "should be", "can be", "had better be"],
+          "answer": "A",
+          "explanation": "解答：(A) must be\n解析：must be 表示強烈的推測（肯定狀態）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>It ____ be true; I saw it with my own eyes.</div>",
+          "options": ["must", "can", "might", "should"],
+          "answer": "A",
+          "explanation": "解答：(A) must\n解析：must 表示說話者極有把握的推測。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>He didn't come to the party. He ____ forgotten about it.</div>",
+          "options": ["must have", "must be", "should have", "can have"],
+          "answer": "A",
+          "explanation": "解答：(A) must have\n解析：must have + P.P. 表示對過去事件的肯定推測。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>It ____ been John who called you; he was in Japan at that time.</div>",
+          "options": ["must have", "could have", "cannot have", "should have"],
+          "answer": "C",
+          "explanation": "解答：(C) cannot have\n解析：cannot have + P.P. 表示對過去事件的否定推測。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>I ____ harder for the exam; now I realize my mistakes.</div>",
+          "options": ["should study", "should have studied", "must have studied", "could study"],
+          "answer": "B",
+          "explanation": "解答：(B) should have studied\n解析：should have + P.P. 表示對過去沒做到某事感到後悔。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 8 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>You ____ so late last night; you look exhausted now.</div>",
+          "options": ["shouldn't stay up", "mustn't have stayed up", "shouldn't have stayed up", "don't have to stay up"],
+          "answer": "C",
+          "explanation": "解答：(C) shouldn't have stayed up\n解析：shouldn't have + P.P. 表示不應該做某事（但過去卻做了）。"
+        }
+      ],
+      "9": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>The room is too hot. Please ____.</div>",
+          "options": ["turn off it", "turn it off", "turn off", "it turn off"],
+          "answer": "B",
+          "explanation": "解答：(B) turn it off\n解析：動詞片語若受詞為代名詞，必須放在中間。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>You should ____ before you sign the contract.</div>",
+          "options": ["read it over", "read over it", "read over", "it read over"],
+          "answer": "A",
+          "explanation": "解答：(A) read it over\n解析：動詞片語 read over 的代名詞受詞需置於中間。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>The baseball game was ____ because of the heavy rain.</div>",
+          "options": ["called off", "looked for", "turned out", "kept up"],
+          "answer": "A",
+          "explanation": "解答：(A) called off\n解析：call off 意為「取消」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>I didn't mean to ignore you; I just ____ you in the crowd.</div>",
+          "options": ["ran into", "missed out", "made up", "took after"],
+          "answer": "A",
+          "explanation": "解答：(A) ran into\n解析：run into 意為「偶然遇見」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 2</span></div><div class='font-bold text-lg'>I look forward to ____ you at the conference next week.</div>",
+          "options": ["see", "seeing", "saw", "be seen"],
+          "answer": "B",
+          "explanation": "解答：(B) seeing\n解析：look forward to 中的 to 是介系詞，後接 V-ing。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>He finally gave up ____ after failing the exam three times.</div>",
+          "options": ["try", "to try", "trying", "tried"],
+          "answer": "C",
+          "explanation": "解答：(C) trying\n解析：give up 為 V-ing 專屬動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 3</span></div><div class='font-bold text-lg'>You should carry on ____ even if the situation gets difficult.</div>",
+          "options": ["work", "to work", "working", "worked"],
+          "answer": "C",
+          "explanation": "解答：(C) working\n解析：carry on 後接 V-ing，意為「繼續」。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Which sentence is grammatically INCORRECT?</div>",
+          "options": ["I ran into an old friend yesterday.", "We brought up the issue during the meeting.", "The company is looking for it a new manager.", "She takes after her mother."],
+          "answer": "C",
+          "explanation": "解答：(C)\n解析：look for 為及物動詞片語，it 應置於片語之後 (looking for a new manager)。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>Since I’m busy, could you ____ the files for me?</div>",
+          "options": ["look over", "look over them", "look them over", "Both (B) and (C) are correct."],
+          "answer": "C",
+          "explanation": "解答：(C) look them over\n解析：look over 若帶有代名詞受詞，代名詞必須置於中間。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 9 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 4</span></div><div class='font-bold text-lg'>The plan didn't work out as we expected, so we had to ____.</div>",
+          "options": ["start over", "start it over", "start over it", "start over them"],
+          "answer": "A",
+          "explanation": "解答：(A) start over\n解析：start over 為不及物動詞片語，後方無需受詞。"
+        }
+      ],
+      "10": [
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(感官 + 被動) The suspect was seen ____ the store before the robbery.</div>",
+          "options": ["enter", "to enter", "entering", "(B) and (C) are both correct"],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：感官動詞變為被動時，原形動詞還原為 to V，而 V-ing 則直接保留。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(使役 + 語感) My parents let me ____ to the party, but they made me ____ by 10 p.m.</div>",
+          "options": ["go; return", "to go; return", "go; to return", "to go; to return"],
+          "answer": "A",
+          "explanation": "解答：(A)\n解析：let 和 make 後皆接原形動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(授與 + 陷阱) Which sentence is grammatically CORRECT?</div>",
+          "options": ["The professor explained us the theory.", "The professor explained the theory to us.", "The professor suggested us a new method.", "The professor suggested us to try a new method."],
+          "answer": "B",
+          "explanation": "解答：(B)\n解析：explain 和 suggest 皆不可接雙受詞，須搭配介系詞 to。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(連綴動詞) The perfume smells ____, so don't spray too much.</div>",
+          "options": ["strongly", "strong", "strength", "more strongly"],
+          "answer": "B",
+          "explanation": "解答：(B) strong\n解析：smell 為連綴動詞，後接形容詞作補語。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(意志/建議動詞) It is important that every employee ____ the meeting on time.</div>",
+          "options": ["attends", "attended", "attend", "to attend"],
+          "answer": "C",
+          "explanation": "解答：(C) attend\n解析：important 為建議/重要性形容詞，that 子句動詞用原型。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(V-ing vs To V 專屬) He finally quit ____ because it was affecting his health.</div>",
+          "options": ["smoke", "to smoke", "smoking", "smoked"],
+          "answer": "C",
+          "explanation": "解答：(C) smoking\n解析：quit 為 V-ing 專屬動詞。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(語意轉換動詞) I regret ____ you that I cannot attend your wedding; I have a business trip.</div>",
+          "options": ["tell", "telling", "to tell", "told"],
+          "answer": "C",
+          "explanation": "解答：(C) to tell\n解析：regret to V 表示「遺憾地告知（壞消息）。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(情態助動詞 + 推測) She wasn't at the meeting this morning. She ____ forgotten about it.</div>",
+          "options": ["must have", "must be", "should have", "can have"],
+          "answer": "A",
+          "explanation": "解答：(A) must have\n解析：must have + P.P. 表示對過去事件的肯定推測。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(片語動詞 + 代名詞) I found this old photo yesterday. I’ll ____.</div>",
+          "options": ["hang it up", "hang up it", "hang up", "it hang up"],
+          "answer": "A",
+          "explanation": "解答：(A) hang it up\n解析：動詞片語若受詞為代名詞，必須放在中間。"
+        },
+        {
+          "question": "<div class='flex gap-2 mb-3'><span class='bg-blue-600 text-white px-2 py-0.5 rounded text-[10px] font-bold'>第 10 回</span><span class='bg-orange-500 text-white px-2 py-0.5 rounded text-[10px] font-bold'>Part 1</span></div><div class='font-bold text-lg'>(綜合偵錯) Which sentence is grammatically INCORRECT?</div>",
+          "options": ["He was made to clean the room.", "She was heard singing in the shower.", "I had my car fixed yesterday.", "I suggest him to buy a new computer."],
+          "answer": "D",
+          "explanation": "解答：(D)\n解析：suggest 不可接雙受詞，應改為 suggest that he buy..."
         }
       ]
     }
